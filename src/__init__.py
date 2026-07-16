@@ -1,5 +1,3 @@
-"""Prospector - AI-powered lead generation system."""
+"""Prospector - Location Intelligence Reports."""
 
-from src.main import run
-
-__all__ = ["run"]
+__all__ = []
