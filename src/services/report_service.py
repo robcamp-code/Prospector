@@ -6,7 +6,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from sqlalchemy.orm import Session
 
-from src.agents.profile_agent import ProfileAgent
+from src.agents.user_persona import UserPersonaAgent
 from src.models.profiles import ClientProfile
 from src.models.reports import Report
 from src.services.places_service import PlacesService
@@ -24,7 +24,7 @@ class ReportService:
         self.db = db
         self.zip_service = ZipService(db)
         self.places_service = PlacesService(db)
-        self.profile_agent = ProfileAgent()
+        self.user_persona_agent = UserPersonaAgent()
         self.jinja_env = Environment(
             loader=FileSystemLoader(TEMPLATE_DIR),
             autoescape=True,
@@ -63,9 +63,10 @@ class ReportService:
         # Get competitor types if service description provided
         competitor_types = []
         if profile.service_description:
-            competitor_types = self.profile_agent.get_competitor_types(
+            place_types = self.user_persona_agent.get_place_types_sync(
                 profile.service_description
             )
+            competitor_types = place_types.competitor_types
 
         # Render template
         template = self.jinja_env.get_template("site_selection.html")
@@ -140,7 +141,7 @@ class ReportService:
         competitors = []
         complementary = []
         if profile and profile.service_description:
-            place_types = self.profile_agent.get_place_types(
+            place_types = self.user_persona_agent.get_place_types_sync(
                 profile.service_description
             )
             competitors = self.places_service.get_competitors(

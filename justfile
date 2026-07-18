@@ -56,3 +56,23 @@ lint:
 # Format code with ruff
 fmt:
     ruff format src/ tests/
+
+# Run User Persona Agent on eval query
+user-persona:
+    python scripts/run_user_persona.py
+
+# Run User Persona Agent with a custom query
+user-persona-query query:
+    echo "{{query}}" | python -c "import asyncio; from src.agents.user_persona import UserPersonaAgent; agent = UserPersonaAgent(); print(asyncio.run(agent.run(input().strip())))"
+
+# Run Orchestrator Agent (fresh conversation)
+orchestrator:
+    python scripts/run_orchestrator.py
+
+# Continue Orchestrator conversation with existing chat ID
+orchestrator-continue chat_id:
+    python scripts/run_orchestrator.py {{chat_id}}
+
+# Run Orchestrator with a custom query
+orchestrator-query query:
+    python scripts/run_orchestrator.py -q "{{query}}"

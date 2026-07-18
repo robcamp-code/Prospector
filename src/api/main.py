@@ -3,7 +3,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src.api.routes import profiles_router, reports_router, zips_router
+from src.api.routes import orchestrator_router, profiles_router, reports_router, zips_router
 
 app = FastAPI(
     title="Prospector",
@@ -21,6 +21,7 @@ app.add_middleware(
 )
 
 # Include routers
+app.include_router(orchestrator_router, prefix="/api")
 app.include_router(profiles_router, prefix="/api")
 app.include_router(reports_router, prefix="/api")
 app.include_router(zips_router, prefix="/api")
