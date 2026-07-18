@@ -1,12 +1,15 @@
 """ClientProfile model for customer targeting profiles."""
 
 from datetime import datetime
-from typing import List, Optional
+from typing import List, Optional, Literal
 
 from sqlalchemy import Column, String, func
 from sqlalchemy.dialects.postgresql import ARRAY
 from sqlmodel import Field, Relationship, SQLModel
 
+
+constraint = Literal["range", "threshold_min", "threshold_max", "percentage"]
+operator = Literal["gt", "lt", "gte", "lte", "eq"]
 
 class DemographicTarget(SQLModel, table=True):
     """Target demographic criteria for a client profile.
@@ -23,11 +26,10 @@ class DemographicTarget(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     client_profile_id: int = Field(foreign_key="client_profiles.id", index=True)
 
-    # Target criteria
     demographic_key: str = Field(max_length=50)  # e.g., "income", "age", "home_ownership"
 
-    # Constraint type: "range" | "threshold_min" | "threshold_max" | "percentage"
-    constraint_type: str = Field(max_length=20, default="range")
+    # Constraint type: 
+    constraint_type: constraint = Field(max_length=20, default="range")
 
     # Range-based: target income between $50K-$100K
     min_value: Optional[float] = Field(default=None)
@@ -35,9 +37,9 @@ class DemographicTarget(SQLModel, table=True):
 
     # Percentage-based: target areas with >70% homeownership
     target_percentage: Optional[float] = Field(default=None)
-    percentage_operator: Optional[str] = Field(
+    percentage_operator: Optional[operator] = Field(
         default=None, max_length=5
-    )  # "gt", "lt", "gte", "lte", "eq"
+    )  
 
     # Weight for scoring (0-1)
     importance_weight: float = Field(default=0.5, ge=0, le=1)

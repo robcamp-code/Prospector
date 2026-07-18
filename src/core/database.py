@@ -11,9 +11,8 @@ from src.core.config import get_settings
 settings = get_settings()
 async_engine = create_async_engine(settings.async_database_url, echo=settings.debug)
 
-# Module-level singleton holder for checkpointer
 _checkpointer: AsyncPostgresSaver | None = None
-_checkpointer_cm = None  # Context manager reference
+_checkpointer_cm = None 
 
 
 async def get_db() -> AsyncGenerator[AsyncSession, None]:
