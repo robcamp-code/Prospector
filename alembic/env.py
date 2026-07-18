@@ -6,14 +6,12 @@ from logging.config import fileConfig
 from alembic import context
 from dotenv import load_dotenv
 from sqlalchemy import engine_from_config, pool
+from sqlmodel import SQLModel
 
 load_dotenv()
 
-# Import Base and all models to ensure they're registered
-from src.models.base import Base
-from src.models.places import Place  # noqa: F401
-from src.models.profiles import ClientProfile  # noqa: F401
-from src.models.reports import Report  # noqa: F401
+# Import all models to ensure they're registered with SQLModel metadata
+from src.models.client_profile import ClientProfile, DemographicTarget  # noqa: F401
 from src.models.uszips import USZip  # noqa: F401
 
 config = context.config
@@ -26,7 +24,8 @@ if database_url:
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-target_metadata = Base.metadata
+# Use SQLModel's metadata
+target_metadata = SQLModel.metadata
 
 
 def run_migrations_offline() -> None:

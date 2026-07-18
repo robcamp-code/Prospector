@@ -4,33 +4,37 @@
 default:
     @just --list
 
+# ============================================================
+# Setup & Dependencies
+# ============================================================
+
 # Install dependencies
 install:
     uv sync
 
-# Run database migrations
-migrate:
-    alembic upgrade head
+# Full setup: install, migrate, load data
+setup: install migrate load-zips
+    @echo "Setup complete! Run 'just dev' to start the server."
 
-# Load ZIP code data from CSV
-load-zips:
-    python scripts/load_uszips.py
+# ============================================================
+# Development Server
+# ============================================================
 
 # Start development server
 dev:
     uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
 
-# Start development server with auto-reload on all files
-dev-watch:
-    uvicorn src.api.main:app --reload --reload-dir src --host 0.0.0.0 --port 8000
+# Open API docs in browser
+docs:
+    open http://localhost:8000/docs
 
-# Run all tests
-test:
-    pytest tests/ -v
+# ============================================================
+# Database
+# ============================================================
 
-# Run tests with coverage
-test-cov:
-    pytest tests/ -v --cov=src --cov-report=term-missing
+# Run database migrations
+migrate:
+    alembic upgrade head
 
 # Create a new migration
 migration name:
@@ -41,13 +45,37 @@ db-reset:
     alembic downgrade base
     alembic upgrade head
 
-# Full setup: install, migrate, load data
-setup: install migrate load-zips
-    @echo "Setup complete! Run 'just dev' to start the server."
+# Load ZIP code data from CSV
+load-zips:
+    python scripts/load_uszips.py
 
-# Open API docs in browser
-docs:
-    open http://localhost:8000/docs
+# ============================================================
+# Chat Agent
+# ============================================================
+
+# Run interactive chat agent
+chat:
+    python scripts/run_chat.py
+
+# Continue existing chat conversation
+chat-continue id:
+    python scripts/run_chat.py {{id}}
+
+# Send a single message to chat agent
+chat-message msg:
+    python scripts/run_chat.py -m "{{msg}}"
+
+# ============================================================
+# Code Quality
+# ============================================================
+
+# Run all tests
+test:
+    pytest tests/ -v
+
+# Run tests with coverage
+test-cov:
+    pytest tests/ -v --cov=src --cov-report=term-missing
 
 # Check code with ruff
 lint:
@@ -56,23 +84,3 @@ lint:
 # Format code with ruff
 fmt:
     ruff format src/ tests/
-
-# Run User Persona Agent on eval query
-user-persona:
-    python scripts/run_user_persona.py
-
-# Run User Persona Agent with a custom query
-user-persona-query query:
-    echo "{{query}}" | python -c "import asyncio; from src.agents.user_persona import UserPersonaAgent; agent = UserPersonaAgent(); print(asyncio.run(agent.run(input().strip())))"
-
-# Run Orchestrator Agent (fresh conversation)
-orchestrator:
-    python scripts/run_orchestrator.py
-
-# Continue Orchestrator conversation with existing chat ID
-orchestrator-continue chat_id:
-    python scripts/run_orchestrator.py {{chat_id}}
-
-# Run Orchestrator with a custom query
-orchestrator-query query:
-    python scripts/run_orchestrator.py -q "{{query}}"

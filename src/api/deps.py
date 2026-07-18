@@ -1,16 +1,5 @@
-"""FastAPI dependencies for dependency injection."""
+"""FastAPI dependencies."""
 
-from collections.abc import Generator
+from src.core.database import get_db
 
-from sqlalchemy.orm import Session
-
-from src.models.base import SessionLocal
-
-
-def get_db() -> Generator[Session, None, None]:
-    """Get database session for request."""
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+__all__ = ["get_db"]

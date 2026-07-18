@@ -1,15 +1,9 @@
-"""Agents for Prospector."""
+"""Multi-agent system package."""
 
-from src.agents.orchestrator import Orchestrator, ProspectorState, create_orchestrator
-from src.agents.sql_analyst import AnalysisResult, RankedLocation, SQLAnalystAgent
-from src.agents.user_persona import UserPersonaAgent
+from src.agents.base import BaseAgent
+from src.agents.chat import ChatAgent
 
 __all__ = [
-    "UserPersonaAgent",
-    "SQLAnalystAgent",
-    "AnalysisResult",
-    "RankedLocation",
-    "Orchestrator",
-    "create_orchestrator",
-    "ProspectorState",
+    "BaseAgent",
+    "ChatAgent",
 ]
