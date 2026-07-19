@@ -77,7 +77,7 @@ We need to add the `region` column to the uszips database and put use the follow
 ```
 
 This SQL Agent needs to generate populate a report
-- Race
+- Race Should add up to 100%
   - race_black
   - race_white
   - race_native
@@ -127,11 +127,13 @@ This SQL Agent needs to generate populate a report
     - education_bachelors
     - education_graduate
   
+- Home Ownership (complete for me)
+
 
 #### other useful stats
 - education_stem_degree
 
-- Home Ownership (complete for me)
+- home ownership
 - rent_burden:	The median rent as a percentage of the median renter's household income
 - disabled: percentage of disabled folks.
 - veteran

@@ -1,15 +1,18 @@
 """ClientProfile model for customer targeting profiles."""
 
 from datetime import datetime
-from typing import List, Optional, Literal
+from typing import List, Optional
+from uuid import uuid4
 
 from sqlalchemy import Column, String, func
 from sqlalchemy.dialects.postgresql import ARRAY
 from sqlmodel import Field, Relationship, SQLModel
 
 
-constraint = Literal["range", "threshold_min", "threshold_max", "percentage"]
-operator = Literal["gt", "lt", "gte", "lte", "eq"]
+DEMOGRAPHIC_KEY_MAPPING = {
+
+}
+
 
 class DemographicTarget(SQLModel, table=True):
     """Target demographic criteria for a client profile.
@@ -24,12 +27,12 @@ class DemographicTarget(SQLModel, table=True):
     __tablename__ = "demographic_targets"
 
     id: Optional[int] = Field(default=None, primary_key=True)
-    client_profile_id: int = Field(foreign_key="client_profiles.id", index=True)
+    client_profile_id: str = Field(foreign_key="client_profiles.id", index=True)
 
     demographic_key: str = Field(max_length=50)  # e.g., "income", "age", "home_ownership"
 
-    # Constraint type: 
-    constraint_type: constraint = Field(max_length=20, default="range")
+    # Constraint type: "range", "threshold_min", "threshold_max"
+    constraint_type: str = Field(default="range", sa_column=Column(String(20)))
 
     # Range-based: target income between $50K-$100K
     min_value: Optional[float] = Field(default=None)
@@ -37,9 +40,9 @@ class DemographicTarget(SQLModel, table=True):
 
     # Percentage-based: target areas with >70% homeownership
     target_percentage: Optional[float] = Field(default=None)
-    percentage_operator: Optional[operator] = Field(
-        default=None, max_length=5
-    )  
+    
+    # Operator: "gt", "lt", "gte", "lte", "eq"
+    percentage_operator: Optional[str] = Field(default=None, sa_column=Column(String(5)))  
 
     # Weight for scoring (0-1)
     importance_weight: float = Field(default=0.5, ge=0, le=1)
@@ -53,10 +56,13 @@ class ClientProfile(SQLModel, table=True):
 
     __tablename__ = "client_profiles"
 
-    id: Optional[int] = Field(default=None, primary_key=True)
+    id: str = Field(default_factory=lambda: str(uuid4()), primary_key=True)
     name: str = Field(max_length=255)
     business_type: Optional[str] = Field(default=None, max_length=100)
     service_description: Optional[str] = Field(default=None)
+
+    # Link to conversation (1-to-1)
+    conversation_id: Optional[str] = Field(default=None, max_length=255, unique=True, index=True)
 
     # Relationship to demographic targets
     target_demographics: List[DemographicTarget] = Relationship(

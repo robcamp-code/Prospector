@@ -1,5 +1,8 @@
 # Prospector Development Recipes
 
+# Set PYTHONPATH for all recipes
+export PYTHONPATH := "."
+
 # Default recipe - show available commands
 default:
     @just --list
@@ -64,6 +67,10 @@ chat-continue id:
 # Send a single message to chat agent
 chat-message msg:
     python scripts/run_chat.py -m "{{msg}}"
+
+# Run the orchestrator agent
+orchestrator:
+    uv run python src/agents/orchestrator/agent.py
 
 # ============================================================
 # Code Quality

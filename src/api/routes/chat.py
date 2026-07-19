@@ -1,11 +1,16 @@
 """Chat API routes for conversation management."""
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from langchain_core.messages import AIMessage, HumanMessage
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlmodel import select
 
-from src.agents.chat import ChatAgent
+from src.agents.orchestrator import Orchestrator
+from src.core.database import get_db
+from src.models.client_profile import ClientProfile
 from src.schemas.chat import (
     ChatResponse,
+    ClientProfileSummary,
     ConversationListItem,
     ConversationResponse,
     MessageResponse,
@@ -14,6 +19,23 @@ from src.schemas.chat import (
 )
 
 router = APIRouter(prefix="/chat", tags=["chat"])
+
+
+async def _get_client_profile_for_conversation(
+    conversation_id: str, session: AsyncSession
+) -> ClientProfileSummary | None:
+    """Fetch the client profile associated with a conversation."""
+    result = await session.execute(
+        select(ClientProfile).where(ClientProfile.conversation_id == conversation_id)
+    )
+    profile = result.scalar_one_or_none()
+    if profile:
+        return ClientProfileSummary(
+            id=profile.id,
+            name=profile.name,
+            business_type=profile.business_type,
+        )
+    return None
 
 
 def _message_to_response(msg) -> MessageResponse:
@@ -51,13 +73,13 @@ async def start_conversation(request: StartConversationRequest) -> ChatResponse:
     Returns:
         ChatResponse with conversation_id and assistant's response
     """
-    agent = ChatAgent()
+    agent = Orchestrator()
     result = await agent.chat(request.message)
 
     thread_id = result["thread_id"]
     state = result.get("state", {})
 
-    # Handle LangGraph state format - may be wrapped in 'chat' key
+    # Handle LangGraph state format - may be wrapped in node name key
     if "chat" in state:
         state = state["chat"]
 
@@ -83,7 +105,7 @@ async def send_message(
     Returns:
         ChatResponse with conversation_id and assistant's response
     """
-    agent = ChatAgent()
+    agent = Orchestrator()
     result = await agent.chat(request.message, thread_id=conversation_id)
 
     state = result.get("state", {})
@@ -101,7 +123,9 @@ async def send_message(
 
 
 @router.get("/conversations/{conversation_id}", response_model=ConversationResponse)
-async def get_conversation(conversation_id: str) -> ConversationResponse:
+async def get_conversation(
+    conversation_id: str, session: AsyncSession = Depends(get_db)
+) -> ConversationResponse:
     """Get conversation history.
 
     Args:
@@ -110,7 +134,7 @@ async def get_conversation(conversation_id: str) -> ConversationResponse:
     Returns:
         ConversationResponse with full message history
     """
-    agent = ChatAgent()
+    agent = Orchestrator()
     messages = await agent.get_history(conversation_id)
 
     if not messages:
@@ -123,14 +147,18 @@ async def get_conversation(conversation_id: str) -> ConversationResponse:
         if isinstance(msg, (HumanMessage, AIMessage))
     ]
 
+    # Fetch associated client profile
+    client_profile = await _get_client_profile_for_conversation(conversation_id, session)
+
     return ConversationResponse(
         id=conversation_id,
         messages=message_responses,
+        client_profile=client_profile,
     )
 
 
 @router.get("/conversations")
-async def list_conversations():
+async def list_conversations(session: AsyncSession = Depends(get_db)):
     """List all conversations.
 
     Returns:
@@ -161,10 +189,14 @@ async def list_conversations():
             content = last_msg.content if hasattr(last_msg, "content") else str(last_msg)
             preview = content[:100] + "..." if len(content) > 100 else content
 
+        # Fetch associated client profile
+        client_profile = await _get_client_profile_for_conversation(thread_id, session)
+
         conversations[thread_id] = ConversationListItem(
             id=thread_id,
             preview=preview,
             message_count=len(messages),
+            client_profile=client_profile,
         )
 
     return {"conversations": list(conversations.values())}

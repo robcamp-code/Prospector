@@ -5,15 +5,22 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.models.base import SessionLocal, engine
+from src.core.config import get_settings
 from src.models.uszips import USZip
 
+# Create sync engine and session for this script
+settings = get_settings()
+engine = create_engine(settings.database_url)
+SessionLocal = sessionmaker(bind=engine)
 
-def load_uszips(csv_path: str = "notebooks/uszips.csv") -> int:
+
+def load_uszips(csv_path: str = "uszips.csv") -> int:
     """Load ZIP code data from CSV into database.
 
     Args:
@@ -90,7 +97,7 @@ def load_uszips(csv_path: str = "notebooks/uszips.csv") -> int:
 
 def main():
     """Main entry point."""
-    csv_path = sys.argv[1] if len(sys.argv) > 1 else "notebooks/uszips.csv"
+    csv_path = sys.argv[1] if len(sys.argv) > 1 else "uszips.csv"
     load_uszips(csv_path)
 
 

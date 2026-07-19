@@ -3,7 +3,7 @@
 from collections.abc import AsyncGenerator
 
 from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 from sqlmodel import SQLModel
 
 from src.core.config import get_settings
@@ -11,13 +11,24 @@ from src.core.config import get_settings
 settings = get_settings()
 async_engine = create_async_engine(settings.async_database_url, echo=settings.debug)
 
+# expire_on_commit=False prevents DetachedInstanceError when accessing
+# model attributes after the session is closed. This is needed when passing
+# ORM objects through LangGraph state between nodes.
+AsyncSessionLocal = async_sessionmaker(
+    bind=async_engine,
+    class_=AsyncSession,
+    autocommit=False,
+    autoflush=False,
+    expire_on_commit=False,
+)
+
 _checkpointer: AsyncPostgresSaver | None = None
-_checkpointer_cm = None 
+_checkpointer_cm = None
 
 
 async def get_db() -> AsyncGenerator[AsyncSession, None]:
     """Async database session dependency."""
-    async with AsyncSession(async_engine) as session:
+    async with AsyncSessionLocal() as session:
         yield session
 
 

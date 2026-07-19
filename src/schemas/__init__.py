@@ -11,6 +11,7 @@ from src.schemas.charts import (
 )
 from src.schemas.chat import (
     ChatResponse,
+    ClientProfileSummary,
     ConversationListItem,
     ConversationResponse,
     MessageResponse,
@@ -26,6 +27,7 @@ __all__ = [
     "ConversationResponse",
     "ChatResponse",
     "ConversationListItem",
+    "ClientProfileSummary",
     # Chart schemas
     "ChartDataPoint",
     "ChartConfig",
