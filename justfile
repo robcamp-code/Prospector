@@ -73,7 +73,7 @@ orchestrator:
     uv run python src/agents/orchestrator/agent.py
 
 # ============================================================
-# Code Quality
+# Testing
 # ============================================================
 
 # Run all tests
@@ -83,6 +83,25 @@ test:
 # Run tests with coverage
 test-cov:
     pytest tests/ -v --cov=src --cov-report=term-missing
+
+# Run SQL analyst integration tests (live database)
+test-sql:
+    pytest tests/integration/test_sql_analyst_queries.py -v -s
+
+# Run a specific SQL analyst test by name pattern
+# Example: just test-sql-query hispanic
+# Example: just test-sql-query "limited_english"
+# Example: just test-sql-query "education_with_income"
+test-sql-query pattern:
+    pytest tests/integration/test_sql_analyst_queries.py -v -s -k "{{pattern}}"
+
+# List available SQL analyst test names
+test-sql-list:
+    @pytest tests/integration/test_sql_analyst_queries.py --collect-only -q
+
+# ============================================================
+# Code Quality
+# ============================================================
 
 # Check code with ruff
 lint:

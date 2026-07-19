@@ -6,8 +6,8 @@ from langchain_core.messages import ToolMessage
 from langchain_core.tools import tool
 from langgraph.types import Command
 
+from src.core.database import SessionLocal
 from src.models.client_profile import ClientProfile, DemographicTarget
-from src.v0.models.base import SessionLocal
 
 
 @tool

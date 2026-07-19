@@ -309,13 +309,13 @@ class Orchestrator:
 
         # Format preferences for the prompt
         preferences_text = f"""
-Business Name: {preferences.name}
-Business Category: {preferences.business_category}
-Services/Products: {preferences.services_products}
-Price Point: {preferences.price_point}
-Target Customer: {preferences.target_customer}
-Location Preferences: {preferences.location_preferences}
-"""
+        Business Name: {preferences.name}
+        Business Category: {preferences.business_category}
+        Services/Products: {preferences.services_products}
+        Price Point: {preferences.price_point}
+        Target Customer: {preferences.target_customer}
+        Location Preferences: {preferences.location_preferences}
+        """
 
         # Format demographic keys for prompt
         demographic_keys = format_demographics_for_prompt(DEMOGRAPHICS)

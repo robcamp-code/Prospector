@@ -1,14 +1,18 @@
-"""Centralized async database and checkpointer setup."""
+"""Centralized database and checkpointer setup."""
 
 from collections.abc import AsyncGenerator
 
 from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
+from sqlalchemy import create_engine
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
+from sqlalchemy.orm import sessionmaker
 from sqlmodel import SQLModel
 
 from src.core.config import get_settings
 
 settings = get_settings()
+
+# Async engine and session (primary for async operations)
 async_engine = create_async_engine(settings.async_database_url, echo=settings.debug)
 
 # expire_on_commit=False prevents DetachedInstanceError when accessing
@@ -17,6 +21,15 @@ async_engine = create_async_engine(settings.async_database_url, echo=settings.de
 AsyncSessionLocal = async_sessionmaker(
     bind=async_engine,
     class_=AsyncSession,
+    autocommit=False,
+    autoflush=False,
+    expire_on_commit=False,
+)
+
+# Sync engine and session (for tools that require synchronous DB access)
+sync_engine = create_engine(settings.database_url, echo=settings.debug)
+SessionLocal = sessionmaker(
+    bind=sync_engine,
     autocommit=False,
     autoflush=False,
     expire_on_commit=False,
