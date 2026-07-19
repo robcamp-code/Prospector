@@ -3,12 +3,15 @@ import json
 import pathlib
 
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
+from langchain_core.runnables import RunnableConfig
 from langchain.chat_models import init_chat_model
 from langgraph.graph import START, END, StateGraph
 from langgraph.graph.message import add_messages
 from pydantic import BaseModel, Field
-from typing_extensions import TypedDict
 from sqlalchemy import delete
+from sqlalchemy.orm import selectinload
+from sqlmodel import select
+from typing_extensions import TypedDict
 
 from src.agents.orchestrator.prompts import (
     DISCOVERY_PROMPT,
@@ -19,7 +22,7 @@ from src.agents.orchestrator.prompts import (
 )
 from src.agents.orchestrator.demographics import DEMOGRAPHICS, MetricType
 from src.models import ClientProfile, DemographicTarget
-from src.core.database import AsyncSessionLocal
+from src.core.database import AsyncSessionLocal, get_checkpointer
 from src.core.state import ClientProfileRef, DemographicTargetRef
 
 
@@ -232,13 +235,16 @@ class Orchestrator:
             return "profile_builder"
         return "prompt_for_preferences"
 
-    async def profile_builder(self, state: GlobalState) -> dict:
+    async def profile_builder(self, state: GlobalState, config: RunnableConfig) -> dict:
         """Build ClientProfile directly from preferences - no LLM needed."""
         preferences = state["preferences"]
+        thread_id = config.get("configurable", {}).get("thread_id")
+
         client_profile = ClientProfile(
             name=preferences.name,
             business_type=preferences.business_category,
             service_description=preferences.services_products,
+            conversation_id=thread_id,
         )
 
         # TODO: add exception handling in case of db failure
@@ -385,8 +391,9 @@ Location Preferences: {preferences.location_preferences}
     def _write_graph(self):
         """write graph to disk for troubleshooting / visualization"""
         pathlib.Path("graph.png").write_bytes(self.graph.get_graph().draw_mermaid_png())
-    
-    def _build_graph(self):
+
+    def _build_graph_structure(self) -> StateGraph:
+        """Build graph structure without compilation."""
         graph = StateGraph(GlobalState)
 
         graph.add_node("initial_router", self.initial_router)
@@ -446,10 +453,111 @@ Location Preferences: {preferences.location_preferences}
         # Step 5: Query node ends the workflow
         graph.add_edge("query_node", END)
 
-        self.graph = graph.compile()
+        return graph
 
+    def _build_graph(self):
+        """Build graph for local_chat (no checkpointer)."""
+        self.graph = self._build_graph_structure().compile()
         self._write_graph()
-  
+
+    async def _load_profile_for_thread(self, thread_id: str) -> ClientProfileRef | None:
+        """Load ClientProfile from DB by conversation_id and convert to ref."""
+        async with AsyncSessionLocal() as session:
+            result = await session.execute(
+                select(ClientProfile)
+                .options(selectinload(ClientProfile.target_demographics))
+                .where(ClientProfile.conversation_id == thread_id)
+            )
+            profile = result.scalar_one_or_none()
+            if not profile:
+                return None
+
+            target_refs = [
+                DemographicTargetRef(
+                    demographic_key=t.demographic_key,
+                    constraint_type=t.constraint_type,
+                    min_value=t.min_value,
+                    max_value=t.max_value,
+                    target_percentage=t.target_percentage,
+                    percentage_operator=t.percentage_operator,
+                    importance_weight=t.importance_weight,
+                )
+                for t in profile.target_demographics
+            ]
+
+            return ClientProfileRef(
+                profile_id=profile.id,
+                name=profile.name,
+                business_type=profile.business_type,
+                service_description=profile.service_description,
+                target_demographics=target_refs,
+            )
+
+    async def chat(self, message: str, thread_id: str | None = None) -> dict:
+        """Send a message and get a response with conversation persistence.
+
+        Args:
+            message: User's message
+            thread_id: Optional thread ID for conversation persistence.
+                If None, a new unique thread ID is generated.
+
+        Returns:
+            Dict with thread_id and the final state
+        """
+        from uuid import uuid4
+
+        if thread_id is None:
+            thread_id = str(uuid4())
+
+        checkpointer = get_checkpointer()
+        graph = self._build_graph_structure()
+        agent = graph.compile(checkpointer=checkpointer)
+
+        config = {"configurable": {"thread_id": thread_id}}
+
+        # Check if resuming existing conversation
+        existing_state = await agent.aget_state(config)
+        is_new = existing_state is None or not existing_state.values
+
+        if is_new:
+            input_state = {
+                "messages": [AIMessage(content=INITIAL_MESSAGE), HumanMessage(content=message)],
+                "preferences": Preferences(),
+                "client_profile": None,
+                "asked_for_more": False,
+            }
+        else:
+            # Resuming - just add new message; checkpointer restores rest
+            input_state = {"messages": [HumanMessage(content=message)]}
+            # Reload profile from DB for freshness
+            profile = await self._load_profile_for_thread(thread_id)
+            if profile:
+                input_state["client_profile"] = profile
+
+        final_state = None
+        async for event in agent.astream(input_state, config):
+            final_state = event
+
+        return {"thread_id": thread_id, "state": final_state}
+
+    async def get_history(self, thread_id: str) -> list:
+        """Get conversation history for a thread.
+
+        Args:
+            thread_id: Thread ID of the conversation
+
+        Returns:
+            List of messages in the conversation
+        """
+        checkpointer = get_checkpointer()
+        agent = self._build_graph_structure().compile(checkpointer=checkpointer)
+
+        config = {"configurable": {"thread_id": thread_id}}
+        state = await agent.aget_state(config)
+        if state and state.values:
+            return state.values.get("messages", [])
+        return []
+
     def _append_message(self, state: GlobalState, user_input: str):
         state["messages"] = state.get("messages", []) + [
                 {"role": "user", "content": user_input}
