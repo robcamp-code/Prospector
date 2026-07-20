@@ -1,19 +1,19 @@
 {
-  "report_id": "report_e9a0a567",
-  "title": "Market Analysis: Verdant Bowl",
-  "subtitle": "Demographic insights for Metro areas: Los Angeles-Long Beach-Anaheim, CA, San Diego-Chula Vista-Carlsbad, CA",
-  "geography_type": "cbsa",
-  "geography_value": "Metro areas: Los Angeles-Long Beach-Anaheim, CA, San Diego-Chula Vista-Carlsbad, CA",
-  "client_profile_id": "a03f9fca-baf6-4620-8d64-d389e6d85232",
+  "report_id": "report_35ae0c05",
+  "title": "Market Analysis: Apex Performance Studio",
+  "subtitle": "Demographic insights for States: Georgia",
+  "geography_type": "state",
+  "geography_value": "States: Georgia",
+  "client_profile_id": "0fe382b3-fadc-4601-b496-9b349b830385",
   "summary": {
-    "total_population": 16268344,
-    "zip_count": 3,
-    "median_household_income": 101299.19415313569,
-    "median_age": 38.56139973435528,
-    "home_ownership_rate": 50.62450888055966,
-    "narrative": "Southern California's affluent, health-conscious metros of Los Angeles and San Diego offer Verdant Bowl a 16.3 million-person market primed for premium plant-based fast-casual dining.\n\nAcross the Los Angeles-Long Beach-Anaheim and San Diego-Chula Vista-Carlsbad CBSAs, Verdant Bowl has access to a combined population of more than 16.2 million people concentrated in three geographic areas that together form one of the most receptive markets in the country for premium, wellness-driven quick-service dining. The defining strength of this geography is its spending power: between 47% and 54% of households earn six-figure incomes, providing the disposable income needed to sustain Verdant Bowl's elevated price point relative to conventional fast food. In a category where household income is the single strongest predictor of demand for customizable grain bowls, smoothies, and cold-pressed juices, this concentration of affluence is the most business-critical signal in the entire demographic profile.\n\nThe consumer base is not only affluent but also highly educated and values-aligned. Roughly 40-42% of the population holds a college degree or higher - a cohort that consistently over-indexes for plant-based, sustainability-focused, and wellness-oriented dining choices. This directly validates Verdant Bowl's brand pillars of locally sourced produce and compostable packaging. Reinforcing the fit, the median age of 36-37 reflects an established millennial and young-professional community that sits squarely at the center of the vegan fast-casual target demographic, giving the brand a natural audience for both its menu and its eco-conscious positioning.\n\nFinally, the market's daytime dynamics support Verdant Bowl's core specialty of plant-based quick lunches. Labor force participation of 67-68% signals a large, employed population generating steady weekday midday traffic, while average commute times of 25-28 minutes point to a mobile, time-pressed workforce that prioritizes fast, portable meals. This combination of a busy working base and grab-and-go demand aligns precisely with a menu engineered for speed and convenience, positioning Verdant Bowl to capture reliable lunch-hour volume near employment centers.",
+    "total_population": 10940417,
+    "zip_count": 159,
+    "median_household_income": 81676.5641568324,
+    "median_age": 37.95943867587497,
+    "home_ownership_rate": 66.36656142083066,
+    "narrative": "Georgia's 10.9 million residents and rapidly expanding affluent, health-conscious metro corridors present a prime launchpad for a premium boutique fitness and recovery studio.\n\nGeorgia offers Apex Performance Studio a substantial and diverse market of 10,940,417 residents spread across 159 counties—a footprint large enough to support multiple locations while concentrated enough to target the highest-value segments. The state's demographic story is defined by a widening gap between its affluent, college-educated metropolitan corridors and its more rural interior. For a business built on higher-price-point services like reformer pilates, cryotherapy, infrared sauna, and personalized nutrition coaching, this divergence is an asset: it clearly isolates where discretionary wellness spending is not only possible but expected. Income and educational attainment—the strongest predictors of demand for premium fitness—cluster tightly in the metro Atlanta suburbs and a handful of secondary urban centers, creating well-defined pockets of six-figure households primed for boutique membership.\n\nAge demographics reinforce this opportunity. Small-group strength training, pilates, and recovery services resonate most powerfully with residents in their prime fitness-seeking life stages, typically the 25-to-49 professional cohort. Variation in median age across Georgia's 159 areas allows for surgical site selection, steering the studio toward neighborhoods with concentrations of career-focused adults who combine both the disposable income and the wellness mindset to sustain ongoing memberships. These same areas show elevated housing values and strong labor force participation—dual signals of accumulated wealth and the busy professional lifestyles that make convenient, high-value, time-efficient recovery and training services especially attractive.\n\nTaken together, the data points to a focused metro-centric expansion strategy rather than broad statewide coverage. The affluent, educated, employed, and age-appropriate populations of Georgia's northern suburban corridors represent the intersection of ability and willingness to pay for premium wellness—the exact conditions in which a boutique studio thrives.",
     "opportunity_bubble_chart": {
-      "visualization_id": "bubble_cd2629bb",
+      "visualization_id": "bubble_a592c71d",
       "title": "Market Opportunity: Six-Figure Households (%) vs College Educated or Above (%)",
       "subtitle": "Bubble size represents population",
       "config": {
@@ -27,36 +27,553 @@
       "distribution_data": null,
       "bubble_data": [
         {
-          "geography_id": "Los Angeles, California",
-          "geography_label": "Los Angeles, California",
-          "x_value": 44.41902357185583,
-          "y_value": 34.970667828634426,
-          "size_value": 9807501.0,
+          "geography_id": "Appling, Georgia",
+          "geography_label": "Appling, Georgia",
+          "x_value": 23.6330174291939,
+          "y_value": 11.554923747276687,
+          "size_value": 18360.0,
           "color_value": null,
           "metadata": {
-            "population": 9807501.0
+            "population": 18360.0
           }
         },
         {
-          "geography_id": "Orange, California",
-          "geography_label": "Orange, California",
-          "x_value": 56.27286889113991,
-          "y_value": 43.84180209162129,
-          "size_value": 3138331.0,
+          "geography_id": "Atkinson, Georgia",
+          "geography_label": "Atkinson, Georgia",
+          "x_value": 18.639039756680425,
+          "y_value": 9.272344123397785,
+          "size_value": 9206.0,
           "color_value": null,
           "metadata": {
-            "population": 3138331.0
+            "population": 9206.0
           }
         },
         {
-          "geography_id": "San Diego, California",
-          "geography_label": "San Diego, California",
-          "x_value": 51.9193285080686,
-          "y_value": 42.630113059034876,
-          "size_value": 3322512.0,
+          "geography_id": "Bacon, Georgia",
+          "geography_label": "Bacon, Georgia",
+          "x_value": 21.9,
+          "y_value": 11.6,
+          "size_value": 9685.0,
           "color_value": null,
           "metadata": {
-            "population": 3322512.0
+            "population": 9685.0
+          }
+        },
+        {
+          "geography_id": "Baker, Georgia",
+          "geography_label": "Baker, Georgia",
+          "x_value": 19.6,
+          "y_value": 12.9,
+          "size_value": 1794.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1794.0
+          }
+        },
+        {
+          "geography_id": "Baldwin, Georgia",
+          "geography_label": "Baldwin, Georgia",
+          "x_value": 26.67636659410062,
+          "y_value": 26.376632137987126,
+          "size_value": 41801.0,
+          "color_value": null,
+          "metadata": {
+            "population": 41801.0
+          }
+        },
+        {
+          "geography_id": "Banks, Georgia",
+          "geography_label": "Banks, Georgia",
+          "x_value": 31.06436488388459,
+          "y_value": 15.537161330049262,
+          "size_value": 22736.0,
+          "color_value": null,
+          "metadata": {
+            "population": 22736.0
+          }
+        },
+        {
+          "geography_id": "Barrow, Georgia",
+          "geography_label": "Barrow, Georgia",
+          "x_value": 40.208137862583044,
+          "y_value": 23.088394304002595,
+          "size_value": 98736.0,
+          "color_value": null,
+          "metadata": {
+            "population": 98736.0
+          }
+        },
+        {
+          "geography_id": "Bartow, Georgia",
+          "geography_label": "Bartow, Georgia",
+          "x_value": 41.67706439376875,
+          "y_value": 25.05405941129301,
+          "size_value": 110989.0,
+          "color_value": null,
+          "metadata": {
+            "population": 110989.0
+          }
+        },
+        {
+          "geography_id": "Ben Hill, Georgia",
+          "geography_label": "Ben Hill, Georgia",
+          "x_value": 13.599999999999998,
+          "y_value": 13.599999999999998,
+          "size_value": 18552.0,
+          "color_value": null,
+          "metadata": {
+            "population": 18552.0
+          }
+        },
+        {
+          "geography_id": "Berrien, Georgia",
+          "geography_label": "Berrien, Georgia",
+          "x_value": 25.185289514866984,
+          "y_value": 16.077278951486697,
+          "size_value": 20448.0,
+          "color_value": null,
+          "metadata": {
+            "population": 20448.0
+          }
+        },
+        {
+          "geography_id": "Bibb, Georgia",
+          "geography_label": "Bibb, Georgia",
+          "x_value": 27.785325609721554,
+          "y_value": 28.34832379684446,
+          "size_value": 141212.0,
+          "color_value": null,
+          "metadata": {
+            "population": 141212.0
+          }
+        },
+        {
+          "geography_id": "Bleckley, Georgia",
+          "geography_label": "Bleckley, Georgia",
+          "x_value": 26.6,
+          "y_value": 18.8,
+          "size_value": 12769.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12769.0
+          }
+        },
+        {
+          "geography_id": "Brantley, Georgia",
+          "geography_label": "Brantley, Georgia",
+          "x_value": 22.81192232780499,
+          "y_value": 14.657604910582542,
+          "size_value": 16943.0,
+          "color_value": null,
+          "metadata": {
+            "population": 16943.0
+          }
+        },
+        {
+          "geography_id": "Brooks, Georgia",
+          "geography_label": "Brooks, Georgia",
+          "x_value": 19.232699808085187,
+          "y_value": 14.365969169813656,
+          "size_value": 16153.0,
+          "color_value": null,
+          "metadata": {
+            "population": 16153.0
+          }
+        },
+        {
+          "geography_id": "Bryan, Georgia",
+          "geography_label": "Bryan, Georgia",
+          "x_value": 50.0028573041956,
+          "y_value": 34.00975775029645,
+          "size_value": 53127.0,
+          "color_value": null,
+          "metadata": {
+            "population": 53127.0
+          }
+        },
+        {
+          "geography_id": "Bulloch, Georgia",
+          "geography_label": "Bulloch, Georgia",
+          "x_value": 24.912962483829237,
+          "y_value": 34.58162871927555,
+          "size_value": 77300.0,
+          "color_value": null,
+          "metadata": {
+            "population": 77300.0
+          }
+        },
+        {
+          "geography_id": "Burke, Georgia",
+          "geography_label": "Burke, Georgia",
+          "x_value": 27.736281235915666,
+          "y_value": 17.471450748660423,
+          "size_value": 19969.0,
+          "color_value": null,
+          "metadata": {
+            "population": 19969.0
+          }
+        },
+        {
+          "geography_id": "Butts, Georgia",
+          "geography_label": "Butts, Georgia",
+          "x_value": 34.2318130518489,
+          "y_value": 15.098406691894047,
+          "size_value": 30126.0,
+          "color_value": null,
+          "metadata": {
+            "population": 30126.0
+          }
+        },
+        {
+          "geography_id": "Calhoun, Georgia",
+          "geography_label": "Calhoun, Georgia",
+          "x_value": 17.422046397296054,
+          "y_value": 14.611399600553082,
+          "size_value": 6509.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6509.0
+          }
+        },
+        {
+          "geography_id": "Camden, Georgia",
+          "geography_label": "Camden, Georgia",
+          "x_value": 32.72123285255846,
+          "y_value": 24.182512254469795,
+          "size_value": 56714.0,
+          "color_value": null,
+          "metadata": {
+            "population": 56714.0
+          }
+        },
+        {
+          "geography_id": "Candler, Georgia",
+          "geography_label": "Candler, Georgia",
+          "x_value": 19.344430743937526,
+          "y_value": 14.983929305384297,
+          "size_value": 12165.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12165.0
+          }
+        },
+        {
+          "geography_id": "Carroll, Georgia",
+          "geography_label": "Carroll, Georgia",
+          "x_value": 35.36546325746623,
+          "y_value": 25.021232461756647,
+          "size_value": 145254.0,
+          "color_value": null,
+          "metadata": {
+            "population": 145254.0
+          }
+        },
+        {
+          "geography_id": "Catoosa, Georgia",
+          "geography_label": "Catoosa, Georgia",
+          "x_value": 38.8787420565041,
+          "y_value": 25.57305910726591,
+          "size_value": 52244.0,
+          "color_value": null,
+          "metadata": {
+            "population": 52244.0
+          }
+        },
+        {
+          "geography_id": "Charlton, Georgia",
+          "geography_label": "Charlton, Georgia",
+          "x_value": 25.936641221374046,
+          "y_value": 12.592960135708228,
+          "size_value": 12969.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12969.0
+          }
+        },
+        {
+          "geography_id": "Chatham, Georgia",
+          "geography_label": "Chatham, Georgia",
+          "x_value": 34.01973279529919,
+          "y_value": 37.056155239445935,
+          "size_value": 305309.0,
+          "color_value": null,
+          "metadata": {
+            "population": 305309.0
+          }
+        },
+        {
+          "geography_id": "Chattahoochee, Georgia",
+          "geography_label": "Chattahoochee, Georgia",
+          "x_value": 32.492483814008246,
+          "y_value": 36.7057268981754,
+          "size_value": 16990.0,
+          "color_value": null,
+          "metadata": {
+            "population": 16990.0
+          }
+        },
+        {
+          "geography_id": "Chattooga, Georgia",
+          "geography_label": "Chattooga, Georgia",
+          "x_value": 20.60886357018055,
+          "y_value": 14.546964181712287,
+          "size_value": 27472.0,
+          "color_value": null,
+          "metadata": {
+            "population": 27472.0
+          }
+        },
+        {
+          "geography_id": "Cherokee, Georgia",
+          "geography_label": "Cherokee, Georgia",
+          "x_value": 53.227644507451096,
+          "y_value": 40.45645756333013,
+          "size_value": 296265.0,
+          "color_value": null,
+          "metadata": {
+            "population": 296265.0
+          }
+        },
+        {
+          "geography_id": "Clarke, Georgia",
+          "geography_label": "Clarke, Georgia",
+          "x_value": 24.411725860848566,
+          "y_value": 46.73088229171003,
+          "size_value": 120085.0,
+          "color_value": null,
+          "metadata": {
+            "population": 120085.0
+          }
+        },
+        {
+          "geography_id": "Clay, Georgia",
+          "geography_label": "Clay, Georgia",
+          "x_value": 18.10625,
+          "y_value": 25.275,
+          "size_value": 2560.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2560.0
+          }
+        },
+        {
+          "geography_id": "Clayton, Georgia",
+          "geography_label": "Clayton, Georgia",
+          "x_value": 24.99852444097764,
+          "y_value": 21.2117459698388,
+          "size_value": 230760.0,
+          "color_value": null,
+          "metadata": {
+            "population": 230760.0
+          }
+        },
+        {
+          "geography_id": "Clinch, Georgia",
+          "geography_label": "Clinch, Georgia",
+          "x_value": 22.24690468893656,
+          "y_value": 9.606236592093165,
+          "size_value": 6526.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6526.0
+          }
+        },
+        {
+          "geography_id": "Cobb, Georgia",
+          "geography_label": "Cobb, Georgia",
+          "x_value": 50.95474684927702,
+          "y_value": 49.570674425721116,
+          "size_value": 777758.0,
+          "color_value": null,
+          "metadata": {
+            "population": 777758.0
+          }
+        },
+        {
+          "geography_id": "Coffee, Georgia",
+          "geography_label": "Coffee, Georgia",
+          "x_value": 22.280960805661408,
+          "y_value": 13.70880058065687,
+          "size_value": 44088.0,
+          "color_value": null,
+          "metadata": {
+            "population": 44088.0
+          }
+        },
+        {
+          "geography_id": "Colquitt, Georgia",
+          "geography_label": "Colquitt, Georgia",
+          "x_value": 23.575162608772086,
+          "y_value": 15.134894963522896,
+          "size_value": 45508.0,
+          "color_value": null,
+          "metadata": {
+            "population": 45508.0
+          }
+        },
+        {
+          "geography_id": "Columbia, Georgia",
+          "geography_label": "Columbia, Georgia",
+          "x_value": 47.247713009192296,
+          "y_value": 38.326662311604686,
+          "size_value": 171448.0,
+          "color_value": null,
+          "metadata": {
+            "population": 171448.0
+          }
+        },
+        {
+          "geography_id": "Cook, Georgia",
+          "geography_label": "Cook, Georgia",
+          "x_value": 23.27876766985864,
+          "y_value": 18.470491336069315,
+          "size_value": 17544.0,
+          "color_value": null,
+          "metadata": {
+            "population": 17544.0
+          }
+        },
+        {
+          "geography_id": "Coweta, Georgia",
+          "geography_label": "Coweta, Georgia",
+          "x_value": 47.842385467168675,
+          "y_value": 36.17943335530137,
+          "size_value": 153253.0,
+          "color_value": null,
+          "metadata": {
+            "population": 153253.0
+          }
+        },
+        {
+          "geography_id": "Crawford, Georgia",
+          "geography_label": "Crawford, Georgia",
+          "x_value": 18.767891464104014,
+          "y_value": 15.616091954022988,
+          "size_value": 5307.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5307.0
+          }
+        },
+        {
+          "geography_id": "Crisp, Georgia",
+          "geography_label": "Crisp, Georgia",
+          "x_value": 21.79543205557499,
+          "y_value": 14.917512119546204,
+          "size_value": 20009.0,
+          "color_value": null,
+          "metadata": {
+            "population": 20009.0
+          }
+        },
+        {
+          "geography_id": "Dade, Georgia",
+          "geography_label": "Dade, Georgia",
+          "x_value": 26.945309491059145,
+          "y_value": 16.717922971114167,
+          "size_value": 14540.0,
+          "color_value": null,
+          "metadata": {
+            "population": 14540.0
+          }
+        },
+        {
+          "geography_id": "Dawson, Georgia",
+          "geography_label": "Dawson, Georgia",
+          "x_value": 47.622027279415924,
+          "y_value": 34.369712490803096,
+          "size_value": 35338.0,
+          "color_value": null,
+          "metadata": {
+            "population": 35338.0
+          }
+        },
+        {
+          "geography_id": "Decatur, Georgia",
+          "geography_label": "Decatur, Georgia",
+          "x_value": 24.11704545454546,
+          "y_value": 14.927117297596022,
+          "size_value": 28952.0,
+          "color_value": null,
+          "metadata": {
+            "population": 28952.0
+          }
+        },
+        {
+          "geography_id": "DeKalb, Georgia",
+          "geography_label": "DeKalb, Georgia",
+          "x_value": 39.92636885896117,
+          "y_value": 46.37756625427385,
+          "size_value": 833267.0,
+          "color_value": null,
+          "metadata": {
+            "population": 833267.0
+          }
+        },
+        {
+          "geography_id": "Dodge, Georgia",
+          "geography_label": "Dodge, Georgia",
+          "x_value": 24.15373283003041,
+          "y_value": 18.525678934675476,
+          "size_value": 19074.0,
+          "color_value": null,
+          "metadata": {
+            "population": 19074.0
+          }
+        },
+        {
+          "geography_id": "Dooly, Georgia",
+          "geography_label": "Dooly, Georgia",
+          "x_value": 27.164176555195976,
+          "y_value": 15.79271844660194,
+          "size_value": 11124.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11124.0
+          }
+        },
+        {
+          "geography_id": "Dougherty, Georgia",
+          "geography_label": "Dougherty, Georgia",
+          "x_value": 19.568539791767066,
+          "y_value": 22.144086431237177,
+          "size_value": 89227.0,
+          "color_value": null,
+          "metadata": {
+            "population": 89227.0
+          }
+        },
+        {
+          "geography_id": "Douglas, Georgia",
+          "geography_label": "Douglas, Georgia",
+          "x_value": 39.379676101448986,
+          "y_value": 29.95673172721376,
+          "size_value": 149553.0,
+          "color_value": null,
+          "metadata": {
+            "population": 149553.0
+          }
+        },
+        {
+          "geography_id": "Early, Georgia",
+          "geography_label": "Early, Georgia",
+          "x_value": 23.629260906596006,
+          "y_value": 15.019239140721115,
+          "size_value": 10567.0,
+          "color_value": null,
+          "metadata": {
+            "population": 10567.0
+          }
+        },
+        {
+          "geography_id": "Echols, Georgia",
+          "geography_label": "Echols, Georgia",
+          "x_value": 28.78129185040013,
+          "y_value": 17.326367793565243,
+          "size_value": 12246.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12246.0
           }
         }
       ]
@@ -65,18 +582,18 @@
   "sections": [
     {
       "section_id": "section_1",
-      "title": "Economic Profile: Spending Power",
+      "title": "Economic Profile & Spending Power",
       "subtitle": null,
-      "description": "Household income is the single strongest predictor of demand for premium vegan bowls, smoothies, and cold-pressed juices. With 47-54% of households earning six figures across the trade areas, there is ample disposable income to support Verdant Bowl's elevated price point relative to standard fast food, making this the most business-critical demographic.",
+      "description": "Income and education are the strongest predictors of demand for premium fitness services like reformer pilates, cryotherapy, and personalized nutrition coaching. These offerings carry higher price points, so identifying areas with six-figure households and college-educated residents pinpoints where clients can afford and prioritize discretionary wellness spending. Together they reveal the affluence and health-conscious mindset that drive membership at a boutique studio.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 78.0,
+      "importance_weight": 87.5,
       "rank": 1,
       "visualizations": [
         {
-          "visualization_id": "viz_income_adfb6632",
-          "title": "Six-Figure Households Across Target Markets",
-          "subtitle": "Comparing high-income household presence in Orange, San Diego, and Los Angeles",
+          "visualization_id": "viz_income_7054c6aa",
+          "title": "Top Georgia Counties by Share of Six-Figure Households",
+          "subtitle": "Ranking affluent markets best suited for premium fitness, recovery, and nutrition services",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
@@ -86,21 +603,139 @@
           },
           "categorical_data": [
             {
-              "label": "Orange, California",
-              "value": 54.05716054366517,
-              "percentage": 54.05716054366517,
+              "label": "Franklin, Georgia",
+              "value": 100.0,
+              "percentage": 100.0,
               "color": null
             },
             {
-              "label": "San Diego, California",
-              "value": 50.6674921443636,
-              "percentage": 50.6674921443636,
+              "label": "Forsyth, Georgia",
+              "value": 67.58621097624214,
+              "percentage": 67.58621097624214,
               "color": null
             },
             {
-              "label": "Los Angeles, California",
-              "value": 47.40621962184631,
-              "percentage": 47.40621962184631,
+              "label": "Taylor, Georgia",
+              "value": 65.19999999999999,
+              "percentage": 65.19999999999999,
+              "color": null
+            },
+            {
+              "label": "Fulton, Georgia",
+              "value": 63.81737788515642,
+              "percentage": 63.81737788515642,
+              "color": null
+            },
+            {
+              "label": "Gwinnett, Georgia",
+              "value": 59.46841125154346,
+              "percentage": 59.46841125154346,
+              "color": null
+            },
+            {
+              "label": "Fayette, Georgia",
+              "value": 59.43000815380654,
+              "percentage": 59.43000815380654,
+              "color": null
+            },
+            {
+              "label": "Cobb, Georgia",
+              "value": 59.34288648136948,
+              "percentage": 59.34288648136948,
+              "color": null
+            },
+            {
+              "label": "Jackson, Georgia",
+              "value": 57.64189625436696,
+              "percentage": 57.64189625436696,
+              "color": null
+            },
+            {
+              "label": "DeKalb, Georgia",
+              "value": 57.49930942040204,
+              "percentage": 57.49930942040204,
+              "color": null
+            },
+            {
+              "label": "Oconee, Georgia",
+              "value": 55.98854123209568,
+              "percentage": 55.98854123209568,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_a9f15f31",
+          "title": "Top Georgia Counties by College-Educated Population",
+          "subtitle": "Ranking of counties by percentage of residents with a college degree or higher — key indicator for premium fitness and wellness demand",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fulton, Georgia",
+              "value": 72.76389081299712,
+              "percentage": 72.76389081299712,
+              "color": null
+            },
+            {
+              "label": "DeKalb, Georgia",
+              "value": 71.07571319149629,
+              "percentage": 71.07571319149629,
+              "color": null
+            },
+            {
+              "label": "Walker, Georgia",
+              "value": 58.3,
+              "percentage": 58.3,
+              "color": null
+            },
+            {
+              "label": "Cobb, Georgia",
+              "value": 57.49503931210391,
+              "percentage": 57.49503931210391,
+              "color": null
+            },
+            {
+              "label": "Forsyth, Georgia",
+              "value": 55.24089936514809,
+              "percentage": 55.24089936514809,
+              "color": null
+            },
+            {
+              "label": "Oconee, Georgia",
+              "value": 54.26794604366569,
+              "percentage": 54.26794604366569,
+              "color": null
+            },
+            {
+              "label": "Fayette, Georgia",
+              "value": 52.97982791176723,
+              "percentage": 52.97982791176723,
+              "color": null
+            },
+            {
+              "label": "Gwinnett, Georgia",
+              "value": 49.99887966430084,
+              "percentage": 49.99887966430084,
+              "color": null
+            },
+            {
+              "label": "Cherokee, Georgia",
+              "value": 44.87344865845659,
+              "percentage": 44.87344865845659,
+              "color": null
+            },
+            {
+              "label": "Jackson, Georgia",
+              "value": 40.27206916375536,
+              "percentage": 40.27206916375536,
               "color": null
             }
           ],
@@ -111,42 +746,84 @@
     },
     {
       "section_id": "section_2",
-      "title": "Education & Health-Conscious Consumers",
+      "title": "Target Age Demographics",
       "subtitle": null,
-      "description": "College-educated populations index strongly for plant-based, wellness-oriented, and sustainability-focused dining. With roughly 40-42% holding college degrees or above, these areas contain the health- and eco-conscious consumers most likely to embrace vegan quick lunches and compostable packaging, directly aligning with the brand's value proposition.",
+      "description": "Age is a defining factor for a boutique studio: small-group strength training, pilates, and recovery services appeal most strongly to specific life stages. Median age variation across areas helps identify neighborhoods with a concentration of the prime fitness-seeking demographic, guiding location, programming, and marketing decisions.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 72.0,
+      "importance_weight": 78.0,
       "rank": 2,
       "visualizations": [
         {
-          "visualization_id": "viz_education_7359fe7c",
-          "title": "College-Educated Population Across Target Markets",
-          "subtitle": "Share of residents with a college degree or higher in San Diego, Orange, and Los Angeles counties",
+          "visualization_id": "viz_age_350aba2d",
+          "title": "Median Age Across Target Georgia Markets",
+          "subtitle": "Identifying communities with the ideal age profile for premium strength, pilates, and recovery services",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
-            "y_axis_label": "Percent",
+            "y_axis_label": "Age Median",
             "size_label": null,
             "color_label": null
           },
           "categorical_data": [
             {
-              "label": "San Diego, California",
-              "value": 41.760300657732614,
-              "percentage": 41.760300657732614,
+              "label": "Talbot, Georgia",
+              "value": 51.4,
+              "percentage": 51.4,
               "color": null
             },
             {
-              "label": "Orange, California",
-              "value": 39.700950076448805,
-              "percentage": 39.700950076448805,
+              "label": "Laurens, Georgia",
+              "value": 50.9,
+              "percentage": 50.9,
               "color": null
             },
             {
-              "label": "Los Angeles, California",
-              "value": 39.67648674573658,
-              "percentage": 39.67648674573658,
+              "label": "Liberty, Georgia",
+              "value": 50.2,
+              "percentage": 50.2,
+              "color": null
+            },
+            {
+              "label": "Greene, Georgia",
+              "value": 48.7,
+              "percentage": 48.7,
+              "color": null
+            },
+            {
+              "label": "Fayette, Georgia",
+              "value": 43.381675392670154,
+              "percentage": 43.381675392670154,
+              "color": null
+            },
+            {
+              "label": "Oconee, Georgia",
+              "value": 41.477861215408154,
+              "percentage": 41.477861215408154,
+              "color": null
+            },
+            {
+              "label": "Jackson, Georgia",
+              "value": 40.882058992614866,
+              "percentage": 40.882058992614866,
+              "color": null
+            },
+            {
+              "label": "Cherokee, Georgia",
+              "value": 40.51436067503202,
+              "percentage": 40.51436067503202,
+              "color": null
+            },
+            {
+              "label": "Fulton, Georgia",
+              "value": 39.963651625195695,
+              "percentage": 39.963651625195695,
+              "color": null
+            },
+            {
+              "label": "Cobb, Georgia",
+              "value": 39.69269741513056,
+              "percentage": 39.69269741513056,
               "color": null
             }
           ],
@@ -157,18 +834,94 @@
     },
     {
       "section_id": "section_3",
-      "title": "Workforce & Weekday Lunch Demand",
+      "title": "Community Wealth & Stability",
       "subtitle": null,
-      "description": "As a fast-casual concept built around plant-based quick lunches, Verdant Bowl relies on a large working population generating consistent weekday midday traffic. Labor force participation of 67-68% signals a robust base of employed customers seeking fast, convenient lunch options near their workplaces.",
+      "description": "Housing value serves as a proxy for accumulated wealth, neighborhood affluence, and lifestyle stability, all of which correlate with willingness to invest in ongoing fitness memberships and recovery services. Combined with employment and labor force participation, this section shows both the financial capacity and the busy, professional lifestyles that make convenient, high-value wellness services attractive.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 55.0,
+      "importance_weight": 77.0,
       "rank": 3,
       "visualizations": [
         {
-          "visualization_id": "viz_employment_2f8c75eb",
-          "title": "Labor Force Participation Across Key California Markets",
-          "subtitle": "Comparing workforce activity in Orange, Los Angeles, and San Diego — the weekday lunch crowd for a plant-based fast-casual concept",
+          "visualization_id": "viz_housing_f5bf84df",
+          "title": "Median Home Values Across Target Counties: Identifying High-Affluence Markets",
+          "subtitle": "Ranking counties by median home value to pinpoint premium locations for Apex Performance Studio",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fulton, Georgia",
+              "value": 648740.5053380849,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "DeKalb, Georgia",
+              "value": 599957.3727581627,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Forsyth, Georgia",
+              "value": 533864.2721807994,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Gwinnett, Georgia",
+              "value": 480072.8153453866,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cobb, Georgia",
+              "value": 456471.90361303213,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Walker, Georgia",
+              "value": 454554.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fayette, Georgia",
+              "value": 450988.9275384087,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cherokee, Georgia",
+              "value": 446673.22795510414,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jackson, Georgia",
+              "value": 442742.1585371247,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Oconee, Georgia",
+              "value": 441820.44555694616,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_employment_f754db77",
+          "title": "Workforce Engagement Across Georgia Markets",
+          "subtitle": "Labor force participation rates by county — identifying areas with active, income-earning residents",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
@@ -178,113 +931,63 @@
           },
           "categorical_data": [
             {
-              "label": "Orange, California",
-              "value": 68.05536458186499,
-              "percentage": 68.05536458186499,
+              "label": "Franklin, Georgia",
+              "value": 100.0,
+              "percentage": 100.0,
               "color": null
             },
             {
-              "label": "Los Angeles, California",
-              "value": 67.89557050306759,
-              "percentage": 67.89557050306759,
+              "label": "DeKalb, Georgia",
+              "value": 72.67131181604101,
+              "percentage": 72.67131181604101,
               "color": null
             },
             {
-              "label": "San Diego, California",
-              "value": 67.3924891110391,
-              "percentage": 67.3924891110391,
-              "color": null
-            }
-          ],
-          "distribution_data": null,
-          "bubble_data": null
-        }
-      ]
-    },
-    {
-      "section_id": "section_4",
-      "title": "Accessibility & Commute Patterns",
-      "subtitle": null,
-      "description": "Commute behavior shapes lunch-hour foot traffic and grab-and-go convenience needs. Average commute times of 25-28 minutes indicate a mobile, time-pressed workforce that values quick, portable meals - a natural fit for customizable bowls and cold-pressed juices designed for speed.",
-      "demographic_category": null,
-      "demographic_key": null,
-      "importance_weight": 55.0,
-      "rank": 4,
-      "visualizations": [
-        {
-          "visualization_id": "viz_transportation_6b6e9e37",
-          "title": "Average Commute Times Across Target Markets",
-          "subtitle": "Comparing daily commute duration in San Diego, Orange, and Los Angeles",
-          "config": {
-            "chart_type": "bar",
-            "x_axis_label": "Geography",
-            "y_axis_label": "Minutes",
-            "size_label": null,
-            "color_label": null
-          },
-          "categorical_data": [
-            {
-              "label": "San Diego, California",
-              "value": 24.90964640333995,
-              "percentage": 24.90964640333995,
+              "label": "Fulton, Georgia",
+              "value": 71.01935805559631,
+              "percentage": 71.01935805559631,
               "color": null
             },
             {
-              "label": "Orange, California",
-              "value": 25.761349481653788,
-              "percentage": 25.761349481653788,
+              "label": "Cobb, Georgia",
+              "value": 69.67375897341502,
+              "percentage": 69.67375897341502,
               "color": null
             },
             {
-              "label": "Los Angeles, California",
-              "value": 27.71765366383334,
-              "percentage": 27.71765366383334,
-              "color": null
-            }
-          ],
-          "distribution_data": null,
-          "bubble_data": null
-        }
-      ]
-    },
-    {
-      "section_id": "section_5",
-      "title": "Community Characteristics: Age Profile",
-      "subtitle": null,
-      "description": "Age helps calibrate menu positioning and marketing tone. A median age of roughly 36-37 reflects an established millennial/young professional base - the core demographic for vegan, wellness-driven fast-casual dining - confirming the target customer aligns with the surrounding community.",
-      "demographic_category": null,
-      "demographic_key": null,
-      "importance_weight": 55.0,
-      "rank": 5,
-      "visualizations": [
-        {
-          "visualization_id": "viz_age_c8fa5798",
-          "title": "Median Age of Target Markets Across California Metros",
-          "subtitle": "Comparing median age in San Diego, Orange, and Los Angeles to gauge fit for a young, health-conscious lunch crowd",
-          "config": {
-            "chart_type": "bar",
-            "x_axis_label": "Geography",
-            "y_axis_label": "Age Median",
-            "size_label": null,
-            "color_label": null
-          },
-          "categorical_data": [
-            {
-              "label": "San Diego, California",
-              "value": 36.520251121521184,
-              "percentage": 36.520251121521184,
+              "label": "Forsyth, Georgia",
+              "value": 69.6603617800019,
+              "percentage": 69.6603617800019,
               "color": null
             },
             {
-              "label": "Orange, California",
-              "value": 36.52254354642022,
-              "percentage": 36.52254354642022,
+              "label": "Gwinnett, Georgia",
+              "value": 69.25256693403472,
+              "percentage": 69.25256693403472,
               "color": null
             },
             {
-              "label": "Los Angeles, California",
-              "value": 37.23584766985478,
-              "percentage": 37.23584766985478,
+              "label": "Cherokee, Georgia",
+              "value": 69.06806838591825,
+              "percentage": 69.06806838591825,
+              "color": null
+            },
+            {
+              "label": "Taylor, Georgia",
+              "value": 69.0,
+              "percentage": 69.0,
+              "color": null
+            },
+            {
+              "label": "Coweta, Georgia",
+              "value": 64.4,
+              "percentage": 64.4,
+              "color": null
+            },
+            {
+              "label": "Oconee, Georgia",
+              "value": 64.10916423306911,
+              "percentage": 64.10916423306911,
               "color": null
             }
           ],
@@ -294,5 +997,5 @@
       ]
     }
   ],
-  "generated_at": "2026-07-20T11:19:06.383261+00:00"
+  "generated_at": "2026-07-20T15:03:27.687151+00:00"
 }

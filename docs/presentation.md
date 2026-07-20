@@ -57,17 +57,17 @@ that combination is what "agentic system" means here.
 
 ```mermaid
 flowchart LR
-    START((START)) --> router{initial_router}
-    router -->|preferences incomplete| discovery[discovery_agent]
-    router -->|no profile yet| profile_builder[profile_builder]
-    router -->|"<4 demographic targets"| get_target_demographics[get_target_demographics]
-    router -->|ready| query_node[query_node]
-    router -->|pending question| END((END))
+    START((START)) --> router{ORCHESTRATOR}
+    router -->|preferences incomplete| discovery[DiscoverySubagent]
+    router -->|no profile yet| profile_builder[ProfileBuilderSubagent]
+    router -->|"<4 demographic targets"| get_target_demographics(DemographicsTool)
+    router -->|ready| query_node(QueryTools)
+    router -->|pending question| END((HumanInLoop))
 
     discovery --> router
     profile_builder --> router
     get_target_demographics --> router
-    query_node -->|generate_report| sql_agent[[SQL Analyst pipeline]]
+    query_node -->|generate_report| sql_agent[[DataAnalystSubagent]]
     sql_agent --> END2((END))
 ```
 

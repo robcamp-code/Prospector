@@ -1,2 +1,6 @@
 RiskID,Descritpion,Likelihood,Impact,Risk Level,Mitigation Strategy
 Adversarial Prompt,A malicious actor uses prompt injection to subsequently perform SQLInjection and permanently remove licensed proprietary data from my database,4,5,HIGH: 20,"Implement RBAC for all tools and agents: This project used read only database access to mitigate this risk. Additionally, sanitize all inputs"
+Incorrect Tool Selection,The model selects the wrong queries that are not customized to the users preferences. This happens during my evaluation and can cause a poor user experience,4,5,HIGH: 20,Define clear tools and tool descriptions for the LLM. Update System prompts and
+Hallucinations,The model makes up data in the report.,1,5,LOW: 5,Fefine clear system prompts
+Infinite Loops,The model can get stuck in an infinite loop where it cannot report back to the user.,3,5,MEDIUM: 15,Using LangGraph it offers a clean solution for complex graph workflows that help avoid infinite loops
+Out dated Data,"The data was purchased with a commercial license; however, it is not clear how frequently they update the zip code data.",3,3,MEDIUM: 9,Build an ETL with the data collected in house with the same or even better quality.
