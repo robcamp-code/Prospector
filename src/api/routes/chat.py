@@ -6,8 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlmodel import select
 
 from src.agents.orchestrator import Orchestrator
-from src.core.database import get_db
-from src.models.client_profile import ClientProfile
+from src.core.database import get_db, ClientProfile
 from src.schemas.chat import (
     ChatResponse,
     ClientProfileSummary,
@@ -61,6 +60,29 @@ def _extract_assistant_response(state: dict) -> str:
     return ""
 
 
+def _build_chat_response(
+    conversation_id: str, state: dict, created_at=None
+) -> ChatResponse:
+    """Build a ChatResponse from the orchestrator's conversation state.
+
+    query_node produces a report without appending an AI message, so when a
+    report is present the assistant text falls back to a completion notice
+    rather than repeating the last discovery question.
+    """
+    report = state.get("report")
+    if report is not None:
+        response_text = "Your demographic report is ready."
+    else:
+        response_text = _extract_assistant_response(state)
+
+    return ChatResponse(
+        conversation_id=conversation_id,
+        message=MessageResponse(role="assistant", content=response_text),
+        created_at=created_at,
+        report=report,
+    )
+
+
 @router.post("/conversations", response_model=ChatResponse)
 async def start_conversation(request: StartConversationRequest) -> ChatResponse:
     """Start a new conversation.
@@ -76,19 +98,8 @@ async def start_conversation(request: StartConversationRequest) -> ChatResponse:
     agent = Orchestrator()
     result = await agent.chat(request.message)
 
-    thread_id = result["thread_id"]
-    state = result.get("state", {})
-
-    # Handle LangGraph state format - may be wrapped in node name key
-    if "chat" in state:
-        state = state["chat"]
-
-    response_text = _extract_assistant_response(state)
-
-    return ChatResponse(
-        conversation_id=thread_id,
-        message=MessageResponse(role="assistant", content=response_text),
-        created_at=request.created_at,
+    return _build_chat_response(
+        result["thread_id"], result.get("state", {}), created_at=request.created_at
     )
 
 
@@ -108,18 +119,7 @@ async def send_message(
     agent = Orchestrator()
     result = await agent.chat(request.message, thread_id=conversation_id)
 
-    state = result.get("state", {})
-
-    # Handle LangGraph state format
-    if "chat" in state:
-        state = state["chat"]
-
-    response_text = _extract_assistant_response(state)
-
-    return ChatResponse(
-        conversation_id=conversation_id,
-        message=MessageResponse(role="assistant", content=response_text),
-    )
+    return _build_chat_response(conversation_id, result.get("state", {}))
 
 
 @router.get("/conversations/{conversation_id}", response_model=ConversationResponse)

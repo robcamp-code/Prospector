@@ -2,10 +2,13 @@
 
 from enum import StrEnum
 
-from src.agents.orchestrator.demographics import Metric, MetricType
+from src.agents.orchestrator.demographics import DEMOGRAPHICS, Metric, MetricType
 from src.agents.sql_analyst.templates import BASE_CTE_TEMPLATE
+from src.core.logging import get_logger
 from src.core.region import get_states_by_region
 from src.core.state import DemographicTargetRef
+
+logger = get_logger(__name__)
 
 
 class GeographyLevel(StrEnum):
@@ -16,6 +19,27 @@ class GeographyLevel(StrEnum):
     CBSA = "cbsa"  # GROUP BY cbsa_name
     REGION = "region"  # GROUP BY region (with state IN clause)
     ZIP = "zip" # GROUP BY zip
+
+
+def drill_down_level(
+    state_names: list[str] | None = None,
+    county_name: str | None = None,
+    region_name: str | None = None,
+    cbsa_names: list[str] | None = None,
+) -> GeographyLevel:
+    """Aggregation level for chartable queries: one level below the
+    narrowest geography filter, so results always contain multiple
+    comparable areas (counties within a metro/state, states within a
+    region or the nation). Filtering AND grouping at the same level
+    returns one row per filtered geography — a single-bar chart.
+    """
+    if county_name:
+        return GeographyLevel.ZIP
+    if cbsa_names:
+        return GeographyLevel.COUNTY
+    if state_names:
+        return GeographyLevel.COUNTY
+    return GeographyLevel.STATE  # region or nationwide
 
 
 def get_group_by_cols(level: GeographyLevel) -> str:
@@ -111,13 +135,40 @@ def build_geography_filter(
 # =============================================================================
 
 
+def resolve_demographic_column(key: str) -> str | None:
+    """Resolve a demographic_key to the actual uszips SQL column.
+
+    Targets are stored with DEMOGRAPHICS metric names (e.g.
+    'median_household_income'), but SQL needs the column name
+    ('income_household_median'). Accepts either form; returns None if the
+    key matches neither, so callers can skip it instead of emitting
+    invalid SQL.
+    """
+    for category in DEMOGRAPHICS.categories.values():
+        for metric_name, metric in category.metrics.items():
+            if metric.type == MetricType.DISTRIBUTION:
+                if metric.columns and key in metric.columns.values():
+                    return key
+            elif metric_name == key or metric.column == key:
+                return metric.column
+    return None
+
+
 def build_demographic_filter(target: DemographicTargetRef) -> str:
     """Build WHERE clause fragment for a single DemographicTargetRef.
 
     This creates a hard cutoff filter - rows not meeting the criteria
-    are excluded from results entirely.
+    are excluded from results entirely. Targets whose key cannot be
+    resolved to a real column are skipped (with a warning) rather than
+    producing invalid SQL that would fail the whole query.
     """
-    key = target.demographic_key
+    key = resolve_demographic_column(target.demographic_key)
+    if key is None:
+        logger.warning(
+            f"build_demographic_filter: unresolvable demographic_key "
+            f"'{target.demographic_key}', skipping filter"
+        )
+        return ""
 
     if target.constraint_type == "range":
         clauses = []

@@ -6,6 +6,9 @@ set dotenv-load
 # Set PYTHONPATH for all recipes
 export PYTHONPATH := "."
 
+# Unbuffered stdout so print() output appears live during long runs
+export PYTHONUNBUFFERED := "1"
+
 # Default recipe - show available commands
 default:
     @just --list
@@ -101,6 +104,20 @@ test-sql-query pattern:
 # List available SQL analyst test names
 test-sql-list:
     @pytest tests/integration/test_sql_analyst_queries.py --collect-only -q
+
+# Run SQL Agent integration tests (full report generation)
+test-sql-agent:
+    pytest tests/integration/test_sql_agent.py -v -s
+
+# Run SQL Agent unit tests only (no DB or LLM calls, fast)
+test-sql-agent-unit:
+    pytest tests/integration/test_sql_agent.py -v -k "Router or Section or Visualization or MetricName or CategorySelection or demographics_has"
+
+# Run a specific SQL Agent test by name pattern
+# Example: just test-sql-agent-query spanish_tutor
+# Example: just test-sql-agent-query "bubble_chart"
+test-sql-agent-query pattern:
+    pytest tests/integration/test_sql_agent.py -v -s -k "{{pattern}}"
 
 # ============================================================
 # Code Quality

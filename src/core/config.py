@@ -16,7 +16,13 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql://postgres:postgres@localhost:5432/prospector"
     openai_api_key: SecretStr = SecretStr("")
-    model: str = "gpt-4o"
+    # LLM model (langchain init_chat_model format: "provider:model-id").
+    # Options, cheapest → most capable — bump up if output quality is low:
+    #   "anthropic:claude-haiku-4-5"   # fastest / cheapest, simple tasks
+    #   "anthropic:claude-sonnet-5"    # balanced speed & intelligence
+    #   "anthropic:claude-opus-4-8"    # strong default, best for agentic work
+    #   "anthropic:claude-fable-5"     # most capable, premium pricing
+    model: str = "anthropic:claude-opus-4-8"
     debug: bool = False
 
     @property

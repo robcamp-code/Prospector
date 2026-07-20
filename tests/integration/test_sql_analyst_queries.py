@@ -8,6 +8,7 @@ import pytest
 import pytest_asyncio
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 
+from src.agents.orchestrator.demographics import DEMOGRAPHICS, MetricType
 from src.agents.sql_analyst.tools import (
     AggregatedDemographics,
     query_aggregated_demographics,
@@ -15,6 +16,119 @@ from src.agents.sql_analyst.tools import (
 from src.agents.sql_analyst.utils import GeographyLevel
 from src.core.config import get_settings
 from src.core.state import DemographicTargetRef
+
+
+# ---------------------------------------------------------------------------
+# Parametrized Test Cases for All 11 Demographic Categories
+# ---------------------------------------------------------------------------
+
+
+def get_all_metric_test_cases():
+    """Generate test cases from DEMOGRAPHICS mapping.
+
+    Returns list of (category_name, metric_name, expected_column) tuples
+    for all non-distribution metrics across all 11 categories.
+    """
+    test_cases = []
+    for cat_name, category in DEMOGRAPHICS.categories.items():
+        for metric_name, metric in category.metrics.items():
+            # Skip distribution metrics for single-value tests
+            if metric.type != MetricType.DISTRIBUTION:
+                test_cases.append((cat_name, metric_name, metric.column))
+    return test_cases
+
+
+def get_distribution_test_cases():
+    """Generate test cases for distribution metrics only."""
+    test_cases = []
+    for cat_name, category in DEMOGRAPHICS.categories.items():
+        for metric_name, metric in category.metrics.items():
+            if metric.type == MetricType.DISTRIBUTION:
+                # Get first column as sample
+                first_col = list(metric.columns.values())[0] if metric.columns else None
+                test_cases.append((cat_name, metric_name, first_col))
+    return test_cases
+
+
+class TestAllDemographicCategories:
+    """Parametrized tests for all 11 demographic categories.
+
+    Categories covered:
+    - race: hispanic
+    - age: median_age, over_18, over_65
+    - employment: labor_force_participation, unemployment_rate, self_employed, farmer
+    - marital_status: (distribution only)
+    - income: median_household_income, median_individual_income, six_figure_households
+    - education: college_or_above, stem_degree
+    - housing: home_ownership, median_home_value, median_rent, rent_burden, housing_units
+    - health: disabled, uninsured
+    - community: veterans, charitable_givers
+    - language: limited_english
+    - transportation: commute_time
+    """
+
+    @pytest.mark.asyncio
+    @pytest.mark.parametrize(
+        "category,metric_name,expected_column",
+        get_all_metric_test_cases(),
+        ids=lambda x: f"{x}" if not isinstance(x, tuple) else f"{x[0]}_{x[1]}",
+    )
+    async def test_query_returns_results(
+        self, db_session: AsyncSession, category: str, metric_name: str, expected_column: str
+    ):
+        """Test that each metric query returns results at STATE level."""
+        results = await query_aggregated_demographics(
+            session=db_session,
+            category=category,
+            metric_name=metric_name,
+            geography_level=GeographyLevel.STATE,
+        )
+        assert len(results) > 0, f"Should return results for {category}.{metric_name}"
+        assert hasattr(results[0], expected_column), f"Result should have column {expected_column}"
+
+    @pytest.mark.asyncio
+    @pytest.mark.parametrize(
+        "category,metric_name,expected_column",
+        get_all_metric_test_cases(),
+        ids=lambda x: f"{x}" if not isinstance(x, tuple) else f"{x[0]}_{x[1]}",
+    )
+    async def test_state_filter(
+        self, db_session: AsyncSession, category: str, metric_name: str, expected_column: str
+    ):
+        """Test that state filtering works for each metric at COUNTY level."""
+        results = await query_aggregated_demographics(
+            session=db_session,
+            category=category,
+            metric_name=metric_name,
+            geography_level=GeographyLevel.COUNTY,
+            state_names=["California"],
+        )
+        assert len(results) > 0, f"Should return California results for {category}.{metric_name}"
+        assert all(
+            r.state_name == "California" for r in results
+        ), "All results should be from California"
+
+    @pytest.mark.asyncio
+    @pytest.mark.parametrize(
+        "category,metric_name,first_column",
+        get_distribution_test_cases(),
+        ids=lambda x: f"{x}" if not isinstance(x, tuple) else f"{x[0]}_{x[1]}",
+    )
+    async def test_distribution_query_returns_results(
+        self, db_session: AsyncSession, category: str, metric_name: str, first_column: str | None
+    ):
+        """Test that distribution metrics return results with multiple columns."""
+        results = await query_aggregated_demographics(
+            session=db_session,
+            category=category,
+            metric_name=metric_name,
+            geography_level=GeographyLevel.STATE,
+        )
+        assert len(results) > 0, f"Should return results for {category}.{metric_name}"
+        if first_column:
+            assert hasattr(
+                results[0], first_column
+            ), f"Result should have distribution column {first_column}"
 
 
 @pytest_asyncio.fixture(scope="function")
@@ -54,7 +168,7 @@ class TestSpanishTutorCulturalCenter:
             category="race",
             metric_name="hispanic",
             geography_level=GeographyLevel.COUNTY,
-            state_name="Texas",  # High Hispanic population state
+            state_names=["Texas"],  # High Hispanic population state
             order_by="hispanic",
             order_desc=True,
         )
@@ -114,7 +228,7 @@ class TestSpanishTutorCulturalCenter:
             category="education",
             metric_name="college_or_above",
             geography_level=GeographyLevel.COUNTY,
-            state_name="California",  # Large diverse state
+            state_names=["California"],  # Large diverse state
             demographic_targets=[income_filter],
             order_by="education_college_or_above",
             order_desc=True,

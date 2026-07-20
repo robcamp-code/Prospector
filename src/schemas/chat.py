@@ -4,11 +4,13 @@ from datetime import datetime
 
 from pydantic import BaseModel, Field
 
+from src.schemas.report import Report
+
 
 class ClientProfileSummary(BaseModel):
     """Summary of a client profile for embedding in responses."""
 
-    id: int
+    id: str
     name: str
     business_type: str | None = None
 
@@ -58,6 +60,10 @@ class ChatResponse(BaseModel):
     message: MessageResponse = Field(..., description="The assistant's response")
     created_at: datetime | None = Field(
         default=None, description="When the conversation was created"
+    )
+    report: Report | None = Field(
+        default=None,
+        description="Demographic report, present once the profile is complete",
     )
 
 

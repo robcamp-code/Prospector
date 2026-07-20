@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.core.config import get_settings
-from src.models.uszips import USZip
+from src.core.database import USZip
 
 # Create sync engine and session for this script
 settings = get_settings()

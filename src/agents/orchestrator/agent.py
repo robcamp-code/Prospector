@@ -3,10 +3,6 @@ import json
 import pathlib
 
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
-
-from src.core.logging import configure_logging, get_logger
-
-logger = get_logger(__name__)
 from langchain_core.runnables import RunnableConfig
 from langchain.chat_models import init_chat_model
 from langgraph.graph import START, END, StateGraph
@@ -17,8 +13,8 @@ from sqlalchemy.orm import selectinload
 from sqlmodel import select
 from typing_extensions import TypedDict
 
+from src.core.logging import configure_logging, get_logger, timed
 from src.agents.orchestrator.prompts import (
-    DISCOVERY_PROMPT,
     INITIAL_MESSAGE,
     ASK_USER_FOR_MISSING_PREFERENCES,
     DEMOGRAPHIC_EXTRACTION_PROMPT,
@@ -28,9 +24,22 @@ from src.agents.orchestrator.prompts import (
 from src.agents.orchestrator.location_filters import LocationFilters
 from src.agents.orchestrator.demographics import DEMOGRAPHICS, MetricType
 from src.models import ClientProfile, DemographicTarget
+from src.core.config import get_settings
 from src.core.database import AsyncSessionLocal, get_checkpointer
 from src.core.state import ClientProfileRef, DemographicTargetRef
 from src.schemas.report import Report
+
+logger = get_logger(__name__)
+
+REPORT_OUTPUT_PATH = pathlib.Path("report_output.json")
+
+
+def save_report_json(report: Report, output_path: pathlib.Path | None = None) -> pathlib.Path:
+    """Persist a Report to disk as JSON. Returns the path written."""
+    path = output_path or REPORT_OUTPUT_PATH
+    path.write_text(report.model_dump_json(indent=2))
+    logger.info(f"save_report_json: Report written to {path.absolute()}")
+    return path
 
 
 # ANSI color codes for pretty output
@@ -89,7 +98,7 @@ class Preferences(BaseModel):
     services_products: Optional[str] = Field(default=None, description="What do they offer? What's their specialty?")
     price_point: Optional[str] = Field(default=None, description="Budget, mid-market, premium, or luxury?")
     target_customer: Optional[str] = Field(default=None, description="Who are their ideal customers? Age range? Income level? socio economic status")
-    location_preferences: Optional[str] = Field(default=None, description="Particular region, east, west cost or any states in particular? Urban, suburban, or rural areas?")
+    location_preferences: Optional[str] = Field(default=None, description="Geographic scope (metros, states, region, nationwide), area type (urban/suburban/rural), and business-specific location needs (foot traffic, parking, transit, etc.)")
 
     def is_complete(self) -> bool:
         """Check if all required preferences have been gathered."""
@@ -164,7 +173,7 @@ class Orchestrator:
 
     def __init__(self):
         """Initialize Model."""
-        self.llm = init_chat_model("openai:gpt-4.1")
+        self.llm = init_chat_model(get_settings().model)
         self.graph: StateGraph = StateGraph(GlobalState)
 
     
@@ -185,12 +194,15 @@ class Orchestrator:
             and len(client_profile.target_demographics) > 3
         )
 
-        # STEP 1: Prompt user until preferences are complete and the AI doesn't need to ask for more
+        # A pending question for the user must yield control back to the caller,
+        # regardless of how incomplete the state is — otherwise discovery loops
+        # on itself burning LLM calls without ever reaching the user.
+        if state["asked_for_more"]:
+            return END
+
+        # STEP 1: Prompt user until preferences are complete
         if not state["preferences"].is_complete():
             return "discovery"
-
-        elif state["asked_for_more"]:
-            return END
 
         # STEP 2 save a bare minimum profile
         elif not step_2_complete:
@@ -203,16 +215,17 @@ class Orchestrator:
         # STEP 4: Query node (ready to search)
         return "query_node"
     
-    def discovery_agent(self, state: GlobalState) -> dict:
+    async def discovery_agent(self, state: GlobalState) -> dict:
         """
         Chat with the user and gather business preferences incrementally.
         Uses two LLM calls: one for extraction, one for response generation.
         """
-        
+
         current_prefs = state.get("preferences") or Preferences()
-        
+
         extraction_llm = self.llm.with_structured_output(Preferences)
-        extracted = extraction_llm.invoke(state["messages"])
+        with timed("llm:discovery.extract"):
+            extracted = await extraction_llm.ainvoke(state["messages"])
 
         updated = Preferences(
             name=extracted.name or current_prefs.name,
@@ -225,7 +238,11 @@ class Orchestrator:
 
         missing = updated.missing_fields()
         if missing:
-            response = self.llm.invoke(ASK_USER_FOR_MISSING_PREFERENCES)
+            prompt = ASK_USER_FOR_MISSING_PREFERENCES.format(missing=", ".join(missing))
+            with timed("llm:discovery.respond"):
+                response = await self.llm.ainvoke(
+                    [SystemMessage(content=prompt), *state["messages"]]
+                )
             return {
                 "messages": [response],
                 "preferences": updated,
@@ -235,13 +252,6 @@ class Orchestrator:
         return {"preferences": updated, "asked_for_more": False}
 
     
-
-    def route_after_discovery(self, state: GlobalState) -> str:
-        """Route to profile_builder if preferences complete, otherwise loop back to discovery."""
-        preferences = state.get("preferences")
-        if preferences and preferences.is_complete():
-            return "profile_builder"
-        return "prompt_for_preferences"
 
     async def profile_builder(self, state: GlobalState, config: RunnableConfig) -> dict:
         """Build ClientProfile directly from preferences - no LLM needed."""
@@ -256,9 +266,10 @@ class Orchestrator:
         )
 
         # TODO: add exception handling in case of db failure
-        async with AsyncSessionLocal() as session:
-            session.add(client_profile)
-            await session.commit()
+        with timed("node:profile_builder.db_write"):
+            async with AsyncSessionLocal() as session:
+                session.add(client_profile)
+                await session.commit()
             # No refresh needed - AsyncSessionLocal uses expire_on_commit=False
 
         # Convert to serializable Pydantic model for state
@@ -299,9 +310,10 @@ class Orchestrator:
         )
 
         extraction_llm = self.llm.with_structured_output(LocationFilters)
-        filters: LocationFilters = extraction_llm.invoke(
-            [SystemMessage(content=prompt)]
-        )
+        with timed("llm:location_extraction"):
+            filters: LocationFilters = await extraction_llm.ainvoke(
+                [HumanMessage(content=prompt)]
+            )
 
         logger.info(f"_extract_location_filters: Extracted {filters.model_dump()}")
         return filters
@@ -360,9 +372,10 @@ class Orchestrator:
 
         # Call LLM with structured output
         extraction_llm = self.llm.with_structured_output(DemographicTargetsExtraction)
-        extraction_result: DemographicTargetsExtraction = extraction_llm.invoke(
-            [SystemMessage(content=prompt)]
-        )
+        with timed("llm:demographic_extraction"):
+            extraction_result: DemographicTargetsExtraction = await extraction_llm.ainvoke(
+                [HumanMessage(content=prompt)]
+            )
 
         # Handle case where LLM needs more info
         if extraction_result.needs_more_info and extraction_result.follow_up_question:
@@ -424,8 +437,8 @@ class Orchestrator:
         filters from free-form preferences.
         """
         from src.agents.sql_analyst.agent import generate_report
-        from src.agents.sql_analyst.tools import lookup_cbsa_names
         from src.agents.sql_analyst.utils import GeographyLevel
+        from src.core.region import lookup_cbsa_names
 
         client_profile = state["client_profile"]
         if not client_profile:
@@ -470,19 +483,23 @@ class Orchestrator:
         )
 
         async with AsyncSessionLocal() as session:
-            report = await generate_report(
-                session=session,
-                client_profile=client_profile,
-                geography_level=geography_level,
-                state_names=state_names,
-                region_name=region_name,
-                cbsa_names=cbsa_names,
-            )
+            with timed("node:query_node.generate_report"):
+                report = await generate_report(
+                    session=session,
+                    client_profile=client_profile,
+                    geography_level=geography_level,
+                    state_names=state_names,
+                    region_name=region_name,
+                    cbsa_names=cbsa_names,
+                )
 
         logger.info(
             f"query_node: Report generated - total_pop={report.summary.total_population}, "
             f"sections={len(report.sections)}"
         )
+
+        # Persist report JSON so every orchestrator-driven run produces the file
+        save_report_json(report)
 
         return {"report": report}
     
@@ -494,7 +511,6 @@ class Orchestrator:
         """Build graph structure without compilation."""
         graph = StateGraph(GlobalState)
 
-        graph.add_node("initial_router", self.initial_router)
         graph.add_node("discovery", self.discovery_agent)
         graph.add_node("profile_builder", self.profile_builder)
         graph.add_node("get_target_demographics", self.get_target_demographics)
@@ -626,18 +642,24 @@ class Orchestrator:
                 "report": None,
             }
         else:
-            # Resuming - just add new message; checkpointer restores rest
-            input_state = {"messages": [HumanMessage(content=message)]}
+            # Resuming - just add new message; checkpointer restores rest.
+            # The new message answers any pending question, so clear the flag.
+            input_state = {
+                "messages": [HumanMessage(content=message)],
+                "asked_for_more": False,
+            }
             # Reload profile from DB for freshness
             profile = await self._load_profile_for_thread(thread_id)
             if profile:
                 input_state["client_profile"] = profile
 
-        final_state = None
-        async for event in agent.astream(input_state, config):
-            final_state = event
+        async for _ in agent.astream(input_state, config):
+            pass
 
-        return {"thread_id": thread_id, "state": final_state}
+        # astream yields per-node partial updates; the API needs the full
+        # accumulated conversation state.
+        final = await agent.aget_state(config)
+        return {"thread_id": thread_id, "state": final.values if final else {}}
 
     async def get_history(self, thread_id: str) -> list:
         """Get conversation history for a thread.
@@ -661,14 +683,15 @@ class Orchestrator:
         state["messages"] = state.get("messages", []) + [
                 {"role": "user", "content": user_input}
             ]
+        # New user input answers any pending question; clear the flag so the
+        # router processes the message instead of ending immediately.
+        state["asked_for_more"] = False
     
     def _save_report(self, state: GlobalState) -> None:
         """Save report to JSON file if present in state."""
         report = state.get("report")
         if report:
-            output_path = pathlib.Path("report_output.json")
-            report_json = report.model_dump_json(indent=2)
-            output_path.write_text(report_json)
+            output_path = save_report_json(report)
             print(f"\n{Colors.GREEN}{Colors.BOLD}Report saved to: {output_path.absolute()}{Colors.ENDC}")
 
     async def local_chat(self):

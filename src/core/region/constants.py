@@ -78,18 +78,3 @@ REGIONS = {
 
 
 ALL_STATES = [state.value for region in REGIONS.values() for state in region]
-
-
-def get_states_by_region(region_name: str) -> list[str]:
-    """Get state names for a given region.
-
-    Example:
-        get_states_by_region("south")
-        -> ["Texas", "Oklahoma", ...]
-    """
-    region = REGIONS.get(region_name)
-
-    if not region:
-        raise ValueError(f"Unknown region: {region_name}")
-
-    return [state.value for state in region]

@@ -48,6 +48,22 @@ class DemographicMapping(BaseModel):
     def get_metric(self, category: CategoryName, metric: str) -> Metric:
         return self.categories[category].metrics[metric]
 
+    def category_for_metric(self, name: str) -> CategoryName | None:
+        """Resolve a metric key OR SQL column name to its category.
+
+        Targets may store either form (orchestrator stores metric keys like
+        'hispanic'; some persisted targets use column names like
+        'income_household_median'). All metric names are unique across
+        categories, so the lookup is unambiguous. Returns None if unknown.
+        """
+        for cat_name, cat in self.categories.items():
+            for metric_name, metric in cat.metrics.items():
+                if name == metric_name or name == metric.column:
+                    return cat_name
+                if metric.columns and name in metric.columns.values():
+                    return cat_name
+        return None
+
 
 DEMOGRAPHICS = DemographicMapping(
     categories={

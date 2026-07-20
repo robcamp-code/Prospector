@@ -14,8 +14,7 @@ from typing import AsyncGenerator
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlmodel import select
 
-from src.core.database import async_engine
-from src.models.client_profile import DemographicTarget
+from src.core.database import async_engine, DemographicTarget
 from src.schemas.charts import (
     Chart,
     DemographicReportData,
@@ -202,7 +201,7 @@ async def get_opportunity_matrix(
 async def get_full_report(
     geography_type: GeographyType,
     geography_value: str,
-    profile_id: int | None = None,
+    profile_id: str | None = None,
     session: AsyncSession | None = None,
 ) -> DemographicReportData:
     """Generate complete D3-ready demographic report.

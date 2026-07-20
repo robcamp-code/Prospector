@@ -2,14 +2,9 @@
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Annotated, Literal
+from typing import Literal
 
-from langgraph.graph.message import add_messages
 from pydantic import BaseModel, Field
-from typing_extensions import TypedDict
-
-if TYPE_CHECKING:
-    from src.schemas.report import Report
 
 
 class DemographicTargetRef(BaseModel):
@@ -37,18 +32,3 @@ class ClientProfileRef(BaseModel):
     target_income_min: int | None = None
     target_income_max: int | None = None
     target_demographics: list[DemographicTargetRef] = Field(default_factory=list)
-
-
-# TypedDict required by LangGraph StateGraph
-class GlobalState(TypedDict):
-    """Shared state for all agents.
-
-    Uses LangGraph's add_messages annotation for automatic message handling.
-    Pydantic models can be used as field types for structured data.
-    """
-
-    messages: Annotated[list, add_messages]
-    client_profile: ClientProfileRef | None
-    current_task: str | None
-    target_location: str | None
-    report: Report | None

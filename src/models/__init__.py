@@ -1,12 +1,22 @@
-"""SQLModel database models."""
+"""SQLModel database models.
 
-from src.models.base import async_engine, create_db_and_tables, get_db
-from src.models.client_profile import ClientProfile, DemographicTarget
-from src.models.uszips import USZip
+Backwards compatibility shim - imports from new location at src.core.database.
+"""
+
+from src.core.database import (
+    ClientProfile,
+    DemographicTarget,
+    DEMOGRAPHIC_KEY_MAPPING,
+    USZip,
+    async_engine,
+    create_db_and_tables,
+    get_db,
+)
 
 __all__ = [
     "ClientProfile",
     "DemographicTarget",
+    "DEMOGRAPHIC_KEY_MAPPING",
     "USZip",
     "async_engine",
     "get_db",

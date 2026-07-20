@@ -40,9 +40,9 @@ class DemographicTarget(SQLModel, table=True):
 
     # Percentage-based: target areas with >70% homeownership
     target_percentage: Optional[float] = Field(default=None)
-    
+
     # Operator: "gt", "lt", "gte", "lte", "eq"
-    percentage_operator: Optional[str] = Field(default=None, sa_column=Column(String(5)))  
+    percentage_operator: Optional[str] = Field(default=None, sa_column=Column(String(5)))
 
     # Weight for scoring (0-1)
     importance_weight: float = Field(default=0.5, ge=0, le=1)
