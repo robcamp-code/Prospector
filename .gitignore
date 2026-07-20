@@ -12,3 +12,6 @@ wheels/
 
 # Old code moved to scratch
 scratch/
+**/*.ts
+
+uszips.csv

@@ -26,4 +26,9 @@ dependencies = [
     "pytest-asyncio>=0.24.0",
     "langgraph>=0.2.0",
     "langgraph-checkpoint-postgres>=3.1.0",
+    "sqlmodel>=0.0.39",
+    "asyncpg>=0.29.0",
+    "pydantic-settings>=2.14.2",
+    "greenlet>=3.5.3",
+    "tqdm>=4.68.3",
 ]

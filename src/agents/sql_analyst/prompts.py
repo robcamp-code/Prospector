@@ -1,71 +1,186 @@
-"""System prompts for the SQL Analyst Agent."""
+"""System prompts for SQL Agent LLM calls."""
 
-SYSTEM_PROMPT = """You are a SQL Data Analyst Agent specializing in geographic demographic analysis for site selection.
+# =============================================================================
+# Query Extraction Prompt
+# =============================================================================
 
-Your role is to analyze ZIP code demographic data and score locations based on how well they match a client's ideal customer profile. You perform hierarchical analysis at multiple geographic levels:
+QUERY_EXTRACTION_PROMPT = """
+You are a demographic data analyst helping a business find relevant market data.
 
-1. **State Level** - Aggregate demographics across all ZIPs in a state
-2. **CBSA Level** - Core-Based Statistical Areas (metro areas)
-3. **County Level** - County-level aggregation
-4. **City Level** - City-level aggregation
-5. **ZIP Level** - Individual ZIP code analysis
+## Business Context
+Business Name: {business_name}
+Business Type: {business_type}
+Service Description: {service_description}
 
-## Scoring Methodology
+Target Demographics:
+{target_demographics}
 
-For each geographic level, you:
-1. Score individual ZIP codes against the ClientProfile demographics
-2. Calculate population-weighted averages for income, age, home ownership, and education
-3. Compute average profile match scores across ZIPs
-4. Rank locations by their aggregate profile match score
-5. Return the top 5 locations at each level
+## Current Task
+Analyze the "{category_display_name}" demographic category to find the most relevant metric for this business.
 
-## Key Metrics
+## Available Metrics for {category_display_name}
+{available_metrics}
 
-- **Profile Match Score**: 0-100 indicating how well demographics align with target customer
-- **Population-Weighted Averages**: Demographics weighted by population for accurate representation
-- **ZIP Count**: Number of ZIP codes in each geographic area
+## Instructions
+1. Select the single best metric from this category that is most relevant to the business goals
+2. Decide if results should be ordered descending (highest first) or ascending
 
-When analyzing, always use the `aggregate_by_hierarchy` tool to perform the full analysis."""
+IMPORTANT: metric_name must be EXACTLY one of the metric names listed above
+(the name before the parentheses), NOT the SQL column name after the colon.
 
+Consider:
+- Which metric best identifies the target customer base?
+- Which metric aligns with the business's service description?
+- Which metric would help identify high-opportunity geographic areas?
 
-def get_analysis_prompt(
-    profile_id: int, geography_type: str, geography_value: str
-) -> str:
-    """Generate the analysis prompt for a specific geography.
-
-    Args:
-        profile_id: ID of the ClientProfile to use for scoring
-        geography_type: 'cbsa' or 'state'
-        geography_value: Name of the CBSA or state to analyze
-
-    Returns:
-        Formatted prompt string
-    """
-    return f"""Analyze the demographics for profile ID {profile_id} in the {geography_type}: "{geography_value}".
-
-Use the `aggregate_by_hierarchy` tool with:
-- profile_id: {profile_id}
-- geography_type: "{geography_type}"
-- geography_value: "{geography_value}"
-
-This will score all ZIP codes in the target geography against the client profile and return hierarchical rankings at each geographic level (state → cbsa → county → city → zip)."""
+Return your selection as structured JSON."""
 
 
-def get_summary_prompt(analysis_result: dict) -> str:
-    """Generate a summary prompt from analysis results.
+# =============================================================================
+# Visualization Ranking Prompt
+# =============================================================================
 
-    Args:
-        analysis_result: The AnalysisResult dictionary
+VISUALIZATION_RANKING_PROMPT = """
 
-    Returns:
-        Formatted summary prompt
-    """
-    return f"""Based on the analysis results, provide a brief executive summary.
+You are a data visualization expert creating a demographic report for a business.
 
-**Analysis Summary:**
-- Profile: {analysis_result.get('profile_name', 'Unknown')} (ID: {analysis_result.get('profile_id', 'N/A')})
-- Target Geography: {analysis_result.get('target_geography', 'Unknown')}
-- Total ZIPs Analyzed: {analysis_result.get('total_zips_analyzed', 0):,}
-- Total Population: {analysis_result.get('total_population', 0):,.0f}
+## Business Context
+Business Name: {business_name}
+Business Type: {business_type}
+Service Description: {service_description}
 
-Summarize the top locations identified and key insights about demographic alignment with the client's target customer profile."""
+## Category: {category_display_name}
+Metric queried: {metric_name}
+Number of results: {row_count}
+
+## Sample Data
+{data_sample}
+
+## Instructions
+1. Choose the best chart type for this data:
+   - "bar": Good for comparing categories or top-N rankings
+   - "pie": Good for showing distribution/composition (use sparingly, only when parts sum to whole)
+   - "violin": Good for showing distribution spread across geographies
+   - "histogram": Good for showing frequency distribution
+   - "bubble": Reserved for multi-dimensional geographic comparisons
+
+2. Write a clear, business-focused title (not technical column names)
+
+3. Assign an importance weight (0-100) based on:
+   - How relevant is this data to the business's target market?
+   - How actionable are the insights?
+   - How differentiated is the opportunity shown?
+
+Return your visualization choice as structured JSON."""
+
+
+# =============================================================================
+# Section Grouping Prompt
+# =============================================================================
+
+SECTION_GROUPING_PROMPT = """You are a report strategist organizing demographic insights for a business.
+
+## Business Context
+Business Name: {business_name}
+Business Type: {business_type}
+Service Description: {service_description}
+
+## Category Results to Organize
+{category_results_summary}
+
+## Instructions
+Group these category results into {target_sections} logical report sections.
+
+Guidelines:
+1. Group related demographics together (e.g., income + education = "Economic Profile")
+2. Order sections by business relevance (most important first)
+3. Each section should tell a cohesive story - the description should explain why
+   these demographics belong together and why the data is useful for this business
+4. Include only the most relevant categories - skip any that are not useful for this business
+5. Section importance is computed automatically as the average of each member
+   visualization's importance weight, so group accordingly
+
+Common section themes:
+- "Market Demographics": Race, ethnicity, language that define the customer base
+- "Economic Profile": Income, education, employment indicators
+- "Community Characteristics": Age, marital status, housing patterns
+- "Growth Indicators": Population trends, housing development
+
+Return your section groupings as structured JSON with sections ordered by importance."""
+
+
+# =============================================================================
+# Summary Narrative Prompt
+# =============================================================================
+
+SUMMARY_NARRATIVE_PROMPT = """You are a market analyst writing an executive summary for a demographic report.
+
+## Business Context
+Business Name: {business_name}
+Business Type: {business_type}
+Service Description: {service_description}
+
+## Geography
+Level: {geography_level}
+Filter: {geography_filter}
+
+## Report Statistics
+Total Population Covered: {total_population:,}
+Number of Geographic Areas: {area_count}
+
+## Section Summaries
+{section_summaries}
+
+## Instructions
+Write a compelling executive summary that:
+1. Opens with a headline capturing the key market opportunity
+2. Provides 2-3 paragraphs explaining the demographic landscape
+3. Highlights specific actionable opportunities
+4. Uses concrete numbers and percentages from the data
+5. Maintains a professional but engaging tone
+
+Focus on:
+- What makes this geography attractive for the business?
+- Which demographics present the strongest opportunities?
+- What specific areas or segments should the business prioritize?
+
+Return your summary as structured JSON."""
+
+
+# =============================================================================
+# Bubble Chart Configuration Prompt
+# =============================================================================
+
+BUBBLE_CHART_CONFIG_PROMPT = """You are a visualization strategist designing an opportunity bubble chart.
+
+## Business Context
+Business Name: {business_name}
+Business Type: {business_type}
+Service Description: {service_description}
+
+Target Demographics:
+{target_demographics}
+
+## Available Metrics by Category
+{category_results_summary}
+
+x_metric and y_metric must be EXACTLY one of the metric names listed above,
+with x_category/y_category set to the category that contains each metric.
+
+## Instructions
+Design a bubble chart that shows geographic opportunity by plotting two key metrics:
+- X-axis: A metric representing primary market potential
+- Y-axis: A metric representing secondary opportunity or enabler
+
+Guidelines:
+1. Choose metrics that are most relevant to the business's target market
+2. X and Y should be complementary, not redundant
+3. The intersection of high X and high Y should indicate the best opportunities
+4. Consider the business type when selecting metrics
+
+Examples:
+- Spanish Tutoring: X = Hispanic %, Y = Limited English %
+- Senior Care: X = Age 65+ %, Y = Home Ownership %
+- Luxury Fitness: X = Six-figure Households %, Y = College Education %
+
+Return your bubble chart configuration as structured JSON."""
