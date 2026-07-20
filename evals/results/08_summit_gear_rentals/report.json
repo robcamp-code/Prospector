@@ -1,0 +1,572 @@
+{
+  "report_id": "report_393298ce",
+  "title": "Market Analysis: Summit Gear Rentals",
+  "subtitle": "Demographic insights for Metro areas: Denver-Aurora-Centennial, CO, Boulder, CO",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Denver-Aurora-Centennial, CO, Boulder, CO",
+  "client_profile_id": "108041b5-22fd-41e1-9978-4f581131c14b",
+  "summary": {
+    "total_population": 3299571,
+    "zip_count": 11,
+    "median_household_income": 109936.20524971276,
+    "median_age": 37.72218415666764,
+    "home_ownership_rate": 65.35483867448222,
+    "narrative": "Denver-Boulder's affluent, highly educated, and adventure-driven metros offer Summit Gear Rentals a 3.3 million-person market primed for premium outdoor equipment rentals and guided-trip experiences.\n\nThe Denver-Aurora-Centennial and Boulder metro areas represent one of the nation's premier outdoor recreation markets, spanning 11 geographic areas and a combined population of nearly 3.3 million residents. This region sits at the doorstep of the Rocky Mountains, where world-class skiing, mountain biking, climbing, and camping are woven into the local lifestyle. For Summit Gear Rentals, the alignment between geography and demand is exceptional: a population that both prioritizes outdoor activity and possesses the discretionary income to invest in quality gear and guided experiences. Household income and education levels—the two strongest predictors of rental revenue potential—are notably elevated across both metros, signaling clear willingness to pay for premium equipment, seasonal tune-ups, and add-on trip partnerships.\n\nThe demographic landscape reveals distinct, addressable activity segments. Younger, education-rich populations—particularly concentrated in Boulder—skew toward mountain biking, climbing, and snowboarding, while more established households in the broader Denver metro favor skiing and family camping. This age spread allows Summit to diversify its product mix rather than depend on a single season. Equally important, the region's substantial rental-housing footprint identifies a core customer base of transient and space-constrained residents who lack storage for bulky, seasonal gear—the ideal profile for a rental-first model over ownership. These renters convert storage and cost pain points into recurring rental revenue.\n\nFinally, strong labor force participation across both metros provides an income-secure, reliable customer base and a predictable rhythm of demand. Employment patterns point to concentrated peak windows—weekends, holidays, and vacation seasons—that Summit can use to time inventory, staffing, and tune-up capacity. By reading workforce timing alongside income and activity segmentation, the business can plan for winter ski surges, summer biking and camping peaks, and shoulder-season tune-up services, smoothing revenue across the calendar year.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_fcd773d3",
+      "title": "Market Opportunity: Six-Figure Households (%) vs College Educated or Above (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "College Educated or Above (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Adams, Colorado",
+          "geography_label": "Adams, Colorado",
+          "x_value": 48.08982733543846,
+          "y_value": 28.767798939935105,
+          "size_value": 550721.0,
+          "color_value": null,
+          "metadata": {
+            "population": 550721.0
+          }
+        },
+        {
+          "geography_id": "Arapahoe, Colorado",
+          "geography_label": "Arapahoe, Colorado",
+          "x_value": 51.64130671392448,
+          "y_value": 45.77509930252877,
+          "size_value": 605473.0,
+          "color_value": null,
+          "metadata": {
+            "population": 605473.0
+          }
+        },
+        {
+          "geography_id": "Boulder, Colorado",
+          "geography_label": "Boulder, Colorado",
+          "x_value": 49.69772207175999,
+          "y_value": 66.14012267920752,
+          "size_value": 285786.0,
+          "color_value": null,
+          "metadata": {
+            "population": 285786.0
+          }
+        },
+        {
+          "geography_id": "Broomfield, Colorado",
+          "geography_label": "Broomfield, Colorado",
+          "x_value": 62.171229592840284,
+          "y_value": 59.33848839496459,
+          "size_value": 81344.0,
+          "color_value": null,
+          "metadata": {
+            "population": 81344.0
+          }
+        },
+        {
+          "geography_id": "Clear Creek, Colorado",
+          "geography_label": "Clear Creek, Colorado",
+          "x_value": 62.34595871180843,
+          "y_value": 66.96063748967795,
+          "size_value": 30275.0,
+          "color_value": null,
+          "metadata": {
+            "population": 30275.0
+          }
+        },
+        {
+          "geography_id": "Denver, Colorado",
+          "geography_label": "Denver, Colorado",
+          "x_value": 47.28963834751958,
+          "y_value": 55.32470018590131,
+          "size_value": 725116.0,
+          "color_value": null,
+          "metadata": {
+            "population": 725116.0
+          }
+        },
+        {
+          "geography_id": "Douglas, Colorado",
+          "geography_label": "Douglas, Colorado",
+          "x_value": 70.68504957272272,
+          "y_value": 61.886958416667554,
+          "size_value": 373996.0,
+          "color_value": null,
+          "metadata": {
+            "population": 373996.0
+          }
+        },
+        {
+          "geography_id": "Elbert, Colorado",
+          "geography_label": "Elbert, Colorado",
+          "x_value": 64.57022462765525,
+          "y_value": 35.03987140880606,
+          "size_value": 24574.0,
+          "color_value": null,
+          "metadata": {
+            "population": 24574.0
+          }
+        },
+        {
+          "geography_id": "Gilpin, Colorado",
+          "geography_label": "Gilpin, Colorado",
+          "x_value": 45.646014632268,
+          "y_value": 50.86513284559107,
+          "size_value": 5194.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5194.0
+          }
+        },
+        {
+          "geography_id": "Jefferson, Colorado",
+          "geography_label": "Jefferson, Colorado",
+          "x_value": 53.75259529508104,
+          "y_value": 51.04508287035341,
+          "size_value": 600818.0,
+          "color_value": null,
+          "metadata": {
+            "population": 600818.0
+          }
+        },
+        {
+          "geography_id": "Park, Colorado",
+          "geography_label": "Park, Colorado",
+          "x_value": 50.132788496989065,
+          "y_value": 41.819878333538156,
+          "size_value": 16274.0,
+          "color_value": null,
+          "metadata": {
+            "population": 16274.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Economic Profile: Spending Power",
+      "subtitle": null,
+      "description": "Household income and education levels together define the discretionary spending capacity of each market. Outdoor equipment rentals, guided-trip partnerships, and premium tune-up services are discretionary purchases, so higher median incomes signal willingness to pay for quality gear and add-on experiences. Education correlates strongly with outdoor recreation participation and appreciation for specialized equipment, making these two the most important predictors of a market's revenue potential for Summit Gear Rentals.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 78.5,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_c0cbe08e",
+          "title": "Median Household Income Across Colorado Counties: Ranking High-Value Markets",
+          "subtitle": "Comparing median household income across 10 Colorado counties to identify affluent markets for premium outdoor equipment rentals",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Douglas, Colorado",
+              "value": 148287.49764971636,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Elbert, Colorado",
+              "value": 135262.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Broomfield, Colorado",
+              "value": 130902.92563680174,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Park, Colorado",
+              "value": 116143.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Arapahoe, Colorado",
+              "value": 114675.7234666778,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Boulder, Colorado",
+              "value": 110753.56698348183,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson, Colorado",
+              "value": 106222.77662796005,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams, Colorado",
+              "value": 104467.84596243715,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver, Colorado",
+              "value": 103998.49025538677,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Clear Creek, Colorado",
+              "value": 79118.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_c2a538ee",
+          "title": "College-Educated Population by County: Prioritizing Affluent Outdoor Markets",
+          "subtitle": "Percentage of residents with a college degree or above across 10 Colorado counties",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Boulder, Colorado",
+              "value": 65.0110691169242,
+              "percentage": 65.0110691169242,
+              "color": null
+            },
+            {
+              "label": "Douglas, Colorado",
+              "value": 59.96016579916955,
+              "percentage": 59.96016579916955,
+              "color": null
+            },
+            {
+              "label": "Broomfield, Colorado",
+              "value": 59.33848839496459,
+              "percentage": 59.33848839496459,
+              "color": null
+            },
+            {
+              "label": "Denver, Colorado",
+              "value": 58.854813510657586,
+              "percentage": 58.854813510657586,
+              "color": null
+            },
+            {
+              "label": "Clear Creek, Colorado",
+              "value": 50.300000000000004,
+              "percentage": 50.300000000000004,
+              "color": null
+            },
+            {
+              "label": "Arapahoe, Colorado",
+              "value": 49.92646773916953,
+              "percentage": 49.92646773916953,
+              "color": null
+            },
+            {
+              "label": "Jefferson, Colorado",
+              "value": 49.83907957678792,
+              "percentage": 49.83907957678792,
+              "color": null
+            },
+            {
+              "label": "Park, Colorado",
+              "value": 45.6,
+              "percentage": 45.6,
+              "color": null
+            },
+            {
+              "label": "Elbert, Colorado",
+              "value": 38.3,
+              "percentage": 38.3,
+              "color": null
+            },
+            {
+              "label": "Adams, Colorado",
+              "value": 31.098773581822677,
+              "percentage": 31.098773581822677,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Community Characteristics: Activity Segments & Rental Fit",
+      "subtitle": null,
+      "description": "Age distribution and housing patterns reveal both what customers want to do and whether renting fits their lifestyle. Age helps prioritize product mix—younger populations skew toward mountain biking, climbing, and snowboarding, while older segments favor skiing and camping. High rental-housing markets (reflected in rent medians) indicate more transient or space-constrained residents who lack storage for bulky gear and are ideal candidates for renting rather than owning, directly aligning with the rental business model.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 63.5,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_62d52ca1",
+          "title": "Median Age Across Colorado Counties in Summit Gear's Market",
+          "subtitle": "Comparing median age to identify counties with younger, activity-driven customer bases",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Denver, Colorado",
+              "value": 35.03265249792989,
+              "percentage": 35.03265249792989,
+              "color": null
+            },
+            {
+              "label": "Adams, Colorado",
+              "value": 35.5244942834067,
+              "percentage": 35.5244942834067,
+              "color": null
+            },
+            {
+              "label": "Park, Colorado",
+              "value": 38.29999999999999,
+              "percentage": 38.29999999999999,
+              "color": null
+            },
+            {
+              "label": "Arapahoe, Colorado",
+              "value": 38.65201221744833,
+              "percentage": 38.65201221744833,
+              "color": null
+            },
+            {
+              "label": "Broomfield, Colorado",
+              "value": 38.801149439417784,
+              "percentage": 38.801149439417784,
+              "color": null
+            },
+            {
+              "label": "Douglas, Colorado",
+              "value": 38.81072321480788,
+              "percentage": 38.81072321480788,
+              "color": null
+            },
+            {
+              "label": "Boulder, Colorado",
+              "value": 39.16130022263803,
+              "percentage": 39.16130022263803,
+              "color": null
+            },
+            {
+              "label": "Jefferson, Colorado",
+              "value": 39.994983726893864,
+              "percentage": 39.994983726893864,
+              "color": null
+            },
+            {
+              "label": "Elbert, Colorado",
+              "value": 41.9,
+              "percentage": 41.9,
+              "color": null
+            },
+            {
+              "label": "Clear Creek, Colorado",
+              "value": 43.9,
+              "percentage": 43.9,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_housing_8a2356f5",
+          "title": "Median Rent Across Colorado Counties: Gauging Local Affluence and Disposable Income",
+          "subtitle": "Comparing median monthly rent across 10 Colorado counties to identify high-disposable-income markets for outdoor gear rentals",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Park, Colorado",
+              "value": 2166.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Douglas, Colorado",
+              "value": 2121.4247872682613,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Arapahoe, Colorado",
+              "value": 2088.462399829438,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Broomfield, Colorado",
+              "value": 2076.0250786782062,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Boulder, Colorado",
+              "value": 2008.6807560605873,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson, Colorado",
+              "value": 1931.7351881334357,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams, Colorado",
+              "value": 1896.1669413308061,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver, Colorado",
+              "value": 1891.5438968980234,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Elbert, Colorado",
+              "value": 1877.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Clear Creek, Colorado",
+              "value": 1434.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Workforce & Activity Timing",
+      "subtitle": null,
+      "description": "Labor force participation reflects both income stability and the timing of leisure activity. Markets with strong employment provide a reliable, income-secure customer base for seasonal rentals and guided trips, while workforce patterns help Summit Gear Rentals anticipate peak demand windows (weekends, holidays, and vacation seasons) and staff tune-up services accordingly.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_a3462ae0",
+          "title": "Workforce Participation Across Colorado Counties",
+          "subtitle": "Labor force participation rates for top 10 Colorado markets — higher rates signal more active, income-earning residents with disposable income for recreation",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Park, Colorado",
+              "value": 81.40000000000002,
+              "percentage": 81.40000000000002,
+              "color": null
+            },
+            {
+              "label": "Denver, Colorado",
+              "value": 75.59535969243181,
+              "percentage": 75.59535969243181,
+              "color": null
+            },
+            {
+              "label": "Douglas, Colorado",
+              "value": 72.6656427276449,
+              "percentage": 72.6656427276449,
+              "color": null
+            },
+            {
+              "label": "Adams, Colorado",
+              "value": 72.53148001176466,
+              "percentage": 72.53148001176466,
+              "color": null
+            },
+            {
+              "label": "Arapahoe, Colorado",
+              "value": 72.48541808608758,
+              "percentage": 72.48541808608758,
+              "color": null
+            },
+            {
+              "label": "Broomfield, Colorado",
+              "value": 71.13232321990557,
+              "percentage": 71.13232321990557,
+              "color": null
+            },
+            {
+              "label": "Clear Creek, Colorado",
+              "value": 70.7,
+              "percentage": 70.7,
+              "color": null
+            },
+            {
+              "label": "Jefferson, Colorado",
+              "value": 69.73614076886251,
+              "percentage": 69.73614076886251,
+              "color": null
+            },
+            {
+              "label": "Boulder, Colorado",
+              "value": 69.01638929850431,
+              "percentage": 69.01638929850431,
+              "color": null
+            },
+            {
+              "label": "Elbert, Colorado",
+              "value": 67.2,
+              "percentage": 67.2,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T10:58:23.601565+00:00"
+}

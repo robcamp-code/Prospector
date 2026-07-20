@@ -1,0 +1,971 @@
+{
+  "report_id": "report_61d78a05",
+  "title": "Market Analysis: Hearth & Home Family Diner",
+  "subtitle": "Demographic insights for States: Ohio",
+  "geography_type": "state",
+  "geography_value": "States: Ohio",
+  "client_profile_id": "de04707a-0eaa-4304-b7af-40e4bf9775a7",
+  "summary": {
+    "total_population": 11810293,
+    "zip_count": 88,
+    "median_household_income": 75741.90429500776,
+    "median_age": 40.07423212108285,
+    "home_ownership_rate": 67.81890932765174,
+    "narrative": "Ohio's 11.8 million residents span an ideal demographic mix—family-dense neighborhoods and senior-rich communities across 88 counties—perfectly aligned with Hearth & Home's dual promotional strategy.\n\nOhio presents a uniquely favorable landscape for a value-priced family diner. With a total population of 11,810,293 spread across 88 geographic areas, the state offers both the density and the demographic diversity that Hearth & Home Family Diner is built to serve. The concept's twin promotional pillars—kids-eat-free night and senior discounts—map directly onto Ohio's age structure, where seniors (65+) range dramatically from 9.8% to 35.7% depending on the county. This spread means the state contains both youthful, family-heavy markets that respond to the kids-eat-free draw and mature communities where senior-discount messaging will resonate strongly. Few concepts are as naturally suited to serve both ends of this spectrum.\n\nThe economic fundamentals reinforce the fit. Median household income ranges from $42,500 to $73,603, squarely in the sweet spot for a $10–$15 per-person comfort-food menu. Value-priced dining is not merely tolerable in these communities—it is the natural choice for households managing everyday budgets. Labor force participation between 42.8% and 70.5% further signals where active working populations will drive reliable weekday lunch and evening traffic, while lower-participation, senior-weighted areas point toward off-peak daytime demand that pairs neatly with senior-discount hours.\n\nCommunity stability seals the case. Home-ownership rates from 71.1% up to 100% describe deeply rooted, settled neighborhoods—precisely the repeat-visit customers a neighborhood comfort-food spot depends on. Established, family-rooted households form the loyal customer base that sustains a local diner year after year. Together, Ohio's age diversity, budget-friendly income profile, and high residential stability create an environment where Hearth & Home can win on both value and community loyalty.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_e4aefabd",
+      "title": "Market Opportunity: Population Age 65+ (%) vs Home Ownership Rate (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Population Age 65+ (%)",
+        "y_axis_label": "Home Ownership Rate (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Putnam, Ohio",
+          "geography_label": "Putnam, Ohio",
+          "x_value": 18.988033589923024,
+          "y_value": 87.04831070678796,
+          "size_value": 35725.0,
+          "color_value": null,
+          "metadata": {
+            "population": 35725.0
+          }
+        },
+        {
+          "geography_id": "Allen, Ohio",
+          "geography_label": "Allen, Ohio",
+          "x_value": 19.312093721506393,
+          "y_value": 67.97126002744596,
+          "size_value": 108577.0,
+          "color_value": null,
+          "metadata": {
+            "population": 108577.0
+          }
+        },
+        {
+          "geography_id": "Hancock, Ohio",
+          "geography_label": "Hancock, Ohio",
+          "x_value": 18.27615886360342,
+          "y_value": 70.34062907667779,
+          "size_value": 68990.0,
+          "color_value": null,
+          "metadata": {
+            "population": 68990.0
+          }
+        },
+        {
+          "geography_id": "Seneca, Ohio",
+          "geography_label": "Seneca, Ohio",
+          "x_value": 19.82127125963327,
+          "y_value": 73.99923598192932,
+          "size_value": 60208.0,
+          "color_value": null,
+          "metadata": {
+            "population": 60208.0
+          }
+        },
+        {
+          "geography_id": "Fayette, Ohio",
+          "geography_label": "Fayette, Ohio",
+          "x_value": 18.423712259214756,
+          "y_value": 62.88234952133638,
+          "size_value": 25801.0,
+          "color_value": null,
+          "metadata": {
+            "population": 25801.0
+          }
+        },
+        {
+          "geography_id": "Butler, Ohio",
+          "geography_label": "Butler, Ohio",
+          "x_value": 15.72677893774681,
+          "y_value": 69.73785952335714,
+          "size_value": 389474.0,
+          "color_value": null,
+          "metadata": {
+            "population": 389474.0
+          }
+        },
+        {
+          "geography_id": "Union, Ohio",
+          "geography_label": "Union, Ohio",
+          "x_value": 13.984481759159067,
+          "y_value": 76.70381627763179,
+          "size_value": 51752.0,
+          "color_value": null,
+          "metadata": {
+            "population": 51752.0
+          }
+        },
+        {
+          "geography_id": "Clark, Ohio",
+          "geography_label": "Clark, Ohio",
+          "x_value": 20.28870210319374,
+          "y_value": 69.76028561890277,
+          "size_value": 134795.0,
+          "color_value": null,
+          "metadata": {
+            "population": 134795.0
+          }
+        },
+        {
+          "geography_id": "Champaign, Ohio",
+          "geography_label": "Champaign, Ohio",
+          "x_value": 19.928240272528875,
+          "y_value": 77.48301485069463,
+          "size_value": 37574.0,
+          "color_value": null,
+          "metadata": {
+            "population": 37574.0
+          }
+        },
+        {
+          "geography_id": "Williams, Ohio",
+          "geography_label": "Williams, Ohio",
+          "x_value": 20.208924588422732,
+          "y_value": 76.8917843866171,
+          "size_value": 37660.0,
+          "color_value": null,
+          "metadata": {
+            "population": 37660.0
+          }
+        },
+        {
+          "geography_id": "Ross, Ohio",
+          "geography_label": "Ross, Ohio",
+          "x_value": 17.905178791615292,
+          "y_value": 69.41678930830116,
+          "size_value": 75423.0,
+          "color_value": null,
+          "metadata": {
+            "population": 75423.0
+          }
+        },
+        {
+          "geography_id": "Stark, Ohio",
+          "geography_label": "Stark, Ohio",
+          "x_value": 20.468219738223834,
+          "y_value": 68.80811093872298,
+          "size_value": 359009.0,
+          "color_value": null,
+          "metadata": {
+            "population": 359009.0
+          }
+        },
+        {
+          "geography_id": "Hamilton, Ohio",
+          "geography_label": "Hamilton, Ohio",
+          "x_value": 16.712876305191326,
+          "y_value": 60.1336132538715,
+          "size_value": 842501.0,
+          "color_value": null,
+          "metadata": {
+            "population": 842501.0
+          }
+        },
+        {
+          "geography_id": "Jackson, Ohio",
+          "geography_label": "Jackson, Ohio",
+          "x_value": 17.89862870173492,
+          "y_value": 74.19510030507536,
+          "size_value": 32451.0,
+          "color_value": null,
+          "metadata": {
+            "population": 32451.0
+          }
+        },
+        {
+          "geography_id": "Hardin, Ohio",
+          "geography_label": "Hardin, Ohio",
+          "x_value": 16.782065169657756,
+          "y_value": 75.1690605146822,
+          "size_value": 34157.0,
+          "color_value": null,
+          "metadata": {
+            "population": 34157.0
+          }
+        },
+        {
+          "geography_id": "Madison, Ohio",
+          "geography_label": "Madison, Ohio",
+          "x_value": 14.842957449796375,
+          "y_value": 79.43923781772223,
+          "size_value": 56968.0,
+          "color_value": null,
+          "metadata": {
+            "population": 56968.0
+          }
+        },
+        {
+          "geography_id": "Lorain, Ohio",
+          "geography_label": "Lorain, Ohio",
+          "x_value": 19.637370655906537,
+          "y_value": 74.3795014993356,
+          "size_value": 307803.0,
+          "color_value": null,
+          "metadata": {
+            "population": 307803.0
+          }
+        },
+        {
+          "geography_id": "Portage, Ohio",
+          "geography_label": "Portage, Ohio",
+          "x_value": 18.337765129801,
+          "y_value": 69.59223767797184,
+          "size_value": 170954.0,
+          "color_value": null,
+          "metadata": {
+            "population": 170954.0
+          }
+        },
+        {
+          "geography_id": "Cuyahoga, Ohio",
+          "geography_label": "Cuyahoga, Ohio",
+          "x_value": 19.509575747310024,
+          "y_value": 60.62036171618639,
+          "size_value": 1251589.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1251589.0
+          }
+        },
+        {
+          "geography_id": "Jefferson, Ohio",
+          "geography_label": "Jefferson, Ohio",
+          "x_value": 22.45834735521767,
+          "y_value": 70.33616728362958,
+          "size_value": 65374.0,
+          "color_value": null,
+          "metadata": {
+            "population": 65374.0
+          }
+        },
+        {
+          "geography_id": "Vinton, Ohio",
+          "geography_label": "Vinton, Ohio",
+          "x_value": 20.048990898298378,
+          "y_value": 74.1804590423427,
+          "size_value": 12635.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12635.0
+          }
+        },
+        {
+          "geography_id": "Darke, Ohio",
+          "geography_label": "Darke, Ohio",
+          "x_value": 20.425407454443995,
+          "y_value": 73.03959090996555,
+          "size_value": 51969.0,
+          "color_value": null,
+          "metadata": {
+            "population": 51969.0
+          }
+        },
+        {
+          "geography_id": "Clinton, Ohio",
+          "geography_label": "Clinton, Ohio",
+          "x_value": 18.235906370243697,
+          "y_value": 73.99853997434802,
+          "size_value": 46780.0,
+          "color_value": null,
+          "metadata": {
+            "population": 46780.0
+          }
+        },
+        {
+          "geography_id": "Monroe, Ohio",
+          "geography_label": "Monroe, Ohio",
+          "x_value": 23.920324296499654,
+          "y_value": 78.4161976664379,
+          "size_value": 11656.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11656.0
+          }
+        },
+        {
+          "geography_id": "Defiance, Ohio",
+          "geography_label": "Defiance, Ohio",
+          "x_value": 20.55986392770831,
+          "y_value": 79.70954870232218,
+          "size_value": 38068.0,
+          "color_value": null,
+          "metadata": {
+            "population": 38068.0
+          }
+        },
+        {
+          "geography_id": "Hocking, Ohio",
+          "geography_label": "Hocking, Ohio",
+          "x_value": 17.863776749566224,
+          "y_value": 73.18252458068248,
+          "size_value": 34580.0,
+          "color_value": null,
+          "metadata": {
+            "population": 34580.0
+          }
+        },
+        {
+          "geography_id": "Meigs, Ohio",
+          "geography_label": "Meigs, Ohio",
+          "x_value": 20.957103634957463,
+          "y_value": 76.84594354215004,
+          "size_value": 25860.0,
+          "color_value": null,
+          "metadata": {
+            "population": 25860.0
+          }
+        },
+        {
+          "geography_id": "Coshocton, Ohio",
+          "geography_label": "Coshocton, Ohio",
+          "x_value": 20.86429418390941,
+          "y_value": 73.02694017904784,
+          "size_value": 33734.0,
+          "color_value": null,
+          "metadata": {
+            "population": 33734.0
+          }
+        },
+        {
+          "geography_id": "Morgan, Ohio",
+          "geography_label": "Morgan, Ohio",
+          "x_value": 20.438205201080006,
+          "y_value": 75.9819525365923,
+          "size_value": 14074.0,
+          "color_value": null,
+          "metadata": {
+            "population": 14074.0
+          }
+        },
+        {
+          "geography_id": "Highland, Ohio",
+          "geography_label": "Highland, Ohio",
+          "x_value": 19.265963445003052,
+          "y_value": 73.86243010853732,
+          "size_value": 42566.0,
+          "color_value": null,
+          "metadata": {
+            "population": 42566.0
+          }
+        },
+        {
+          "geography_id": "Muskingum, Ohio",
+          "geography_label": "Muskingum, Ohio",
+          "x_value": 18.6098312713357,
+          "y_value": 68.63583309777998,
+          "size_value": 91982.0,
+          "color_value": null,
+          "metadata": {
+            "population": 91982.0
+          }
+        },
+        {
+          "geography_id": "Adams, Ohio",
+          "geography_label": "Adams, Ohio",
+          "x_value": 18.5475089466314,
+          "y_value": 74.36507857476273,
+          "size_value": 32135.0,
+          "color_value": null,
+          "metadata": {
+            "population": 32135.0
+          }
+        },
+        {
+          "geography_id": "Harrison, Ohio",
+          "geography_label": "Harrison, Ohio",
+          "x_value": 22.519540399204537,
+          "y_value": 76.15965971864182,
+          "size_value": 13577.0,
+          "color_value": null,
+          "metadata": {
+            "population": 13577.0
+          }
+        },
+        {
+          "geography_id": "Pickaway, Ohio",
+          "geography_label": "Pickaway, Ohio",
+          "x_value": 16.91149198054013,
+          "y_value": 75.86975812690173,
+          "size_value": 58171.0,
+          "color_value": null,
+          "metadata": {
+            "population": 58171.0
+          }
+        },
+        {
+          "geography_id": "Gallia, Ohio",
+          "geography_label": "Gallia, Ohio",
+          "x_value": 20.177522825975448,
+          "y_value": 75.50316998939918,
+          "size_value": 29243.0,
+          "color_value": null,
+          "metadata": {
+            "population": 29243.0
+          }
+        },
+        {
+          "geography_id": "Geauga, Ohio",
+          "geography_label": "Geauga, Ohio",
+          "x_value": 21.784730243077664,
+          "y_value": 86.29582024988473,
+          "size_value": 91082.0,
+          "color_value": null,
+          "metadata": {
+            "population": 91082.0
+          }
+        },
+        {
+          "geography_id": "Wood, Ohio",
+          "geography_label": "Wood, Ohio",
+          "x_value": 16.844541190710345,
+          "y_value": 62.9592329223088,
+          "size_value": 132190.0,
+          "color_value": null,
+          "metadata": {
+            "population": 132190.0
+          }
+        },
+        {
+          "geography_id": "Noble, Ohio",
+          "geography_label": "Noble, Ohio",
+          "x_value": 28.204618629173993,
+          "y_value": 79.67862214411245,
+          "size_value": 14225.0,
+          "color_value": null,
+          "metadata": {
+            "population": 14225.0
+          }
+        },
+        {
+          "geography_id": "Athens, Ohio",
+          "geography_label": "Athens, Ohio",
+          "x_value": 15.535372395490228,
+          "y_value": 60.670419168439075,
+          "size_value": 53129.0,
+          "color_value": null,
+          "metadata": {
+            "population": 53129.0
+          }
+        },
+        {
+          "geography_id": "Marion, Ohio",
+          "geography_label": "Marion, Ohio",
+          "x_value": 18.863251332638928,
+          "y_value": 67.35965627106182,
+          "size_value": 65284.0,
+          "color_value": null,
+          "metadata": {
+            "population": 65284.0
+          }
+        },
+        {
+          "geography_id": "Lucas, Ohio",
+          "geography_label": "Lucas, Ohio",
+          "x_value": 17.50179474913338,
+          "y_value": 62.553099689170935,
+          "size_value": 424349.0,
+          "color_value": null,
+          "metadata": {
+            "population": 424349.0
+          }
+        },
+        {
+          "geography_id": "Clermont, Ohio",
+          "geography_label": "Clermont, Ohio",
+          "x_value": 18.139997833074506,
+          "y_value": 74.69376738054822,
+          "size_value": 221512.0,
+          "color_value": null,
+          "metadata": {
+            "population": 221512.0
+          }
+        },
+        {
+          "geography_id": "Washington, Ohio",
+          "geography_label": "Washington, Ohio",
+          "x_value": 22.20449605088418,
+          "y_value": 76.4961068008667,
+          "size_value": 57228.0,
+          "color_value": null,
+          "metadata": {
+            "population": 57228.0
+          }
+        },
+        {
+          "geography_id": "Brown, Ohio",
+          "geography_label": "Brown, Ohio",
+          "x_value": 19.055459126539752,
+          "y_value": 76.79724880382776,
+          "size_value": 39292.0,
+          "color_value": null,
+          "metadata": {
+            "population": 39292.0
+          }
+        },
+        {
+          "geography_id": "Paulding, Ohio",
+          "geography_label": "Paulding, Ohio",
+          "x_value": 18.104464186563018,
+          "y_value": 79.35619100499723,
+          "size_value": 18010.0,
+          "color_value": null,
+          "metadata": {
+            "population": 18010.0
+          }
+        },
+        {
+          "geography_id": "Mahoning, Ohio",
+          "geography_label": "Mahoning, Ohio",
+          "x_value": 22.44945648062864,
+          "y_value": 69.5129928494832,
+          "size_value": 224739.0,
+          "color_value": null,
+          "metadata": {
+            "population": 224739.0
+          }
+        },
+        {
+          "geography_id": "Auglaize, Ohio",
+          "geography_label": "Auglaize, Ohio",
+          "x_value": 19.50292816098281,
+          "y_value": 79.77878074018626,
+          "size_value": 45421.0,
+          "color_value": null,
+          "metadata": {
+            "population": 45421.0
+          }
+        },
+        {
+          "geography_id": "Pike, Ohio",
+          "geography_label": "Pike, Ohio",
+          "x_value": 19.731876861966235,
+          "y_value": 67.31175935120821,
+          "size_value": 24168.0,
+          "color_value": null,
+          "metadata": {
+            "population": 24168.0
+          }
+        },
+        {
+          "geography_id": "Huron, Ohio",
+          "geography_label": "Huron, Ohio",
+          "x_value": 19.44299697552928,
+          "y_value": 75.94377921363761,
+          "size_value": 72740.0,
+          "color_value": null,
+          "metadata": {
+            "population": 72740.0
+          }
+        },
+        {
+          "geography_id": "Henry, Ohio",
+          "geography_label": "Henry, Ohio",
+          "x_value": 19.883907624633434,
+          "y_value": 82.71386363636363,
+          "size_value": 27280.0,
+          "color_value": null,
+          "metadata": {
+            "population": 27280.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Target Customer Age Profile",
+      "subtitle": null,
+      "description": "Age distribution is the single most important factor for this diner, whose core promotions—kids-eat-free night and senior discounts—directly target both ends of the age spectrum. The senior population (65+ ranging from 9.8% to 35.7% across areas) reveals where senior-discount marketing will land best, while overall age structure identifies family-heavy neighborhoods ideal for the kids-eat-free draw. This lets the business prioritize locations and tailor promotions to the dominant age groups.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 88.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_76a6ec5f",
+          "title": "Top Ohio Communities by Senior Population (Age 65+)",
+          "subtitle": "Ranking locations by share of residents aged 65 and older — prime markets for senior discount offerings",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Athens, Ohio",
+              "value": 35.7,
+              "percentage": 35.7,
+              "color": null
+            },
+            {
+              "label": "Huron, Ohio",
+              "value": 34.7,
+              "percentage": 34.7,
+              "color": null
+            },
+            {
+              "label": "Morrow, Ohio",
+              "value": 30.6,
+              "percentage": 30.6,
+              "color": null
+            },
+            {
+              "label": "Coshocton, Ohio",
+              "value": 30.0,
+              "percentage": 30.0,
+              "color": null
+            },
+            {
+              "label": "Franklin, Ohio",
+              "value": 29.4,
+              "percentage": 29.4,
+              "color": null
+            },
+            {
+              "label": "Tuscarawas, Ohio",
+              "value": 25.2,
+              "percentage": 25.2,
+              "color": null
+            },
+            {
+              "label": "Guernsey, Ohio",
+              "value": 25.140390625,
+              "percentage": 25.140390625,
+              "color": null
+            },
+            {
+              "label": "Ross, Ohio",
+              "value": 23.7,
+              "percentage": 23.7,
+              "color": null
+            },
+            {
+              "label": "Auglaize, Ohio",
+              "value": 21.2,
+              "percentage": 21.2,
+              "color": null
+            },
+            {
+              "label": "Wyandot, Ohio",
+              "value": 20.764150943396228,
+              "percentage": 20.764150943396228,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Community Stability & Household Foundations",
+      "subtitle": null,
+      "description": "Home ownership (71.1% to 100%) and education levels together describe how settled and family-rooted a neighborhood is. High home-ownership areas signal established households and families who make repeat visits to a local comfort-food spot, while education composition helps characterize the community and refine local messaging. Together they identify stable, loyal-customer markets that suit a neighborhood family diner.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_housing_6c120bd0",
+          "title": "Top Communities by Home Ownership Rate",
+          "subtitle": "Identifying settled, family-oriented neighborhoods across Ohio counties",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Ross, Ohio",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Muskingum, Ohio",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Scioto, Ohio",
+              "value": 96.6,
+              "percentage": 96.6,
+              "color": null
+            },
+            {
+              "label": "Athens, Ohio",
+              "value": 92.2,
+              "percentage": 92.2,
+              "color": null
+            },
+            {
+              "label": "Lawrence, Ohio",
+              "value": 92.09999999999998,
+              "percentage": 92.09999999999998,
+              "color": null
+            },
+            {
+              "label": "Morgan, Ohio",
+              "value": 86.5,
+              "percentage": 86.5,
+              "color": null
+            },
+            {
+              "label": "Wood, Ohio",
+              "value": 84.40000000000002,
+              "percentage": 84.40000000000002,
+              "color": null
+            },
+            {
+              "label": "Wyandot, Ohio",
+              "value": 83.63537735849056,
+              "percentage": 83.63537735849056,
+              "color": null
+            },
+            {
+              "label": "Meigs, Ohio",
+              "value": 83.5,
+              "percentage": 83.5,
+              "color": null
+            },
+            {
+              "label": "Guernsey, Ohio",
+              "value": 82.973671875,
+              "percentage": 82.973671875,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_fd0184c9",
+          "title": "Educational Attainment Spread Across Target Communities",
+          "subtitle": "Distribution of education levels across 20 Ohio areas, highlighting the high-school-educated majority",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Category",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Less Than High School",
+              "value": 13.098023139291245,
+              "percentage": 13.098023139291245,
+              "color": null
+            },
+            {
+              "label": "High School",
+              "value": 45.27573562904254,
+              "percentage": 45.27573562904254,
+              "color": null
+            },
+            {
+              "label": "Some College",
+              "value": 28.894383711396557,
+              "percentage": 28.894383711396557,
+              "color": null
+            },
+            {
+              "label": "Bachelors",
+              "value": 8.689623758768334,
+              "percentage": 8.689623758768334,
+              "color": null
+            },
+            {
+              "label": "Graduate",
+              "value": 4.061578755579849,
+              "percentage": 4.061578755579849,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Economic Profile & Spending Capacity",
+      "subtitle": null,
+      "description": "Median household income ($42,500 to $73,603) and labor force participation (42.8% to 70.5%) reveal a community's disposable income and working-population patterns. For an affordable $10-$15 per-person comfort food concept, these indicators confirm that value-priced dining fits local budgets and highlight areas with active working populations who drive weekday lunch and evening traffic.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 50.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_ba76f1b3",
+          "title": "Top Ohio Counties by Median Household Income",
+          "subtitle": "Ranking prospective service areas by household spending power",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Meigs, Ohio",
+              "value": 73603.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Muskingum, Ohio",
+              "value": 73328.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Athens, Ohio",
+              "value": 72518.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Huron, Ohio",
+              "value": 70076.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Wyandot, Ohio",
+              "value": 68749.31132075471,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Auglaize, Ohio",
+              "value": 67500.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Wood, Ohio",
+              "value": 66250.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Paulding, Ohio",
+              "value": 65750.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lawrence, Ohio",
+              "value": 64632.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Ross, Ohio",
+              "value": 64438.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_employment_3a048815",
+          "title": "Workforce Activity Across Ohio Communities",
+          "subtitle": "Comparing labor force participation rates to identify markets with busy, working-age populations",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Auglaize, Ohio",
+              "value": 70.50000000000001,
+              "percentage": 70.50000000000001,
+              "color": null
+            },
+            {
+              "label": "Paulding, Ohio",
+              "value": 69.9,
+              "percentage": 69.9,
+              "color": null
+            },
+            {
+              "label": "Holmes, Ohio",
+              "value": 69.1,
+              "percentage": 69.1,
+              "color": null
+            },
+            {
+              "label": "Muskingum, Ohio",
+              "value": 68.3,
+              "percentage": 68.3,
+              "color": null
+            },
+            {
+              "label": "Jackson, Ohio",
+              "value": 67.4,
+              "percentage": 67.4,
+              "color": null
+            },
+            {
+              "label": "Hamilton, Ohio",
+              "value": 64.8,
+              "percentage": 64.8,
+              "color": null
+            },
+            {
+              "label": "Wood, Ohio",
+              "value": 60.5,
+              "percentage": 60.5,
+              "color": null
+            },
+            {
+              "label": "Huron, Ohio",
+              "value": 60.5,
+              "percentage": 60.5,
+              "color": null
+            },
+            {
+              "label": "Scioto, Ohio",
+              "value": 59.0,
+              "percentage": 59.0,
+              "color": null
+            },
+            {
+              "label": "Wyandot, Ohio",
+              "value": 58.883962264150945,
+              "percentage": 58.883962264150945,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T11:09:42.200885+00:00"
+}

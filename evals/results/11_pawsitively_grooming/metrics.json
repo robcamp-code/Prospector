@@ -1,0 +1,84 @@
+{
+  "business_id": "11_pawsitively_grooming",
+  "status": "complete",
+  "thread_id": "1f29c327-b8a3-413c-a949-7bd5b49bfe37",
+  "latency": {
+    "total_seconds": 73.0,
+    "stages": {
+      "llm:discovery.extract": 5.3,
+      "node:profile_builder.db_write": 0.0,
+      "llm:demographic_extraction": 10.9,
+      "llm:location_extraction": 2.9,
+      "llm:age.extract": 4.1,
+      "db:age.query": 0.0,
+      "llm:income.extract": 4.5,
+      "db:income.query": 0.0,
+      "llm:employment.extract": 4.8,
+      "db:employment.query": 0.0,
+      "llm:income.visualize": 6.6,
+      "category:income": 11.1,
+      "llm:age.visualize": 8.3,
+      "category:age": 12.4,
+      "llm:employment.visualize": 7.6,
+      "category:employment": 12.4,
+      "llm:education.extract": 3.6,
+      "db:education.query": 0.0,
+      "llm:housing.extract": 5.6,
+      "db:housing.query": 0.0,
+      "llm:education.visualize": 7.0,
+      "category:education": 10.7,
+      "llm:housing.visualize": 5.4,
+      "category:housing": 11.1,
+      "llm:group_sections": 14.5,
+      "db:population_totals": 0.0,
+      "db:summary.median_household_income": 0.0,
+      "db:summary.median_age": 0.0,
+      "db:summary.home_ownership": 0.0,
+      "llm:bubble_chart_config": 9.6,
+      "db:bubble_chart.x_query": 0.1,
+      "db:bubble_chart.y_query": 0.0,
+      "llm:summary_narrative": 15.8,
+      "node:query_node.generate_report": 53.8
+    }
+  },
+  "tokens": {
+    "input_tokens": 23909,
+    "output_tokens": 7477,
+    "total_tokens": 31386,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 23909,
+        "output_tokens": 7477,
+        "total_tokens": 31386
+      }
+    }
+  },
+  "tool_selection": {
+    "categories_attempted": 5,
+    "metric_valid_first_try": 5,
+    "metric_rescued": 0,
+    "metric_unresolvable": 0,
+    "query_failures": 0,
+    "zero_row_queries": 0,
+    "first_try_valid_rate": 1.0,
+    "query_success_rate": 1.0
+  },
+  "judge": {
+    "overall_quality": 7,
+    "section_relevance": 8,
+    "narrative_quality": 6,
+    "data_plausibility": 5,
+    "visualization_appropriateness": 7,
+    "tool_selection_relevance": 8,
+    "reasoning": "Section relevance is strong: all four sections (income/education spending power, home value/stability, labor-force participation for daycare/boarding demand, and life-stage age) map cleanly onto the brief's ideal customer of affluent, working, homeowning pet parents. Tool selection is likewise well-matched\u2014income, education, home value, labor-force participation, homeownership, and six-figure household share are exactly the metrics that separate premium pet-spa markets. Minor gap: no direct data on the presence of children/family households or actual pet-ownership proxies, and nothing on lease/commercial rent to check the $4,500\u2013$7,000 budget constraint the owner explicitly named.\n\nData plausibility is the weakest dimension and drags the overall score. Several values are implausible for the Nashville metro: Williamson County median home value of ~$767K and Davidson at ~$657K are far above ACS reality (Williamson is closer to ~$600K, Davidson ~$350\u2013400K), and college-degree rates of ~65% for Davidson AND Williamson being nearly identical is suspect (Williamson is much more educated than Davidson). The bubble chart also shows Bedford County at 95.3% homeownership on a suspiciously round size_value of 5,000 population (Bedford has ~50K residents), and Lewis County at 1,460 population\u2014both look like truncated/placeholder artifacts. Metro median household income of ~$89.6K is plausible.\n\nVisualizations: bar charts for county rankings of income, education, home value, labor force, and age are appropriate categorical comparisons, and the bubble chart (six-figure households % vs homeownership %, sized by population) is a genuinely good multi-dimensional opportunity view. Slight ding because the bubble chart mixes tiny rural counties with Davidson, making the affluent target counties (Williamson, Wilson) oddly absent from the plotted set.\n\nNarrative is fluent and ties to the multi-service model, but leans generic ('demographic trifecta,' 'ability to pay and genuine need') and rarely cites specific numbers from the charts\u2014it names Franklin/Brentwood but doesn't quantify them, reducing actionability. It also never addresses the specific suburban site-selection ask (which ZIPs/corridors near vet clinics), so it helps prioritize counties but stops short of picking a location.",
+    "judge_tokens": {
+      "input_tokens": 6654,
+      "output_tokens": 961,
+      "total_tokens": 7615
+    }
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-20T11:02:19.988228+00:00"
+}

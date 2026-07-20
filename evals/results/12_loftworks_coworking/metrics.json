@@ -1,0 +1,88 @@
+{
+  "business_id": "12_loftworks_coworking",
+  "status": "complete",
+  "thread_id": "3b18fbf4-0bd3-4c41-a8f5-70bbc5e4ac8d",
+  "latency": {
+    "total_seconds": 80.0,
+    "stages": {
+      "llm:discovery.extract": 4.4,
+      "node:profile_builder.db_write": 0.0,
+      "llm:demographic_extraction": 10.6,
+      "llm:location_extraction": 3.2,
+      "llm:employment.extract": 4.0,
+      "db:employment.query": 0.0,
+      "llm:age.extract": 4.5,
+      "db:age.query": 0.0,
+      "llm:income.extract": 6.4,
+      "db:income.query": 0.0,
+      "llm:age.visualize": 6.6,
+      "category:age": 11.1,
+      "llm:employment.visualize": 7.3,
+      "category:employment": 11.4,
+      "llm:income.visualize": 6.4,
+      "category:income": 12.8,
+      "llm:education.extract": 4.7,
+      "db:education.query": 0.0,
+      "llm:housing.extract": 5.0,
+      "db:housing.query": 0.0,
+      "llm:transportation.extract": 4.2,
+      "db:transportation.query": 0.0,
+      "llm:education.visualize": 5.8,
+      "category:education": 10.5,
+      "llm:transportation.visualize": 5.9,
+      "category:transportation": 10.1,
+      "llm:housing.visualize": 11.5,
+      "category:housing": 16.6,
+      "llm:group_sections": 18.4,
+      "db:population_totals": 0.0,
+      "db:summary.median_household_income": 0.0,
+      "db:summary.median_age": 0.0,
+      "db:summary.home_ownership": 0.0,
+      "llm:bubble_chart_config": 9.1,
+      "db:bubble_chart.x_query": 0.0,
+      "db:bubble_chart.y_query": 0.0,
+      "llm:summary_narrative": 15.3,
+      "node:query_node.generate_report": 61.7
+    }
+  },
+  "tokens": {
+    "input_tokens": 26699,
+    "output_tokens": 8124,
+    "total_tokens": 34823,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 26699,
+        "output_tokens": 8124,
+        "total_tokens": 34823
+      }
+    }
+  },
+  "tool_selection": {
+    "categories_attempted": 6,
+    "metric_valid_first_try": 6,
+    "metric_rescued": 0,
+    "metric_unresolvable": 0,
+    "query_failures": 0,
+    "zero_row_queries": 0,
+    "first_try_valid_rate": 1.0,
+    "query_success_rate": 1.0
+  },
+  "judge": {
+    "overall_quality": 5,
+    "section_relevance": 8,
+    "narrative_quality": 5,
+    "data_plausibility": 4,
+    "visualization_appropriateness": 7,
+    "tool_selection_relevance": 8,
+    "reasoning": "Section relevance is strong: the four sections (self-employment/freelancer concentration, education+income economic profile, age/life-stage, and rent+commute for site feasibility) map directly to a creative coworking brief targeting freelancers 24-45. Tool selection is likewise well-matched \u2014 self-employment rate as the lead demand signal, college attainment, individual income, median age, rent, and commute are exactly the right metrics; the main gap is that the analysis stays at the county (CBSA-component) level and never drills into the actual target neighborhoods (Williamsburg/Bushwick, i.e., ZIP-level within Kings County), which is where the owner actually needs to pick a location.\n\nData plausibility is the weakest area and drags down overall usefulness. The opportunity bubble chart contains clearly broken values: multiple large counties (Union, Monmouth, Middlesex, Hunterdon, Ocean) show self-employment = 0.0%, which is impossible, and 'Bucks, Pennsylvania' appears with a population of just 262 (vs. ~640k real) and isn't even part of the NY-Newark-Jersey City CBSA \u2014 a geography mismatch. The county-level self-employment figures in Section 1 (~19% for Queens/Kings/NY) are on the high side but defensible; rents (~$2,300-$2,730) and median individual incomes ($70k-$78k) and median ages (34-38) are plausible. But the summary median household income of $107,763 alongside individual medians ~$78k, and the 0% outliers, undermine confidence.\n\nNarrative quality is generic and, worse, disconnected from the data actually shown: it repeatedly describes what metrics 'reveal' without citing a single specific number, neighborhood, or recommendation. Despite the brief naming Williamsburg/Bushwick, the narrative never mentions Brooklyn/Kings specifically as the recommendation, offers no site verdict, and doesn't reconcile the $200-450 pricing or $15-25k lease budget against the rent data. It reads like well-structured filler.\n\nVisualizations are mostly appropriate \u2014 bar charts for categorical county comparisons and a bubble chart for the multi-dimensional self-employment \u00d7 education \u00d7 population view are correct choices. Points off because the bubble chart's underlying data is corrupted (0-value axes, absurd bubble size) and no distribution/histogram is used where an age or income distribution would have added insight.\n\nOverall: relevant scaffolding and correct metric choices, but broken data points, an out-of-region county, no neighborhood-level drill-down, and a vague non-actionable narrative make this a mediocre, not presentation-ready, report.",
+    "judge_tokens": {
+      "input_tokens": 7168,
+      "output_tokens": 1072,
+      "total_tokens": 8240
+    }
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-20T11:03:54.725379+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "report_id": "report_dcfb20e0",
+  "title": "Market Analysis: Spinback Records & Coffee",
+  "subtitle": "Demographic insights for Metro areas: Portland-South Portland, ME",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Portland-South Portland, ME",
+  "client_profile_id": "52a7d580-4dd8-45d0-9bb5-bee0b25b7447",
+  "summary": {
+    "total_population": 563380,
+    "zip_count": 3,
+    "median_household_income": 95617.91548333275,
+    "median_age": 44.01634917817459,
+    "home_ownership_rate": 74.29647129823564,
+    "narrative": "Portland's 563,000-strong metro—young, educated, and culturally hungry—offers a prime stage for Spinback Records & Coffee to fuse vinyl nostalgia with third-wave coffee culture.\n\nThe Portland-South Portland, ME metropolitan area spans three geographic areas with a combined population of 563,380, forming a compact yet vibrant market well-suited to an experiential retail concept. Portland has cultivated a national reputation as a creative, food-and-drink-forward city, and that identity extends naturally to the kind of lifestyle destination Spinback aims to be. A hybrid model that pairs new and used vinyl, turntables, and specialty coffee with weekly listening parties and local artist showcases speaks directly to a community that already prizes independent culture, craft consumption, and communal gathering spaces.\n\nThe demographic landscape is defined by a concentration of the exact segments most likely to embrace vinyl and specialty coffee: culturally engaged young adults and millennials, higher-education-attaining professionals, and established creative-class residents with discretionary spending power. These groups drive the resurgence of vinyl as both a collectible and a lifestyle statement, and they treat specialty coffee shops as everyday \"third places.\" With a manageable footprint of just three geographic areas covering more than half a million residents, Spinback can achieve meaningful market penetration without diluting its brand across a sprawling region.\n\nBeyond raw demographics, the strategic advantage lies in Portland's density of foot traffic, tourism, and a proven appetite for locally-rooted retail experiences. The listening-party and artist-showcase programming positions Spinback not merely as a store, but as a recurring destination—converting one-time visitors into a loyal, repeat community that anchors both record sales and daily coffee revenue.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_f5101f76",
+      "title": "Market Opportunity: College Educated (%) vs Median Rent ($)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "College Educated (%)",
+        "y_axis_label": "Median Rent ($)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Cumberland, Maine",
+          "geography_label": "Cumberland, Maine",
+          "x_value": 52.95954732935959,
+          "y_value": 1593.0347551751336,
+          "size_value": 309364.0,
+          "color_value": null,
+          "metadata": {
+            "population": 309364.0
+          }
+        },
+        {
+          "geography_id": "Sagadahoc, Maine",
+          "geography_label": "Sagadahoc, Maine",
+          "x_value": 44.18787179831031,
+          "y_value": 874.3514818291538,
+          "size_value": 37285.0,
+          "color_value": null,
+          "metadata": {
+            "population": 37285.0
+          }
+        },
+        {
+          "geography_id": "York, Maine",
+          "geography_label": "York, Maine",
+          "x_value": 36.01457936335827,
+          "y_value": 1280.8846311787422,
+          "size_value": 216731.0,
+          "color_value": null,
+          "metadata": {
+            "population": 216731.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [],
+  "generated_at": "2026-07-20T10:53:36.141930+00:00"
+}

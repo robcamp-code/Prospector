@@ -1,0 +1,166 @@
+{
+  "report_id": "report_94f24e8e",
+  "title": "Market Analysis: TrueLine Auto Repair",
+  "subtitle": "Demographic insights for Region: midwest",
+  "geography_type": "state",
+  "geography_value": "Region: midwest",
+  "client_profile_id": "06595d6a-f3ab-45c3-b5f4-f27ac4ead2ea",
+  "summary": {
+    "total_population": 69108362,
+    "zip_count": 12,
+    "median_household_income": 80692.44683410382,
+    "median_age": 39.49950433060475,
+    "home_ownership_rate": 69.64889333073762,
+    "narrative": "The Midwest's 69 Million Commuters Represent a Prime, High-Volume Market for Transparent, Same-Day Auto Repair.\n\nThe 12-state Midwest region offers TrueLine Auto Repair an exceptional foundation for growth, encompassing a total population of 69.1 million people. This region is defined by its car-dependent lifestyle: dense networks of interstate highways, sprawling suburban commuter belts, and comparatively limited public transit infrastructure mean that the personal vehicle is the backbone of daily life for the overwhelming majority of households. This structural reliance on automobiles translates directly into consistent, recurring demand for the very services TrueLine specializes in—oil changes, brakes, tires, and diagnostics for everyday commuter vehicles.\n\nThe Midwest's demographic profile aligns tightly with TrueLine's transparent, flat-rate value proposition. The region is anchored by a large, cost-conscious middle class with median household incomes and vehicle ownership rates that favor practical, well-maintained older commuter cars over new-vehicle turnover. Households in this market tend to keep vehicles longer, driving elevated demand for maintenance and repair rather than replacement. With 12 distinct state markets under one regional footprint, TrueLine can pursue a scalable, multi-market expansion strategy while tailoring its messaging to the pragmatic, no-surprises expectations of Midwestern consumers who prize honesty and fair pricing.\n\nTrueLine's differentiators—transparent flat-rate pricing and same-day service—directly address the most common consumer pain points in auto repair: unexpected costs and inconvenient wait times. In a region where residents depend on their vehicles to reach work daily, minimizing downtime is a powerful competitive advantage. By concentrating on the region's high-density suburban commuter corridors and mid-tier income communities, TrueLine can capture a large, loyal, and repeat-driven customer base across all 12 states.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_9947cd5c",
+      "title": "Market Opportunity: Average Commute Time (minutes) vs Home Ownership Rate (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Average Commute Time (minutes)",
+        "y_axis_label": "Home Ownership Rate (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Missouri",
+          "geography_label": "Missouri",
+          "x_value": 23.62543982232527,
+          "y_value": 68.8796252706521,
+          "size_value": 6191989.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6191989.0
+          }
+        },
+        {
+          "geography_id": "South Dakota",
+          "geography_label": "South Dakota",
+          "x_value": 17.530591996362784,
+          "y_value": 68.15126938339499,
+          "size_value": 906188.0,
+          "color_value": null,
+          "metadata": {
+            "population": 906188.0
+          }
+        },
+        {
+          "geography_id": "Ohio",
+          "geography_label": "Ohio",
+          "x_value": 23.47396658152348,
+          "y_value": 67.81890932765181,
+          "size_value": 11810293.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11810293.0
+          }
+        },
+        {
+          "geography_id": "Minnesota",
+          "geography_label": "Minnesota",
+          "x_value": 22.699990051838455,
+          "y_value": 73.06792599473786,
+          "size_value": 5739754.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5739754.0
+          }
+        },
+        {
+          "geography_id": "North Dakota",
+          "geography_label": "North Dakota",
+          "x_value": 17.941902227074067,
+          "y_value": 62.768949896891165,
+          "size_value": 784123.0,
+          "color_value": null,
+          "metadata": {
+            "population": 784123.0
+          }
+        },
+        {
+          "geography_id": "Nebraska",
+          "geography_label": "Nebraska",
+          "x_value": 19.26871528896859,
+          "y_value": 66.90952874328508,
+          "size_value": 1979558.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1979558.0
+          }
+        },
+        {
+          "geography_id": "Iowa",
+          "geography_label": "Iowa",
+          "x_value": 19.86817467791806,
+          "y_value": 71.88959997932098,
+          "size_value": 3210984.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3210984.0
+          }
+        },
+        {
+          "geography_id": "Indiana",
+          "geography_label": "Indiana",
+          "x_value": 24.135102720406,
+          "y_value": 70.92201246432491,
+          "size_value": 6851073.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6851073.0
+          }
+        },
+        {
+          "geography_id": "Michigan",
+          "geography_label": "Michigan",
+          "x_value": 24.241345816849773,
+          "y_value": 73.48781541373069,
+          "size_value": 10077716.0,
+          "color_value": null,
+          "metadata": {
+            "population": 10077716.0
+          }
+        },
+        {
+          "geography_id": "Wisconsin",
+          "geography_label": "Wisconsin",
+          "x_value": 22.27431118598024,
+          "y_value": 68.07864430127717,
+          "size_value": 5914913.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5914913.0
+          }
+        },
+        {
+          "geography_id": "Illinois",
+          "geography_label": "Illinois",
+          "x_value": 27.868220614120244,
+          "y_value": 68.10573752367615,
+          "size_value": 12694745.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12694745.0
+          }
+        },
+        {
+          "geography_id": "Kansas",
+          "geography_label": "Kansas",
+          "x_value": 19.796690765537882,
+          "y_value": 67.34124693843893,
+          "size_value": 2947026.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2947026.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [],
+  "generated_at": "2026-07-20T11:05:00.068288+00:00"
+}

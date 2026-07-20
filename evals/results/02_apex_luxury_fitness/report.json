@@ -1,0 +1,214 @@
+{
+  "report_id": "report_dd7e19dc",
+  "title": "Market Analysis: Apex Performance Studio",
+  "subtitle": "Demographic insights for Metro areas: Phoenix-Mesa-Chandler, AZ",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Phoenix-Mesa-Chandler, AZ",
+  "client_profile_id": "52b09a0b-9997-4a81-8c74-4ef4eafe26e8",
+  "summary": {
+    "total_population": 5052121,
+    "zip_count": 3,
+    "median_household_income": 92120.6719478809,
+    "median_age": 38.89162492347273,
+    "home_ownership_rate": 67.1221362275369,
+    "narrative": "Phoenix's affluent, health-conscious professional class makes it prime territory for a luxury boutique wellness brand primed to command premium pricing.\n\nThe Phoenix-Mesa-Chandler metro represents an exceptional match for Apex Performance Studio's full-service luxury wellness model. Across a market of more than 5 million residents spanning three geographic areas, the defining characteristic is affluence: a median household income near $140,000 and median home values around $749,000 confirm a population with the disposable income and accumulated wealth to sustain premium memberships, recovery add-ons, and high-touch nutrition coaching. For a boutique brand whose competitive advantage is a premium, high-price-point experience, this financial capacity is the single most decisive factor — and Phoenix clears the bar decisively.\n\nThe demographic profile reinforces the fit beyond raw purchasing power. With 57% of the population holding a college degree or higher and 16% self-employed, this is a market of educated, health-conscious professionals who both value wellness as an investment and enjoy the schedule flexibility to attend small-group strength training and reformer pilates during off-peak hours. This psychographic alignment matters: luxury wellness thrives not just where people can afford it, but where they prioritize it as part of an aspirational lifestyle. The concentration of self-employed and degree-holding residents suggests a customer base that treats health, recovery, and longevity as core personal priorities rather than discretionary extras.\n\nLife stage completes the picture. A median age of roughly 43 signals an established, career-mature clientele entering the years when preventative health, recovery, and longevity become central concerns. This is precisely the audience most drawn to cryotherapy, infrared sauna, and personalized coaching — services that address the recovery and wellness needs of active professionals who have both the means and the motivation to invest in feeling and performing their best. Together, these factors position Phoenix as a high-conviction market for Apex's expansion and premium positioning.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_28eddd86",
+      "title": "Market Opportunity: Six-Figure Households (%) vs Median Home Value ($)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "Median Home Value ($)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Gila, Arizona",
+          "geography_label": "Gila, Arizona",
+          "x_value": 25.799999999999997,
+          "y_value": 192478.0,
+          "size_value": 604.0,
+          "color_value": null,
+          "metadata": {
+            "population": 604.0
+          }
+        },
+        {
+          "geography_id": "Maricopa, Arizona",
+          "geography_label": "Maricopa, Arizona",
+          "x_value": 44.27680220020139,
+          "y_value": 467783.2703006229,
+          "size_value": 4488680.0,
+          "color_value": null,
+          "metadata": {
+            "population": 4488680.0
+          }
+        },
+        {
+          "geography_id": "Pinal, Arizona",
+          "geography_label": "Pinal, Arizona",
+          "x_value": 42.76256518317027,
+          "y_value": 367484.78094546025,
+          "size_value": 562837.0,
+          "color_value": null,
+          "metadata": {
+            "population": 562837.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Affluence & Purchasing Power",
+      "subtitle": null,
+      "description": "Combines household income and home value to gauge the disposable income and wealth of the local market. For a luxury boutique wellness brand, this is the single most decisive factor: median household income near $140K and home values around $749K confirm a market with the financial capacity to sustain premium memberships, recovery add-ons, and personalized nutrition coaching at high price points.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 78.5,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_3e0a8eaf",
+          "title": "Median Household Income in Apex Performance Studio's Market: Maricopa, Arizona",
+          "subtitle": "$140,331 median household income — well above national average, signaling strong affluent demand for luxury wellness services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Maricopa, Arizona",
+              "value": 140331.2501502092,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_housing_b7ef2ff8",
+          "title": "Median Home Value in Apex Performance Studio's Market Area",
+          "subtitle": "Maricopa, Arizona — a $748K median signals high household affluence well-suited to luxury wellness services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Maricopa, Arizona",
+              "value": 748703.7996464167,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Professional & Educational Profile",
+      "subtitle": null,
+      "description": "Pairs educational attainment with employment characteristics to profile the psychographic fit of the customer base. With 57% holding a college degree or above and 16% self-employed, this market skews toward health-conscious professionals who value wellness investments and have the schedule flexibility for small-group strength training and reformer pilates — an ideal match for Apex's high-touch service model.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 70.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_education_8a24e12d",
+          "title": "College-Educated Residents in Apex Performance Studio's Market",
+          "subtitle": "57.1% of Maricopa, AZ adults hold a college degree or higher",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Maricopa, Arizona",
+              "value": 57.128111879453925,
+              "percentage": 57.128111879453925,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_employment_2d203426",
+          "title": "Self-Employed Professionals in Maricopa County",
+          "subtitle": "16.2% of the local workforce is self-employed — a prime audience for flexible luxury wellness services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Maricopa, Arizona",
+              "value": 16.203535651470958,
+              "percentage": 16.203535651470958,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Lifestyle & Life Stage",
+      "subtitle": null,
+      "description": "Uses age as a life-stage indicator to understand where customers are in their wellness journey. A median age of roughly 43 points to an established, career-mature clientele who prioritize longevity, recovery, and preventative health — aligning directly with cryotherapy, infrared sauna, and personalized coaching offerings.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_db799d27",
+          "title": "Median Age of Maricopa's Population",
+          "subtitle": "Maricopa, AZ residents have a median age of 43.4 — a mature, established demographic well-suited to luxury wellness services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Maricopa, Arizona",
+              "value": 43.37495584759865,
+              "percentage": 43.37495584759865,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T10:49:53.921401+00:00"
+}

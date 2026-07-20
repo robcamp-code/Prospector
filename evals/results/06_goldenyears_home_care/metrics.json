@@ -1,0 +1,84 @@
+{
+  "business_id": "06_goldenyears_home_care",
+  "status": "complete",
+  "thread_id": "9f1b2d83-a12f-4135-a78a-5c1e649aa261",
+  "latency": {
+    "total_seconds": 72.7,
+    "stages": {
+      "llm:discovery.extract": 4.8,
+      "node:profile_builder.db_write": 0.0,
+      "llm:demographic_extraction": 10.6,
+      "llm:location_extraction": 3.3,
+      "llm:income.extract": 4.2,
+      "db:income.query": 0.0,
+      "llm:age.extract": 4.2,
+      "db:age.query": 0.0,
+      "llm:education.extract": 5.2,
+      "db:education.query": 0.0,
+      "llm:age.visualize": 5.5,
+      "category:age": 9.7,
+      "llm:education.visualize": 7.8,
+      "category:education": 13.0,
+      "llm:housing.extract": 4.5,
+      "db:housing.query": 0.0,
+      "llm:income.visualize": 10.6,
+      "category:income": 14.8,
+      "llm:health.extract": 5.1,
+      "db:health.query": 0.0,
+      "llm:housing.visualize": 8.4,
+      "category:housing": 12.9,
+      "llm:health.visualize": 7.2,
+      "category:health": 12.4,
+      "llm:group_sections": 11.2,
+      "db:population_totals": 0.0,
+      "db:summary.median_household_income": 0.0,
+      "db:summary.median_age": 0.0,
+      "db:summary.home_ownership": 0.0,
+      "llm:bubble_chart_config": 8.6,
+      "db:bubble_chart.x_query": 0.0,
+      "db:bubble_chart.y_query": 0.0,
+      "llm:summary_narrative": 17.3,
+      "node:query_node.generate_report": 53.9
+    }
+  },
+  "tokens": {
+    "input_tokens": 23412,
+    "output_tokens": 7264,
+    "total_tokens": 30676,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 23412,
+        "output_tokens": 7264,
+        "total_tokens": 30676
+      }
+    }
+  },
+  "tool_selection": {
+    "categories_attempted": 5,
+    "metric_valid_first_try": 5,
+    "metric_rescued": 0,
+    "metric_unresolvable": 0,
+    "query_failures": 0,
+    "zero_row_queries": 0,
+    "first_try_valid_rate": 1.0,
+    "query_success_rate": 1.0
+  },
+  "judge": {
+    "overall_quality": 4,
+    "section_relevance": 8,
+    "narrative_quality": 4,
+    "data_plausibility": 2,
+    "visualization_appropriateness": 7,
+    "tool_selection_relevance": 8,
+    "reasoning": "Section selection and metric choices are genuinely well-matched to a senior home-care business: 65+ concentration, disability prevalence, senior home ownership, household income, and education all directly map to the ideal customer (aging-in-place seniors and paying adult children), and the opportunity bubble chart (65+ % vs ownership, sized by population) is a sensible multi-dimensional framing. Chart types are mostly appropriate \u2014 bars for categorical county rankings, bubble for the multi-metric opportunity view \u2014 though the report would benefit from distribution/violin charts and a nearby-hospital metric that the brief explicitly requested but is entirely absent.\n\nHowever, the report is undermined by severe data-plausibility problems that would mislead the owner. The 'Top Counties by Share of Residents Aged 65+' bar shows Sumter at 82.9% and Hillsborough at 48.8% \u2014 Sumter (The Villages) is high but ~55-60%, not 83%, and Hillsborough (Tampa) is closer to ~15%; these look like mislabeled or corrupted values. Disability share shows Alachua at 57.1% (implausible; real figure ~12-13%). Senior home ownership lists FOUR counties at exactly 100.0% (Orange, Lake, Polk, Alachua), a clear data-capping artifact. Income shows Orange at exactly $250,001 (a census top-code) treated as a real median and ranked #1, while education shows Orange at 93.5% college-educated (implausible; real ~40%). Notably Orange County appears as an outlier winner across multiple charts, strongly suggesting corrupted/top-coded data rather than reality. The summary also calls Florida's 67 counties '67 geographic areas' and cites median age 43.3 without reconciling it against the '1 in 5 is a senior' claim.\n\nThe narrative is fluent and structured (core demand, aging-in-place, income corridors, phased rollout) but is generic and, worse, inaccurate to its own data \u2014 it praises 'high owner-occupancy' and 'pockets of substantial income' without acknowledging the absurd 100% and $250k outliers, and it names 'Southeast Florida and Gulf Coast retirement corridors' that aren't actually the top-ranked geographies in the charts. It never surfaces the hospital-proximity requirement. Because the underlying numbers are not trustworthy and the hospital criterion is missing, this is not presentation-ready and could lead the owner to the wrong counties; overall utility is low despite strong structural relevance.",
+    "judge_tokens": {
+      "input_tokens": 6346,
+      "output_tokens": 1029,
+      "total_tokens": 7375
+    }
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-20T10:55:01.796513+00:00"
+}

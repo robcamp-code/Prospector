@@ -120,6 +120,23 @@ test-sql-agent-query pattern:
     pytest tests/integration/test_sql_agent.py -v -s -k "{{pattern}}"
 
 # ============================================================
+# Evaluation
+# ============================================================
+
+# Run full evaluation suite (resumes: skips businesses with existing results)
+eval:
+    python evals/run_eval.py
+
+# Evaluate a single business by id (always re-runs it)
+# Example: just eval-one 01_cultura_connect
+eval-one id:
+    python evals/run_eval.py --only {{id}}
+
+# Re-run the entire dataset, ignoring existing results
+eval-force:
+    python evals/run_eval.py --force
+
+# ============================================================
 # Code Quality
 # ============================================================
 

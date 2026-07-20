@@ -1,0 +1,792 @@
+{
+  "report_id": "report_eff7be55",
+  "title": "Market Analysis: LoftWorks Creative Coworking",
+  "subtitle": "Demographic insights for Metro areas: New York-Newark-Jersey City, NY-NJ",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: New York-Newark-Jersey City, NY-NJ",
+  "client_profile_id": "f234285b-5d4e-4c97-a255-a1cf07c3ec20",
+  "summary": {
+    "total_population": 19705919,
+    "zip_count": 23,
+    "median_household_income": 107763.00130930204,
+    "median_age": 39.93680083633755,
+    "home_ownership_rate": 52.765555430325264,
+    "narrative": "The New York metro's 19.7 million-strong creative economy offers LoftWorks a deep, high-density pool of freelancers and knowledge workers primed for premium coworking memberships.\n\nThe New York-Newark-Jersey City CBSA is one of the largest and most creatively concentrated markets in the country, spanning 23 geographic areas and nearly 19.7 million residents. This scale matters for a business like LoftWorks: even a modest capture rate within the region's self-employed and independent creative population translates into a robust, renewable membership base. Self-employment rates are the single strongest signal of demand for hot desks, private studios, and shared production facilities, and this metro's dense clusters of freelancers, solo entrepreneurs, and independent creatives make it fertile ground for a space purpose-built to serve the creative community.\n\nThe demographic profile reinforces the opportunity. High college-attainment rates across many of the region's sub-markets identify a knowledge-economy and creative talent pool, while individual median income levels indicate real purchasing power — the ability not only to afford a base membership but also to pay for premium add-ons like the photography room, podcast booths, and evening workshops. Age distribution further sharpens the picture: coworking and creative programming resonate most with younger and early-to-mid-career professionals, exactly the life stage that dominates many of the metro's most vibrant creative neighborhoods. Together, these signals point to a workforce that is financially capable, professionally independent, and culturally aligned with LoftWorks' specialty.\n\nLocation and access dynamics complete the strategic map. Rent levels reveal both the cost profile and the creative character of each neighborhood, while commute times determine how easily members can reach the studios, booths, and desks they need to use in person. By overlaying self-employment concentration with income, education, age, and accessibility, LoftWorks can pinpoint the specific catchment areas where a financially capable creative workforce lives, works, and is most likely to convert into loyal members.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_28c6b998",
+      "title": "Market Opportunity: Self-Employed Workers (%) vs College Educated or Above (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Self-Employed Workers (%)",
+        "y_axis_label": "College Educated or Above (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Union, New Jersey",
+          "geography_label": "Union, New Jersey",
+          "x_value": 0.0,
+          "y_value": 37.75708719028787,
+          "size_value": 602051.0,
+          "color_value": null,
+          "metadata": {
+            "population": 602051.0
+          }
+        },
+        {
+          "geography_id": "Bucks, Pennsylvania",
+          "geography_label": "Bucks, Pennsylvania",
+          "x_value": 21.1,
+          "y_value": 46.2,
+          "size_value": 262.0,
+          "color_value": null,
+          "metadata": {
+            "population": 262.0
+          }
+        },
+        {
+          "geography_id": "Rockland, New York",
+          "geography_label": "Rockland, New York",
+          "x_value": 14.96723879221839,
+          "y_value": 40.4311360904169,
+          "size_value": 341883.0,
+          "color_value": null,
+          "metadata": {
+            "population": 341883.0
+          }
+        },
+        {
+          "geography_id": "Monmouth, New Jersey",
+          "geography_label": "Monmouth, New Jersey",
+          "x_value": 0.0,
+          "y_value": 51.067177073810576,
+          "size_value": 628975.0,
+          "color_value": null,
+          "metadata": {
+            "population": 628975.0
+          }
+        },
+        {
+          "geography_id": "Middlesex, New Jersey",
+          "geography_label": "Middlesex, New Jersey",
+          "x_value": 0.0,
+          "y_value": 45.164080306252664,
+          "size_value": 881625.0,
+          "color_value": null,
+          "metadata": {
+            "population": 881625.0
+          }
+        },
+        {
+          "geography_id": "Hunterdon, New Jersey",
+          "geography_label": "Hunterdon, New Jersey",
+          "x_value": 0.0,
+          "y_value": 57.020771927717185,
+          "size_value": 133199.0,
+          "color_value": null,
+          "metadata": {
+            "population": 133199.0
+          }
+        },
+        {
+          "geography_id": "Ocean, New Jersey",
+          "geography_label": "Ocean, New Jersey",
+          "x_value": 0.0,
+          "y_value": 34.54192043026552,
+          "size_value": 653364.0,
+          "color_value": null,
+          "metadata": {
+            "population": 653364.0
+          }
+        },
+        {
+          "geography_id": "Richmond, New York",
+          "geography_label": "Richmond, New York",
+          "x_value": 12.823009520038145,
+          "y_value": 35.714984968360824,
+          "size_value": 494956.0,
+          "color_value": null,
+          "metadata": {
+            "population": 494956.0
+          }
+        },
+        {
+          "geography_id": "Putnam, New York",
+          "geography_label": "Putnam, New York",
+          "x_value": 13.923517510040966,
+          "y_value": 45.78921715671965,
+          "size_value": 99343.0,
+          "color_value": null,
+          "metadata": {
+            "population": 99343.0
+          }
+        },
+        {
+          "geography_id": "Morris, New Jersey",
+          "geography_label": "Morris, New Jersey",
+          "x_value": 0.0,
+          "y_value": 58.072719264831896,
+          "size_value": 504048.0,
+          "color_value": null,
+          "metadata": {
+            "population": 504048.0
+          }
+        },
+        {
+          "geography_id": "Essex, New Jersey",
+          "geography_label": "Essex, New Jersey",
+          "x_value": 0.0,
+          "y_value": 38.92845456703902,
+          "size_value": 863415.0,
+          "color_value": null,
+          "metadata": {
+            "population": 863415.0
+          }
+        },
+        {
+          "geography_id": "New York, New York",
+          "geography_label": "New York, New York",
+          "x_value": 18.68179881227057,
+          "y_value": 63.754445524522865,
+          "size_value": 1619224.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1619224.0
+          }
+        },
+        {
+          "geography_id": "Queens, New York",
+          "geography_label": "Queens, New York",
+          "x_value": 19.19093771874472,
+          "y_value": 35.5554233604706,
+          "size_value": 2320056.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2320056.0
+          }
+        },
+        {
+          "geography_id": "Passaic, New Jersey",
+          "geography_label": "Passaic, New Jersey",
+          "x_value": 0.0,
+          "y_value": 29.82114227532947,
+          "size_value": 520540.0,
+          "color_value": null,
+          "metadata": {
+            "population": 520540.0
+          }
+        },
+        {
+          "geography_id": "Sussex, New Jersey",
+          "geography_label": "Sussex, New Jersey",
+          "x_value": 0.0,
+          "y_value": 40.57456025239167,
+          "size_value": 147073.0,
+          "color_value": null,
+          "metadata": {
+            "population": 147073.0
+          }
+        },
+        {
+          "geography_id": "Bronx, New York",
+          "geography_label": "Bronx, New York",
+          "x_value": 16.49776464822864,
+          "y_value": 22.05160713046409,
+          "size_value": 1412082.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1412082.0
+          }
+        },
+        {
+          "geography_id": "Suffolk, New York",
+          "geography_label": "Suffolk, New York",
+          "x_value": 11.79778353490817,
+          "y_value": 41.38586309080218,
+          "size_value": 1476044.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1476044.0
+          }
+        },
+        {
+          "geography_id": "Somerset, New Jersey",
+          "geography_label": "Somerset, New Jersey",
+          "x_value": 0.0,
+          "y_value": 59.00745793556358,
+          "size_value": 328603.0,
+          "color_value": null,
+          "metadata": {
+            "population": 328603.0
+          }
+        },
+        {
+          "geography_id": "Nassau, New York",
+          "geography_label": "Nassau, New York",
+          "x_value": 14.312942405899403,
+          "y_value": 49.8613703930087,
+          "size_value": 1369359.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1369359.0
+          }
+        },
+        {
+          "geography_id": "Hudson, New Jersey",
+          "geography_label": "Hudson, New Jersey",
+          "x_value": 0.0,
+          "y_value": 47.98487268262327,
+          "size_value": 718323.0,
+          "color_value": null,
+          "metadata": {
+            "population": 718323.0
+          }
+        },
+        {
+          "geography_id": "Bergen, New Jersey",
+          "geography_label": "Bergen, New Jersey",
+          "x_value": 0.0,
+          "y_value": 53.50725260725166,
+          "size_value": 962316.0,
+          "color_value": null,
+          "metadata": {
+            "population": 962316.0
+          }
+        },
+        {
+          "geography_id": "Kings, New York",
+          "geography_label": "Kings, New York",
+          "x_value": 17.759364877046252,
+          "y_value": 41.35049817663323,
+          "size_value": 2631396.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2631396.0
+          }
+        },
+        {
+          "geography_id": "Westchester, New York",
+          "geography_label": "Westchester, New York",
+          "x_value": 16.490483893275282,
+          "y_value": 53.366032359773975,
+          "size_value": 997782.0,
+          "color_value": null,
+          "metadata": {
+            "population": 997782.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Freelancer & Self-Employment Landscape",
+      "subtitle": null,
+      "description": "Self-employment rates are the strongest single signal of demand for a creative coworking space. Freelancers, independent creatives, and solo entrepreneurs are the core members who need hot desks, private studios, and shared production facilities. Mapping where self-employment is concentrated pinpoints the neighborhoods with the highest natural demand for LoftWorks memberships.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 92.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_440fec9f",
+          "title": "Where Self-Employed Professionals Cluster: Top Markets for Coworking Demand",
+          "subtitle": "Percentage of self-employed workers by county — the core customer base for creative coworking",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Queens, New York",
+              "value": 19.909373308372427,
+              "percentage": 19.909373308372427,
+              "color": null
+            },
+            {
+              "label": "Kings, New York",
+              "value": 19.135655297603815,
+              "percentage": 19.135655297603815,
+              "color": null
+            },
+            {
+              "label": "New York, New York",
+              "value": 18.63085463732087,
+              "percentage": 18.63085463732087,
+              "color": null
+            },
+            {
+              "label": "Westchester, New York",
+              "value": 16.449048540784176,
+              "percentage": 16.449048540784176,
+              "color": null
+            },
+            {
+              "label": "Nassau, New York",
+              "value": 13.674964835674924,
+              "percentage": 13.674964835674924,
+              "color": null
+            },
+            {
+              "label": "Rockland, New York",
+              "value": 13.29403377698613,
+              "percentage": 13.29403377698613,
+              "color": null
+            },
+            {
+              "label": "Suffolk, New York",
+              "value": 10.542270478278306,
+              "percentage": 10.542270478278306,
+              "color": null
+            },
+            {
+              "label": "Morris, New Jersey",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            },
+            {
+              "label": "Hudson, New Jersey",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            },
+            {
+              "label": "Ocean, New Jersey",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Economic Profile",
+      "subtitle": null,
+      "description": "Education and income together describe the purchasing power and professional makeup of an area. High college-attainment rates identify creative and knowledge-economy talent, while individual median income indicates the ability to afford coworking memberships and premium add-ons like the photography room and podcast booths. Combined, they reveal where a financially capable creative workforce lives.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 78.5,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_education_96879b94",
+          "title": "Top Markets by College-Educated Population Share",
+          "subtitle": "Percentage of adults with a college degree or higher across 19 candidate locations",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "New York, New York",
+              "value": 74.67137294571822,
+              "percentage": 74.67137294571822,
+              "color": null
+            },
+            {
+              "label": "Kings, New York",
+              "value": 66.37743008636214,
+              "percentage": 66.37743008636214,
+              "color": null
+            },
+            {
+              "label": "Morris, New Jersey",
+              "value": 65.74164768157165,
+              "percentage": 65.74164768157165,
+              "color": null
+            },
+            {
+              "label": "Hudson, New Jersey",
+              "value": 65.49021830931846,
+              "percentage": 65.49021830931846,
+              "color": null
+            },
+            {
+              "label": "Essex, New Jersey",
+              "value": 62.50981579524088,
+              "percentage": 62.50981579524088,
+              "color": null
+            },
+            {
+              "label": "Somerset, New Jersey",
+              "value": 59.12255100331216,
+              "percentage": 59.12255100331216,
+              "color": null
+            },
+            {
+              "label": "Union, New Jersey",
+              "value": 56.837345084655276,
+              "percentage": 56.837345084655276,
+              "color": null
+            },
+            {
+              "label": "Westchester, New York",
+              "value": 56.57269265295817,
+              "percentage": 56.57269265295817,
+              "color": null
+            },
+            {
+              "label": "Bergen, New Jersey",
+              "value": 56.23200305479014,
+              "percentage": 56.23200305479014,
+              "color": null
+            },
+            {
+              "label": "Queens, New York",
+              "value": 55.761695913027786,
+              "percentage": 55.761695913027786,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_income_6a7471cb",
+          "title": "Median Individual Income Across Target Markets",
+          "subtitle": "Comparing earning power in NYC-area counties to guide pricing and location strategy",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "New York, New York",
+              "value": 77906.04124692756,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Kings, New York",
+              "value": 75774.10633713046,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hudson, New Jersey",
+              "value": 74024.3109308218,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morris, New Jersey",
+              "value": 70310.55851678102,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Union, New Jersey",
+              "value": 69594.99944707139,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex, New Jersey",
+              "value": 68878.16964062578,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sussex, New Jersey",
+              "value": 68147.95254227797,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, New Jersey",
+              "value": 66529.87782832644,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, New Jersey",
+              "value": 62975.36388123471,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, New York",
+              "value": 62372.745700900494,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Customer Profile & Life Stage",
+      "subtitle": null,
+      "description": "Age distribution frames who the prospective members are. Coworking spaces and creative programming resonate most with younger and early-to-mid-career professionals, so understanding the median age helps LoftWorks tailor its evening workshops, community events, and marketing tone to the dominant life stage in each area.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 72.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_ad0eb3d9",
+          "title": "Median Age Across Target Markets: Where the Creative Workforce Skews Younger",
+          "subtitle": "Comparing median age by county to identify areas with younger, creative-professional demographics ideal for coworking",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Kings, New York",
+              "value": 34.4761687350373,
+              "percentage": 34.4761687350373,
+              "color": null
+            },
+            {
+              "label": "Queens, New York",
+              "value": 37.314008367917715,
+              "percentage": 37.314008367917715,
+              "color": null
+            },
+            {
+              "label": "Ocean, New Jersey",
+              "value": 38.10105355348909,
+              "percentage": 38.10105355348909,
+              "color": null
+            },
+            {
+              "label": "Hudson, New Jersey",
+              "value": 38.1344201878535,
+              "percentage": 38.1344201878535,
+              "color": null
+            },
+            {
+              "label": "New York, New York",
+              "value": 38.17912811144578,
+              "percentage": 38.17912811144578,
+              "color": null
+            },
+            {
+              "label": "Hunterdon, New Jersey",
+              "value": 39.26169354838709,
+              "percentage": 39.26169354838709,
+              "color": null
+            },
+            {
+              "label": "Middlesex, New Jersey",
+              "value": 39.36745870342219,
+              "percentage": 39.36745870342219,
+              "color": null
+            },
+            {
+              "label": "Essex, New Jersey",
+              "value": 40.18634055003825,
+              "percentage": 40.18634055003825,
+              "color": null
+            },
+            {
+              "label": "Monmouth, New Jersey",
+              "value": 40.58041376746162,
+              "percentage": 40.58041376746162,
+              "color": null
+            },
+            {
+              "label": "Suffolk, New York",
+              "value": 40.97446743951104,
+              "percentage": 40.97446743951104,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_4",
+      "title": "Location & Access",
+      "subtitle": null,
+      "description": "Rent levels and commute times determine the practical feasibility of siting and filling a coworking space. Rent reflects the cost profile and creative character of a neighborhood, while commute time signals how accessible a location is for members who must physically travel to use the studios, booths, and desks. Together they guide smart site selection and catchment planning.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "viz_housing_d292e565",
+          "title": "Median Rent Across Target Markets in the NYC Metro Area",
+          "subtitle": "Comparing housing costs across 19 counties to identify affordable expansion and pricing opportunities",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "New York, New York",
+              "value": 2733.9794300080293,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Kings, New York",
+              "value": 2650.3902918519193,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, New York",
+              "value": 2466.8298143820202,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hudson, New Jersey",
+              "value": 2439.246999206613,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Queens, New York",
+              "value": 2340.489833318297,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Suffolk, New York",
+              "value": 2326.0279672907363,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, New York",
+              "value": 2233.6187243433296,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morris, New Jersey",
+              "value": 2195.849795320455,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Rockland, New York",
+              "value": 2144.4873088911977,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, New Jersey",
+              "value": 2144.0317468500166,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_transportation_271ce2fb",
+          "title": "Average Commute Times Across Target Markets",
+          "subtitle": "Comparing commute times across 19 counties in the NY/NJ metro area to identify locations where a local coworking space offers the most relief",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Minutes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Passaic, New Jersey",
+              "value": 26.849305932953435,
+              "percentage": 26.849305932953435,
+              "color": null
+            },
+            {
+              "label": "New York, New York",
+              "value": 28.30815594133178,
+              "percentage": 28.30815594133178,
+              "color": null
+            },
+            {
+              "label": "Morris, New Jersey",
+              "value": 28.791820906521437,
+              "percentage": 28.791820906521437,
+              "color": null
+            },
+            {
+              "label": "Monmouth, New Jersey",
+              "value": 29.52356084346949,
+              "percentage": 29.52356084346949,
+              "color": null
+            },
+            {
+              "label": "Somerset, New Jersey",
+              "value": 31.969826315947742,
+              "percentage": 31.969826315947742,
+              "color": null
+            },
+            {
+              "label": "Bergen, New Jersey",
+              "value": 32.04365563433336,
+              "percentage": 32.04365563433336,
+              "color": null
+            },
+            {
+              "label": "Suffolk, New York",
+              "value": 32.15711666405968,
+              "percentage": 32.15711666405968,
+              "color": null
+            },
+            {
+              "label": "Rockland, New York",
+              "value": 32.32286626094701,
+              "percentage": 32.32286626094701,
+              "color": null
+            },
+            {
+              "label": "Ocean, New Jersey",
+              "value": 32.34682259601762,
+              "percentage": 32.34682259601762,
+              "color": null
+            },
+            {
+              "label": "Middlesex, New Jersey",
+              "value": 32.35896195478094,
+              "percentage": 32.35896195478094,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T11:03:54.717389+00:00"
+}

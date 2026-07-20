@@ -1,0 +1,13 @@
+{
+  "business_id": "10_ivy_track_tutoring",
+  "status": "error",
+  "thread_id": null,
+  "latency": null,
+  "tokens": null,
+  "tool_selection": null,
+  "judge": null,
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": "1 validation error for SummaryNarrative\ntop_opportunities\n  Input should be a valid list [type=list_type, input_value=\"\\n<item>Prioritize afflu...micro-markets.</item>\\n\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type",
+  "generated_at": "2026-07-20T11:11:25.459464+00:00"
+}

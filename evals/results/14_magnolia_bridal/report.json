@@ -1,0 +1,45 @@
+{
+  "report_id": "report_ab3d59ac",
+  "title": "Market Analysis: Magnolia & Lace Bridal Boutique",
+  "subtitle": "Demographic insights for Metro areas: Charleston-Mattoon, IL",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Charleston-Mattoon, IL",
+  "client_profile_id": "62f3a6aa-46e2-426a-8326-3dcb56f8a472",
+  "summary": {
+    "total_population": 46409,
+    "zip_count": 1,
+    "median_household_income": 56595.53965825594,
+    "median_age": 36.9809433515051,
+    "home_ownership_rate": 60.13751427524834,
+    "narrative": "A concentrated micro-market of 46,000 residents in Charleston-Mattoon offers Magnolia & Lace Bridal Boutique first-mover advantage as the premium destination bridal experience in East Central Illinois.\n\nThe Charleston-Mattoon, IL metro area represents a focused, highly serviceable market of 46,409 residents concentrated within a single contiguous geography. For a by-appointment, premium retail concept like Magnolia & Lace Bridal Boutique, this compact footprint is a strategic asset rather than a limitation: it allows the boutique to dominate local mindshare, build word-of-mouth referral networks quickly, and become the recognized name for designer bridal wear across the region. In smaller metros such as this, brides frequently travel to distant larger cities (Champaign, Bloomington, or St. Louis) to find upscale gown selection and personalized styling—capturing that outbound demand locally is the single largest opportunity in this market.\\n\\nThe presence of Eastern Illinois University in Charleston is a defining demographic feature, sustaining a steady population of young adults, recent graduates, and returning alumni who anchor the prime bridal age cohort (roughly ages 22–34). This creates a reliable, renewing pipeline of engaged couples each year, supplemented by university-affiliated staff and faculty households that skew toward higher discretionary spending. Combined with the region's strong tradition of formal, celebration-centered weddings, these dynamics support demand for the full premium spectrum—designer gowns, coordinated bridesmaid parties, and add-on accessories.\\n\\nBecause the metro is served by essentially no direct premium competitor at scale, Magnolia & Lace can position itself as the complete, high-touch solution: in-house alterations remove a major friction point for local brides, while by-appointment styling sessions align with the intimate, experience-driven expectations of today's premium bridal shopper. The path to capturing an outsized share of local wedding spend is clear, provided marketing is tightly targeted to the university-adjacent and young-professional segments that drive volume.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_f9cda4cd",
+      "title": "Market Opportunity: Six-Figure Households (%) vs Median Home Value ($)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "Median Home Value ($)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Coles, Illinois",
+          "geography_label": "Coles, Illinois",
+          "x_value": 24.86892413109526,
+          "y_value": 129689.71307289535,
+          "size_value": 46409.0,
+          "color_value": null,
+          "metadata": {
+            "population": 46409.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [],
+  "generated_at": "2026-07-20T11:06:03.597718+00:00"
+}

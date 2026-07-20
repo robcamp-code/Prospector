@@ -1,25 +1,25 @@
 {
-  "report_id": "report_329172da",
-  "title": "Market Analysis: Cultura Connect Language & Cultural Center",
-  "subtitle": "Demographic insights for Metro areas: Atlanta-Sandy Springs-Roswell, GA",
+  "report_id": "report_e9a0a567",
+  "title": "Market Analysis: Verdant Bowl",
+  "subtitle": "Demographic insights for Metro areas: Los Angeles-Long Beach-Anaheim, CA, San Diego-Chula Vista-Carlsbad, CA",
   "geography_type": "cbsa",
-  "geography_value": "Metro areas: Atlanta-Sandy Springs-Roswell, GA",
-  "client_profile_id": "f9aff685-1846-4f77-95fb-ada2a03cf1d7",
+  "geography_value": "Metro areas: Los Angeles-Long Beach-Anaheim, CA, San Diego-Chula Vista-Carlsbad, CA",
+  "client_profile_id": "a03f9fca-baf6-4620-8d64-d389e6d85232",
   "summary": {
-    "total_population": 6242573,
-    "zip_count": 30,
-    "median_household_income": 93680.400015987,
-    "median_age": 37.54088061124796,
-    "home_ownership_rate": 67.23621149484356,
-    "narrative": "Metro Atlanta's rapidly diversifying, education-oriented population of 6.2 million offers Cultura Connect a prime market to build bilingual cultural exchange at scale.\n\nThe Atlanta-Sandy Springs-Roswell metro area presents an exceptionally favorable landscape for a bilingual cultural immersion center. Across 30 geographic areas covering 6,242,573 residents, the region combines a substantial and geographically concentrated Hispanic population with strong economic readiness and a young, mobile workforce. Hispanic population share ranges dramatically from just 0.5% in some communities to 28.5% in others—a spread that gives Cultura Connect a clear map of where a natural base of Spanish speakers and cultural affinity already exists. Just as importantly, limited-English percentages reach as high as 13.1% in certain communities, signaling concrete, unmet demand for English-language instruction among newer arrivals and immigrant families.\n\nThe economic profile reinforces this opportunity. College-or-above attainment ranges from 14.5% up to 50.0%, meaning the metro contains large pockets of highly educated residents who value continued learning and cultural enrichment—precisely the audience most likely to pay for structured language classes, workshops, and networking events. With median household incomes spanning $50,663 to $86,581, many areas possess the disposable income needed to sustain tuition-based programming and family activities. This dual presence of demand-side (Spanish-speaking and limited-English communities) and supply-side (educated, higher-income, culturally curious residents) creates the exact conditions for Cultura Connect's mission of bringing Spanish and English speakers together.\n\nCommunity life stage and accessibility further sharpen the strategy. With median ages between 32.8 and 39.1, the metro skews toward young professionals and growing families—ideal for a program mix balancing career-oriented conversation groups and networking events with children's cultural workshops and family activities. Commute times of 23.3 to 29.7 minutes indicate a car-oriented, time-conscious population, underscoring the importance of siting a center in a high-affinity, accessible location and scheduling evening and weekend classes that work around demanding commutes.",
+    "total_population": 16268344,
+    "zip_count": 3,
+    "median_household_income": 101299.19415313569,
+    "median_age": 38.56139973435528,
+    "home_ownership_rate": 50.62450888055966,
+    "narrative": "Southern California's affluent, health-conscious metros of Los Angeles and San Diego offer Verdant Bowl a 16.3 million-person market primed for premium plant-based fast-casual dining.\n\nAcross the Los Angeles-Long Beach-Anaheim and San Diego-Chula Vista-Carlsbad CBSAs, Verdant Bowl has access to a combined population of more than 16.2 million people concentrated in three geographic areas that together form one of the most receptive markets in the country for premium, wellness-driven quick-service dining. The defining strength of this geography is its spending power: between 47% and 54% of households earn six-figure incomes, providing the disposable income needed to sustain Verdant Bowl's elevated price point relative to conventional fast food. In a category where household income is the single strongest predictor of demand for customizable grain bowls, smoothies, and cold-pressed juices, this concentration of affluence is the most business-critical signal in the entire demographic profile.\n\nThe consumer base is not only affluent but also highly educated and values-aligned. Roughly 40-42% of the population holds a college degree or higher - a cohort that consistently over-indexes for plant-based, sustainability-focused, and wellness-oriented dining choices. This directly validates Verdant Bowl's brand pillars of locally sourced produce and compostable packaging. Reinforcing the fit, the median age of 36-37 reflects an established millennial and young-professional community that sits squarely at the center of the vegan fast-casual target demographic, giving the brand a natural audience for both its menu and its eco-conscious positioning.\n\nFinally, the market's daytime dynamics support Verdant Bowl's core specialty of plant-based quick lunches. Labor force participation of 67-68% signals a large, employed population generating steady weekday midday traffic, while average commute times of 25-28 minutes point to a mobile, time-pressed workforce that prioritizes fast, portable meals. This combination of a busy working base and grab-and-go demand aligns precisely with a menu engineered for speed and convenience, positioning Verdant Bowl to capture reliable lunch-hour volume near employment centers.",
     "opportunity_bubble_chart": {
-      "visualization_id": "bubble_7bdafd62",
-      "title": "Market Opportunity: Hispanic Population (%) vs Limited English Proficiency (%)",
+      "visualization_id": "bubble_cd2629bb",
+      "title": "Market Opportunity: Six-Figure Households (%) vs College Educated or Above (%)",
       "subtitle": "Bubble size represents population",
       "config": {
         "chart_type": "bubble",
-        "x_axis_label": "Hispanic Population (%)",
-        "y_axis_label": "Limited English Proficiency (%)",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "College Educated or Above (%)",
         "size_label": "Population",
         "color_label": null
       },
@@ -27,333 +27,36 @@
       "distribution_data": null,
       "bubble_data": [
         {
-          "geography_id": "Barrow, Georgia",
-          "geography_label": "Barrow, Georgia",
-          "x_value": 14.98483531842489,
-          "y_value": 2.0706257089612703,
-          "size_value": 98736.0,
+          "geography_id": "Los Angeles, California",
+          "geography_label": "Los Angeles, California",
+          "x_value": 44.41902357185583,
+          "y_value": 34.970667828634426,
+          "size_value": 9807501.0,
           "color_value": null,
           "metadata": {
-            "population": 98736.0
+            "population": 9807501.0
           }
         },
         {
-          "geography_id": "Bartow, Georgia",
-          "geography_label": "Bartow, Georgia",
-          "x_value": 9.909022515744804,
-          "y_value": 2.4019335249439133,
-          "size_value": 110989.0,
+          "geography_id": "Orange, California",
+          "geography_label": "Orange, California",
+          "x_value": 56.27286889113991,
+          "y_value": 43.84180209162129,
+          "size_value": 3138331.0,
           "color_value": null,
           "metadata": {
-            "population": 110989.0
+            "population": 3138331.0
           }
         },
         {
-          "geography_id": "Butts, Georgia",
-          "geography_label": "Butts, Georgia",
-          "x_value": 3.4393679877846375,
-          "y_value": 0.0,
-          "size_value": 30126.0,
+          "geography_id": "San Diego, California",
+          "geography_label": "San Diego, California",
+          "x_value": 51.9193285080686,
+          "y_value": 42.630113059034876,
+          "size_value": 3322512.0,
           "color_value": null,
           "metadata": {
-            "population": 30126.0
-          }
-        },
-        {
-          "geography_id": "Carroll, Georgia",
-          "geography_label": "Carroll, Georgia",
-          "x_value": 7.9570738155231515,
-          "y_value": 2.0075281919947128,
-          "size_value": 145254.0,
-          "color_value": null,
-          "metadata": {
-            "population": 145254.0
-          }
-        },
-        {
-          "geography_id": "Cherokee, Georgia",
-          "geography_label": "Cherokee, Georgia",
-          "x_value": 12.277298027104113,
-          "y_value": 2.5572737245371546,
-          "size_value": 296265.0,
-          "color_value": null,
-          "metadata": {
-            "population": 296265.0
-          }
-        },
-        {
-          "geography_id": "Clayton, Georgia",
-          "geography_label": "Clayton, Georgia",
-          "x_value": 15.5476859074363,
-          "y_value": 4.846920176807073,
-          "size_value": 230760.0,
-          "color_value": null,
-          "metadata": {
-            "population": 230760.0
-          }
-        },
-        {
-          "geography_id": "Cobb, Georgia",
-          "geography_label": "Cobb, Georgia",
-          "x_value": 15.093612923300052,
-          "y_value": 3.4568529028309576,
-          "size_value": 777758.0,
-          "color_value": null,
-          "metadata": {
-            "population": 777758.0
-          }
-        },
-        {
-          "geography_id": "Coweta, Georgia",
-          "geography_label": "Coweta, Georgia",
-          "x_value": 8.032670812316887,
-          "y_value": 1.855433825112722,
-          "size_value": 153253.0,
-          "color_value": null,
-          "metadata": {
-            "population": 153253.0
-          }
-        },
-        {
-          "geography_id": "Dawson, Georgia",
-          "geography_label": "Dawson, Georgia",
-          "x_value": 7.303630652555324,
-          "y_value": 0.6807261305110646,
-          "size_value": 35338.0,
-          "color_value": null,
-          "metadata": {
-            "population": 35338.0
-          }
-        },
-        {
-          "geography_id": "DeKalb, Georgia",
-          "geography_label": "DeKalb, Georgia",
-          "x_value": 11.228560353404129,
-          "y_value": 4.839144475900282,
-          "size_value": 833267.0,
-          "color_value": null,
-          "metadata": {
-            "population": 833267.0
-          }
-        },
-        {
-          "geography_id": "Douglas, Georgia",
-          "geography_label": "Douglas, Georgia",
-          "x_value": 12.452146730590494,
-          "y_value": 1.500072883860571,
-          "size_value": 149553.0,
-          "color_value": null,
-          "metadata": {
-            "population": 149553.0
-          }
-        },
-        {
-          "geography_id": "Fayette, Georgia",
-          "geography_label": "Fayette, Georgia",
-          "x_value": 8.239311624633057,
-          "y_value": 1.6777209864100655,
-          "size_value": 125019.0,
-          "color_value": null,
-          "metadata": {
-            "population": 125019.0
-          }
-        },
-        {
-          "geography_id": "Forsyth, Georgia",
-          "geography_label": "Forsyth, Georgia",
-          "x_value": 10.378537877147851,
-          "y_value": 2.7407070468058543,
-          "size_value": 198629.0,
-          "color_value": null,
-          "metadata": {
-            "population": 198629.0
-          }
-        },
-        {
-          "geography_id": "Fulton, Georgia",
-          "geography_label": "Fulton, Georgia",
-          "x_value": 8.35526565750922,
-          "y_value": 2.8355876115335112,
-          "size_value": 1144387.0,
-          "color_value": null,
-          "metadata": {
-            "population": 1144387.0
-          }
-        },
-        {
-          "geography_id": "Gwinnett, Georgia",
-          "geography_label": "Gwinnett, Georgia",
-          "x_value": 23.93065236838327,
-          "y_value": 8.982511071598175,
-          "size_value": 905470.0,
-          "color_value": null,
-          "metadata": {
-            "population": 905470.0
-          }
-        },
-        {
-          "geography_id": "Hall, Georgia",
-          "geography_label": "Hall, Georgia",
-          "x_value": 3.6000000000000005,
-          "y_value": 0.0,
-          "size_value": 5001.0,
-          "color_value": null,
-          "metadata": {
-            "population": 5001.0
-          }
-        },
-        {
-          "geography_id": "Haralson, Georgia",
-          "geography_label": "Haralson, Georgia",
-          "x_value": 2.3931480422977995,
-          "y_value": 0.0,
-          "size_value": 27992.0,
-          "color_value": null,
-          "metadata": {
-            "population": 27992.0
-          }
-        },
-        {
-          "geography_id": "Heard, Georgia",
-          "geography_label": "Heard, Georgia",
-          "x_value": 2.8,
-          "y_value": 0.1,
-          "size_value": 9309.0,
-          "color_value": null,
-          "metadata": {
-            "population": 9309.0
-          }
-        },
-        {
-          "geography_id": "Henry, Georgia",
-          "geography_label": "Henry, Georgia",
-          "x_value": 8.651179038983003,
-          "y_value": 1.8590510831851186,
-          "size_value": 274376.0,
-          "color_value": null,
-          "metadata": {
-            "population": 274376.0
-          }
-        },
-        {
-          "geography_id": "Jasper, Georgia",
-          "geography_label": "Jasper, Georgia",
-          "x_value": 5.7108879123945036,
-          "y_value": 1.0733417032852062,
-          "size_value": 14337.0,
-          "color_value": null,
-          "metadata": {
-            "population": 14337.0
-          }
-        },
-        {
-          "geography_id": "Lumpkin, Georgia",
-          "geography_label": "Lumpkin, Georgia",
-          "x_value": 5.774538820881781,
-          "y_value": 1.0520646503222286,
-          "size_value": 29327.0,
-          "color_value": null,
-          "metadata": {
-            "population": 29327.0
-          }
-        },
-        {
-          "geography_id": "Meriwether, Georgia",
-          "geography_label": "Meriwether, Georgia",
-          "x_value": 0.6850219774105603,
-          "y_value": 0.2982028598453236,
-          "size_value": 17973.0,
-          "color_value": null,
-          "metadata": {
-            "population": 17973.0
-          }
-        },
-        {
-          "geography_id": "Morgan, Georgia",
-          "geography_label": "Morgan, Georgia",
-          "x_value": 4.054602817452554,
-          "y_value": 0.6875366855801213,
-          "size_value": 20444.0,
-          "color_value": null,
-          "metadata": {
-            "population": 20444.0
-          }
-        },
-        {
-          "geography_id": "Newton, Georgia",
-          "geography_label": "Newton, Georgia",
-          "x_value": 6.812177800936237,
-          "y_value": 0.7364838175599016,
-          "size_value": 118987.0,
-          "color_value": null,
-          "metadata": {
-            "population": 118987.0
-          }
-        },
-        {
-          "geography_id": "Paulding, Georgia",
-          "geography_label": "Paulding, Georgia",
-          "x_value": 9.396812995754143,
-          "y_value": 0.8594494563960213,
-          "size_value": 134013.0,
-          "color_value": null,
-          "metadata": {
-            "population": 134013.0
-          }
-        },
-        {
-          "geography_id": "Pickens, Georgia",
-          "geography_label": "Pickens, Georgia",
-          "x_value": 3.96631616680607,
-          "y_value": 0.4768311626239694,
-          "size_value": 33476.0,
-          "color_value": null,
-          "metadata": {
-            "population": 33476.0
-          }
-        },
-        {
-          "geography_id": "Pike, Georgia",
-          "geography_label": "Pike, Georgia",
-          "x_value": 2.59564664935639,
-          "y_value": 0.030755206894646708,
-          "size_value": 18101.0,
-          "color_value": null,
-          "metadata": {
-            "population": 18101.0
-          }
-        },
-        {
-          "geography_id": "Rockdale, Georgia",
-          "geography_label": "Rockdale, Georgia",
-          "x_value": 11.195812874220481,
-          "y_value": 2.4093334990780453,
-          "size_value": 96534.0,
-          "color_value": null,
-          "metadata": {
-            "population": 96534.0
-          }
-        },
-        {
-          "geography_id": "Spalding, Georgia",
-          "geography_label": "Spalding, Georgia",
-          "x_value": 6.056839926816832,
-          "y_value": 1.5294022374853784,
-          "size_value": 66682.0,
-          "color_value": null,
-          "metadata": {
-            "population": 66682.0
-          }
-        },
-        {
-          "geography_id": "Walton, Georgia",
-          "geography_label": "Walton, Georgia",
-          "x_value": 8.936990588951755,
-          "y_value": 1.7693365529645864,
-          "size_value": 141217.0,
-          "color_value": null,
-          "metadata": {
-            "population": 141217.0
+            "population": 3322512.0
           }
         }
       ]
@@ -362,18 +65,18 @@
   "sections": [
     {
       "section_id": "section_1",
-      "title": "Cultural & Linguistic Market",
+      "title": "Economic Profile: Spending Power",
       "subtitle": null,
-      "description": "This section combines Race/Ethnicity and Language, the two most critical indicators for a bilingual cultural exchange center. The Hispanic population share (0.5%-28.5%) identifies areas with a natural base of Spanish speakers and cultural affinity, while limited-English percentages (0.1%-13.1%) pinpoint communities with strong demand for English language classes. Together they define exactly where Cultura Connect's core mission of bringing Spanish and English speakers together will resonate most.",
+      "description": "Household income is the single strongest predictor of demand for premium vegan bowls, smoothies, and cold-pressed juices. With 47-54% of households earning six figures across the trade areas, there is ample disposable income to support Verdant Bowl's elevated price point relative to standard fast food, making this the most business-critical demographic.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 92.0,
+      "importance_weight": 78.0,
       "rank": 1,
       "visualizations": [
         {
-          "visualization_id": "viz_race_9f3676eb",
-          "title": "Hispanic Population Share Across Metro Atlanta Counties",
-          "subtitle": "Ranking counties by Hispanic population percentage to identify prime markets for bilingual cultural programming",
+          "visualization_id": "viz_income_adfb6632",
+          "title": "Six-Figure Households Across Target Markets",
+          "subtitle": "Comparing high-income household presence in Orange, San Diego, and Los Angeles",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
@@ -383,139 +86,21 @@
           },
           "categorical_data": [
             {
-              "label": "Gwinnett, Georgia",
-              "value": 28.504178248138295,
-              "percentage": 28.504178248138295,
+              "label": "Orange, California",
+              "value": 54.05716054366517,
+              "percentage": 54.05716054366517,
               "color": null
             },
             {
-              "label": "DeKalb, Georgia",
-              "value": 21.584324726384022,
-              "percentage": 21.584324726384022,
+              "label": "San Diego, California",
+              "value": 50.6674921443636,
+              "percentage": 50.6674921443636,
               "color": null
             },
             {
-              "label": "Cobb, Georgia",
-              "value": 19.615960947289658,
-              "percentage": 19.615960947289658,
-              "color": null
-            },
-            {
-              "label": "Clayton, Georgia",
-              "value": 16.37145792844171,
-              "percentage": 16.37145792844171,
-              "color": null
-            },
-            {
-              "label": "Bartow, Georgia",
-              "value": 12.6,
-              "percentage": 12.6,
-              "color": null
-            },
-            {
-              "label": "Carroll, Georgia",
-              "value": 10.999999999999998,
-              "percentage": 10.999999999999998,
-              "color": null
-            },
-            {
-              "label": "Henry, Georgia",
-              "value": 9.9,
-              "percentage": 9.9,
-              "color": null
-            },
-            {
-              "label": "Fulton, Georgia",
-              "value": 7.560693792618882,
-              "percentage": 7.560693792618882,
-              "color": null
-            },
-            {
-              "label": "Spalding, Georgia",
-              "value": 6.0,
-              "percentage": 6.0,
-              "color": null
-            },
-            {
-              "label": "Lumpkin, Georgia",
-              "value": 5.5,
-              "percentage": 5.5,
-              "color": null
-            }
-          ],
-          "distribution_data": null,
-          "bubble_data": null
-        },
-        {
-          "visualization_id": "viz_language_ee646b2d",
-          "title": "Where Bilingual Language Support Is Needed Most: Limited English Proficiency by County",
-          "subtitle": "Percentage of residents with limited English proficiency across metro Atlanta counties — a direct indicator of demand for language instruction and cultural bridging services",
-          "config": {
-            "chart_type": "bar",
-            "x_axis_label": "Geography",
-            "y_axis_label": "Percent",
-            "size_label": null,
-            "color_label": null
-          },
-          "categorical_data": [
-            {
-              "label": "Gwinnett, Georgia",
-              "value": 13.072764837908943,
-              "percentage": 13.072764837908943,
-              "color": null
-            },
-            {
-              "label": "DeKalb, Georgia",
-              "value": 6.761617256402083,
-              "percentage": 6.761617256402083,
-              "color": null
-            },
-            {
-              "label": "Clayton, Georgia",
-              "value": 6.556673144932616,
-              "percentage": 6.556673144932616,
-              "color": null
-            },
-            {
-              "label": "Cobb, Georgia",
-              "value": 4.92982231557691,
-              "percentage": 4.92982231557691,
-              "color": null
-            },
-            {
-              "label": "Henry, Georgia",
-              "value": 3.5,
-              "percentage": 3.5,
-              "color": null
-            },
-            {
-              "label": "Bartow, Georgia",
-              "value": 2.6,
-              "percentage": 2.6,
-              "color": null
-            },
-            {
-              "label": "Carroll, Georgia",
-              "value": 2.5999999999999996,
-              "percentage": 2.5999999999999996,
-              "color": null
-            },
-            {
-              "label": "Fulton, Georgia",
-              "value": 1.8278330766066435,
-              "percentage": 1.8278330766066435,
-              "color": null
-            },
-            {
-              "label": "Spalding, Georgia",
-              "value": 1.3,
-              "percentage": 1.3,
-              "color": null
-            },
-            {
-              "label": "Lumpkin, Georgia",
-              "value": 1.0999999999999999,
-              "percentage": 1.0999999999999999,
+              "label": "Los Angeles, California",
+              "value": 47.40621962184631,
+              "percentage": 47.40621962184631,
               "color": null
             }
           ],
@@ -526,18 +111,18 @@
     },
     {
       "section_id": "section_2",
-      "title": "Economic Readiness",
+      "title": "Education & Health-Conscious Consumers",
       "subtitle": null,
-      "description": "Education and Income together reveal which areas can afford and value paid language classes, workshops, and networking events. Higher college-or-above rates (14.5%-50.0%) signal populations that prioritize continued learning and cultural enrichment, while median household income ($50,663-$86,581) indicates disposable income available for tuition and family activities. This economic profile helps target financially viable and education-oriented markets.",
+      "description": "College-educated populations index strongly for plant-based, wellness-oriented, and sustainability-focused dining. With roughly 40-42% holding college degrees or above, these areas contain the health- and eco-conscious consumers most likely to embrace vegan quick lunches and compostable packaging, directly aligning with the brand's value proposition.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 75.0,
+      "importance_weight": 72.0,
       "rank": 2,
       "visualizations": [
         {
-          "visualization_id": "viz_education_ec3cd92d",
-          "title": "College-Educated Population by County: Prioritizing High-Opportunity Markets",
-          "subtitle": "Percentage of residents with a college degree or above across 12 Georgia counties",
+          "visualization_id": "viz_education_7359fe7c",
+          "title": "College-Educated Population Across Target Markets",
+          "subtitle": "Share of residents with a college degree or higher in San Diego, Orange, and Los Angeles counties",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
@@ -547,139 +132,21 @@
           },
           "categorical_data": [
             {
-              "label": "DeKalb, Georgia",
-              "value": 50.03106046116247,
-              "percentage": 50.03106046116247,
+              "label": "San Diego, California",
+              "value": 41.760300657732614,
+              "percentage": 41.760300657732614,
               "color": null
             },
             {
-              "label": "Fulton, Georgia",
-              "value": 49.04514186026262,
-              "percentage": 49.04514186026262,
+              "label": "Orange, California",
+              "value": 39.700950076448805,
+              "percentage": 39.700950076448805,
               "color": null
             },
             {
-              "label": "Cobb, Georgia",
-              "value": 45.37125226500311,
-              "percentage": 45.37125226500311,
-              "color": null
-            },
-            {
-              "label": "Gwinnett, Georgia",
-              "value": 43.03060778572171,
-              "percentage": 43.03060778572171,
-              "color": null
-            },
-            {
-              "label": "Carroll, Georgia",
-              "value": 30.700000000000003,
-              "percentage": 30.700000000000003,
-              "color": null
-            },
-            {
-              "label": "Lumpkin, Georgia",
-              "value": 30.6,
-              "percentage": 30.6,
-              "color": null
-            },
-            {
-              "label": "Bartow, Georgia",
-              "value": 27.0,
-              "percentage": 27.0,
-              "color": null
-            },
-            {
-              "label": "Henry, Georgia",
-              "value": 26.6,
-              "percentage": 26.6,
-              "color": null
-            },
-            {
-              "label": "Spalding, Georgia",
-              "value": 22.6,
-              "percentage": 22.6,
-              "color": null
-            },
-            {
-              "label": "Pike, Georgia",
-              "value": 20.800000000000004,
-              "percentage": 20.800000000000004,
-              "color": null
-            }
-          ],
-          "distribution_data": null,
-          "bubble_data": null
-        },
-        {
-          "visualization_id": "viz_income_4bbd9599",
-          "title": "Median Household Income by County Across the Service Area",
-          "subtitle": "Comparing purchasing power across 12 Georgia counties to guide pricing and location strategy",
-          "config": {
-            "chart_type": "bar",
-            "x_axis_label": "Geography",
-            "y_axis_label": "USD",
-            "size_label": null,
-            "color_label": null
-          },
-          "categorical_data": [
-            {
-              "label": "Bartow, Georgia",
-              "value": 86581.0,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Cobb, Georgia",
-              "value": 82610.19074256043,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Pike, Georgia",
-              "value": 81667.0,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "DeKalb, Georgia",
-              "value": 79230.60956327702,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Lumpkin, Georgia",
-              "value": 74035.0,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Gwinnett, Georgia",
-              "value": 73988.47429284897,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Fulton, Georgia",
-              "value": 73644.74547725642,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Henry, Georgia",
-              "value": 71213.0,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Spalding, Georgia",
-              "value": 70216.0,
-              "percentage": null,
-              "color": null
-            },
-            {
-              "label": "Carroll, Georgia",
-              "value": 61842.0,
-              "percentage": null,
+              "label": "Los Angeles, California",
+              "value": 39.67648674573658,
+              "percentage": 39.67648674573658,
               "color": null
             }
           ],
@@ -690,84 +157,42 @@
     },
     {
       "section_id": "section_3",
-      "title": "Community Life Stage",
+      "title": "Workforce & Weekday Lunch Demand",
       "subtitle": null,
-      "description": "Age demographics (median 32.8-39.1) help Cultura Connect tailor its program mix. Younger areas favor conversation groups, networking events, and career-oriented language learning, while family-heavy areas support family activities and children's cultural workshops. Understanding the age profile informs scheduling and program design.",
+      "description": "As a fast-casual concept built around plant-based quick lunches, Verdant Bowl relies on a large working population generating consistent weekday midday traffic. Labor force participation of 67-68% signals a robust base of employed customers seeking fast, convenient lunch options near their workplaces.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 65.0,
+      "importance_weight": 55.0,
       "rank": 3,
       "visualizations": [
         {
-          "visualization_id": "viz_age_1c7739e4",
-          "title": "Median Age Across Georgia Counties: Where Younger Communities Meet Cultura Connect's Sweet Spot",
-          "subtitle": "Comparing median age across 12 counties to identify markets rich in young adults and families for language and cultural programs",
+          "visualization_id": "viz_employment_2f8c75eb",
+          "title": "Labor Force Participation Across Key California Markets",
+          "subtitle": "Comparing workforce activity in Orange, Los Angeles, and San Diego — the weekday lunch crowd for a plant-based fast-casual concept",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
-            "y_axis_label": "Age Median",
+            "y_axis_label": "Percent",
             "size_label": null,
             "color_label": null
           },
           "categorical_data": [
             {
-              "label": "Clayton, Georgia",
-              "value": 32.83733074202695,
-              "percentage": 32.83733074202695,
+              "label": "Orange, California",
+              "value": 68.05536458186499,
+              "percentage": 68.05536458186499,
               "color": null
             },
             {
-              "label": "DeKalb, Georgia",
-              "value": 33.233019870364465,
-              "percentage": 33.233019870364465,
+              "label": "Los Angeles, California",
+              "value": 67.89557050306759,
+              "percentage": 67.89557050306759,
               "color": null
             },
             {
-              "label": "Cobb, Georgia",
-              "value": 33.63725513175332,
-              "percentage": 33.63725513175332,
-              "color": null
-            },
-            {
-              "label": "Fulton, Georgia",
-              "value": 33.65693807632139,
-              "percentage": 33.65693807632139,
-              "color": null
-            },
-            {
-              "label": "Carroll, Georgia",
-              "value": 33.7,
-              "percentage": 33.7,
-              "color": null
-            },
-            {
-              "label": "Pike, Georgia",
-              "value": 35.3,
-              "percentage": 35.3,
-              "color": null
-            },
-            {
-              "label": "Spalding, Georgia",
-              "value": 35.8,
-              "percentage": 35.8,
-              "color": null
-            },
-            {
-              "label": "Gwinnett, Georgia",
-              "value": 36.38603980557991,
-              "percentage": 36.38603980557991,
-              "color": null
-            },
-            {
-              "label": "Bartow, Georgia",
-              "value": 36.7,
-              "percentage": 36.7,
-              "color": null
-            },
-            {
-              "label": "Lumpkin, Georgia",
-              "value": 38.0,
-              "percentage": 38.0,
+              "label": "San Diego, California",
+              "value": 67.3924891110391,
+              "percentage": 67.3924891110391,
               "color": null
             }
           ],
@@ -778,18 +203,18 @@
     },
     {
       "section_id": "section_4",
-      "title": "Accessibility & Reach",
+      "title": "Accessibility & Commute Patterns",
       "subtitle": null,
-      "description": "Transportation and commute time (23.3-29.7 minutes) indicate how easily prospective students can reach a physical center and how long evenings or weekends must be scheduled around commutes. This helps determine ideal location placement and class timing to maximize attendance for in-person immersion experiences.",
+      "description": "Commute behavior shapes lunch-hour foot traffic and grab-and-go convenience needs. Average commute times of 25-28 minutes indicate a mobile, time-pressed workforce that values quick, portable meals - a natural fit for customizable bowls and cold-pressed juices designed for speed.",
       "demographic_category": null,
       "demographic_key": null,
-      "importance_weight": 45.0,
+      "importance_weight": 55.0,
       "rank": 4,
       "visualizations": [
         {
-          "visualization_id": "viz_transportation_ccbbf851",
-          "title": "Average Commute Times Across Metro Atlanta Counties",
-          "subtitle": "Comparing accessibility of prospective service areas by average one-way commute (minutes)",
+          "visualization_id": "viz_transportation_6b6e9e37",
+          "title": "Average Commute Times Across Target Markets",
+          "subtitle": "Comparing daily commute duration in San Diego, Orange, and Los Angeles",
           "config": {
             "chart_type": "bar",
             "x_axis_label": "Geography",
@@ -799,63 +224,67 @@
           },
           "categorical_data": [
             {
-              "label": "Carroll, Georgia",
-              "value": 23.3,
-              "percentage": 23.3,
+              "label": "San Diego, California",
+              "value": 24.90964640333995,
+              "percentage": 24.90964640333995,
               "color": null
             },
             {
-              "label": "Spalding, Georgia",
-              "value": 24.4,
-              "percentage": 24.4,
+              "label": "Orange, California",
+              "value": 25.761349481653788,
+              "percentage": 25.761349481653788,
               "color": null
             },
             {
-              "label": "DeKalb, Georgia",
-              "value": 25.910623738178725,
-              "percentage": 25.910623738178725,
+              "label": "Los Angeles, California",
+              "value": 27.71765366383334,
+              "percentage": 27.71765366383334,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_5",
+      "title": "Community Characteristics: Age Profile",
+      "subtitle": null,
+      "description": "Age helps calibrate menu positioning and marketing tone. A median age of roughly 36-37 reflects an established millennial/young professional base - the core demographic for vegan, wellness-driven fast-casual dining - confirming the target customer aligns with the surrounding community.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_c8fa5798",
+          "title": "Median Age of Target Markets Across California Metros",
+          "subtitle": "Comparing median age in San Diego, Orange, and Los Angeles to gauge fit for a young, health-conscious lunch crowd",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "San Diego, California",
+              "value": 36.520251121521184,
+              "percentage": 36.520251121521184,
               "color": null
             },
             {
-              "label": "Fulton, Georgia",
-              "value": 26.91370710337228,
-              "percentage": 26.91370710337228,
+              "label": "Orange, California",
+              "value": 36.52254354642022,
+              "percentage": 36.52254354642022,
               "color": null
             },
             {
-              "label": "Cobb, Georgia",
-              "value": 27.22962353619948,
-              "percentage": 27.22962353619948,
-              "color": null
-            },
-            {
-              "label": "Bartow, Georgia",
-              "value": 27.4,
-              "percentage": 27.4,
-              "color": null
-            },
-            {
-              "label": "Lumpkin, Georgia",
-              "value": 27.699999999999996,
-              "percentage": 27.699999999999996,
-              "color": null
-            },
-            {
-              "label": "Clayton, Georgia",
-              "value": 28.148706470831872,
-              "percentage": 28.148706470831872,
-              "color": null
-            },
-            {
-              "label": "Gwinnett, Georgia",
-              "value": 28.412356377365224,
-              "percentage": 28.412356377365224,
-              "color": null
-            },
-            {
-              "label": "Meriwether, Georgia",
-              "value": 29.0,
-              "percentage": 29.0,
+              "label": "Los Angeles, California",
+              "value": 37.23584766985478,
+              "percentage": 37.23584766985478,
               "color": null
             }
           ],
@@ -865,5 +294,5 @@
       ]
     }
   ],
-  "generated_at": "2026-07-20T09:06:34.855460+00:00"
+  "generated_at": "2026-07-20T11:19:06.383261+00:00"
 }

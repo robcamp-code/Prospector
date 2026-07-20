@@ -1,0 +1,2 @@
+RiskID,Descritpion,Likelihood,Impact,Risk Level,Mitigation Strategy
+Adversarial Prompt,A malicious actor uses prompt injection to subsequently perform SQLInjection and permanently remove licensed proprietary data from my database,4,5,HIGH: 20,"Implement RBAC for all tools and agents: This project used read only database access to mitigate this risk. Additionally, sanitize all inputs"

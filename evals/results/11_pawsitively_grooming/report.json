@@ -1,0 +1,650 @@
+{
+  "report_id": "report_208911e3",
+  "title": "Market Analysis: Pawsitively Polished Pet Spa",
+  "subtitle": "Demographic insights for Metro areas: Nashville-Davidson--Murfreesboro--Franklin, TN",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Nashville-Davidson--Murfreesboro--Franklin, TN",
+  "client_profile_id": "fe316722-e2f0-449c-946b-7797000f7ccd",
+  "summary": {
+    "total_population": 2092739,
+    "zip_count": 17,
+    "median_household_income": 89570.78796591453,
+    "median_age": 37.5144416957872,
+    "home_ownership_rate": 66.59819002751895,
+    "narrative": "Nashville's booming metro of 2.1 million residents offers Pawsitively Polished Pet Spa a prime, affluent, and dual-income market hungry for premium pet care.\n\nThe Nashville-Davidson–Murfreesboro–Franklin metro area encompasses more than 2,092,739 residents across 17 distinct geographic areas, creating a broad and diverse foundation for premium pet services. As one of the fastest-growing metros in the United States, the region combines rising household incomes, strong educational attainment, and elevated home values—the demographic trifecta that signals robust discretionary spending capacity. For a full-service business like Pawsitively Polished Pet Spa, whose grooming, boarding, daycare, and retail offerings are inherently discretionary purchases, this affluence profile identifies exactly where customers can most readily afford and prioritize premium pet care.\n\nBeyond wealth, the market's workforce dynamics are a powerful demand driver. High labor-force participation across the metro means a large base of busy, dual-income and single-professional households who work outside the home—precisely the customers who rely on doggy daycare and overnight boarding to manage their weekday schedules and travel. When paired with the stability signaled by high homeownership in the metro's premier neighborhoods (notably the affluent Williamson County communities around Franklin and Brentwood), these areas represent the ideal blend of ability to pay and genuine need for reliable, ongoing pet-care solutions.\n\nThe metro's life-stage composition further sharpens the opportunity. Nashville's mix of young professionals and established, family-oriented households creates layered demand: younger, urban pet owners gravitate toward grooming and premium retail products, while more established households in higher-value suburbs generate steady boarding and daycare volume. This diversity allows the business to build a multi-service model that captures customers across life stages rather than depending on a single revenue stream.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_b24a831e",
+      "title": "Market Opportunity: Six-Figure Households (%) vs Home Ownership Rate (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "Home Ownership Rate (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Bedford, Tennessee",
+          "geography_label": "Bedford, Tennessee",
+          "x_value": 36.8,
+          "y_value": 95.3,
+          "size_value": 5000.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5000.0
+          }
+        },
+        {
+          "geography_id": "Cannon, Tennessee",
+          "geography_label": "Cannon, Tennessee",
+          "x_value": 26.729225321703083,
+          "y_value": 76.95129113049487,
+          "size_value": 11579.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11579.0
+          }
+        },
+        {
+          "geography_id": "Cheatham, Tennessee",
+          "geography_label": "Cheatham, Tennessee",
+          "x_value": 42.91727963525836,
+          "y_value": 80.4518085106383,
+          "size_value": 32900.0,
+          "color_value": null,
+          "metadata": {
+            "population": 32900.0
+          }
+        },
+        {
+          "geography_id": "Davidson, Tennessee",
+          "geography_label": "Davidson, Tennessee",
+          "x_value": 38.2995479844089,
+          "y_value": 54.04417703623406,
+          "size_value": 727851.0,
+          "color_value": null,
+          "metadata": {
+            "population": 727851.0
+          }
+        },
+        {
+          "geography_id": "Dickson, Tennessee",
+          "geography_label": "Dickson, Tennessee",
+          "x_value": 32.60263676556757,
+          "y_value": 79.74587084287718,
+          "size_value": 56319.0,
+          "color_value": null,
+          "metadata": {
+            "population": 56319.0
+          }
+        },
+        {
+          "geography_id": "Hickman, Tennessee",
+          "geography_label": "Hickman, Tennessee",
+          "x_value": 27.092586280357907,
+          "y_value": 80.40990045318978,
+          "size_value": 25817.0,
+          "color_value": null,
+          "metadata": {
+            "population": 25817.0
+          }
+        },
+        {
+          "geography_id": "Lewis, Tennessee",
+          "geography_label": "Lewis, Tennessee",
+          "x_value": 15.7,
+          "y_value": 91.1,
+          "size_value": 1460.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1460.0
+          }
+        },
+        {
+          "geography_id": "Macon, Tennessee",
+          "geography_label": "Macon, Tennessee",
+          "x_value": 23.839230769230767,
+          "y_value": 73.59895604395604,
+          "size_value": 21840.0,
+          "color_value": null,
+          "metadata": {
+            "population": 21840.0
+          }
+        },
+        {
+          "geography_id": "Maury, Tennessee",
+          "geography_label": "Maury, Tennessee",
+          "x_value": 41.26269163883492,
+          "y_value": 73.1759708366986,
+          "size_value": 137433.0,
+          "color_value": null,
+          "metadata": {
+            "population": 137433.0
+          }
+        },
+        {
+          "geography_id": "Putnam, Tennessee",
+          "geography_label": "Putnam, Tennessee",
+          "x_value": 22.6,
+          "y_value": 93.2,
+          "size_value": 1154.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1154.0
+          }
+        },
+        {
+          "geography_id": "Robertson, Tennessee",
+          "geography_label": "Robertson, Tennessee",
+          "x_value": 41.09110890799094,
+          "y_value": 78.3421245338711,
+          "size_value": 88763.0,
+          "color_value": null,
+          "metadata": {
+            "population": 88763.0
+          }
+        },
+        {
+          "geography_id": "Rutherford, Tennessee",
+          "geography_label": "Rutherford, Tennessee",
+          "x_value": 41.18087955548747,
+          "y_value": 64.74314779484467,
+          "size_value": 359045.0,
+          "color_value": null,
+          "metadata": {
+            "population": 359045.0
+          }
+        },
+        {
+          "geography_id": "Smith, Tennessee",
+          "geography_label": "Smith, Tennessee",
+          "x_value": 31.049850177063476,
+          "y_value": 78.87628439117407,
+          "size_value": 18355.0,
+          "color_value": null,
+          "metadata": {
+            "population": 18355.0
+          }
+        },
+        {
+          "geography_id": "Sumner, Tennessee",
+          "geography_label": "Sumner, Tennessee",
+          "x_value": 43.694053005141505,
+          "y_value": 71.78839368373703,
+          "size_value": 191189.0,
+          "color_value": null,
+          "metadata": {
+            "population": 191189.0
+          }
+        },
+        {
+          "geography_id": "Trousdale, Tennessee",
+          "geography_label": "Trousdale, Tennessee",
+          "x_value": 30.35815199196518,
+          "y_value": 72.01566789420824,
+          "size_value": 11948.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11948.0
+          }
+        },
+        {
+          "geography_id": "Williamson, Tennessee",
+          "geography_label": "Williamson, Tennessee",
+          "x_value": 64.07233146969988,
+          "y_value": 78.87981572521045,
+          "size_value": 248976.0,
+          "color_value": null,
+          "metadata": {
+            "population": 248976.0
+          }
+        },
+        {
+          "geography_id": "Wilson, Tennessee",
+          "geography_label": "Wilson, Tennessee",
+          "x_value": 47.98731173665991,
+          "y_value": 76.27261054144078,
+          "size_value": 153110.0,
+          "color_value": null,
+          "metadata": {
+            "population": 153110.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Economic Profile & Spending Power",
+      "subtitle": null,
+      "description": "Household income paired with education levels reveals the discretionary spending capacity of each area. Premium grooming, boarding, daycare, and retail products are discretionary purchases, so higher-income and highly-educated households represent the strongest target market. Together these metrics pinpoint where customers can most readily afford premium pet-care services.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 80.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_d388ecd7",
+          "title": "Top Tennessee Counties by Median Household Income",
+          "subtitle": "Prioritizing affluent markets for premium pet grooming, boarding, and retail services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Williamson, Tennessee",
+              "value": 137144.6252182839,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Wilson, Tennessee",
+              "value": 112967.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Davidson, Tennessee",
+              "value": 110535.1026625881,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Maury, Tennessee",
+              "value": 103643.90394925245,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sumner, Tennessee",
+              "value": 101737.89366974543,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Robertson, Tennessee",
+              "value": 99271.13035914005,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Dickson, Tennessee",
+              "value": 97222.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cheatham, Tennessee",
+              "value": 96637.05800747556,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Rutherford, Tennessee",
+              "value": 94093.61543828122,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Smith, Tennessee",
+              "value": 73465.23711340207,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_1ba5da23",
+          "title": "College-Educated Households by County: Ranking Premium Market Opportunities",
+          "subtitle": "Percentage of residents with a college degree or higher across 10 Middle Tennessee counties",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Davidson, Tennessee",
+              "value": 64.67471738263066,
+              "percentage": 64.67471738263066,
+              "color": null
+            },
+            {
+              "label": "Williamson, Tennessee",
+              "value": 64.65902233346011,
+              "percentage": 64.65902233346011,
+              "color": null
+            },
+            {
+              "label": "Wilson, Tennessee",
+              "value": 47.5,
+              "percentage": 47.5,
+              "color": null
+            },
+            {
+              "label": "Maury, Tennessee",
+              "value": 43.23641237388033,
+              "percentage": 43.23641237388033,
+              "color": null
+            },
+            {
+              "label": "Sumner, Tennessee",
+              "value": 41.14600886085455,
+              "percentage": 41.14600886085455,
+              "color": null
+            },
+            {
+              "label": "Rutherford, Tennessee",
+              "value": 39.75968764039005,
+              "percentage": 39.75968764039005,
+              "color": null
+            },
+            {
+              "label": "Dickson, Tennessee",
+              "value": 35.70000000000001,
+              "percentage": 35.70000000000001,
+              "color": null
+            },
+            {
+              "label": "Smith, Tennessee",
+              "value": 30.0659793814433,
+              "percentage": 30.0659793814433,
+              "color": null
+            },
+            {
+              "label": "Cheatham, Tennessee",
+              "value": 29.035573605520415,
+              "percentage": 29.035573605520415,
+              "color": null
+            },
+            {
+              "label": "Robertson, Tennessee",
+              "value": 28.68042127500932,
+              "percentage": 28.68042127500932,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Neighborhood Affluence & Stability",
+      "subtitle": null,
+      "description": "Home value serves as a powerful proxy for discretionary wealth and household stability. Homeowners in higher-value areas tend to own pets, invest in their care, and use boarding and daycare services. This section highlights the most affluent, stable neighborhoods ideal for locating and marketing premium pet services.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 78.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_housing_cf41f1bd",
+          "title": "Median Home Values Across Target Counties",
+          "subtitle": "Ranking Tennessee counties by home value to identify premium pet service markets",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Williamson, Tennessee",
+              "value": 766648.9727303585,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Davidson, Tennessee",
+              "value": 657478.9123287671,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Wilson, Tennessee",
+              "value": 484054.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Maury, Tennessee",
+              "value": 476379.2188072325,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sumner, Tennessee",
+              "value": 439740.1720858051,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Dickson, Tennessee",
+              "value": 412377.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Rutherford, Tennessee",
+              "value": 407840.64277371106,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Robertson, Tennessee",
+              "value": 380724.7328196844,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cheatham, Tennessee",
+              "value": 282788.3030477286,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Smith, Tennessee",
+              "value": 263404.1443298969,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Workforce & Daily Routines",
+      "subtitle": null,
+      "description": "Labor-force participation indicates how many residents work outside the home, driving demand for doggy daycare and overnight boarding among busy, working pet owners. Areas with high employment signal customers who need reliable pet-care solutions during their workdays and travel.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 72.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_a6b4f9a3",
+          "title": "Labor Force Participation Across Middle Tennessee Counties",
+          "subtitle": "Ranking counties by workforce engagement to identify markets with time-strapped, dual-income pet owners",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Rutherford, Tennessee",
+              "value": 72.66087682672233,
+              "percentage": 72.66087682672233,
+              "color": null
+            },
+            {
+              "label": "Davidson, Tennessee",
+              "value": 71.06030003989892,
+              "percentage": 71.06030003989892,
+              "color": null
+            },
+            {
+              "label": "Robertson, Tennessee",
+              "value": 70.16009693053313,
+              "percentage": 70.16009693053313,
+              "color": null
+            },
+            {
+              "label": "Maury, Tennessee",
+              "value": 69.78058672704871,
+              "percentage": 69.78058672704871,
+              "color": null
+            },
+            {
+              "label": "Wilson, Tennessee",
+              "value": 68.9,
+              "percentage": 68.9,
+              "color": null
+            },
+            {
+              "label": "Sumner, Tennessee",
+              "value": 68.81596956271432,
+              "percentage": 68.81596956271432,
+              "color": null
+            },
+            {
+              "label": "Cheatham, Tennessee",
+              "value": 67.58637147786084,
+              "percentage": 67.58637147786084,
+              "color": null
+            },
+            {
+              "label": "Williamson, Tennessee",
+              "value": 66.34556173089429,
+              "percentage": 66.34556173089429,
+              "color": null
+            },
+            {
+              "label": "Dickson, Tennessee",
+              "value": 66.09999999999998,
+              "percentage": 66.09999999999998,
+              "color": null
+            },
+            {
+              "label": "Smith, Tennessee",
+              "value": 52.128865979381445,
+              "percentage": 52.128865979381445,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_4",
+      "title": "Community Life Stage",
+      "subtitle": null,
+      "description": "Median age reveals the life-stage composition of each area, from young professionals to established households. Age profiles help tailor service offerings and marketing messaging, since different age groups vary in pet ownership patterns and preferences for grooming, daycare, and retail products.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 72.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_74ffa05f",
+          "title": "Median Age by County: Pinpointing Mature Pet-Owner Markets",
+          "subtitle": "Comparing median resident age across 10 Tennessee counties to guide premium service targeting",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Smith, Tennessee",
+              "value": 45.99381443298969,
+              "percentage": 45.99381443298969,
+              "color": null
+            },
+            {
+              "label": "Cheatham, Tennessee",
+              "value": 42.16982461184589,
+              "percentage": 42.16982461184589,
+              "color": null
+            },
+            {
+              "label": "Dickson, Tennessee",
+              "value": 41.7,
+              "percentage": 41.7,
+              "color": null
+            },
+            {
+              "label": "Williamson, Tennessee",
+              "value": 41.27297573623534,
+              "percentage": 41.27297573623534,
+              "color": null
+            },
+            {
+              "label": "Robertson, Tennessee",
+              "value": 41.14640859947807,
+              "percentage": 41.14640859947807,
+              "color": null
+            },
+            {
+              "label": "Sumner, Tennessee",
+              "value": 40.43954344071488,
+              "percentage": 40.43954344071488,
+              "color": null
+            },
+            {
+              "label": "Wilson, Tennessee",
+              "value": 40.4,
+              "percentage": 40.4,
+              "color": null
+            },
+            {
+              "label": "Davidson, Tennessee",
+              "value": 40.29324803830297,
+              "percentage": 40.29324803830297,
+              "color": null
+            },
+            {
+              "label": "Maury, Tennessee",
+              "value": 38.483921614331855,
+              "percentage": 38.483921614331855,
+              "color": null
+            },
+            {
+              "label": "Rutherford, Tennessee",
+              "value": 35.15236489521948,
+              "percentage": 35.15236489521948,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T11:02:19.960586+00:00"
+}

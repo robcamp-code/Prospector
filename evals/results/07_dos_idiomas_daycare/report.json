@@ -1,0 +1,731 @@
+{
+  "report_id": "report_78ee617a",
+  "title": "Market Analysis: Dos Idiomas Early Learning Center",
+  "subtitle": "Demographic insights for Metro areas: Houston-Pasadena-The Woodlands, TX",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Houston-Pasadena-The Woodlands, TX",
+  "client_profile_id": "3384ef86-949a-415e-a717-1343ff69a821",
+  "summary": {
+    "total_population": 7443583,
+    "zip_count": 10,
+    "median_household_income": 89068.94577705387,
+    "median_age": 35.683842337755884,
+    "home_ownership_rate": 62.740434895399154,
+    "narrative": "The Houston metro's large, young, and heavily Hispanic population creates one of the nation's most fertile markets for Spanish-English immersion early education.\n\nThe Houston-Pasadena-The Woodlands metro area, covering roughly 7.4 million residents across 10 geographic areas, represents an exceptionally strong environment for Dos Idiomas Early Learning Center. The region combines two demographic forces that align perfectly with a bilingual immersion model: a robust base of young children and a deep, culturally rooted Hispanic community. Children under age 10 make up between 11.1% and 16.4% of the population depending on the area—a sizable and geographically concentrated pool of potential enrollees for daycare, preschool, and after-school programming. This youthful family structure provides both immediate enrollment demand and a durable pipeline of future students.\n\nWhat distinguishes Houston from a generic childcare market is the natural, organic demand for bilingual education. Hispanic residents represent 28.5% to 42.6% of the population across the metro, and 3.0% to 9.8% of households have limited English proficiency. This is not a market where immersion must be \"sold\" as a novelty—it is a market where Spanish-English fluency is a lived family value and a practical necessity. That dynamic supports strong demand for both the core immersion preschool and the parent language workshops, which can serve as a differentiating community anchor and a lead-generation channel for full enrollment.\n\nThe economic and workforce indicators reinforce the opportunity. Median household incomes range from $69K to $89K, and college attainment spans 9.5% to 36.3%, signaling clear opportunities for a tiered pricing and scholarship strategy that captures both premium-positioned immersion families and value-conscious working households. Labor force participation of 53.1% to 68.4% points to widespread need for full-day and after-school care, while home ownership rates of 57.1% to 82.9% indicate settled, permanent neighborhoods that correlate with longer enrollment retention—an important factor for site selection and long-term center profitability.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_64b9ee6f",
+      "title": "Market Opportunity: Hispanic Population (%) vs Limited English Proficiency (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Hispanic Population (%)",
+        "y_axis_label": "Limited English Proficiency (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Austin, Texas",
+          "geography_label": "Austin, Texas",
+          "x_value": 27.44372515099092,
+          "y_value": 2.5683692980060098,
+          "size_value": 32949.0,
+          "color_value": null,
+          "metadata": {
+            "population": 32949.0
+          }
+        },
+        {
+          "geography_id": "Brazoria, Texas",
+          "geography_label": "Brazoria, Texas",
+          "x_value": 31.302770475817614,
+          "y_value": 4.214312220198478,
+          "size_value": 411229.0,
+          "color_value": null,
+          "metadata": {
+            "population": 411229.0
+          }
+        },
+        {
+          "geography_id": "Chambers, Texas",
+          "geography_label": "Chambers, Texas",
+          "x_value": 27.71793088170137,
+          "y_value": 3.094237926451041,
+          "size_value": 45140.0,
+          "color_value": null,
+          "metadata": {
+            "population": 45140.0
+          }
+        },
+        {
+          "geography_id": "Fort Bend, Texas",
+          "geography_label": "Fort Bend, Texas",
+          "x_value": 25.049376896782306,
+          "y_value": 6.683032536977025,
+          "size_value": 855396.0,
+          "color_value": null,
+          "metadata": {
+            "population": 855396.0
+          }
+        },
+        {
+          "geography_id": "Galveston, Texas",
+          "geography_label": "Galveston, Texas",
+          "x_value": 26.148167340848023,
+          "y_value": 2.9892588040540367,
+          "size_value": 379967.0,
+          "color_value": null,
+          "metadata": {
+            "population": 379967.0
+          }
+        },
+        {
+          "geography_id": "Harris, Texas",
+          "geography_label": "Harris, Texas",
+          "x_value": 43.819159227455714,
+          "y_value": 11.41746242572383,
+          "size_value": 4851657.0,
+          "color_value": null,
+          "metadata": {
+            "population": 4851657.0
+          }
+        },
+        {
+          "geography_id": "Liberty, Texas",
+          "geography_label": "Liberty, Texas",
+          "x_value": 39.16940647655873,
+          "y_value": 7.884626389560173,
+          "size_value": 103450.0,
+          "color_value": null,
+          "metadata": {
+            "population": 103450.0
+          }
+        },
+        {
+          "geography_id": "Montgomery, Texas",
+          "geography_label": "Montgomery, Texas",
+          "x_value": 27.893998481681383,
+          "y_value": 3.666966319176722,
+          "size_value": 673113.0,
+          "color_value": null,
+          "metadata": {
+            "population": 673113.0
+          }
+        },
+        {
+          "geography_id": "San Jacinto, Texas",
+          "geography_label": "San Jacinto, Texas",
+          "x_value": 22.311709244883556,
+          "y_value": 5.656954128440367,
+          "size_value": 35425.0,
+          "color_value": null,
+          "metadata": {
+            "population": 35425.0
+          }
+        },
+        {
+          "geography_id": "Waller, Texas",
+          "geography_label": "Waller, Texas",
+          "x_value": 34.813189279186346,
+          "y_value": 6.770591961199486,
+          "size_value": 55257.0,
+          "color_value": null,
+          "metadata": {
+            "population": 55257.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Family Age Structure",
+      "subtitle": null,
+      "description": "Age is the single most decisive metric for an early learning center. The share of children under 10 (11.1–16.4%) directly quantifies the pool of potential enrollees for daycare, preschool, and after-school care, guiding capacity planning and location prioritization.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 92.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_f95fa150",
+          "title": "Share of Young Children (Under 10) Across Greater Houston Counties",
+          "subtitle": "Ranking counties by the percentage of population under age 10 — the core age group for preschool and daycare enrollment",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Category",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Under 10",
+              "value": 13.749307567414974,
+              "percentage": 13.749307567414974,
+              "color": null
+            },
+            {
+              "label": "10 To 19",
+              "value": 14.31250469909323,
+              "percentage": 14.31250469909323,
+              "color": null
+            },
+            {
+              "label": "20S",
+              "value": 14.411456592320288,
+              "percentage": 14.411456592320288,
+              "color": null
+            },
+            {
+              "label": "30S",
+              "value": 15.287172729352772,
+              "percentage": 15.287172729352772,
+              "color": null
+            },
+            {
+              "label": "40S",
+              "value": 13.538162870690984,
+              "percentage": 13.538162870690984,
+              "color": null
+            },
+            {
+              "label": "50S",
+              "value": 11.309981781609553,
+              "percentage": 11.309981781609553,
+              "color": null
+            },
+            {
+              "label": "60S",
+              "value": 9.701391337618684,
+              "percentage": 9.701391337618684,
+              "color": null
+            },
+            {
+              "label": "70S",
+              "value": 5.384942003516615,
+              "percentage": 5.384942003516615,
+              "color": null
+            },
+            {
+              "label": "80 Plus",
+              "value": 2.302610379132634,
+              "percentage": 2.302610379132634,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Bilingual Market Demographics",
+      "subtitle": null,
+      "description": "Race/ethnicity and language ability together define the core customer base for a Spanish-English immersion program. A substantial Hispanic population share (28.5–42.6%) and the presence of limited-English households (3.0–9.8%) indicate strong natural demand for bilingual immersion preschool and parent language workshops, helping identify the highest-opportunity service areas.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_race_3d2de666",
+          "title": "Hispanic Population Share Across Greater Houston-Area Counties",
+          "subtitle": "Ranking the top 10 counties by Hispanic population percentage — a core indicator of demand for Spanish-English immersion programs",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Harris, Texas",
+              "value": 42.57732938202131,
+              "percentage": 42.57732938202131,
+              "color": null
+            },
+            {
+              "label": "Liberty, Texas",
+              "value": 40.28489706686099,
+              "percentage": 40.28489706686099,
+              "color": null
+            },
+            {
+              "label": "Waller, Texas",
+              "value": 37.70478104634874,
+              "percentage": 37.70478104634874,
+              "color": null
+            },
+            {
+              "label": "Chambers, Texas",
+              "value": 37.31915941805865,
+              "percentage": 37.31915941805865,
+              "color": null
+            },
+            {
+              "label": "Brazoria, Texas",
+              "value": 36.279785525139935,
+              "percentage": 36.279785525139935,
+              "color": null
+            },
+            {
+              "label": "Montgomery, Texas",
+              "value": 35.40860793433652,
+              "percentage": 35.40860793433652,
+              "color": null
+            },
+            {
+              "label": "Galveston, Texas",
+              "value": 33.400779642312315,
+              "percentage": 33.400779642312315,
+              "color": null
+            },
+            {
+              "label": "Fort Bend, Texas",
+              "value": 32.11403819032482,
+              "percentage": 32.11403819032482,
+              "color": null
+            },
+            {
+              "label": "San Jacinto, Texas",
+              "value": 28.901919385796543,
+              "percentage": 28.901919385796543,
+              "color": null
+            },
+            {
+              "label": "Austin, Texas",
+              "value": 28.509621993127148,
+              "percentage": 28.509621993127148,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_language_75d21072",
+          "title": "Where Bilingual Immersion Demand Is Highest: Limited English Proficiency by County",
+          "subtitle": "Share of population with limited English proficiency across Greater Houston-area counties (Texas)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Harris, Texas",
+              "value": 9.83160801220217,
+              "percentage": 9.83160801220217,
+              "color": null
+            },
+            {
+              "label": "Liberty, Texas",
+              "value": 8.25554745855347,
+              "percentage": 8.25554745855347,
+              "color": null
+            },
+            {
+              "label": "San Jacinto, Texas",
+              "value": 7.816698656429942,
+              "percentage": 7.816698656429942,
+              "color": null
+            },
+            {
+              "label": "Waller, Texas",
+              "value": 7.196349757394889,
+              "percentage": 7.196349757394889,
+              "color": null
+            },
+            {
+              "label": "Fort Bend, Texas",
+              "value": 7.151920336086797,
+              "percentage": 7.151920336086797,
+              "color": null
+            },
+            {
+              "label": "Chambers, Texas",
+              "value": 5.174928796859364,
+              "percentage": 5.174928796859364,
+              "color": null
+            },
+            {
+              "label": "Montgomery, Texas",
+              "value": 4.59220437756498,
+              "percentage": 4.59220437756498,
+              "color": null
+            },
+            {
+              "label": "Brazoria, Texas",
+              "value": 4.03979133657531,
+              "percentage": 4.03979133657531,
+              "color": null
+            },
+            {
+              "label": "Galveston, Texas",
+              "value": 3.707563374338667,
+              "percentage": 3.707563374338667,
+              "color": null
+            },
+            {
+              "label": "Austin, Texas",
+              "value": 2.979476241260813,
+              "percentage": 2.979476241260813,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Economic Profile",
+      "subtitle": null,
+      "description": "Household income and parental education determine both the ability to afford full-day tuition and the likelihood of valuing immersion education. Median incomes ($69K–$89K) and college attainment (9.5–36.3%) inform pricing tiers, scholarship strategy, and premium program positioning.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_f207c2d5",
+          "title": "Median Household Income Across Greater Houston-Area Counties",
+          "subtitle": "Comparing family purchasing power in target service areas for premium bilingual childcare",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fort Bend, Texas",
+              "value": 89404.57656346772,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Montgomery, Texas",
+              "value": 83224.57050889193,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Austin, Texas",
+              "value": 81434.37978433464,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Chambers, Texas",
+              "value": 81352.56793164498,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Brazoria, Texas",
+              "value": 80156.80121601543,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Harris, Texas",
+              "value": 78486.0937429047,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Waller, Texas",
+              "value": 77457.04992183852,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Galveston, Texas",
+              "value": 74532.85056314713,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Liberty, Texas",
+              "value": 70258.2825347665,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Jacinto, Texas",
+              "value": 69029.67946257198,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_e5cfe8db",
+          "title": "College-Educated Households by County: Prime Markets for Bilingual Preschool",
+          "subtitle": "Percentage of adults with a college degree or higher across 10 Texas counties",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fort Bend, Texas",
+              "value": 36.31307286109059,
+              "percentage": 36.31307286109059,
+              "color": null
+            },
+            {
+              "label": "Harris, Texas",
+              "value": 33.53822239711381,
+              "percentage": 33.53822239711381,
+              "color": null
+            },
+            {
+              "label": "Montgomery, Texas",
+              "value": 29.093719562243507,
+              "percentage": 29.093719562243507,
+              "color": null
+            },
+            {
+              "label": "Austin, Texas",
+              "value": 26.712647628076,
+              "percentage": 26.712647628076,
+              "color": null
+            },
+            {
+              "label": "Galveston, Texas",
+              "value": 24.21057677951248,
+              "percentage": 24.21057677951248,
+              "color": null
+            },
+            {
+              "label": "Waller, Texas",
+              "value": 22.31296262460158,
+              "percentage": 22.31296262460158,
+              "color": null
+            },
+            {
+              "label": "Brazoria, Texas",
+              "value": 20.535869714197993,
+              "percentage": 20.535869714197993,
+              "color": null
+            },
+            {
+              "label": "Liberty, Texas",
+              "value": 12.433275642193477,
+              "percentage": 12.433275642193477,
+              "color": null
+            },
+            {
+              "label": "Chambers, Texas",
+              "value": 10.765776306673851,
+              "percentage": 10.765776306673851,
+              "color": null
+            },
+            {
+              "label": "San Jacinto, Texas",
+              "value": 9.45239923224568,
+              "percentage": 9.45239923224568,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_4",
+      "title": "Workforce & Care Demand",
+      "subtitle": null,
+      "description": "Labor force participation (53.1–68.4%) is a leading proxy for childcare demand: working parents drive the need for full-day daycare and after-school care. This section helps forecast enrollment demand tied to household work patterns.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 78.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_aa0ecb4f",
+          "title": "Labor Force Participation Across Greater Houston Counties",
+          "subtitle": "Ranking counties by working-parent potential for full-day childcare demand",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fort Bend, Texas",
+              "value": 68.40332380689435,
+              "percentage": 68.40332380689435,
+              "color": null
+            },
+            {
+              "label": "Harris, Texas",
+              "value": 68.39849461279697,
+              "percentage": 68.39849461279697,
+              "color": null
+            },
+            {
+              "label": "Montgomery, Texas",
+              "value": 65.70675896032833,
+              "percentage": 65.70675896032833,
+              "color": null
+            },
+            {
+              "label": "Galveston, Texas",
+              "value": 64.05616216040767,
+              "percentage": 64.05616216040767,
+              "color": null
+            },
+            {
+              "label": "Waller, Texas",
+              "value": 62.64105406338185,
+              "percentage": 62.64105406338185,
+              "color": null
+            },
+            {
+              "label": "Chambers, Texas",
+              "value": 61.0524747902394,
+              "percentage": 61.0524747902394,
+              "color": null
+            },
+            {
+              "label": "Austin, Texas",
+              "value": 60.896508275072094,
+              "percentage": 60.896508275072094,
+              "color": null
+            },
+            {
+              "label": "Brazoria, Texas",
+              "value": 59.71638824774258,
+              "percentage": 59.71638824774258,
+              "color": null
+            },
+            {
+              "label": "Liberty, Texas",
+              "value": 55.42173538997187,
+              "percentage": 55.42173538997187,
+              "color": null
+            },
+            {
+              "label": "San Jacinto, Texas",
+              "value": 53.091650671785025,
+              "percentage": 53.091650671785025,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_5",
+      "title": "Community Characteristics",
+      "subtitle": null,
+      "description": "Home ownership (57.1–82.9%) reflects household stability and neighborhood permanence, which correlate with longer enrollment retention and support site-selection decisions for a lasting community presence.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "viz_housing_0bf5a7c3",
+          "title": "Home Ownership Rates Across Target Counties",
+          "subtitle": "Comparing owner-occupied housing rates to identify family-stable markets for enrollment",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Liberty, Texas",
+              "value": 82.91301694297685,
+              "percentage": 82.91301694297685,
+              "color": null
+            },
+            {
+              "label": "San Jacinto, Texas",
+              "value": 79.62476007677544,
+              "percentage": 79.62476007677544,
+              "color": null
+            },
+            {
+              "label": "Chambers, Texas",
+              "value": 77.41358632899698,
+              "percentage": 77.41358632899698,
+              "color": null
+            },
+            {
+              "label": "Austin, Texas",
+              "value": 76.68952482521627,
+              "percentage": 76.68952482521627,
+              "color": null
+            },
+            {
+              "label": "Waller, Texas",
+              "value": 72.76210893883103,
+              "percentage": 72.76210893883103,
+              "color": null
+            },
+            {
+              "label": "Brazoria, Texas",
+              "value": 70.76368346317687,
+              "percentage": 70.76368346317687,
+              "color": null
+            },
+            {
+              "label": "Fort Bend, Texas",
+              "value": 69.58253676882096,
+              "percentage": 69.58253676882096,
+              "color": null
+            },
+            {
+              "label": "Montgomery, Texas",
+              "value": 67.91391573187414,
+              "percentage": 67.91391573187414,
+              "color": null
+            },
+            {
+              "label": "Galveston, Texas",
+              "value": 63.90762179882502,
+              "percentage": 63.90762179882502,
+              "color": null
+            },
+            {
+              "label": "Harris, Texas",
+              "value": 57.08728139517066,
+              "percentage": 57.08728139517066,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T10:56:43.972289+00:00"
+}

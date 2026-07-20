@@ -1,0 +1,81 @@
+{
+  "business_id": "13_trueline_auto_repair",
+  "status": "complete",
+  "thread_id": "84a05467-49c8-49d8-b769-b63d187489a0",
+  "latency": {
+    "total_seconds": 47.7,
+    "stages": {
+      "llm:discovery.extract": 5.9,
+      "node:profile_builder.db_write": 0.0,
+      "llm:demographic_extraction": 12.8,
+      "llm:location_extraction": 2.9,
+      "llm:age.extract": 4.8,
+      "db:age.query": 0.1,
+      "category:age": 4.8,
+      "llm:employment.extract": 5.0,
+      "db:employment.query": 0.0,
+      "category:employment": 5.1,
+      "llm:income.extract": 5.9,
+      "db:income.query": 0.0,
+      "category:income": 6.0,
+      "llm:transportation.extract": 3.9,
+      "db:transportation.query": 0.0,
+      "category:transportation": 3.9,
+      "llm:housing.extract": 5.0,
+      "db:housing.query": 0.0,
+      "category:housing": 5.0,
+      "llm:education.extract": 5.9,
+      "db:education.query": 0.0,
+      "category:education": 5.9,
+      "db:population_totals": 0.0,
+      "db:summary.median_household_income": 0.0,
+      "db:summary.median_age": 0.0,
+      "db:summary.home_ownership": 0.0,
+      "llm:bubble_chart_config": 9.4,
+      "db:bubble_chart.x_query": 0.0,
+      "db:bubble_chart.y_query": 0.0,
+      "llm:summary_narrative": 15.2,
+      "node:query_node.generate_report": 26.0
+    }
+  },
+  "tokens": {
+    "input_tokens": 16366,
+    "output_tokens": 4778,
+    "total_tokens": 21144,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 16366,
+        "output_tokens": 4778,
+        "total_tokens": 21144
+      }
+    }
+  },
+  "tool_selection": {
+    "categories_attempted": 6,
+    "metric_valid_first_try": 6,
+    "metric_rescued": 0,
+    "metric_unresolvable": 0,
+    "query_failures": 0,
+    "zero_row_queries": 6,
+    "first_try_valid_rate": 1.0,
+    "query_success_rate": 0.0
+  },
+  "judge": {
+    "overall_quality": 4,
+    "section_relevance": 2,
+    "narrative_quality": 5,
+    "data_plausibility": 6,
+    "visualization_appropriateness": 7,
+    "tool_selection_relevance": 5,
+    "reasoning": "Overall (4): The report operates entirely at the state/region level and never drills down to actual candidate locations. For a site-selection decision the owner needs ZIP- or corridor-level comparisons (arterial roads near residential + big-box retail, vehicle age, commuter density by neighborhood), and none of that is delivered. It reads as a market-sizing memo, not a site pick, so its practical decision value is limited.\n\nSection relevance (2): The 'sections' array is empty \u2014 the only analytical content is the summary and a single bubble chart. There is essentially no sectioned demographic analysis, which is a major gap against the brief. Metrics that matter most for a budget repair shop (median vehicle age / share of older vehicles, share of low-to-moderate income commuter households, renter vs owner mix, big-box retail proximity) are absent as dedicated sections.\n\nNarrative quality (5): The prose is fluent and correctly emphasizes car dependence, longer vehicle-hold times, and the transparent-pricing pain point \u2014 all on-brief. But it is largely generic regional storytelling and partly contradicts the data shown: it stresses a 'cost-conscious middle class' while the summary reports a median household income of ~$80.7k and a 69.6% home-ownership rate, which skews more affluent/homeowner than the working-class, budget renter target. It doesn't cite specific states or leverage the chart's actual numbers to recommend anything.\n\nData plausibility (6): State-level commute times (17\u201324 min) and home-ownership rates (63\u201373%) are plausible for these Midwest states. However, total_population of 69.1M is derived from only zip_count = 12 ZIPs, which is internally impossible \u2014 the population clearly reflects full state populations, so the ZIP sampling is inconsistent/misleading. A ~$80.7k regional median income is on the high side for a 12-state Midwest aggregate and undercuts the budget-customer thesis. The bubble chart also lists only 8 states despite claiming a 12-state region.\n\nVisualization appropriateness (7): A bubble chart for commute time vs. home-ownership with population as size is a reasonable multi-dimensional choice and the axes are commute-relevant. But home-ownership on the y-axis is a weak proxy for the budget/commuter-vehicle target, and there are no distribution or categorical charts (e.g., income histogram, vehicle-age bar chart) to round out the picture.\n\nTool selection relevance (5): Commute time and population are apt for a commuter-serving auto shop, but the agent missed the most decisive metrics for a budget older-vehicle repair business: vehicle ownership/vehicles-per-household, vehicle age distribution, income tiers below regional median, and renter share. Home-ownership rate is only tangentially relevant. Mediocre metric selection overall.",
+    "judge_tokens": {
+      "input_tokens": 3394,
+      "output_tokens": 1121,
+      "total_tokens": 4515
+    }
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-20T11:05:00.090879+00:00"
+}

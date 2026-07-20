@@ -1,0 +1,1001 @@
+{
+  "report_id": "report_3c4c8f12",
+  "title": "Market Analysis: FixHub Tech Repair",
+  "subtitle": "Demographic insights for Nationwide",
+  "geography_type": "state",
+  "geography_value": "Nationwide",
+  "client_profile_id": "07526a87-2f8d-4ea1-9a29-e9f281ad6fb4",
+  "summary": {
+    "total_population": 338067439,
+    "zip_count": 52,
+    "median_household_income": 86754.90171378794,
+    "median_age": 39.457203986154965,
+    "home_ownership_rate": 65.516381690045,
+    "narrative": "A nationwide addressable market of 338 million device-dependent consumers positions FixHub to capture same-day repair demand concentrated in young, tech-saturated, working communities.\n\nAcross all 52 geographic areas covering 338,067,439 residents, the demographic landscape aligns strongly with FixHub's same-day repair model. Age emerges as the single most powerful predictor of device ownership and heavy daily usage — the exact behaviors that produce cracked screens, degraded batteries, and data-loss emergencies. Median ages range from as low as 22 to 30.6, and the youngest, most tech-saturated markets generate the highest volume of repair-generating device activity. These areas represent FixHub's peak-traffic opportunity, where smartphone, tablet, and laptop penetration is deepest and the tolerance for downtime is lowest.\n\nAffordability data reinforces the case for repair over replacement. With median household incomes spanning $31K to $75K across areas, a large share of customers face a clear economic trade-off: pay for an affordable screen or battery repair, or absorb the far higher cost of a new device. This income band is FixHub's sweet spot — households with genuine reliance on their devices but limited appetite for premium replacement spending. Education levels layer onto this, correlating with device sophistication and greater comfort engaging professional data-recovery services, which command higher margins.\n\nMarket stability indicators confirm long-term commercial viability. Labor-force participation ranges from 28% up to 98%, and areas at the higher end signal both disposable income and a work-related dependence on functioning devices that makes fast turnaround especially valuable. Rent levels between $973 and $2,185 map cost-of-living and the presence of settled, recurring customer bases around each kiosk. Together, these signals let FixHub distinguish transient markets from durable, repeat-business locations.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_39170add",
+      "title": "Market Opportunity: Adults 18+ (%) vs Median Rent ($)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Adults 18+ (%)",
+        "y_axis_label": "Median Rent ($)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Vermont",
+          "geography_label": "Vermont",
+          "x_value": 82.07428829279898,
+          "y_value": 1170.7698352356492,
+          "size_value": 647106.0,
+          "color_value": null,
+          "metadata": {
+            "population": 647106.0
+          }
+        },
+        {
+          "geography_id": "Nevada",
+          "geography_label": "Nevada",
+          "x_value": 78.25787447778633,
+          "y_value": 1657.5100831239454,
+          "size_value": 3184281.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3184281.0
+          }
+        },
+        {
+          "geography_id": "New York",
+          "geography_label": "New York",
+          "x_value": 79.530247251883,
+          "y_value": 1711.60940818946,
+          "size_value": 19771902.0,
+          "color_value": null,
+          "metadata": {
+            "population": 19771902.0
+          }
+        },
+        {
+          "geography_id": "West Virginia",
+          "geography_label": "West Virginia",
+          "x_value": 79.98313979384784,
+          "y_value": 775.6742547117603,
+          "size_value": 1778104.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1778104.0
+          }
+        },
+        {
+          "geography_id": "South Carolina",
+          "geography_label": "South Carolina",
+          "x_value": 78.56036382517739,
+          "y_value": 1202.4919619162706,
+          "size_value": 5296225.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5296225.0
+          }
+        },
+        {
+          "geography_id": "Arkansas",
+          "geography_label": "Arkansas",
+          "x_value": 76.88362549647948,
+          "y_value": 919.5411616071361,
+          "size_value": 3049723.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3049723.0
+          }
+        },
+        {
+          "geography_id": "Hawaii",
+          "geography_label": "Hawaii",
+          "x_value": 79.33527384819769,
+          "y_value": 2089.8854352406356,
+          "size_value": 1445235.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1445235.0
+          }
+        },
+        {
+          "geography_id": "New Mexico",
+          "geography_label": "New Mexico",
+          "x_value": 78.25862322390994,
+          "y_value": 1069.3746482277097,
+          "size_value": 2118558.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2118558.0
+          }
+        },
+        {
+          "geography_id": "Missouri",
+          "geography_label": "Missouri",
+          "x_value": 77.66837147159009,
+          "y_value": 1047.1694227815974,
+          "size_value": 6191989.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6191989.0
+          }
+        },
+        {
+          "geography_id": "South Dakota",
+          "geography_label": "South Dakota",
+          "x_value": 75.78711172516086,
+          "y_value": 907.7443554759056,
+          "size_value": 906188.0,
+          "color_value": null,
+          "metadata": {
+            "population": 906188.0
+          }
+        },
+        {
+          "geography_id": "District of Columbia",
+          "geography_label": "District of Columbia",
+          "x_value": 81.31935625442172,
+          "y_value": 1904.1583031701439,
+          "size_value": 681294.0,
+          "color_value": null,
+          "metadata": {
+            "population": 681294.0
+          }
+        },
+        {
+          "geography_id": "Ohio",
+          "geography_label": "Ohio",
+          "x_value": 77.98527312573873,
+          "y_value": 1057.6783347373346,
+          "size_value": 11810293.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11810293.0
+          }
+        },
+        {
+          "geography_id": "Minnesota",
+          "geography_label": "Minnesota",
+          "x_value": 77.14023083567697,
+          "y_value": 1290.2986093132215,
+          "size_value": 5739754.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5739754.0
+          }
+        },
+        {
+          "geography_id": "Washington",
+          "geography_label": "Washington",
+          "x_value": 78.61772172822975,
+          "y_value": 1732.1556714087642,
+          "size_value": 7816021.0,
+          "color_value": null,
+          "metadata": {
+            "population": 7816021.0
+          }
+        },
+        {
+          "geography_id": "Kentucky",
+          "geography_label": "Kentucky",
+          "x_value": 77.3753946760125,
+          "y_value": 947.0326677615213,
+          "size_value": 4542460.0,
+          "color_value": null,
+          "metadata": {
+            "population": 4542460.0
+          }
+        },
+        {
+          "geography_id": "Arizona",
+          "geography_label": "Arizona",
+          "x_value": 78.38969760238896,
+          "y_value": 1600.2092036235144,
+          "size_value": 7380680.0,
+          "color_value": null,
+          "metadata": {
+            "population": 7380680.0
+          }
+        },
+        {
+          "geography_id": "Maryland",
+          "geography_label": "Maryland",
+          "x_value": 77.82052613149061,
+          "y_value": 1742.6476783780836,
+          "size_value": 6205597.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6205597.0
+          }
+        },
+        {
+          "geography_id": "Puerto Rico",
+          "geography_label": "Puerto Rico",
+          "x_value": 83.87917101846048,
+          "y_value": 594.4022452317896,
+          "size_value": 3233341.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3233341.0
+          }
+        },
+        {
+          "geography_id": "Wyoming",
+          "geography_label": "Wyoming",
+          "x_value": 77.4744695503436,
+          "y_value": 976.1211632024648,
+          "size_value": 582289.0,
+          "color_value": null,
+          "metadata": {
+            "population": 582289.0
+          }
+        },
+        {
+          "geography_id": "New Hampshire",
+          "geography_label": "New Hampshire",
+          "x_value": 81.76096945340727,
+          "y_value": 1483.6542452028782,
+          "size_value": 1394951.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1394951.0
+          }
+        },
+        {
+          "geography_id": "North Dakota",
+          "geography_label": "North Dakota",
+          "x_value": 76.49381308799761,
+          "y_value": 890.6018736856334,
+          "size_value": 784123.0,
+          "color_value": null,
+          "metadata": {
+            "population": 784123.0
+          }
+        },
+        {
+          "geography_id": "Nebraska",
+          "geography_label": "Nebraska",
+          "x_value": 75.49285057573465,
+          "y_value": 1065.2759686758357,
+          "size_value": 1979558.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1979558.0
+          }
+        },
+        {
+          "geography_id": "Tennessee",
+          "geography_label": "Tennessee",
+          "x_value": 77.8423608572933,
+          "y_value": 1194.194479199781,
+          "size_value": 7058868.0,
+          "color_value": null,
+          "metadata": {
+            "population": 7058868.0
+          }
+        },
+        {
+          "geography_id": "Oregon",
+          "geography_label": "Oregon",
+          "x_value": 80.08852874260829,
+          "y_value": 1493.0578260514933,
+          "size_value": 4254259.0,
+          "color_value": null,
+          "metadata": {
+            "population": 4254259.0
+          }
+        },
+        {
+          "geography_id": "Idaho",
+          "geography_label": "Idaho",
+          "x_value": 75.89981979475736,
+          "y_value": 1264.377037456836,
+          "size_value": 1933906.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1933906.0
+          }
+        },
+        {
+          "geography_id": "Alabama",
+          "geography_label": "Alabama",
+          "x_value": 77.76996020917701,
+          "y_value": 1009.4681982070538,
+          "size_value": 5086600.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5086600.0
+          }
+        },
+        {
+          "geography_id": "Colorado",
+          "geography_label": "Colorado",
+          "x_value": 78.99374773664327,
+          "y_value": 1784.7332428019072,
+          "size_value": 5862421.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5862421.0
+          }
+        },
+        {
+          "geography_id": "North Carolina",
+          "geography_label": "North Carolina",
+          "x_value": 78.23794967654236,
+          "y_value": 1214.761791080217,
+          "size_value": 10730463.0,
+          "color_value": null,
+          "metadata": {
+            "population": 10730463.0
+          }
+        },
+        {
+          "geography_id": "Mississippi",
+          "geography_label": "Mississippi",
+          "x_value": 76.69061210111988,
+          "y_value": 951.6307934350035,
+          "size_value": 2946719.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2946719.0
+          }
+        },
+        {
+          "geography_id": "Florida",
+          "geography_label": "Florida",
+          "x_value": 80.4805799337123,
+          "y_value": 1694.9596705798829,
+          "size_value": 22412596.0,
+          "color_value": null,
+          "metadata": {
+            "population": 22412596.0
+          }
+        },
+        {
+          "geography_id": "Delaware",
+          "geography_label": "Delaware",
+          "x_value": 79.27428771394031,
+          "y_value": 1421.6197405063601,
+          "size_value": 1021605.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1021605.0
+          }
+        },
+        {
+          "geography_id": "Louisiana",
+          "geography_label": "Louisiana",
+          "x_value": 76.52064868001591,
+          "y_value": 1042.0062704693983,
+          "size_value": 4611457.0,
+          "color_value": null,
+          "metadata": {
+            "population": 4611457.0
+          }
+        },
+        {
+          "geography_id": "New Jersey",
+          "geography_label": "New Jersey",
+          "x_value": 78.19447856864367,
+          "y_value": 1805.9362403490911,
+          "size_value": 9343809.0,
+          "color_value": null,
+          "metadata": {
+            "population": 9343809.0
+          }
+        },
+        {
+          "geography_id": "Connecticut",
+          "geography_label": "Connecticut",
+          "x_value": 79.80928716394064,
+          "y_value": 1624.8498850050821,
+          "size_value": 3624508.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3624508.0
+          }
+        },
+        {
+          "geography_id": "Iowa",
+          "geography_label": "Iowa",
+          "x_value": 77.10401101344623,
+          "y_value": 940.1692253838698,
+          "size_value": 3210984.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3210984.0
+          }
+        },
+        {
+          "geography_id": "Indiana",
+          "geography_label": "Indiana",
+          "x_value": 76.72640168919536,
+          "y_value": 1076.5582423366384,
+          "size_value": 6851073.0,
+          "color_value": null,
+          "metadata": {
+            "population": 6851073.0
+          }
+        },
+        {
+          "geography_id": "Massachusetts",
+          "geography_label": "Massachusetts",
+          "x_value": 80.63304787436886,
+          "y_value": 1802.9865898218309,
+          "size_value": 7043978.0,
+          "color_value": null,
+          "metadata": {
+            "population": 7043978.0
+          }
+        },
+        {
+          "geography_id": "Rhode Island",
+          "geography_label": "Rhode Island",
+          "x_value": 81.16960330353497,
+          "y_value": 1338.727067205155,
+          "size_value": 1101850.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1101850.0
+          }
+        },
+        {
+          "geography_id": "Michigan",
+          "geography_label": "Michigan",
+          "x_value": 78.76093786528592,
+          "y_value": 1140.7807111254176,
+          "size_value": 10077716.0,
+          "color_value": null,
+          "metadata": {
+            "population": 10077716.0
+          }
+        },
+        {
+          "geography_id": "Pennsylvania",
+          "geography_label": "Pennsylvania",
+          "x_value": 79.5580000886421,
+          "y_value": 1228.5234449658594,
+          "size_value": 13018637.0,
+          "color_value": null,
+          "metadata": {
+            "population": 13018637.0
+          }
+        },
+        {
+          "geography_id": "Montana",
+          "geography_label": "Montana",
+          "x_value": 78.97842289679907,
+          "y_value": 1070.4707714525512,
+          "size_value": 1117606.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1117606.0
+          }
+        },
+        {
+          "geography_id": "Wisconsin",
+          "geography_label": "Wisconsin",
+          "x_value": 78.6226109665519,
+          "y_value": 1075.0741742101702,
+          "size_value": 5914913.0,
+          "color_value": null,
+          "metadata": {
+            "population": 5914913.0
+          }
+        },
+        {
+          "geography_id": "Illinois",
+          "geography_label": "Illinois",
+          "x_value": 78.15590972485082,
+          "y_value": 1339.5895112505214,
+          "size_value": 12694745.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12694745.0
+          }
+        },
+        {
+          "geography_id": "Virginia",
+          "geography_label": "Virginia",
+          "x_value": 78.28058833732713,
+          "y_value": 1605.1272326997787,
+          "size_value": 8705380.0,
+          "color_value": null,
+          "metadata": {
+            "population": 8705380.0
+          }
+        },
+        {
+          "geography_id": "Georgia",
+          "geography_label": "Georgia",
+          "x_value": 76.77053888348122,
+          "y_value": 1403.7874470415525,
+          "size_value": 10940417.0,
+          "color_value": null,
+          "metadata": {
+            "population": 10940417.0
+          }
+        },
+        {
+          "geography_id": "Utah",
+          "geography_label": "Utah",
+          "x_value": 72.21037512221662,
+          "y_value": 1562.7272091538257,
+          "size_value": 3390495.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3390495.0
+          }
+        },
+        {
+          "geography_id": "California",
+          "geography_label": "California",
+          "x_value": 78.02758613860912,
+          "y_value": 2102.019594517114,
+          "size_value": 39286245.0,
+          "color_value": null,
+          "metadata": {
+            "population": 39286245.0
+          }
+        },
+        {
+          "geography_id": "Maine",
+          "geography_label": "Maine",
+          "x_value": 81.95001001632875,
+          "y_value": 1115.6582709654733,
+          "size_value": 1387734.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1387734.0
+          }
+        },
+        {
+          "geography_id": "Kansas",
+          "geography_label": "Kansas",
+          "x_value": 76.24067310570055,
+          "y_value": 1058.2583614803534,
+          "size_value": 2947026.0,
+          "color_value": null,
+          "metadata": {
+            "population": 2947026.0
+          }
+        },
+        {
+          "geography_id": "Texas",
+          "geography_label": "Texas",
+          "x_value": 75.00852280381966,
+          "y_value": 1434.389433628257,
+          "size_value": 30188035.0,
+          "color_value": null,
+          "metadata": {
+            "population": 30188035.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Consumer Profile & Device Demand",
+      "subtitle": null,
+      "description": "Age is the strongest predictor of smartphone, tablet, and laptop ownership and heavy daily usage — the behaviors that generate cracked screens, dead batteries, and data-loss emergencies. Younger, tech-saturated areas (median as low as 22) drive the highest volume of same-day repair demand, while the range up to 30.6 helps FixHub identify which kiosk locations will see peak device-repair traffic.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 78.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_d862a134",
+          "title": "Youngest Markets for Electronics Repair Demand",
+          "subtitle": "Median age by state — younger populations drive higher device usage and repair frequency",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Virginia",
+              "value": 22.0,
+              "percentage": 22.0,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 22.4,
+              "percentage": 22.4,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 22.6,
+              "percentage": 22.6,
+              "color": null
+            },
+            {
+              "label": "Idaho",
+              "value": 22.9,
+              "percentage": 22.9,
+              "color": null
+            },
+            {
+              "label": "North Dakota",
+              "value": 23.1,
+              "percentage": 23.1,
+              "color": null
+            },
+            {
+              "label": "Florida",
+              "value": 23.2,
+              "percentage": 23.2,
+              "color": null
+            },
+            {
+              "label": "South Carolina",
+              "value": 23.2,
+              "percentage": 23.2,
+              "color": null
+            },
+            {
+              "label": "Colorado",
+              "value": 23.5,
+              "percentage": 23.5,
+              "color": null
+            },
+            {
+              "label": "Alabama",
+              "value": 25.1,
+              "percentage": 25.1,
+              "color": null
+            },
+            {
+              "label": "Minnesota",
+              "value": 28.300000000000004,
+              "percentage": 28.300000000000004,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Economic Profile & Affordability",
+      "subtitle": null,
+      "description": "Repair is a discretionary purchase that competes directly with buying a new device. Household income (median $31K–$75K across areas) signals whether customers will choose an affordable screen or battery repair over a costly replacement, while education correlates with device sophistication and comfort seeking professional data-recovery services. Together they reveal each area's willingness and ability to pay for repair.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 63.5,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_c3eeb606",
+          "title": "Median Household Income by State: Prioritizing High-Value Repair Markets",
+          "subtitle": "Comparing income levels across candidate locations to guide kiosk expansion and pricing strategy",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Alabama",
+              "value": 74541.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Idaho",
+              "value": 74196.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "South Carolina",
+              "value": 73592.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Texas",
+              "value": 72293.6493580275,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 69917.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 68640.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Colorado",
+              "value": 67374.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Virginia",
+              "value": 62946.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "North Dakota",
+              "value": 62500.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Minnesota",
+              "value": 62105.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_b97db194",
+          "title": "College-Educated Population by State: Prime Markets for Tech Repair Services",
+          "subtitle": "Percentage of residents with a college degree or above across 15 states, ranked highest to lowest",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Minnesota",
+              "value": 59.8,
+              "percentage": 59.8,
+              "color": null
+            },
+            {
+              "label": "South Carolina",
+              "value": 51.0,
+              "percentage": 51.0,
+              "color": null
+            },
+            {
+              "label": "Florida",
+              "value": 44.8,
+              "percentage": 44.8,
+              "color": null
+            },
+            {
+              "label": "Alabama",
+              "value": 43.9,
+              "percentage": 43.9,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 43.0,
+              "percentage": 43.0,
+              "color": null
+            },
+            {
+              "label": "Massachusetts",
+              "value": 42.2,
+              "percentage": 42.2,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 39.900000000000006,
+              "percentage": 39.900000000000006,
+              "color": null
+            },
+            {
+              "label": "Texas",
+              "value": 37.25345983410976,
+              "percentage": 37.25345983410976,
+              "color": null
+            },
+            {
+              "label": "Idaho",
+              "value": 35.3,
+              "percentage": 35.3,
+              "color": null
+            },
+            {
+              "label": "North Dakota",
+              "value": 29.9,
+              "percentage": 29.9,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Market Stability & Spending Capacity",
+      "subtitle": null,
+      "description": "Labor-force participation (28% to 98%) reflects disposable income and the steady work-related reliance on functioning devices that makes fast repairs valuable. Housing patterns and rent levels ($973–$2,185) indicate cost-of-living and settled, recurring customer bases around each kiosk. These indicators help FixHub gauge the long-term commercial viability of a location.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_d8f35f9c",
+          "title": "Labor Force Participation Across Target Markets",
+          "subtitle": "Comparing workforce engagement by state to identify high-activity markets for repair kiosks",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Virginia",
+              "value": 97.7,
+              "percentage": 97.7,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 86.6,
+              "percentage": 86.6,
+              "color": null
+            },
+            {
+              "label": "Idaho",
+              "value": 86.0,
+              "percentage": 86.0,
+              "color": null
+            },
+            {
+              "label": "South Carolina",
+              "value": 84.2,
+              "percentage": 84.2,
+              "color": null
+            },
+            {
+              "label": "Florida",
+              "value": 83.5,
+              "percentage": 83.5,
+              "color": null
+            },
+            {
+              "label": "Minnesota",
+              "value": 83.09999999999998,
+              "percentage": 83.09999999999998,
+              "color": null
+            },
+            {
+              "label": "Texas",
+              "value": 81.7770139756846,
+              "percentage": 81.7770139756846,
+              "color": null
+            },
+            {
+              "label": "Alabama",
+              "value": 78.6,
+              "percentage": 78.6,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 77.7,
+              "percentage": 77.7,
+              "color": null
+            },
+            {
+              "label": "North Dakota",
+              "value": 76.8,
+              "percentage": 76.8,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_housing_b61b33bb",
+          "title": "Median Rent by State: Identifying High-Income Markets for Repair Kiosks",
+          "subtitle": "Comparing median monthly rent across 15 states as a proxy for local purchasing power and device spending",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Colorado",
+              "value": 2185.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Virginia",
+              "value": 2154.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Massachusetts",
+              "value": 2094.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 2089.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Florida",
+              "value": 2077.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Idaho",
+              "value": 1903.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 1808.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Minnesota",
+              "value": 1638.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Texas",
+              "value": 1472.1887285535734,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alabama",
+              "value": 1441.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T11:07:28.774456+00:00"
+}

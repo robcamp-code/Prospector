@@ -1,0 +1,508 @@
+{
+  "report_id": "report_069cb18c",
+  "title": "Market Analysis: BrightSmile Pediatric Dentistry",
+  "subtitle": "Demographic insights for States: New Jersey",
+  "geography_type": "state",
+  "geography_value": "States: New Jersey",
+  "client_profile_id": "204ff338-f49c-41d8-9d79-433027b398cd",
+  "summary": {
+    "total_population": 9343809,
+    "zip_count": 21,
+    "median_household_income": 111904.7834337153,
+    "median_age": 40.55506785294948,
+    "home_ownership_rate": 63.74532988634507,
+    "narrative": "New Jersey's 9.3 million residents across 21 affluent, family-dense counties represent a premium-ready market where dual-income, college-educated households are primed to invest in specialized pediatric dental care.\n\nNew Jersey offers an exceptionally favorable demographic foundation for BrightSmile Pediatric Dentistry. Across the 21 geographic areas analyzed—covering a total population of 9,343,809—the state combines a substantial base of families with young children, high household incomes, and elevated parental education levels. This convergence is precisely the profile that supports a premium, child-focused dental practice. The share of children under 10 directly defines the addressable patient base for a clinic specializing in ages 0-14, and New Jersey's suburban counties consistently over-index on families in their prime child-rearing years, signaling deep and durable demand.\n\nThe state's affordability and education profile reinforces its premium positioning. New Jersey ranks among the highest-income states in the nation, and its concentration of college-educated households correlates strongly with a willingness to prioritize preventive dental care and to pay for elective services such as orthodontic consultations, anxiety-free sedation, and a kid-friendly amenity-rich experience. High labor force participation across the region points to a large population of dual-income, working-parent households—families that pair the disposable income to afford premium care with an acute demand for convenient, low-stress visits. This working-family dynamic aligns directly with BrightSmile's core value proposition of delivering a stress-free, family-friendly experience.\n\nCommunity stability data—drawn from housing and settlement patterns—provides supportive, directional context suggesting rooted, family-oriented neighborhoods that favor long-term patient retention. While the underlying home-value dataset is currently thin and should not drive site selection on its own, the broader picture of settled, affluent, family-anchored communities strengthens the case for New Jersey as a high-retention market. Taken together, the demographic landscape positions the state as a top-tier expansion and growth opportunity for a specialized pediatric dental brand.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_96bc9782",
+      "title": "Market Opportunity: Six-Figure Households (%) vs Median Age (Family-Formation Years)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "Median Age (Family-Formation Years)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Atlantic, New Jersey",
+          "geography_label": "Atlantic, New Jersey",
+          "x_value": 38.65183324852004,
+          "y_value": 42.74854273674807,
+          "size_value": 273149.0,
+          "color_value": null,
+          "metadata": {
+            "population": 273149.0
+          }
+        },
+        {
+          "geography_id": "Bergen, New Jersey",
+          "geography_label": "Bergen, New Jersey",
+          "x_value": 59.92084907660268,
+          "y_value": 42.31568497250383,
+          "size_value": 962316.0,
+          "color_value": null,
+          "metadata": {
+            "population": 962316.0
+          }
+        },
+        {
+          "geography_id": "Burlington, New Jersey",
+          "geography_label": "Burlington, New Jersey",
+          "x_value": 54.26438374767466,
+          "y_value": 42.18752600186675,
+          "size_value": 463909.0,
+          "color_value": null,
+          "metadata": {
+            "population": 463909.0
+          }
+        },
+        {
+          "geography_id": "Camden, New Jersey",
+          "geography_label": "Camden, New Jersey",
+          "x_value": 45.11711316601591,
+          "y_value": 39.038408530312914,
+          "size_value": 542442.0,
+          "color_value": null,
+          "metadata": {
+            "population": 542442.0
+          }
+        },
+        {
+          "geography_id": "Cape May, New Jersey",
+          "geography_label": "Cape May, New Jersey",
+          "x_value": 45.56679616923061,
+          "y_value": 50.81692828273333,
+          "size_value": 95751.0,
+          "color_value": null,
+          "metadata": {
+            "population": 95751.0
+          }
+        },
+        {
+          "geography_id": "Cumberland, New Jersey",
+          "geography_label": "Cumberland, New Jersey",
+          "x_value": 32.720078996429365,
+          "y_value": 38.353315006161715,
+          "size_value": 158235.0,
+          "color_value": null,
+          "metadata": {
+            "population": 158235.0
+          }
+        },
+        {
+          "geography_id": "Essex, New Jersey",
+          "geography_label": "Essex, New Jersey",
+          "x_value": 42.469304679673144,
+          "y_value": 37.83004638557357,
+          "size_value": 863415.0,
+          "color_value": null,
+          "metadata": {
+            "population": 863415.0
+          }
+        },
+        {
+          "geography_id": "Gloucester, New Jersey",
+          "geography_label": "Gloucester, New Jersey",
+          "x_value": 52.547982611529235,
+          "y_value": 39.63363192323559,
+          "size_value": 288467.0,
+          "color_value": null,
+          "metadata": {
+            "population": 288467.0
+          }
+        },
+        {
+          "geography_id": "Hudson, New Jersey",
+          "geography_label": "Hudson, New Jersey",
+          "x_value": 45.782824857341346,
+          "y_value": 36.493191363773676,
+          "size_value": 718323.0,
+          "color_value": null,
+          "metadata": {
+            "population": 718323.0
+          }
+        },
+        {
+          "geography_id": "Hunterdon, New Jersey",
+          "geography_label": "Hunterdon, New Jersey",
+          "x_value": 66.17495626844045,
+          "y_value": 46.14082388005916,
+          "size_value": 133199.0,
+          "color_value": null,
+          "metadata": {
+            "population": 133199.0
+          }
+        },
+        {
+          "geography_id": "Mercer, New Jersey",
+          "geography_label": "Mercer, New Jersey",
+          "x_value": 50.152416275137675,
+          "y_value": 39.537374232632665,
+          "size_value": 395671.0,
+          "color_value": null,
+          "metadata": {
+            "population": 395671.0
+          }
+        },
+        {
+          "geography_id": "Middlesex, New Jersey",
+          "geography_label": "Middlesex, New Jersey",
+          "x_value": 55.06861114419395,
+          "y_value": 39.56205869842621,
+          "size_value": 881625.0,
+          "color_value": null,
+          "metadata": {
+            "population": 881625.0
+          }
+        },
+        {
+          "geography_id": "Monmouth, New Jersey",
+          "geography_label": "Monmouth, New Jersey",
+          "x_value": 59.868032433721524,
+          "y_value": 43.63012520370444,
+          "size_value": 628975.0,
+          "color_value": null,
+          "metadata": {
+            "population": 628975.0
+          }
+        },
+        {
+          "geography_id": "Morris, New Jersey",
+          "geography_label": "Morris, New Jersey",
+          "x_value": 64.48565077135511,
+          "y_value": 42.736553264768425,
+          "size_value": 504048.0,
+          "color_value": null,
+          "metadata": {
+            "population": 504048.0
+          }
+        },
+        {
+          "geography_id": "Ocean, New Jersey",
+          "geography_label": "Ocean, New Jersey",
+          "x_value": 45.38063085814339,
+          "y_value": 41.34090889611304,
+          "size_value": 653364.0,
+          "color_value": null,
+          "metadata": {
+            "population": 653364.0
+          }
+        },
+        {
+          "geography_id": "Passaic, New Jersey",
+          "geography_label": "Passaic, New Jersey",
+          "x_value": 43.02049698390133,
+          "y_value": 38.315420140623196,
+          "size_value": 520540.0,
+          "color_value": null,
+          "metadata": {
+            "population": 520540.0
+          }
+        },
+        {
+          "geography_id": "Salem, New Jersey",
+          "geography_label": "Salem, New Jersey",
+          "x_value": 41.52432981010659,
+          "y_value": 42.26371727984844,
+          "size_value": 66511.0,
+          "color_value": null,
+          "metadata": {
+            "population": 66511.0
+          }
+        },
+        {
+          "geography_id": "Somerset, New Jersey",
+          "geography_label": "Somerset, New Jersey",
+          "x_value": 67.12160661953786,
+          "y_value": 42.459301041073886,
+          "size_value": 328603.0,
+          "color_value": null,
+          "metadata": {
+            "population": 328603.0
+          }
+        },
+        {
+          "geography_id": "Sussex, New Jersey",
+          "geography_label": "Sussex, New Jersey",
+          "x_value": 57.68539432798679,
+          "y_value": 44.22057617645658,
+          "size_value": 147073.0,
+          "color_value": null,
+          "metadata": {
+            "population": 147073.0
+          }
+        },
+        {
+          "geography_id": "Union, New Jersey",
+          "geography_label": "Union, New Jersey",
+          "x_value": 50.53054242912976,
+          "y_value": 39.10116534977934,
+          "size_value": 602051.0,
+          "color_value": null,
+          "metadata": {
+            "population": 602051.0
+          }
+        },
+        {
+          "geography_id": "Warren, New Jersey",
+          "geography_label": "Warren, New Jersey",
+          "x_value": 51.45396755695614,
+          "y_value": 44.20397186203097,
+          "size_value": 116142.0,
+          "color_value": null,
+          "metadata": {
+            "population": 116142.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Target Patient Population",
+      "subtitle": null,
+      "description": "Age distribution is the single most important metric for a pediatric practice. BrightSmile specializes in children ages 0-14, so the share of young children (under_10) in an area directly determines the size of the potential patient base. High concentrations of families with young kids signal prime locations for a kid-focused dental clinic.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 92.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_a0bba8ac",
+          "title": "Where the Kids Are: Under-10 Population by Community",
+          "subtitle": "Comparing age distributions in Morris and Warren, NJ to pinpoint families with young children",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Category",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Under 10",
+              "value": 17.979940119760478,
+              "percentage": 17.979940119760478,
+              "color": null
+            },
+            {
+              "label": "10 To 19",
+              "value": 6.57814371257485,
+              "percentage": 6.57814371257485,
+              "color": null
+            },
+            {
+              "label": "20S",
+              "value": 14.969161676646706,
+              "percentage": 14.969161676646706,
+              "color": null
+            },
+            {
+              "label": "30S",
+              "value": 18.60239520958084,
+              "percentage": 18.60239520958084,
+              "color": null
+            },
+            {
+              "label": "40S",
+              "value": 18.872754491017965,
+              "percentage": 18.872754491017965,
+              "color": null
+            },
+            {
+              "label": "50S",
+              "value": 23.045808383233535,
+              "percentage": 23.045808383233535,
+              "color": null
+            },
+            {
+              "label": "60S",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            },
+            {
+              "label": "70S",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            },
+            {
+              "label": "80 Plus",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Family Affordability",
+      "subtitle": null,
+      "description": "As a premium clinic offering elective services (orthodontic consultations, anxiety-free sedation, kid-friendly amenities), household income indicates whether families in the area can afford and are willing to pay for premium pediatric dental care. Higher median income areas support the clinic's premium positioning.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 72.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_a5c646ba",
+          "title": "Median Household Income Comparison Across Target Markets",
+          "subtitle": "Morris vs. Warren, New Jersey — Purchasing Power for Premium Pediatric Dental Services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Morris, New Jersey",
+              "value": 250001.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Warren, New Jersey",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Parental Education & Care Priorities",
+      "subtitle": null,
+      "description": "Parental education levels correlate strongly with prioritization of preventive dental care and willingness to invest in a premium, high-quality experience for their children. College-educated households tend to schedule routine checkups and value the clinic's specialized, anxiety-free approach.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 72.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_education_ee6fb3c5",
+          "title": "College-Educated Households by Community",
+          "subtitle": "Comparing Morris and Warren, NJ — Share of Adults with a College Degree or Higher",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Morris, New Jersey",
+              "value": 83.2,
+              "percentage": 83.2,
+              "color": null
+            },
+            {
+              "label": "Warren, New Jersey",
+              "value": 22.8,
+              "percentage": 22.8,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_4",
+      "title": "Working-Family Dynamics",
+      "subtitle": null,
+      "description": "Labor force participation reveals the prevalence of dual-income, working-parent households. These families combine the disposable income to afford premium care with a strong demand for convenient, kid-friendly, low-stress dental visits — exactly the value proposition BrightSmile delivers.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 45.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_0f17cae5",
+          "title": "Parental Workforce Engagement: Morris vs. Warren, NJ",
+          "subtitle": "Labor force participation rates in candidate service areas",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Morris, New Jersey",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Warren, New Jersey",
+              "value": 83.4,
+              "percentage": 83.4,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_5",
+      "title": "Community Stability",
+      "subtitle": null,
+      "description": "Housing patterns provide supplementary context on neighborhood rootedness and family settlement, which relate to long-term patient retention. Note that the underlying home value data is currently thin, so this section should be treated as directional community context rather than a primary decision driver.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 15.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "viz_housing_bd45af70",
+          "title": "Median Home Value Comparison: Morris vs. Warren, NJ",
+          "subtitle": "Housing affordability as a proxy for household income and premium service demand",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Morris, New Jersey",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            },
+            {
+              "label": "Warren, New Jersey",
+              "value": 0.0,
+              "percentage": 0.0,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T10:52:35.147885+00:00"
+}

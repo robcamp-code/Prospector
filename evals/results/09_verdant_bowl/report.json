@@ -1,0 +1,286 @@
+{
+  "report_id": "report_6a5d2c07",
+  "title": "Market Analysis: Verdant Bowl",
+  "subtitle": "Demographic insights for Metro areas: Los Angeles-Long Beach-Anaheim, CA, San Diego-Chula Vista-Carlsbad, CA",
+  "geography_type": "cbsa",
+  "geography_value": "Metro areas: Los Angeles-Long Beach-Anaheim, CA, San Diego-Chula Vista-Carlsbad, CA",
+  "client_profile_id": "a03f9fca-baf6-4620-8d64-d389e6d85232",
+  "summary": {
+    "total_population": 16268344,
+    "zip_count": 3,
+    "median_household_income": 101299.19415313569,
+    "median_age": 38.56139973435528,
+    "home_ownership_rate": 50.62450888055966,
+    "narrative": "Southern California's 16.3 million-strong, health-forward metro markets offer Verdant Bowl a prime runway to scale premium plant-based quick lunches.\n\nThe combined Los Angeles-Long Beach-Anaheim and San Diego-Chula Vista-Carlsbad CBSAs encompass more than 16.2 million residents across three geographic areas, representing one of the largest and most affluent consumer bases in the nation. This footprint is especially well-suited to Verdant Bowl's positioning: vegan, locally sourced, cold-pressed offerings in compostable packaging command a premium, and these metros concentrate the higher-income, college-educated households whose purchasing power and consumer sophistication make them the most likely to embrace a health-forward, sustainably minded menu at these price points. The economic profile of the trade area confirms that the willingness—and the disposable income—to pay for quality plant-based dining is firmly in place.\n\nThe community's age composition reinforces the fit. Southern California skews toward the younger-to-mid adult demographic that consistently over-indexes on plant-based eating and wellness-driven dining choices. This is precisely the trend-aware, health-conscious customer that anchors Verdant Bowl's brand. Layered on top of this is a deep and active workforce: strong labor force participation across both metros signals a large population of employed professionals generating reliable weekday lunch traffic—the single most important revenue engine for a quick-lunch specialist.\n\nFinally, commute and accessibility patterns validate the fast-casual, grab-and-go model. Time-pressed workers moving through dense employment corridors create sustained demand for fast, healthy midday meals that can be ordered and consumed on the go. Together, these four dimensions—purchasing power, favorable age mix, robust daytime workforce, and mobility-driven convenience demand—converge to make these Southern California metros a high-conviction market for expansion.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_2c7a93fc",
+      "title": "Market Opportunity: Six-Figure Households (%) vs College Educated or Above (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Six-Figure Households (%)",
+        "y_axis_label": "College Educated or Above (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Los Angeles, California",
+          "geography_label": "Los Angeles, California",
+          "x_value": 44.41902357185583,
+          "y_value": 34.970667828634426,
+          "size_value": 9807501.0,
+          "color_value": null,
+          "metadata": {
+            "population": 9807501.0
+          }
+        },
+        {
+          "geography_id": "Orange, California",
+          "geography_label": "Orange, California",
+          "x_value": 56.27286889113991,
+          "y_value": 43.84180209162129,
+          "size_value": 3138331.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3138331.0
+          }
+        },
+        {
+          "geography_id": "San Diego, California",
+          "geography_label": "San Diego, California",
+          "x_value": 51.9193285080686,
+          "y_value": 42.630113059034876,
+          "size_value": 3322512.0,
+          "color_value": null,
+          "metadata": {
+            "population": 3322512.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Economic Profile",
+      "subtitle": null,
+      "description": "Household income and education levels together define the purchasing power and consumer sophistication of the local market. Vegan, locally sourced, and cold-pressed offerings command a premium, so higher-income, college-educated populations are the core customers most likely to embrace Verdant Bowl's health-forward, sustainably packaged menu at these price points.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 77.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_010f8520",
+          "title": "Median Household Income Across Target Markets",
+          "subtitle": "Comparing purchasing power in Orange, San Diego, and Los Angeles",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Orange, California",
+              "value": 112152.95439225159,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Diego, California",
+              "value": 106042.13280838395,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Los Angeles, California",
+              "value": 97011.09417308118,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_a9404f50",
+          "title": "College-Educated Population Across Key California Markets",
+          "subtitle": "Share of residents with a college degree or higher in San Diego, Orange, and Los Angeles counties",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "San Diego, California",
+              "value": 41.760300657732614,
+              "percentage": 41.760300657732614,
+              "color": null
+            },
+            {
+              "label": "Orange, California",
+              "value": 39.700950076448805,
+              "percentage": 39.700950076448805,
+              "color": null
+            },
+            {
+              "label": "Los Angeles, California",
+              "value": 39.67648674573658,
+              "percentage": 39.67648674573658,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Community Characteristics",
+      "subtitle": null,
+      "description": "Median age reveals the age composition of the trade area. The younger-to-mid adult demographic over-indexes on plant-based and wellness dining, so age helps confirm alignment between the neighborhood and Verdant Bowl's health-conscious, trend-aware customer base.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 65.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_58c04d98",
+          "title": "Median Age of Customers Across Target Markets",
+          "subtitle": "Comparing San Diego, Orange, and Los Angeles for plant-based lunch demand",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Age Median",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "San Diego, California",
+              "value": 36.520251121521184,
+              "percentage": 36.520251121521184,
+              "color": null
+            },
+            {
+              "label": "Orange, California",
+              "value": 36.52254354642022,
+              "percentage": 36.52254354642022,
+              "color": null
+            },
+            {
+              "label": "Los Angeles, California",
+              "value": 37.23584766985478,
+              "percentage": 37.23584766985478,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Workforce & Lunch Demand",
+      "subtitle": null,
+      "description": "Labor force participation identifies the size of the working population that generates weekday lunch traffic. As a quick-lunch specialist, Verdant Bowl depends on a strong base of employed professionals seeking fast, healthy midday meals, making this a key indicator of daytime revenue potential.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 62.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_employment_450f874e",
+          "title": "Labor Force Participation Across Key California Markets",
+          "subtitle": "Comparing workforce activity in Orange, Los Angeles, and San Diego to gauge weekday lunch demand",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Orange, California",
+              "value": 68.05536458186499,
+              "percentage": 68.05536458186499,
+              "color": null
+            },
+            {
+              "label": "Los Angeles, California",
+              "value": 67.89557050306759,
+              "percentage": 67.89557050306759,
+              "color": null
+            },
+            {
+              "label": "San Diego, California",
+              "value": 67.3924891110391,
+              "percentage": 67.3924891110391,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_4",
+      "title": "Commute & Accessibility",
+      "subtitle": null,
+      "description": "Commute time signals how mobile and time-pressed local workers are. Shorter commutes and on-the-go patterns support demand for grab-and-go, quick-service formats, helping validate the fast-casual model and inform location and grab-and-go menu strategy.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 55.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "viz_transportation_b6d28c06",
+          "title": "Average Commute Times Across Target Markets",
+          "subtitle": "Comparing daily commute lengths in San Diego, Orange, and Los Angeles (minutes)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Minutes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "San Diego, California",
+              "value": 24.90964640333995,
+              "percentage": 24.90964640333995,
+              "color": null
+            },
+            {
+              "label": "Orange, California",
+              "value": 25.761349481653788,
+              "percentage": 25.761349481653788,
+              "color": null
+            },
+            {
+              "label": "Los Angeles, California",
+              "value": 27.71765366383334,
+              "percentage": 27.71765366383334,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T10:59:57.042893+00:00"
+}

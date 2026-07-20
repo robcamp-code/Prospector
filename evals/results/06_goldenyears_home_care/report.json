@@ -1,0 +1,1001 @@
+{
+  "report_id": "report_d2837c19",
+  "title": "Market Analysis: Golden Years Home Care",
+  "subtitle": "Demographic insights for States: Florida",
+  "geography_type": "state",
+  "geography_value": "States: Florida",
+  "client_profile_id": "1c10b1f7-e193-4b35-b3d7-59f75766e327",
+  "summary": {
+    "total_population": 22412596,
+    "zip_count": 67,
+    "median_household_income": 78262.90139094106,
+    "median_age": 43.3317606536967,
+    "home_ownership_rate": 67.449575564562,
+    "narrative": "Florida's 22.4 million residents and nation-leading senior population make it the single most fertile market in America for in-home senior care.\n\nFlorida is arguably the most attractive state in the country for a senior home-healthcare agency, and the demographic data makes the case decisively. Across 67 counties covering 22,412,596 residents, the state holds the highest concentration of adults 65 and older in the nation — roughly one in five Floridians is now a senior, a share well above the U.S. average. This core 65+ cohort, combined with residents living with disabilities, defines exactly who most needs in-home nursing, medication management, mobility assistance, and companionship. For a business like Golden Years Home Care, the target population isn't a niche to be cultivated; it already exists at scale and is expanding as the Baby Boomer wave continues to age in place.\n\nBeyond sheer numbers, Florida's living situation and economic profile amplify the opportunity. High owner-occupancy rates across the state signal a population that is rooted in place — homeowners who have deep ties to their communities and a strong preference to age in their own homes rather than relocate to institutional facilities. This \"aging in place\" mindset is the exact demand driver home-care services depend on. Layered on top are pockets of substantial household income and education, particularly in Southeast Florida and the Gulf Coast retirement corridors, where residents have both the purchasing power to fund private-pay services and the health literacy to make proactive care decisions for themselves and their aging relatives.\n\nThe strategic implication is clear: Golden Years should concentrate first on high owner-occupancy counties with dense 65+ populations and above-median household incomes, where the ability and willingness to pay for ongoing in-home support are highest. Secondary expansion should target areas with elevated disability rates, where clinical need is acute even where private-pay capacity is more modest and Medicare/Medicaid reimbursement pathways become central. With 67 geographic areas to prioritize, a phased, data-driven rollout allows the agency to capture the most profitable markets first while building a defensible statewide footprint.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "bubble_14a3bce7",
+      "title": "Market Opportunity: Population Age 65+ (%) vs Home Ownership Rate (%)",
+      "subtitle": "Bubble size represents population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Population Age 65+ (%)",
+        "y_axis_label": "Home Ownership Rate (%)",
+        "size_label": "Population",
+        "color_label": null
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "Hardee, Florida",
+          "geography_label": "Hardee, Florida",
+          "x_value": 16.028774023558586,
+          "y_value": 71.80784640421575,
+          "size_value": 25808.0,
+          "color_value": null,
+          "metadata": {
+            "population": 25808.0
+          }
+        },
+        {
+          "geography_id": "Liberty, Florida",
+          "geography_label": "Liberty, Florida",
+          "x_value": 14.133563158579422,
+          "y_value": 80.02761805645896,
+          "size_value": 7687.0,
+          "color_value": null,
+          "metadata": {
+            "population": 7687.0
+          }
+        },
+        {
+          "geography_id": "Pasco, Florida",
+          "geography_label": "Pasco, Florida",
+          "x_value": 22.607935965818697,
+          "y_value": 76.1318112988581,
+          "size_value": 573881.0,
+          "color_value": null,
+          "metadata": {
+            "population": 573881.0
+          }
+        },
+        {
+          "geography_id": "Santa Rosa, Florida",
+          "geography_label": "Santa Rosa, Florida",
+          "x_value": 16.376918240938277,
+          "y_value": 80.87669356584114,
+          "size_value": 194058.0,
+          "color_value": null,
+          "metadata": {
+            "population": 194058.0
+          }
+        },
+        {
+          "geography_id": "Washington, Florida",
+          "geography_label": "Washington, Florida",
+          "x_value": 18.36272386150435,
+          "y_value": 79.12401500938087,
+          "size_value": 23452.0,
+          "color_value": null,
+          "metadata": {
+            "population": 23452.0
+          }
+        },
+        {
+          "geography_id": "Gilchrist, Florida",
+          "geography_label": "Gilchrist, Florida",
+          "x_value": 20.31351230425056,
+          "y_value": 84.42025727069351,
+          "size_value": 17880.0,
+          "color_value": null,
+          "metadata": {
+            "population": 17880.0
+          }
+        },
+        {
+          "geography_id": "Bradford, Florida",
+          "geography_label": "Bradford, Florida",
+          "x_value": 18.652725398393542,
+          "y_value": 71.60636570594046,
+          "size_value": 23281.0,
+          "color_value": null,
+          "metadata": {
+            "population": 23281.0
+          }
+        },
+        {
+          "geography_id": "Jackson, Florida",
+          "geography_label": "Jackson, Florida",
+          "x_value": 20.820885046988376,
+          "y_value": 75.20410206590272,
+          "size_value": 50438.0,
+          "color_value": null,
+          "metadata": {
+            "population": 50438.0
+          }
+        },
+        {
+          "geography_id": "Franklin, Florida",
+          "geography_label": "Franklin, Florida",
+          "x_value": 25.78002339376723,
+          "y_value": 80.51233185729801,
+          "size_value": 11969.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11969.0
+          }
+        },
+        {
+          "geography_id": "Hillsborough, Florida",
+          "geography_label": "Hillsborough, Florida",
+          "x_value": 15.000408980827707,
+          "y_value": 62.57785532167361,
+          "size_value": 1564132.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1564132.0
+          }
+        },
+        {
+          "geography_id": "Flagler, Florida",
+          "geography_label": "Flagler, Florida",
+          "x_value": 30.712451591995464,
+          "y_value": 82.14923033298226,
+          "size_value": 123430.0,
+          "color_value": null,
+          "metadata": {
+            "population": 123430.0
+          }
+        },
+        {
+          "geography_id": "Osceola, Florida",
+          "geography_label": "Osceola, Florida",
+          "x_value": 13.185437663243398,
+          "y_value": 64.72817016970475,
+          "size_value": 438762.0,
+          "color_value": null,
+          "metadata": {
+            "population": 438762.0
+          }
+        },
+        {
+          "geography_id": "Seminole, Florida",
+          "geography_label": "Seminole, Florida",
+          "x_value": 16.410302687068295,
+          "y_value": 64.6020313305893,
+          "size_value": 494405.0,
+          "color_value": null,
+          "metadata": {
+            "population": 494405.0
+          }
+        },
+        {
+          "geography_id": "Orange, Florida",
+          "geography_label": "Orange, Florida",
+          "x_value": 13.03764443795998,
+          "y_value": 57.61720289653597,
+          "size_value": 1453046.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1453046.0
+          }
+        },
+        {
+          "geography_id": "Volusia, Florida",
+          "geography_label": "Volusia, Florida",
+          "x_value": 25.461911491133748,
+          "y_value": 73.82427406004132,
+          "size_value": 585930.0,
+          "color_value": null,
+          "metadata": {
+            "population": 585930.0
+          }
+        },
+        {
+          "geography_id": "Highlands, Florida",
+          "geography_label": "Highlands, Florida",
+          "x_value": 35.35563737155976,
+          "y_value": 78.38906776418324,
+          "size_value": 107151.0,
+          "color_value": null,
+          "metadata": {
+            "population": 107151.0
+          }
+        },
+        {
+          "geography_id": "Hendry, Florida",
+          "geography_label": "Hendry, Florida",
+          "x_value": 18.191092891716973,
+          "y_value": 74.18016669385979,
+          "size_value": 73548.0,
+          "color_value": null,
+          "metadata": {
+            "population": 73548.0
+          }
+        },
+        {
+          "geography_id": "Citrus, Florida",
+          "geography_label": "Citrus, Florida",
+          "x_value": 36.506335936776466,
+          "y_value": 85.39777297564287,
+          "size_value": 161965.0,
+          "color_value": null,
+          "metadata": {
+            "population": 161965.0
+          }
+        },
+        {
+          "geography_id": "Brevard, Florida",
+          "geography_label": "Brevard, Florida",
+          "x_value": 24.482289731207665,
+          "y_value": 77.13177691514738,
+          "size_value": 633463.0,
+          "color_value": null,
+          "metadata": {
+            "population": 633463.0
+          }
+        },
+        {
+          "geography_id": "Hamilton, Florida",
+          "geography_label": "Hamilton, Florida",
+          "x_value": 18.797718730880167,
+          "y_value": 80.87557031727997,
+          "size_value": 11441.0,
+          "color_value": null,
+          "metadata": {
+            "population": 11441.0
+          }
+        },
+        {
+          "geography_id": "Lee, Florida",
+          "geography_label": "Lee, Florida",
+          "x_value": 28.997991489491113,
+          "y_value": 73.29404530490075,
+          "size_value": 789142.0,
+          "color_value": null,
+          "metadata": {
+            "population": 789142.0
+          }
+        },
+        {
+          "geography_id": "Alachua, Florida",
+          "geography_label": "Alachua, Florida",
+          "x_value": 15.684121216598772,
+          "y_value": 54.27707509881423,
+          "size_value": 297781.0,
+          "color_value": null,
+          "metadata": {
+            "population": 297781.0
+          }
+        },
+        {
+          "geography_id": "Bay, Florida",
+          "geography_label": "Bay, Florida",
+          "x_value": 18.223894783140416,
+          "y_value": 67.16231964126715,
+          "size_value": 186434.0,
+          "color_value": null,
+          "metadata": {
+            "population": 186434.0
+          }
+        },
+        {
+          "geography_id": "Sarasota, Florida",
+          "geography_label": "Sarasota, Florida",
+          "x_value": 37.357754327223574,
+          "y_value": 76.52813551161398,
+          "size_value": 452773.0,
+          "color_value": null,
+          "metadata": {
+            "population": 452773.0
+          }
+        },
+        {
+          "geography_id": "Lake, Florida",
+          "geography_label": "Lake, Florida",
+          "x_value": 27.550642621334354,
+          "y_value": 77.88282226529456,
+          "size_value": 413774.0,
+          "color_value": null,
+          "metadata": {
+            "population": 413774.0
+          }
+        },
+        {
+          "geography_id": "Holmes, Florida",
+          "geography_label": "Holmes, Florida",
+          "x_value": 22.233232698560148,
+          "y_value": 77.91996052020436,
+          "size_value": 17224.0,
+          "color_value": null,
+          "metadata": {
+            "population": 17224.0
+          }
+        },
+        {
+          "geography_id": "Taylor, Florida",
+          "geography_label": "Taylor, Florida",
+          "x_value": 19.957837049581332,
+          "y_value": 74.33486216953618,
+          "size_value": 21258.0,
+          "color_value": null,
+          "metadata": {
+            "population": 21258.0
+          }
+        },
+        {
+          "geography_id": "Lafayette, Florida",
+          "geography_label": "Lafayette, Florida",
+          "x_value": 23.578375038616002,
+          "y_value": 80.21875193080012,
+          "size_value": 12948.0,
+          "color_value": null,
+          "metadata": {
+            "population": 12948.0
+          }
+        },
+        {
+          "geography_id": "Martin, Florida",
+          "geography_label": "Martin, Florida",
+          "x_value": 32.93070399873391,
+          "y_value": 80.55236073011184,
+          "size_value": 151648.0,
+          "color_value": null,
+          "metadata": {
+            "population": 151648.0
+          }
+        },
+        {
+          "geography_id": "Gadsden, Florida",
+          "geography_label": "Gadsden, Florida",
+          "x_value": 19.904797529169528,
+          "y_value": 69.91959505833906,
+          "size_value": 43710.0,
+          "color_value": null,
+          "metadata": {
+            "population": 43710.0
+          }
+        },
+        {
+          "geography_id": "Nassau, Florida",
+          "geography_label": "Nassau, Florida",
+          "x_value": 23.89432547960895,
+          "y_value": 82.6571777723238,
+          "size_value": 97788.0,
+          "color_value": null,
+          "metadata": {
+            "population": 97788.0
+          }
+        },
+        {
+          "geography_id": "Union, Florida",
+          "geography_label": "Union, Florida",
+          "x_value": 16.07394820951014,
+          "y_value": 75.1840845346031,
+          "size_value": 15331.0,
+          "color_value": null,
+          "metadata": {
+            "population": 15331.0
+          }
+        },
+        {
+          "geography_id": "Baker, Florida",
+          "geography_label": "Baker, Florida",
+          "x_value": 15.327651877859346,
+          "y_value": 85.31178848813704,
+          "size_value": 28197.0,
+          "color_value": null,
+          "metadata": {
+            "population": 28197.0
+          }
+        },
+        {
+          "geography_id": "DeSoto, Florida",
+          "geography_label": "DeSoto, Florida",
+          "x_value": 23.806488441756628,
+          "y_value": 71.74967783869327,
+          "size_value": 35386.0,
+          "color_value": null,
+          "metadata": {
+            "population": 35386.0
+          }
+        },
+        {
+          "geography_id": "Walton, Florida",
+          "geography_label": "Walton, Florida",
+          "x_value": 19.99407008415473,
+          "y_value": 78.23725526119722,
+          "size_value": 81873.0,
+          "color_value": null,
+          "metadata": {
+            "population": 81873.0
+          }
+        },
+        {
+          "geography_id": "Monroe, Florida",
+          "geography_label": "Monroe, Florida",
+          "x_value": 24.716278956054033,
+          "y_value": 65.41990831856245,
+          "size_value": 81805.0,
+          "color_value": null,
+          "metadata": {
+            "population": 81805.0
+          }
+        },
+        {
+          "geography_id": "Levy, Florida",
+          "geography_label": "Levy, Florida",
+          "x_value": 25.0940008663009,
+          "y_value": 81.38420204061987,
+          "size_value": 41556.0,
+          "color_value": null,
+          "metadata": {
+            "population": 41556.0
+          }
+        },
+        {
+          "geography_id": "Clay, Florida",
+          "geography_label": "Clay, Florida",
+          "x_value": 16.963203311007764,
+          "y_value": 75.70608308671369,
+          "size_value": 224705.0,
+          "color_value": null,
+          "metadata": {
+            "population": 224705.0
+          }
+        },
+        {
+          "geography_id": "Putnam, Florida",
+          "geography_label": "Putnam, Florida",
+          "x_value": 24.024299761415506,
+          "y_value": 74.78291845375183,
+          "size_value": 72511.0,
+          "color_value": null,
+          "metadata": {
+            "population": 72511.0
+          }
+        },
+        {
+          "geography_id": "Jefferson, Florida",
+          "geography_label": "Jefferson, Florida",
+          "x_value": 24.534841831038328,
+          "y_value": 75.41377744696689,
+          "size_value": 13435.0,
+          "color_value": null,
+          "metadata": {
+            "population": 13435.0
+          }
+        },
+        {
+          "geography_id": "Marion, Florida",
+          "geography_label": "Marion, Florida",
+          "x_value": 27.612106259090197,
+          "y_value": 76.75291087703758,
+          "size_value": 397406.0,
+          "color_value": null,
+          "metadata": {
+            "population": 397406.0
+          }
+        },
+        {
+          "geography_id": "Escambia, Florida",
+          "geography_label": "Escambia, Florida",
+          "x_value": 18.11468565741484,
+          "y_value": 64.26677400829266,
+          "size_value": 332583.0,
+          "color_value": null,
+          "metadata": {
+            "population": 332583.0
+          }
+        },
+        {
+          "geography_id": "Suwannee, Florida",
+          "geography_label": "Suwannee, Florida",
+          "x_value": 21.31311708356812,
+          "y_value": 73.71155155939927,
+          "size_value": 40817.0,
+          "color_value": null,
+          "metadata": {
+            "population": 40817.0
+          }
+        },
+        {
+          "geography_id": "Wakulla, Florida",
+          "geography_label": "Wakulla, Florida",
+          "x_value": 16.926696505518333,
+          "y_value": 82.19672235967863,
+          "size_value": 35971.0,
+          "color_value": null,
+          "metadata": {
+            "population": 35971.0
+          }
+        },
+        {
+          "geography_id": "Charlotte, Florida",
+          "geography_label": "Charlotte, Florida",
+          "x_value": 40.67817816517063,
+          "y_value": 83.8740209112173,
+          "size_value": 200084.0,
+          "color_value": null,
+          "metadata": {
+            "population": 200084.0
+          }
+        },
+        {
+          "geography_id": "Manatee, Florida",
+          "geography_label": "Manatee, Florida",
+          "x_value": 28.98320916748963,
+          "y_value": 74.50284686414878,
+          "size_value": 439466.0,
+          "color_value": null,
+          "metadata": {
+            "population": 439466.0
+          }
+        },
+        {
+          "geography_id": "St. Johns, Florida",
+          "geography_label": "St. Johns, Florida",
+          "x_value": 21.03873407413582,
+          "y_value": 82.82357284379671,
+          "size_value": 311914.0,
+          "color_value": null,
+          "metadata": {
+            "population": 311914.0
+          }
+        },
+        {
+          "geography_id": "Indian River, Florida",
+          "geography_label": "Indian River, Florida",
+          "x_value": 34.849328485167966,
+          "y_value": 79.77811137202282,
+          "size_value": 166936.0,
+          "color_value": null,
+          "metadata": {
+            "population": 166936.0
+          }
+        },
+        {
+          "geography_id": "Broward, Florida",
+          "geography_label": "Broward, Florida",
+          "x_value": 17.929193036974322,
+          "y_value": 63.915103061054715,
+          "size_value": 1977129.0,
+          "color_value": null,
+          "metadata": {
+            "population": 1977129.0
+          }
+        },
+        {
+          "geography_id": "Dixie, Florida",
+          "geography_label": "Dixie, Florida",
+          "x_value": 24.681930440693325,
+          "y_value": 84.24962048261017,
+          "size_value": 17654.0,
+          "color_value": null,
+          "metadata": {
+            "population": 17654.0
+          }
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_1",
+      "title": "Care Needs & Target Population",
+      "subtitle": null,
+      "description": "Age and health data pinpoint the core market for a senior home-care agency: aging adults 65+ and residents living with disabilities. These two demographics together define who most needs in-home nursing, medication management, mobility assistance, and companionship — making this the foundation for identifying and prioritizing high-demand service areas.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 93.5,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "viz_age_9070efc3",
+          "title": "Top Counties by Share of Residents Aged 65+",
+          "subtitle": "Ranking Florida markets by senior population concentration to prioritize service expansion",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Sumter, Florida",
+              "value": 82.93222107105856,
+              "percentage": 82.93222107105856,
+              "color": null
+            },
+            {
+              "label": "Hillsborough, Florida",
+              "value": 48.8289412695721,
+              "percentage": 48.8289412695721,
+              "color": null
+            },
+            {
+              "label": "Collier, Florida",
+              "value": 48.00924484516693,
+              "percentage": 48.00924484516693,
+              "color": null
+            },
+            {
+              "label": "Palm Beach, Florida",
+              "value": 47.459380795101666,
+              "percentage": 47.459380795101666,
+              "color": null
+            },
+            {
+              "label": "Sarasota, Florida",
+              "value": 46.92754142247305,
+              "percentage": 46.92754142247305,
+              "color": null
+            },
+            {
+              "label": "Marion, Florida",
+              "value": 46.83023529411765,
+              "percentage": 46.83023529411765,
+              "color": null
+            },
+            {
+              "label": "Indian River, Florida",
+              "value": 46.0621985178873,
+              "percentage": 46.0621985178873,
+              "color": null
+            },
+            {
+              "label": "Charlotte, Florida",
+              "value": 44.967029645666756,
+              "percentage": 44.967029645666756,
+              "color": null
+            },
+            {
+              "label": "Highlands, Florida",
+              "value": 44.64882085229623,
+              "percentage": 44.64882085229623,
+              "color": null
+            },
+            {
+              "label": "Lee, Florida",
+              "value": 44.582688740069045,
+              "percentage": 44.582688740069045,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_health_f1d9e3b2",
+          "title": "Top Florida Communities by Share of Residents Living with a Disability",
+          "subtitle": "Ranking the highest-need markets for in-home nursing and mobility assistance services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Alachua, Florida",
+              "value": 57.1,
+              "percentage": 57.1,
+              "color": null
+            },
+            {
+              "label": "Orange, Florida",
+              "value": 25.899999999999995,
+              "percentage": 25.899999999999995,
+              "color": null
+            },
+            {
+              "label": "Highlands, Florida",
+              "value": 23.356888705006206,
+              "percentage": 23.356888705006206,
+              "color": null
+            },
+            {
+              "label": "Lake, Florida",
+              "value": 22.299999999999997,
+              "percentage": 22.299999999999997,
+              "color": null
+            },
+            {
+              "label": "Putnam, Florida",
+              "value": 21.9,
+              "percentage": 21.9,
+              "color": null
+            },
+            {
+              "label": "Hillsborough, Florida",
+              "value": 20.516675145554238,
+              "percentage": 20.516675145554238,
+              "color": null
+            },
+            {
+              "label": "Sumter, Florida",
+              "value": 20.386153882795657,
+              "percentage": 20.386153882795657,
+              "color": null
+            },
+            {
+              "label": "Marion, Florida",
+              "value": 20.372235294117644,
+              "percentage": 20.372235294117644,
+              "color": null
+            },
+            {
+              "label": "Indian River, Florida",
+              "value": 19.426582162910663,
+              "percentage": 19.426582162910663,
+              "color": null
+            },
+            {
+              "label": "Pasco, Florida",
+              "value": 18.8,
+              "percentage": 18.8,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_2",
+      "title": "Home & Living Situation",
+      "subtitle": null,
+      "description": "Home ownership is central to a business built on helping seniors remain in their own homes. High owner-occupancy areas signal residents who are rooted in place and want to age at home rather than relocate, making them prime candidates for in-home care services.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 88.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "viz_housing_a1c5e66b",
+          "title": "Top Florida Communities by Home Ownership Among Seniors",
+          "subtitle": "Ranking of counties by share of aging adults who own their homes — prime targets for in-home care services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Orange, Florida",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Lake, Florida",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Polk, Florida",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Alachua, Florida",
+              "value": 100.0,
+              "percentage": 100.0,
+              "color": null
+            },
+            {
+              "label": "Pasco, Florida",
+              "value": 95.5,
+              "percentage": 95.5,
+              "color": null
+            },
+            {
+              "label": "Sumter, Florida",
+              "value": 93.37596965691354,
+              "percentage": 93.37596965691354,
+              "color": null
+            },
+            {
+              "label": "Highlands, Florida",
+              "value": 89.95258585022756,
+              "percentage": 89.95258585022756,
+              "color": null
+            },
+            {
+              "label": "Putnam, Florida",
+              "value": 88.0,
+              "percentage": 88.0,
+              "color": null
+            },
+            {
+              "label": "Marion, Florida",
+              "value": 87.51482352941176,
+              "percentage": 87.51482352941176,
+              "color": null
+            },
+            {
+              "label": "Flagler, Florida",
+              "value": 86.59156182824118,
+              "percentage": 86.59156182824118,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section_3",
+      "title": "Economic Profile",
+      "subtitle": null,
+      "description": "Household income and education indicate a market's ability to afford private-pay home-care services and to navigate healthcare decisions for themselves or aging relatives. Together they help gauge purchasing power and target the areas most likely to invest in ongoing in-home support.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 68.5,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "viz_income_41ddb1f4",
+          "title": "Top Florida Markets by Median Household Income",
+          "subtitle": "Identifying affluent communities where seniors can afford premium in-home care services",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "USD",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Orange, Florida",
+              "value": 250001.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Marion, Florida",
+              "value": 121552.0694117647,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Walton, Florida",
+              "value": 114892.17855100874,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Manatee, Florida",
+              "value": 105585.48315789473,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, Florida",
+              "value": 98583.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Collier, Florida",
+              "value": 95031.93898691544,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Palm Beach, Florida",
+              "value": 93725.32887647723,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Brevard, Florida",
+              "value": 92571.56733570735,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "St. Johns, Florida",
+              "value": 91394.95379174853,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Broward, Florida",
+              "value": 90614.83478286769,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "viz_education_920dde4e",
+          "title": "College-Educated Populations Across Florida Service Areas",
+          "subtitle": "Ranking counties by share of residents with a college degree or above to prioritize high-value home-care markets",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Orange, Florida",
+              "value": 93.5,
+              "percentage": 93.5,
+              "color": null
+            },
+            {
+              "label": "Broward, Florida",
+              "value": 55.8228793113719,
+              "percentage": 55.8228793113719,
+              "color": null
+            },
+            {
+              "label": "Walton, Florida",
+              "value": 54.93113615943805,
+              "percentage": 54.93113615943805,
+              "color": null
+            },
+            {
+              "label": "Palm Beach, Florida",
+              "value": 53.93240319094072,
+              "percentage": 53.93240319094072,
+              "color": null
+            },
+            {
+              "label": "Nassau, Florida",
+              "value": 52.900000000000006,
+              "percentage": 52.900000000000006,
+              "color": null
+            },
+            {
+              "label": "Marion, Florida",
+              "value": 52.47882352941176,
+              "percentage": 52.47882352941176,
+              "color": null
+            },
+            {
+              "label": "Manatee, Florida",
+              "value": 51.04076933073424,
+              "percentage": 51.04076933073424,
+              "color": null
+            },
+            {
+              "label": "Collier, Florida",
+              "value": 48.279161337739225,
+              "percentage": 48.279161337739225,
+              "color": null
+            },
+            {
+              "label": "St. Johns, Florida",
+              "value": 47.6387111984283,
+              "percentage": 47.6387111984283,
+              "color": null
+            },
+            {
+              "label": "Brevard, Florida",
+              "value": 46.80751514590945,
+              "percentage": 46.80751514590945,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T10:55:01.780460+00:00"
+}
