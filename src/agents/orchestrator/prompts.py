@@ -117,6 +117,83 @@ def format_demographics_for_prompt(demographics_mapping) -> str:
     return "\n".join(lines)
 
 
+LOCATION_EXTRACTION_PROMPT = """
+## Your Role
+You are a geographic data parser. Extract structured location filters from free-form location preferences text.
+
+## Input
+Location preferences text: {location_preferences}
+
+## Available Regions (5)
+- **east_coast**: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida
+- **west_coast**: California, Oregon, Washington, Alaska, Hawaii
+- **midwest**: Ohio, Indiana, Illinois, Michigan, Wisconsin, Minnesota, Iowa, Missouri, North Dakota, South Dakota, Nebraska, Kansas
+- **south**: Texas, Oklahoma, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, West Virginia
+- **mountain_west**: Montana, Idaho, Wyoming, Colorado, New Mexico, Arizona, Utah, Nevada
+
+## Scope Selection Rules
+
+Choose the most specific scope that matches the input:
+
+1. **metros** - When user mentions specific cities or metro areas
+   - Keywords: city names (NYC, LA, Chicago, Miami, etc.), "metro", "metropolitan", "major cities"
+   - Examples: "NYC, LA, Miami" -> metros with cbsa_names: ["New York", "Los Angeles", "Miami"]
+
+2. **states** - When user mentions specific states
+   - Keywords: state names, "state", multiple state references
+   - Examples: "Texas and California" -> states with state_names: ["Texas", "California"]
+
+3. **region** - When user mentions a geographic region
+   - Keywords: "east coast", "west coast", "midwest", "south", "southwest", "mountain states"
+   - Examples: "West coast cities" -> region with region_name: "west_coast"
+
+4. **nationwide** - When no specific location or "anywhere"
+   - Keywords: "anywhere", "nationwide", "all of US", "entire country", no location specified
+   - Examples: "Anywhere in the US" -> nationwide (all filters None/empty)
+
+## Area Type Detection
+- **urban**: "urban", "city", "downtown", "metropolitan"
+- **suburban**: "suburban", "suburbs", "outskirts"
+- **rural**: "rural", "countryside", "small town"
+- **any**: Default when not specified or mixed
+
+## Examples
+
+Input: "Urban or suburban areas, preferably in major metropolitan areas (NYC, LA, Miami, Chicago)"
+Output:
+- scope: "metros"
+- cbsa_names: ["New York", "Los Angeles", "Miami", "Chicago"]
+- area_type: "urban"
+- reasoning: "User explicitly mentions specific major metro areas as preferences"
+
+Input: "Texas and California, maybe Florida too"
+Output:
+- scope: "states"
+- state_names: ["Texas", "California", "Florida"]
+- area_type: "any"
+- reasoning: "User lists specific states"
+
+Input: "West coast, urban areas"
+Output:
+- scope: "region"
+- region_name: "west_coast"
+- area_type: "urban"
+- reasoning: "User mentions west coast region with urban preference"
+
+Input: "Anywhere in the United States"
+Output:
+- scope: "nationwide"
+- area_type: "any"
+- reasoning: "User has no specific location preference"
+
+## Important Notes
+- For metros scope, extract just the core city name (e.g., "New York" not "NYC")
+- For state_names, use full state names (e.g., "California" not "CA")
+- For region_name, use lowercase with underscores (e.g., "east_coast")
+- If ambiguous, prefer more specific scope (metros > states > region > nationwide)
+"""
+
+
 
 
 

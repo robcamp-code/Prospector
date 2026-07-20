@@ -55,15 +55,25 @@ def get_select_cols(level: GeographyLevel) -> str:
 
 def build_geography_filter(
     level: GeographyLevel,
-    state_name: str | None = None,
+    state_names: list[str] | None = None,
     county_name: str | None = None,
     region_name: str | None = None,
-    cbsa_name: str | None = None,
+    cbsa_names: list[str] | None = None,
 ) -> str:
     """Build WHERE clause fragment for geography filtering.
 
-    Returns SQL fragment with :param placeholders for parameterized values.
-    Region filtering uses IN clause with literal state names.
+    Returns SQL fragment with :param placeholders for parameterized values
+    (single values) or literal IN clauses (for lists).
+
+    Args:
+        level: Geography aggregation level
+        state_names: List of state names to filter by (uses IN clause)
+        county_name: Single county name (uses parameterized query)
+        region_name: Region name (expands to IN clause via get_states_by_region)
+        cbsa_names: List of CBSA names to filter by (uses IN clause)
+
+    Returns:
+        SQL WHERE clause fragment
     """
     clauses = [
         "population IS NOT NULL",
@@ -71,12 +81,23 @@ def build_geography_filter(
         "population > 0",
     ]
 
-    if state_name:
-        clauses.append("state_name = :state_name")
+    if state_names:
+        if len(state_names) == 1:
+            clauses.append("state_name = :state_name")
+        else:
+            state_list = ", ".join(f"'{s}'" for s in state_names)
+            clauses.append(f"state_name IN ({state_list})")
+
     if county_name:
         clauses.append("county_name = :county_name")
-    if cbsa_name:
-        clauses.append("cbsa_name = :cbsa_name")
+
+    if cbsa_names:
+        if len(cbsa_names) == 1:
+            clauses.append("cbsa_name = :cbsa_name")
+        else:
+            cbsa_list = ", ".join(f"'{c}'" for c in cbsa_names)
+            clauses.append(f"cbsa_name IN ({cbsa_list})")
+
     if region_name:
         states = get_states_by_region(region_name)
         state_list = ", ".join(f"'{s}'" for s in states)
@@ -153,10 +174,10 @@ def build_order_clause(order_by: str | None, order_desc: bool) -> str:
 def build_distribution_query(
     metric: Metric,
     geography_level: GeographyLevel,
-    state_name: str | None,
+    state_names: list[str] | None,
     county_name: str | None,
     region_name: str | None,
-    cbsa_name: str | None,
+    cbsa_names: list[str] | None,
     demographic_targets: list[DemographicTargetRef] | None,
     order_by: str | None,
     order_desc: bool,
@@ -174,7 +195,7 @@ def build_distribution_query(
 
     # Build WHERE clause combining geography and demographic filters
     geo_where = build_geography_filter(
-        geography_level, state_name, county_name, region_name, cbsa_name
+        geography_level, state_names, county_name, region_name, cbsa_names
     )
     demo_where = build_demographic_where(demographic_targets)
     where_clause = f"{geo_where} AND {demo_where}"
@@ -208,10 +229,10 @@ def build_distribution_query(
 def build_percentage_query(
     metric: Metric,
     geography_level: GeographyLevel,
-    state_name: str | None,
+    state_names: list[str] | None,
     county_name: str | None,
     region_name: str | None,
-    cbsa_name: str | None,
+    cbsa_names: list[str] | None,
     demographic_targets: list[DemographicTargetRef] | None,
     order_by: str | None,
     order_desc: bool,
@@ -230,7 +251,7 @@ def build_percentage_query(
 
     # Build WHERE clause
     geo_where = build_geography_filter(
-        geography_level, state_name, county_name, region_name, cbsa_name
+        geography_level, state_names, county_name, region_name, cbsa_names
     )
     demo_where = build_demographic_where(demographic_targets)
     where_clause = f"{geo_where} AND {demo_where}"
@@ -258,10 +279,10 @@ def build_percentage_query(
 def build_numeric_query(
     metric: Metric,
     geography_level: GeographyLevel,
-    state_name: str | None,
+    state_names: list[str] | None,
     county_name: str | None,
     region_name: str | None,
-    cbsa_name: str | None,
+    cbsa_names: list[str] | None,
     demographic_targets: list[DemographicTargetRef] | None,
     order_by: str | None,
     order_desc: bool,
@@ -280,7 +301,7 @@ def build_numeric_query(
 
     # Build WHERE clause
     geo_where = build_geography_filter(
-        geography_level, state_name, county_name, region_name, cbsa_name
+        geography_level, state_names, county_name, region_name, cbsa_names
     )
     demo_where = build_demographic_where(demographic_targets)
     where_clause = f"{geo_where} AND {demo_where}"

@@ -18,6 +18,16 @@ from src.schemas.chat import (
     SendMessageRequest,
     StartConversationRequest,
 )
+from src.schemas.report import (
+    BubbleDataPoint,
+    CategoricalDataPoint,
+    DistributionDataPoint,
+    Report,
+    ReportSection,
+    ReportSummary,
+    Visualization,
+    VisualizationConfig,
+)
 
 __all__ = [
     # Chat schemas
@@ -28,7 +38,7 @@ __all__ = [
     "ChatResponse",
     "ConversationListItem",
     "ClientProfileSummary",
-    # Chart schemas
+    # Chart schemas (legacy)
     "ChartDataPoint",
     "ChartConfig",
     "Chart",
@@ -36,4 +46,13 @@ __all__ = [
     "OpportunityDataPoint",
     "AggregatedStatistics",
     "DemographicReportData",
+    # Report schemas
+    "CategoricalDataPoint",
+    "DistributionDataPoint",
+    "BubbleDataPoint",
+    "VisualizationConfig",
+    "Visualization",
+    "ReportSection",
+    "ReportSummary",
+    "Report",
 ]

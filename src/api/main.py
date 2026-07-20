@@ -12,12 +12,17 @@ from src.core.database import (
     create_db_and_tables,
     init_checkpointer,
 )
+from src.core.logging import configure_logging, get_logger
+
+logger = get_logger(__name__)
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan for startup and shutdown."""
     # Startup
+    configure_logging()
+    logger.info("Prospector API starting up")
     await create_db_and_tables()
     await init_checkpointer()
     yield

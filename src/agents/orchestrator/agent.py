@@ -3,6 +3,10 @@ import json
 import pathlib
 
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
+
+from src.core.logging import configure_logging, get_logger
+
+logger = get_logger(__name__)
 from langchain_core.runnables import RunnableConfig
 from langchain.chat_models import init_chat_model
 from langgraph.graph import START, END, StateGraph
@@ -18,12 +22,15 @@ from src.agents.orchestrator.prompts import (
     INITIAL_MESSAGE,
     ASK_USER_FOR_MISSING_PREFERENCES,
     DEMOGRAPHIC_EXTRACTION_PROMPT,
+    LOCATION_EXTRACTION_PROMPT,
     format_demographics_for_prompt,
 )
+from src.agents.orchestrator.location_filters import LocationFilters
 from src.agents.orchestrator.demographics import DEMOGRAPHICS, MetricType
 from src.models import ClientProfile, DemographicTarget
 from src.core.database import AsyncSessionLocal, get_checkpointer
 from src.core.state import ClientProfileRef, DemographicTargetRef
+from src.schemas.report import Report
 
 
 # ANSI color codes for pretty output
@@ -149,6 +156,7 @@ class GlobalState(TypedDict):
     preferences: Preferences
     client_profile: ClientProfileRef | None
     asked_for_more: bool
+    report: Report | None
 
 
 
@@ -274,6 +282,30 @@ class Orchestrator:
                     valid_keys.add(metric_name)
         return valid_keys
 
+    async def _extract_location_filters(self, location_preferences: str) -> LocationFilters:
+        """Extract structured location filters from free-form location preferences.
+
+        Uses LLM structured output to parse location text like
+        "NYC, LA, Miami" into valid geographic filter parameters.
+
+        Args:
+            location_preferences: Free-form text describing location preferences
+
+        Returns:
+            LocationFilters with scope, region_name, state_names, cbsa_names
+        """
+        prompt = LOCATION_EXTRACTION_PROMPT.format(
+            location_preferences=location_preferences
+        )
+
+        extraction_llm = self.llm.with_structured_output(LocationFilters)
+        filters: LocationFilters = extraction_llm.invoke(
+            [SystemMessage(content=prompt)]
+        )
+
+        logger.info(f"_extract_location_filters: Extracted {filters.model_dump()}")
+        return filters
+
     async def _persist_demographic_targets(
         self, profile_id: str, targets: list[DemographicTargetRef]
     ) -> None:
@@ -384,9 +416,75 @@ class Orchestrator:
 
         return {"client_profile": updated_profile}
 
-    def query_node(self, state: GlobalState) -> dict:
-        """Stub for query node - implementation out of scope."""
-        return {}
+    async def query_node(self, state: GlobalState) -> dict:
+        """Generate demographic report using SQL agent.
+
+        Invokes the SQL analyst to build a Report based on client profile
+        and target demographics. Uses LLM to extract structured location
+        filters from free-form preferences.
+        """
+        from src.agents.sql_analyst.agent import generate_report
+        from src.agents.sql_analyst.tools import lookup_cbsa_names
+        from src.agents.sql_analyst.utils import GeographyLevel
+
+        client_profile = state["client_profile"]
+        if not client_profile:
+            logger.warning("query_node: No client_profile in state, returning empty")
+            return {}
+
+        # Extract structured location filters from preferences
+        preferences = state.get("preferences")
+        state_names: list[str] | None = None
+        region_name: str | None = None
+        cbsa_names: list[str] | None = None
+        geography_level = GeographyLevel.STATE
+
+        if preferences and preferences.location_preferences:
+            filters = await self._extract_location_filters(
+                preferences.location_preferences
+            )
+            logger.info(f"query_node: Extracted filters: {filters.model_dump()}")
+
+            # Map scope to query parameters
+            if filters.scope == "region" and filters.region_name:
+                region_name = filters.region_name
+                geography_level = GeographyLevel.STATE
+            elif filters.scope == "states" and filters.state_names:
+                state_names = filters.state_names
+                geography_level = GeographyLevel.STATE
+            elif filters.scope == "metros" and filters.cbsa_names:
+                # Resolve user-friendly names to actual CBSA names
+                async with AsyncSessionLocal() as session:
+                    cbsa_names = await lookup_cbsa_names(
+                        session, filters.cbsa_names
+                    )
+                geography_level = GeographyLevel.CBSA
+                logger.info(
+                    f"query_node: Resolved CBSAs: {filters.cbsa_names} -> {cbsa_names}"
+                )
+            # scope == "nationwide": all filters remain None
+
+        logger.info(
+            f"query_node: state_names={state_names}, cbsa_names={cbsa_names}, "
+            f"region_name={region_name}, level={geography_level.value}"
+        )
+
+        async with AsyncSessionLocal() as session:
+            report = await generate_report(
+                session=session,
+                client_profile=client_profile,
+                geography_level=geography_level,
+                state_names=state_names,
+                region_name=region_name,
+                cbsa_names=cbsa_names,
+            )
+
+        logger.info(
+            f"query_node: Report generated - total_pop={report.summary.total_population}, "
+            f"sections={len(report.sections)}"
+        )
+
+        return {"report": report}
     
     def _write_graph(self):
         """write graph to disk for troubleshooting / visualization"""
@@ -525,6 +623,7 @@ class Orchestrator:
                 "preferences": Preferences(),
                 "client_profile": None,
                 "asked_for_more": False,
+                "report": None,
             }
         else:
             # Resuming - just add new message; checkpointer restores rest
@@ -563,13 +662,23 @@ class Orchestrator:
                 {"role": "user", "content": user_input}
             ]
     
+    def _save_report(self, state: GlobalState) -> None:
+        """Save report to JSON file if present in state."""
+        report = state.get("report")
+        if report:
+            output_path = pathlib.Path("report_output.json")
+            report_json = report.model_dump_json(indent=2)
+            output_path.write_text(report_json)
+            print(f"\n{Colors.GREEN}{Colors.BOLD}Report saved to: {output_path.absolute()}{Colors.ENDC}")
+
     async def local_chat(self):
         """ chat """
         state = {
             "messages": [AIMessage(content=INITIAL_MESSAGE)],
             "client_profile": None,
             "preferences": Preferences(),
-            "asked_for_more": False
+            "asked_for_more": False,
+            "report": None,
         }
 
         is_first = True
@@ -589,9 +698,16 @@ class Orchestrator:
             if state.get("messages") and len(state["messages"]) > 0:
                 print(state.get("messages")[-1])
 
+            # Check if report was generated and save it
+            if state.get("report"):
+                self._save_report(state)
+                print(f"\n{Colors.CYAN}Report generation complete. Type 'exit' to quit.{Colors.ENDC}")
+
 
 if __name__ == "__main__":
     import asyncio
+
+    configure_logging()
     chat_bot = Orchestrator()
     chat_bot._build_graph()
     asyncio.run(chat_bot.local_chat())

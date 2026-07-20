@@ -1,10 +1,15 @@
 """Shared state models for cross-agent use."""
 
-from typing import Annotated, Literal
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, Annotated, Literal
 
 from langgraph.graph.message import add_messages
 from pydantic import BaseModel, Field
 from typing_extensions import TypedDict
+
+if TYPE_CHECKING:
+    from src.schemas.report import Report
 
 
 class DemographicTargetRef(BaseModel):
@@ -46,3 +51,4 @@ class GlobalState(TypedDict):
     client_profile: ClientProfileRef | None
     current_task: str | None
     target_location: str | None
+    report: Report | None

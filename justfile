@@ -1,5 +1,8 @@
 # Prospector Development Recipes
 
+# Load .env file
+set dotenv-load
+
 # Set PYTHONPATH for all recipes
 export PYTHONPATH := "."
 
