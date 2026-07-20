@@ -31,4 +31,8 @@ dependencies = [
     "pydantic-settings>=2.14.2",
     "greenlet>=3.5.3",
     "tqdm>=4.68.3",
+    "psycopg[binary]>=3.3.4",
 ]
+
+[tool.vercel]
+entrypoint = "src.api:app"
