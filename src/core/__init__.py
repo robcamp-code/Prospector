@@ -9,7 +9,6 @@ from src.core.database import (
     get_db,
     init_checkpointer,
 )
-from src.core.state import ClientProfileRef
 
 __all__ = [
     "Settings",
@@ -20,5 +19,4 @@ __all__ = [
     "init_checkpointer",
     "close_checkpointer",
     "get_checkpointer",
-    "ClientProfileRef",
 ]

@@ -9,7 +9,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import InstrumentedAttribute
 from sqlalchemy.sql import ColumnElement
 
-from src.agents.orchestrator.demographics import DEMOGRAPHICS, CategoryName, MetricType
+from src.core.demographics import DEMOGRAPHICS, CategoryName, MetricType
 from src.core.database import USZip
 from src.core.region.constants import REGIONS
 from src.core.region.tools import get_states_by_region

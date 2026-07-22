@@ -4,16 +4,6 @@ from datetime import datetime
 
 from pydantic import BaseModel, Field
 
-from src.schemas.report import Report
-
-
-class ClientProfileSummary(BaseModel):
-    """Summary of a client profile for embedding in responses."""
-
-    id: str
-    name: str
-    business_type: str | None = None
-
 
 class StartConversationRequest(BaseModel):
     """Request to start a new conversation."""
@@ -48,9 +38,6 @@ class ConversationResponse(BaseModel):
     created_at: datetime | None = Field(
         default=None, description="When the conversation was created"
     )
-    client_profile: ClientProfileSummary | None = Field(
-        default=None, description="Associated client profile, if any"
-    )
 
 
 class ChatResponse(BaseModel):
@@ -61,10 +48,6 @@ class ChatResponse(BaseModel):
     created_at: datetime | None = Field(
         default=None, description="When the conversation was created"
     )
-    report: Report | None = Field(
-        default=None,
-        description="Demographic report, present once the profile is complete",
-    )
 
 
 class ConversationListItem(BaseModel):
@@ -73,6 +56,3 @@ class ConversationListItem(BaseModel):
     id: str = Field(..., description="Conversation ID")
     preview: str = Field(..., description="Preview of the last message")
     message_count: int = Field(..., description="Number of messages in conversation")
-    client_profile: ClientProfileSummary | None = Field(
-        default=None, description="Associated client profile, if any"
-    )

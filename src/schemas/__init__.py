@@ -5,18 +5,8 @@ from src.schemas.aggregation import (
     AggregationRow,
     GeographyLevel,
 )
-from src.schemas.charts import (
-    AggregatedStatistics,
-    Chart,
-    ChartConfig,
-    ChartDataPoint,
-    DemographicReportData,
-    DemographicSection,
-    OpportunityDataPoint,
-)
 from src.schemas.chat import (
     ChatResponse,
-    ClientProfileSummary,
     ConversationListItem,
     ConversationResponse,
     MessageResponse,
@@ -36,16 +26,6 @@ from src.schemas.geography import (
     RegionListResponse,
     ZipListResponse,
 )
-from src.schemas.report import (
-    BubbleDataPoint,
-    CategoricalDataPoint,
-    DistributionDataPoint,
-    Report,
-    ReportSection,
-    ReportSummary,
-    Visualization,
-    VisualizationConfig,
-)
 
 __all__ = [
     # Chat schemas
@@ -55,24 +35,6 @@ __all__ = [
     "ConversationResponse",
     "ChatResponse",
     "ConversationListItem",
-    "ClientProfileSummary",
-    # Chart schemas (legacy)
-    "ChartDataPoint",
-    "ChartConfig",
-    "Chart",
-    "DemographicSection",
-    "OpportunityDataPoint",
-    "AggregatedStatistics",
-    "DemographicReportData",
-    # Report schemas
-    "CategoricalDataPoint",
-    "DistributionDataPoint",
-    "BubbleDataPoint",
-    "VisualizationConfig",
-    "Visualization",
-    "ReportSection",
-    "ReportSummary",
-    "Report",
     # Geography schemas
     "RegionInfo",
     "RegionListResponse",

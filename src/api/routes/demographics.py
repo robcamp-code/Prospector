@@ -2,7 +2,7 @@
 
 from fastapi.routing import APIRouter
 
-from src.agents.orchestrator.demographics import CategoryName
+from src.core.demographics import CategoryName
 from src.core.services.zips import (
     get_demographic_categories,
     get_demographic_metrics,
@@ -32,7 +32,7 @@ async def list_demographic_metrics(category: str) -> DemographicMetricsResponse:
     Returns 400 if the category is unknown.
     """
     # CategoryName is a Literal, so validate against DEMOGRAPHICS directly
-    from src.agents.orchestrator.demographics import DEMOGRAPHICS
+    from src.core.demographics import DEMOGRAPHICS
     from fastapi import HTTPException
 
     if category not in DEMOGRAPHICS.categories:

@@ -14,12 +14,7 @@ from src.core.database.connection import (
 )
 
 # From models
-from src.core.database.models import (
-    ClientProfile,
-    DemographicTarget,
-    DEMOGRAPHIC_KEY_MAPPING,
-    USZip,
-)
+from src.core.database.models import USZip
 
 # From tools
 from src.core.database.tools import read_uszips_schema
@@ -36,9 +31,6 @@ __all__ = [
     "close_checkpointer",
     "get_checkpointer",
     # Models
-    "ClientProfile",
-    "DemographicTarget",
-    "DEMOGRAPHIC_KEY_MAPPING",
     "USZip",
     # Tools
     "read_uszips_schema",

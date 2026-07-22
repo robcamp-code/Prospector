@@ -2,7 +2,7 @@
 
 from pydantic import BaseModel
 
-from src.agents.orchestrator.demographics import CategoryName, MetricType
+from src.core.demographics import CategoryName, MetricType
 
 
 class MetricInfo(BaseModel):
