@@ -1,5 +1,10 @@
 """Pydantic schemas for API requests and responses."""
 
+from src.schemas.aggregation import (
+    AggregationResponse,
+    AggregationRow,
+    GeographyLevel,
+)
 from src.schemas.charts import (
     AggregatedStatistics,
     Chart,
@@ -17,6 +22,19 @@ from src.schemas.chat import (
     MessageResponse,
     SendMessageRequest,
     StartConversationRequest,
+)
+from src.schemas.demographics import (
+    CategoryInfo,
+    DemographicCategoriesResponse,
+    DemographicMetricsResponse,
+    MetricInfo,
+)
+from src.schemas.geography import (
+    CBSAListResponse,
+    CountyListResponse,
+    RegionInfo,
+    RegionListResponse,
+    ZipListResponse,
 )
 from src.schemas.report import (
     BubbleDataPoint,
@@ -55,4 +73,19 @@ __all__ = [
     "ReportSection",
     "ReportSummary",
     "Report",
+    # Geography schemas
+    "RegionInfo",
+    "RegionListResponse",
+    "CBSAListResponse",
+    "CountyListResponse",
+    "ZipListResponse",
+    # Demographics schemas
+    "MetricInfo",
+    "CategoryInfo",
+    "DemographicCategoriesResponse",
+    "DemographicMetricsResponse",
+    # Aggregation schemas
+    "GeographyLevel",
+    "AggregationRow",
+    "AggregationResponse",
 ]
