@@ -7,13 +7,9 @@ from langgraph.graph import StateGraph, START, END
 from sqlalchemy import select
 
 from src.agents.chat.graph_state import GraphState
-from src.agents.chat.profile_builder import profile_builder
-from src.agents.chat.data_analyst import data_analyst
-from src.agents.chat.report_builder import (
-    report_builder_llm,
-    report_tools,
-    finalize_report,
-)
+from src.agents.chat.profile_builder import ProfileBuilder
+from src.agents.chat.data_analyst import DataAnalyst
+from src.agents.chat.report_builder import ReportBuilderLLM, ReportToolExecutor, FinalizeReport
 from src.core.config import get_settings
 from src.core.database import get_checkpointer, AsyncSessionLocal, ClientProfile, client_profile_to_ref
 
@@ -29,11 +25,11 @@ class ChatAgent:
         graph = StateGraph(GraphState)
 
         # Add nodes
-        graph.add_node("profile_builder", profile_builder)
-        graph.add_node("data_analyst", data_analyst)
-        graph.add_node("report_builder_llm", report_builder_llm)
-        graph.add_node("report_tools", report_tools)
-        graph.add_node("finalize_report", finalize_report)
+        graph.add_node("profile_builder", ProfileBuilder())
+        graph.add_node("data_analyst", DataAnalyst())
+        graph.add_node("report_builder_llm", ReportBuilderLLM())
+        graph.add_node("report_tools", ReportToolExecutor())
+        graph.add_node("finalize_report", FinalizeReport())
 
         # Wiring
         graph.add_edge(START, "profile_builder")
