@@ -43,12 +43,18 @@ def _build_chat_response(
     conversation_id: str, state: dict, created_at=None
 ) -> ChatResponse:
     """Build a ChatResponse from the chat agent's state."""
-    response_text = _extract_assistant_response(state)
+    # Check if a report was generated
+    report = state.get("report")
+    if report:
+        response_text = "Your demographic report is ready."
+    else:
+        response_text = _extract_assistant_response(state)
 
     return ChatResponse(
         conversation_id=conversation_id,
         message=MessageResponse(role="assistant", content=response_text),
         created_at=created_at,
+        report=report,
     )
 
 
