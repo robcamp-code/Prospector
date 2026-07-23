@@ -79,40 +79,36 @@ class ProfileBuilder(SubAgent):
             # Persist to DB
             thread_id = config["configurable"]["thread_id"]
             async with AsyncSessionLocal() as session:
-                # Create ClientProfile
-                profile = ClientProfile(
-                    name=preferences.name or "Unknown",
-                    business_type=preferences.business_type,
-                    service_description=preferences.services_products,
-                    conversation_id=thread_id,
-                    location_preference=preferences.location_preference,
-                )
-                session.add(profile)
-                await session.flush()  # Get the ID
-
-                # Parse demographic interests and create DemographicTarget rows
-                created_targets = []
+                # Parse demographic interests into DemographicTarget rows (in memory).
+                targets: list[DemographicTarget] = []
                 if preferences.demographic_interests:
                     interests = [s.strip() for s in preferences.demographic_interests.split(",")]
                     for interest in interests:
                         # Try to map interest to a demographic_key via keyword matching
                         key = _match_demographic_key(interest)
                         if key:
-                            target = DemographicTarget(
-                                client_profile_id=profile.id,
+                            targets.append(DemographicTarget(
                                 demographic_key=key,
                                 constraint_type="range",
                                 importance_weight=0.5,
-                            )
-                            session.add(target)
-                            created_targets.append(target)
+                            ))
 
+                # Assign targets while the profile is still transient (pre-add): no
+                # history load is needed, and cascade="all, delete-orphan" persists
+                # them. This keeps the collection in memory so client_profile_to_ref()
+                # reads it without a lazy-load (which would raise MissingGreenlet).
+                profile = ClientProfile(
+                    name=preferences.name or "Unknown",
+                    business_type=preferences.business_type,
+                    service_description=preferences.services_products,
+                    conversation_id=thread_id,
+                    location_preference=preferences.location_preference,
+                    target_demographics=targets,
+                )
+                session.add(profile)
                 await session.commit()
 
-                # Manually set the relationship to avoid lazy-loading after session closes
-                profile.target_demographics = created_targets
-
-                # Convert to ref for state
+                # Convert to ref for state (in-memory collection, no IO)
                 profile_ref = client_profile_to_ref(profile)
 
             return {

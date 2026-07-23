@@ -61,10 +61,13 @@ class ClientProfile(SQLModel, table=True):
     # Link to conversation (1-to-1)
     conversation_id: Optional[str] = Field(default=None, max_length=255, unique=True, index=True)
 
-    # Relationship to demographic targets
+    # Relationship to demographic targets.
+    # lazy="selectin" eager-loads targets via a second async SELECT as part of
+    # the parent query, so client_profile_to_ref() never triggers a sync
+    # lazy-load (which raises MissingGreenlet under async SQLAlchemy).
     target_demographics: List[DemographicTarget] = Relationship(
         back_populates="client_profile",
-        sa_relationship_kwargs={"cascade": "all, delete-orphan"},
+        sa_relationship_kwargs={"cascade": "all, delete-orphan", "lazy": "selectin"},
     )
 
     # Place types for targeting
