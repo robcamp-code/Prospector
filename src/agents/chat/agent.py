@@ -10,6 +10,7 @@ from src.agents.chat.graph_state import GraphState
 from src.agents.chat.profile_builder import ProfileBuilder
 from src.agents.chat.data_analyst import DataAnalyst
 from src.agents.chat.report_builder import ReportBuilderLLM, ReportToolExecutor, FinalizeReport
+from src.agents.chat.visualize import _visualize
 from src.core.config import get_settings
 from src.core.database import get_checkpointer, AsyncSessionLocal, ClientProfile, client_profile_to_ref
 
@@ -130,3 +131,23 @@ class ChatAgent:
             return []
 
         return state.values.get("messages", [])
+
+    def visualize(self, output_dir: str = "docs", filename: str = "agent-graph.png") -> str:
+        """Generate and save a visual representation of the graph.
+
+        Args:
+            output_dir: Directory to save the visualization (default: "docs")
+            filename: Output filename (default: "agent-graph.png")
+
+        Returns:
+            Path to the generated visualization file
+        """
+        graph = self._build_graph_structure()
+        # Try to use checkpointer if available, otherwise compile without it (for visualization only)
+        try:
+            checkpointer = get_checkpointer()
+            compiled = graph.compile(checkpointer=checkpointer)
+        except RuntimeError:
+            # Checkpointer not initialized; compile without it for visualization purposes
+            compiled = graph.compile()
+        return _visualize(compiled, output_dir=output_dir, filename=filename)
