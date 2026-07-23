@@ -91,6 +91,7 @@ class ProfileBuilder(SubAgent):
                 await session.flush()  # Get the ID
 
                 # Parse demographic interests and create DemographicTarget rows
+                created_targets = []
                 if preferences.demographic_interests:
                     interests = [s.strip() for s in preferences.demographic_interests.split(",")]
                     for interest in interests:
@@ -104,8 +105,12 @@ class ProfileBuilder(SubAgent):
                                 importance_weight=0.5,
                             )
                             session.add(target)
+                            created_targets.append(target)
 
                 await session.commit()
+
+                # Manually set the relationship to avoid lazy-loading after session closes
+                profile.target_demographics = created_targets
 
                 # Convert to ref for state
                 profile_ref = client_profile_to_ref(profile)
