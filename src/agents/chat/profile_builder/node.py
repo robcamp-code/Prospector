@@ -60,7 +60,7 @@ class ProfileBuilder(SubAgent):
         discovery_prompt = prompts.DISCOVERY_PROMPT.format(conversation=conversation)
 
         preferences = await self.llm.with_structured_output(Preferences).ainvoke([
-            {"role": "system", "content": discovery_prompt},
+            {"role": "user", "content": discovery_prompt},
         ])
 
         # Merge with existing profile if any
@@ -123,7 +123,7 @@ class ProfileBuilder(SubAgent):
             )
 
             response = await self.llm.ainvoke([
-                {"role": "system", "content": follow_up_prompt},
+                {"role": "user", "content": follow_up_prompt},
             ])
 
             return {

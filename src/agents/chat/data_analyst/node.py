@@ -27,7 +27,7 @@ class DataAnalyst(SubAgent):
         )
 
         location_filters = await self.llm.with_structured_output(LocationFilters).ainvoke([
-            {"role": "system", "content": location_prompt},
+            {"role": "user", "content": location_prompt},
         ])
 
         # Step 2: Select categories deterministically
