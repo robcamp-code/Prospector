@@ -26,6 +26,16 @@ from src.schemas.geography import (
     RegionListResponse,
     ZipListResponse,
 )
+from src.schemas.report import (
+    BubbleDataPoint,
+    CategoricalDataPoint,
+    DistributionDataPoint,
+    Report,
+    ReportSection,
+    ReportSummary,
+    Visualization,
+    VisualizationConfig,
+)
 
 __all__ = [
     # Chat schemas
@@ -50,4 +60,13 @@ __all__ = [
     "GeographyLevel",
     "AggregationRow",
     "AggregationResponse",
+    # Report schemas
+    "Report",
+    "ReportSection",
+    "ReportSummary",
+    "Visualization",
+    "VisualizationConfig",
+    "CategoricalDataPoint",
+    "DistributionDataPoint",
+    "BubbleDataPoint",
 ]

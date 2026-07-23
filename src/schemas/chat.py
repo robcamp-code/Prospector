@@ -1,5 +1,7 @@
 """Request and response schemas for chat endpoints."""
 
+from __future__ import annotations
+
 from datetime import datetime
 
 from pydantic import BaseModel, Field
@@ -47,6 +49,9 @@ class ChatResponse(BaseModel):
     message: MessageResponse = Field(..., description="The assistant's response")
     created_at: datetime | None = Field(
         default=None, description="When the conversation was created"
+    )
+    report: "Report | None" = Field(
+        default=None, description="Demographic report, present once complete"
     )
 
 
