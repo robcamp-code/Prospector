@@ -1,0 +1,2253 @@
+{
+  "report_id": "7b2abbf0-f2ad-4a87-8a38-b99f35f0104e",
+  "title": "Where Budget Commuters Live: Matching TrueLine Auto Repair to the Midwest's Working-Class Markets",
+  "subtitle": "A Demographic Site-Selection Analysis Across the Midwest",
+  "geography_type": "county",
+  "geography_value": "midwest",
+  "client_profile_id": "e696ede4-3287-41b5-ab29-c17272d996e9",
+  "summary": {
+    "total_population": 4173168,
+    "zip_count": 100,
+    "median_household_income": 79960.0,
+    "median_age": null,
+    "home_ownership_rate": null,
+    "narrative": "Across the 100 midwest ZIP codes in this dataset (roughly 4.17 million residents), TrueLine's ideal budget commuters cluster in working-class markets where long commutes make dependable older vehicles essential. Ripley County, Missouri leads on commute burden at 33 minutes, while Calhoun County, Illinois commuters average over 48 minutes, and affordability strain is clear in high-unemployment, lower-income ZIPs such as Chicago's 60637 ($43,609 median household income, 13.7% unemployment) and 60619 ($45,206, 17.7% unemployment). These commute-dependent, cost-sensitive neighborhoods within the Chicago metro and outlying Missouri/Ohio counties represent the strongest fit for flat-rate, same-day repair services.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opportunity_bubble_1",
+      "title": "Commute Time vs. Income Across Midwest ZIP Markets",
+      "subtitle": "Bubble size reflects population; lower-income, high-commute ZIPs are the strongest fit for budget repair services",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Commute Time (minutes)",
+        "size_label": "Population",
+        "color_label": "Unemployment Rate (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "60629",
+          "geography_label": "Chicago 60629",
+          "x_value": 60826.0,
+          "y_value": 36.6,
+          "size_value": 108324.0,
+          "color_value": 9.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60637",
+          "geography_label": "Chicago 60637",
+          "x_value": 43609.0,
+          "y_value": 30.8,
+          "size_value": 52721.0,
+          "color_value": 13.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60619",
+          "geography_label": "Chicago 60619",
+          "x_value": 45206.0,
+          "y_value": 36.2,
+          "size_value": 59503.0,
+          "color_value": 17.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60628",
+          "geography_label": "Chicago 60628",
+          "x_value": 54644.0,
+          "y_value": 37.3,
+          "size_value": 60431.0,
+          "color_value": 17.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60617",
+          "geography_label": "Chicago 60617",
+          "x_value": 51778.0,
+          "y_value": 37.3,
+          "size_value": 74790.0,
+          "color_value": 12.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60620",
+          "geography_label": "Chicago 60620",
+          "x_value": 48146.0,
+          "y_value": 39.4,
+          "size_value": 64871.0,
+          "color_value": 16.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60651",
+          "geography_label": "Chicago 60651",
+          "x_value": 54409.0,
+          "y_value": 36.1,
+          "size_value": 63335.0,
+          "color_value": 13.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "48126",
+          "geography_label": "Dearborn 48126",
+          "x_value": 42140.0,
+          "y_value": 19.7,
+          "size_value": 51997.0,
+          "color_value": 8.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "60411",
+          "geography_label": "Chicago Heights 60411",
+          "x_value": 62073.0,
+          "y_value": 34.4,
+          "size_value": 52175.0,
+          "color_value": 11.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44035",
+          "geography_label": "Elyria 44035",
+          "x_value": 56408.0,
+          "y_value": 22.7,
+          "size_value": 62179.0,
+          "color_value": 5.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "48180",
+          "geography_label": "Taylor 48180",
+          "x_value": 61081.0,
+          "y_value": 21.5,
+          "size_value": 62081.0,
+          "color_value": 7.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "46227",
+          "geography_label": "Indianapolis 46227",
+          "x_value": 53629.0,
+          "y_value": 23.8,
+          "size_value": 57587.0,
+          "color_value": 3.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "53215",
+          "geography_label": "Milwaukee 53215",
+          "x_value": 54289.0,
+          "y_value": 22.6,
+          "size_value": 58146.0,
+          "color_value": 4.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "43302",
+          "geography_label": "Marion 43302",
+          "x_value": 55057.0,
+          "y_value": 22.1,
+          "size_value": 53702.0,
+          "color_value": 7.4,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Ideal Customer Profile in Numbers",
+      "subtitle": "Long commutes, high homeownership, and modest individual incomes define TrueLine's sweet-spot market",
+      "description": "TrueLine Auto Repair's business model — flat-rate, same-day service for everyday commuter vehicles — is built for a specific kind of place: one where working people drive long distances every day, own their homes (and therefore tend to keep and maintain vehicles rather than lease new ones), and live on modest individual incomes that make discount, transparent pricing genuinely attractive. The county-level data in Result 2 lets us define that signature precisely.\n\nThree metrics form the target-customer fingerprint:\n\n1. HIGH VEHICLE DEPENDENCE (long commutes). Every county in this result set posts an average commute time above 33 minutes, far longer than the dense urban ZIPs elsewhere in the data. Calhoun County, Illinois leads at 48.1 minutes, followed by Brown County, Indiana (38.6), Washington County, Missouri (38.6), Crawford County, Indiana (37.7), and Adams County, Ohio (36.4). Long commutes mean high annual mileage, which directly drives demand for oil changes, brakes, and tires — TrueLine's core services.\n\n2. STRONG HOMEOWNERSHIP. These same counties show homeownership rates clustered between roughly 74% and 88% — Calhoun (88.0%), Brown, IN (87.4%), Lapeer, MI (86.1%), Elk, KS (83.3%), and Kanabec, MN (83.4%) at the top. High ownership signals rooted, stable households that hold onto older vehicles and prefer to repair rather than replace — exactly the customer who values flat-rate, same-day work.\n\n3. MODEST INDIVIDUAL INCOMES. Median individual income across these counties sits well below the affluent suburban ZIPs, ranging from about $26,900 (Lake County, MI) and $27,170 (Bollinger, MO) up to roughly $39,700 (Ray, MO). This is the budget-conscious commuter TrueLine's transparent, discount pricing is designed to win.\n\nThe composite picture: promising TrueLine markets are places where people drive a long way, own their homes, and watch their dollars. The bubble chart below plots all three dimensions at once, and the bar chart isolates the longest-commute counties where vehicle wear-and-tear demand is highest.\n\nBUSINESS TAKEAWAY: Prioritize counties that combine 35+ minute commutes with 78%+ homeownership and individual incomes under ~$37,000. Washington County, MO (38.6 min commute, 78.8% ownership, $30,734 income), Crawford County, IN (37.7 min, 80.8%, $31,485), and Adams County, OH (36.4 min, 74.4%, $31,878) fit this profile most tightly and should anchor site-selection and marketing decisions.",
+      "demographic_category": "economic_and_transportation",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Longest-Commute Counties: Where Vehicle Wear Runs Highest",
+          "subtitle": "Average one-way commute time (minutes) — top vehicle-dependence markets from Result 2",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Average commute time (minutes)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Calhoun, IL",
+              "value": 48.15,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Brown, IN",
+              "value": 38.65,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington, MO",
+              "value": 38.55,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Crawford, IN",
+              "value": 37.66,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams, OH",
+              "value": 36.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morgan, OH",
+              "value": 36.28,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Brown, OH",
+              "value": 35.83,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Linn, KS",
+              "value": 35.72,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Vinton, OH",
+              "value": 35.42,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Franklin, IN",
+              "value": 34.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lake, MI",
+              "value": 34.68,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Owen, IN",
+              "value": 34.63,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "The Target-Customer Signature: Commute vs. Income, Sized by Population",
+          "subtitle": "Each bubble is a county from Result 2; color shows homeownership rate. Ideal markets sit lower-right: long commutes, modest incomes, high ownership.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Average commute time (minutes)",
+            "y_axis_label": "Median individual income ($)",
+            "size_label": "Population",
+            "color_label": "Home ownership (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "calhoun-il",
+              "geography_label": "Calhoun, IL",
+              "x_value": 48.15,
+              "y_value": 31660.65,
+              "size_value": 3965.0,
+              "color_value": 87.97,
+              "metadata": {}
+            },
+            {
+              "geography_id": "brown-in",
+              "geography_label": "Brown, IN",
+              "x_value": 38.65,
+              "y_value": 39561.06,
+              "size_value": 18608.0,
+              "color_value": 87.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "washington-mo",
+              "geography_label": "Washington, MO",
+              "x_value": 38.55,
+              "y_value": 30734.46,
+              "size_value": 21955.0,
+              "color_value": 78.79,
+              "metadata": {}
+            },
+            {
+              "geography_id": "crawford-in",
+              "geography_label": "Crawford, IN",
+              "x_value": 37.66,
+              "y_value": 31484.61,
+              "size_value": 10856.0,
+              "color_value": 80.78,
+              "metadata": {}
+            },
+            {
+              "geography_id": "adams-oh",
+              "geography_label": "Adams, OH",
+              "x_value": 36.36,
+              "y_value": 31878.0,
+              "size_value": 32135.0,
+              "color_value": 74.37,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morgan-oh",
+              "geography_label": "Morgan, OH",
+              "x_value": 36.28,
+              "y_value": 31034.86,
+              "size_value": 14074.0,
+              "color_value": 75.98,
+              "metadata": {}
+            },
+            {
+              "geography_id": "brown-oh",
+              "geography_label": "Brown, OH",
+              "x_value": 35.83,
+              "y_value": 36948.84,
+              "size_value": 39292.0,
+              "color_value": 76.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "linn-ks",
+              "geography_label": "Linn, KS",
+              "x_value": 35.72,
+              "y_value": 37656.15,
+              "size_value": 10341.0,
+              "color_value": 80.98,
+              "metadata": {}
+            },
+            {
+              "geography_id": "vinton-oh",
+              "geography_label": "Vinton, OH",
+              "x_value": 35.42,
+              "y_value": 33748.5,
+              "size_value": 12635.0,
+              "color_value": 74.18,
+              "metadata": {}
+            },
+            {
+              "geography_id": "franklin-in",
+              "geography_label": "Franklin, IN",
+              "x_value": 34.85,
+              "y_value": 36588.47,
+              "size_value": 17401.0,
+              "color_value": 78.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "lake-mi",
+              "geography_label": "Lake, MI",
+              "x_value": 34.68,
+              "y_value": 26855.76,
+              "size_value": 12413.0,
+              "color_value": 81.79,
+              "metadata": {}
+            },
+            {
+              "geography_id": "owen-in",
+              "geography_label": "Owen, IN",
+              "x_value": 34.63,
+              "y_value": 36744.61,
+              "size_value": 22016.0,
+              "color_value": 81.44,
+              "metadata": {}
+            },
+            {
+              "geography_id": "monroe-oh",
+              "geography_label": "Monroe, OH",
+              "x_value": 34.54,
+              "y_value": 31481.88,
+              "size_value": 11656.0,
+              "color_value": 78.42,
+              "metadata": {}
+            },
+            {
+              "geography_id": "lapeer-mi",
+              "geography_label": "Lapeer, MI",
+              "x_value": 34.25,
+              "y_value": 39433.2,
+              "size_value": 87562.0,
+              "color_value": 86.09,
+              "metadata": {}
+            },
+            {
+              "geography_id": "elk-ks",
+              "geography_label": "Elk, KS",
+              "x_value": 34.16,
+              "y_value": 31177.95,
+              "size_value": 2109.0,
+              "color_value": 83.29,
+              "metadata": {}
+            },
+            {
+              "geography_id": "kanabec-mn",
+              "geography_label": "Kanabec, MN",
+              "x_value": 33.94,
+              "y_value": 36533.31,
+              "size_value": 18937.0,
+              "color_value": 83.36,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bollinger-mo",
+              "geography_label": "Bollinger, MO",
+              "x_value": 33.81,
+              "y_value": 27170.02,
+              "size_value": 9285.0,
+              "color_value": 83.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "caldwell-mo",
+              "geography_label": "Caldwell, MO",
+              "x_value": 33.79,
+              "y_value": 36373.68,
+              "size_value": 9107.0,
+              "color_value": 78.34,
+              "metadata": {}
+            },
+            {
+              "geography_id": "dallas-mo",
+              "geography_label": "Dallas, MO",
+              "x_value": 33.69,
+              "y_value": 27863.69,
+              "size_value": 16979.0,
+              "color_value": 77.91,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ray-mo",
+              "geography_label": "Ray, MO",
+              "x_value": 33.45,
+              "y_value": 39689.45,
+              "size_value": 20002.0,
+              "color_value": 75.44,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "High-Commute Counties Where Cars Are Essential",
+      "subtitle": "Long drives, high home ownership, and modest paychecks: the sweet spot for discount, same-day repair",
+      "description": "The strongest candidates for a discount, same-day auto repair shop are places where people must drive long distances every day but do not have big paychecks to absorb dealership pricing. Result 2 surfaces a cluster of Midwest counties that fit this profile precisely: exceptionally long commutes, very high home ownership (a strong proxy for household car dependence and multi-vehicle households), and modest individual incomes.\n\nThe standout is Calhoun County, Illinois, where the average commute reaches 48.1 minutes — the longest in the dataset — paired with 87.9% home ownership yet a median individual income of just $31,661. Similar pressure points appear in Brown County, Indiana (38.6-minute commute, 87.4% home ownership, $39,561 income), Washington County, Missouri (38.6-minute commute, 78.8% ownership, and the lowest individual income in this group at $30,734), and Crawford County, Indiana (37.7-minute commute, 80.8% ownership, $31,485 income). Adams and Morgan Counties in Ohio round out the group with 36-minute commutes, ownership in the mid-70s%, and individual incomes near $31,000.\n\nLake County, Michigan deserves special attention: it combines a 34.7-minute commute and 81.8% home ownership with the lowest individual income of any county here — just $26,856. These residents are among the most car-dependent and most budget-constrained in the entire scope, an ideal match for transparent flat-rate pricing.\n\nResult 1's county data reinforces the pattern in rural Missouri, where commute times run even longer: Ripley County averages a 33.2-minute commute on a $42,552 median household income, Hickory County 30.4 minutes at $42,659, Reynolds County 28.9 minutes at $45,564, and Ozark County 27.2 minutes at $42,401. These are households that put heavy annual mileage on older vehicles while operating on tight budgets — exactly the wear-and-tear-plus-price-sensitivity combination that drives demand for affordable oil changes, brakes, and tires.\n\nBusiness takeaway: prioritize the long-commute, high-ownership, low-income counties for outreach and location scouting. The long drives guarantee steady maintenance and repair demand, while the modest incomes make TrueLine's discount flat-rate, same-day proposition far more compelling than dealer service. Calhoun (IL), Washington (MO), Crawford (IN), Adams (OH), and Lake (MI) represent the highest-priority targets; the rural Missouri cluster from Result 1 offers a secondary tier where long commutes meet below-average household incomes.",
+      "demographic_category": "transportation",
+      "demographic_key": "transportation.commute_time",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Commute Time vs. Income by County (Bubble Size = Population)",
+          "subtitle": "Long commutes paired with modest incomes signal high, price-sensitive repair demand",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Average Commute Time (minutes)",
+            "y_axis_label": "Median Individual Income ($)",
+            "size_label": "Population",
+            "color_label": "Home Ownership (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "calhoun_il",
+              "geography_label": "Calhoun, IL",
+              "x_value": 48.15,
+              "y_value": 31660.65,
+              "size_value": 3965.0,
+              "color_value": 87.97,
+              "metadata": {
+                "home_ownership": 87.97
+              }
+            },
+            {
+              "geography_id": "brown_in",
+              "geography_label": "Brown, IN",
+              "x_value": 38.65,
+              "y_value": 39561.06,
+              "size_value": 18608.0,
+              "color_value": 87.4,
+              "metadata": {
+                "home_ownership": 87.4
+              }
+            },
+            {
+              "geography_id": "washington_mo",
+              "geography_label": "Washington, MO",
+              "x_value": 38.55,
+              "y_value": 30734.46,
+              "size_value": 21955.0,
+              "color_value": 78.79,
+              "metadata": {
+                "home_ownership": 78.79
+              }
+            },
+            {
+              "geography_id": "crawford_in",
+              "geography_label": "Crawford, IN",
+              "x_value": 37.66,
+              "y_value": 31484.61,
+              "size_value": 10856.0,
+              "color_value": 80.78,
+              "metadata": {
+                "home_ownership": 80.78
+              }
+            },
+            {
+              "geography_id": "adams_oh",
+              "geography_label": "Adams, OH",
+              "x_value": 36.36,
+              "y_value": 31878.0,
+              "size_value": 32135.0,
+              "color_value": 74.37,
+              "metadata": {
+                "home_ownership": 74.37
+              }
+            },
+            {
+              "geography_id": "morgan_oh",
+              "geography_label": "Morgan, OH",
+              "x_value": 36.28,
+              "y_value": 31034.86,
+              "size_value": 14074.0,
+              "color_value": 75.98,
+              "metadata": {
+                "home_ownership": 75.98
+              }
+            },
+            {
+              "geography_id": "brown_oh",
+              "geography_label": "Brown, OH",
+              "x_value": 35.83,
+              "y_value": 36948.84,
+              "size_value": 39292.0,
+              "color_value": 76.8,
+              "metadata": {
+                "home_ownership": 76.8
+              }
+            },
+            {
+              "geography_id": "vinton_oh",
+              "geography_label": "Vinton, OH",
+              "x_value": 35.42,
+              "y_value": 33748.5,
+              "size_value": 12635.0,
+              "color_value": 74.18,
+              "metadata": {
+                "home_ownership": 74.18
+              }
+            },
+            {
+              "geography_id": "lake_mi",
+              "geography_label": "Lake, MI",
+              "x_value": 34.68,
+              "y_value": 26855.76,
+              "size_value": 12413.0,
+              "color_value": 81.79,
+              "metadata": {
+                "home_ownership": 81.79
+              }
+            },
+            {
+              "geography_id": "bollinger_mo",
+              "geography_label": "Bollinger, MO",
+              "x_value": 33.81,
+              "y_value": 27170.02,
+              "size_value": 9285.0,
+              "color_value": 83.0,
+              "metadata": {
+                "home_ownership": 83.0
+              }
+            },
+            {
+              "geography_id": "dallas_mo",
+              "geography_label": "Dallas, MO",
+              "x_value": 33.69,
+              "y_value": 27863.69,
+              "size_value": 16979.0,
+              "color_value": 77.91,
+              "metadata": {
+                "home_ownership": 77.91
+              }
+            },
+            {
+              "geography_id": "elk_ks",
+              "geography_label": "Elk, KS",
+              "x_value": 34.16,
+              "y_value": 31177.95,
+              "size_value": 2109.0,
+              "color_value": 83.29,
+              "metadata": {
+                "home_ownership": 83.29
+              }
+            },
+            {
+              "geography_id": "monroe_oh",
+              "geography_label": "Monroe, OH",
+              "x_value": 34.54,
+              "y_value": 31481.88,
+              "size_value": 11656.0,
+              "color_value": 78.42,
+              "metadata": {
+                "home_ownership": 78.42
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Counties with the Longest Average Commutes",
+          "subtitle": "Every county shown pairs a long daily drive with a modest median individual income",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Average Commute Time (minutes)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Calhoun, IL",
+              "value": 48.15,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Brown, IN",
+              "value": 38.65,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington, MO",
+              "value": 38.55,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Crawford, IN",
+              "value": 37.66,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams, OH",
+              "value": 36.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morgan, OH",
+              "value": 36.28,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Brown, OH",
+              "value": 35.83,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Linn, KS",
+              "value": 35.72,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Vinton, OH",
+              "value": 35.42,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Franklin, IN",
+              "value": 34.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lake, MI",
+              "value": 34.68,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Affordability Pressure: Income and Employment Strain",
+      "subtitle": "Mapping where budget-conscious households cluster—and which affluent ZIPs to avoid targeting",
+      "description": "TrueLine's core customer—the working-class commuter keeping an older vehicle on the road—concentrates where household incomes are modest and job security is thinner. The data reveals two distinct Midwest markets. On one end sit ZIP codes with median household incomes above $110,000 and unemployment below 3% (Olathe KS 66062 at $117,585, Lakeville MN 55044 at $141,551, Carmel IN 46032 at $132,085, Mason OH 45040 at $133,240, Ann Arbor MI 48103 at $116,194). These are affluent, dealership-loyal markets where discount flat-rate repair holds little appeal—TrueLine should not anchor marketing spend here. On the other end are the value-seeking markets that fit the client's flat-rate, same-day positioning precisely.\n\nTwo urban Chicago (Cook County) ZIPs stand out as prime affordability-pressure zones. ZIP 60637 pairs the lowest median household income in the ZIP-level data ($43,609) with a 13.7% unemployment rate; ZIP 60619 shows $45,206 median income against a 17.7% unemployment rate—the highest joblessness among all ZIPs reviewed. Nearby 60628 ($54,644 income, 17.1% unemployment), 60620 ($48,146 income, 16.3% unemployment), and 60617 ($51,778 income, 12.9% unemployment) round out a dense cluster of financially strained, high-population commuter neighborhoods on Chicago's South and West sides—each home to 52,000–75,000 residents who depend on aging vehicles and are acutely sensitive to repair pricing.\n\nAt the county level, the results confirm a rural affordability tier where incomes run far below the metro norm. Median household incomes cluster in the $31,000–$45,000 range across counties such as Jackson SD ($31,382), Sioux ND ($38,367), Pemiscot MO ($38,663), and Todd SD ($38,728). Several of these carry double-digit unemployment—Todd SD (20.3%), Sioux ND (18.7%), Oglala Lakota SD (16.0%), Mellette SD (14.6%)—alongside low labor-force participation (Oglala Lakota SD at 34.7%, Jackson SD at 41.7%, Douglas MO at 42.5%). These signal genuine budget pressure but also thin, low-density populations, making them viable only for satellite or mobile service rather than flagship locations.\n\nThe business takeaway: TrueLine's strongest concentration of target customers—high population density combined with below-median incomes and elevated unemployment—sits in the working-class ZIP codes of Cook County (60637, 60619, 60628, 60620, 60617, 60609, 60651). These areas offer the volume and the affordability profile that align with transparent flat-rate pricing. Mid-tier markets like Elyria OH 44035 ($56,408), Zanesville OH 43701 ($57,565), and Marion OH 43302 ($55,057) represent secondary value-seeking targets worth testing.",
+      "demographic_category": "income_employment",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Distribution of Median Household Income Across Midwest ZIP Codes",
+          "subtitle": "Each point is one ZIP; the lower cluster identifies value-seeking, budget-pressured markets",
+          "config": {
+            "chart_type": "violin",
+            "x_axis_label": "Midwest ZIP Codes",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "60637",
+              "geography_label": "Chicago 60637",
+              "value": 43609.0
+            },
+            {
+              "geography_id": "60619",
+              "geography_label": "Chicago 60619",
+              "value": 45206.0
+            },
+            {
+              "geography_id": "60620",
+              "geography_label": "Chicago 60620",
+              "value": 48146.0
+            },
+            {
+              "geography_id": "60617",
+              "geography_label": "Chicago 60617",
+              "value": 51778.0
+            },
+            {
+              "geography_id": "60623",
+              "geography_label": "Chicago 60623",
+              "value": 51878.0
+            },
+            {
+              "geography_id": "46227",
+              "geography_label": "Indianapolis 46227",
+              "value": 53629.0
+            },
+            {
+              "geography_id": "65807",
+              "geography_label": "Springfield 65807",
+              "value": 53870.0
+            },
+            {
+              "geography_id": "47906",
+              "geography_label": "West Lafayette 47906",
+              "value": 53103.0
+            },
+            {
+              "geography_id": "53215",
+              "geography_label": "Milwaukee 53215",
+              "value": 54289.0
+            },
+            {
+              "geography_id": "60651",
+              "geography_label": "Chicago 60651",
+              "value": 54409.0
+            },
+            {
+              "geography_id": "60628",
+              "geography_label": "Chicago 60628",
+              "value": 54644.0
+            },
+            {
+              "geography_id": "43302",
+              "geography_label": "Marion 43302",
+              "value": 55057.0
+            },
+            {
+              "geography_id": "44035",
+              "geography_label": "Elyria 44035",
+              "value": 56408.0
+            },
+            {
+              "geography_id": "43229",
+              "geography_label": "Columbus 43229",
+              "value": 57561.0
+            },
+            {
+              "geography_id": "43701",
+              "geography_label": "Zanesville 43701",
+              "value": 57565.0
+            },
+            {
+              "geography_id": "60609",
+              "geography_label": "Chicago 60609",
+              "value": 58896.0
+            },
+            {
+              "geography_id": "45601",
+              "geography_label": "Chillicothe 45601",
+              "value": 59748.0
+            },
+            {
+              "geography_id": "60629",
+              "geography_label": "Chicago 60629",
+              "value": 60826.0
+            },
+            {
+              "geography_id": "48180",
+              "geography_label": "Taylor 48180",
+              "value": 61081.0
+            },
+            {
+              "geography_id": "60639",
+              "geography_label": "Chicago 60639",
+              "value": 61089.0
+            },
+            {
+              "geography_id": "43228",
+              "geography_label": "Columbus 43228",
+              "value": 61713.0
+            },
+            {
+              "geography_id": "54601",
+              "geography_label": "La Crosse 54601",
+              "value": 61639.0
+            },
+            {
+              "geography_id": "60411",
+              "geography_label": "Chicago Heights 60411",
+              "value": 62073.0
+            },
+            {
+              "geography_id": "43055",
+              "geography_label": "Newark 43055",
+              "value": 63974.0
+            },
+            {
+              "geography_id": "60632",
+              "geography_label": "Chicago 60632",
+              "value": 64809.0
+            },
+            {
+              "geography_id": "67401",
+              "geography_label": "Salina 67401",
+              "value": 64606.0
+            },
+            {
+              "geography_id": "61761",
+              "geography_label": "Normal 61761",
+              "value": 65275.0
+            },
+            {
+              "geography_id": "60085",
+              "geography_label": "Waukegan 60085",
+              "value": 66793.0
+            },
+            {
+              "geography_id": "45840",
+              "geography_label": "Findlay 45840",
+              "value": 68083.0
+            },
+            {
+              "geography_id": "56001",
+              "geography_label": "Mankato 56001",
+              "value": 69531.0
+            },
+            {
+              "geography_id": "55106",
+              "geography_label": "Saint Paul 55106",
+              "value": 70187.0
+            },
+            {
+              "geography_id": "47130",
+              "geography_label": "Jeffersonville 47130",
+              "value": 70290.0
+            },
+            {
+              "geography_id": "43068",
+              "geography_label": "Reynoldsburg 43068",
+              "value": 70477.0
+            },
+            {
+              "geography_id": "63031",
+              "geography_label": "Florissant 63031",
+              "value": 70811.0
+            },
+            {
+              "geography_id": "60804",
+              "geography_label": "Cicero 60804",
+              "value": 70842.0
+            },
+            {
+              "geography_id": "43130",
+              "geography_label": "Lancaster 43130",
+              "value": 72153.0
+            },
+            {
+              "geography_id": "60640",
+              "geography_label": "Chicago 60640",
+              "value": 73254.0
+            },
+            {
+              "geography_id": "60505",
+              "geography_label": "Aurora 60505",
+              "value": 73284.0
+            },
+            {
+              "geography_id": "08608",
+              "geography_label": "Chicago 60608",
+              "value": 73366.0
+            },
+            {
+              "geography_id": "45013",
+              "geography_label": "Hamilton 45013",
+              "value": 73633.0
+            },
+            {
+              "geography_id": "45044",
+              "geography_label": "Middletown 45044",
+              "value": 73732.0
+            },
+            {
+              "geography_id": "48197",
+              "geography_label": "Ypsilanti 48197",
+              "value": 73737.0
+            },
+            {
+              "geography_id": "60616",
+              "geography_label": "Chicago 60616",
+              "value": 73819.0
+            },
+            {
+              "geography_id": "57106",
+              "geography_label": "Sioux Falls 57106",
+              "value": 77580.0
+            },
+            {
+              "geography_id": "60402",
+              "geography_label": "Berwyn 60402",
+              "value": 77718.0
+            },
+            {
+              "geography_id": "65203",
+              "geography_label": "Columbia 65203",
+              "value": 79960.0
+            },
+            {
+              "geography_id": "45424",
+              "geography_label": "Dayton 45424",
+              "value": 80605.0
+            },
+            {
+              "geography_id": "60120",
+              "geography_label": "Elgin 60120",
+              "value": 82449.0
+            },
+            {
+              "geography_id": "60641",
+              "geography_label": "Chicago 60641",
+              "value": 83758.0
+            },
+            {
+              "geography_id": "60453",
+              "geography_label": "Oak Lawn 60453",
+              "value": 83911.0
+            },
+            {
+              "geography_id": "44077",
+              "geography_label": "Painesville 44077",
+              "value": 85056.0
+            },
+            {
+              "geography_id": "63301",
+              "geography_label": "Saint Charles 63301",
+              "value": 85308.0
+            },
+            {
+              "geography_id": "60625",
+              "geography_label": "Chicago 60625",
+              "value": 85703.0
+            },
+            {
+              "geography_id": "60016",
+              "geography_label": "Des Plaines 60016",
+              "value": 86571.0
+            },
+            {
+              "geography_id": "44060",
+              "geography_label": "Mentor 44060",
+              "value": 87599.0
+            },
+            {
+              "geography_id": "60634",
+              "geography_label": "Chicago 60634",
+              "value": 88533.0
+            },
+            {
+              "geography_id": "48439",
+              "geography_label": "Grand Blanc 48439",
+              "value": 88490.0
+            },
+            {
+              "geography_id": "43015",
+              "geography_label": "Delaware 43015 (avoid)",
+              "value": 105322.0
+            },
+            {
+              "geography_id": "43026",
+              "geography_label": "Hilliard 43026 (avoid)",
+              "value": 111440.0
+            },
+            {
+              "geography_id": "45140",
+              "geography_label": "Loveland 45140 (avoid)",
+              "value": 114827.0
+            },
+            {
+              "geography_id": "48103",
+              "geography_label": "Ann Arbor 48103 (avoid)",
+              "value": 116194.0
+            },
+            {
+              "geography_id": "66062",
+              "geography_label": "Olathe 66062 (avoid)",
+              "value": 117585.0
+            },
+            {
+              "geography_id": "48044",
+              "geography_label": "Macomb 48044 (avoid)",
+              "value": 117856.0
+            },
+            {
+              "geography_id": "48187",
+              "geography_label": "Canton 48187 (avoid)",
+              "value": 120321.0
+            },
+            {
+              "geography_id": "63021",
+              "geography_label": "Ballwin 63021 (avoid)",
+              "value": 120177.0
+            },
+            {
+              "geography_id": "46032",
+              "geography_label": "Carmel 46032 (avoid)",
+              "value": 132085.0
+            },
+            {
+              "geography_id": "45040",
+              "geography_label": "Mason 45040 (avoid)",
+              "value": 133240.0
+            },
+            {
+              "geography_id": "60622",
+              "geography_label": "Chicago 60622 (avoid)",
+              "value": 136277.0
+            },
+            {
+              "geography_id": "60614",
+              "geography_label": "Chicago 60614 (avoid)",
+              "value": 136448.0
+            },
+            {
+              "geography_id": "55044",
+              "geography_label": "Lakeville 55044 (avoid)",
+              "value": 141551.0
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Income vs. Unemployment: Prime Value-Seeking ZIP Codes",
+          "subtitle": "Lower-left quadrant (low income, high unemployment) = strongest TrueLine fit; bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Unemployment Rate (%)",
+            "size_label": "Population",
+            "color_label": "Median Household Income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "60637",
+              "geography_label": "Chicago 60637",
+              "x_value": 43609.0,
+              "y_value": 13.7,
+              "size_value": 52721.0,
+              "color_value": 43609.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60619",
+              "geography_label": "Chicago 60619",
+              "x_value": 45206.0,
+              "y_value": 17.7,
+              "size_value": 59503.0,
+              "color_value": 45206.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60620",
+              "geography_label": "Chicago 60620",
+              "x_value": 48146.0,
+              "y_value": 16.3,
+              "size_value": 64871.0,
+              "color_value": 48146.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60628",
+              "geography_label": "Chicago 60628",
+              "x_value": 54644.0,
+              "y_value": 17.1,
+              "size_value": 60431.0,
+              "color_value": 54644.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60617",
+              "geography_label": "Chicago 60617",
+              "x_value": 51778.0,
+              "y_value": 12.9,
+              "size_value": 74790.0,
+              "color_value": 51778.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60623",
+              "geography_label": "Chicago 60623",
+              "x_value": 51878.0,
+              "y_value": 9.2,
+              "size_value": 81277.0,
+              "color_value": 51878.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60651",
+              "geography_label": "Chicago 60651",
+              "x_value": 54409.0,
+              "y_value": 13.3,
+              "size_value": 63335.0,
+              "color_value": 54409.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60609",
+              "geography_label": "Chicago 60609",
+              "x_value": 58896.0,
+              "y_value": 12.6,
+              "size_value": 62028.0,
+              "color_value": 58896.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60629",
+              "geography_label": "Chicago 60629",
+              "x_value": 60826.0,
+              "y_value": 9.4,
+              "size_value": 108324.0,
+              "color_value": 60826.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60411",
+              "geography_label": "Chicago Heights 60411",
+              "x_value": 62073.0,
+              "y_value": 11.6,
+              "size_value": 52175.0,
+              "color_value": 62073.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "43302",
+              "geography_label": "Marion 43302",
+              "x_value": 55057.0,
+              "y_value": 7.4,
+              "size_value": 53702.0,
+              "color_value": 55057.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "44035",
+              "geography_label": "Elyria 44035",
+              "x_value": 56408.0,
+              "y_value": 5.5,
+              "size_value": 62179.0,
+              "color_value": 56408.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "43701",
+              "geography_label": "Zanesville 43701",
+              "x_value": 57565.0,
+              "y_value": 4.7,
+              "size_value": 56402.0,
+              "color_value": 57565.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "46227",
+              "geography_label": "Indianapolis 46227",
+              "x_value": 53629.0,
+              "y_value": 3.8,
+              "size_value": 57587.0,
+              "color_value": 53629.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "53215",
+              "geography_label": "Milwaukee 53215",
+              "x_value": 54289.0,
+              "y_value": 4.3,
+              "size_value": 58146.0,
+              "color_value": 54289.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "48180",
+              "geography_label": "Taylor 48180",
+              "x_value": 61081.0,
+              "y_value": 7.0,
+              "size_value": 62081.0,
+              "color_value": 61081.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60804",
+              "geography_label": "Cicero 60804",
+              "x_value": 70842.0,
+              "y_value": 5.0,
+              "size_value": 82797.0,
+              "color_value": 70842.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "66062",
+              "geography_label": "Olathe 66062 (avoid)",
+              "x_value": 117585.0,
+              "y_value": 2.0,
+              "size_value": 78841.0,
+              "color_value": 117585.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "55044",
+              "geography_label": "Lakeville 55044 (avoid)",
+              "x_value": 141551.0,
+              "y_value": 2.2,
+              "size_value": 64762.0,
+              "color_value": 141551.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "45040",
+              "geography_label": "Mason 45040 (avoid)",
+              "x_value": 133240.0,
+              "y_value": 2.4,
+              "size_value": 59518.0,
+              "color_value": 133240.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "46032",
+              "geography_label": "Carmel 46032 (avoid)",
+              "x_value": 132085.0,
+              "y_value": 2.9,
+              "size_value": 51515.0,
+              "color_value": 132085.0,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Zip-Level Targeting Within Metro Markets",
+      "subtitle": "Pinpointing high-population neighborhoods where mid-range incomes, longer commutes, and larger lower-bracket shares align with TrueLine's value proposition",
+      "description": "County-level scans reveal broad regional patterns, but auto repair is a neighborhood business — customers choose a shop close to home or along their commute. This section drills into individual ZIP codes from the metro-market data to separate genuine opportunity zones from poor-fit affluent areas that a surface read of \"high population\" might otherwise flag.\n\nTrueLine's ideal ZIP combines three signals: a median household income in the mid-range (households that keep older commuter vehicles running rather than lease new cars), meaningful commute times (more miles driven means more wear on brakes, tires, and oil), and a sizable share of households in lower income brackets (budget sensitivity that rewards transparent flat-rate pricing). By these criteria, several dense Chicago-area and Rust Belt ZIPs stand out sharply.\n\nSTRONG-FIT TARGET ZIPS (all from Result 3):\n- 60629 (Chicago, Cook, IL): population 108,324 — the largest ZIP in the dataset — median household income $60,826, commute time 36.6 min, unemployment 9.4%, with 18.6% of households under $25k. High density plus long commutes make this a prime volume market.\n- 60639 (Chicago, Cook, IL): population 84,240, median income $61,089, commute 36.5 min, unemployment 6.7%, 19.2% of households under $25k.\n- 60617 (Chicago, Cook, IL): population 74,790, median income $51,778, commute 37.3 min, unemployment 12.9%, 27.5% under $25k — one of the most budget-sensitive large ZIPs, with commutes that punish older vehicles.\n- 60628 (Chicago, Cook, IL): population 60,431, median income $54,644, commute 37.3 min, unemployment 17.1%, 24.3% under $25k.\n- 60651 (Chicago, Cook, IL): population 63,335, median income $54,409, commute 36.1 min, unemployment 13.3%, 21.3% under $25k.\n- 44035 (Elyria, Lorain, OH): population 62,179, median income $56,408, commute 22.7 min, unemployment 5.5%, with 19.3% under $25k — a mid-size Ohio market with a strong lower-bracket base.\n- 43701 (Zanesville, Muskingum, OH): population 56,402, median income $57,565, commute 24.1 min, 21.4% under $25k.\n\nPOOR-FIT HIGH-INCOME ZIPS (for contrast, all from Result 3):\n- 60614 (Chicago, Cook, IL): median household income $136,448, with 45.8% of households above $150k and only 8.9% under $25k — an affluent market where households favor newer/leased vehicles and dealer service.\n- 60622 (Chicago, Cook, IL): median income $136,277, 45.0% above $150k, 6.4% under $25k.\n- 55044 (Lakeville, Dakota, MN): median income $141,551, 46.9% above $150k, 3.7% under $25k.\n- 46032 (Carmel, Hamilton, IN): median income $132,085, 44.9% above $150k.\n- 45040 (Mason, Warren, OH): median income $133,240, 43.1% above $150k.\n\nBUSINESS TAKEAWAY: The strongest opportunities concentrate in dense Chicago ZIPs (60629, 60639, 60617, 60628, 60651) where large populations, long commutes near or above 36 minutes, and heavy lower-bracket household shares converge — exactly the conditions that generate frequent, price-sensitive demand for oil changes, brakes, and tires on aging commuter cars. Mid-size Ohio ZIPs like Elyria (44035) and Zanesville (43701) offer the same income-and-budget profile with less competition density. The affluent ZIPs (60614, 60622, 55044, 46032, 45040) should be deprioritized: their high median incomes and large $150k+ shares signal customers who are poor matches for a discount, flat-rate positioning regardless of raw population.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 85.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Median Household Income Across Metro ZIPs",
+          "subtitle": "Each point is one ZIP from Result 3; TrueLine's target zone sits in the mid-range, well below the affluent outliers",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Number of ZIP Codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "60629",
+              "geography_label": "Chicago 60629",
+              "value": 60826.0
+            },
+            {
+              "geography_id": "60618",
+              "geography_label": "Chicago 60618",
+              "value": 106384.0
+            },
+            {
+              "geography_id": "60632",
+              "geography_label": "Chicago 60632",
+              "value": 64809.0
+            },
+            {
+              "geography_id": "60647",
+              "geography_label": "Chicago 60647",
+              "value": 107060.0
+            },
+            {
+              "geography_id": "60639",
+              "geography_label": "Chicago 60639",
+              "value": 61089.0
+            },
+            {
+              "geography_id": "60804",
+              "geography_label": "Cicero 60804",
+              "value": 70842.0
+            },
+            {
+              "geography_id": "60623",
+              "geography_label": "Chicago 60623",
+              "value": 51878.0
+            },
+            {
+              "geography_id": "60608",
+              "geography_label": "Chicago 60608",
+              "value": 73366.0
+            },
+            {
+              "geography_id": "66062",
+              "geography_label": "Olathe 66062",
+              "value": 117585.0
+            },
+            {
+              "geography_id": "60625",
+              "geography_label": "Chicago 60625",
+              "value": 85703.0
+            },
+            {
+              "geography_id": "45011",
+              "geography_label": "Hamilton 45011",
+              "value": 91873.0
+            },
+            {
+              "geography_id": "47906",
+              "geography_label": "West Lafayette 47906",
+              "value": 53103.0
+            },
+            {
+              "geography_id": "63376",
+              "geography_label": "Saint Peters 63376",
+              "value": 96393.0
+            },
+            {
+              "geography_id": "60617",
+              "geography_label": "Chicago 60617",
+              "value": 51778.0
+            },
+            {
+              "geography_id": "60634",
+              "geography_label": "Chicago 60634",
+              "value": 88533.0
+            },
+            {
+              "geography_id": "60085",
+              "geography_label": "Waukegan 60085",
+              "value": 66793.0
+            },
+            {
+              "geography_id": "60657",
+              "geography_label": "Chicago 60657",
+              "value": 110939.0
+            },
+            {
+              "geography_id": "46307",
+              "geography_label": "Crown Point 46307",
+              "value": 107800.0
+            },
+            {
+              "geography_id": "60614",
+              "geography_label": "Chicago 60614",
+              "value": 136448.0
+            },
+            {
+              "geography_id": "60641",
+              "geography_label": "Chicago 60641",
+              "value": 83758.0
+            },
+            {
+              "geography_id": "66061",
+              "geography_label": "Olathe 66061",
+              "value": 110176.0
+            },
+            {
+              "geography_id": "43123",
+              "geography_label": "Grove City 43123",
+              "value": 91008.0
+            },
+            {
+              "geography_id": "48197",
+              "geography_label": "Ypsilanti 48197",
+              "value": 73737.0
+            },
+            {
+              "geography_id": "60640",
+              "geography_label": "Chicago 60640",
+              "value": 73254.0
+            },
+            {
+              "geography_id": "43026",
+              "geography_label": "Hilliard 43026",
+              "value": 111440.0
+            },
+            {
+              "geography_id": "43081",
+              "geography_label": "Westerville 43081",
+              "value": 92422.0
+            },
+            {
+              "geography_id": "44256",
+              "geography_label": "Medina 44256",
+              "value": 99923.0
+            },
+            {
+              "geography_id": "60620",
+              "geography_label": "Chicago 60620",
+              "value": 48146.0
+            },
+            {
+              "geography_id": "55044",
+              "geography_label": "Lakeville 55044",
+              "value": 141551.0
+            },
+            {
+              "geography_id": "60402",
+              "geography_label": "Berwyn 60402",
+              "value": 77718.0
+            },
+            {
+              "geography_id": "60651",
+              "geography_label": "Chicago 60651",
+              "value": 54409.0
+            },
+            {
+              "geography_id": "43055",
+              "geography_label": "Newark 43055",
+              "value": 63974.0
+            },
+            {
+              "geography_id": "43130",
+              "geography_label": "Lancaster 43130",
+              "value": 72153.0
+            },
+            {
+              "geography_id": "60073",
+              "geography_label": "Round Lake 60073",
+              "value": 98514.0
+            },
+            {
+              "geography_id": "44035",
+              "geography_label": "Elyria 44035",
+              "value": 56408.0
+            },
+            {
+              "geography_id": "48180",
+              "geography_label": "Taylor 48180",
+              "value": 61081.0
+            },
+            {
+              "geography_id": "60609",
+              "geography_label": "Chicago 60609",
+              "value": 58896.0
+            },
+            {
+              "geography_id": "46143",
+              "geography_label": "Greenwood 46143",
+              "value": 91496.0
+            },
+            {
+              "geography_id": "65203",
+              "geography_label": "Columbia 65203",
+              "value": 79960.0
+            },
+            {
+              "geography_id": "43015",
+              "geography_label": "Delaware 43015",
+              "value": 105322.0
+            },
+            {
+              "geography_id": "60016",
+              "geography_label": "Des Plaines 60016",
+              "value": 86571.0
+            },
+            {
+              "geography_id": "44060",
+              "geography_label": "Mentor 44060",
+              "value": 87599.0
+            },
+            {
+              "geography_id": "60628",
+              "geography_label": "Chicago 60628",
+              "value": 54644.0
+            },
+            {
+              "geography_id": "43068",
+              "geography_label": "Reynoldsburg 43068",
+              "value": 70477.0
+            },
+            {
+              "geography_id": "45040",
+              "geography_label": "Mason 45040",
+              "value": 133240.0
+            },
+            {
+              "geography_id": "60619",
+              "geography_label": "Chicago 60619",
+              "value": 45206.0
+            },
+            {
+              "geography_id": "43228",
+              "geography_label": "Columbus 43228",
+              "value": 61713.0
+            },
+            {
+              "geography_id": "48044",
+              "geography_label": "Macomb 48044",
+              "value": 117856.0
+            },
+            {
+              "geography_id": "55901",
+              "geography_label": "Rochester 55901",
+              "value": 94607.0
+            },
+            {
+              "geography_id": "53215",
+              "geography_label": "Milwaukee 53215",
+              "value": 54289.0
+            },
+            {
+              "geography_id": "43230",
+              "geography_label": "Columbus 43230",
+              "value": 91424.0
+            },
+            {
+              "geography_id": "46227",
+              "geography_label": "Indianapolis 46227",
+              "value": 53629.0
+            },
+            {
+              "geography_id": "44077",
+              "geography_label": "Painesville 44077",
+              "value": 85056.0
+            },
+            {
+              "geography_id": "45140",
+              "geography_label": "Loveland 45140",
+              "value": 114827.0
+            },
+            {
+              "geography_id": "60505",
+              "geography_label": "Aurora 60505",
+              "value": 73284.0
+            },
+            {
+              "geography_id": "60638",
+              "geography_label": "Chicago 60638",
+              "value": 91070.0
+            },
+            {
+              "geography_id": "60453",
+              "geography_label": "Oak Lawn 60453",
+              "value": 83911.0
+            },
+            {
+              "geography_id": "55106",
+              "geography_label": "Saint Paul 55106",
+              "value": 70187.0
+            },
+            {
+              "geography_id": "65807",
+              "geography_label": "Springfield 65807",
+              "value": 53870.0
+            },
+            {
+              "geography_id": "43701",
+              "geography_label": "Zanesville 43701",
+              "value": 57565.0
+            },
+            {
+              "geography_id": "45044",
+              "geography_label": "Middletown 45044",
+              "value": 73732.0
+            },
+            {
+              "geography_id": "45069",
+              "geography_label": "West Chester 45069",
+              "value": 114631.0
+            },
+            {
+              "geography_id": "45601",
+              "geography_label": "Chillicothe 45601",
+              "value": 59748.0
+            },
+            {
+              "geography_id": "60056",
+              "geography_label": "Mount Prospect 60056",
+              "value": 101922.0
+            },
+            {
+              "geography_id": "63021",
+              "geography_label": "Ballwin 63021",
+              "value": 120177.0
+            },
+            {
+              "geography_id": "55124",
+              "geography_label": "Saint Paul 55124",
+              "value": 97727.0
+            },
+            {
+              "geography_id": "60630",
+              "geography_label": "Chicago 60630",
+              "value": 98860.0
+            },
+            {
+              "geography_id": "48103",
+              "geography_label": "Ann Arbor 48103",
+              "value": 116194.0
+            },
+            {
+              "geography_id": "43229",
+              "geography_label": "Columbus 43229",
+              "value": 57561.0
+            },
+            {
+              "geography_id": "63366",
+              "geography_label": "O'Fallon 63366",
+              "value": 100621.0
+            },
+            {
+              "geography_id": "60622",
+              "geography_label": "Chicago 60622",
+              "value": 136277.0
+            },
+            {
+              "geography_id": "45840",
+              "geography_label": "Findlay 45840",
+              "value": 68083.0
+            },
+            {
+              "geography_id": "60616",
+              "geography_label": "Chicago 60616",
+              "value": 73819.0
+            },
+            {
+              "geography_id": "61761",
+              "geography_label": "Normal 61761",
+              "value": 65275.0
+            },
+            {
+              "geography_id": "45013",
+              "geography_label": "Hamilton 45013",
+              "value": 73633.0
+            },
+            {
+              "geography_id": "43302",
+              "geography_label": "Marion 43302",
+              "value": 55057.0
+            },
+            {
+              "geography_id": "48187",
+              "geography_label": "Canton 48187",
+              "value": 120321.0
+            },
+            {
+              "geography_id": "60637",
+              "geography_label": "Chicago 60637",
+              "value": 43609.0
+            },
+            {
+              "geography_id": "63301",
+              "geography_label": "Saint Charles 63301",
+              "value": 85308.0
+            },
+            {
+              "geography_id": "55303",
+              "geography_label": "Anoka 55303",
+              "value": 102986.0
+            },
+            {
+              "geography_id": "60148",
+              "geography_label": "Lombard 60148",
+              "value": 100616.0
+            },
+            {
+              "geography_id": "60613",
+              "geography_label": "Chicago 60613",
+              "value": 95572.0
+            },
+            {
+              "geography_id": "60411",
+              "geography_label": "Chicago Heights 60411",
+              "value": 62073.0
+            },
+            {
+              "geography_id": "48126",
+              "geography_label": "Dearborn 48126",
+              "value": 42140.0
+            },
+            {
+              "geography_id": "60440",
+              "geography_label": "Bolingbrook 60440",
+              "value": 93494.0
+            },
+            {
+              "geography_id": "57106",
+              "geography_label": "Sioux Falls 57106",
+              "value": 77580.0
+            },
+            {
+              "geography_id": "48439",
+              "geography_label": "Grand Blanc 48439",
+              "value": 88490.0
+            },
+            {
+              "geography_id": "60004",
+              "geography_label": "Arlington Heights 60004",
+              "value": 128979.0
+            },
+            {
+              "geography_id": "56001",
+              "geography_label": "Mankato 56001",
+              "value": 69531.0
+            },
+            {
+              "geography_id": "63129",
+              "geography_label": "Saint Louis 63129",
+              "value": 94888.0
+            },
+            {
+              "geography_id": "46032",
+              "geography_label": "Carmel 46032",
+              "value": 132085.0
+            },
+            {
+              "geography_id": "63385",
+              "geography_label": "Wentzville 63385",
+              "value": 112199.0
+            },
+            {
+              "geography_id": "53711",
+              "geography_label": "Madison 53711",
+              "value": 100735.0
+            },
+            {
+              "geography_id": "60120",
+              "geography_label": "Elgin 60120",
+              "value": 82449.0
+            },
+            {
+              "geography_id": "45424",
+              "geography_label": "Dayton 45424",
+              "value": 80605.0
+            },
+            {
+              "geography_id": "47130",
+              "geography_label": "Jeffersonville 47130",
+              "value": 70290.0
+            },
+            {
+              "geography_id": "54115",
+              "geography_label": "De Pere 54115",
+              "value": 94721.0
+            },
+            {
+              "geography_id": "54601",
+              "geography_label": "La Crosse 54601",
+              "value": 61639.0
+            },
+            {
+              "geography_id": "67401",
+              "geography_label": "Salina 67401",
+              "value": 64606.0
+            },
+            {
+              "geography_id": "63031",
+              "geography_label": "Florissant 63031",
+              "value": 70811.0
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Target ZIPs: Income vs. Commute Time, Sized by Population",
+          "subtitle": "Ideal TrueLine markets cluster at mid-range income with long commutes and large populations; affluent ZIPs (upper area) fit the profile poorly",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Average Commute Time (min)",
+            "size_label": "Population",
+            "color_label": "Unemployment Rate (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "60629",
+              "geography_label": "Chicago 60629",
+              "x_value": 60826.0,
+              "y_value": 36.6,
+              "size_value": 108324.0,
+              "color_value": 9.4,
+              "metadata": {
+                "share_under_25k": 18.6
+              }
+            },
+            {
+              "geography_id": "60639",
+              "geography_label": "Chicago 60639",
+              "x_value": 61089.0,
+              "y_value": 36.5,
+              "size_value": 84240.0,
+              "color_value": 6.7,
+              "metadata": {
+                "share_under_25k": 19.2
+              }
+            },
+            {
+              "geography_id": "60617",
+              "geography_label": "Chicago 60617",
+              "x_value": 51778.0,
+              "y_value": 37.3,
+              "size_value": 74790.0,
+              "color_value": 12.9,
+              "metadata": {
+                "share_under_25k": 27.5
+              }
+            },
+            {
+              "geography_id": "60628",
+              "geography_label": "Chicago 60628",
+              "x_value": 54644.0,
+              "y_value": 37.3,
+              "size_value": 60431.0,
+              "color_value": 17.1,
+              "metadata": {
+                "share_under_25k": 24.3
+              }
+            },
+            {
+              "geography_id": "60651",
+              "geography_label": "Chicago 60651",
+              "x_value": 54409.0,
+              "y_value": 36.1,
+              "size_value": 63335.0,
+              "color_value": 13.3,
+              "metadata": {
+                "share_under_25k": 21.3
+              }
+            },
+            {
+              "geography_id": "60619",
+              "geography_label": "Chicago 60619",
+              "x_value": 45206.0,
+              "y_value": 36.2,
+              "size_value": 59503.0,
+              "color_value": 17.7,
+              "metadata": {
+                "share_under_25k": 25.5
+              }
+            },
+            {
+              "geography_id": "60637",
+              "geography_label": "Chicago 60637",
+              "x_value": 43609.0,
+              "y_value": 30.8,
+              "size_value": 52721.0,
+              "color_value": 13.7,
+              "metadata": {
+                "share_under_25k": 33.5
+              }
+            },
+            {
+              "geography_id": "44035",
+              "geography_label": "Elyria 44035",
+              "x_value": 56408.0,
+              "y_value": 22.7,
+              "size_value": 62179.0,
+              "color_value": 5.5,
+              "metadata": {
+                "share_under_25k": 19.3
+              }
+            },
+            {
+              "geography_id": "43701",
+              "geography_label": "Zanesville 43701",
+              "x_value": 57565.0,
+              "y_value": 24.1,
+              "size_value": 56402.0,
+              "color_value": 4.7,
+              "metadata": {
+                "share_under_25k": 21.4
+              }
+            },
+            {
+              "geography_id": "46227",
+              "geography_label": "Indianapolis 46227",
+              "x_value": 53629.0,
+              "y_value": 23.8,
+              "size_value": 57587.0,
+              "color_value": 3.8,
+              "metadata": {
+                "share_under_25k": 20.9
+              }
+            },
+            {
+              "geography_id": "60614",
+              "geography_label": "Chicago 60614",
+              "x_value": 136448.0,
+              "y_value": 30.9,
+              "size_value": 70693.0,
+              "color_value": 4.2,
+              "metadata": {
+                "share_under_25k": 8.9
+              }
+            },
+            {
+              "geography_id": "60622",
+              "geography_label": "Chicago 60622",
+              "x_value": 136277.0,
+              "y_value": 29.0,
+              "size_value": 54609.0,
+              "color_value": 3.8,
+              "metadata": {
+                "share_under_25k": 6.4
+              }
+            },
+            {
+              "geography_id": "55044",
+              "geography_label": "Lakeville 55044",
+              "x_value": 141551.0,
+              "y_value": 23.6,
+              "size_value": 64762.0,
+              "color_value": 2.2,
+              "metadata": {
+                "share_under_25k": 3.7
+              }
+            },
+            {
+              "geography_id": "46032",
+              "geography_label": "Carmel 46032",
+              "x_value": 132085.0,
+              "y_value": 23.8,
+              "size_value": 51515.0,
+              "color_value": 2.9,
+              "metadata": {
+                "share_under_25k": 4.5
+              }
+            },
+            {
+              "geography_id": "45040",
+              "geography_label": "Mason 45040",
+              "x_value": 133240.0,
+              "y_value": 23.6,
+              "size_value": 59518.0,
+              "color_value": 2.4,
+              "metadata": {
+                "share_under_25k": 5.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Household Life-Stage and Workforce Fit",
+      "subtitle": "Identifying married-with-family, working-age markets where daily-driver dependence runs highest",
+      "description": "TrueLine Auto Repair's core customer — the working-class commuter and the budget-conscious family keeping an older vehicle on the road — is best identified by three overlapping traits: a high share of married-with-family households (who typically run multiple daily-driver vehicles), a heavy concentration of prime working-age adults (20s through 50s), and strong labor force participation (people who must commute to earn). This section screens the candidate ZIP-level markets on exactly those traits.\n\nThe strongest life-stage fit appears in the suburban and mid-size Midwest ZIPs. Lakeville, MN (55044) leads on family structure at 63.6% married with 73.2% labor force participation; Mason, OH (45040) follows at 63.9% married and 68.5% participation. Other high-marriage, high-workforce markets include Arlington Heights, IL (60004) at 60.4% married, Loveland, OH (45140) at 60.0% married, Medina, OH (44256) at 59.8% married, Ballwin, MO (63021) at 59.3% married, Macomb, MI (48044) at 59.3% married and 70.1% participation, Carmel, IN (46032) at 59.1% married, Olathe, KS (66061) at 58.8% married and 73.3% participation, and Wentzville, MO (63385) at 58.8% married. These are the classic multi-vehicle household markets where transparent flat-rate service on oil changes, brakes, and tires maps directly onto everyday family maintenance needs.\n\nWorkforce intensity is a second, distinct signal — it captures the sheer volume of people who must keep a car running to get to work. Chicago's 60622 (85.0% participation), 60657 (82.7%), 60613 (82.0%), 60647 (79.4%), and 60614 (77.9%) post the region's highest labor force participation, and several of these ZIPs carry populations of 50,000–85,000, meaning a large absolute base of commuters even where the married-with-children share is lower. High-participation suburban markets that combine both signals — family structure AND workforce depth — are the most attractive: Olathe's 66061 (58.8% married, 73.3% participation, ~68,000 population) and 66062 (58.1% married, 72.6% participation, ~79,000 population), Round Lake, IL (60073) at 49.5% married and 74.1% participation, and Bolingbrook, IL (60440) at 49.0% married and 71.0% participation.\n\nAge distribution reinforces the targeting. Family-heavy suburbs such as Lakeville (55044) show 30.5% of residents in the under-10 and 10-to-19 bands combined plus a broad 30s–50s core, indicating households with school-age children and the second and third vehicles those families require. This contrasts sharply with university-driven ZIPs like West Lafayette, IN (47906, 34.6% in their 20s, 62.7% never married) and Normal, IL (61761, 28.9% in their 20s, 54.1% never married), which skew toward transient, single, lower-vehicle-dependence populations and are weaker fits despite large headcounts.\n\nAt the county level (Result 1), the rural markets show a divided picture. Ozark County, MO (61.1% married), Hickory County, MO (55.3%), Douglas County, MO (54.9%), and Oregon County, MO (52.5%) combine high marriage rates with the long commutes documented elsewhere — a strong life-stage fit, though thinner population. By contrast, several counties (Buffalo, Oglala Lakota, and Jackson in South Dakota) show never-married majorities above 52% and much lower married shares, indicating a weaker family-vehicle profile.\n\nBusiness implication: TrueLine should prioritize the high-married, high-participation suburban ZIPs — Olathe (66061/66062), Lakeville (55044), Macomb (48044), Ballwin (63021), Wentzville (63385), Medina (44256), and the St. Charles County, MO cluster — where family life-stage and workforce dependence on daily drivers reinforce one another. High-participation urban Chicago ZIPs offer volume and should be a secondary tier, while university-dominated and never-married-majority markets warrant lower priority.",
+      "demographic_category": "Household life-stage and workforce composition",
+      "demographic_key": "marital_status.distribution, age.distribution, employment.labor_force_participation",
+      "importance_weight": 80.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Married-Household Share in Top Family-Fit Markets",
+          "subtitle": "Percent of adults married in leading candidate ZIPs (Result 4)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Market (ZIP / City)",
+            "y_axis_label": "Married (% of adults)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Mason, OH (45040)",
+              "value": 63.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lakeville, MN (55044)",
+              "value": 63.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Arlington Heights, IL (60004)",
+              "value": 60.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Loveland, OH (45140)",
+              "value": 60.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Medina, OH (44256)",
+              "value": 59.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Ballwin, MO (63021)",
+              "value": 59.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Macomb, MI (48044)",
+              "value": 59.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Carmel, IN (46032)",
+              "value": 59.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Olathe, KS (66061)",
+              "value": 58.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Wentzville, MO (63385)",
+              "value": 58.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Crown Point, IN (46307)",
+              "value": 58.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Olathe, KS (66062)",
+              "value": 58.1,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Family Structure vs. Workforce Intensity by Market",
+          "subtitle": "Married share (x) vs. labor force participation (y); bubble size = population (Result 4)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Married (% of adults)",
+            "y_axis_label": "Labor Force Participation (%)",
+            "size_label": "Population",
+            "color_label": "Married share (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "66062",
+              "geography_label": "Olathe, KS (66062)",
+              "x_value": 58.1,
+              "y_value": 72.6,
+              "size_value": 78841.0,
+              "color_value": 58.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "66061",
+              "geography_label": "Olathe, KS (66061)",
+              "x_value": 58.8,
+              "y_value": 73.3,
+              "size_value": 67967.0,
+              "color_value": 58.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "55044",
+              "geography_label": "Lakeville, MN (55044)",
+              "x_value": 63.6,
+              "y_value": 73.2,
+              "size_value": 64762.0,
+              "color_value": 63.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "48044",
+              "geography_label": "Macomb, MI (48044)",
+              "x_value": 59.3,
+              "y_value": 70.1,
+              "size_value": 58754.0,
+              "color_value": 59.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "45040",
+              "geography_label": "Mason, OH (45040)",
+              "x_value": 63.9,
+              "y_value": 68.5,
+              "size_value": 59518.0,
+              "color_value": 63.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "63021",
+              "geography_label": "Ballwin, MO (63021)",
+              "x_value": 59.3,
+              "y_value": 68.2,
+              "size_value": 55666.0,
+              "color_value": 59.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "63385",
+              "geography_label": "Wentzville, MO (63385)",
+              "x_value": 58.8,
+              "y_value": 69.6,
+              "size_value": 51330.0,
+              "color_value": 58.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "46032",
+              "geography_label": "Carmel, IN (46032)",
+              "x_value": 59.1,
+              "y_value": 68.7,
+              "size_value": 51515.0,
+              "color_value": 59.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60073",
+              "geography_label": "Round Lake, IL (60073)",
+              "x_value": 49.5,
+              "y_value": 74.1,
+              "size_value": 62868.0,
+              "color_value": 49.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60440",
+              "geography_label": "Bolingbrook, IL (60440)",
+              "x_value": 49.0,
+              "y_value": 71.0,
+              "size_value": 51940.0,
+              "color_value": 49.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60629",
+              "geography_label": "Chicago, IL (60629)",
+              "x_value": 39.8,
+              "y_value": 59.3,
+              "size_value": 108324.0,
+              "color_value": 39.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "60622",
+              "geography_label": "Chicago, IL (60622)",
+              "x_value": 36.3,
+              "y_value": 85.0,
+              "size_value": 54609.0,
+              "color_value": 36.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "47906",
+              "geography_label": "West Lafayette, IN (47906)",
+              "x_value": 30.3,
+              "y_value": 56.3,
+              "size_value": 75198.0,
+              "color_value": 30.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "63376",
+              "geography_label": "Saint Peters, MO (63376)",
+              "x_value": 55.6,
+              "y_value": 69.1,
+              "size_value": 74962.0,
+              "color_value": 55.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "46307",
+              "geography_label": "Crown Point, IN (46307)",
+              "x_value": 58.6,
+              "y_value": 64.6,
+              "size_value": 71673.0,
+              "color_value": 58.6,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:50:45.006582+00:00"
+}

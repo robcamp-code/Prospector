@@ -1,0 +1,1071 @@
+{
+  "report_id": "8a17d380-4173-4480-aaeb-b7f55a06e2a4",
+  "title": "Where Affluent, College-Bound Families Cluster: Prime Territory for Premium Test Prep",
+  "subtitle": "A Demographic Market Analysis of Suburban New York, New Jersey, and Connecticut",
+  "geography_type": "county",
+  "geography_value": "New York, New Jersey, Connecticut, suburban areas",
+  "client_profile_id": "8e224ee1-d348-4b3d-98e0-b03d3ce86cfd",
+  "summary": {
+    "total_population": 5860581,
+    "zip_count": 21,
+    "median_household_income": 140416.31,
+    "median_age": null,
+    "home_ownership_rate": null,
+    "narrative": "Across the 21 counties analyzed in this tri-state suburban footprint, the wealthiest and most education-focused markets cluster tightly in Nassau (NY), Bergen, Essex, and Union (NJ), and Westchester (NY), where median household incomes exceed $170,000 and 63-67% of adults hold a college degree or above. Nassau County leads on nearly every dimension that matters for premium test prep, with a median household income of $184,338, 72.1% six-figure households, 66.8% college-educated adults, and 43.9% holding STEM degrees. At the metro level, the New York-Newark-Jersey City market (population 4.46M) and the Bridgeport-Stamford-Danbury, CT market (median income $152,688) offer the deepest concentrations of affluent, college-bound families for Ivy Track Tutoring to target.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "County Opportunity Map: Income, Education, and STEM Orientation",
+      "subtitle": "Bubble size reflects share of six-figure households",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "College Degree or Above (%)",
+        "size_label": "Six-Figure Households (%)",
+        "color_label": "STEM Degree (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "nassau_ny",
+          "geography_label": "Nassau, NY",
+          "x_value": 184338.15,
+          "y_value": 66.76,
+          "size_value": 72.12,
+          "color_value": 43.87,
+          "metadata": {}
+        },
+        {
+          "geography_id": "bergen_nj",
+          "geography_label": "Bergen, NJ",
+          "x_value": 175637.85,
+          "y_value": 63.33,
+          "size_value": 70.41,
+          "color_value": 45.11,
+          "metadata": {}
+        },
+        {
+          "geography_id": "essex_nj",
+          "geography_label": "Essex, NJ",
+          "x_value": 175241.14,
+          "y_value": 64.77,
+          "size_value": 69.87,
+          "color_value": 46.85,
+          "metadata": {}
+        },
+        {
+          "geography_id": "union_nj",
+          "geography_label": "Union, NJ",
+          "x_value": 174331.46,
+          "y_value": 65.92,
+          "size_value": 69.74,
+          "color_value": 44.83,
+          "metadata": {}
+        },
+        {
+          "geography_id": "westchester_ny",
+          "geography_label": "Westchester, NY",
+          "x_value": 170697.99,
+          "y_value": 63.71,
+          "size_value": 67.52,
+          "color_value": 44.85,
+          "metadata": {}
+        },
+        {
+          "geography_id": "somerset_nj",
+          "geography_label": "Somerset, NJ",
+          "x_value": 156630.36,
+          "y_value": 61.19,
+          "size_value": 68.7,
+          "color_value": 54.65,
+          "metadata": {}
+        },
+        {
+          "geography_id": "western_ct",
+          "geography_label": "Western Connecticut",
+          "x_value": 155507.2,
+          "y_value": 57.27,
+          "size_value": 61.84,
+          "color_value": 44.49,
+          "metadata": {}
+        },
+        {
+          "geography_id": "greater_bridgeport_ct",
+          "geography_label": "Greater Bridgeport, CT",
+          "x_value": 146826.22,
+          "y_value": 57.02,
+          "size_value": 62.57,
+          "color_value": 39.95,
+          "metadata": {}
+        },
+        {
+          "geography_id": "mercer_nj",
+          "geography_label": "Mercer, NJ",
+          "x_value": 143868.05,
+          "y_value": 61.41,
+          "size_value": 62.82,
+          "color_value": 50.04,
+          "metadata": {}
+        },
+        {
+          "geography_id": "morris_nj",
+          "geography_label": "Morris, NJ",
+          "x_value": 142666.26,
+          "y_value": 57.75,
+          "size_value": 63.87,
+          "color_value": 46.81,
+          "metadata": {}
+        },
+        {
+          "geography_id": "suffolk_ny",
+          "geography_label": "Suffolk, NY",
+          "x_value": 140416.31,
+          "y_value": 45.07,
+          "size_value": 64.44,
+          "color_value": null,
+          "metadata": {}
+        },
+        {
+          "geography_id": "middlesex_nj",
+          "geography_label": "Middlesex, NJ",
+          "x_value": 125993.19,
+          "y_value": 51.32,
+          "size_value": 60.49,
+          "color_value": 54.97,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Highest-Opportunity Counties",
+      "subtitle": "Ranking the top-tier suburban counties where affluent, education-focused families concentrate",
+      "description": "For a premium tutoring center built around SAT/ACT prep, AP tutoring, and college admissions consulting, the ideal customer sits at the intersection of high household income and high parental educational attainment — families with both the means and the motivation to invest heavily in academic outcomes. Ranking the counties in the client's tri-state suburban footprint on median household income, six-figure household share, and college-or-above attainment surfaces a clear top tier.\n\nNassau (NY) leads on nearly every dimension that matters: the highest median household income in the footprint at $184,338, the highest six-figure household share at 72.1%, and the highest college-or-above attainment at 66.8%. Bergen (NJ) follows at $175,638 median income with 70.4% six-figure households and 63.3% college attainment. Essex (NJ) and Union (NJ) round out the leaders on income, both above $174,000, while Union posts a notably strong 65.9% college-attainment rate and Essex 64.8%.\n\nWestchester (NY) is the largest of the top-tier counties by population (405,507) and pairs a $170,698 median income with 63.7% college attainment — a deep, dense pool of target families. Somerset (NJ) and Western Connecticut extend the strong-opportunity band, both above $155,000 median income, though Western Connecticut's college attainment (57.3%) trails the New York and New Jersey leaders.\n\nTwo business takeaways stand out. First, the very top of the market — Nassau, Bergen, Essex, Union, and Westchester — combines all three affluence-and-education signals, making these counties the highest-priority territories for center placement and marketing spend. Second, home values reinforce the ranking's affluence story but also flag price sensitivity in premium real estate: Nassau ($1.06M median home value) and Western Connecticut ($935K) carry the heaviest housing costs in the footprint, indicating deeply resourced households but also higher overhead for any physical location. The clearest efficiency play is Bergen, Essex, and Union — where college-educated, six-figure households are densely concentrated but median home values sit in the $765K–$791K range, below Nassau and Westchester.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Top-Tier Counties: Median Income vs. College Attainment (Sized by Population)",
+          "subtitle": "Each bubble is a county; larger bubbles = more target families to reach",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "College or Above (%)",
+            "size_label": "Population",
+            "color_label": "Six-Figure Households (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "nassau-ny",
+              "geography_label": "Nassau, NY",
+              "x_value": 184338.15,
+              "y_value": 66.76,
+              "size_value": 239021.0,
+              "color_value": 72.12,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bergen-nj",
+              "geography_label": "Bergen, NJ",
+              "x_value": 175637.85,
+              "y_value": 63.33,
+              "size_value": 293658.0,
+              "color_value": 70.41,
+              "metadata": {}
+            },
+            {
+              "geography_id": "essex-nj",
+              "geography_label": "Essex, NJ",
+              "x_value": 175241.14,
+              "y_value": 64.77,
+              "size_value": 108589.0,
+              "color_value": 69.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "union-nj",
+              "geography_label": "Union, NJ",
+              "x_value": 174331.46,
+              "y_value": 65.92,
+              "size_value": 114543.0,
+              "color_value": 69.74,
+              "metadata": {}
+            },
+            {
+              "geography_id": "westchester-ny",
+              "geography_label": "Westchester, NY",
+              "x_value": 170697.99,
+              "y_value": 63.71,
+              "size_value": 405507.0,
+              "color_value": 67.52,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset-nj",
+              "geography_label": "Somerset, NJ",
+              "x_value": 156630.36,
+              "y_value": 61.19,
+              "size_value": 256153.0,
+              "color_value": 68.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "western-ct",
+              "geography_label": "Western Connecticut",
+              "x_value": 155507.2,
+              "y_value": 57.27,
+              "size_value": 318965.0,
+              "color_value": 61.84,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Highest-Opportunity Counties by Median Household Income",
+          "subtitle": "Top-tier counties in the tri-state suburban footprint",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Nassau, NY",
+              "value": 184338.15,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ",
+              "value": 175637.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex, NJ",
+              "value": 175241.14,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Union, NJ",
+              "value": 174331.46,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY",
+              "value": 170697.99,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ",
+              "value": 156630.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Western Connecticut",
+              "value": 155507.2,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Household Wealth and Willingness to Invest",
+      "subtitle": "Where median incomes, six-figure household density, and home values converge to signal families able and willing to spend heavily on academic outcomes",
+      "description": "For a premium tutoring center, the single most predictive signal of a viable market is the concentration of households with both the disposable income and the accumulated wealth to treat academic coaching as a discretionary investment. Result 1 reveals a clear tier of \"prime territory\" counties where median household income exceeds $170,000 and more than two-thirds of all households clear the six-figure mark. Nassau County, New York leads the entire footprint with a median household income of $184,338 and 72.1% of households earning six figures — the highest six-figure density anywhere in the scope. It is closely followed by a cluster of northern New Jersey counties: Bergen ($175,638 median; 70.4% six-figure), Essex ($175,241; 69.9%), and Union ($174,331; 69.7%), with Westchester, New York rounding out the top tier ($170,698; 67.5%). These five counties represent the core of the addressable market — places where a critical mass of families can absorb the cost of SAT/ACT packages, AP tutoring, and admissions consulting without financial strain.\n\nMedian home value adds a second, complementary dimension of wealth. Nassau again stands apart with a median home value of $1,055,531 — the only county in the footprint above the seven-figure line — signaling deep household net worth beyond annual earnings. Western Connecticut is the notable case where home value ($934,849) dramatically outpaces what its income rank alone would suggest, pointing to established, asset-rich families in the Bridgeport-Stamford-Danbury corridor. Westchester ($813,728) and Bergen ($790,723) similarly pair high incomes with high property values, reinforcing them as durable, wealth-anchored markets rather than income spikes that could prove transient.\n\nMetro-level context from Result 3 confirms the county picture. The Bridgeport-Stamford-Danbury, CT metro posts the highest median household income of any CBSA in the footprint at $152,688 (62.1% six-figure households), and the vast New York-Newark-Jersey City, NY-NJ metro follows at $145,672 with the highest six-figure density among metros at 64.1%. The Trenton-Princeton, NJ metro ($143,868; 62.8%) — anchored by Mercer County — completes a trio of standout metros. These three metros should frame territory planning: they contain the affluent county clusters identified above and represent concentrated, self-reinforcing pools of families for whom premium academic services are financially routine.\n\nBusiness takeaway: The wealth data argues for a tightly focused go-to-market. Nassau, Bergen, Essex, Union, and Westchester counties — all within the New York-Newark-Jersey City metro or directly adjacent to the Bridgeport-Stamford-Danbury corridor — offer the densest concentration of six-figure households and the highest home values, making them the highest-priority locations for flagship centers and premium pricing. Western Connecticut merits attention as a home-value outlier where family wealth may support premium spend even where headline income sits slightly lower.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Median Household Income vs. Six-Figure Household Share by County",
+          "subtitle": "Top affluence-tier counties in the footprint, ranked by median household income",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Median Household Income (USD)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Nassau, NY",
+              "value": 184338.15,
+              "percentage": 72.12,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ",
+              "value": 175637.85,
+              "percentage": 70.41,
+              "color": null
+            },
+            {
+              "label": "Essex, NJ",
+              "value": 175241.14,
+              "percentage": 69.87,
+              "color": null
+            },
+            {
+              "label": "Union, NJ",
+              "value": 174331.46,
+              "percentage": 69.74,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY",
+              "value": 170697.99,
+              "percentage": 67.52,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ",
+              "value": 156630.36,
+              "percentage": 68.7,
+              "color": null
+            },
+            {
+              "label": "Western Connecticut, CT",
+              "value": 155507.2,
+              "percentage": 61.84,
+              "color": null
+            },
+            {
+              "label": "Greater Bridgeport, CT",
+              "value": 146826.22,
+              "percentage": 62.57,
+              "color": null
+            },
+            {
+              "label": "Mercer, NJ",
+              "value": 143868.05,
+              "percentage": 62.82,
+              "color": null
+            },
+            {
+              "label": "Morris, NJ",
+              "value": 142666.26,
+              "percentage": 63.87,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Income vs. Home Value by County, Sized by Population",
+          "subtitle": "Positioning counties on two wealth dimensions; bubble size reflects population and color reflects six-figure household share",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income (USD)",
+            "y_axis_label": "Median Home Value (USD)",
+            "size_label": "Population",
+            "color_label": "Six-Figure Household Share (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "nassau-ny",
+              "geography_label": "Nassau, NY",
+              "x_value": 184338.15,
+              "y_value": 1055530.94,
+              "size_value": 239021.0,
+              "color_value": 72.12,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bergen-nj",
+              "geography_label": "Bergen, NJ",
+              "x_value": 175637.85,
+              "y_value": 790722.67,
+              "size_value": 293658.0,
+              "color_value": 70.41,
+              "metadata": {}
+            },
+            {
+              "geography_id": "essex-nj",
+              "geography_label": "Essex, NJ",
+              "x_value": 175241.14,
+              "y_value": 780740.43,
+              "size_value": 108589.0,
+              "color_value": 69.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "union-nj",
+              "geography_label": "Union, NJ",
+              "x_value": 174331.46,
+              "y_value": 765626.85,
+              "size_value": 114543.0,
+              "color_value": 69.74,
+              "metadata": {}
+            },
+            {
+              "geography_id": "westchester-ny",
+              "geography_label": "Westchester, NY",
+              "x_value": 170697.99,
+              "y_value": 813728.13,
+              "size_value": 405507.0,
+              "color_value": 67.52,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset-nj",
+              "geography_label": "Somerset, NJ",
+              "x_value": 156630.36,
+              "y_value": 591571.95,
+              "size_value": 256153.0,
+              "color_value": 68.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "western-ct",
+              "geography_label": "Western Connecticut, CT",
+              "x_value": 155507.2,
+              "y_value": 934849.47,
+              "size_value": 318965.0,
+              "color_value": 61.84,
+              "metadata": {}
+            },
+            {
+              "geography_id": "greater-bridgeport-ct",
+              "geography_label": "Greater Bridgeport, CT",
+              "x_value": 146826.22,
+              "y_value": 596977.87,
+              "size_value": 153422.0,
+              "color_value": 62.57,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mercer-nj",
+              "geography_label": "Mercer, NJ",
+              "x_value": 143868.05,
+              "y_value": 528263.76,
+              "size_value": 196664.0,
+              "color_value": 62.82,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morris-nj",
+              "geography_label": "Morris, NJ",
+              "x_value": 142666.26,
+              "y_value": 608445.81,
+              "size_value": 441450.0,
+              "color_value": 63.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "suffolk-ny",
+              "geography_label": "Suffolk, NY",
+              "x_value": 140416.31,
+              "y_value": 597000.09,
+              "size_value": 950623.0,
+              "color_value": 64.44,
+              "metadata": {}
+            },
+            {
+              "geography_id": "monmouth-nj",
+              "geography_label": "Monmouth, NJ",
+              "x_value": 136436.01,
+              "y_value": 640529.03,
+              "size_value": 508359.0,
+              "color_value": 61.36,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Education Culture and STEM Orientation",
+      "subtitle": "Where college attainment and STEM degrees signal the highest concentration of academically driven parents",
+      "description": "The strongest predictor of demand for premium test prep and admissions consulting is not simply income, but a household culture that prizes academic achievement. This section profiles that culture using two education-attainment metrics — the share of adults with a college degree or above, and the share holding a STEM degree — to identify the counties where academically driven parents are most heavily concentrated.\n\nNassau County (NY) leads the region on the broadest measure of educational culture, with 66.8% of adults holding a college degree or above — the highest in the geographic scope — and 43.9% holding a STEM degree. It is closely followed by a tight cluster of northern New Jersey counties: Union (65.9% college-or-above, 44.8% STEM), Essex (64.8% college, 46.9% STEM), and Bergen (63.3% college, 45.1% STEM). Westchester County (NY) rounds out the top tier at 63.7% college-or-above and 44.9% STEM. These five counties represent the region's densest concentration of degree-holding households and are the natural anchor markets for a premium academic brand.\n\nA distinct and revealing pattern emerges when STEM attainment is examined on its own. Several counties over-index dramatically on STEM degrees relative to their overall college attainment — a strong signal of families oriented toward the quantitative, competitive academic tracks that drive SAT/ACT math performance and STEM-heavy AP course loads. Middlesex County (NJ) is the clearest example, with a STEM-degree share of 55.0% — the highest of any large county — despite a more moderate 51.3% college-or-above rate. Somerset County (NJ) shows the same profile (54.7% STEM against 61.2% college), as does Mercer County (NJ), home to the Trenton-Princeton market (50.0% STEM, 61.4% college), and Hudson County (NJ) (53.6% STEM, 63.1% college). In these markets, the STEM orientation of parents is often more pronounced than headline degree rates alone would suggest, making them prime territory for rigorous, results-driven tutoring.\n\nImportantly, high educational attainment aligns tightly with the household affluence needed to invest heavily in tutoring. In the leading counties — Nassau (72.1%), Bergen (70.4%), Essex (69.9%), and Union (69.7%) — roughly seven in ten households earn six figures, reinforcing that these are markets where both the cultural motivation and the financial capacity to pay for premium academic outcomes coexist.\n\nBusiness implication: Nassau, Bergen, Essex, Union, and Westchester should be treated as the core footprint, where broad-based college culture supports demand across the full service line (SAT/ACT prep, AP tutoring, and admissions consulting). The high-STEM counties — Middlesex, Somerset, Mercer, and Hudson — represent high-conviction expansion or specialty targets, where marketing that emphasizes quantitative rigor, competitive STEM AP courses, and math-heavy test preparation is likely to resonate most strongly with parents.",
+      "demographic_category": "education",
+      "demographic_key": "education.college_or_above",
+      "importance_weight": 90.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "College and STEM Attainment in Top Education-Focused Counties",
+          "subtitle": "Share of adults with a college degree or above vs. STEM degree, by county",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Percent of adults (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Nassau, NY — College+",
+              "value": 66.76,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, NY — STEM",
+              "value": 43.87,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Union, NJ — College+",
+              "value": 65.92,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Union, NJ — STEM",
+              "value": 44.83,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex, NJ — College+",
+              "value": 64.77,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex, NJ — STEM",
+              "value": 46.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY — College+",
+              "value": 63.71,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY — STEM",
+              "value": 44.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ — College+",
+              "value": 63.33,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ — STEM",
+              "value": 45.11,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ — College+",
+              "value": 61.19,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ — STEM",
+              "value": 54.65,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mercer, NJ — College+",
+              "value": 61.41,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mercer, NJ — STEM",
+              "value": 50.04,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hudson, NJ — College+",
+              "value": 63.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hudson, NJ — STEM",
+              "value": 53.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Middlesex, NJ — College+",
+              "value": 51.32,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Middlesex, NJ — STEM",
+              "value": 54.97,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Educational Culture Meets Household Affluence",
+          "subtitle": "College attainment vs. six-figure household share; bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "College or above (%)",
+            "y_axis_label": "Six-figure households (%)",
+            "size_label": "Population",
+            "color_label": "STEM degree (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "nassau-ny",
+              "geography_label": "Nassau, NY",
+              "x_value": 66.76,
+              "y_value": 72.12,
+              "size_value": 239021.0,
+              "color_value": 43.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "union-nj",
+              "geography_label": "Union, NJ",
+              "x_value": 65.92,
+              "y_value": 69.74,
+              "size_value": 114543.0,
+              "color_value": 44.83,
+              "metadata": {}
+            },
+            {
+              "geography_id": "essex-nj",
+              "geography_label": "Essex, NJ",
+              "x_value": 64.77,
+              "y_value": 69.87,
+              "size_value": 108589.0,
+              "color_value": 46.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "westchester-ny",
+              "geography_label": "Westchester, NY",
+              "x_value": 63.71,
+              "y_value": 67.52,
+              "size_value": 405507.0,
+              "color_value": 44.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bergen-nj",
+              "geography_label": "Bergen, NJ",
+              "x_value": 63.33,
+              "y_value": 70.41,
+              "size_value": 293658.0,
+              "color_value": 45.11,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset-nj",
+              "geography_label": "Somerset, NJ",
+              "x_value": 61.19,
+              "y_value": 68.7,
+              "size_value": 256153.0,
+              "color_value": 54.65,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mercer-nj",
+              "geography_label": "Mercer, NJ",
+              "x_value": 61.41,
+              "y_value": 62.82,
+              "size_value": 196664.0,
+              "color_value": 50.04,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morris-nj",
+              "geography_label": "Morris, NJ",
+              "x_value": 57.75,
+              "y_value": 63.87,
+              "size_value": 441450.0,
+              "color_value": 46.81,
+              "metadata": {}
+            },
+            {
+              "geography_id": "western-ct",
+              "geography_label": "Western Connecticut",
+              "x_value": 57.27,
+              "y_value": 61.84,
+              "size_value": 318965.0,
+              "color_value": 44.49,
+              "metadata": {}
+            },
+            {
+              "geography_id": "middlesex-nj",
+              "geography_label": "Middlesex, NJ",
+              "x_value": 51.32,
+              "y_value": 60.49,
+              "size_value": 499207.0,
+              "color_value": 54.97,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "The College-Bound Student Pipeline",
+      "subtitle": "Sizing the school-age and teen population that fuels demand for SAT/ACT and AP tutoring",
+      "description": "The direct customer base for Ivy Track Tutoring is students in the 10-to-19 age band (the SAT/ACT and AP tutoring window), supported by a pipeline of children under 10 who will age into the market. This section quantifies the size of that pipeline across counties and metros. Because the county-level dataset reports the share of population in each age band, we translate those shares into estimated teen headcounts (10-to-19 band applied to county population) to reveal where the largest concentrations of prospective students actually live.\n\nTwo patterns matter for the client. First, the largest raw teen populations sit in the big Long Island and New Jersey counties — Suffolk (12.59% of 950,623 ≈ 119,700 teens), Monmouth (12.98% of 508,359 ≈ 65,970), Middlesex (13.16% of 499,207 ≈ 65,690), Morris (11.91% of 441,450 ≈ 52,590), Westchester (13.27% of 405,507 ≈ 53,800), and Bergen (14.11% of 293,658 ≈ 41,450). These are the volume markets: even a modest capture rate produces a sizable book of business.\n\nSecond, the highest teen *density* — the share of the local population that is teenaged — clusters in the client's premium affluent counties. Bergen (14.11%), Nassau (15.09%), Greater Bridgeport (15.23%), and Hunterdon (15.09%) all skew heavily toward the 10-to-19 band. Nassau and Bergen are especially attractive because they pair a large teen base with the highest income and college-attainment profiles in the dataset, exactly the education-focused, high-investment households Ivy Track targets. At the metro level, the Bridgeport-Stamford-Danbury, CT CBSA leads on teen share (13.92%), while the vast New York-Newark-Jersey City, NY-NJ CBSA (12.88% of 4,455,309) represents the deepest absolute pool of prospective students.\n\nBusiness takeaway: prioritize center placement and marketing spend in Nassau, Bergen, and Westchester (large teen counts + top affluence), treat Suffolk, Monmouth, Middlesex, and Morris as high-volume expansion targets, and use Greater Bridgeport / the Bridgeport-Stamford-Danbury metro as the Connecticut anchor given its elevated teen concentration.",
+      "demographic_category": "age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 90.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Estimated Teen Population (Ages 10-19) by County",
+          "subtitle": "10-to-19 age share applied to county population — the direct SAT/ACT and AP tutoring base",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Estimated residents aged 10-19",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Suffolk, NY",
+              "value": 119682.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Monmouth, NJ",
+              "value": 65964.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Middlesex, NJ",
+              "value": 65683.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY",
+              "value": 53798.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morris, NJ",
+              "value": 52588.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ",
+              "value": 41449.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ",
+              "value": 32869.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, NY",
+              "value": 36066.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Western Connecticut, CT",
+              "value": 42385.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Greater Bridgeport, CT",
+              "value": 23360.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mercer, NJ",
+              "value": 23840.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Rockland, NY",
+              "value": 22171.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Union, NJ",
+              "value": 15729.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex, NJ",
+              "value": 15071.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Teen Share of Population (Ages 10-19) by Metro Area",
+          "subtitle": "Percentage of residents in the 10-to-19 band across CBSAs in scope",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Metro area (CBSA)",
+            "y_axis_label": "% of population aged 10-19",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Bridgeport-Stamford-Danbury, CT",
+              "value": 13.92,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New York-Newark-Jersey City, NY-NJ",
+              "value": 12.88,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Trenton-Princeton, NJ",
+              "value": 12.12,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Metro-Level Market Framing and Recommendations",
+      "subtitle": "Concentrating marketing and location investment in the highest-affluence, highest-education CBSAs",
+      "description": "This section frames the regional opportunity for Ivy Track Tutoring & Test Prep at the metro (CBSA) level, identifying which markets combine the household income, six-figure household density, and college-attainment levels that define the client's target family. Only a handful of CBSAs in the Tri-State footprint clear the affluence and education thresholds that make premium SAT/ACT prep, AP tutoring, and admissions consulting a viable purchase. Three CBSAs stand clearly apart. Bridgeport-Stamford-Danbury, CT leads on median household income at $152,688, with 62.1% six-figure households and 57.2% of adults holding a college degree or above. New York-Newark-Jersey City, NY-NJ follows at $145,672 median income, and critically has the highest six-figure household share of the top tier at 64.1%, paired with 53.7% college attainment — and by far the largest population (4.46M), meaning the greatest absolute number of target families. Trenton-Princeton, NJ rounds out the leading group at $143,868 median income and 62.8% six-figure households, but distinguishes itself with the highest college-or-above rate of any CBSA in the footprint at 61.4%, signaling an unusually education-dense, admissions-focused market despite its smaller population (196,664). Below this leading tier, the drop-off is steep: the next metro, Hartford-West Hartford-East Hartford, CT, falls to $107,596 median income and 45.0% college attainment, and remaining CBSAs (New Haven, Waterbury-Shelton, Rochester, Buffalo, etc.) fall well below the affluence and education profile the client requires. Synthesizing with the county-level findings, the strongest counties — Nassau (NY), Bergen (NJ), Essex (NJ), Union (NJ), and Westchester (NY), all with median incomes above $170,000, six-figure household shares near or above 67%, and college attainment above 63% — sit within the New York-Newark-Jersey City CBSA, reinforcing it as the anchor market. Recommendation: Prioritize physical location investment and the heaviest marketing spend in the New York-Newark-Jersey City CBSA, targeting its premier counties (Nassau, Bergen, Essex, Union, Westchester). Treat Bridgeport-Stamford-Danbury as the top-priority Connecticut expansion market given its leading income profile, and position Trenton-Princeton as a high-value, education-driven niche market where admissions consulting and AP tutoring should be emphasized to match its exceptional 61.4% college-attainment base. Deprioritize or exclude the lower-tier CBSAs where affluence and education profiles do not support premium pricing.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Core CBSAs: Income vs. College Attainment, Sized by Population",
+          "subtitle": "Bubble size reflects total population; color reflects six-figure household share",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "College or Above (%)",
+            "size_label": "Population",
+            "color_label": "Six-Figure Households (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "bridgeport-stamford-danbury",
+              "geography_label": "Bridgeport-Stamford-Danbury, CT",
+              "x_value": 152687.79,
+              "y_value": 57.19,
+              "size_value": 472387.0,
+              "color_value": 62.08,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ny-newark-jersey-city",
+              "geography_label": "New York-Newark-Jersey City, NY-NJ",
+              "x_value": 145671.54,
+              "y_value": 53.72,
+              "size_value": 4455309.0,
+              "color_value": 64.06,
+              "metadata": {}
+            },
+            {
+              "geography_id": "trenton-princeton",
+              "geography_label": "Trenton-Princeton, NJ",
+              "x_value": 143868.05,
+              "y_value": 61.41,
+              "size_value": 196664.0,
+              "color_value": 62.82,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hartford",
+              "geography_label": "Hartford-West Hartford-East Hartford, CT",
+              "x_value": 107596.46,
+              "y_value": 45.05,
+              "size_value": 632584.0,
+              "color_value": 50.48,
+              "metadata": {}
+            },
+            {
+              "geography_id": "new-haven",
+              "geography_label": "New Haven, CT",
+              "x_value": 101774.75,
+              "y_value": 41.28,
+              "size_value": 322122.0,
+              "color_value": 49.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "waterbury-shelton",
+              "geography_label": "Waterbury-Shelton, CT",
+              "x_value": 96376.24,
+              "y_value": 34.98,
+              "size_value": 266780.0,
+              "color_value": 47.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "philadelphia",
+              "geography_label": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+              "x_value": 104577.02,
+              "y_value": 41.05,
+              "size_value": 785481.0,
+              "color_value": 51.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "rochester",
+              "geography_label": "Rochester, NY",
+              "x_value": 94191.7,
+              "y_value": 46.96,
+              "size_value": 446521.0,
+              "color_value": 44.76,
+              "metadata": {}
+            },
+            {
+              "geography_id": "buffalo-cheektowaga",
+              "geography_label": "Buffalo-Cheektowaga, NY",
+              "x_value": 80951.6,
+              "y_value": 37.77,
+              "size_value": 490190.0,
+              "color_value": 38.66,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Median Household Income by CBSA",
+          "subtitle": "Leading three metros clear the affluence threshold for premium test prep",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "CBSA",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Bridgeport-Stamford-Danbury, CT",
+              "value": 152687.79,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New York-Newark-Jersey City, NY-NJ",
+              "value": 145671.54,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Trenton-Princeton, NJ",
+              "value": 143868.05,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hartford-West Hartford-East Hartford, CT",
+              "value": 107596.46,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+              "value": 104577.02,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New Haven, CT",
+              "value": 101774.75,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Waterbury-Shelton, CT",
+              "value": 96376.24,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Rochester, NY",
+              "value": 94191.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Buffalo-Cheektowaga, NY",
+              "value": 80951.6,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:45:55.437538+00:00"
+}

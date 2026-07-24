@@ -1,35 +1,35 @@
-"""Graph state definition for the multi-node Profile Builder -> Data Analyst -> Report Builder agent."""
+"""Graph state for the chat agent.
+
+Only JSON-serializable values cross node boundaries: preferences and the
+query plan are stored as plain dicts (model_dump()) and revalidated at each
+node's boundary via load_preferences / QueryPlan.model_validate. Query
+*results* never enter state — they stay local to the report generator.
+"""
 
 from typing import Annotated
 
 from langgraph.graph import add_messages
 from typing_extensions import TypedDict
 
-from src.core.state import ClientProfileRef
 from src.schemas.report import Report
 
 
-class AnalysisPlan(TypedDict):
-    """Data Analyst's output: the query plan for Report Builder."""
-
-    location: dict  # LocationFilters.model_dump()
-    categories: list[str]  # List of CategoryName strings to query
-    geography_level: str  # GeographyLevel string (zip/county/state/city/cbsa/region)
-    reasoning: str
-
-
 class GraphState(TypedDict):
-    """State shared across all three graph nodes.
+    """State shared across graph nodes.
 
-    messages: Conversation history (LangChain message objects), using add_messages reducer
-    client_profile: The built/loaded profile (None until Profile Builder completes)
-    profile_complete: Flag indicating Profile Builder has finished and profile is ready
-    analysis_plan: Data Analyst's plan (None until Data Analyst runs)
-    report: Final generated report (None until Report Builder completes)
+    messages: Conversation history (LangChain messages, add_messages reducer)
+    profile_id: DB id of the persisted ClientProfile (None until first save)
+    preferences: Preferences.model_dump() (None until extracted; revalidate on read)
+    profile_complete: True once all required preference fields are present
+    missing_fields: Preference fields still to ask the user about
+    query_plan: QueryPlan.model_dump() (None until Data Analyst runs)
+    report: Final generated report (None until Report Generator completes)
     """
 
     messages: Annotated[list, add_messages]
-    client_profile: ClientProfileRef | None
+    profile_id: str | None
+    preferences: dict | None
     profile_complete: bool
-    analysis_plan: AnalysisPlan | None
+    missing_fields: list[str]
+    query_plan: dict | None
     report: Report | None

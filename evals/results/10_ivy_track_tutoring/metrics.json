@@ -1,0 +1,38 @@
+{
+  "business_id": "10_ivy_track_tutoring",
+  "status": "complete",
+  "thread_id": "6dece14e-8c20-4f8d-bc3a-9be901a50748",
+  "latency": {
+    "total_seconds": 62.4
+  },
+  "tokens": {
+    "input_tokens": 100348,
+    "output_tokens": 14689,
+    "total_tokens": 115037,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 100348,
+        "output_tokens": 14689,
+        "total_tokens": 115037
+      }
+    }
+  },
+  "judge": {
+    "overall_quality": 8,
+    "section_relevance": 9,
+    "narrative_quality": 8,
+    "data_plausibility": 8,
+    "visualization_appropriateness": 7,
+    "tool_selection_relevance": 9,
+    "reasoning": "This report is well-matched to the brief and would genuinely help the owner shortlist territory. \n\nTool/metric selection (9): The agent picked exactly the metrics that matter for premium test prep \u2014 median household income, six-figure household share, college-or-above attainment, STEM degree share, median home value (as a wealth proxy), and crucially the teen (10-19) age band that is the literal customer. This intersection of \"means + motivation + student pipeline\" is precisely the right ICP framing. Nothing important is obviously missing except perhaps direct school-district-quality data, which the brief emphasizes (\"top-ranked public school districts\") and is only proxied via attainment.\n\nSection relevance (9): All five sections map to the brief \u2014 top counties, wealth/willingness-to-pay, education culture/STEM, the student pipeline (Section 4 is especially strong and business-savvy, translating age shares into estimated teen headcounts), and metro-level go-to-market framing. No filler sections (no unemployment, race, commute-time padding). Slight ding because the brief's core criterion \u2014 school district rankings \u2014 is never directly addressed.\n\nNarrative (8): Specific, data-anchored, and actionable. It names concrete counties, cites real numbers, distinguishes volume markets (Suffolk, Monmouth) from density/affluence markets (Nassau, Bergen), flags Western CT as a home-value outlier, and gives differentiated recommendations (emphasize admissions consulting in Trenton-Princeton, STEM-rigor marketing in high-STEM counties). Minor overreach: it treats attainment as a stand-in for \"education-focused families\" without acknowledging that district quality and existing competitor saturation aren't measured.\n\nData plausibility (8): Incomes ($140K\u2013$184K for these counties), home values ($765K\u2013$1.06M, Nassau seven figures), and ~63-67% college attainment are all in the right ballpark for these affluent tri-state counties. Teen-share figures (~12-15%) and derived headcounts are sensible. Some tension exists between county-level attainment (~63-67%) and the parent CBSA figure (NY-Newark 53.7%), which is internally consistent (metro dilutes affluent counties) but the very high STEM-degree shares (44-55% of adults) look somewhat inflated/ambiguously defined.\n\nVisualization (7): Bubble charts are appropriate for the multi-dimensional income/education/population comparisons, and bars fit the income rankings. However there are recurring flaws: several bar charts are truncated to only 5 categories and Section 2/3 bars encode a second variable in the \"percentage\" field or split college vs. STEM into interleaved bars that a simple bar chart handles awkwardly (a grouped bar would be better). The heavy reliance on repeated bubble charts across sections is somewhat redundant. No distribution charts (violin/histogram) are used, which is acceptable since the data is aggregated point estimates rather than distributions.\n\nOverall (8): Coherent, ICP-aligned, actionable, and presentation-ready with light polish. Held back from 9+ by the absence of direct school-district-quality data (a stated must-have), some redundancy in visuals, and slightly overstated STEM figures.",
+    "judge_tokens": {
+      "input_tokens": 14672,
+      "output_tokens": 1260,
+      "total_tokens": 15932
+    }
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-24T18:45:55.478251+00:00"
+}

@@ -10,8 +10,12 @@ wheels/
 .venv
 .env
 
+# langgraph dev scratch (in-memory checkpoints)
+.langgraph_api/
+
 # Old code moved to scratch
 scratch/
 **/*.ts
 
 uszips.csv
+/my-new-agent

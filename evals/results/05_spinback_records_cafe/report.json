@@ -1,0 +1,1540 @@
+{
+  "report_id": "fcfbee0c-d637-4905-98fc-80b226ffdba8",
+  "title": "Where Portland's Creative, Coffee-Lingering Music Fans Cluster: Mapping Spinback's Ideal Neighborhoods",
+  "subtitle": "A Demographic Analysis of Oregon / Portland Urban Areas",
+  "geography_type": "county",
+  "geography_value": "Oregon / Portland, urban areas",
+  "client_profile_id": "da3edf66-e4c3-43fb-a2de-dd0fa546d34e",
+  "summary": {
+    "total_population": 599700,
+    "zip_count": 21,
+    "median_household_income": 91594.1,
+    "median_age": 39.68,
+    "home_ownership_rate": null,
+    "narrative": "Across the 21 Portland-area ZIPs analyzed, the region shows a strongly educated, self-employed core: Multnomah County alone holds 444,895 residents with 51.8% college-educated and 15.2% self-employed, and Portland's median age of 39.7 sits squarely within Spinback's 20-45 target. The strongest concentrations of young creatives cluster in close-in eastside and inner-Portland ZIPs like 97214 (27.8% in their 30s, 39.5% bachelor's, 18.1% self-employed), 97209 (30.6% in their 30s), 97227 (32.3% in their 30s), and 97202/97212 (17% self-employed and above), which combine high 20s-40s density, elevated education, and self-employment. These neighborhoods also carry substantial spending power, with 97212 at 44.3% and 97215 at 38.8% earning $150k+, making them the highest-priority siting candidates.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "Opportunity Map: Young-Adult Density vs. Education by ZIP",
+      "subtitle": "Bubble size = self-employment rate; color = share earning $150k+",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Share of residents in 20s-30s (%)",
+        "y_axis_label": "Bachelor's or higher (%)",
+        "size_label": "Self-employment rate (%)",
+        "color_label": "Share earning $150k+ (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "97214",
+          "geography_label": "97214 (SE Portland)",
+          "x_value": 46.3,
+          "y_value": 67.1,
+          "size_value": 18.1,
+          "color_value": 27.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97209",
+          "geography_label": "97209 (Pearl District)",
+          "x_value": 54.0,
+          "y_value": 64.6,
+          "size_value": 14.3,
+          "color_value": 28.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97202",
+          "geography_label": "97202 (Sellwood/Westmoreland)",
+          "x_value": 35.7,
+          "y_value": 64.8,
+          "size_value": 17.0,
+          "color_value": 33.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97212",
+          "geography_label": "97212 (NE Portland)",
+          "x_value": 26.8,
+          "y_value": 68.2,
+          "size_value": 19.6,
+          "color_value": 44.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97211",
+          "geography_label": "97211 (NE Portland)",
+          "x_value": 35.4,
+          "y_value": 56.9,
+          "size_value": 18.1,
+          "color_value": 35.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97227",
+          "geography_label": "97227 (N Portland)",
+          "x_value": 50.1,
+          "y_value": 63.5,
+          "size_value": 16.0,
+          "color_value": 24.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97232",
+          "geography_label": "97232 (NE/Lloyd)",
+          "x_value": 43.7,
+          "y_value": 65.5,
+          "size_value": 15.2,
+          "color_value": 21.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97213",
+          "geography_label": "97213 (NE Portland)",
+          "x_value": 26.0,
+          "y_value": 62.5,
+          "size_value": 16.7,
+          "color_value": 32.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97215",
+          "geography_label": "97215 (SE Portland)",
+          "x_value": 28.3,
+          "y_value": 68.1,
+          "size_value": 18.1,
+          "color_value": 38.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97206",
+          "geography_label": "97206 (SE Portland)",
+          "x_value": 33.8,
+          "y_value": 50.2,
+          "size_value": 14.6,
+          "color_value": 29.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97201",
+          "geography_label": "97201 (SW Portland)",
+          "x_value": 45.2,
+          "y_value": 68.7,
+          "size_value": 13.5,
+          "color_value": 22.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97205",
+          "geography_label": "97205 (Downtown)",
+          "x_value": 40.1,
+          "y_value": 57.5,
+          "size_value": 13.1,
+          "color_value": 20.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "97239",
+          "geography_label": "97239 (SW Portland)",
+          "x_value": 36.7,
+          "y_value": 75.4,
+          "size_value": 16.0,
+          "color_value": 34.0,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Regional Landscape: Portland's Educated, Self-Employed Core",
+      "subtitle": "Comparing Multnomah, Washington, and Clackamas counties and the City of Portland on the traits that define Spinback's ideal customer",
+      "description": "Spinback Records & Coffee targets music enthusiasts aged 20–45 — creatives, students, and remote workers who linger over coffee. Three signals in the data reveal where that customer concentrates: high college attainment (creative, culturally engaged consumers), elevated self-employment (freelancers and remote workers who treat a cafe as an office), and healthy labor force participation with disposable income to spend on vinyl, gear, and specialty coffee.\n\nAcross the three-county footprint, Multnomah County — the urban heart of Portland — stands out as the strongest fit. It combines the highest college attainment (51.8%), the highest self-employment rate (15.2%), the strongest labor force participation (70.6%), and the youngest median age (38.7). Washington County posts a comparable college rate (50.3%) and the highest median household income of the three ($103,133), but its lower self-employment (12.4%), lower labor force participation (65.7%), and older median age (42.5) make it a secondary, suburban-leaning market. Clackamas County trails on nearly every creative-customer indicator: lowest college attainment (38.6%), lowest self-employment (11.0%), and an older median age (42.2).\n\nThe City of Portland itself — the client's stated urban core — mirrors Multnomah closely: 50.1% college-educated, 14.3% self-employed, a young median age of 39.7, and a median household income of $91,594. This alignment confirms that Spinback's business model is best supported inside the city proper, where educated, independent, working-age residents are densest.\n\nBusiness takeaway: prioritize Multnomah County / City of Portland locations. The urban core delivers the rare combination of a young, highly educated, self-employed population that is the natural audience for a vinyl-and-coffee hybrid built around lingering, listening parties, and local-artist showcases. Washington County can be considered for a future secondary site given its high incomes and comparable education, but its more suburban age and employment profile is a weaker fit for the daytime remote-worker traffic the cafe depends on.",
+      "demographic_category": "Regional Market Overview",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Creative-Customer Indicators by County and City",
+          "subtitle": "College attainment and self-employment (%) — higher favors Spinback's target customer",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Area",
+            "y_axis_label": "Percent (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Multnomah — College or Above",
+              "value": 51.83,
+              "percentage": null,
+              "color": "#6b4f9e"
+            },
+            {
+              "label": "Washington — College or Above",
+              "value": 50.35,
+              "percentage": null,
+              "color": "#6b4f9e"
+            },
+            {
+              "label": "Clackamas — College or Above",
+              "value": 38.62,
+              "percentage": null,
+              "color": "#6b4f9e"
+            },
+            {
+              "label": "Portland (City) — College or Above",
+              "value": 50.13,
+              "percentage": null,
+              "color": "#6b4f9e"
+            },
+            {
+              "label": "Multnomah — Self-Employed",
+              "value": 15.21,
+              "percentage": null,
+              "color": "#c98b3a"
+            },
+            {
+              "label": "Washington — Self-Employed",
+              "value": 12.41,
+              "percentage": null,
+              "color": "#c98b3a"
+            },
+            {
+              "label": "Clackamas — Self-Employed",
+              "value": 11.01,
+              "percentage": null,
+              "color": "#c98b3a"
+            },
+            {
+              "label": "Portland (City) — Self-Employed",
+              "value": 14.33,
+              "percentage": null,
+              "color": "#c98b3a"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Median Age vs. Median Household Income by County",
+          "subtitle": "Bubble size reflects population; the urban core skews younger while incomes remain strong",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Age (years)",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": "Population",
+            "color_label": "Labor Force Participation (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "multnomah",
+              "geography_label": "Multnomah County",
+              "x_value": 38.72,
+              "y_value": 90322.49,
+              "size_value": 444895.0,
+              "color_value": 70.56,
+              "metadata": {
+                "college_or_above": 51.83,
+                "self_employed": 15.21
+              }
+            },
+            {
+              "geography_id": "washington",
+              "geography_label": "Washington County",
+              "x_value": 42.54,
+              "y_value": 103132.68,
+              "size_value": 87096.0,
+              "color_value": 65.71,
+              "metadata": {
+                "college_or_above": 50.35,
+                "self_employed": 12.41
+              }
+            },
+            {
+              "geography_id": "clackamas",
+              "geography_label": "Clackamas County",
+              "x_value": 42.25,
+              "y_value": 85107.01,
+              "size_value": 67709.0,
+              "color_value": 64.98,
+              "metadata": {
+                "college_or_above": 38.62,
+                "self_employed": 11.01
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Finding the 20-45 Sweet Spot: Age Concentration by ZIP",
+      "subtitle": "Ranking Portland ZIP codes by their share of residents in the target 20-45 band",
+      "description": "Spinback's core customer — music enthusiasts aged 20-45 who linger over coffee, attend listening parties, and browse crates — is not evenly spread across the metro. Using the age distribution data reported at the ZIP level, we combined the 20s, 30s, and 40s age brackets to approximate the target 20-45 age band and ranked every ZIP code by that combined share of residents.\n\nThe concentration is striking. The inner-eastside and close-in central ZIPs dominate. 97214 (Buckman/inner Southeast) leads with 63.0% of residents in their 20s-40s (18.5% in 20s, 27.8% in 30s, 16.7% in 40s), followed closely by 97209 (Pearl District) at 67.9% (23.4% + 30.6% + 13.9%) and 97227 (inner North/Boise-Eliot) at 64.0% (17.8% + 32.3% + 13.9%). 97202 (Sellwood/Westmoreland) and 97211 (Northeast/Woodlawn) also over-index, each with more than half of residents in the target band and healthy 20s populations that suggest strong student and young-creative presence.\n\nAt the other end, the outer-southeast and outlying suburban-leaning ZIPs — 97224 (34.2%), 97267 (37.2%), and 97236 (42.9%) — carry meaningfully older or more family-skewed profiles, making them lower-priority for a foot-traffic-dependent cafe and listening-party concept.\n\nBusiness takeaway: For a location decision, the Pearl District (97209), inner Southeast (97214), and inner North/Northeast (97227, 97211, 97212) offer the deepest pool of on-target residents within walking and short-transit distance. These same ZIPs are the most defensible for evening listening parties and weeknight foot traffic, since the 30s bracket — the single largest and most reliably disposable-income cohort — peaks there (30.6% in 97209, 32.3% in 97227, 27.8% in 97214). ZIPs with strong 20s shares (97201 at 27.2%, 97209 at 23.4%, 97205 at 22.3%, 97232 at 20.0%) are prime for student and early-career artist programming and daytime remote-work coffee dwell time.",
+      "demographic_category": "Age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Share of Residents Aged 20-45 (20s + 30s + 40s) by ZIP",
+          "subtitle": "Combined age brackets from ZIP-level age distribution; higher = denser target market",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "ZIP code",
+            "y_axis_label": "% of residents in 20s, 30s, and 40s",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "97209",
+              "geography_label": "97209 (Pearl District)",
+              "value": 67.9
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227 (Boise-Eliot / N Portland)",
+              "value": 64.0
+            },
+            {
+              "geography_id": "97214",
+              "geography_label": "97214 (Buckman / inner SE)",
+              "value": 63.0
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232 (Lloyd / Kerns)",
+              "value": 56.8
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205 (Goose Hollow / Downtown)",
+              "value": 56.5
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202 (Sellwood / Westmoreland)",
+              "value": 51.7
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211 (Woodlawn / NE)",
+              "value": 52.6
+            },
+            {
+              "geography_id": "97206",
+              "geography_label": "97206 (Foster-Powell)",
+              "value": 53.7
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201 (SW / Downtown edge)",
+              "value": 56.0
+            },
+            {
+              "geography_id": "97212",
+              "geography_label": "97212 (Irvington / NE)",
+              "value": 45.1
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213 (Roseway / NE)",
+              "value": 45.1
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215 (Mt Tabor / SE)",
+              "value": 47.3
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239 (Hillsdale / SW)",
+              "value": 48.5
+            },
+            {
+              "geography_id": "97266",
+              "geography_label": "97266 (Lents / SE)",
+              "value": 44.4
+            },
+            {
+              "geography_id": "97233",
+              "geography_label": "97233 (outer SE / Hazelwood)",
+              "value": 48.5
+            },
+            {
+              "geography_id": "97222",
+              "geography_label": "97222 (Milwaukie area)",
+              "value": 43.6
+            },
+            {
+              "geography_id": "97216",
+              "geography_label": "97216 (Mill Park / SE)",
+              "value": 42.9
+            },
+            {
+              "geography_id": "97223",
+              "geography_label": "97223 (Tigard / Metzger)",
+              "value": 43.4
+            },
+            {
+              "geography_id": "97236",
+              "geography_label": "97236 (Powellhurst / SE)",
+              "value": 42.9
+            },
+            {
+              "geography_id": "97267",
+              "geography_label": "97267 (Oak Grove area)",
+              "value": 37.2
+            },
+            {
+              "geography_id": "97224",
+              "geography_label": "97224 (Tigard / Bull Mountain)",
+              "value": 34.2
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Age Bracket Breakdown of the Top Target ZIPs",
+          "subtitle": "How the 20s, 30s, and 40s cohorts compose the target band in the five densest ZIPs",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Age bracket",
+            "y_axis_label": "% of ZIP residents",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "97209 – 20s",
+              "value": 23.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97209 – 30s",
+              "value": 30.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97209 – 40s",
+              "value": 13.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97227 – 20s",
+              "value": 17.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97227 – 30s",
+              "value": 32.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97227 – 40s",
+              "value": 13.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97214 – 20s",
+              "value": 18.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97214 – 30s",
+              "value": 27.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97214 – 40s",
+              "value": 16.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97232 – 20s",
+              "value": 20.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97232 – 30s",
+              "value": 23.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97232 – 40s",
+              "value": 13.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97201 – 20s",
+              "value": 27.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97201 – 30s",
+              "value": 18.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "97201 – 40s",
+              "value": 10.8,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "An Educated, Creative Base: Education and Self-Employment by ZIP",
+      "subtitle": "Mapping where degree-holders and self-employed creatives concentrate across Portland's ZIP codes",
+      "description": "Spinback's ideal customer — the music enthusiast, the creative, the remote worker who lingers over coffee — tends to be highly educated and disproportionately self-employed. This section overlays the share of adults holding a bachelor's or graduate degree against the self-employment rate at the ZIP level to find neighborhoods where both signals run hot. The bubble chart plots combined degree attainment (bachelor's + graduate, from Result 3) against self-employment rate (Result 4), with population as bubble size, so the largest, highest-potential trade areas stand out. The companion violin/distribution view shows how self-employment is spread across all ZIPs, contextualizing which areas are true outliers.\n\nReading the two metrics together, a tight cluster of close-in Portland ZIPs emerges as prime Spinback territory. ZIP 97212 (Irvington/NE) is the strongest single signal: 68.2% of adults hold a bachelor's (35.7%) or graduate (32.5%) degree AND self-employment reaches 19.6% — the highest self-employment rate of any ZIP measured. ZIP 97239 (SW/Hillsdale) pairs the highest combined degree attainment in the dataset (37.4% bachelor's + 38.0% graduate = 75.4%) with a robust 16.0% self-employment rate. ZIP 97214 (inner SE/Buckman) combines 67.1% degree attainment (39.5% bachelor's + 27.6% graduate) with 18.1% self-employment and the highest labor force participation among core creative ZIPs. Rounding out the top tier: 97215 (68.1% degrees, 18.1% self-employed), 97213 (62.5% degrees, 16.7% self-employed), 97202 (64.8% degrees, 17.0% self-employed), 97211 (56.9% degrees, 18.1% self-employed), and 97232 (65.5% degrees, 15.2% self-employed).\n\nIn business terms, this is a well-defined bullseye. The inner east side (97214, 97215, 97202, 97212, 97211, 97213, 97232) and the SW pocket around 97239 concentrate exactly the dual profile Spinback is built for: educated tastemakers with the disposable income and cultural appetite for specialty vinyl and curated coffee, plus a heavy freelance/self-employed population who work flexible hours and are the natural weekday-afternoon \"lingerers\" a cafe-retail hybrid depends on. High self-employment also signals a built-in audience for daytime listening sessions and a supply of local artists for showcases. Conversely, high-population east-side ZIPs like 97236 (22.0% degrees, 12.1% self-employed) and 97233 (18.9% degrees, 11.5% self-employed) score low on both axes — useful to note as lower-fit areas so marketing and any second-location scouting stay focused on the proven cluster. Recommendation: prioritize 97214, 97212, 97202, 97215, and 97239 for the flagship location, event marketing, and artist-outreach efforts.",
+      "demographic_category": "education",
+      "demographic_key": "education.distribution",
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Degree Attainment vs. Self-Employment by ZIP (bubble size = population)",
+          "subtitle": "Combined bachelor's + graduate share (x) against self-employment rate (y); larger bubbles are larger trade areas",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Bachelor's + Graduate Degree Holders (%)",
+            "y_axis_label": "Self-Employment Rate (%)",
+            "size_label": "Population",
+            "color_label": "County"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "97212",
+              "geography_label": "97212 Irvington/NE",
+              "x_value": 68.2,
+              "y_value": 19.6,
+              "size_value": 28042.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 35.7,
+                "graduate": 32.5
+              }
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239 SW/Hillsdale",
+              "x_value": 75.4,
+              "y_value": 16.0,
+              "size_value": 17804.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 37.4,
+                "graduate": 38.0
+              }
+            },
+            {
+              "geography_id": "97214",
+              "geography_label": "97214 Buckman",
+              "x_value": 67.1,
+              "y_value": 18.1,
+              "size_value": 27714.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 39.5,
+                "graduate": 27.6
+              }
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215 Mt Tabor",
+              "x_value": 68.1,
+              "y_value": 18.1,
+              "size_value": 17296.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 39.2,
+                "graduate": 28.9
+              }
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213 Roseway",
+              "x_value": 62.5,
+              "y_value": 16.7,
+              "size_value": 31408.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 37.8,
+                "graduate": 24.7
+              }
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202 Sellwood",
+              "x_value": 64.8,
+              "y_value": 17.0,
+              "size_value": 43533.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 36.1,
+                "graduate": 28.7
+              }
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211 NE Portland",
+              "x_value": 56.9,
+              "y_value": 18.1,
+              "size_value": 33769.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 35.9,
+                "graduate": 21.0
+              }
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232 Lloyd/Kerns",
+              "x_value": 65.5,
+              "y_value": 15.2,
+              "size_value": 15615.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 38.9,
+                "graduate": 26.6
+              }
+            },
+            {
+              "geography_id": "97209",
+              "geography_label": "97209 Pearl",
+              "x_value": 64.6,
+              "y_value": 14.3,
+              "size_value": 22296.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 35.6,
+                "graduate": 29.0
+              }
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201 Goose Hollow",
+              "x_value": 68.7,
+              "y_value": 13.5,
+              "size_value": 16887.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 36.4,
+                "graduate": 32.3
+              }
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205 Downtown/W",
+              "x_value": 57.5,
+              "y_value": 13.1,
+              "size_value": 9121.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 30.1,
+                "graduate": 27.4
+              }
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227 N Portland",
+              "x_value": 63.5,
+              "y_value": 16.0,
+              "size_value": 5665.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 42.4,
+                "graduate": 21.1
+              }
+            },
+            {
+              "geography_id": "97206",
+              "geography_label": "97206 Foster-Powell",
+              "x_value": 50.2,
+              "y_value": 14.6,
+              "size_value": 49890.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 30.8,
+                "graduate": 19.4
+              }
+            },
+            {
+              "geography_id": "97223",
+              "geography_label": "97223 Tigard",
+              "x_value": 50.6,
+              "y_value": 13.0,
+              "size_value": 50527.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Washington",
+                "bachelors": 32.9,
+                "graduate": 17.7
+              }
+            },
+            {
+              "geography_id": "97224",
+              "geography_label": "97224 Tigard/Bull Mtn",
+              "x_value": 50.0,
+              "y_value": 11.6,
+              "size_value": 36569.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Washington",
+                "bachelors": 32.9,
+                "graduate": 17.1
+              }
+            },
+            {
+              "geography_id": "97267",
+              "geography_label": "97267 Oak Grove",
+              "x_value": 37.6,
+              "y_value": 10.9,
+              "size_value": 31311.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Clackamas",
+                "bachelors": 23.8,
+                "graduate": 13.8
+              }
+            },
+            {
+              "geography_id": "97222",
+              "geography_label": "97222 Milwaukie",
+              "x_value": 39.5,
+              "y_value": 11.1,
+              "size_value": 36398.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Clackamas",
+                "bachelors": 26.2,
+                "graduate": 13.3
+              }
+            },
+            {
+              "geography_id": "97266",
+              "geography_label": "97266 SE Portland",
+              "x_value": 28.3,
+              "y_value": 12.6,
+              "size_value": 35423.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 19.0,
+                "graduate": 9.3
+              }
+            },
+            {
+              "geography_id": "97216",
+              "geography_label": "97216 SE 122nd",
+              "x_value": 32.3,
+              "y_value": 12.2,
+              "size_value": 16638.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 22.4,
+                "graduate": 9.9
+              }
+            },
+            {
+              "geography_id": "97236",
+              "geography_label": "97236 Powellhurst",
+              "x_value": 22.0,
+              "y_value": 12.1,
+              "size_value": 37558.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 14.9,
+                "graduate": 7.1
+              }
+            },
+            {
+              "geography_id": "97233",
+              "geography_label": "97233 Hazelwood",
+              "x_value": 18.9,
+              "y_value": 11.5,
+              "size_value": 36236.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Multnomah",
+                "bachelors": 12.0,
+                "graduate": 6.9
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Distribution of Self-Employment Rates Across Portland ZIPs",
+          "subtitle": "One data point per ZIP; identifies the self-employed creative concentration that defines Spinback's weekday audience",
+          "config": {
+            "chart_type": "violin",
+            "x_axis_label": "Portland-area ZIPs",
+            "y_axis_label": "Self-Employment Rate (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "97223",
+              "geography_label": "97223",
+              "value": 13.0
+            },
+            {
+              "geography_id": "97206",
+              "geography_label": "97206",
+              "value": 14.6
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202",
+              "value": 17.0
+            },
+            {
+              "geography_id": "97236",
+              "geography_label": "97236",
+              "value": 12.1
+            },
+            {
+              "geography_id": "97224",
+              "geography_label": "97224",
+              "value": 11.6
+            },
+            {
+              "geography_id": "97222",
+              "geography_label": "97222",
+              "value": 11.1
+            },
+            {
+              "geography_id": "97233",
+              "geography_label": "97233",
+              "value": 11.5
+            },
+            {
+              "geography_id": "97266",
+              "geography_label": "97266",
+              "value": 12.6
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211",
+              "value": 18.1
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213",
+              "value": 16.7
+            },
+            {
+              "geography_id": "97267",
+              "geography_label": "97267",
+              "value": 10.9
+            },
+            {
+              "geography_id": "97212",
+              "geography_label": "97212",
+              "value": 19.6
+            },
+            {
+              "geography_id": "97214",
+              "geography_label": "97214",
+              "value": 18.1
+            },
+            {
+              "geography_id": "97209",
+              "geography_label": "97209",
+              "value": 14.3
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239",
+              "value": 16.0
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215",
+              "value": 18.1
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201",
+              "value": 13.5
+            },
+            {
+              "geography_id": "97216",
+              "geography_label": "97216",
+              "value": 12.2
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232",
+              "value": 15.2
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205",
+              "value": 13.1
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227",
+              "value": 16.0
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Spending Power for Vinyl and Specialty Coffee: Income by ZIP",
+      "subtitle": "Where discretionary income and an active, engaged labor force overlap",
+      "description": "Vinyl records, turntables, and specialty coffee are discretionary purchases. To price confidently and to decide how heavily to weight premium products (higher-end turntables, limited pressings, single-origin coffee), Spinback needs to know which ZIP codes concentrate genuine spending power alongside an active, working-age population. This section draws on the household income distributions and labor force participation rates in Result 4 to rank the local ZIP codes on discretionary strength.\n\nTwo clusters stand out for premium potential. A tier of affluent inner-eastside and close-in ZIPs pairs very high shares of $150k+ households with strong labor force participation: 97212 (Irvington/Alameda) leads with 44.3% of households earning $150k or more and 69.6% labor force participation, followed by 97215 (38.8% at $150k+, 71.4% participation), 97211 (35.2% at $150k+, 74.0% participation), 97239 (34.0% at $150k+, 64.3% participation), and 97213 (32.6% at $150k+, 72.7% participation). 97223 in Washington County also posts 32.7% at $150k+ with 70.2% participation. These are the ZIPs where a premium product mix and confident pricing are best supported.\n\nA second, price-sensitive tier shows meaningfully lower discretionary income and softer participation — notably 97233 (10.1% at $150k+, 60.5% participation), 97236 (17.1% at $150k+, 67.4% participation), and 97216 (15.2% at $150k+, 67.0% participation). In these areas, an entry-level turntable range, used-vinyl bins, and accessible coffee price points will resonate more than premium tiers.\n\nBusiness takeaway: locate the flagship storefront and premium/listening-party programming toward the high-income, high-participation eastside cluster (97212, 97215, 97211, 97213, 97214), where affluent working-age residents can absorb premium pricing. Use pop-ups, used inventory, and value coffee options to reach the more price-sensitive outer-east ZIPs without over-pricing them out.",
+      "demographic_category": "income",
+      "demographic_key": "income.distribution",
+      "importance_weight": 85.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Share of Households Earning $150k+ by ZIP",
+          "subtitle": "Higher shares indicate stronger discretionary spending power for premium vinyl and coffee",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "% of households earning $150k+",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "97212",
+              "geography_label": "97212 (Irvington/Alameda)",
+              "value": 44.3
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215 (Mt. Tabor)",
+              "value": 38.8
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211 (Woodlawn/Concordia)",
+              "value": 35.2
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239 (Hillsdale/OHSU)",
+              "value": 34.0
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202 (Sellwood/Westmoreland)",
+              "value": 33.9
+            },
+            {
+              "geography_id": "97224",
+              "geography_label": "97224 (Tigard/Bull Mtn)",
+              "value": 33.9
+            },
+            {
+              "geography_id": "97223",
+              "geography_label": "97223 (Tigard/Metzger)",
+              "value": 32.7
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213 (Rose City Park)",
+              "value": 32.6
+            },
+            {
+              "geography_id": "97209",
+              "geography_label": "97209 (Pearl District)",
+              "value": 28.3
+            },
+            {
+              "geography_id": "97214",
+              "geography_label": "97214 (Buckman/Hawthorne)",
+              "value": 27.5
+            },
+            {
+              "geography_id": "97267",
+              "geography_label": "97267 (Oak Grove)",
+              "value": 25.5
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227 (Eliot/Boise)",
+              "value": 24.9
+            },
+            {
+              "geography_id": "97222",
+              "geography_label": "97222 (Milwaukie)",
+              "value": 23.6
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201 (Goose Hollow)",
+              "value": 22.1
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232 (Lloyd/Sullivan's Gulch)",
+              "value": 21.4
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205 (Downtown/Nob Hill)",
+              "value": 20.1
+            },
+            {
+              "geography_id": "97266",
+              "geography_label": "97266 (Lents)",
+              "value": 19.3
+            },
+            {
+              "geography_id": "97236",
+              "geography_label": "97236 (Powellhurst)",
+              "value": 17.1
+            },
+            {
+              "geography_id": "97216",
+              "geography_label": "97216 (Mill Park)",
+              "value": 15.2
+            },
+            {
+              "geography_id": "97233",
+              "geography_label": "97233 (Hazelwood)",
+              "value": 10.1
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Discretionary Income vs. Labor Force Participation by ZIP",
+          "subtitle": "Bubble size = population. Top-right ZIPs pair high spending power with an active working population.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "% of households earning $150k+",
+            "y_axis_label": "Labor force participation (%)",
+            "size_label": "Population",
+            "color_label": "Self-employed (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "97212",
+              "geography_label": "97212 (Irvington/Alameda)",
+              "x_value": 44.3,
+              "y_value": 69.6,
+              "size_value": 28042.0,
+              "color_value": 19.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215 (Mt. Tabor)",
+              "x_value": 38.8,
+              "y_value": 71.4,
+              "size_value": 17296.0,
+              "color_value": 18.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211 (Woodlawn/Concordia)",
+              "x_value": 35.2,
+              "y_value": 74.0,
+              "size_value": 33769.0,
+              "color_value": 18.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239 (Hillsdale/OHSU)",
+              "x_value": 34.0,
+              "y_value": 64.3,
+              "size_value": 17804.0,
+              "color_value": 16.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202 (Sellwood/Westmoreland)",
+              "x_value": 33.9,
+              "y_value": 72.5,
+              "size_value": 43533.0,
+              "color_value": 17.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97224",
+              "geography_label": "97224 (Tigard/Bull Mtn)",
+              "x_value": 33.9,
+              "y_value": 59.5,
+              "size_value": 36569.0,
+              "color_value": 11.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97223",
+              "geography_label": "97223 (Tigard/Metzger)",
+              "x_value": 32.7,
+              "y_value": 70.2,
+              "size_value": 50527.0,
+              "color_value": 13.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213 (Rose City Park)",
+              "x_value": 32.6,
+              "y_value": 72.7,
+              "size_value": 31408.0,
+              "color_value": 16.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97209",
+              "geography_label": "97209 (Pearl District)",
+              "x_value": 28.3,
+              "y_value": 73.5,
+              "size_value": 22296.0,
+              "color_value": 14.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97214",
+              "geography_label": "97214 (Buckman/Hawthorne)",
+              "x_value": 27.5,
+              "y_value": 79.4,
+              "size_value": 27714.0,
+              "color_value": 18.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97267",
+              "geography_label": "97267 (Oak Grove)",
+              "x_value": 25.5,
+              "y_value": 61.0,
+              "size_value": 31311.0,
+              "color_value": 10.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227 (Eliot/Boise)",
+              "x_value": 24.9,
+              "y_value": 80.7,
+              "size_value": 5665.0,
+              "color_value": 16.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97222",
+              "geography_label": "97222 (Milwaukie)",
+              "x_value": 23.6,
+              "y_value": 68.4,
+              "size_value": 36398.0,
+              "color_value": 11.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201 (Goose Hollow)",
+              "x_value": 22.1,
+              "y_value": 67.4,
+              "size_value": 16887.0,
+              "color_value": 13.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232 (Lloyd/Sullivan's Gulch)",
+              "x_value": 21.4,
+              "y_value": 75.1,
+              "size_value": 15615.0,
+              "color_value": 15.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205 (Downtown/Nob Hill)",
+              "x_value": 20.1,
+              "y_value": 68.1,
+              "size_value": 9121.0,
+              "color_value": 13.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97266",
+              "geography_label": "97266 (Lents)",
+              "x_value": 19.3,
+              "y_value": 67.6,
+              "size_value": 35423.0,
+              "color_value": 12.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97236",
+              "geography_label": "97236 (Powellhurst)",
+              "x_value": 17.1,
+              "y_value": 67.4,
+              "size_value": 37558.0,
+              "color_value": 12.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97216",
+              "geography_label": "97216 (Mill Park)",
+              "x_value": 15.2,
+              "y_value": 67.0,
+              "size_value": 16638.0,
+              "color_value": 12.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97233",
+              "geography_label": "97233 (Hazelwood)",
+              "x_value": 10.1,
+              "y_value": 60.5,
+              "size_value": 36236.0,
+              "color_value": 11.5,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Priority Neighborhoods and Siting Recommendations",
+      "subtitle": "Shortlisting Portland ZIP codes that balance target-age density, creative professionals, and spending power",
+      "description": "Spinback's ideal home is a ZIP that concentrates three things at once: a heavy 20s-to-40s population (the target 20-45 music enthusiast), a strong base of creative independents proxied by self-employment and college-plus attainment, and enough household spending power to support both vinyl retail and specialty coffee habits. Reading Results 3 and 4 together, four inner-eastside and central ZIPs rise to the top.\n\n97214 (Buckman/inner SE, 27,714 residents, 3,681/sq mi) is the single strongest fit: 63.0% of residents are in their 20s-40s (18.5% + 27.8% + 16.7%), self-employment is elevated at 18.1%, labor-force participation is the highest in the shortlist at 79.4%, and 67.1% hold a bachelor's or graduate degree. Its income base is broad and healthy — 27.5% earn $150k+ while a large middle tier ($35k-$100k) supplies exactly the discretionary-but-not-luxury spenders who buy used vinyl and linger over coffee.\n\n97209 (Pearl District, 22,296 residents) has the densest footprint in the entire dataset at 8,357/sq mi and an extraordinary 67.9% of residents in their 20s-40s (23.4% + 30.6% + 13.9%). Foot traffic and young-adult concentration are unmatched here, though self-employment (14.3%) is more moderate and the lower-income share is larger, reflecting a renter-heavy young population.\n\n97202 (Sellwood-Moreland/inner SE, 43,533 residents, 2,679/sq mi) blends scale with creative density: 51.7% in the 20s-40s bands, the second-highest self-employment at 17.0%, 64.8% college-or-above, and 33.9% of households at $150k+ — a rare combination of a large addressable population and strong spending power.\n\n97212 (NE/Irvington-Alberta area, 28,042 residents, 3,967/sq mi) posts the highest self-employment in the region at 19.6% and the highest advanced-education share (32.5% graduate degrees), alongside the largest $150k+ concentration at 44.3%. This is the affluent-creative anchor of the shortlist.\n\nSecondary candidates worth monitoring include 97211 (18.1% self-employed, 74.0% labor participation, 35.2% at $150k+) and 97232 (75.1% labor participation, 43.7% in the 20s-40s, 15.2% self-employed). By contrast, outer-east ZIPs such as 97233 and 97236 and southern Clackamas ZIPs like 97267 and 97224 show weaker fit — lower target-age concentration, self-employment near or below 12%, and notably lower college attainment — and should be deprioritized for a flagship store-and-cafe.\n\nRecommendation: target a first location in 97214 or 97202 for the best balance of population scale, creative independents, and spend; use 97209 as the high-traffic urban alternative and 97212 as the premium-market option.",
+      "demographic_category": "composite",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Share of Residents Aged 20-49 by ZIP",
+          "subtitle": "Sum of 20s, 30s, and 40s age bands — proxy for Spinback's 20-45 target audience",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "% of residents in their 20s-40s",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "97223",
+              "geography_label": "97223 Tigard (Washington)",
+              "value": 43.4
+            },
+            {
+              "geography_id": "97206",
+              "geography_label": "97206 SE Foster-Powell",
+              "value": 53.7
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202 Sellwood-Moreland",
+              "value": 51.7
+            },
+            {
+              "geography_id": "97236",
+              "geography_label": "97236 Powellhurst-Gilbert",
+              "value": 42.9
+            },
+            {
+              "geography_id": "97224",
+              "geography_label": "97224 Bull Mountain",
+              "value": 34.2
+            },
+            {
+              "geography_id": "97222",
+              "geography_label": "97222 Milwaukie",
+              "value": 43.6
+            },
+            {
+              "geography_id": "97233",
+              "geography_label": "97233 Centennial",
+              "value": 43.5
+            },
+            {
+              "geography_id": "97266",
+              "geography_label": "97266 Lents",
+              "value": 44.4
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211 NE Portland",
+              "value": 52.6
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213 Roseway-Madison",
+              "value": 45.1
+            },
+            {
+              "geography_id": "97267",
+              "geography_label": "97267 Oak Grove",
+              "value": 37.2
+            },
+            {
+              "geography_id": "97212",
+              "geography_label": "97212 Irvington",
+              "value": 45.1
+            },
+            {
+              "geography_id": "97214",
+              "geography_label": "97214 Buckman",
+              "value": 63.0
+            },
+            {
+              "geography_id": "97209",
+              "geography_label": "97209 Pearl District",
+              "value": 67.9
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239 SW Portland",
+              "value": 48.5
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215 Mt Tabor",
+              "value": 47.3
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201 Goose Hollow",
+              "value": 56.0
+            },
+            {
+              "geography_id": "97216",
+              "geography_label": "97216 Mill Park",
+              "value": 42.9
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232 Lloyd District",
+              "value": 56.8
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205 Downtown/Goose Hollow",
+              "value": 56.5
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227 Eliot",
+              "value": 64.0
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Creative Density vs. Spending Power by ZIP",
+          "subtitle": "Self-employment (x) against high-income households (y); bubble size = population, color = % in 20s-40s",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Self-employment (%)",
+            "y_axis_label": "Households earning $150k+ (%)",
+            "size_label": "Population",
+            "color_label": "% of residents in their 20s-40s"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "97214",
+              "geography_label": "97214 Buckman",
+              "x_value": 18.1,
+              "y_value": 27.5,
+              "size_value": 27714.0,
+              "color_value": 63.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97209",
+              "geography_label": "97209 Pearl District",
+              "x_value": 14.3,
+              "y_value": 28.3,
+              "size_value": 22296.0,
+              "color_value": 67.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97202",
+              "geography_label": "97202 Sellwood-Moreland",
+              "x_value": 17.0,
+              "y_value": 33.9,
+              "size_value": 43533.0,
+              "color_value": 51.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97212",
+              "geography_label": "97212 Irvington",
+              "x_value": 19.6,
+              "y_value": 44.3,
+              "size_value": 28042.0,
+              "color_value": 45.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97211",
+              "geography_label": "97211 NE Portland",
+              "x_value": 18.1,
+              "y_value": 35.2,
+              "size_value": 33769.0,
+              "color_value": 52.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97213",
+              "geography_label": "97213 Roseway-Madison",
+              "x_value": 16.7,
+              "y_value": 32.6,
+              "size_value": 31408.0,
+              "color_value": 45.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97215",
+              "geography_label": "97215 Mt Tabor",
+              "x_value": 18.1,
+              "y_value": 38.8,
+              "size_value": 17296.0,
+              "color_value": 47.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97232",
+              "geography_label": "97232 Lloyd District",
+              "x_value": 15.2,
+              "y_value": 21.4,
+              "size_value": 15615.0,
+              "color_value": 56.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97239",
+              "geography_label": "97239 SW Portland",
+              "x_value": 16.0,
+              "y_value": 34.0,
+              "size_value": 17804.0,
+              "color_value": 48.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97206",
+              "geography_label": "97206 SE Foster-Powell",
+              "x_value": 14.6,
+              "y_value": 29.0,
+              "size_value": 49890.0,
+              "color_value": 53.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97227",
+              "geography_label": "97227 Eliot",
+              "x_value": 16.0,
+              "y_value": 24.9,
+              "size_value": 5665.0,
+              "color_value": 64.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97205",
+              "geography_label": "97205 Downtown/Goose Hollow",
+              "x_value": 13.1,
+              "y_value": 20.1,
+              "size_value": 9121.0,
+              "color_value": 56.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97201",
+              "geography_label": "97201 Goose Hollow",
+              "x_value": 13.5,
+              "y_value": 22.1,
+              "size_value": 16887.0,
+              "color_value": 56.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "97223",
+              "geography_label": "97223 Tigard (Washington)",
+              "x_value": 13.0,
+              "y_value": 32.7,
+              "size_value": 50527.0,
+              "color_value": 43.4,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:38:18.324061+00:00"
+}

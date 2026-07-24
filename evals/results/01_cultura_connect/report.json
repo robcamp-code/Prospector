@@ -1,0 +1,1329 @@
+{
+  "report_id": "b87bf5e5-5373-4591-b149-f7e6b1880dbe",
+  "title": "Where Atlanta's Multilingual, Educated, and Youthful Communities Cluster",
+  "subtitle": "Demographic Analysis of Urban DeKalb and Fulton Counties, Georgia / Atlanta",
+  "geography_type": "county",
+  "geography_value": "Georgia / Atlanta, urban areas",
+  "client_profile_id": "22d6e79b-f89e-4432-9201-1dd7766cccf8",
+  "summary": {
+    "total_population": 376379,
+    "zip_count": 20,
+    "median_household_income": 104602.77,
+    "median_age": 34.08,
+    "home_ownership_rate": null,
+    "narrative": "Across DeKalb and Fulton counties (376,379 residents in 20 Atlanta ZIP areas), the market is young, highly educated, and increasingly multilingual — DeKalb's median age of 35.1 and Fulton's 33.1 pair with college attainment above 69% and a strong Hispanic and limited-English presence concentrated in ZIP 30329 (27.6% Hispanic, 11.4% limited-English) and 30326 (10.4% limited-English). Young-professional and student hubs such as 30308, 30309, 30313, 30303, 30332, and 30322 show never-married rates from 57% to nearly 99% and 20s populations exceeding 30%, while family-oriented, higher-income neighborhoods like 30319, 30338, and 30307 combine married rates above 44% with median incomes above $130,000. This split between affluent, family-heavy DeKalb ZIPs and youthful, transient Fulton cores lets Cultura Connect tailor family workshops to the north and conversation groups and networking events to the urban core.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "Language-Learning Opportunity by ZIP: Youth, Education, and Multilingual Demand",
+      "subtitle": "Bubble size = population; color = Hispanic share",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Limited-English Population (%)",
+        "size_label": "Population",
+        "color_label": "Hispanic Population (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "30319",
+          "geography_label": "30319 (DeKalb)",
+          "x_value": 130648.0,
+          "y_value": 3.2,
+          "size_value": 45985.0,
+          "color_value": 12.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30338",
+          "geography_label": "30338 (DeKalb)",
+          "x_value": 135148.0,
+          "y_value": 3.8,
+          "size_value": 39465.0,
+          "color_value": 4.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30309",
+          "geography_label": "30309 (Fulton)",
+          "x_value": 114072.0,
+          "y_value": 2.0,
+          "size_value": 32479.0,
+          "color_value": 8.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30324",
+          "geography_label": "30324 (Fulton)",
+          "x_value": 92122.0,
+          "y_value": 3.9,
+          "size_value": 29073.0,
+          "color_value": 11.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30305",
+          "geography_label": "30305 (Fulton)",
+          "x_value": 106907.0,
+          "y_value": 2.1,
+          "size_value": 28110.0,
+          "color_value": 5.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30329",
+          "geography_label": "30329 (DeKalb)",
+          "x_value": 76579.0,
+          "y_value": 11.4,
+          "size_value": 27278.0,
+          "color_value": 27.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30312",
+          "geography_label": "30312 (Fulton)",
+          "x_value": 82779.0,
+          "y_value": 0.6,
+          "size_value": 26942.0,
+          "color_value": 5.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30306",
+          "geography_label": "30306 (Fulton)",
+          "x_value": 123077.0,
+          "y_value": 1.9,
+          "size_value": 24236.0,
+          "color_value": 9.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30314",
+          "geography_label": "30314 (Fulton)",
+          "x_value": 42089.0,
+          "y_value": 2.8,
+          "size_value": 23333.0,
+          "color_value": 6.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30308",
+          "geography_label": "30308 (Fulton)",
+          "x_value": 85693.0,
+          "y_value": 2.0,
+          "size_value": 23181.0,
+          "color_value": 6.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30307",
+          "geography_label": "30307 (DeKalb)",
+          "x_value": 140677.0,
+          "y_value": 0.5,
+          "size_value": 21709.0,
+          "color_value": 6.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30317",
+          "geography_label": "30317 (DeKalb)",
+          "x_value": 107955.0,
+          "y_value": 0.0,
+          "size_value": 15622.0,
+          "color_value": 7.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30313",
+          "geography_label": "30313 (Fulton)",
+          "x_value": 84960.0,
+          "y_value": 0.8,
+          "size_value": 10913.0,
+          "color_value": 5.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30326",
+          "geography_label": "30326 (Fulton)",
+          "x_value": 121984.0,
+          "y_value": 10.4,
+          "size_value": 8234.0,
+          "color_value": 6.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30346",
+          "geography_label": "30346 (DeKalb)",
+          "x_value": 95000.0,
+          "y_value": 1.5,
+          "size_value": 4411.0,
+          "color_value": 4.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "30363",
+          "geography_label": "30363 (Fulton)",
+          "x_value": 123667.0,
+          "y_value": 1.2,
+          "size_value": 3523.0,
+          "color_value": 6.8,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "Market Overview: Two Counties, Two Profiles",
+      "subtitle": "Contrasting DeKalb and Fulton on population, age, education, income, and Hispanic share",
+      "description": "Cultura Connect's Atlanta footprint spans two large, distinct county markets. Fulton is the larger of the two at 219,388 residents versus DeKalb's 156,991 — a combined base of roughly 376,000 people across the urban core. The two counties, however, present meaningfully different customer profiles that should shape how programming and outreach are positioned in each.\n\nAge and life stage diverge sharply. Fulton skews younger and more single: its median age is 33.1 years and a majority of adults — 57.6% — have never married, with just 29.2% married. DeKalb runs slightly older at a median of 35.1 years and is far more evenly split between married (44.4%) and never-married (42.2%) residents. In practical terms, Fulton is the stronger market for the young-professional and college-student segments and for networking-oriented conversation groups and social events, while DeKalb's larger married share makes it the more natural home for family activities, cultural workshops, and weekend programming aimed at households with children.\n\nPurchasing power tilts toward DeKalb. Median household income there is $118,414, roughly $27,500 higher than Fulton's $90,877. Both counties are highly educated — 72.1% of DeKalb and 69.7% of Fulton residents hold a college degree or above — which supports demand for structured language classes and premium cultural offerings across the whole footprint. DeKalb's combination of higher incomes and a larger family base points to stronger capacity for paid family memberships and multi-session courses.\n\nThe Hispanic share, central to Spanish-immersion and bilingual programming, is notably higher in DeKalb at 11.2% compared with 7.5% in Fulton. That makes DeKalb the priority market for native-Spanish community-building and English conversation groups serving Spanish speakers, while Fulton's younger, single, and slightly less affluent profile favors English-speaking learners seeking Spanish enrichment and social connection.\n\nBottom line: treat the two counties as distinct launch strategies — DeKalb as a higher-income, family-oriented, more Hispanic market well suited to classes, family activities, and bilingual community programming; Fulton as a larger, younger, single-heavy market best served by networking events, conversation groups, and social-first offerings.",
+      "demographic_category": "geography",
+      "demographic_key": "county",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "DeKalb vs. Fulton: Income, Hispanic Share, and Population Size",
+          "subtitle": "Bubble size reflects total population; color reflects median age",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Hispanic Share (%)",
+            "size_label": "Population",
+            "color_label": "Median Age"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "dekalb_ga",
+              "geography_label": "DeKalb County",
+              "x_value": 118413.54641348867,
+              "y_value": 11.186369282315546,
+              "size_value": 156991.0,
+              "color_value": 35.06071303450516,
+              "metadata": {
+                "college_or_above": 72.09166449032111
+              }
+            },
+            {
+              "geography_id": "fulton_ga",
+              "geography_label": "Fulton County",
+              "x_value": 90876.73346308823,
+              "y_value": 7.474038689445184,
+              "size_value": 219388.0,
+              "color_value": 33.10600078399913,
+              "metadata": {
+                "college_or_above": 69.72009271245464
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Marital Status: Married vs. Never-Married by County",
+          "subtitle": "Share of adults in each county",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Share of Adults (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "DeKalb — Married",
+              "value": 44.36100286003656,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "DeKalb — Never Married",
+              "value": 42.219048225694465,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fulton — Married",
+              "value": 29.19111072620198,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fulton — Never Married",
+              "value": 57.64461866647219,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Language Demand: Where Limited-English and Hispanic Populations Concentrate",
+      "subtitle": "Pinpointing the neighborhoods most likely to seek English conversation groups and cultural immersion",
+      "description": "For a language and cultural immersion center, the strongest demand signal is a concentration of residents who speak English less than \"very well\" alongside a sizable Hispanic population — the two groups most likely to enroll in English conversation groups and to participate in Spanish/English cultural programming.\n\nAt the county level, DeKalb shows both a higher limited-English share (3.98%) and a higher Hispanic share (11.19%) than Fulton (2.36% limited-English, 7.47% Hispanic). This positions DeKalb County as the broader anchor for English-learning demand, while Fulton's opportunity is more concentrated in specific pockets.\n\nAt the ZIP level, three neighborhoods stand out sharply from the pack. ZIP 30329 (DeKalb) leads decisively, with 11.4% of residents reporting limited English and a Hispanic share of 27.6% — more than double any other ZIP in the footprint. ZIP 30326 (Fulton) follows with a 10.4% limited-English share. ZIP 30324 (Fulton) combines a moderate 3.9% limited-English rate with an 11.4% Hispanic share, and ZIP 30319 (DeKalb) pairs a 3.2% limited-English rate with the second-highest Hispanic share at 12.1%.\n\nBusiness implications:\n- 30329 is the clearest priority target. Its exceptional limited-English concentration (11.4%) and large Hispanic community (27.6%) make it the single best location to seat English conversation groups, bilingual family activities, and Spanish/English cultural workshops.\n- 30326 warrants attention as a secondary limited-English hub (10.4%), though its smaller population (8,234) means programming there may work best as satellite or pop-up events rather than a full site.\n- 30324 and 30319 represent Hispanic-community strength (11.4% and 12.1%) with lower limited-English intensity — ideal for cultural immersion, Spanish conversation practice, and networking events aimed at bilingual young professionals rather than beginner English instruction.\n- Several ZIPs (e.g., 30307, 30317, 30322, 30332) report limited-English shares at or near 0%, signaling minimal demand for English-language services and better suited to Spanish-learning or general cultural programming.\n\nTogether these findings recommend anchoring English-conversation and family immersion offerings in DeKalb's 30329/30319 corridor while extending Hispanic-focused cultural and networking events into Fulton's 30324 and 30326.",
+      "demographic_category": "Language & Ethnicity",
+      "demographic_key": "language.limited_english",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Limited-English Share by ZIP Code",
+          "subtitle": "Percent of residents who speak English less than very well, by Atlanta ZIP (Result 3)",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Limited-English share (%)",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "30319",
+              "geography_label": "30319 (DeKalb)",
+              "value": 3.2
+            },
+            {
+              "geography_id": "30338",
+              "geography_label": "30338 (DeKalb)",
+              "value": 3.8
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 (Fulton)",
+              "value": 2.0
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324 (Fulton)",
+              "value": 3.9
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305 (Fulton)",
+              "value": 2.1
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329 (DeKalb)",
+              "value": 11.4
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312 (Fulton)",
+              "value": 0.6
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306 (Fulton)",
+              "value": 1.9
+            },
+            {
+              "geography_id": "30314",
+              "geography_label": "30314 (Fulton)",
+              "value": 2.8
+            },
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 (Fulton)",
+              "value": 2.0
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307 (DeKalb)",
+              "value": 0.5
+            },
+            {
+              "geography_id": "30317",
+              "geography_label": "30317 (DeKalb)",
+              "value": 0.0
+            },
+            {
+              "geography_id": "30313",
+              "geography_label": "30313 (Fulton)",
+              "value": 0.8
+            },
+            {
+              "geography_id": "30326",
+              "geography_label": "30326 (Fulton)",
+              "value": 10.4
+            },
+            {
+              "geography_id": "30303",
+              "geography_label": "30303 (Fulton)",
+              "value": 1.1
+            },
+            {
+              "geography_id": "30346",
+              "geography_label": "30346 (DeKalb)",
+              "value": 1.5
+            },
+            {
+              "geography_id": "30363",
+              "geography_label": "30363 (Fulton)",
+              "value": 1.2
+            },
+            {
+              "geography_id": "30332",
+              "geography_label": "30332 (Fulton)",
+              "value": 0.0
+            },
+            {
+              "geography_id": "30322",
+              "geography_label": "30322 (DeKalb)",
+              "value": 0.0
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Hispanic Share vs. Limited-English Share by ZIP",
+          "subtitle": "Bubble size = population; comparing the two core demand signals (Results 3 & 4)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Hispanic share (%)",
+            "y_axis_label": "Limited-English share (%)",
+            "size_label": "Population",
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "30319",
+              "geography_label": "30319 (DeKalb)",
+              "x_value": 12.1,
+              "y_value": 3.2,
+              "size_value": 45985.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30338",
+              "geography_label": "30338 (DeKalb)",
+              "x_value": 4.3,
+              "y_value": 3.8,
+              "size_value": 39465.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 (Fulton)",
+              "x_value": 8.0,
+              "y_value": 2.0,
+              "size_value": 32479.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324 (Fulton)",
+              "x_value": 11.4,
+              "y_value": 3.9,
+              "size_value": 29073.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305 (Fulton)",
+              "x_value": 5.8,
+              "y_value": 2.1,
+              "size_value": 28110.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329 (DeKalb)",
+              "x_value": 27.6,
+              "y_value": 11.4,
+              "size_value": 27278.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312 (Fulton)",
+              "x_value": 5.7,
+              "y_value": 0.6,
+              "size_value": 26942.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306 (Fulton)",
+              "x_value": 9.5,
+              "y_value": 1.9,
+              "size_value": 24236.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30314",
+              "geography_label": "30314 (Fulton)",
+              "x_value": 6.0,
+              "y_value": 2.8,
+              "size_value": 23333.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 (Fulton)",
+              "x_value": 6.9,
+              "y_value": 2.0,
+              "size_value": 23181.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307 (DeKalb)",
+              "x_value": 6.1,
+              "y_value": 0.5,
+              "size_value": 21709.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30317",
+              "geography_label": "30317 (DeKalb)",
+              "x_value": 7.2,
+              "y_value": 0.0,
+              "size_value": 15622.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30313",
+              "geography_label": "30313 (Fulton)",
+              "x_value": 5.2,
+              "y_value": 0.8,
+              "size_value": 10913.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30326",
+              "geography_label": "30326 (Fulton)",
+              "x_value": 6.8,
+              "y_value": 10.4,
+              "size_value": 8234.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30346",
+              "geography_label": "30346 (DeKalb)",
+              "x_value": 4.8,
+              "y_value": 1.5,
+              "size_value": 4411.0,
+              "color_value": null,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Reaching Young Professionals and Students",
+      "subtitle": "Mapping the ZIP codes where 20s/30s residents and never-married adults concentrate",
+      "description": "Young professionals and college students are the engine of Cultura Connect's networking events and conversation groups. This section pinpoints where they cluster within urban Atlanta. At the county level, both target counties skew young and single: Fulton County has a median age of 33.1 with 57.6% of adults never married and 25.4% of residents in their 20s, while DeKalb County has a median age of 35.1 with 42.2% never married and 16.5% in their 20s. That contrast tells us Fulton is the stronger anchor for young-single programming, but the real opportunity is at the ZIP level, where a handful of neighborhoods far outpace their county averages. Midtown and downtown ZIPs stand out: 30308 combines 33.4% of residents in their 20s and a remarkable 69.0% never-married rate; 30309 pairs 31.4% in their 20s with 57.7% never married; and 30326 shows 31.3% in their 20s with 50.6% never married. Student-heavy campus ZIPs push these numbers to an extreme — 30303 (83.5% never married), 30332 (98.9% never married, 43.3% in 20s), and 30322 (94.2% never married, 39.9% in 20s) are dominated by young singles, ideal for student conversation groups even though their smaller populations mean lower absolute reach. The business takeaway: schedule evening networking mixers and drop-in conversation groups in the Midtown corridor (30308, 30309, 30324, 30312) for the largest concentration of unattached young professionals, and run targeted campus outreach and student-priced classes near 30303, 30332, and 30322 to capture the college audience.",
+      "demographic_category": "age_marital",
+      "demographic_key": "age.distribution",
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Never-Married Share of Adults by ZIP",
+          "subtitle": "One point per Atlanta ZIP — higher values signal concentrations of unattached young adults",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Never-married adults (%)",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "30319",
+              "geography_label": "30319 (DeKalb)",
+              "value": 40.3
+            },
+            {
+              "geography_id": "30338",
+              "geography_label": "30338 (DeKalb)",
+              "value": 31.5
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 (Fulton)",
+              "value": 57.7
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324 (Fulton)",
+              "value": 54.1
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305 (Fulton)",
+              "value": 41.5
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329 (DeKalb)",
+              "value": 56.0
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312 (Fulton)",
+              "value": 57.9
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306 (Fulton)",
+              "value": 45.7
+            },
+            {
+              "geography_id": "30314",
+              "geography_label": "30314 (Fulton)",
+              "value": 65.6
+            },
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 (Fulton)",
+              "value": 69.0
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307 (DeKalb)",
+              "value": 42.1
+            },
+            {
+              "geography_id": "30317",
+              "geography_label": "30317 (DeKalb)",
+              "value": 36.2
+            },
+            {
+              "geography_id": "30313",
+              "geography_label": "30313 (Fulton)",
+              "value": 76.8
+            },
+            {
+              "geography_id": "30326",
+              "geography_label": "30326 (Fulton)",
+              "value": 50.6
+            },
+            {
+              "geography_id": "30303",
+              "geography_label": "30303 (Fulton)",
+              "value": 83.5
+            },
+            {
+              "geography_id": "30346",
+              "geography_label": "30346 (DeKalb)",
+              "value": 65.1
+            },
+            {
+              "geography_id": "30363",
+              "geography_label": "30363 (Fulton)",
+              "value": 45.2
+            },
+            {
+              "geography_id": "30332",
+              "geography_label": "30332 (Fulton)",
+              "value": 98.9
+            },
+            {
+              "geography_id": "30322",
+              "geography_label": "30322 (DeKalb)",
+              "value": 94.2
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Young Adults vs. Never-Married Share by ZIP",
+          "subtitle": "Bubble size = population. Top-right ZIPs are prime targets for networking events and conversation groups",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Residents in their 20s (%)",
+            "y_axis_label": "Never-married adults (%)",
+            "size_label": "Population",
+            "color_label": "Residents in their 30s (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 Midtown",
+              "x_value": 33.4,
+              "y_value": 69.0,
+              "size_value": 23181.0,
+              "color_value": 22.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 Midtown",
+              "x_value": 31.4,
+              "y_value": 57.7,
+              "size_value": 32479.0,
+              "color_value": 21.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324",
+              "x_value": 26.8,
+              "y_value": 54.1,
+              "size_value": 29073.0,
+              "color_value": 22.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312",
+              "x_value": 23.2,
+              "y_value": 57.9,
+              "size_value": 26942.0,
+              "color_value": 23.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30326",
+              "geography_label": "30326",
+              "x_value": 31.3,
+              "y_value": 50.6,
+              "size_value": 8234.0,
+              "color_value": 19.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329",
+              "x_value": 24.9,
+              "y_value": 56.0,
+              "size_value": 27278.0,
+              "color_value": 18.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305",
+              "x_value": 19.6,
+              "y_value": 41.5,
+              "size_value": 28110.0,
+              "color_value": 16.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306",
+              "x_value": 16.7,
+              "y_value": 45.7,
+              "size_value": 24236.0,
+              "color_value": 18.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307",
+              "x_value": 18.4,
+              "y_value": 42.1,
+              "size_value": 21709.0,
+              "color_value": 19.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30313",
+              "geography_label": "30313",
+              "x_value": 28.0,
+              "y_value": 76.8,
+              "size_value": 10913.0,
+              "color_value": 13.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30303",
+              "geography_label": "30303 Downtown",
+              "x_value": 33.8,
+              "y_value": 83.5,
+              "size_value": 6797.0,
+              "color_value": 5.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30346",
+              "geography_label": "30346",
+              "x_value": 25.8,
+              "y_value": 65.1,
+              "size_value": 4411.0,
+              "color_value": 30.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30363",
+              "geography_label": "30363",
+              "x_value": 31.1,
+              "y_value": 45.2,
+              "size_value": 3523.0,
+              "color_value": 23.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30332",
+              "geography_label": "30332 Campus",
+              "x_value": 43.3,
+              "y_value": 98.9,
+              "size_value": 2567.0,
+              "color_value": 1.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "30322",
+              "geography_label": "30322 Campus",
+              "x_value": 39.9,
+              "y_value": 94.2,
+              "size_value": 2521.0,
+              "color_value": 1.4,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Family-Oriented Neighborhoods",
+      "subtitle": "Where children and married households concentrate — the natural home for family activities and workshops",
+      "description": "Not every Atlanta ZIP is built for family programming. Many of the highest-density, most youthful areas skew heavily toward never-married singles in their 20s (30308 at 69.0% never-married, 30303 at 83.5%, 30332 at 98.9%), which makes them ideal for conversation groups and networking but poor fits for children's workshops. Family activities need neighborhoods where two conditions overlap: a meaningful share of young children (under-10) and a high concentration of married households.\n\nTwo ZIPs stand out as clear family anchors. In 30338 (Atlanta, DeKalb), 12.4% of residents are under 10 and 53.1% of households are married — the highest married share of any ZIP in the dataset. 30319 (Atlanta, DeKalb) pairs the highest under-10 share among established residential ZIPs (13.9%) with a 44.9% married rate. A second tier of walkable, family-capable neighborhoods includes 30306 (10.6% under-10, 43.2% married), 30307 (11.7% under-10, 46.6% married), 30305 (9.5% under-10, 43.0% married), and 30317 (15.6% under-10 — the highest child share of all — with 47.1% married).\n\nBusiness implication: Concentrate family-oriented workshops and children's cultural activities in 30338, 30319, 30317, 30307, and 30306. These ZIPs combine children and stable married households, meaning parents are more likely to enroll kids in recurring programs and attend weekend family events. Reserve the singles-heavy urban core ZIPs for adult conversation groups and networking rather than family programming.",
+      "demographic_category": "age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 75.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Family Fit by ZIP: Children vs. Married Households",
+          "subtitle": "Under-10 share (x) vs. married-household share (y); bubble size = population. Top-right ZIPs are strongest family targets.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Share of Population Under 10 (%)",
+            "y_axis_label": "Married Households (%)",
+            "size_label": "Population",
+            "color_label": "County"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "30338",
+              "geography_label": "30338 (DeKalb)",
+              "x_value": 12.4,
+              "y_value": 53.1,
+              "size_value": 39465.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30319",
+              "geography_label": "30319 (DeKalb)",
+              "x_value": 13.9,
+              "y_value": 44.9,
+              "size_value": 45985.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30317",
+              "geography_label": "30317 (DeKalb)",
+              "x_value": 15.6,
+              "y_value": 47.1,
+              "size_value": 15622.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307 (DeKalb)",
+              "x_value": 11.7,
+              "y_value": 46.6,
+              "size_value": 21709.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306 (Fulton)",
+              "x_value": 10.6,
+              "y_value": 43.2,
+              "size_value": 24236.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305 (Fulton)",
+              "x_value": 9.5,
+              "y_value": 43.0,
+              "size_value": 28110.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324 (Fulton)",
+              "x_value": 9.7,
+              "y_value": 34.6,
+              "size_value": 29073.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329 (DeKalb)",
+              "x_value": 10.9,
+              "y_value": 34.1,
+              "size_value": 27278.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 (Fulton)",
+              "x_value": 3.9,
+              "y_value": 33.2,
+              "size_value": 32479.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312 (Fulton)",
+              "x_value": 6.1,
+              "y_value": 27.7,
+              "size_value": 26942.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 (Fulton)",
+              "x_value": 4.5,
+              "y_value": 17.6,
+              "size_value": 23181.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30314",
+              "geography_label": "30314 (Fulton)",
+              "x_value": 9.0,
+              "y_value": 15.9,
+              "size_value": 23333.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Married-Household Share Across Family-Target ZIPs",
+          "subtitle": "Highest married-household concentrations among established residential ZIPs",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP Code",
+            "y_axis_label": "Married Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "30338 (DeKalb)",
+              "value": 53.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "30317 (DeKalb)",
+              "value": 47.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "30307 (DeKalb)",
+              "value": 46.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "30319 (DeKalb)",
+              "value": 44.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "30306 (Fulton)",
+              "value": 43.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "30305 (Fulton)",
+              "value": 43.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Education, Income, and Program Affordability by Area",
+      "subtitle": "Assessing purchasing power and educational attainment across Atlanta ZIPs to inform pricing and class positioning",
+      "description": "This section evaluates household purchasing power and educational attainment across the Atlanta service area to guide program pricing tiers and class positioning. Both DeKalb (median household income $118,414; 72.1% college-educated; 49.1% holding STEM degrees) and Fulton ($90,877 median; 69.7% college-educated; 45.2% STEM) counties present affluent, highly educated populations that can support premium pricing on language classes, cultural workshops, and family programming. At the ZIP level, however, purchasing power varies dramatically — from median household incomes above $140,000 in 30307 (DeKalb) and $135,148 in 30338 (DeKalb) down to $42,089 in 30314 (Fulton). This spread argues for a tiered pricing strategy: premium offerings and higher price points in the wealthiest northern and intown ZIPs (30307, 30338, 30319, 30306, 30363, 30326), and accessible/sliding-scale or scholarship-supported programming in lower-income areas such as 30314 and 30329 to broaden community reach. Educational attainment reinforces the premium positioning opportunity: in most core ZIPs, over 70% of adults hold a bachelor's degree or higher, with 30363 (92.5% bachelor's+graduate) and 30306 (82.0%) among the most credentialed — a population that typically values structured, high-quality educational experiences and is receptive to conversation groups and cultural immersion as enrichment. The bubble comparison of income versus college attainment (sized by population) highlights the largest, most attractive markets for full-price programming, while the income-distribution view identifies where the concentration of $150k+ households can anchor premium tiers.",
+      "demographic_category": "education",
+      "demographic_key": "education.college_or_above",
+      "importance_weight": 80.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Median Household Income by ZIP",
+          "subtitle": "Distribution of median household income across Atlanta service-area ZIPs (ZIPs reporting $0 excluded as non-reporting)",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Median Household Income (USD)",
+            "y_axis_label": "Number of ZIPs",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "30319",
+              "geography_label": "30319 (DeKalb)",
+              "value": 130648.0
+            },
+            {
+              "geography_id": "30338",
+              "geography_label": "30338 (DeKalb)",
+              "value": 135148.0
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 (Fulton)",
+              "value": 114072.0
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324 (Fulton)",
+              "value": 92122.0
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305 (Fulton)",
+              "value": 106907.0
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329 (DeKalb)",
+              "value": 76579.0
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312 (Fulton)",
+              "value": 82779.0
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306 (Fulton)",
+              "value": 123077.0
+            },
+            {
+              "geography_id": "30314",
+              "geography_label": "30314 (Fulton)",
+              "value": 42089.0
+            },
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 (Fulton)",
+              "value": 85693.0
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307 (DeKalb)",
+              "value": 140677.0
+            },
+            {
+              "geography_id": "30317",
+              "geography_label": "30317 (DeKalb)",
+              "value": 107955.0
+            },
+            {
+              "geography_id": "30313",
+              "geography_label": "30313 (Fulton)",
+              "value": 84960.0
+            },
+            {
+              "geography_id": "30326",
+              "geography_label": "30326 (Fulton)",
+              "value": 121984.0
+            },
+            {
+              "geography_id": "30346",
+              "geography_label": "30346 (DeKalb)",
+              "value": 95000.0
+            },
+            {
+              "geography_id": "30363",
+              "geography_label": "30363 (Fulton)",
+              "value": 123667.0
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Income vs. College Attainment by ZIP",
+          "subtitle": "Median household income (x) vs. share holding a bachelor's degree or higher (y), sized by population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income (USD)",
+            "y_axis_label": "Bachelor's + Graduate Degree (%)",
+            "size_label": "Population",
+            "color_label": "County"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "30319",
+              "geography_label": "30319 (DeKalb)",
+              "x_value": 130648.0,
+              "y_value": 77.0,
+              "size_value": 45985.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30338",
+              "geography_label": "30338 (DeKalb)",
+              "x_value": 135148.0,
+              "y_value": 76.6,
+              "size_value": 39465.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30309",
+              "geography_label": "30309 (Fulton)",
+              "x_value": 114072.0,
+              "y_value": 82.9,
+              "size_value": 32479.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30324",
+              "geography_label": "30324 (Fulton)",
+              "x_value": 92122.0,
+              "y_value": 71.0,
+              "size_value": 29073.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30305",
+              "geography_label": "30305 (Fulton)",
+              "x_value": 106907.0,
+              "y_value": 79.5,
+              "size_value": 28110.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30329",
+              "geography_label": "30329 (DeKalb)",
+              "x_value": 76579.0,
+              "y_value": 59.7,
+              "size_value": 27278.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30312",
+              "geography_label": "30312 (Fulton)",
+              "x_value": 82779.0,
+              "y_value": 65.6,
+              "size_value": 26942.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30306",
+              "geography_label": "30306 (Fulton)",
+              "x_value": 123077.0,
+              "y_value": 82.0,
+              "size_value": 24236.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30314",
+              "geography_label": "30314 (Fulton)",
+              "x_value": 42089.0,
+              "y_value": 33.3,
+              "size_value": 23333.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30308",
+              "geography_label": "30308 (Fulton)",
+              "x_value": 85693.0,
+              "y_value": 75.3,
+              "size_value": 23181.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30307",
+              "geography_label": "30307 (DeKalb)",
+              "x_value": 140677.0,
+              "y_value": 81.7,
+              "size_value": 21709.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30317",
+              "geography_label": "30317 (DeKalb)",
+              "x_value": 107955.0,
+              "y_value": 61.6,
+              "size_value": 15622.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30313",
+              "geography_label": "30313 (Fulton)",
+              "x_value": 84960.0,
+              "y_value": 55.7,
+              "size_value": 10913.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30326",
+              "geography_label": "30326 (Fulton)",
+              "x_value": 121984.0,
+              "y_value": 80.7,
+              "size_value": 8234.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            },
+            {
+              "geography_id": "30346",
+              "geography_label": "30346 (DeKalb)",
+              "x_value": 95000.0,
+              "y_value": 70.8,
+              "size_value": 4411.0,
+              "color_value": null,
+              "metadata": {
+                "county": "DeKalb"
+              }
+            },
+            {
+              "geography_id": "30363",
+              "geography_label": "30363 (Fulton)",
+              "x_value": 123667.0,
+              "y_value": 92.5,
+              "size_value": 3523.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Fulton"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:31:14.413697+00:00"
+}

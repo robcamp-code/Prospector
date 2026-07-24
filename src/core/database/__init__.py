@@ -17,11 +17,8 @@ from src.core.database.connection import (
 from src.core.database.models import (
     USZip,
     ClientProfile,
-    DemographicTarget,
     Report,
-    client_profile_to_ref,
-    demographic_target_to_ref,
-    ref_to_client_profile_kwargs,
+    get_profile_by_conversation_id,
 )
 
 # From tools
@@ -41,11 +38,8 @@ __all__ = [
     # Models
     "USZip",
     "ClientProfile",
-    "DemographicTarget",
     "Report",
-    "client_profile_to_ref",
-    "demographic_target_to_ref",
-    "ref_to_client_profile_kwargs",
+    "get_profile_by_conversation_id",
     # Tools
     "read_uszips_schema",
 ]

@@ -1,0 +1,498 @@
+{
+  "report_id": "63876ba1-7eb7-4c8a-9a3a-0707c3f08a0e",
+  "title": "A Prime Market for Outdoor Recreation: High Incomes and Peak-Adventure Demographics Across the Denver Metro",
+  "subtitle": "Demographic Analysis for Summit Gear Rentals — Colorado / Denver Metropolitan Area",
+  "geography_type": "county",
+  "geography_value": "Colorado / Denver",
+  "client_profile_id": "a81695e8-a29d-4a69-8362-1d40bdcd02d5",
+  "summary": {
+    "total_population": 1112106,
+    "zip_count": 0,
+    "median_household_income": 94523.22218295738,
+    "median_age": 35.491489750077776,
+    "home_ownership_rate": null,
+    "narrative": "The Denver-Aurora-Centennial metro presents an exceptionally strong market for outdoor recreation, with a metro-wide median household income of roughly $94,523 and a median age of about 35.5 — squarely within Summit Gear Rentals' target of active adults aged 22-50. Across the metro, 45.5% of households earn six figures, signaling substantial disposable income for recreational spending. Denver County stands out with the highest median income (~$98,731) and the largest share of six-figure households (47.3%), making it a prime anchor location.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "county_opportunity",
+      "title": "County Opportunity: Income, Age, and Population",
+      "subtitle": "Denver metro counties by median income, median age, and population",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Age",
+        "y_axis_label": "Median Household Income ($)",
+        "size_label": "Population",
+        "color_label": "Six-Figure Households (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "denver",
+          "geography_label": "Denver County",
+          "x_value": 35.10787460213262,
+          "y_value": 98731.11981117504,
+          "size_value": 725116.0,
+          "color_value": 47.28963834751957,
+          "metadata": {}
+        },
+        {
+          "geography_id": "jefferson",
+          "geography_label": "Jefferson County",
+          "x_value": 38.48830923842276,
+          "y_value": 90558.68634324953,
+          "size_value": 179706.0,
+          "color_value": 44.51630997295583,
+          "metadata": {}
+        },
+        {
+          "geography_id": "adams",
+          "geography_label": "Adams County",
+          "x_value": 34.23533413095077,
+          "y_value": 83240.330020648,
+          "size_value": 207284.0,
+          "color_value": 39.99254838771926,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "Metro Market Overview",
+      "subtitle": "Sizing the Denver-Aurora-Centennial opportunity for outdoor recreation rentals",
+      "description": "The Denver-Aurora-Centennial, CO metro (CBSA) represents a substantial and affluent base for Summit Gear Rentals, with a population of 1,112,106 residents anchoring the total addressable market. The economic profile is strong across every available indicator: median household income sits at $94,523, and nearly half of all households — 45.5% — earn six figures or more, signaling the discretionary spending power that outdoor equipment rentals, guided-trip partnerships, and seasonal tune-up services depend on.\n\nThe market's median age of 35.5 lands squarely inside Summit Gear's core target of active adults aged 22-50. This is a metro where the typical resident is a working-age adult in prime earning and prime adventure years — precisely the weekend adventurers and young professionals the business is built to serve. Reinforcing that picture, labor force participation reaches 73.4%, indicating a highly engaged, employed population with the income stability to prioritize recreation spending.\n\nTaken together, these metrics frame a favorable opportunity: a large population, high household incomes, a heavy concentration of six-figure earners, a median age within the target band, and strong workforce engagement. The combination of size and affluence makes the Denver-Aurora-Centennial metro a prime environment for outdoor recreation retail, with a broad pool of potential customers who possess both the disposable income and the demographic profile for active-lifestyle spending.",
+      "demographic_category": "Market Size &amp; Economic Profile",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Denver-Aurora-Centennial Metro: Household Income Profile",
+          "subtitle": "Share of households earning six figures vs. remaining households",
+          "config": {
+            "chart_type": "pie",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "size_label": null,
+            "color_label": "Household income tier"
+          },
+          "categorical_data": [
+            {
+              "label": "Six-figure households ($100K+)",
+              "value": 45.48139907526801,
+              "percentage": 45.48139907526801,
+              "color": null
+            },
+            {
+              "label": "All other households",
+              "value": 54.51860092473199,
+              "percentage": 54.51860092473199,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Denver-Aurora-Centennial Metro: Key Market Indicators",
+          "subtitle": "Median household income ($), median age (years), and labor force participation (%)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Indicator",
+            "y_axis_label": "Value",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Median household income ($)",
+              "value": 94523.22218295738,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Six-figure households (%)",
+              "value": 45.48139907526801,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Labor force participation (%)",
+              "value": 73.37314950193598,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Median age (years)",
+              "value": 35.491489750077776,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "The Core Customer Age Profile",
+      "subtitle": "Median age across the Denver metro sits squarely inside the 22-50 active-adult target",
+      "description": "Summit Gear Rentals targets active adults aged 22-50 — weekend adventurers, tourists, and young professionals with disposable income for outdoor recreation. The single most important gauge of demographic fit is age, and the Denver metro delivers. Median age lands in the mid-30s across every geography measured, placing the typical resident right in the heart of the client's target band and comfortably below its upper bound of 50.\n\nAmong the three counties in the results, Adams County is the youngest at a median age of 34.2, followed closely by Denver County at 35.1. Jefferson County skews slightly older at 38.5 but still falls well within the 22-50 window. At the city level, Denver posts a median age of 35.5, effectively mirroring the county-level picture. The tight clustering of these values — all within roughly four years of one another — signals a consistent, metro-wide concentration of prime-age customers rather than a single pocket of favorable demographics.\n\nBusiness implication: because the median resident sits near the center of the 22-50 range in every area shown, Summit Gear Rentals can market broadly across the Denver metro without needing to narrow its footprint to reach its core demographic. The relative youth of Adams (34.2) and Denver (35.1) suggests those areas may over-index on younger, high-energy renters drawn to skis, snowboards, and mountain bikes, while the slightly older Jefferson County (38.5) may lean toward the established young-professional segment with the disposable income to support premium and guided-trip offerings. In short, the age structure of the region confirms strong alignment with the client's ideal customer.",
+      "demographic_category": "age",
+      "demographic_key": "age.median_age",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Median Age by County vs. the 22-50 Target Range",
+          "subtitle": "All three counties fall inside Summit Gear Rentals' active-adult target band",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Median Age (years)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Adams",
+              "value": 34.23533413095077,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver",
+              "value": 35.10787460213262,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson",
+              "value": 38.48830923842276,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Median Age Across Counties and the City of Denver",
+          "subtitle": "County-level medians alongside the City of Denver (35.5), all clustered in the mid-30s",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Median Age (years)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Adams County",
+              "value": 34.23533413095077,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver County",
+              "value": 35.10787460213262,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "City of Denver",
+              "value": 35.491489750077776,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson County",
+              "value": 38.48830923842276,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Disposable Income and Purchasing Power",
+      "subtitle": "Affluence across the Denver metro supports discretionary spending on rentals and guided trips",
+      "description": "The Denver metro market demonstrates the kind of household affluence that underpins a healthy outdoor-recreation rental business. Across the broader Denver-Aurora-Centennial, CO CBSA, the median household income stands at $94,523, and nearly half of all households — 45.5% — earn six figures or more. This concentration of high-earning households is precisely the profile Summit Gear Rentals targets: active adults and young professionals with the discretionary budget to spend on ski and snowboard rentals, mountain bikes, camping kits, climbing gear, and premium guided-trip partnerships.\n\nZooming in to the county level, Denver County leads the region with a median household income of $98,731 and an exceptional 47.3% of households earning six figures — the highest share of affluent households among the counties analyzed. Jefferson County follows closely with a $90,559 median income and 44.5% six-figure households, while Adams County rounds out the market at $83,240 median income and 40.0% six-figure households. Even the lowest-income county in the analysis exceeds a median of $83,000, signaling broad-based purchasing power across the metro rather than affluence concentrated in a single pocket.\n\nWithin the city of Denver specifically, median household income is $94,523, reinforcing that the urban core — a natural launch point for weekend adventurers and tourists heading to the mountains — combines dense population with strong spending capacity.\n\nBusiness implication: With roughly two in five to nearly one in two households earning six figures across every geography measured, the Denver metro offers a deep pool of customers who can absorb the premium pricing of quality gear rentals, seasonal tune-up services, and guided-trip upsells. Denver and Jefferson Counties, with the highest income and six-figure concentrations, warrant priority for marketing spend and premium inventory allocation, while Adams County represents a solid secondary market with meaningful, if slightly more value-conscious, demand.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Median Household Income by Geography",
+          "subtitle": "Denver metro counties, city, and CBSA all clear $83K",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Denver County",
+              "value": 98731.11981117504,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver-Aurora-Centennial CBSA",
+              "value": 94523.22218295738,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver (city)",
+              "value": 94523.22218295738,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson County",
+              "value": 90558.68634324953,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams County",
+              "value": 83240.330020648,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Share of Six-Figure Households",
+          "subtitle": "Percentage of households earning $100K or more",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Geography",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Denver County",
+              "value": 47.28963834751957,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Denver-Aurora-Centennial CBSA",
+              "value": 45.48139907526801,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson County",
+              "value": 44.51630997295583,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams County",
+              "value": 39.99254838771926,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "County-Level Comparison for Location and Partnership Strategy",
+      "subtitle": "Denver, Jefferson, and Adams counties compared on income, age, and workforce strength to prioritize store siting and guided-trip partnerships",
+      "description": "This section contrasts the three counties in the Denver metro that appear in the query results — Denver, Jefferson, and Adams — across the metrics most predictive of Summit Gear Rentals' target customer: active adults aged 22–50 with disposable income for outdoor recreation. Denver County leads on nearly every affluence and workforce indicator, making it the strongest anchor market. It carries the largest population (725,116), the highest median household income ($98,731), and the highest share of six-figure households (47.3%) — the disposable-income signal that directly supports premium rentals, seasonal tune-ups, and guided-trip upsells. It also posts the highest labor force participation (74.7%) and the youngest median age (35.1), aligning tightly with the 22–50 weekend-adventurer profile.\n\nJefferson County is the natural secondary market and a prime partnership zone. Its median income ($90,559) and six-figure household share (44.5%) remain high, and its foothills location adjacent to mountain trailheads makes it strategically valuable for guided-trip and outfitter partnerships, even though its older median age (38.5) and lower labor force participation (69.7%) suggest a slightly more settled customer base. Its unemployment rate is the lowest of the three (4.4%), indicating economic stability.\n\nAdams County rounds out the metro footprint with solid fundamentals — a young median age (34.2), strong labor force participation (72.1%), and a median income of $83,240 — but the lowest share of six-figure households (40.0%). This positions Adams as a value-oriented expansion market or a candidate for mid-tier rental offerings rather than the premium end of the assortment.\n\nIn short: prioritize Denver County for a flagship location, leverage Jefferson County for trailhead-adjacent guided-trip partnerships, and treat Adams County as a growth/value opportunity. All figures are drawn directly from the county-grouped query results.",
+      "demographic_category": "Geographic / Economic",
+      "demographic_key": null,
+      "importance_weight": 85.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Income and Affluence by County",
+          "subtitle": "Median household income vs. share of six-figure households — Denver leads on both",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Median Household Income (USD)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Denver",
+              "value": 98731.12,
+              "percentage": 47.29,
+              "color": "#1f77b4"
+            },
+            {
+              "label": "Jefferson",
+              "value": 90558.69,
+              "percentage": 44.52,
+              "color": "#2ca02c"
+            },
+            {
+              "label": "Adams",
+              "value": 83240.33,
+              "percentage": 39.99,
+              "color": "#ff7f0e"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Age, Workforce, and Market Size by County",
+          "subtitle": "Median age (x) vs. labor force participation (y); bubble size = population, color = unemployment rate",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Age (years)",
+            "y_axis_label": "Labor Force Participation (%)",
+            "size_label": "Population",
+            "color_label": "Unemployment Rate (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "denver",
+              "geography_label": "Denver County",
+              "x_value": 35.11,
+              "y_value": 74.65,
+              "size_value": 725116.0,
+              "color_value": 4.89,
+              "metadata": {
+                "median_household_income": 98731.12,
+                "six_figure_households": 47.29
+              }
+            },
+            {
+              "geography_id": "jefferson",
+              "geography_label": "Jefferson County",
+              "x_value": 38.49,
+              "y_value": 69.68,
+              "size_value": 179706.0,
+              "color_value": 4.42,
+              "metadata": {
+                "median_household_income": 90558.69,
+                "six_figure_households": 44.52
+              }
+            },
+            {
+              "geography_id": "adams",
+              "geography_label": "Adams County",
+              "x_value": 34.24,
+              "y_value": 72.1,
+              "size_value": 207284.0,
+              "color_value": 4.71,
+              "metadata": {
+                "median_household_income": 83240.33,
+                "six_figure_households": 39.99
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Workforce and Self-Employment Signals",
+      "subtitle": "Labor force participation and self-employment as indicators of active, flexible-schedule customers",
+      "description": "Employment indicators across the Denver metro point to a workforce profile that aligns closely with Summit Gear Rentals' target of active adults, young professionals, and weekend adventurers.\n\nLabor force participation is strong across all three counties analyzed. Denver County leads at 74.7%, followed by Adams County at 72.1% and Jefferson County at 69.7%. High participation rates signal a large base of working adults with earned income—the foundation of the disposable-income spending that fuels discretionary outdoor recreation. Denver County's combination of the highest participation rate (74.7%) with the lowest median age (35.1) reinforces its position as the core young-professional market, where a dense concentration of employed adults in their prime adventure years supports both weekend rentals and seasonal tune-up services.\n\nWithin the city of Denver, self-employment stands out at 14.5%, paired with a labor force participation rate of 73.4%. A meaningful self-employed segment matters directly to Summit Gear's business model: self-employed and flexible-schedule workers are more able to take midweek trips, extend weekends, and travel in shoulder seasons—smoothing demand beyond the traditional Saturday–Sunday peak. This flexible cohort is also a natural fit for guided-trip partnerships and multi-day equipment rentals.\n\nTaken together, the data describes a market where the majority of adults are working, incomes are being earned, and a sizable slice of the population controls its own schedule. For Summit Gear Rentals, this supports two strategic angles: capturing peak weekend demand from the broad employed base, and cultivating midweek and off-peak business from Denver's substantial self-employed population.",
+      "demographic_category": "employment",
+      "demographic_key": "employment.labor_force_participation",
+      "importance_weight": 70.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Labor Force Participation by County",
+          "subtitle": "Share of working-age adults active in the labor force across the Denver metro",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Labor Force Participation (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Denver",
+              "value": 74.65227825616866,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Adams",
+              "value": 72.09834574786285,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jefferson",
+              "value": 69.68228606724317,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Denver City Employment Signals",
+          "subtitle": "Labor force participation and self-employment in the city of Denver",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Employment Indicator",
+            "y_axis_label": "Percent (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Labor Force Participation",
+              "value": 73.37314950193598,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Self-Employed",
+              "value": 14.523601077595124,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:42:38.321909+00:00"
+}

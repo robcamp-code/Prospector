@@ -297,21 +297,17 @@ Judges scores for in-class demo will be 50% of the grade for this component.
 
 
 
-7. Final Implementation & Report (15%) – due Week 6
+## 7. Final Implementation & Report (15%) – due Week 6
 
 This part evaluates the quality and completeness of your implementation and written report.
 
-7.1 Final Report (8–10 pages)
+### 7.1 Final Report (8–10 pages)
 
 Your report should include:
 
 Introduction & problem statement
 
-Recap problem, target users, and goals.
 
-Related / baseline approaches (optional but recommended)
-
-Briefly mention simpler baselines (e.g., single-call LLM or rule-based system).
 
 System design
 
@@ -353,7 +349,7 @@ Overall assessment: Does your agentic system provide real support/insights for t
 
 What would you change with more time/resources?
 
-7.2 Code & Artifacts
+### 7.2 Code & Artifacts
 
 Please submit the project individually (one submission per student), including:
 

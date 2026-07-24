@@ -1,0 +1,1434 @@
+{
+  "report_id": "dbc99312-87db-4ab0-beb6-6dd46f191243",
+  "title": "Where Florida's Affluent Seniors Live: Mapping the Prime Markets for In-Home Care",
+  "subtitle": "A Demographic Analysis of Senior Density, Affluence, and Care Need Across Florida Counties and Metro Areas",
+  "geography_type": "county",
+  "geography_value": "Florida",
+  "client_profile_id": "bbb3136b-3eca-421e-afe7-c9ed9eca286a",
+  "summary": {
+    "total_population": 13725760,
+    "zip_count": 21,
+    "median_household_income": 76589.21486078497,
+    "median_age": null,
+    "home_ownership_rate": 78.38906776418324,
+    "narrative": "Across the 21 Florida counties analyzed, Sumter County (home to Wildwood-The Villages) stands out dramatically, with 57.7% of residents over age 65, an 86.5% home-ownership rate, and a median household income of $75,627 - a uniquely dense concentration of aging, home-owning residents. Coastal affluent markets like Collier (Naples) and Sarasota pair high senior shares (33.8% and 37.4% over 65) with strong incomes ($90,835 and $83,781) and elevated six-figure household rates (44.8% and 41.0%), signaling ability to pay for in-home care. Counties such as Charlotte, Citrus, and Highlands combine high senior populations with the region's highest disability rates (19.6%, 21.6%, and 23.0%), indicating substantial care need even where incomes are more modest.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_senior_care",
+      "title": "Senior Concentration vs. Affluence by County",
+      "subtitle": "Bubble size reflects share of six-figure households; color shows disability rate",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Population Over 65 (%)",
+        "y_axis_label": "Median Household Income ($)",
+        "size_label": "Six-Figure Households (%)",
+        "color_label": "Disabled Population (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "sumter",
+          "geography_label": "Sumter",
+          "x_value": 57.65380696813262,
+          "y_value": 75627.189894912,
+          "size_value": 34.92656046481496,
+          "color_value": 18.738988263695198,
+          "metadata": {}
+        },
+        {
+          "geography_id": "charlotte",
+          "geography_label": "Charlotte",
+          "x_value": 40.67817816517063,
+          "y_value": 70830.78549509206,
+          "size_value": 31.427995741788447,
+          "color_value": 19.60504338177965,
+          "metadata": {}
+        },
+        {
+          "geography_id": "sarasota",
+          "geography_label": "Sarasota",
+          "x_value": 37.357754327223574,
+          "y_value": 83781.45853440907,
+          "size_value": 41.049925901058586,
+          "color_value": 15.243950279720742,
+          "metadata": {}
+        },
+        {
+          "geography_id": "citrus",
+          "geography_label": "Citrus",
+          "x_value": 36.506335936776466,
+          "y_value": 56733.75823171673,
+          "size_value": 25.291027073750502,
+          "color_value": 21.569161238539195,
+          "metadata": {}
+        },
+        {
+          "geography_id": "highlands",
+          "geography_label": "Highlands",
+          "x_value": 35.35563737155976,
+          "y_value": 56216.77024012842,
+          "size_value": 21.48648822689476,
+          "color_value": 22.996159625201813,
+          "metadata": {}
+        },
+        {
+          "geography_id": "indian_river",
+          "geography_label": "Indian River",
+          "x_value": 34.849328485167966,
+          "y_value": 76589.21486078497,
+          "size_value": 34.809578521109884,
+          "color_value": 17.60390269324771,
+          "metadata": {}
+        },
+        {
+          "geography_id": "collier",
+          "geography_label": "Collier",
+          "x_value": 33.773978027946605,
+          "y_value": 90835.28392429222,
+          "size_value": 44.77792258736142,
+          "color_value": 11.344666282780173,
+          "metadata": {}
+        },
+        {
+          "geography_id": "martin",
+          "geography_label": "Martin",
+          "x_value": 32.93070399873391,
+          "y_value": 87693.66130776535,
+          "size_value": 43.190526086727154,
+          "color_value": 13.785218400506437,
+          "metadata": {}
+        },
+        {
+          "geography_id": "flagler",
+          "geography_label": "Flagler",
+          "x_value": 30.712451591995464,
+          "y_value": 77977.57513570445,
+          "size_value": 37.92739690512841,
+          "color_value": 16.32324475411164,
+          "metadata": {}
+        },
+        {
+          "geography_id": "lee",
+          "geography_label": "Lee",
+          "x_value": 28.997991489491113,
+          "y_value": 78523.59736397251,
+          "size_value": 36.413277965182445,
+          "color_value": 13.654691551076992,
+          "metadata": {}
+        },
+        {
+          "geography_id": "manatee",
+          "geography_label": "Manatee",
+          "x_value": 28.98320916748963,
+          "y_value": 83385.18548875226,
+          "size_value": 40.11593456604152,
+          "color_value": 15.477200739078791,
+          "metadata": {}
+        },
+        {
+          "geography_id": "marion",
+          "geography_label": "Marion",
+          "x_value": 27.612106259090197,
+          "y_value": 61326.70419923202,
+          "size_value": 25.84162770567128,
+          "color_value": 16.274969678364194,
+          "metadata": {}
+        },
+        {
+          "geography_id": "lake",
+          "geography_label": "Lake",
+          "x_value": 27.550642621334354,
+          "y_value": 76319.23575188388,
+          "size_value": 35.8189816179847,
+          "color_value": 15.911215301106404,
+          "metadata": {}
+        },
+        {
+          "geography_id": "palm_beach",
+          "geography_label": "Palm Beach",
+          "x_value": 24.789797204512336,
+          "y_value": 87127.26604415018,
+          "size_value": 41.87275658639399,
+          "color_value": 12.294994838958448,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Statewide Landscape of Aging Floridians",
+      "subtitle": "Ranking Florida's counties and metros by the share of residents over 65 to locate the deepest pools of senior demand",
+      "description": "Florida is the nation's retirement heartland, but the senior population is far from evenly spread. For a home-healthcare agency, the single most important market indicator is the concentration of residents aged 65 and older — the demographic that generates demand for in-home nursing, medication management, and mobility assistance. This section maps that concentration across counties and metropolitan areas to establish where the raw opportunity is greatest.\n\nAt the county level, the story is dominated by a single extraordinary outlier: Sumter County, home to The Villages retirement community, where 57.7% of the population is over 65 — more than double the statewide norm and well ahead of any other county in the results. A cluster of Gulf Coast and Treasure Coast counties forms the next tier of standout senior markets: Charlotte (40.7%), Sarasota (37.4%), Citrus (36.5%), Highlands (35.4%), and Indian River (34.8%). Southwest Florida's affluent Collier County (33.8%) and Martin County (32.9%) round out the counties where roughly a third of residents are seniors. Even the lower-ranked counties in the results — Palm Beach (24.8%), Levy (25.1%), and Volusia (25.5%) — carry senior shares that would be considered high in most other states.\n\nThe metro (CBSA) view reinforces and refines this picture. Wildwood-The Villages leads all metros at 57.7% over 65, again the clear standout. It is followed by Sebastian-Vero Beach (34.8%), Naples-Marco Island (33.8%), and North Port-Bradenton-Sarasota (33.2%) — the last of which pairs a high senior share with a large population base of 892,239 residents, making it one of the most attractive combinations of density and demand in the state. Cape Coral-Fort Myers (29.0%) and Port St. Lucie (27.1%) offer sizeable senior populations at scale as well.\n\nBusiness implication: the highest-percentage markets (Sumter/The Villages) offer unmatched saturation of the target customer, ideal for concentrated marketing and dense visit-routing efficiency. Meanwhile, large-population metros with strong senior shares — North Port-Bradenton-Sarasota, Cape Coral-Fort Myers, and Naples-Marco Island — combine high senior concentration with the population volume needed to sustain a scalable service footprint. These areas should anchor Golden Years Home Care's Florida expansion priorities, with subsequent sections layering in income and health indicators to sharpen the targeting.",
+      "demographic_category": "age",
+      "demographic_key": "age.over_65",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Top Florida Counties by Share of Residents Over 65",
+          "subtitle": "Percentage of population aged 65+ (Result 1, county-level)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "% of population over 65",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Sumter",
+              "value": 57.65,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Charlotte",
+              "value": 40.68,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sarasota",
+              "value": 37.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Citrus",
+              "value": 36.51,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Highlands",
+              "value": 35.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Indian River",
+              "value": 34.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Collier",
+              "value": 33.77,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Martin",
+              "value": 32.93,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Flagler",
+              "value": 30.71,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lee",
+              "value": 29.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Manatee",
+              "value": 28.98,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Marion",
+              "value": 27.61,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lake",
+              "value": 27.55,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Glades",
+              "value": 27.03,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hernando",
+              "value": 26.47,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Metro Markets: Senior Share vs. Population Size",
+          "subtitle": "Each bubble is a Florida CBSA; X = % over 65, Y = median household income, size = population (Result 3)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "% of population over 65",
+            "y_axis_label": "Median household income ($)",
+            "size_label": "Total population",
+            "color_label": "% over 65"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "wildwood-villages",
+              "geography_label": "Wildwood-The Villages, FL",
+              "x_value": 57.65,
+              "y_value": 75627.19,
+              "size_value": 146639.0,
+              "color_value": 57.65,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sebastian-vero",
+              "geography_label": "Sebastian-Vero Beach, FL",
+              "x_value": 34.85,
+              "y_value": 76589.21,
+              "size_value": 166936.0,
+              "color_value": 34.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "naples-marco",
+              "geography_label": "Naples-Marco Island, FL",
+              "x_value": 33.77,
+              "y_value": 90835.28,
+              "size_value": 397687.0,
+              "color_value": 33.77,
+              "metadata": {}
+            },
+            {
+              "geography_id": "north-port-sarasota",
+              "geography_label": "North Port-Bradenton-Sarasota, FL",
+              "x_value": 33.23,
+              "y_value": 83586.28,
+              "size_value": 892239.0,
+              "color_value": 33.23,
+              "metadata": {}
+            },
+            {
+              "geography_id": "cape-coral-fort-myers",
+              "geography_label": "Cape Coral-Fort Myers, FL",
+              "x_value": 29.0,
+              "y_value": 78523.6,
+              "size_value": 789142.0,
+              "color_value": 29.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "port-st-lucie",
+              "geography_label": "Port St. Lucie, FL",
+              "x_value": 27.06,
+              "y_value": 76617.99,
+              "size_value": 530207.0,
+              "color_value": 27.06,
+              "metadata": {}
+            },
+            {
+              "geography_id": "deltona-daytona",
+              "geography_label": "Deltona-Daytona Beach-Ormond Beach, FL",
+              "x_value": 26.38,
+              "y_value": 72485.01,
+              "size_value": 709360.0,
+              "color_value": 26.38,
+              "metadata": {}
+            },
+            {
+              "geography_id": "key-west",
+              "geography_label": "Key West-Key Largo, FL",
+              "x_value": 24.72,
+              "y_value": 89172.46,
+              "size_value": 81805.0,
+              "color_value": 24.72,
+              "metadata": {}
+            },
+            {
+              "geography_id": "palm-bay-melbourne",
+              "geography_label": "Palm Bay-Melbourne-Titusville, FL",
+              "x_value": 24.48,
+              "y_value": 81518.74,
+              "size_value": 633463.0,
+              "color_value": 24.48,
+              "metadata": {}
+            },
+            {
+              "geography_id": "tampa-st-pete",
+              "geography_label": "Tampa-St. Petersburg-Clearwater, FL",
+              "x_value": 20.34,
+              "y_value": 79886.87,
+              "size_value": 3303076.0,
+              "color_value": 20.34,
+              "metadata": {}
+            },
+            {
+              "geography_id": "miami-ftl-wpb",
+              "geography_label": "Miami-Fort Lauderdale-West Palm Beach, FL",
+              "x_value": 19.17,
+              "y_value": 80494.57,
+              "size_value": 6240632.0,
+              "color_value": 19.17,
+              "metadata": {}
+            },
+            {
+              "geography_id": "orlando",
+              "geography_label": "Orlando-Kissimmee-Sanford, FL",
+              "x_value": 16.02,
+              "y_value": 81560.79,
+              "size_value": 2817824.0,
+              "color_value": 16.02,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Affluence and Ability to Pay for Care",
+      "subtitle": "Where senior households have both the age profile and the financial capacity to fund in-home care",
+      "description": "In-home care is a discretionary, largely out-of-pocket purchase. The strongest markets for Golden Years Home Care are those where a high concentration of seniors coincides with the household wealth needed to arrange and pay for ongoing services. This section combines median household income and the share of six-figure households with the over-65 population share to separate markets that merely have many seniors from those that have affluent seniors.\n\nThe clearest example of that distinction is the Wildwood–The Villages market (Sumter County). It has by far the highest senior concentration in Florida — 57.7% of the population is over 65, roughly double any other county — yet its median household income ($75,627) and six-figure household share (34.9%) are only mid-pack. This is a high-volume, moderate-affluence market: enormous demand for care, but pricing and service tiers should be calibrated to a middle-income retiree base.\n\nBy contrast, Collier County (Naples–Marco Island) pairs a strong senior share (33.8%) with the highest income in the analyzed set — a $90,835 median and 44.8% of households earning six figures. Sarasota (37.4% over 65; $83,781 median; 41.0% six-figure) and Martin (32.9% over 65; $87,694 median; 43.2% six-figure) show the same favorable combination. These are the premium markets: a large, aging population that also has the demonstrated means to fund private-pay, higher-margin care packages.\n\nA second tier of affluent-but-less-senior CBSAs — Key West–Key Largo (45.0% six-figure but only 24.7% over 65) and Jacksonville (40.1% six-figure, 17.1% over 65) — offers ability to pay without the same depth of senior demand, making them opportunistic rather than core targets. Meanwhile lower-income senior counties such as Citrus ($56,734 median; 25.3% six-figure) and Highlands ($56,217 median; 21.5% six-figure) carry real demand but limited private-pay capacity, and are best approached with value-oriented service tiers.\n\nThe takeaway for market prioritization: Collier, Sarasota, and Martin represent the sweet spot where senior density and affluence overlap, while Sumter (The Villages) is a must-serve volume market that requires a more affordable offering.",
+      "demographic_category": "income",
+      "demographic_key": "income.six_figure_households",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Senior Concentration vs. Affluence by County",
+          "subtitle": "Over-65 share (x) against six-figure household share (y), sized by population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Population Over 65 (%)",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": "Population",
+            "color_label": "Median Household Income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "sumter",
+              "geography_label": "Sumter (The Villages)",
+              "x_value": 57.65,
+              "y_value": 34.93,
+              "size_value": 146639.0,
+              "color_value": 75627.0,
+              "metadata": {
+                "median_income": 75627
+              }
+            },
+            {
+              "geography_id": "collier",
+              "geography_label": "Collier (Naples)",
+              "x_value": 33.77,
+              "y_value": 44.78,
+              "size_value": 397687.0,
+              "color_value": 90835.0,
+              "metadata": {
+                "median_income": 90835
+              }
+            },
+            {
+              "geography_id": "sarasota",
+              "geography_label": "Sarasota",
+              "x_value": 37.36,
+              "y_value": 41.05,
+              "size_value": 452773.0,
+              "color_value": 83781.0,
+              "metadata": {
+                "median_income": 83781
+              }
+            },
+            {
+              "geography_id": "martin",
+              "geography_label": "Martin",
+              "x_value": 32.93,
+              "y_value": 43.19,
+              "size_value": 151648.0,
+              "color_value": 87694.0,
+              "metadata": {
+                "median_income": 87694
+              }
+            },
+            {
+              "geography_id": "charlotte",
+              "geography_label": "Charlotte",
+              "x_value": 40.68,
+              "y_value": 31.43,
+              "size_value": 200084.0,
+              "color_value": 70831.0,
+              "metadata": {
+                "median_income": 70831
+              }
+            },
+            {
+              "geography_id": "indian-river",
+              "geography_label": "Indian River",
+              "x_value": 34.85,
+              "y_value": 34.81,
+              "size_value": 166936.0,
+              "color_value": 76589.0,
+              "metadata": {
+                "median_income": 76589
+              }
+            },
+            {
+              "geography_id": "citrus",
+              "geography_label": "Citrus",
+              "x_value": 36.51,
+              "y_value": 25.29,
+              "size_value": 161965.0,
+              "color_value": 56734.0,
+              "metadata": {
+                "median_income": 56734
+              }
+            },
+            {
+              "geography_id": "highlands",
+              "geography_label": "Highlands",
+              "x_value": 35.36,
+              "y_value": 21.49,
+              "size_value": 107151.0,
+              "color_value": 56217.0,
+              "metadata": {
+                "median_income": 56217
+              }
+            },
+            {
+              "geography_id": "flagler",
+              "geography_label": "Flagler",
+              "x_value": 30.71,
+              "y_value": 37.93,
+              "size_value": 123430.0,
+              "color_value": 77978.0,
+              "metadata": {
+                "median_income": 77978
+              }
+            },
+            {
+              "geography_id": "lee",
+              "geography_label": "Lee (Cape Coral-Fort Myers)",
+              "x_value": 29.0,
+              "y_value": 36.41,
+              "size_value": 789142.0,
+              "color_value": 78524.0,
+              "metadata": {
+                "median_income": 78524
+              }
+            },
+            {
+              "geography_id": "manatee",
+              "geography_label": "Manatee",
+              "x_value": 28.98,
+              "y_value": 40.12,
+              "size_value": 439466.0,
+              "color_value": 83385.0,
+              "metadata": {
+                "median_income": 83385
+              }
+            },
+            {
+              "geography_id": "palm-beach",
+              "geography_label": "Palm Beach",
+              "x_value": 24.79,
+              "y_value": 41.87,
+              "size_value": 1524886.0,
+              "color_value": 87127.0,
+              "metadata": {
+                "median_income": 87127
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Six-Figure Household Share in Senior-Heavy Markets (CBSA)",
+          "subtitle": "Share of households earning $100K+, for the highest-senior Florida metros",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Metro Area (CBSA)",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Naples-Marco Island",
+              "value": 44.78,
+              "percentage": 44.78,
+              "color": null
+            },
+            {
+              "label": "North Port-Bradenton-Sarasota",
+              "value": 40.59,
+              "percentage": 40.59,
+              "color": null
+            },
+            {
+              "label": "Cape Coral-Fort Myers",
+              "value": 36.41,
+              "percentage": 36.41,
+              "color": null
+            },
+            {
+              "label": "Port St. Lucie",
+              "value": 36.2,
+              "percentage": 36.2,
+              "color": null
+            },
+            {
+              "label": "Sebastian-Vero Beach",
+              "value": 34.81,
+              "percentage": 34.81,
+              "color": null
+            },
+            {
+              "label": "Wildwood-The Villages",
+              "value": 34.93,
+              "percentage": 34.93,
+              "color": null
+            },
+            {
+              "label": "Deltona-Daytona Beach",
+              "value": 32.76,
+              "percentage": 32.76,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Care Need: Disability and Home-Based Living",
+      "subtitle": "Where elevated disability rates and high home ownership signal seniors intent on aging in place",
+      "description": "Demand for in-home care is strongest where two conditions overlap: a high share of residents living with a disability (indicating a functional need for nursing, medication management, and mobility assistance) and high home ownership (indicating residents who own their homes and intend to age in place rather than relocate to a facility). This section combines the disability and home-ownership metrics from the county-level results with the CBSA (metro-market) view to identify the Florida markets where these two care-demand signals are strongest.\n\nAt the county level, the clearest concentration of care demand sits in the retiree-heavy interior and Gulf Coast counties. Citrus County pairs the state's highest disability rate in the dataset (21.6%) with 85.4% home ownership. Highlands County shows an even higher disability rate at 23.0% alongside 78.4% home ownership. Levy (21.7% disabled, 81.4% owned), Glades (21.7% disabled, 80.9% owned), and Franklin (20.7% disabled, 80.5% owned) round out the highest-disability group, all with strong home ownership above 80%.\n\nThe single most compelling market on both dimensions is Sumter County — home to The Villages. Sumter combines a very high disability rate (18.7%) with the highest home ownership of any county in the results (86.5%), an extraordinary 57.7% of the population over 65, a $75,627 median household income, and the lowest uninsured rate in the dataset (5.3%). This is a large, insured, home-owning senior population with meaningful functional-care need — a near-ideal profile for a home-healthcare agency.\n\nHernando (19.6% disabled, 82.8% owned), Charlotte (19.6% disabled, 83.9% owned), and Indian River (17.6% disabled, 79.8% owned) form a secondary tier of strong candidate markets that balance elevated care need with high home ownership.\n\nAt the metro level, the CBSA results reinforce these patterns. Wildwood-The Villages leads on care demand with an 18.7% disability rate and 86.5% home ownership. Sebastian-Vero Beach (17.6% disabled, 79.8% owned), Deltona-Daytona Beach-Ormond Beach (17.1% disabled, 75.3% owned), Pensacola-Ferry Pass-Brent (16.5% disabled, 70.3% owned), and Palm Bay-Melbourne-Titusville (16.3% disabled, 77.1% owned) are the metros combining above-average disability with solid home ownership.\n\nBusiness implication: Prioritize the interior/Gulf-Coast retiree counties — led by Sumter (The Villages), then Charlotte, Hernando, Citrus, Highlands, and Indian River — where a large share of residents both need care and own homes they plan to stay in. High home ownership means adult children arranging care are more likely to invest in bringing services into an established family home rather than moving a parent into a facility. Sumter's exceptionally low uninsured rate also reduces payment friction, making it the strongest single launch or expansion market in the state.",
+      "demographic_category": "health",
+      "demographic_key": "health.disabled",
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Care-Demand Map: Disability Rate vs. Home Ownership by County",
+          "subtitle": "Higher and further right = stronger in-home care demand; bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Disability Rate (%)",
+            "y_axis_label": "Home Ownership (%)",
+            "size_label": "Population",
+            "color_label": "Share Over 65 (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "sumter",
+              "geography_label": "Sumter",
+              "x_value": 18.74,
+              "y_value": 86.49,
+              "size_value": 146639.0,
+              "color_value": 57.65,
+              "metadata": {
+                "uninsured_pct": 5.33,
+                "median_hh_income": 75627
+              }
+            },
+            {
+              "geography_id": "charlotte",
+              "geography_label": "Charlotte",
+              "x_value": 19.61,
+              "y_value": 83.87,
+              "size_value": 200084.0,
+              "color_value": 40.68,
+              "metadata": {}
+            },
+            {
+              "geography_id": "citrus",
+              "geography_label": "Citrus",
+              "x_value": 21.57,
+              "y_value": 85.4,
+              "size_value": 161965.0,
+              "color_value": 36.51,
+              "metadata": {}
+            },
+            {
+              "geography_id": "highlands",
+              "geography_label": "Highlands",
+              "x_value": 23.0,
+              "y_value": 78.39,
+              "size_value": 107151.0,
+              "color_value": 35.36,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hernando",
+              "geography_label": "Hernando",
+              "x_value": 19.56,
+              "y_value": 82.78,
+              "size_value": 201582.0,
+              "color_value": 26.47,
+              "metadata": {}
+            },
+            {
+              "geography_id": "indian-river",
+              "geography_label": "Indian River",
+              "x_value": 17.6,
+              "y_value": 79.78,
+              "size_value": 166936.0,
+              "color_value": 34.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "levy",
+              "geography_label": "Levy",
+              "x_value": 21.72,
+              "y_value": 81.38,
+              "size_value": 41556.0,
+              "color_value": 25.09,
+              "metadata": {}
+            },
+            {
+              "geography_id": "glades",
+              "geography_label": "Glades",
+              "x_value": 21.69,
+              "y_value": 80.94,
+              "size_value": 31269.0,
+              "color_value": 27.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "franklin",
+              "geography_label": "Franklin",
+              "x_value": 20.7,
+              "y_value": 80.51,
+              "size_value": 11969.0,
+              "color_value": 25.78,
+              "metadata": {}
+            },
+            {
+              "geography_id": "flagler",
+              "geography_label": "Flagler",
+              "x_value": 16.32,
+              "y_value": 82.15,
+              "size_value": 123430.0,
+              "color_value": 30.71,
+              "metadata": {}
+            },
+            {
+              "geography_id": "volusia",
+              "geography_label": "Volusia",
+              "x_value": 17.26,
+              "y_value": 73.82,
+              "size_value": 585930.0,
+              "color_value": 25.46,
+              "metadata": {}
+            },
+            {
+              "geography_id": "marion",
+              "geography_label": "Marion",
+              "x_value": 16.27,
+              "y_value": 76.75,
+              "size_value": 397406.0,
+              "color_value": 27.61,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sarasota",
+              "geography_label": "Sarasota",
+              "x_value": 15.24,
+              "y_value": 76.53,
+              "size_value": 452773.0,
+              "color_value": 37.36,
+              "metadata": {}
+            },
+            {
+              "geography_id": "lee",
+              "geography_label": "Lee",
+              "x_value": 13.65,
+              "y_value": 73.29,
+              "size_value": 789142.0,
+              "color_value": 29.0,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Metro Markets Ranked by Disability Rate",
+          "subtitle": "Care-need signal across Florida CBSAs (higher = greater functional care demand)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Metro Area (CBSA)",
+            "y_axis_label": "Disability Rate (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Wildwood-The Villages",
+              "value": 18.74,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sebastian-Vero Beach",
+              "value": 17.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Deltona-Daytona-Ormond Beach",
+              "value": 17.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Pensacola-Ferry Pass-Brent",
+              "value": 16.52,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Palm Bay-Melbourne-Titusville",
+              "value": 16.25,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "North Port-Bradenton-Sarasota",
+              "value": 15.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Crestview-Fort Walton-Destin",
+              "value": 14.94,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Port St. Lucie",
+              "value": 14.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Tampa-St. Petersburg-Clearwater",
+              "value": 14.53,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cape Coral-Fort Myers",
+              "value": 13.65,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Jacksonville",
+              "value": 13.49,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Orlando-Kissimmee-Sanford",
+              "value": 12.42,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Miami-Fort Lauderdale-West Palm Beach",
+              "value": 11.11,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Housing Wealth, Coverage, and Market Nuance",
+      "subtitle": "Distinguishing premium-service markets from coverage-gap markets that shape how families pay for care",
+      "description": "For a private-pay home-healthcare model, housing wealth and insurance coverage are two of the most operationally important signals. Median home value is a strong proxy for accumulated household wealth among retirees — the equity that adult children and seniors most often draw on to fund extended in-home care. The uninsured rate, meanwhile, flags where payment friction is likely: markets with higher uninsured shares tend to require more out-of-pocket structuring, financing conversations, and flexible service tiers, while low-uninsured markets support cleaner, coverage-supplemented billing.\n\nThe county data reveal that housing wealth and coverage do not always move together, which is precisely where market nuance lives. Monroe County (Key West-Key Largo) leads Florida decisively on housing wealth, with a median home value of roughly $786,600 — far above any other county in the results — yet it carries one of the highest uninsured rates at 12.8%, alongside comparatively low home ownership of 65.4%. This is a classic premium-but-complex profile: substantial asset backing for private pay, but a coverage gap and a higher share of non-owner households that warrant careful payment structuring.\n\nCollier County (median home value ~$583,500, uninsured 11.3%, home ownership 75.5%, median household income ~$90,800) and St. Johns County stand out as the cleanest premium markets. St. Johns is especially compelling: the highest median household income in the results at roughly $118,400, a very high home ownership rate of 82.8%, and by far the lowest uninsured rate at just 5.4%. That combination — deep household wealth, high home equity ownership, and minimal coverage friction — makes St. Johns a top-priority market for premium in-home service tiers with predictable payment.\n\nSumter County (home of The Villages) offers a different but equally attractive profile: a more modest median home value (~$359,300) but exceptionally high home ownership (86.5%, the highest in the results) and a very low uninsured rate (5.3%). The wealth here is expressed through outright home ownership and coverage stability rather than headline home prices — an ideal steady, low-friction market for a senior-focused agency, consistent with its extraordinary over-65 concentration noted elsewhere.\n\nOn the coverage-gap side, Walton County shows the highest uninsured rate in the results at 15.3% despite strong home values (~$460,900) and income (~$84,400) — a market where wealth exists but payment models must anticipate more out-of-pocket exposure. Miami-Dade (uninsured 13.6%, home ownership only 53.5% — the lowest here) and Palm Beach (uninsured 13.2%) similarly combine large populations and meaningful housing values with coverage and ownership gaps that argue for flexible, financing-aware offerings rather than a one-size premium model.\n\nBusiness takeaway: prioritize St. Johns, Collier, and Sumter for premium and steady-revenue service tiers where wealth and coverage align; treat Monroe as a high-value but high-nuance opportunity requiring bespoke payment structuring; and design flexible, financing-forward offerings for the higher-uninsured, lower-ownership markets of Walton, Miami-Dade, and Palm Beach.",
+      "demographic_category": "housing",
+      "demographic_key": "housing.median_home_value",
+      "importance_weight": 80.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Housing Wealth vs. Coverage Gap by County",
+          "subtitle": "Median home value (x) against uninsured rate (y); bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Home Value ($)",
+            "y_axis_label": "Uninsured Rate (%)",
+            "size_label": "Population",
+            "color_label": "Median Household Income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "monroe",
+              "geography_label": "Monroe",
+              "x_value": 786608.76,
+              "y_value": 12.83,
+              "size_value": 81805.0,
+              "color_value": 89172.46,
+              "metadata": {}
+            },
+            {
+              "geography_id": "collier",
+              "geography_label": "Collier",
+              "x_value": 583456.11,
+              "y_value": 11.33,
+              "size_value": 397687.0,
+              "color_value": 90835.28,
+              "metadata": {}
+            },
+            {
+              "geography_id": "st-johns",
+              "geography_label": "St. Johns",
+              "x_value": 511321.51,
+              "y_value": 5.43,
+              "size_value": 311914.0,
+              "color_value": 118372.17,
+              "metadata": {}
+            },
+            {
+              "geography_id": "miami-dade",
+              "geography_label": "Miami-Dade",
+              "x_value": 492810.96,
+              "y_value": 13.6,
+              "size_value": 2738360.0,
+              "color_value": 74911.25,
+              "metadata": {}
+            },
+            {
+              "geography_id": "palm-beach",
+              "geography_label": "Palm Beach",
+              "x_value": 462236.71,
+              "y_value": 13.24,
+              "size_value": 1524886.0,
+              "color_value": 87127.27,
+              "metadata": {}
+            },
+            {
+              "geography_id": "walton",
+              "geography_label": "Walton",
+              "x_value": 460862.23,
+              "y_value": 15.26,
+              "size_value": 81873.0,
+              "color_value": 84363.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sarasota",
+              "geography_label": "Sarasota",
+              "x_value": 439503.57,
+              "y_value": 9.9,
+              "size_value": 452773.0,
+              "color_value": 83781.46,
+              "metadata": {}
+            },
+            {
+              "geography_id": "martin",
+              "geography_label": "Martin",
+              "x_value": 435104.48,
+              "y_value": 10.79,
+              "size_value": 151648.0,
+              "color_value": 87693.66,
+              "metadata": {}
+            },
+            {
+              "geography_id": "broward",
+              "geography_label": "Broward",
+              "x_value": 427633.19,
+              "y_value": 12.47,
+              "size_value": 1977129.0,
+              "color_value": 83122.47,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nassau",
+              "geography_label": "Nassau",
+              "x_value": 395270.43,
+              "y_value": 7.24,
+              "size_value": 97788.0,
+              "color_value": 89654.22,
+              "metadata": {}
+            },
+            {
+              "geography_id": "manatee",
+              "geography_label": "Manatee",
+              "x_value": 395268.58,
+              "y_value": 11.73,
+              "size_value": 439466.0,
+              "color_value": 83385.19,
+              "metadata": {}
+            },
+            {
+              "geography_id": "orange",
+              "geography_label": "Orange",
+              "x_value": 392708.45,
+              "y_value": 12.06,
+              "size_value": 1453046.0,
+              "color_value": 84090.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "seminole",
+              "geography_label": "Seminole",
+              "x_value": 388114.21,
+              "y_value": 9.52,
+              "size_value": 494405.0,
+              "color_value": 87051.51,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hillsborough",
+              "geography_label": "Hillsborough",
+              "x_value": 383210.97,
+              "y_value": 11.05,
+              "size_value": 1564132.0,
+              "color_value": 85686.81,
+              "metadata": {}
+            },
+            {
+              "geography_id": "indian-river",
+              "geography_label": "Indian River",
+              "x_value": 377236.7,
+              "y_value": 10.02,
+              "size_value": 166936.0,
+              "color_value": 76589.21,
+              "metadata": {}
+            },
+            {
+              "geography_id": "flagler",
+              "geography_label": "Flagler",
+              "x_value": 364090.14,
+              "y_value": 10.65,
+              "size_value": 123430.0,
+              "color_value": 77977.58,
+              "metadata": {}
+            },
+            {
+              "geography_id": "lee",
+              "geography_label": "Lee",
+              "x_value": 363186.12,
+              "y_value": 12.8,
+              "size_value": 789142.0,
+              "color_value": 78523.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sumter",
+              "geography_label": "Sumter",
+              "x_value": 359273.46,
+              "y_value": 5.33,
+              "size_value": 146639.0,
+              "color_value": 75627.19,
+              "metadata": {}
+            },
+            {
+              "geography_id": "pinellas",
+              "geography_label": "Pinellas",
+              "x_value": 357942.31,
+              "y_value": 10.47,
+              "size_value": 963481.0,
+              "color_value": 74700.51,
+              "metadata": {}
+            },
+            {
+              "geography_id": "okaloosa",
+              "geography_label": "Okaloosa",
+              "x_value": 352683.26,
+              "y_value": 11.62,
+              "size_value": 217303.0,
+              "color_value": 82729.73,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Median Home Value by County",
+          "subtitle": "Housing wealth as a proxy for private-pay equity capacity",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Monroe",
+              "value": 786608.76,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Collier",
+              "value": 583456.11,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "St. Johns",
+              "value": 511321.51,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Miami-Dade",
+              "value": 492810.96,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Palm Beach",
+              "value": 462236.71,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Walton",
+              "value": 460862.23,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sarasota",
+              "value": 439503.57,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Martin",
+              "value": 435104.48,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Broward",
+              "value": 427633.19,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau",
+              "value": 395270.43,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Manatee",
+              "value": 395268.58,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Orange",
+              "value": 392708.45,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Seminole",
+              "value": 388114.21,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hillsborough",
+              "value": 383210.97,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Indian River",
+              "value": 377236.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Flagler",
+              "value": 364090.14,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lee",
+              "value": 363186.12,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sumter",
+              "value": 359273.46,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Pinellas",
+              "value": 357942.31,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Okaloosa",
+              "value": 352683.26,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Priority Markets and Recommendations",
+      "subtitle": "Ranking Florida's strongest county and metro targets for senior in-home care",
+      "description": "This concluding section synthesizes the senior-share, affluence, home-ownership, and care-need signals from the preceding analysis into a prioritized set of markets for Golden Years Home Care. The ideal target combines a high concentration of adults 65+ (a large addressable population), strong household income and six-figure-household share (families able to pay privately for care), high home ownership (seniors committed to aging in place — the core value proposition of in-home care), and a meaningful disability rate (clinical need for nursing, medication management, and mobility assistance).\n\nTIER 1 — LEAD MARKETS. Sumter County / the Wildwood-The Villages metro is the single most compelling target in Florida. A remarkable 57.7% of its population is 65+ — more than 1.5x any other county measured — paired with 86.5% home ownership (the highest in the state), a $75,627 median household income, 34.9% six-figure households, and an 18.7% disability rate that signals real clinical need. Its 5.3% uninsured rate is also among the lowest in Florida, meaning coverage exists to support care. This is a purpose-built retirement market and should anchor the launch or expansion plan.\n\nTIER 2 — HIGH-VALUE AFFLUENT MARKETS. Sarasota (37.4% over 65, $83,781 median income, 41.0% six-figure households, 76.5% ownership) and Collier / Naples-Marco Island (33.8% over 65, $90,835 median income — the highest of the senior-heavy counties — 44.8% six-figure households, 75.5% ownership) combine strong senior share with the deepest household wealth. These are premium markets for higher-margin private-pay services. The North Port-Bradenton-Sarasota metro captures this cluster at scale (33.2% over 65, $83,586 median income, 892,239 residents). Charlotte County (40.7% over 65, 83.9% ownership) and Indian River / Sebastian-Vero Beach (34.8% over 65, 79.8% ownership, 17.6% disability) round out this tier with high senior density and above-average care need.\n\nTIER 3 — VOLUME & VALUE MARKETS. Martin County ($87,694 median income, 43.2% six-figure households, 32.9% over 65, 80.6% ownership) and Flagler County (30.7% over 65, 82.1% ownership, $77,978 median income) offer strong affluence and ownership at smaller scale. Among large-population metros, Palm Beach County (24.8% over 65, 1.52M residents, $87,127 median income, 41.9% six-figure households) offers the largest absolute base of affluent seniors even if concentration is lower.\n\nRECOMMENDATION. Prioritize Sumter/The Villages for maximum senior concentration and aging-in-place ownership; build premium private-pay offerings in Sarasota and Collier where wealth is deepest; and pursue Palm Beach for scale. Counties such as Citrus and Highlands, despite high senior share and disability rates, show materially lower incomes ($56,734 and $56,217) and six-figure-household shares (25.3% and 21.5%), making them better suited to insurance/Medicaid-oriented service lines than to the private-pay model.",
+      "demographic_category": "Senior Affluence & Care Need",
+      "demographic_key": null,
+      "importance_weight": 95.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Senior Share vs. Household Income by County",
+          "subtitle": "Bubble size = population; the upper-right quadrant identifies the strongest private-pay markets",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Population Age 65+ (%)",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": "County Population",
+            "color_label": "Disability Rate (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "sumter",
+              "geography_label": "Sumter",
+              "x_value": 57.65,
+              "y_value": 75627.0,
+              "size_value": 146639.0,
+              "color_value": 18.74,
+              "metadata": {}
+            },
+            {
+              "geography_id": "charlotte",
+              "geography_label": "Charlotte",
+              "x_value": 40.68,
+              "y_value": 70831.0,
+              "size_value": 200084.0,
+              "color_value": 19.61,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sarasota",
+              "geography_label": "Sarasota",
+              "x_value": 37.36,
+              "y_value": 83781.0,
+              "size_value": 452773.0,
+              "color_value": 15.24,
+              "metadata": {}
+            },
+            {
+              "geography_id": "citrus",
+              "geography_label": "Citrus",
+              "x_value": 36.51,
+              "y_value": 56734.0,
+              "size_value": 161965.0,
+              "color_value": 21.57,
+              "metadata": {}
+            },
+            {
+              "geography_id": "highlands",
+              "geography_label": "Highlands",
+              "x_value": 35.36,
+              "y_value": 56217.0,
+              "size_value": 107151.0,
+              "color_value": 23.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "indian-river",
+              "geography_label": "Indian River",
+              "x_value": 34.85,
+              "y_value": 76589.0,
+              "size_value": 166936.0,
+              "color_value": 17.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "collier",
+              "geography_label": "Collier",
+              "x_value": 33.77,
+              "y_value": 90835.0,
+              "size_value": 397687.0,
+              "color_value": 11.34,
+              "metadata": {}
+            },
+            {
+              "geography_id": "martin",
+              "geography_label": "Martin",
+              "x_value": 32.93,
+              "y_value": 87694.0,
+              "size_value": 151648.0,
+              "color_value": 13.79,
+              "metadata": {}
+            },
+            {
+              "geography_id": "flagler",
+              "geography_label": "Flagler",
+              "x_value": 30.71,
+              "y_value": 77978.0,
+              "size_value": 123430.0,
+              "color_value": 16.32,
+              "metadata": {}
+            },
+            {
+              "geography_id": "lee",
+              "geography_label": "Lee",
+              "x_value": 29.0,
+              "y_value": 78524.0,
+              "size_value": 789142.0,
+              "color_value": 13.65,
+              "metadata": {}
+            },
+            {
+              "geography_id": "manatee",
+              "geography_label": "Manatee",
+              "x_value": 28.98,
+              "y_value": 83385.0,
+              "size_value": 439466.0,
+              "color_value": 15.48,
+              "metadata": {}
+            },
+            {
+              "geography_id": "palm-beach",
+              "geography_label": "Palm Beach",
+              "x_value": 24.79,
+              "y_value": 87127.0,
+              "size_value": 1524886.0,
+              "color_value": 12.29,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Priority Counties by Senior Concentration",
+          "subtitle": "Percent of population age 65+ — the addressable base for in-home care",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Population Age 65+ (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Sumter",
+              "value": 57.65,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Charlotte",
+              "value": 40.68,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sarasota",
+              "value": 37.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Citrus",
+              "value": 36.51,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Highlands",
+              "value": 35.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Indian River",
+              "value": 34.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Collier",
+              "value": 33.77,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Martin",
+              "value": 32.93,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Flagler",
+              "value": 30.71,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Lee",
+              "value": 29.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Manatee",
+              "value": 28.98,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:39:51.821534+00:00"
+}

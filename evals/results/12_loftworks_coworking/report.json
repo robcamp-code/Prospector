@@ -1,0 +1,2078 @@
+{
+  "report_id": "b9f489e8-3cc4-4fc4-a93c-1a1740447638",
+  "title": "Where Brooklyn's Freelancers Cluster: Self-Employment, Young Professionals, and Six-Figure Households",
+  "subtitle": "A Demographic Analysis of New York's Kings County / Brooklyn Urban Market",
+  "geography_type": "county",
+  "geography_value": "New York / Brooklyn, urban areas",
+  "client_profile_id": "b73c63a2-9504-48a1-831d-9ae06a2f0f60",
+  "summary": {
+    "total_population": 2631396,
+    "zip_count": 38,
+    "median_household_income": 84588.77317667124,
+    "median_age": 37.156847392030684,
+    "home_ownership_rate": null,
+    "narrative": "Brooklyn (Kings County) is home to 2.6 million residents with a median age of 37.2 and a median household income of $84,589, and roughly 17.8% of workers are self-employed county-wide — a strong base for a coworking concept aimed at freelancers. Self-employment clusters far above that average in creative, young-professional ZIPs like 11218 (26.1%), 11230 (25.6%), 11222 (24.1%), 11215 (23.6%), and 11231 (22.9%), several of which also skew heavily toward the 24-45 core (11222 has 33.2% in their 30s; 11238, 11216, and 11217 exceed 26% in their 30s). These same northwest Brooklyn neighborhoods concentrate six-figure spending power — 11215 (58.3% earning $150k+), 11201 (55.2%), 11217 (52.2%), 11231 (47.6%), and 11238 (46.2%) — marking them as prime candidates for a creative coworking location.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "Freelance Opportunity by ZIP: Self-Employment, Young Professionals, and Population",
+      "subtitle": "Bubble size = population; color = share earning $150k+",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Self-Employed (%)",
+        "y_axis_label": "Residents in 20s-40s (%)",
+        "size_label": "Population",
+        "color_label": "Households earning $150k+ (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "11218",
+          "geography_label": "11218 Brooklyn",
+          "x_value": 26.1,
+          "y_value": 40.5,
+          "size_value": 72042.0,
+          "color_value": 31.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11230",
+          "geography_label": "11230 Brooklyn",
+          "x_value": 25.6,
+          "y_value": 38.1,
+          "size_value": 86978.0,
+          "color_value": 18.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11222",
+          "geography_label": "11222 Brooklyn",
+          "x_value": 24.1,
+          "y_value": 64.8,
+          "size_value": 42853.0,
+          "color_value": 43.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11215",
+          "geography_label": "11215 Brooklyn",
+          "x_value": 23.6,
+          "y_value": 49.1,
+          "size_value": 70441.0,
+          "color_value": 58.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11231",
+          "geography_label": "11231 Brooklyn",
+          "x_value": 22.9,
+          "y_value": 47.2,
+          "size_value": 38276.0,
+          "color_value": 47.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11235",
+          "geography_label": "11235 Brooklyn",
+          "x_value": 22.9,
+          "y_value": 34.3,
+          "size_value": 78558.0,
+          "color_value": 18.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11219",
+          "geography_label": "11219 Brooklyn",
+          "x_value": 21.9,
+          "y_value": 34.7,
+          "size_value": 94196.0,
+          "color_value": 14.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11237",
+          "geography_label": "11237 Brooklyn",
+          "x_value": 21.0,
+          "y_value": 62.6,
+          "size_value": 45334.0,
+          "color_value": 23.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11201",
+          "geography_label": "11201 Brooklyn",
+          "x_value": 20.5,
+          "y_value": 54.7,
+          "size_value": 70674.0,
+          "color_value": 55.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11211",
+          "geography_label": "11211 Brooklyn",
+          "x_value": 20.5,
+          "y_value": 57.6,
+          "size_value": 65314.0,
+          "color_value": 40.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11232",
+          "geography_label": "11232 Brooklyn",
+          "x_value": 20.5,
+          "y_value": 50.7,
+          "size_value": 27816.0,
+          "color_value": 28.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11217",
+          "geography_label": "11217 Brooklyn",
+          "x_value": 20.3,
+          "y_value": 55.6,
+          "size_value": 43490.0,
+          "color_value": 52.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11238",
+          "geography_label": "11238 Brooklyn",
+          "x_value": 20.3,
+          "y_value": 56.4,
+          "size_value": 58345.0,
+          "color_value": 46.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11223",
+          "geography_label": "11223 Brooklyn",
+          "x_value": 20.1,
+          "y_value": 36.1,
+          "size_value": 78093.0,
+          "color_value": 17.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11204",
+          "geography_label": "11204 Brooklyn",
+          "x_value": 20.0,
+          "y_value": 34.6,
+          "size_value": 79800.0,
+          "color_value": 16.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11205",
+          "geography_label": "11205 Brooklyn",
+          "x_value": 19.8,
+          "y_value": 45.2,
+          "size_value": 51676.0,
+          "color_value": 34.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11214",
+          "geography_label": "11214 Brooklyn",
+          "x_value": 19.4,
+          "y_value": 37.7,
+          "size_value": 89397.0,
+          "color_value": 20.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11229",
+          "geography_label": "11229 Brooklyn",
+          "x_value": 19.0,
+          "y_value": 34.3,
+          "size_value": 78377.0,
+          "color_value": 21.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11220",
+          "geography_label": "11220 Brooklyn",
+          "x_value": 18.9,
+          "y_value": 41.6,
+          "size_value": 90652.0,
+          "color_value": 17.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11216",
+          "geography_label": "11216 Brooklyn",
+          "x_value": 18.4,
+          "y_value": 58.0,
+          "size_value": 60685.0,
+          "color_value": 32.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11209",
+          "geography_label": "11209 Brooklyn",
+          "x_value": 18.3,
+          "y_value": 40.4,
+          "size_value": 71004.0,
+          "color_value": 28.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11206",
+          "geography_label": "11206 Brooklyn",
+          "x_value": 16.8,
+          "y_value": 46.5,
+          "size_value": 93020.0,
+          "color_value": 20.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11208",
+          "geography_label": "11208 Brooklyn",
+          "x_value": 16.7,
+          "y_value": 38.6,
+          "size_value": 105428.0,
+          "color_value": 13.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11221",
+          "geography_label": "11221 Brooklyn",
+          "x_value": 16.4,
+          "y_value": 57.7,
+          "size_value": 91588.0,
+          "color_value": 26.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11225",
+          "geography_label": "11225 Brooklyn",
+          "x_value": 16.3,
+          "y_value": 47.8,
+          "size_value": 58158.0,
+          "color_value": 24.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11224",
+          "geography_label": "11224 Brooklyn",
+          "x_value": 15.8,
+          "y_value": 29.4,
+          "size_value": 50822.0,
+          "color_value": 12.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11210",
+          "geography_label": "11210 Brooklyn",
+          "x_value": 15.6,
+          "y_value": 38.5,
+          "size_value": 57915.0,
+          "color_value": 24.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11213",
+          "geography_label": "11213 Brooklyn",
+          "x_value": 15.4,
+          "y_value": 43.8,
+          "size_value": 68846.0,
+          "color_value": 17.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11226",
+          "geography_label": "11226 Brooklyn",
+          "x_value": 15.3,
+          "y_value": 48.7,
+          "size_value": 95144.0,
+          "color_value": 22.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11228",
+          "geography_label": "11228 Brooklyn",
+          "x_value": 15.2,
+          "y_value": 35.6,
+          "size_value": 42241.0,
+          "color_value": 28.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11207",
+          "geography_label": "11207 Brooklyn",
+          "x_value": 14.1,
+          "y_value": 43.0,
+          "size_value": 93198.0,
+          "color_value": 14.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11233",
+          "geography_label": "11233 Brooklyn",
+          "x_value": 13.7,
+          "y_value": 44.9,
+          "size_value": 81822.0,
+          "color_value": 16.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11212",
+          "geography_label": "11212 Brooklyn",
+          "x_value": 13.6,
+          "y_value": 39.6,
+          "size_value": 89020.0,
+          "color_value": 7.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11234",
+          "geography_label": "11234 Brooklyn",
+          "x_value": 13.3,
+          "y_value": 35.3,
+          "size_value": 83187.0,
+          "color_value": 30.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11203",
+          "geography_label": "11203 Brooklyn",
+          "x_value": 11.3,
+          "y_value": 37.5,
+          "size_value": 74817.0,
+          "color_value": 16.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11236",
+          "geography_label": "11236 Brooklyn",
+          "x_value": 10.4,
+          "y_value": 36.6,
+          "size_value": 88051.0,
+          "color_value": 20.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11239",
+          "geography_label": "11239 Brooklyn",
+          "x_value": 7.4,
+          "y_value": 32.8,
+          "size_value": 16410.0,
+          "color_value": 8.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "11249",
+          "geography_label": "11249 Brooklyn",
+          "x_value": 0.0,
+          "y_value": 51.1,
+          "size_value": 47728.0,
+          "color_value": 44.7,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Brooklyn Market at a Glance",
+      "subtitle": "Establishing the county- and city-level baseline for LoftWorks' target audience",
+      "description": "Brooklyn (Kings County) presents a demographically favorable baseline for a coworking space built for creatives and freelancers. With a median age of 37.2, the borough sits squarely inside LoftWorks' 24–45 target band, and its self-employment rate of 17.8% is notably high for a major urban market — meaning roughly one in six working residents already operates independently and represents a natural pool of hot-desk, private-studio, and podcast-booth customers. Labor force participation stands at 64.1%, indicating a large, economically active adult population from which to draw both freelancers and early-stage startup teams.\n\nOn the income side, the fundamentals support a premium coworking model. Median household income in Brooklyn is $84,589, and 40.4% of households clear the six-figure threshold — a substantial affluent base capable of paying for private studios, photography-room access, and paid evening workshops. Because Kings County and the City of Brooklyn are effectively coterminous in these results (identical population of 2,631,396 and identical age, labor, and self-employment figures), the county and city baselines reinforce a single, consistent market story rather than two separate ones.\n\nBusiness takeaway: The Brooklyn baseline validates the core LoftWorks thesis. A large working-age population concentrated near the middle of the 24–45 target range, an elevated self-employment rate, and a market where two in five households earn six figures together suggest strong latent demand for both entry-level hot desks and higher-margin private and specialty spaces. The self-employment rate in particular should anchor site-selection and messaging decisions in later sections, where ZIP-level variation reveals where these freelancers actually cluster.",
+      "demographic_category": "employment",
+      "demographic_key": "employment.self_employed",
+      "importance_weight": 85.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Brooklyn Income Base: Six-Figure Households vs. Rest",
+          "subtitle": "Share of households earning $100k+ in Brooklyn / Kings County",
+          "config": {
+            "chart_type": "pie",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "size_label": null,
+            "color_label": "Household income tier"
+          },
+          "categorical_data": [
+            {
+              "label": "Six-figure households ($100k+)",
+              "value": 40.44,
+              "percentage": 40.44,
+              "color": null
+            },
+            {
+              "label": "Households under $100k",
+              "value": 59.56,
+              "percentage": 59.56,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Key Workforce Indicators for Brooklyn",
+          "subtitle": "County/city-level rates and median age (Kings County, NY)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Indicator",
+            "y_axis_label": "Value",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Self-employed (%)",
+              "value": 17.76,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Labor force participation (%)",
+              "value": 64.14,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Six-figure households (%)",
+              "value": 40.44,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Median age (years)",
+              "value": 37.16,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Mapping the Self-Employed: Freelance Hotspots by ZIP",
+      "subtitle": "Ranking Brooklyn ZIP codes by self-employment rate to locate the densest concentrations of freelancers and independent workers",
+      "description": "Self-employment rate is the single most direct proxy in this dataset for LoftWorks' core customer: freelancers, independent designers, and remote solo workers who need flexible desk and studio space. Across Kings County (Brooklyn) as a whole, 17.8% of workers are self-employed — but that county average masks dramatic ZIP-level variation. Individual Brooklyn ZIP codes range from roughly 10% self-employed up to 26%, meaning the best-positioned neighborhoods carry a freelance density more than double that of the weakest.\n\nThree ZIPs stand out as the clearest freelance hotspots. ZIP 11218 (Kensington/Windsor Terrace area) leads at 26.1% self-employed, followed closely by 11230 (Midwood) at 25.6% and 11222 (Greenpoint) at 24.1%. Just behind them sit 11215 (Park Slope) at 23.6%, 11235 (Sheepshead Bay) at 22.9%, 11231 (Carroll Gardens/Red Hook) at 22.9%, and 11219 (Borough Park) at 21.9%. These seven ZIPs form the top tier of independent-worker concentration in the borough.\n\nThe business signal sharpens when self-employment is read alongside age profile. Several top-tier ZIPs combine high self-employment with a young-professional core in exactly LoftWorks' 24–45 target band. Greenpoint (11222) pairs 24.1% self-employment with an unusually concentrated 30s cohort (33.2% of residents in their 30s, plus 16.3% in their 20s) — a near-ideal freelancer demographic. Park Slope (11215) combines 23.6% self-employment with 23.4% of residents in their 30s. Carroll Gardens/Red Hook (11231) pairs 22.9% self-employment with 20.2% in their 30s and 17.7% in their 40s. By contrast, high-self-employment ZIPs like Midwood (11230, 25.6%) and Sheepshead Bay (11235, 22.9%) skew older and more family-oriented, making them strong on the raw freelance metric but a softer fit for an evening-workshop, creative-team offering.\n\nAt the other end, ZIPs such as 11236 (Canarsie, 10.4%), 11203 (East Flatbush, 11.3%), 11212 (Brownsville, 13.6%), 11234 (Flatlands, 13.3%), and 11239 (Starrett City, 7.4%) show the lowest independent-worker share and rank as the least attractive catchment areas for a coworking concept.\n\nRecommendation: prioritize Greenpoint (11222), Park Slope (11215), and Carroll Gardens/Red Hook (11231) as primary siting and marketing targets — each blends a top-tier self-employment rate with a young-professional age structure. Kensington (11218) merits a close look as the single highest self-employment ZIP in the borough. Treat the older-skewing high-self-employment ZIPs (11230, 11235) as secondary opportunities where messaging may need to lean more on private studios and quiet desks than on evening social workshops.",
+      "demographic_category": "employment",
+      "demographic_key": "employment.self_employed",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Top Brooklyn ZIP Codes by Self-Employment Rate",
+          "subtitle": "Percent of workers who are self-employed, highest-ranked ZIPs (Kings County average: 17.8%)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP code (neighborhood)",
+            "y_axis_label": "Self-employed (% of workers)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "11218 Kensington",
+              "value": 26.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11230 Midwood",
+              "value": 25.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11222 Greenpoint",
+              "value": 24.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11215 Park Slope",
+              "value": 23.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11235 Sheepshead Bay",
+              "value": 22.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11231 Carroll Gardens",
+              "value": 22.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11219 Borough Park",
+              "value": 21.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11237 Bushwick",
+              "value": 21.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11201 Brooklyn Heights",
+              "value": 20.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11211 Williamsburg",
+              "value": 20.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11232 Sunset Park",
+              "value": 20.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11217 Boerum Hill",
+              "value": 20.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11238 Prospect Heights",
+              "value": 20.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11223 Gravesend",
+              "value": 20.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11204 Bensonhurst",
+              "value": 20.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Distribution of Self-Employment Rates Across All Brooklyn ZIPs",
+          "subtitle": "One data point per ZIP code — shows how widely freelance density varies across the borough",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Self-employed (% of workers)",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "11208",
+              "geography_label": "11208 Cypress Hills",
+              "value": 16.7
+            },
+            {
+              "geography_id": "11226",
+              "geography_label": "11226 Flatbush",
+              "value": 15.3
+            },
+            {
+              "geography_id": "11219",
+              "geography_label": "11219 Borough Park",
+              "value": 21.9
+            },
+            {
+              "geography_id": "11207",
+              "geography_label": "11207 East New York",
+              "value": 14.1
+            },
+            {
+              "geography_id": "11206",
+              "geography_label": "11206 Williamsburg S.",
+              "value": 16.8
+            },
+            {
+              "geography_id": "11221",
+              "geography_label": "11221 Bed-Stuy",
+              "value": 16.4
+            },
+            {
+              "geography_id": "11220",
+              "geography_label": "11220 Sunset Park",
+              "value": 18.9
+            },
+            {
+              "geography_id": "11214",
+              "geography_label": "11214 Bath Beach",
+              "value": 19.4
+            },
+            {
+              "geography_id": "11212",
+              "geography_label": "11212 Brownsville",
+              "value": 13.6
+            },
+            {
+              "geography_id": "11236",
+              "geography_label": "11236 Canarsie",
+              "value": 10.4
+            },
+            {
+              "geography_id": "11230",
+              "geography_label": "11230 Midwood",
+              "value": 25.6
+            },
+            {
+              "geography_id": "11234",
+              "geography_label": "11234 Flatlands",
+              "value": 13.3
+            },
+            {
+              "geography_id": "11233",
+              "geography_label": "11233 Bed-Stuy E.",
+              "value": 13.7
+            },
+            {
+              "geography_id": "11204",
+              "geography_label": "11204 Bensonhurst",
+              "value": 20.0
+            },
+            {
+              "geography_id": "11235",
+              "geography_label": "11235 Sheepshead Bay",
+              "value": 22.9
+            },
+            {
+              "geography_id": "11229",
+              "geography_label": "11229 Homecrest",
+              "value": 19.0
+            },
+            {
+              "geography_id": "11223",
+              "geography_label": "11223 Gravesend",
+              "value": 20.1
+            },
+            {
+              "geography_id": "11203",
+              "geography_label": "11203 East Flatbush",
+              "value": 11.3
+            },
+            {
+              "geography_id": "11218",
+              "geography_label": "11218 Kensington",
+              "value": 26.1
+            },
+            {
+              "geography_id": "11209",
+              "geography_label": "11209 Bay Ridge",
+              "value": 18.3
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201 Brooklyn Heights",
+              "value": 20.5
+            },
+            {
+              "geography_id": "11215",
+              "geography_label": "11215 Park Slope",
+              "value": 23.6
+            },
+            {
+              "geography_id": "11213",
+              "geography_label": "11213 Crown Heights",
+              "value": 15.4
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211 Williamsburg",
+              "value": 20.5
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216 Bed-Stuy W.",
+              "value": 18.4
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238 Prospect Heights",
+              "value": 20.3
+            },
+            {
+              "geography_id": "11225",
+              "geography_label": "11225 Prospect-Lefferts",
+              "value": 16.3
+            },
+            {
+              "geography_id": "11210",
+              "geography_label": "11210 Midwood E.",
+              "value": 15.6
+            },
+            {
+              "geography_id": "11205",
+              "geography_label": "11205 Clinton Hill",
+              "value": 19.8
+            },
+            {
+              "geography_id": "11224",
+              "geography_label": "11224 Coney Island",
+              "value": 15.8
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237 Bushwick",
+              "value": 21.0
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217 Boerum Hill",
+              "value": 20.3
+            },
+            {
+              "geography_id": "11222",
+              "geography_label": "11222 Greenpoint",
+              "value": 24.1
+            },
+            {
+              "geography_id": "11228",
+              "geography_label": "11228 Dyker Heights",
+              "value": 15.2
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231 Carroll Gardens",
+              "value": 22.9
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232 Sunset Park E.",
+              "value": 20.5
+            },
+            {
+              "geography_id": "11239",
+              "geography_label": "11239 Starrett City",
+              "value": 7.4
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-3",
+          "title": "Freelance Density vs. Young-Professional Share by ZIP",
+          "subtitle": "X: self-employment rate, Y: share of residents in their 20s+30s, bubble size: population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Self-employed (% of workers)",
+            "y_axis_label": "Residents in 20s + 30s (%)",
+            "size_label": "Population",
+            "color_label": "Residents in 20s + 30s (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "11222",
+              "geography_label": "11222 Greenpoint",
+              "x_value": 24.1,
+              "y_value": 49.5,
+              "size_value": 42853.0,
+              "color_value": 49.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11215",
+              "geography_label": "11215 Park Slope",
+              "x_value": 23.6,
+              "y_value": 33.6,
+              "size_value": 70441.0,
+              "color_value": 33.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231 Carroll Gardens",
+              "x_value": 22.9,
+              "y_value": 29.5,
+              "size_value": 38276.0,
+              "color_value": 29.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11218",
+              "geography_label": "11218 Kensington",
+              "x_value": 26.1,
+              "y_value": 26.5,
+              "size_value": 72042.0,
+              "color_value": 26.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11230",
+              "geography_label": "11230 Midwood",
+              "x_value": 25.6,
+              "y_value": 26.4,
+              "size_value": 86978.0,
+              "color_value": 26.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11235",
+              "geography_label": "11235 Sheepshead Bay",
+              "x_value": 22.9,
+              "y_value": 22.5,
+              "size_value": 78558.0,
+              "color_value": 22.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11219",
+              "geography_label": "11219 Borough Park",
+              "x_value": 21.9,
+              "y_value": 24.7,
+              "size_value": 94196.0,
+              "color_value": 24.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237 Bushwick",
+              "x_value": 21.0,
+              "y_value": 47.4,
+              "size_value": 45334.0,
+              "color_value": 47.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211 Williamsburg",
+              "x_value": 20.5,
+              "y_value": 46.1,
+              "size_value": 65314.0,
+              "color_value": 46.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201 Brooklyn Heights",
+              "x_value": 20.5,
+              "y_value": 42.1,
+              "size_value": 70674.0,
+              "color_value": 42.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238 Prospect Heights",
+              "x_value": 20.3,
+              "y_value": 42.5,
+              "size_value": 58345.0,
+              "color_value": 42.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217 Boerum Hill",
+              "x_value": 20.3,
+              "y_value": 40.2,
+              "size_value": 43490.0,
+              "color_value": 40.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232 Sunset Park E.",
+              "x_value": 20.5,
+              "y_value": 33.8,
+              "size_value": 27816.0,
+              "color_value": 33.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216 Bed-Stuy W.",
+              "x_value": 18.4,
+              "y_value": 45.7,
+              "size_value": 60685.0,
+              "color_value": 45.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11236",
+              "geography_label": "11236 Canarsie",
+              "x_value": 10.4,
+              "y_value": 24.7,
+              "size_value": 88051.0,
+              "color_value": 24.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11239",
+              "geography_label": "11239 Starrett City",
+              "x_value": 7.4,
+              "y_value": 21.3,
+              "size_value": 16410.0,
+              "color_value": 21.3,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Age Profile: Finding the 24-45 Core",
+      "subtitle": "Where Brooklyn's 20s and 30s residents concentrate — the demographic engine for a creative coworking space",
+      "description": "LoftWorks Creative Coworking targets freelancers, remote workers, designers, and early-stage startup teams aged 24-45. Because the age.distribution metric is bucketed by decade, the tightest available proxy for this target is the combined share of residents in their 20s and 30s, with the 40s bucket as an adjacent contributor. This section ranks Brooklyn ZIP codes by that combined concentration to identify the neighborhoods where the client's core audience is densest.\n\nThe standout cluster sits in North and Northwest Brooklyn. ZIP 11222 (Greenpoint) leads decisively, with 16.3% of residents in their 20s and 33.2% in their 30s — a combined 49.5% concentration, the highest in the borough. It is followed closely by 11216 (Bedford-Stuyvesant) at 45.7% (19.4% 20s + 26.3% 30s), 11211 (Williamsburg) at 46.1% (21.4% + 24.7%), 11238 (Prospect Heights) at 42.5% (15.4% + 27.1%), and 11237 (Bushwick) at 47.4% (24.7% + 22.7%). Downtown-adjacent 11201 (Brooklyn Heights / DUMBO) and 11217 (Boerum Hill) also post strong readings at 42.1% and 40.2% respectively.\n\nWhen the adjacent 40s bucket is added, the north-Brooklyn corridor extends its lead further: 11222 reaches 64.8% of residents aged 20-49, and 11237 reaches 62.6%. These are the neighborhoods where the density of the 24-45 audience is greatest, making them the priority zones for a flagship location, satellite desks, or targeted evening-workshop marketing.\n\nBy contrast, the outer-borough ZIPs skew notably older and thinner on the target segment. 11239 (13.0% in their 70s, 11.3% aged 80+) and 11224 (Coney Island; 11.0% 70s, 8.3% 80+) show the weakest young-professional concentrations and should be deprioritized for this concept.\n\nBusiness takeaway: the client's audience is not evenly spread across Brooklyn — it is heavily concentrated in a contiguous North/Northwest cluster (Greenpoint, Williamsburg, Bushwick, Bed-Stuy, Prospect Heights, and the Downtown Brooklyn fringe). Siting and marketing spend should follow this cluster, where nearly half of all residents fall within the coworking space's prime age band.",
+      "demographic_category": "Age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Combined Share of Residents in Their 20s and 30s, Top Brooklyn ZIPs",
+          "subtitle": "Sum of the 20s and 30s age buckets — the tightest available proxy for the 24-45 target",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP code (neighborhood)",
+            "y_axis_label": "Residents aged 20-39 (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "11222 Greenpoint",
+              "value": 49.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11237 Bushwick",
+              "value": 47.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11211 Williamsburg",
+              "value": 46.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11216 Bed-Stuy",
+              "value": 45.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11217 Boerum Hill",
+              "value": 40.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11238 Prospect Hts",
+              "value": 42.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11201 Bklyn Hts/DUMBO",
+              "value": 42.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11221 Bushwick/Bed-Stuy",
+              "value": 45.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11215 Park Slope",
+              "value": 33.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "11249 Williamsburg N",
+              "value": 40.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Distribution of Young-Professional Concentration Across All Brooklyn ZIPs",
+          "subtitle": "Each point is one ZIP: combined percentage of residents in their 20s and 30s",
+          "config": {
+            "chart_type": "violin",
+            "x_axis_label": null,
+            "y_axis_label": "Residents aged 20-39 (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "11208",
+              "geography_label": "11208",
+              "value": 27.2
+            },
+            {
+              "geography_id": "11226",
+              "geography_label": "11226",
+              "value": 35.0
+            },
+            {
+              "geography_id": "11219",
+              "geography_label": "11219",
+              "value": 24.7
+            },
+            {
+              "geography_id": "11207",
+              "geography_label": "11207",
+              "value": 30.3
+            },
+            {
+              "geography_id": "11206",
+              "geography_label": "11206",
+              "value": 37.0
+            },
+            {
+              "geography_id": "11221",
+              "geography_label": "11221",
+              "value": 45.6
+            },
+            {
+              "geography_id": "11220",
+              "geography_label": "11220",
+              "value": 27.1
+            },
+            {
+              "geography_id": "11214",
+              "geography_label": "11214",
+              "value": 24.5
+            },
+            {
+              "geography_id": "11212",
+              "geography_label": "11212",
+              "value": 28.7
+            },
+            {
+              "geography_id": "11236",
+              "geography_label": "11236",
+              "value": 24.7
+            },
+            {
+              "geography_id": "11230",
+              "geography_label": "11230",
+              "value": 26.4
+            },
+            {
+              "geography_id": "11234",
+              "geography_label": "11234",
+              "value": 23.4
+            },
+            {
+              "geography_id": "11233",
+              "geography_label": "11233",
+              "value": 32.9
+            },
+            {
+              "geography_id": "11204",
+              "geography_label": "11204",
+              "value": 22.9
+            },
+            {
+              "geography_id": "11235",
+              "geography_label": "11235",
+              "value": 22.5
+            },
+            {
+              "geography_id": "11229",
+              "geography_label": "11229",
+              "value": 23.3
+            },
+            {
+              "geography_id": "11223",
+              "geography_label": "11223",
+              "value": 24.4
+            },
+            {
+              "geography_id": "11203",
+              "geography_label": "11203",
+              "value": 24.7
+            },
+            {
+              "geography_id": "11218",
+              "geography_label": "11218",
+              "value": 26.5
+            },
+            {
+              "geography_id": "11209",
+              "geography_label": "11209",
+              "value": 27.0
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201",
+              "value": 42.1
+            },
+            {
+              "geography_id": "11215",
+              "geography_label": "11215",
+              "value": 33.6
+            },
+            {
+              "geography_id": "11213",
+              "geography_label": "11213",
+              "value": 31.8
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211",
+              "value": 46.1
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216",
+              "value": 45.7
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238",
+              "value": 42.5
+            },
+            {
+              "geography_id": "11225",
+              "geography_label": "11225",
+              "value": 34.7
+            },
+            {
+              "geography_id": "11210",
+              "geography_label": "11210",
+              "value": 25.5
+            },
+            {
+              "geography_id": "11205",
+              "geography_label": "11205",
+              "value": 33.1
+            },
+            {
+              "geography_id": "11224",
+              "geography_label": "11224",
+              "value": 19.8
+            },
+            {
+              "geography_id": "11249",
+              "geography_label": "11249",
+              "value": 40.0
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237",
+              "value": 47.4
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217",
+              "value": 40.2
+            },
+            {
+              "geography_id": "11222",
+              "geography_label": "11222",
+              "value": 49.5
+            },
+            {
+              "geography_id": "11228",
+              "geography_label": "11228",
+              "value": 23.4
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231",
+              "value": 29.5
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232",
+              "value": 33.8
+            },
+            {
+              "geography_id": "11239",
+              "geography_label": "11239",
+              "value": 21.3
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Income and Spending Power by Neighborhood",
+      "subtitle": "Which freelancer-rich Brooklyn ZIP codes carry the household income to sustain paid memberships, studio rentals, and workshops",
+      "description": "Across Brooklyn (Kings County), the median household income is $84,589 and 40.4% of households earn six figures or more — a strong baseline for a membership-based creative space. But that spending power is highly uneven across ZIP codes, and identifying where high self-employment overlaps with high household income is the key to siting LoftWorks and pricing its offerings.\n\nThe first visualization plots the share of households earning $150K or more in each Brooklyn ZIP code (drawn from income.distribution in Result 3). A tight cluster of ZIPs stands well above the borough-wide six-figure share of 40.4%. The affluent brownstone and waterfront neighborhoods lead decisively: 11215 (58.3% of households at $150K+), 11201 (55.2%), 11217 (52.2%), 11231 (47.6%), 11238 (46.2%), 11249 (44.7%), and 11222 (43.4%). These are the ZIP codes where paid memberships, private studios, and premium add-ons like the photography room and podcast booths are most easily supported by disposable income.\n\nThe second visualization pairs the top-earning share against self-employment on a bubble chart, with population sizing each area. This surfaces the sweet spot: ZIP codes that are BOTH freelancer-dense and high-income. 11215 combines a 58.3% $150K+ share with 23.6% self-employment; 11231 pairs 47.6% at $150K+ with 22.9% self-employment; 11222 shows 43.4% at $150K+ with 24.1% self-employment; and 11201 offers 55.2% at $150K+ with 20.5% self-employment. These neighborhoods represent the clearest commercial fit — a concentration of independent workers with the means to pay for premium coworking.\n\nBy contrast, some freelancer-heavy ZIPs carry weaker spending power. 11218 has the borough's highest self-employment (26.1%) but a comparatively modest 31.6% at $150K+, while 11230 (25.6% self-employed, 18.6% at $150K+) skews toward lower earnings — signaling these areas may support hot desks and workshop attendance more than premium studio commitments. Lower-income ZIPs such as 11212 (only 7.9% at $150K+) and 11239 (8.9%) fall below the threshold where paid creative memberships are broadly affordable.\n\nBusiness takeaway: The overlap of high income and high self-employment points to the North/Northwest Brooklyn corridor — Park Slope/Gowanus (11215), DUMBO/Brooklyn Heights (11201), Boerum Hill (11217), Carroll Gardens/Red Hook (11231), Prospect Heights (11238), Williamsburg (11249, 11222) — as the strongest catchment for full-price memberships and studio rentals. Freelancer-dense but lower-income ZIPs are better targeted with entry-level hot-desk pricing and evening workshops.",
+      "demographic_category": "income",
+      "demographic_key": "income.distribution",
+      "importance_weight": 80.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Share of Households Earning $150K+ by Brooklyn ZIP Code",
+          "subtitle": "From income.distribution; borough six-figure share is 40.4% (Result 2)",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "% of households earning $150K+",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "11208",
+              "geography_label": "11208",
+              "value": 13.9
+            },
+            {
+              "geography_id": "11226",
+              "geography_label": "11226",
+              "value": 22.7
+            },
+            {
+              "geography_id": "11219",
+              "geography_label": "11219",
+              "value": 14.9
+            },
+            {
+              "geography_id": "11207",
+              "geography_label": "11207",
+              "value": 14.3
+            },
+            {
+              "geography_id": "11206",
+              "geography_label": "11206",
+              "value": 20.6
+            },
+            {
+              "geography_id": "11221",
+              "geography_label": "11221",
+              "value": 26.1
+            },
+            {
+              "geography_id": "11220",
+              "geography_label": "11220",
+              "value": 17.1
+            },
+            {
+              "geography_id": "11214",
+              "geography_label": "11214",
+              "value": 20.3
+            },
+            {
+              "geography_id": "11212",
+              "geography_label": "11212",
+              "value": 7.9
+            },
+            {
+              "geography_id": "11236",
+              "geography_label": "11236",
+              "value": 20.7
+            },
+            {
+              "geography_id": "11230",
+              "geography_label": "11230",
+              "value": 18.6
+            },
+            {
+              "geography_id": "11234",
+              "geography_label": "11234",
+              "value": 30.9
+            },
+            {
+              "geography_id": "11233",
+              "geography_label": "11233",
+              "value": 16.9
+            },
+            {
+              "geography_id": "11204",
+              "geography_label": "11204",
+              "value": 16.3
+            },
+            {
+              "geography_id": "11235",
+              "geography_label": "11235",
+              "value": 18.0
+            },
+            {
+              "geography_id": "11229",
+              "geography_label": "11229",
+              "value": 21.8
+            },
+            {
+              "geography_id": "11223",
+              "geography_label": "11223",
+              "value": 17.6
+            },
+            {
+              "geography_id": "11203",
+              "geography_label": "11203",
+              "value": 16.4
+            },
+            {
+              "geography_id": "11218",
+              "geography_label": "11218",
+              "value": 31.6
+            },
+            {
+              "geography_id": "11209",
+              "geography_label": "11209",
+              "value": 28.4
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201",
+              "value": 55.2
+            },
+            {
+              "geography_id": "11215",
+              "geography_label": "11215",
+              "value": 58.3
+            },
+            {
+              "geography_id": "11213",
+              "geography_label": "11213",
+              "value": 17.0
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211",
+              "value": 40.1
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216",
+              "value": 32.5
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238",
+              "value": 46.2
+            },
+            {
+              "geography_id": "11225",
+              "geography_label": "11225",
+              "value": 24.3
+            },
+            {
+              "geography_id": "11210",
+              "geography_label": "11210",
+              "value": 24.0
+            },
+            {
+              "geography_id": "11205",
+              "geography_label": "11205",
+              "value": 34.0
+            },
+            {
+              "geography_id": "11224",
+              "geography_label": "11224",
+              "value": 12.5
+            },
+            {
+              "geography_id": "11249",
+              "geography_label": "11249",
+              "value": 44.7
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237",
+              "value": 23.7
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217",
+              "value": 52.2
+            },
+            {
+              "geography_id": "11222",
+              "geography_label": "11222",
+              "value": 43.4
+            },
+            {
+              "geography_id": "11228",
+              "geography_label": "11228",
+              "value": 28.2
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231",
+              "value": 47.6
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232",
+              "value": 28.3
+            },
+            {
+              "geography_id": "11239",
+              "geography_label": "11239",
+              "value": 8.9
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Spending Power vs. Self-Employment by ZIP Code",
+          "subtitle": "$150K+ household share vs. self-employment rate; bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Self-employed (%)",
+            "y_axis_label": "% of households earning $150K+",
+            "size_label": "Population",
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "11215",
+              "geography_label": "11215 (Park Slope/Gowanus)",
+              "x_value": 23.6,
+              "y_value": 58.3,
+              "size_value": 70441.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201 (DUMBO/Bklyn Heights)",
+              "x_value": 20.5,
+              "y_value": 55.2,
+              "size_value": 70674.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217 (Boerum Hill)",
+              "x_value": 20.3,
+              "y_value": 52.2,
+              "size_value": 43490.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231 (Carroll Gardens/Red Hook)",
+              "x_value": 22.9,
+              "y_value": 47.6,
+              "size_value": 38276.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238 (Prospect Heights)",
+              "x_value": 20.3,
+              "y_value": 46.2,
+              "size_value": 58345.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11249",
+              "geography_label": "11249 (Williamsburg waterfront)",
+              "x_value": 0.0,
+              "y_value": 44.7,
+              "size_value": 47728.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11222",
+              "geography_label": "11222 (Greenpoint)",
+              "x_value": 24.1,
+              "y_value": 43.4,
+              "size_value": 42853.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211 (Williamsburg)",
+              "x_value": 20.5,
+              "y_value": 40.1,
+              "size_value": 65314.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11205",
+              "geography_label": "11205 (Clinton Hill)",
+              "x_value": 19.8,
+              "y_value": 34.0,
+              "size_value": 51676.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216 (Bed-Stuy/Crown Hts)",
+              "x_value": 18.4,
+              "y_value": 32.5,
+              "size_value": 60685.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11218",
+              "geography_label": "11218 (Kensington)",
+              "x_value": 26.1,
+              "y_value": 31.6,
+              "size_value": 72042.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11209",
+              "geography_label": "11209 (Bay Ridge)",
+              "x_value": 18.3,
+              "y_value": 28.4,
+              "size_value": 71004.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232 (Sunset Park/Greenwood)",
+              "x_value": 20.5,
+              "y_value": 28.3,
+              "size_value": 27816.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11228",
+              "geography_label": "11228 (Dyker Heights)",
+              "x_value": 15.2,
+              "y_value": 28.2,
+              "size_value": 42241.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11234",
+              "geography_label": "11234 (Marine Park/Flatlands)",
+              "x_value": 13.3,
+              "y_value": 30.9,
+              "size_value": 83187.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237 (Bushwick)",
+              "x_value": 21.0,
+              "y_value": 23.7,
+              "size_value": 45334.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11221",
+              "geography_label": "11221 (Bushwick/Bed-Stuy)",
+              "x_value": 16.4,
+              "y_value": 26.1,
+              "size_value": 91588.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11230",
+              "geography_label": "11230 (Midwood)",
+              "x_value": 25.6,
+              "y_value": 18.6,
+              "size_value": 86978.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11225",
+              "geography_label": "11225 (Prospect Lefferts)",
+              "x_value": 16.3,
+              "y_value": 24.3,
+              "size_value": 58158.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11212",
+              "geography_label": "11212 (Brownsville)",
+              "x_value": 13.6,
+              "y_value": 7.9,
+              "size_value": 89020.0,
+              "color_value": null,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Priority Neighborhoods and Positioning Recommendations",
+      "subtitle": "Shortlisting Brooklyn ZIP codes that combine young-professional density, high freelance rates, and income capacity",
+      "description": "This section synthesizes three signals from the ZIP-level query results — the share of residents in their 20s and 30s (LoftWorks' 24–45 target band), the self-employed rate (a direct proxy for freelancer demand), and the share of households earning $100k+ (membership affordability) — to identify the strongest candidate neighborhoods for a LoftWorks Creative Coworking location.",
+      "demographic_category": "composite (age, self-employment, income)",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Young-Professional Density vs. Self-Employment Across Brooklyn ZIPs",
+          "subtitle": "X = share of residents in their 20s+30s; Y = self-employed rate; bubble size = population; color = share of households earning $100k+",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Residents in 20s + 30s (%)",
+            "y_axis_label": "Self-Employed (%)",
+            "size_label": "Population",
+            "color_label": "Households $100k+ (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "11222",
+              "geography_label": "11222 Greenpoint",
+              "x_value": 49.5,
+              "y_value": 24.1,
+              "size_value": 42853.0,
+              "color_value": 61.2,
+              "metadata": {
+                "20s": 16.3,
+                "30s": 33.2
+              }
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211 Williamsburg",
+              "x_value": 46.1,
+              "y_value": 20.5,
+              "size_value": 65314.0,
+              "color_value": 52.1,
+              "metadata": {
+                "20s": 21.4,
+                "30s": 24.7
+              }
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216 Bed-Stuy/Crown Hts",
+              "x_value": 45.7,
+              "y_value": 18.4,
+              "size_value": 60685.0,
+              "color_value": 50.8,
+              "metadata": {
+                "20s": 19.4,
+                "30s": 26.3
+              }
+            },
+            {
+              "geography_id": "11221",
+              "geography_label": "11221 Bushwick/Bed-Stuy",
+              "x_value": 45.6,
+              "y_value": 16.4,
+              "size_value": 91588.0,
+              "color_value": 42.8,
+              "metadata": {
+                "20s": 22.9,
+                "30s": 22.7
+              }
+            },
+            {
+              "geography_id": "11249",
+              "geography_label": "11249 Williamsburg waterfront",
+              "x_value": 40.0,
+              "y_value": 0.0,
+              "size_value": 47728.0,
+              "color_value": 57.0,
+              "metadata": {
+                "20s": 17.4,
+                "30s": 22.6,
+                "note": "self_employed reported as 0.0 (likely missing)"
+              }
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238 Prospect Heights",
+              "x_value": 42.5,
+              "y_value": 20.3,
+              "size_value": 58345.0,
+              "color_value": 62.7,
+              "metadata": {
+                "20s": 15.4,
+                "30s": 27.1
+              }
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217 Boerum Hill",
+              "x_value": 40.2,
+              "y_value": 20.3,
+              "size_value": 43490.0,
+              "color_value": 64.5,
+              "metadata": {
+                "20s": 14.0,
+                "30s": 26.2
+              }
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201 Brooklyn Heights/DUMBO",
+              "x_value": 42.1,
+              "y_value": 20.5,
+              "size_value": 70674.0,
+              "color_value": 68.9,
+              "metadata": {
+                "20s": 17.6,
+                "30s": 24.5
+              }
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237 Bushwick",
+              "x_value": 47.4,
+              "y_value": 21.0,
+              "size_value": 45334.0,
+              "color_value": 41.7,
+              "metadata": {
+                "20s": 24.7,
+                "30s": 22.7
+              }
+            },
+            {
+              "geography_id": "11206",
+              "geography_label": "11206 East Williamsburg",
+              "x_value": 37.0,
+              "y_value": 16.8,
+              "size_value": 93020.0,
+              "color_value": 34.7,
+              "metadata": {
+                "20s": 19.4,
+                "30s": 17.6
+              }
+            },
+            {
+              "geography_id": "11215",
+              "geography_label": "11215 Park Slope",
+              "x_value": 33.6,
+              "y_value": 23.6,
+              "size_value": 70441.0,
+              "color_value": 73.5,
+              "metadata": {
+                "20s": 10.2,
+                "30s": 23.4
+              }
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231 Carroll Gardens/Red Hook",
+              "x_value": 29.5,
+              "y_value": 22.9,
+              "size_value": 38276.0,
+              "color_value": 60.4,
+              "metadata": {
+                "20s": 9.3,
+                "30s": 20.2
+              }
+            },
+            {
+              "geography_id": "11225",
+              "geography_label": "11225 Prospect Lefferts",
+              "x_value": 34.7,
+              "y_value": 16.3,
+              "size_value": 58158.0,
+              "color_value": 43.2,
+              "metadata": {
+                "20s": 16.5,
+                "30s": 18.2
+              }
+            },
+            {
+              "geography_id": "11205",
+              "geography_label": "11205 Clinton Hill",
+              "x_value": 33.1,
+              "y_value": 19.8,
+              "size_value": 51676.0,
+              "color_value": 48.7,
+              "metadata": {
+                "20s": 13.9,
+                "30s": 19.2
+              }
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232 Sunset Park/Greenwood",
+              "x_value": 33.8,
+              "y_value": 20.5,
+              "size_value": 27816.0,
+              "color_value": 43.1,
+              "metadata": {
+                "20s": 12.4,
+                "30s": 21.4
+              }
+            },
+            {
+              "geography_id": "11213",
+              "geography_label": "11213 Crown Heights",
+              "x_value": 31.8,
+              "y_value": 15.4,
+              "size_value": 68846.0,
+              "color_value": 33.2,
+              "metadata": {
+                "20s": 15.6,
+                "30s": 16.2
+              }
+            },
+            {
+              "geography_id": "11233",
+              "geography_label": "11233 Ocean Hill/Stuyvesant",
+              "x_value": 32.9,
+              "y_value": 13.7,
+              "size_value": 81822.0,
+              "color_value": 31.7,
+              "metadata": {
+                "20s": 16.4,
+                "30s": 16.5
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Distribution of Self-Employment Rates Across Brooklyn ZIPs",
+          "subtitle": "One data point per ZIP code; shows where the freelance-heavy neighborhoods sit relative to the borough",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Self-Employed (%)",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "11208",
+              "geography_label": "11208",
+              "value": 16.7
+            },
+            {
+              "geography_id": "11226",
+              "geography_label": "11226",
+              "value": 15.3
+            },
+            {
+              "geography_id": "11219",
+              "geography_label": "11219",
+              "value": 21.9
+            },
+            {
+              "geography_id": "11207",
+              "geography_label": "11207",
+              "value": 14.1
+            },
+            {
+              "geography_id": "11206",
+              "geography_label": "11206",
+              "value": 16.8
+            },
+            {
+              "geography_id": "11221",
+              "geography_label": "11221",
+              "value": 16.4
+            },
+            {
+              "geography_id": "11220",
+              "geography_label": "11220",
+              "value": 18.9
+            },
+            {
+              "geography_id": "11214",
+              "geography_label": "11214",
+              "value": 19.4
+            },
+            {
+              "geography_id": "11212",
+              "geography_label": "11212",
+              "value": 13.6
+            },
+            {
+              "geography_id": "11236",
+              "geography_label": "11236",
+              "value": 10.4
+            },
+            {
+              "geography_id": "11230",
+              "geography_label": "11230",
+              "value": 25.6
+            },
+            {
+              "geography_id": "11234",
+              "geography_label": "11234",
+              "value": 13.3
+            },
+            {
+              "geography_id": "11233",
+              "geography_label": "11233",
+              "value": 13.7
+            },
+            {
+              "geography_id": "11204",
+              "geography_label": "11204",
+              "value": 20.0
+            },
+            {
+              "geography_id": "11235",
+              "geography_label": "11235",
+              "value": 22.9
+            },
+            {
+              "geography_id": "11229",
+              "geography_label": "11229",
+              "value": 19.0
+            },
+            {
+              "geography_id": "11223",
+              "geography_label": "11223",
+              "value": 20.1
+            },
+            {
+              "geography_id": "11203",
+              "geography_label": "11203",
+              "value": 11.3
+            },
+            {
+              "geography_id": "11218",
+              "geography_label": "11218",
+              "value": 26.1
+            },
+            {
+              "geography_id": "11209",
+              "geography_label": "11209",
+              "value": 18.3
+            },
+            {
+              "geography_id": "11201",
+              "geography_label": "11201",
+              "value": 20.5
+            },
+            {
+              "geography_id": "11215",
+              "geography_label": "11215",
+              "value": 23.6
+            },
+            {
+              "geography_id": "11213",
+              "geography_label": "11213",
+              "value": 15.4
+            },
+            {
+              "geography_id": "11211",
+              "geography_label": "11211",
+              "value": 20.5
+            },
+            {
+              "geography_id": "11216",
+              "geography_label": "11216",
+              "value": 18.4
+            },
+            {
+              "geography_id": "11238",
+              "geography_label": "11238",
+              "value": 20.3
+            },
+            {
+              "geography_id": "11225",
+              "geography_label": "11225",
+              "value": 16.3
+            },
+            {
+              "geography_id": "11210",
+              "geography_label": "11210",
+              "value": 15.6
+            },
+            {
+              "geography_id": "11205",
+              "geography_label": "11205",
+              "value": 19.8
+            },
+            {
+              "geography_id": "11224",
+              "geography_label": "11224",
+              "value": 15.8
+            },
+            {
+              "geography_id": "11237",
+              "geography_label": "11237",
+              "value": 21.0
+            },
+            {
+              "geography_id": "11217",
+              "geography_label": "11217",
+              "value": 20.3
+            },
+            {
+              "geography_id": "11222",
+              "geography_label": "11222",
+              "value": 24.1
+            },
+            {
+              "geography_id": "11228",
+              "geography_label": "11228",
+              "value": 15.2
+            },
+            {
+              "geography_id": "11231",
+              "geography_label": "11231",
+              "value": 22.9
+            },
+            {
+              "geography_id": "11232",
+              "geography_label": "11232",
+              "value": 20.5
+            },
+            {
+              "geography_id": "11239",
+              "geography_label": "11239",
+              "value": 7.4
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:48:53.229193+00:00"
+}

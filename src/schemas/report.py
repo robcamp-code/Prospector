@@ -98,6 +98,31 @@ class ReportSection(BaseModel):
 
 
 # =============================================================================
+# Report Outline (planning step — never persisted or returned by the API)
+# =============================================================================
+
+
+class SectionOutline(BaseModel):
+    """Planned report section: its heading and what data story it should tell."""
+
+    title: str
+    focus: str = Field(
+        description=(
+            "One or two sentences: the story this section tells and which "
+            "query result blocks and metrics it should draw on."
+        )
+    )
+
+
+class ReportOutline(BaseModel):
+    """Report skeleton produced before any section is written."""
+
+    title: str
+    subtitle: str
+    sections: list[SectionOutline] = Field(min_length=1, max_length=5)
+
+
+# =============================================================================
 # Report Summary
 # =============================================================================
 

@@ -40,9 +40,12 @@ async def get_aggregation(
     metric_selectors,
     region=None,
     state=None,
+    states=None,
     county=None,
     cbsa=None,
     city=None,
+    min_density=None,
+    max_density=None,
     sort_by=None,
     sort_dir="desc",
     limit=50,
@@ -59,9 +62,12 @@ async def get_aggregation(
         metric_selectors: List of 'category.metric' strings
         region: Optional region name
         state: Optional state name
+        states: Optional list of state names (state_name IN (...))
         county: Optional county name
         cbsa: Optional CBSA name
         city: Optional city name
+        min_density: Optional ZIP-row density floor (people/km², applied before grouping)
+        max_density: Optional ZIP-row density ceiling (people/km², applied before grouping)
         sort_by: Optional column to sort by
         sort_dir: Sort direction ('asc' or 'desc')
         limit: Number of rows to return (1-1000)
@@ -80,9 +86,12 @@ async def get_aggregation(
         offset=offset,
         region=region,
         state=state,
+        states=states,
         county=county,
         cbsa=cbsa,
         city=city,
+        min_density=min_density,
+        max_density=max_density,
     )
     return await builder.execute()
 

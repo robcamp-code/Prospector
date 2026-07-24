@@ -92,6 +92,70 @@ async def test_metric_column_builder():
         builder.add_metric("invalid_category", "metric")
 
 
+def _compiled_sql(stmt) -> str:
+    return str(stmt.compile(compile_kwargs={"literal_binds": True}))
+
+
+def test_density_filter_sql():
+    """min/max_density become ZIP-row WHERE clauses that exclude NULL density."""
+    from sqlalchemy import select
+    from src.core.database import USZip
+
+    filters = GeographicFilters(min_density=1500.0, max_density=3000.0)
+    sql = _compiled_sql(filters.apply_to_statement(select(USZip.zip)))
+
+    assert "density IS NOT NULL" in sql
+    assert "density >= 1500.0" in sql
+    assert "density < 3000.0" in sql
+
+
+def test_states_list_filter_sql():
+    """states list becomes state_name IN (...)."""
+    from sqlalchemy import select
+    from src.core.database import USZip
+
+    filters = GeographicFilters(states=["Georgia", "Florida"])
+    sql = _compiled_sql(filters.apply_to_statement(select(USZip.zip)))
+
+    assert "state_name IN" in sql
+    assert "Georgia" in sql
+    assert "Florida" in sql
+
+
+def test_builder_passes_density_and_states_through():
+    """AggregationQueryBuilder forwards states/min_density/max_density filter kwargs."""
+    from unittest.mock import MagicMock
+
+    builder = AggregationQueryBuilder(
+        session=MagicMock(),
+        group_by=GeographyLevel.COUNTY,
+        metric_selectors=["income.median_household_income"],
+        states=["Georgia"],
+        min_density=1500.0,
+    )
+    assert builder.filters.states == ["Georgia"]
+    assert builder.filters.min_density == 1500.0
+
+    sql = _compiled_sql(builder.build_statement())
+    assert "state_name IN" in sql
+    assert "density >= 1500.0" in sql
+
+
+def test_unknown_metric_error_lists_valid_selectors():
+    """A bad metric guess gets an error naming the valid selectors (regression:
+    the agent burned ~10 calls guessing education metric names)."""
+    from fastapi import HTTPException
+    from src.core.services.zips.aggregation import _parse_metric_selector
+
+    with pytest.raises(HTTPException) as exc_info:
+        _parse_metric_selector("education.bachelors_degree_or_higher")
+    assert "education.college_or_above" in exc_info.value.detail
+
+    with pytest.raises(HTTPException) as exc_info:
+        _parse_metric_selector("ethnicity.hispanic")
+    assert "race" in exc_info.value.detail
+
+
 @pytest.mark.asyncio
 async def test_geographic_filters():
     """Test GeographicFilters composition."""

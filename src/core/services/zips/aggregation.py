@@ -37,12 +37,15 @@ def _parse_metric_selector(raw: str) -> tuple[str, str]:
     if category_str not in DEMOGRAPHICS.categories:
         raise HTTPException(
             status_code=400,
-            detail=f"Unknown category '{category_str}' in '{raw}'",
+            detail=f"Unknown category '{category_str}' in '{raw}'. "
+            f"Valid categories: {', '.join(DEMOGRAPHICS.categories)}",
         )
-    if metric_key not in DEMOGRAPHICS.get_category(category_str).metrics:
+    valid_metrics = DEMOGRAPHICS.get_category(category_str).metrics
+    if metric_key not in valid_metrics:
         raise HTTPException(
             status_code=400,
-            detail=f"Unknown metric '{metric_key}' in category '{category_str}'",
+            detail=f"Unknown metric '{metric_key}' in category '{category_str}'. "
+            f"Valid selectors: {', '.join(f'{category_str}.{k}' for k in valid_metrics)}",
         )
     return category_str, metric_key
 
@@ -108,10 +111,13 @@ class AggregationQueryBuilder:
         # Build filters
         self.filters = GeographicFilters(
             state=filter_kwargs.get("state"),
+            states=filter_kwargs.get("states"),
             region=filter_kwargs.get("region"),
             county=filter_kwargs.get("county"),
             cbsa=filter_kwargs.get("cbsa"),
             city=filter_kwargs.get("city"),
+            min_density=filter_kwargs.get("min_density"),
+            max_density=filter_kwargs.get("max_density"),
         )
 
         # Build metric columns

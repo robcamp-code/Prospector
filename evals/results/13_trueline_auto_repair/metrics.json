@@ -1,0 +1,27 @@
+{
+  "business_id": "13_trueline_auto_repair",
+  "status": "complete",
+  "thread_id": "65ede176-3ff8-4b1a-a8d3-4a791b161023",
+  "latency": {
+    "total_seconds": 93.5
+  },
+  "tokens": {
+    "input_tokens": 446433,
+    "output_tokens": 25410,
+    "total_tokens": 471843,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 446433,
+        "output_tokens": 25410,
+        "total_tokens": 471843
+      }
+    }
+  },
+  "judge": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-08-01 at 00:00 UTC.'}, 'request_id': 'req_011CdMPJ79dWwaFC3MWNEXSA'}"
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-24T18:50:45.086256+00:00"
+}

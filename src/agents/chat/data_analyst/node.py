@@ -1,103 +1,117 @@
-"""Data Analyst node: resolve location, select categories and geography level."""
+"""Data Analyst node: turn typed Preferences into a validated QueryPlan.
+
+The plan contains only group_by/metrics/sort/limit — location never appears
+in a query; it is injected as WHERE filters by the report generator.
+"""
 
 from langchain_core.runnables import RunnableConfig
 
-from src.core.demographics import DEMOGRAPHICS
 from src.agents.chat.base import SubAgent
-from src.agents.chat.graph_state import GraphState, AnalysisPlan
-from src.agents.chat.location_filters import LocationFilters
 from src.agents.chat.data_analyst import prompts
+from src.agents.chat.graph_state import GraphState
+from src.core.demographics import DEMOGRAPHICS, MetricType
+from src.schemas.aggregation import AggregationQuery, QueryPlan
+from src.schemas.preferences import LocationPreference, Preferences, load_preferences
 
-CORE_CATEGORIES = ["income", "age", "education"]
+ZIP_ROW_LIMIT = 100  # cap zip-grain queries to keep report-LLM context sane
 
 
 class DataAnalyst(SubAgent):
-    """Transform profile into a query plan: location filters, categories, geography level."""
+    """Plan aggregation queries from preferences via structured output + guardrails."""
 
     async def __call__(self, state: GraphState, config: RunnableConfig) -> dict:
-        """Transform profile into a query plan: location filters, categories, geography level.
+        preferences = load_preferences(state.get("preferences"))
+        if preferences is None:
+            # Should not happen (router requires profile_complete); fall back
+            # to an empty-preferences plan rather than crashing the thread.
+            preferences = Preferences()
 
-        No tool calls, pure LLM + deterministic logic.
-        """
-        profile = state["client_profile"]
-
-        # Step 1: Resolve location preference text into structured filters via LLM
-        location_prompt = prompts.LOCATION_EXTRACTION_PROMPT.format(
-            location_preference=profile.location_preference,
+        plan_prompt = prompts.QUERY_PLAN_PROMPT.format(
+            business_type=preferences.business_type,
+            service_description=preferences.service_description,
+            price_point=preferences.price_point,
+            target_customer_description=preferences.target_customer_description,
+            demographic_categories=", ".join(preferences.demographic_categories) or "analyst's choice",
+            location_description=(preferences.location or LocationPreference()).describe(),
+            metric_catalog=DEMOGRAPHICS.metric_catalog_text(),
         )
 
-        location_filters = await self.llm.with_structured_output(LocationFilters).ainvoke([
-            {"role": "user", "content": location_prompt},
-        ])
-
-        # Step 2: Select categories deterministically
-        categories = _select_categories(profile)
-
-        # Step 3: Pick geography_level based on location scope
-        geography_level = _pick_geography_level(location_filters.scope)
-
-        # Step 4: Build AnalysisPlan
-        plan = AnalysisPlan(
-            location=location_filters.model_dump(),
-            categories=categories,
-            geography_level=geography_level,
-            reasoning=f"Resolved location to {location_filters.scope} scope, "
-                      f"selected {len(categories)} categories for {profile.business_type}, "
-                      f"will group results by {geography_level}.",
+        plan = await self.ainvoke_with_retry(
+            self.llm.with_structured_output(QueryPlan),
+            [{"role": "user", "content": plan_prompt}],
         )
 
-        return {"analysis_plan": plan}
+        plan = apply_guardrails(plan, preferences)
+
+        return {"query_plan": plan.model_dump()}
 
 
-def _select_categories(profile) -> list[str]:
-    """Select categories based on profile's demographic targets and core categories.
+def apply_guardrails(plan: QueryPlan, preferences: Preferences) -> QueryPlan:
+    """Deterministically enforce plan rules the LLM might violate.
 
-    Algorithm:
-    1. Map each target's demographic_key -> CategoryName via DEMOGRAPHICS
-    2. Union with CORE_CATEGORIES
-    3. Pad to minimum count using category priority order
-    4. Fall back to all categories if no mapping succeeded
+    - group_by="state" is only allowed for a nationwide scope; otherwise it is
+      rewritten to "county" (regression: the east-coast report grouped by state).
+    - Queries whose metrics all failed validation are dropped.
+    - zip-grain queries are capped at ZIP_ROW_LIMIT rows.
+    - A degenerate/empty plan is replaced with a deterministic fallback.
     """
-    categories_set = set()
+    location = preferences.location
+    location_scoped = location is not None and not location.is_nationwide()
 
-    # Step 1: Map demographic targets to categories
-    for target in profile.target_demographics:
-        category = DEMOGRAPHICS.category_for_metric(target.demographic_key)
-        if category:
-            categories_set.add(category)
+    queries = []
+    for query in plan.queries:
+        if not query.metrics:
+            continue
+        if location_scoped and query.group_by == "state":
+            query = query.model_copy(update={"group_by": "county"})
+        if query.group_by == "zip" and query.limit > ZIP_ROW_LIMIT:
+            query = query.model_copy(update={"limit": ZIP_ROW_LIMIT})
+        queries.append(query)
 
-    # Step 2: Add core categories
-    categories_set.update(CORE_CATEGORIES)
+    if not queries:
+        return fallback_plan(preferences)
 
-    # Step 3: Convert to list and pad to minimum
-    selected = list(categories_set)
-    min_count = 5
-
-    if len(selected) < min_count:
-        # Pad with categories from priority order, avoiding duplicates
-        all_categories = DEMOGRAPHICS.get_all_categories()
-        for cat in all_categories:
-            if cat not in selected:
-                selected.append(cat)
-                if len(selected) >= min_count:
-                    break
-
-    # Step 4: Fall back to all if nothing was selected
-    if not selected:
-        selected = DEMOGRAPHICS.get_all_categories()
-
-    return selected
+    return plan.model_copy(update={"queries": queries})
 
 
-def _pick_geography_level(scope: str) -> str:
-    """Deterministically pick geography_level based on location scope.
+def fallback_plan(preferences: Preferences) -> QueryPlan:
+    """Deterministic plan when the LLM produced nothing usable.
 
-    Rationale: always group one level below the filter so results are chartable.
+    One county-level ranking of headline (non-distribution) metrics and one
+    zip-level distribution query, built from the preferred categories.
     """
-    scope_to_level = {
-        "nationwide": "state",
-        "region": "state",
-        "states": "county",
-        "metros": "zip",
-    }
-    return scope_to_level.get(scope, "state")
+    categories = list(preferences.demographic_categories) or ["income", "education", "age"]
+    for core in ("income", "age"):
+        if core not in categories:
+            categories.append(core)
+
+    headline_metrics: list[str] = []
+    distribution_metrics: list[str] = []
+    for category in categories:
+        for metric_name, metric in DEMOGRAPHICS.get_category(category).metrics.items():
+            selector = f"{category}.{metric_name}"
+            if metric.type == MetricType.DISTRIBUTION:
+                distribution_metrics.append(selector)
+            elif len(headline_metrics) < 6:
+                headline_metrics.append(selector)
+
+    queries = []
+    if headline_metrics:
+        queries.append(
+            AggregationQuery(
+                group_by="county",
+                metrics=headline_metrics,
+                sort_by="population",
+                limit=25,
+            )
+        )
+    if distribution_metrics:
+        queries.append(
+            AggregationQuery(
+                group_by="zip",
+                metrics=distribution_metrics[:4],
+                sort_by="population",
+                limit=ZIP_ROW_LIMIT,
+            )
+        )
+    return QueryPlan(queries=queries, reasoning="Deterministic fallback plan")

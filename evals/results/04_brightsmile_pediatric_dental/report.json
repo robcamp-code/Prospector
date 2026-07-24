@@ -1,0 +1,1747 @@
+{
+  "report_id": "1de0b40b-5f9a-44df-b1e7-66561416eb41",
+  "title": "Where Affluent Young Families Cluster: Targeting Premium Pediatric Dental Demand Across Suburban New Jersey",
+  "subtitle": "A Demographic Market Analysis of Suburban New Jersey Counties and ZIP Codes",
+  "geography_type": "county",
+  "geography_value": "New Jersey, suburban areas",
+  "client_profile_id": "cfade006-fce4-4815-8bf6-d1a0bf845d0a",
+  "summary": {
+    "total_population": 4155418,
+    "zip_count": 100,
+    "median_household_income": 117830.03,
+    "median_age": 42.14,
+    "home_ownership_rate": 76.54,
+    "narrative": "Suburban New Jersey presents a strong market for premium pediatric dentistry, with affluent counties like Bergen ($175,638 median household income, 70.4% six-figure households, 82.1% home ownership), Essex ($175,241), and Union ($174,331) leading in family wealth and low uninsured rates (Union at 3.1%, Bergen at 3.2%). Top ZIP-level opportunities cluster in high-income, high-home-value areas such as Short Hills (07078, 91.4% six-figure households), Princeton Junction (08550, 80.5%), and Warren (07059, 80.4%). These wealthy, well-insured suburban corridors align tightly with BrightSmile's target of dual-income families seeking premium, insurance-backed pediatric care.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opportunity_bubble_nj",
+      "title": "County Opportunity: Income, Home Value, and Population",
+      "subtitle": "Bubble size reflects population; color reflects six-figure household share",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Median Home Value ($)",
+        "size_label": "Population",
+        "color_label": "Six-Figure Households (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "bergen",
+          "geography_label": "Bergen",
+          "x_value": 175637.85,
+          "y_value": 790722.67,
+          "size_value": 293658.0,
+          "color_value": 70.41,
+          "metadata": {}
+        },
+        {
+          "geography_id": "essex",
+          "geography_label": "Essex",
+          "x_value": 175241.14,
+          "y_value": 780740.43,
+          "size_value": 108589.0,
+          "color_value": 69.87,
+          "metadata": {}
+        },
+        {
+          "geography_id": "union",
+          "geography_label": "Union",
+          "x_value": 174331.46,
+          "y_value": 765626.85,
+          "size_value": 114543.0,
+          "color_value": 69.74,
+          "metadata": {}
+        },
+        {
+          "geography_id": "somerset",
+          "geography_label": "Somerset",
+          "x_value": 156630.36,
+          "y_value": 591571.95,
+          "size_value": 256153.0,
+          "color_value": 68.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "mercer",
+          "geography_label": "Mercer",
+          "x_value": 143868.05,
+          "y_value": 528263.76,
+          "size_value": 196664.0,
+          "color_value": 62.82,
+          "metadata": {}
+        },
+        {
+          "geography_id": "morris",
+          "geography_label": "Morris",
+          "x_value": 142666.26,
+          "y_value": 608445.81,
+          "size_value": 441450.0,
+          "color_value": 63.87,
+          "metadata": {}
+        },
+        {
+          "geography_id": "monmouth",
+          "geography_label": "Monmouth",
+          "x_value": 136436.01,
+          "y_value": 640529.03,
+          "size_value": 508359.0,
+          "color_value": 61.36,
+          "metadata": {}
+        },
+        {
+          "geography_id": "middlesex",
+          "geography_label": "Middlesex",
+          "x_value": 125993.19,
+          "y_value": 496750.29,
+          "size_value": 499207.0,
+          "color_value": 60.49,
+          "metadata": {}
+        },
+        {
+          "geography_id": "burlington",
+          "geography_label": "Burlington",
+          "x_value": 113673.61,
+          "y_value": 374852.25,
+          "size_value": 292102.0,
+          "color_value": 55.55,
+          "metadata": {}
+        },
+        {
+          "geography_id": "ocean",
+          "geography_label": "Ocean",
+          "x_value": 98861.28,
+          "y_value": 406577.41,
+          "size_value": 279289.0,
+          "color_value": 48.35,
+          "metadata": {}
+        },
+        {
+          "geography_id": "gloucester",
+          "geography_label": "Gloucester",
+          "x_value": 98741.38,
+          "y_value": 293500.03,
+          "size_value": 175961.0,
+          "color_value": 48.73,
+          "metadata": {}
+        },
+        {
+          "geography_id": "camden",
+          "geography_label": "Camden",
+          "x_value": 100654.21,
+          "y_value": 311702.33,
+          "size_value": 304005.0,
+          "color_value": 49.07,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Affluent Family Corridor: County-Level Market Ranking",
+      "subtitle": "Ranking New Jersey suburban counties by the dual-income, high-income family profile that defines premium pediatric dental demand",
+      "description": "BrightSmile's ideal patient household is dual-income, married-with-children, and carries private dental insurance — a profile that correlates most strongly with high household income, a large share of six-figure households, active labor force participation, and stable home ownership. Ranking New Jersey's suburban counties on these Result 1 metrics reveals a clear top tier where premium pediatric demand concentrates.\n\nBergen County leads decisively, pairing the state's highest median household income ($175,638) with the highest six-figure household share (70.4%) and exceptional home ownership (82.1%). Essex ($175,241 median income; 69.9% six-figure), Union ($174,331; 69.7%), Somerset ($156,630; 68.7%), and Morris ($142,666; 63.9%) round out the affluent corridor. Somerset and Morris are particularly notable for the strongest labor force participation among the leaders (69.3% and 68.7% respectively), a direct proxy for the dual-income households BrightSmile targets — households with the schedules and disposable income that reward a premium, convenience-oriented, anxiety-free clinic experience.\n\nThe married-household share reinforces the ranking's family orientation: Union (61.3%) and Bergen (60.5%) post the highest married rates in the state, signaling dense concentrations of the two-parent families most likely to seek ongoing preventive and orthodontic care for children ages 0–14. Home ownership above 82% in Bergen indicates residential stability — families who put down roots and build multi-year relationships with a local pediatric practice.\n\nBusiness implication: the five top-tier counties (Bergen, Essex, Union, Somerset, Morris) should anchor site selection and marketing spend. All combine six-figure household shares near or above 64% with married-majority populations, making them the highest-probability markets for a premium, insurance-oriented pediatric dental clinic. Lower-income counties such as Salem ($71,942 median; 27.3% six-figure), Atlantic ($77,190; 36.6%), and Cape May ($87,522; 42.5%) fall well below the profile and warrant deprioritization.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Affluence vs. Dual-Income Signal by County",
+          "subtitle": "Median household income (x) vs. six-figure household share (y); bubble size = population, color = labor force participation",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": "Population",
+            "color_label": "Labor Force Participation (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "bergen",
+              "geography_label": "Bergen",
+              "x_value": 175637.85,
+              "y_value": 70.41,
+              "size_value": 293658.0,
+              "color_value": 64.92,
+              "metadata": {
+                "home_ownership": 82.12,
+                "married": 60.55
+              }
+            },
+            {
+              "geography_id": "essex",
+              "geography_label": "Essex",
+              "x_value": 175241.14,
+              "y_value": 69.87,
+              "size_value": 108589.0,
+              "color_value": 64.09,
+              "metadata": {
+                "home_ownership": 75.25,
+                "married": 58.89
+              }
+            },
+            {
+              "geography_id": "union",
+              "geography_label": "Union",
+              "x_value": 174331.46,
+              "y_value": 69.74,
+              "size_value": 114543.0,
+              "color_value": 66.83,
+              "metadata": {
+                "home_ownership": 76.54,
+                "married": 61.35
+              }
+            },
+            {
+              "geography_id": "somerset",
+              "geography_label": "Somerset",
+              "x_value": 156630.36,
+              "y_value": 68.7,
+              "size_value": 256153.0,
+              "color_value": 69.26,
+              "metadata": {
+                "home_ownership": 76.8,
+                "married": 57.29
+              }
+            },
+            {
+              "geography_id": "morris",
+              "geography_label": "Morris",
+              "x_value": 142666.26,
+              "y_value": 63.87,
+              "size_value": 441450.0,
+              "color_value": 68.72,
+              "metadata": {
+                "home_ownership": 72.94,
+                "married": 55.88
+              }
+            },
+            {
+              "geography_id": "mercer",
+              "geography_label": "Mercer",
+              "x_value": 143868.05,
+              "y_value": 62.82,
+              "size_value": 196664.0,
+              "color_value": 66.51,
+              "metadata": {
+                "home_ownership": 69.65,
+                "married": 55.15
+              }
+            },
+            {
+              "geography_id": "hudson",
+              "geography_label": "Hudson",
+              "x_value": 139821.0,
+              "y_value": 62.6,
+              "size_value": 21778.0,
+              "color_value": 70.0,
+              "metadata": {
+                "home_ownership": 50.6,
+                "married": 53.6
+              }
+            },
+            {
+              "geography_id": "passaic",
+              "geography_label": "Passaic",
+              "x_value": 138807.59,
+              "y_value": 65.43,
+              "size_value": 94094.0,
+              "color_value": 68.15,
+              "metadata": {
+                "home_ownership": 76.99,
+                "married": 53.9
+              }
+            },
+            {
+              "geography_id": "monmouth",
+              "geography_label": "Monmouth",
+              "x_value": 136436.01,
+              "y_value": 61.36,
+              "size_value": 508359.0,
+              "color_value": 66.14,
+              "metadata": {
+                "home_ownership": 79.49,
+                "married": 55.26
+              }
+            },
+            {
+              "geography_id": "middlesex",
+              "geography_label": "Middlesex",
+              "x_value": 125993.19,
+              "y_value": 60.49,
+              "size_value": 499207.0,
+              "color_value": 67.23,
+              "metadata": {
+                "home_ownership": 70.85,
+                "married": 55.95
+              }
+            },
+            {
+              "geography_id": "hunterdon",
+              "geography_label": "Hunterdon",
+              "x_value": 122891.21,
+              "y_value": 59.82,
+              "size_value": 11663.0,
+              "color_value": 63.33,
+              "metadata": {
+                "home_ownership": 77.64,
+                "married": 49.58
+              }
+            },
+            {
+              "geography_id": "sussex",
+              "geography_label": "Sussex",
+              "x_value": 117830.03,
+              "y_value": 57.8,
+              "size_value": 22010.0,
+              "color_value": 74.69,
+              "metadata": {
+                "home_ownership": 87.89,
+                "married": 54.28
+              }
+            },
+            {
+              "geography_id": "burlington",
+              "geography_label": "Burlington",
+              "x_value": 113673.61,
+              "y_value": 55.55,
+              "size_value": 292102.0,
+              "color_value": 69.2,
+              "metadata": {
+                "home_ownership": 73.86,
+                "married": 51.23
+              }
+            },
+            {
+              "geography_id": "warren",
+              "geography_label": "Warren",
+              "x_value": 105866.0,
+              "y_value": 53.0,
+              "size_value": 32105.0,
+              "color_value": 68.6,
+              "metadata": {
+                "home_ownership": 69.7,
+                "married": 51.5
+              }
+            },
+            {
+              "geography_id": "camden",
+              "geography_label": "Camden",
+              "x_value": 100654.21,
+              "y_value": 49.07,
+              "size_value": 304005.0,
+              "color_value": 67.52,
+              "metadata": {
+                "home_ownership": 70.02,
+                "married": 48.14
+              }
+            },
+            {
+              "geography_id": "ocean",
+              "geography_label": "Ocean",
+              "x_value": 98861.28,
+              "y_value": 48.35,
+              "size_value": 279289.0,
+              "color_value": 61.6,
+              "metadata": {
+                "home_ownership": 83.95,
+                "married": 50.04
+              }
+            },
+            {
+              "geography_id": "gloucester",
+              "geography_label": "Gloucester",
+              "x_value": 98741.38,
+              "y_value": 48.73,
+              "size_value": 175961.0,
+              "color_value": 65.91,
+              "metadata": {
+                "home_ownership": 76.0,
+                "married": 46.97
+              }
+            },
+            {
+              "geography_id": "capemay",
+              "geography_label": "Cape May",
+              "x_value": 87522.0,
+              "y_value": 42.45,
+              "size_value": 57437.0,
+              "color_value": 56.32,
+              "metadata": {
+                "home_ownership": 77.42,
+                "married": 56.37
+              }
+            },
+            {
+              "geography_id": "atlantic",
+              "geography_label": "Atlantic",
+              "x_value": 77189.6,
+              "y_value": 36.58,
+              "size_value": 160371.0,
+              "color_value": 64.57,
+              "metadata": {
+                "home_ownership": 63.0,
+                "married": 43.93
+              }
+            },
+            {
+              "geography_id": "salem",
+              "geography_label": "Salem",
+              "x_value": 71942.0,
+              "y_value": 27.3,
+              "size_value": 13413.0,
+              "color_value": 59.1,
+              "metadata": {
+                "home_ownership": 53.9,
+                "married": 35.1
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Median Household Income by County",
+          "subtitle": "Top-tier counties (Bergen, Essex, Union, Somerset, Morris) lead the state",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Bergen",
+              "value": 175637.85,
+              "percentage": null,
+              "color": "#1f6feb"
+            },
+            {
+              "label": "Essex",
+              "value": 175241.14,
+              "percentage": null,
+              "color": "#1f6feb"
+            },
+            {
+              "label": "Union",
+              "value": 174331.46,
+              "percentage": null,
+              "color": "#1f6feb"
+            },
+            {
+              "label": "Somerset",
+              "value": 156630.36,
+              "percentage": null,
+              "color": "#1f6feb"
+            },
+            {
+              "label": "Mercer",
+              "value": 143868.05,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Morris",
+              "value": 142666.26,
+              "percentage": null,
+              "color": "#1f6feb"
+            },
+            {
+              "label": "Hudson",
+              "value": 139821.0,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Passaic",
+              "value": 138807.59,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Monmouth",
+              "value": 136436.01,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Middlesex",
+              "value": 125993.19,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Hunterdon",
+              "value": 122891.21,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Sussex",
+              "value": 117830.03,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Burlington",
+              "value": 113673.61,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Warren",
+              "value": 105866.0,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Camden",
+              "value": 100654.21,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Ocean",
+              "value": 98861.28,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Gloucester",
+              "value": 98741.38,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Cape May",
+              "value": 87522.0,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Atlantic",
+              "value": 77189.6,
+              "percentage": null,
+              "color": "#8b949e"
+            },
+            {
+              "label": "Salem",
+              "value": 71942.0,
+              "percentage": null,
+              "color": "#8b949e"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Insurance Coverage and Economic Stability",
+      "subtitle": "Which New Jersey counties combine low uninsured rates with strong dual-income employment",
+      "description": "For a premium pediatric dental practice built around families with private dental insurance, the health of the local insurance market and the strength of dual-income employment are the two most important economic screens. A low uninsured rate signals that most households already carry coverage and are accustomed to using benefits, while high labor force participation and low unemployment identify the dual-income households that both generate private-employer dental plans and possess the discretionary income for elective services such as orthodontic consultations and anxiety-free sedation.\n\nThe strongest markets pair very low uninsured rates with robust workforce engagement. Union County stands out with the lowest uninsured rate in the scope at 3.12% alongside a low 4.06% unemployment rate. Bergen County follows closely with a 3.18% uninsured rate and 4.92% unemployment. Somerset (3.81% uninsured, 4.50% unemployment) and Sussex (3.95% uninsured, 3.85% unemployment — the lowest unemployment in the scope) round out the counties that combine near-universal coverage with tight labor markets. Essex (3.98% uninsured) and Gloucester (3.85% uninsured) also present healthy coverage environments.\n\nLabor force participation reinforces the picture of dual-income depth. Sussex leads at 74.69%, followed by Hudson (70.00%), Somerset (69.26%), Burlington (69.20%), and Morris (68.72%) — all indicators of two-earner households likely to hold employer-sponsored dental benefits.\n\nAt the opposite end, Atlantic and Cumberland counties are materially weaker on every measure. Atlantic combines the highest unemployment rate in the scope (9.87%) with an 8.38% uninsured rate, while Cumberland carries the highest uninsured rate at 10.56% and a 7.82% unemployment rate. Salem (8.60% unemployment) and Warren (7.30% unemployment) also lag. These markets carry meaningfully more uninsured families and softer employment, making them poor fits for a practice dependent on private insurance and discretionary spend.\n\nBusiness implication: prioritize Union, Bergen, Somerset, and Morris for site selection and marketing spend — they pair the lowest uninsured rates with strong dual-income employment. Treat Atlantic and Cumberland as low-priority, higher-risk markets where the private-insurance model is least supported.",
+      "demographic_category": "health",
+      "demographic_key": "health.uninsured",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Uninsured Rate by County",
+          "subtitle": "Lower is better for a private-insurance-dependent practice",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Uninsured Rate (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Union",
+              "value": 3.12,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen",
+              "value": 3.18,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset",
+              "value": 3.81,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Gloucester",
+              "value": 3.85,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sussex",
+              "value": 3.95,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex",
+              "value": 3.98,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Burlington",
+              "value": 4.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Middlesex",
+              "value": 4.37,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Passaic",
+              "value": 4.37,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mercer",
+              "value": 4.47,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Salem",
+              "value": 4.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Ocean",
+              "value": 4.62,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Monmouth",
+              "value": 4.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hudson",
+              "value": 5.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morris",
+              "value": 5.03,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Warren",
+              "value": 5.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Camden",
+              "value": 5.68,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hunterdon",
+              "value": 6.05,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Atlantic",
+              "value": 8.38,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cumberland",
+              "value": 10.56,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Employment Strength vs. Insurance Coverage by County",
+          "subtitle": "Labor force participation vs. uninsured rate, bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Labor Force Participation (%)",
+            "y_axis_label": "Uninsured Rate (%)",
+            "size_label": "Population",
+            "color_label": "Unemployment Rate (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "union",
+              "geography_label": "Union",
+              "x_value": 66.83,
+              "y_value": 3.12,
+              "size_value": 114543.0,
+              "color_value": 4.06,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bergen",
+              "geography_label": "Bergen",
+              "x_value": 64.92,
+              "y_value": 3.18,
+              "size_value": 293658.0,
+              "color_value": 4.92,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset",
+              "geography_label": "Somerset",
+              "x_value": 69.26,
+              "y_value": 3.81,
+              "size_value": 256153.0,
+              "color_value": 4.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sussex",
+              "geography_label": "Sussex",
+              "x_value": 74.69,
+              "y_value": 3.95,
+              "size_value": 22010.0,
+              "color_value": 3.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "essex",
+              "geography_label": "Essex",
+              "x_value": 64.09,
+              "y_value": 3.98,
+              "size_value": 108589.0,
+              "color_value": 6.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "gloucester",
+              "geography_label": "Gloucester",
+              "x_value": 65.91,
+              "y_value": 3.85,
+              "size_value": 175961.0,
+              "color_value": 5.41,
+              "metadata": {}
+            },
+            {
+              "geography_id": "burlington",
+              "geography_label": "Burlington",
+              "x_value": 69.2,
+              "y_value": 4.1,
+              "size_value": 292102.0,
+              "color_value": 5.12,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morris",
+              "geography_label": "Morris",
+              "x_value": 68.72,
+              "y_value": 5.03,
+              "size_value": 441450.0,
+              "color_value": 5.13,
+              "metadata": {}
+            },
+            {
+              "geography_id": "middlesex",
+              "geography_label": "Middlesex",
+              "x_value": 67.23,
+              "y_value": 4.37,
+              "size_value": 499207.0,
+              "color_value": 5.91,
+              "metadata": {}
+            },
+            {
+              "geography_id": "monmouth",
+              "geography_label": "Monmouth",
+              "x_value": 66.14,
+              "y_value": 4.8,
+              "size_value": 508359.0,
+              "color_value": 5.21,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mercer",
+              "geography_label": "Mercer",
+              "x_value": 66.51,
+              "y_value": 4.47,
+              "size_value": 196664.0,
+              "color_value": 5.05,
+              "metadata": {}
+            },
+            {
+              "geography_id": "passaic",
+              "geography_label": "Passaic",
+              "x_value": 68.15,
+              "y_value": 4.37,
+              "size_value": 94094.0,
+              "color_value": 4.65,
+              "metadata": {}
+            },
+            {
+              "geography_id": "camden",
+              "geography_label": "Camden",
+              "x_value": 67.52,
+              "y_value": 5.68,
+              "size_value": 304005.0,
+              "color_value": 5.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ocean",
+              "geography_label": "Ocean",
+              "x_value": 61.6,
+              "y_value": 4.62,
+              "size_value": 279289.0,
+              "color_value": 5.61,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hudson",
+              "geography_label": "Hudson",
+              "x_value": 70.0,
+              "y_value": 5.0,
+              "size_value": 21778.0,
+              "color_value": 5.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hunterdon",
+              "geography_label": "Hunterdon",
+              "x_value": 63.33,
+              "y_value": 6.05,
+              "size_value": 11663.0,
+              "color_value": 4.12,
+              "metadata": {}
+            },
+            {
+              "geography_id": "warren",
+              "geography_label": "Warren",
+              "x_value": 68.6,
+              "y_value": 5.4,
+              "size_value": 32105.0,
+              "color_value": 7.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "salem",
+              "geography_label": "Salem",
+              "x_value": 59.1,
+              "y_value": 4.6,
+              "size_value": 13413.0,
+              "color_value": 8.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "atlantic",
+              "geography_label": "Atlantic",
+              "x_value": 64.57,
+              "y_value": 8.38,
+              "size_value": 160371.0,
+              "color_value": 9.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "cumberland",
+              "geography_label": "Cumberland",
+              "x_value": 58.77,
+              "y_value": 10.56,
+              "size_value": 46059.0,
+              "color_value": 7.82,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Prime ZIP Codes for a Premium Clinic",
+      "subtitle": "Ranking suburban New Jersey ZIP-code micro-markets on affluence, home value, household density, and workforce engagement",
+      "description": "For a premium pediatric dental clinic serving dual-income families with private insurance, the strongest opportunities cluster in two distinct types of ZIP-code micro-market. The first is a tier of ultra-affluent, high-home-value enclaves where six-figure household penetration is extreme — Short Hills (08078) leads the entire region with 91.4% of households earning six figures and a median home value of $1,722,409, followed by Warren (07059) at 80.4%, Princeton Junction (08550) at 80.5%, Wyckoff (07481) at 78.3%, Morganville (07751) at 78.4%, Chatham (07928) at 77.1%, and Tenafly (07670) at 77.3%. These areas signal deep pockets of families able and willing to pay out-of-pocket for kid-friendly amenities, sedation options, and orthodontic consultations. The second type is high-density population centers that pair strong affluence with large housing-unit counts — the raw scale needed to fill appointment books. Edison (08820) combines 70.9% six-figure households with 13,181 housing units; Piscataway (08854) offers 61.4% six-figure share across 17,600 units; Somerset (08873) delivers 62.7% across 21,831 units; and Wayne (07470) pairs 69.4% affluence with 18,341 units and 66.7% labor force participation. Summit (07901), with 69.0% six-figure households, a $988,147 median home value, and 69.5% labor force participation, sits at the intersection of both patterns — affluent, engaged, and residentially substantial. Labor force participation, a proxy for the dual-income households in the target profile, runs highest in Springfield (07081) at 75.0%, Monmouth Junction (08852) at 74.5%, Budd Lake (07828) at 77.4%, and Dover (07801) at 73.6%, though several of these trail the top enclaves on affluence. The recommended strategy is a flagship location anchored near a top-affluence, high-home-value ZIP (Short Hills, Chatham, Summit, or the Princeton Junction/Plainsboro corridor) to capture premium demand, complemented by consideration of high-unit centers like Edison, Piscataway, Somerset, and Wayne where scale and solid affluence support strong patient volume.",
+      "demographic_category": "geography",
+      "demographic_key": "zip",
+      "importance_weight": 90.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Top Affluence ZIPs: Six-Figure Household Share vs. Median Home Value",
+          "subtitle": "Bubble size reflects resident population; strongest premium micro-markets sit high-right",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Six-Figure Household Share (%)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Population",
+            "color_label": "Labor Force Participation (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "08078",
+              "geography_label": "Short Hills (Essex)",
+              "x_value": 91.4,
+              "y_value": 1722409.0,
+              "size_value": 14613.0,
+              "color_value": 66.7,
+              "metadata": {
+                "housing_units": 4519.0
+              }
+            },
+            {
+              "geography_id": "07928",
+              "geography_label": "Chatham (Morris)",
+              "x_value": 77.1,
+              "y_value": 1034178.0,
+              "size_value": 19974.0,
+              "color_value": 66.4,
+              "metadata": {
+                "housing_units": 6752.0
+              }
+            },
+            {
+              "geography_id": "07901",
+              "geography_label": "Summit (Union)",
+              "x_value": 69.0,
+              "y_value": 988147.0,
+              "size_value": 24314.0,
+              "color_value": 69.5,
+              "metadata": {
+                "housing_units": 9014.0
+              }
+            },
+            {
+              "geography_id": "07670",
+              "geography_label": "Tenafly (Bergen)",
+              "x_value": 77.3,
+              "y_value": 1001927.0,
+              "size_value": 15319.0,
+              "color_value": 65.7,
+              "metadata": {
+                "housing_units": 5227.0
+              }
+            },
+            {
+              "geography_id": "07481",
+              "geography_label": "Wyckoff (Bergen)",
+              "x_value": 78.3,
+              "y_value": 935717.0,
+              "size_value": 17050.0,
+              "color_value": 61.7,
+              "metadata": {
+                "housing_units": 5865.0
+              }
+            },
+            {
+              "geography_id": "07940",
+              "geography_label": "Madison (Morris)",
+              "x_value": 71.8,
+              "y_value": 939742.0,
+              "size_value": 17610.0,
+              "color_value": 65.7,
+              "metadata": {
+                "housing_units": 5653.0
+              }
+            },
+            {
+              "geography_id": "07059",
+              "geography_label": "Warren (Somerset)",
+              "x_value": 80.4,
+              "y_value": 916905.0,
+              "size_value": 16811.0,
+              "color_value": 70.0,
+              "metadata": {
+                "housing_units": 5597.0
+              }
+            },
+            {
+              "geography_id": "08550",
+              "geography_label": "Princeton Junction (Mercer)",
+              "x_value": 80.5,
+              "y_value": 801238.0,
+              "size_value": 21067.0,
+              "color_value": 66.8,
+              "metadata": {
+                "housing_units": 7817.0
+              }
+            },
+            {
+              "geography_id": "07751",
+              "geography_label": "Morganville (Monmouth)",
+              "x_value": 78.4,
+              "y_value": 711939.0,
+              "size_value": 21109.0,
+              "color_value": 69.5,
+              "metadata": {
+                "housing_units": 7354.0
+              }
+            },
+            {
+              "geography_id": "07039",
+              "geography_label": "Livingston (Essex)",
+              "x_value": 81.6,
+              "y_value": 818990.0,
+              "size_value": 31488.0,
+              "color_value": 65.3,
+              "metadata": {
+                "housing_units": 10451.0
+              }
+            },
+            {
+              "geography_id": "07076",
+              "geography_label": "Scotch Plains (Union)",
+              "x_value": 74.1,
+              "y_value": 720008.0,
+              "size_value": 24843.0,
+              "color_value": 66.8,
+              "metadata": {
+                "housing_units": 8563.0
+              }
+            },
+            {
+              "geography_id": "07733",
+              "geography_label": "Holmdel (Monmouth)",
+              "x_value": 73.2,
+              "y_value": 830419.0,
+              "size_value": 17166.0,
+              "color_value": 58.8,
+              "metadata": {
+                "housing_units": 6262.0
+              }
+            },
+            {
+              "geography_id": "08536",
+              "geography_label": "Plainsboro (Middlesex)",
+              "x_value": 69.3,
+              "y_value": 720084.0,
+              "size_value": 20817.0,
+              "color_value": 73.0,
+              "metadata": {
+                "housing_units": 8353.0
+              }
+            },
+            {
+              "geography_id": "07920",
+              "geography_label": "Basking Ridge (Somerset)",
+              "x_value": 73.4,
+              "y_value": 799621.0,
+              "size_value": 28753.0,
+              "color_value": 63.0,
+              "metadata": {
+                "housing_units": 10770.0
+              }
+            },
+            {
+              "geography_id": "08820",
+              "geography_label": "Edison (Middlesex)",
+              "x_value": 70.9,
+              "y_value": 630217.0,
+              "size_value": 39978.0,
+              "color_value": 65.4,
+              "metadata": {
+                "housing_units": 13181.0
+              }
+            },
+            {
+              "geography_id": "07470",
+              "geography_label": "Wayne (Passaic)",
+              "x_value": 69.4,
+              "y_value": 612288.0,
+              "size_value": 54112.0,
+              "color_value": 66.7,
+              "metadata": {
+                "housing_units": 18341.0
+              }
+            },
+            {
+              "geography_id": "08540",
+              "geography_label": "Princeton (Mercer)",
+              "x_value": 67.7,
+              "y_value": 767683.0,
+              "size_value": 50388.0,
+              "color_value": 67.6,
+              "metadata": {
+                "housing_units": 18609.0
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Scale Plus Affluence: Six-Figure Share in High Housing-Unit ZIPs",
+          "subtitle": "Large residential bases that support strong patient volume",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP / City",
+            "y_axis_label": "Six-Figure Household Share (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Somerset (08873) — 21,831 units",
+              "value": 62.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Toms River (08753) — 25,410 units",
+              "value": 52.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Monroe Twp (08831) — 24,083 units",
+              "value": 53.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Clementon (08021) — 20,805 units",
+              "value": 30.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Princeton (08540) — 18,609 units",
+              "value": 67.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Wayne (07470) — 18,341 units",
+              "value": 69.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Piscataway (08854) — 17,600 units",
+              "value": 61.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sicklerville (08081) — 17,840 units",
+              "value": 54.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Freehold (07728) — 20,519 units",
+              "value": 55.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Edison (08820) — 13,181 units",
+              "value": 70.9,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Household Composition and Life Stage Signals",
+      "subtitle": "Reading marriage rates, median age, and adult share to locate family-forming suburban markets",
+      "description": "For a premium pediatric dental clinic, the single strongest structural predictor of demand is the presence of married, family-forming households in their prime child-rearing years. Three metrics in the county data triangulate this: the married share of the population, median age, and the share of residents over 18 (a lower over-18 share implies proportionally more children present). Bergen County leads the state on married share at 60.5% and pairs it with a moderate median age of 44.7 and one of the lowest over-18 shares in the dataset at 77.7% — the lowest of all counties reported — meaning it carries proportionally the largest under-18 population of any market shown. Union (61.3% married) and Bergen anchor the high-marriage tier, while Essex (58.9% married, median age 42.1) offers a comparably married but slightly younger profile. By contrast, markets like Salem (35.1% married, 43.5% never-married), Atlantic (43.9% married, 38.3% never-married), and Gloucester (47.0% married) skew single-heavy and are structurally weaker for pediatric demand. Cape May stands apart as a genuine mismatch: while its married share is respectable at 56.4%, its median age of 54.8 — nearly a decade above every other county — and its very high 85.2% over-18 share signal an older, empty-nest and retiree market with few young children, making it a poor fit despite the marriage figure. The business implication is clear: prioritize Bergen, Union, and Essex, where high marriage rates, working-age medians, and elevated child presence coincide. Somerset (57.3% married) and Middlesex (55.9% married) form a strong secondary tier. Treat older-skewing (Cape May, Ocean at median age 46.8) and single-heavy (Salem, Atlantic) counties as low-priority for a service whose entire value proposition rests on households with children ages 0–14.",
+      "demographic_category": "Household Composition",
+      "demographic_key": "marital_status.distribution",
+      "importance_weight": 80.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Married-Household Share by County",
+          "subtitle": "Higher marriage rates signal denser concentrations of family-forming households",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Married share of population (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Union",
+              "value": 61.35,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen",
+              "value": 60.55,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex",
+              "value": 58.89,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset",
+              "value": 57.29,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Cape May",
+              "value": 56.37,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Middlesex",
+              "value": 55.95,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morris",
+              "value": 55.88,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Monmouth",
+              "value": 55.26,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mercer",
+              "value": 55.15,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sussex",
+              "value": 54.28,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Passaic",
+              "value": 53.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hudson",
+              "value": 53.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Warren",
+              "value": 51.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Burlington",
+              "value": 51.23,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Ocean",
+              "value": 50.04,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hunterdon",
+              "value": 49.58,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Camden",
+              "value": 48.14,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Gloucester",
+              "value": 46.97,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Atlantic",
+              "value": 43.93,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Salem",
+              "value": 35.1,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Marriage Rate vs. Median Age by County",
+          "subtitle": "Bubble size = population. Upper-left counties (high marriage, younger age) are the strongest young-family markets; lower-right skews older or single-heavy.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median age (years)",
+            "y_axis_label": "Married share of population (%)",
+            "size_label": "Population",
+            "color_label": "Share over 18 (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "bergen",
+              "geography_label": "Bergen",
+              "x_value": 44.65,
+              "y_value": 60.55,
+              "size_value": 293658.0,
+              "color_value": 77.68,
+              "metadata": {}
+            },
+            {
+              "geography_id": "union",
+              "geography_label": "Union",
+              "x_value": 43.76,
+              "y_value": 61.35,
+              "size_value": 114543.0,
+              "color_value": 76.39,
+              "metadata": {}
+            },
+            {
+              "geography_id": "essex",
+              "geography_label": "Essex",
+              "x_value": 42.14,
+              "y_value": 58.89,
+              "size_value": 108589.0,
+              "color_value": 76.29,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset",
+              "geography_label": "Somerset",
+              "x_value": 42.2,
+              "y_value": 57.29,
+              "size_value": 256153.0,
+              "color_value": 78.61,
+              "metadata": {}
+            },
+            {
+              "geography_id": "middlesex",
+              "geography_label": "Middlesex",
+              "x_value": 41.42,
+              "y_value": 55.95,
+              "size_value": 499207.0,
+              "color_value": 78.89,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morris",
+              "geography_label": "Morris",
+              "x_value": 42.52,
+              "y_value": 55.88,
+              "size_value": 441450.0,
+              "color_value": 79.54,
+              "metadata": {}
+            },
+            {
+              "geography_id": "monmouth",
+              "geography_label": "Monmouth",
+              "x_value": 43.83,
+              "y_value": 55.26,
+              "size_value": 508359.0,
+              "color_value": 78.61,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mercer",
+              "geography_label": "Mercer",
+              "x_value": 42.16,
+              "y_value": 55.15,
+              "size_value": 196664.0,
+              "color_value": 80.06,
+              "metadata": {}
+            },
+            {
+              "geography_id": "passaic",
+              "geography_label": "Passaic",
+              "x_value": 40.97,
+              "y_value": 53.9,
+              "size_value": 94094.0,
+              "color_value": 78.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "burlington",
+              "geography_label": "Burlington",
+              "x_value": 41.56,
+              "y_value": 51.23,
+              "size_value": 292102.0,
+              "color_value": 79.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ocean",
+              "geography_label": "Ocean",
+              "x_value": 46.8,
+              "y_value": 50.04,
+              "size_value": 279289.0,
+              "color_value": 81.54,
+              "metadata": {}
+            },
+            {
+              "geography_id": "camden",
+              "geography_label": "Camden",
+              "x_value": 40.31,
+              "y_value": 48.14,
+              "size_value": 304005.0,
+              "color_value": 78.11,
+              "metadata": {}
+            },
+            {
+              "geography_id": "gloucester",
+              "geography_label": "Gloucester",
+              "x_value": 39.16,
+              "y_value": 46.97,
+              "size_value": 175961.0,
+              "color_value": 80.26,
+              "metadata": {}
+            },
+            {
+              "geography_id": "atlantic",
+              "geography_label": "Atlantic",
+              "x_value": 40.92,
+              "y_value": 43.93,
+              "size_value": 160371.0,
+              "color_value": 77.94,
+              "metadata": {}
+            },
+            {
+              "geography_id": "capemay",
+              "geography_label": "Cape May",
+              "x_value": 54.83,
+              "y_value": 56.37,
+              "size_value": 57437.0,
+              "color_value": 85.22,
+              "metadata": {}
+            },
+            {
+              "geography_id": "salem",
+              "geography_label": "Salem",
+              "x_value": 40.4,
+              "y_value": 35.1,
+              "size_value": 13413.0,
+              "color_value": 74.1,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Strategic Recommendations for Site Selection",
+      "subtitle": "A prioritized shortlist of suburban New Jersey locations balancing affluence, low uninsured rates, and family-forming household composition",
+      "description": "This section synthesizes county-level affluence and insurance data (Results 1 and 2) with granular ZIP-level targeting (Result 3) to produce an actionable, prioritized shortlist for BrightSmile's clinic placement. For a premium pediatric practice reliant on dual-income, privately-insured families, the ideal site combines three conditions simultaneously: a high concentration of six-figure households (ability to pay for premium/orthodontic services), a low uninsured rate (proxy for strong private insurance penetration among the working population), and high labor force participation (a signal of the dual-income, employer-sponsored-insurance profile that defines the target customer).\n\nCOUNTY-TIER PRIORITIZATION (Results 1 & 2)\n\nTier 1 — Anchor counties. Bergen leads on the single most important affluence signal, with 70.4% six-figure households and a median household income of $175,638 — the highest income and highest six-figure share in the state — paired with the lowest uninsured rate at 3.18%. This is the strongest affluence-plus-coverage combination available and should be the primary target. Union follows closely: 69.7% six-figure households, $174,331 median income, and the second-lowest uninsured rate at 3.12%. Essex is comparable on wealth (69.9% six-figure households, $175,241 median income, 3.98% uninsured) but its home-ownership rate of 75.2% and a very high top-end (Short Hills, discussed below) make it a strong secondary anchor. Somerset rounds out Tier 1 with 68.7% six-figure households, the second-highest labor force participation among large counties at 69.3%, and a low 3.81% uninsured rate — an excellent dual-income signal.\n\nTier 2 — Secondary expansion. Morris (63.9% six-figure households, 68.7% labor force participation) and Mercer (62.8%, anchored by Princeton) offer deep affluence with solid coverage (uninsured 5.03% and 4.47%). Middlesex (60.5% six-figure, 5.9% unemployment) and Monmouth (61.4% six-figure, large 508K population base) offer volume and reach, though at slightly weaker per-household affluence than Tier 1.\n\nDe-prioritize. Counties such as Atlantic (36.6% six-figure households, 9.87% unemployment, 8.38% uninsured), Salem (27.3% six-figure), and Cumberland (28.3% six-figure, 10.56% uninsured) fall well below the affluence and coverage thresholds this premium concept requires and should be excluded from the initial rollout.\n\nZIP-LEVEL TARGET SHORTLIST (Result 3)\n\nWithin the priority counties, several ZIPs stand out as first-choice sites where high six-figure-household concentration meets a large housing base (household density that supports patient volume):\n- 08820 Edison (Middlesex): 70.9% six-figure households, 13,181 housing units — exceptional affluence with real density.\n- 08807 Bridgewater (Somerset): 71.6% six-figure households, 14,195 housing units.\n- 08844 Hillsborough (Somerset): 72.0% six-figure households, 16,497 housing units, and 72.4% labor force participation — the dual-income signal is strongest here.\n- 07039 Livingston (Essex): 81.6% six-figure households, median home value $818,990 — a premium enclave.\n- 07076 Scotch Plains (Union): 74.1% six-figure households, 8,563 housing units.\n- 08540 Princeton (Mercer): 67.7% six-figure households, 18,609 housing units — the single largest housing base among high-affluence ZIPs.\n- 07960 Morristown (Morris): 67.8% six-figure households, 18,575 housing units, 69.4% labor force participation — strong affluence plus a large addressable base.\n- 08003 Cherry Hill (Camden): 70.3% six-figure households — a pocket of affluence within an otherwise mid-tier county, worth a satellite consideration.\n\nUltra-premium enclaves (07078 Short Hills at 91.4% six-figure households and $1.72M median home value; 07928 Chatham at 77.1%; 07670 Tenafly at 77.3%) confirm where the wealthiest families cluster, but their smaller housing bases suggest they should be served by a nearby high-volume site rather than a standalone clinic.\n\nBUSINESS RECOMMENDATION\nLead with a flagship site in a large, high-affluence, low-uninsured ZIP that combines wealth with volume — Hillsborough (08844) or Bridgewater (08807) in Somerset, or Edison (08820) in Middlesex, are the best-balanced first sites. Reserve a second wave for the Essex/Union premium corridor (Livingston 07039, Scotch Plains 07076) to capture the highest-income families, and use Princeton (08540) or Morristown (07960) to anchor the Mercer/Morris market on the strength of their large housing bases.",
+      "demographic_category": "geographic",
+      "demographic_key": "site_selection",
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Affluence vs. Insurance Coverage by County",
+          "subtitle": "Six-figure household share (X) vs. uninsured rate (Y); bubble size = population. Ideal targets sit lower-right: high affluence, low uninsured.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Six-Figure Households (%)",
+            "y_axis_label": "Uninsured Rate (%)",
+            "size_label": "Population",
+            "color_label": "Labor Force Participation (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "bergen",
+              "geography_label": "Bergen",
+              "x_value": 70.41,
+              "y_value": 3.18,
+              "size_value": 293658.0,
+              "color_value": 64.92,
+              "metadata": {}
+            },
+            {
+              "geography_id": "union",
+              "geography_label": "Union",
+              "x_value": 69.74,
+              "y_value": 3.12,
+              "size_value": 114543.0,
+              "color_value": 66.83,
+              "metadata": {}
+            },
+            {
+              "geography_id": "essex",
+              "geography_label": "Essex",
+              "x_value": 69.87,
+              "y_value": 3.98,
+              "size_value": 108589.0,
+              "color_value": 64.09,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset",
+              "geography_label": "Somerset",
+              "x_value": 68.7,
+              "y_value": 3.81,
+              "size_value": 256153.0,
+              "color_value": 69.26,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morris",
+              "geography_label": "Morris",
+              "x_value": 63.87,
+              "y_value": 5.03,
+              "size_value": 441450.0,
+              "color_value": 68.72,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mercer",
+              "geography_label": "Mercer",
+              "x_value": 62.82,
+              "y_value": 4.47,
+              "size_value": 196664.0,
+              "color_value": 66.51,
+              "metadata": {}
+            },
+            {
+              "geography_id": "middlesex",
+              "geography_label": "Middlesex",
+              "x_value": 60.49,
+              "y_value": 4.37,
+              "size_value": 499207.0,
+              "color_value": 67.23,
+              "metadata": {}
+            },
+            {
+              "geography_id": "monmouth",
+              "geography_label": "Monmouth",
+              "x_value": 61.36,
+              "y_value": 4.8,
+              "size_value": 508359.0,
+              "color_value": 66.14,
+              "metadata": {}
+            },
+            {
+              "geography_id": "passaic",
+              "geography_label": "Passaic",
+              "x_value": 65.43,
+              "y_value": 4.37,
+              "size_value": 94094.0,
+              "color_value": 68.15,
+              "metadata": {}
+            },
+            {
+              "geography_id": "camden",
+              "geography_label": "Camden",
+              "x_value": 49.07,
+              "y_value": 5.68,
+              "size_value": 304005.0,
+              "color_value": 67.52,
+              "metadata": {}
+            },
+            {
+              "geography_id": "burlington",
+              "geography_label": "Burlington",
+              "x_value": 55.55,
+              "y_value": 4.1,
+              "size_value": 292102.0,
+              "color_value": 69.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ocean",
+              "geography_label": "Ocean",
+              "x_value": 48.35,
+              "y_value": 4.62,
+              "size_value": 279289.0,
+              "color_value": 61.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "gloucester",
+              "geography_label": "Gloucester",
+              "x_value": 48.73,
+              "y_value": 3.85,
+              "size_value": 175961.0,
+              "color_value": 65.91,
+              "metadata": {}
+            },
+            {
+              "geography_id": "atlantic",
+              "geography_label": "Atlantic",
+              "x_value": 36.58,
+              "y_value": 8.38,
+              "size_value": 160371.0,
+              "color_value": 64.57,
+              "metadata": {}
+            },
+            {
+              "geography_id": "cumberland",
+              "geography_label": "Cumberland",
+              "x_value": 28.26,
+              "y_value": 10.56,
+              "size_value": 46059.0,
+              "color_value": 58.77,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Top ZIP Targets by Six-Figure Household Share",
+          "subtitle": "Highest-affluence ZIPs within priority counties, ranked by percentage of six-figure households",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP / City",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "07078 Short Hills (Essex)",
+              "value": 91.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07039 Livingston (Essex)",
+              "value": 81.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "08550 Princeton Jct (Mercer)",
+              "value": 80.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07059 Warren (Somerset)",
+              "value": 80.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07751 Morganville (Monmouth)",
+              "value": 78.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07481 Wyckoff (Bergen)",
+              "value": 78.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07670 Tenafly (Bergen)",
+              "value": 77.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07928 Chatham (Morris)",
+              "value": 77.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07076 Scotch Plains (Union)",
+              "value": 74.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "08844 Hillsborough (Somerset)",
+              "value": 72.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "08807 Bridgewater (Somerset)",
+              "value": 71.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "08820 Edison (Middlesex)",
+              "value": 70.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "08003 Cherry Hill (Camden)",
+              "value": 70.3,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:36:31.567802+00:00"
+}

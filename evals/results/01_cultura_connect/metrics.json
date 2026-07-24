@@ -1,0 +1,38 @@
+{
+  "business_id": "01_cultura_connect",
+  "status": "complete",
+  "thread_id": "78d9bd12-9ab4-43e4-8a55-b3e572fc58e1",
+  "latency": {
+    "total_seconds": 56.8
+  },
+  "tokens": {
+    "input_tokens": 122199,
+    "output_tokens": 16419,
+    "total_tokens": 138618,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 122199,
+        "output_tokens": 16419,
+        "total_tokens": 138618
+      }
+    }
+  },
+  "judge": {
+    "overall_quality": 8,
+    "section_relevance": 9,
+    "narrative_quality": 8,
+    "data_plausibility": 7,
+    "visualization_appropriateness": 9,
+    "tool_selection_relevance": 9,
+    "reasoning": "Section relevance is excellent: every section maps directly to a facet of the brief. Section 1 (county contrast) frames the market; Section 2 (limited-English + Hispanic share) is the single most important demand signal for a bilingual/Spanish-English center and is treated as such; Section 3 (young professionals/students/never-married by ZIP, with explicit callouts of campus ZIPs like 30332 Georgia Tech, 30322 Emory) directly serves the \"college students + young professionals\" segment and the \"near a major university\" locational requirement; Section 4 (families/children) covers the third target segment; Section 5 (income/education) informs the mid-range pricing tier. No filler sections. Tool selection is similarly strong \u2014 the agent queried exactly the right metrics (limited-English, Hispanic share, age distribution/20s, never-married, under-10, married households, income, college attainment) for this ICP.\n\nNarrative quality is specific and actionable: it repeatedly ties data to concrete programming decisions (e.g., anchor English-conversation/family immersion in the 30329/30319 corridor, run campus outreach near 30303/30332/30322, reserve singles-heavy cores for networking). The county-level \"two profiles\" framing is a genuine insight rather than generic filler. Minor internal inconsistency drags it slightly: the summary narrative says DeKalb median 35.1/Fulton 33.1 and calls 30326 \"Fulton,\" but 30326 (Buckhead) is actually in Fulton \u2014 fine \u2014 yet Section 2 labels 30326 as Fulton in prose while the summary bubble labels neighboring ZIPs correctly; also 30329, 30319, 30338, 30307, 30317 are correctly DeKalb but 30306 is labeled Fulton in some charts and it is actually DeKalb (Virginia-Highland) \u2014 a recurring county-tagging error that a careful reader would notice.\n\nData plausibility is mostly sound but has notable soft spots. Median incomes ($42k\u2013$140k), college attainment (60\u201392%), and age skews are all realistic for these intown Atlanta ZIPs. However: (1) 30332 (Georgia Tech) at 98.9% never-married and 30322 (Emory) at 94.2% are plausible for dorm-dominated ZIPs but extreme; (2) the summary's headline median household income of $104,602 sits oddly between the two county medians and above most core ZIPs \u2014 its derivation is unclear; (3) home_ownership_rate is null despite being relevant; (4) Section 2 cites 30326's limited-English at 10.4% and small population 8,234, yet 30326 does not appear in the corresponding bubble chart, and the histogram max is 11.4 \u2014 an internal sourcing gap. The critical omission for THIS brief: no walkability, transit-access, foot-traffic, coffee-shop/restaurant density, or commercial-rent/lease-cost data, all explicitly named in the location brief and central to a $4,500\u2013$6,500 lease decision. The report identifies demand-rich ZIPs but cannot confirm any of them fit the lease budget or walkability requirement, which caps overall usefulness.\n\nVisualizations are well-matched: bubble charts for multi-dimensional ZIP comparisons (income \u00d7 limited-English \u00d7 population \u00d7 Hispanic share), bar charts for categorical marital-status and married-share comparisons, and histograms for distributions (limited-English, never-married, income spread). Chart types fit their data throughout, hence the high viz score. Overall this is a strong, near-presentation-ready demographic analysis whose main gap is the absence of the location-fit/lease/walkability layer the owner explicitly requested, plus a few county-labeling and internal-consistency errors.",
+    "judge_tokens": {
+      "input_tokens": 12663,
+      "output_tokens": 1429,
+      "total_tokens": 14092
+    }
+  },
+  "human_report_quality": null,
+  "follow_up_question": null,
+  "error": null,
+  "generated_at": "2026-07-24T18:31:14.471768+00:00"
+}

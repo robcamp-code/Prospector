@@ -1,0 +1,1308 @@
+{
+  "report_id": "51fbf50a-56fb-4a5e-a1e5-a103ee1fd3ea",
+  "title": "Where Rural Wealth Concentrates: Mapping High-Net-Worth and Value-Conscious Households for Superyacht Brokerage",
+  "subtitle": "A Demographic Analysis of Nationwide Rural Markets",
+  "geography_type": "state",
+  "geography_value": "nationwide, rural areas",
+  "client_profile_id": "6ee18edc-84dc-4d00-a404-96688e6384e2",
+  "summary": {
+    "total_population": 190349865,
+    "zip_count": 50,
+    "median_household_income": 83184.74,
+    "median_age": 42.13,
+    "home_ownership_rate": null,
+    "narrative": "Across the 50 states in scope, rural affluence concentrates heavily in the Northeast corridor, with Connecticut ($126,838 median household income, 58.4% six-figure households), Rhode Island, and Massachusetts leading the national wealth tiers. County-level hotspots reveal the sharpest concentrations of prospects: Fairfax County, VA and Westchester County, NY both exceed $236,000 median household income, while Nassau County, NY and Bergen County, NJ post median home values above $1.8M. With a target-aligned median age in the mid-40s and strong over-65 shares in premier counties, these areas offer the rare combination of ultra-high-net-worth density and mature buyers that the brokerage's value-conscious clientele profile demands.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "county_opportunity_bubble",
+      "title": "County Wealth Opportunity: Income vs. Home Value",
+      "subtitle": "Bubble size reflects population; top affluent counties in scope",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Median Home Value ($)",
+        "size_label": "Population",
+        "color_label": "Six-Figure Household Share (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "fairfax_va",
+          "geography_label": "Fairfax, VA",
+          "x_value": 236818.91,
+          "y_value": 1123722.04,
+          "size_value": 31560.0,
+          "color_value": 86.55,
+          "metadata": {}
+        },
+        {
+          "geography_id": "westchester_ny",
+          "geography_label": "Westchester, NY",
+          "x_value": 236931.81,
+          "y_value": 957486.42,
+          "size_value": 45800.0,
+          "color_value": 79.64,
+          "metadata": {}
+        },
+        {
+          "geography_id": "nassau_ny",
+          "geography_label": "Nassau, NY",
+          "x_value": 235605.52,
+          "y_value": 1897528.97,
+          "size_value": 4968.0,
+          "color_value": 77.42,
+          "metadata": {}
+        },
+        {
+          "geography_id": "bergen_nj",
+          "geography_label": "Bergen, NJ",
+          "x_value": 229428.08,
+          "y_value": 1842228.3,
+          "size_value": 1724.0,
+          "color_value": 75.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "howard_md",
+          "geography_label": "Howard, MD",
+          "x_value": 211134.04,
+          "y_value": 783953.5,
+          "size_value": 30029.0,
+          "color_value": 80.63,
+          "metadata": {}
+        },
+        {
+          "geography_id": "san_mateo_ca",
+          "geography_label": "San Mateo, CA",
+          "x_value": 206223.11,
+          "y_value": 1694816.08,
+          "size_value": 55915.0,
+          "color_value": 74.87,
+          "metadata": {}
+        },
+        {
+          "geography_id": "somerset_nj",
+          "geography_label": "Somerset, NJ",
+          "x_value": 200801.03,
+          "y_value": 762487.23,
+          "size_value": 34228.0,
+          "color_value": 74.36,
+          "metadata": {}
+        },
+        {
+          "geography_id": "delaware_pa",
+          "geography_label": "Delaware, PA",
+          "x_value": 189331.97,
+          "y_value": 655576.26,
+          "size_value": 2712.0,
+          "color_value": 85.08,
+          "metadata": {}
+        },
+        {
+          "geography_id": "middlesex_ma",
+          "geography_label": "Middlesex, MA",
+          "x_value": 180016.48,
+          "y_value": 848669.38,
+          "size_value": 145181.0,
+          "color_value": 70.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "alameda_ca",
+          "geography_label": "Alameda, CA",
+          "x_value": 172258.1,
+          "y_value": 1148147.79,
+          "size_value": 103235.0,
+          "color_value": 70.34,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The National Landscape: State-Level Wealth Tiers",
+      "subtitle": "Ranking rural markets by income, six-figure household share, and home value to locate the deepest prospect pools",
+      "description": "Alpine Peak's prospect base — ultra-high-net-worth yet value-conscious buyers in rural markets — is not evenly distributed across the country. Ranking states by the three affluence signals available in the data (median household income, share of households earning six figures, and median home value) reveals a clear geographic hierarchy that should govern where prospecting and concierge resources are concentrated.\n\nTIER 1 — THE AFFLUENCE CORE (Northeast + Mid-Atlantic). Rural Connecticut leads the nation decisively on income concentration: median household income of $126,838 and 58.4% of households earning six figures, the highest six-figure share of any state. It is followed by a tight cluster of Rhode Island ($116,298; 57.3% six-figure), Massachusetts ($118,702; 54.8%), New Jersey ($116,569; 54.4%), Maryland ($114,645; 54.4%), and New Hampshire ($108,207; 51.8%). These six states are the only ones where a majority of rural households clear the six-figure threshold, making them the densest sources of qualified prospects. Notably, this tier also anchors the highest rural home values — Massachusetts ($545,787), Rhode Island ($491,360), Connecticut ($451,718), and New Jersey ($413,373) — a proxy for the illiquid-asset base that typically accompanies yacht-owning wealth.\n\nTIER 2 — THE WESTERN & UPPER-MIDWEST BENCH. A second band of states pairs strong incomes with the nation's most expensive rural housing. Colorado ($96,212; 46.4% six-figure) and California ($91,265; 43.3%) combine high home values ($526,972 and $561,068 respectively), while Hawaii posts the single highest median home value in the dataset at $756,728 despite a more modest income profile ($89,777; 44.2%). Washington ($90,720; 43.9%; $478,037 home value), Nevada ($90,861; 43.9%), Utah ($92,094; 43.8%), and Minnesota ($87,985; 42.2%) round out this tier. For a coastal-oriented brokerage, the Western Tier-2 states — particularly California, Washington, Hawaii, and Nevada — merit outsized attention because the housing wealth signal runs ahead of the raw income signal.\n\nSTRATEGIC READ. The value-conscious behavior of Alpine Peak's target does not dilute the geographic conclusion: prospects who comparison-shop still originate overwhelmingly from the Northeast Affluence Core, where both income and home-value signals converge. A prioritized rural prospecting footprint should lead with Connecticut, Massachusetts, Rhode Island, New Jersey, Maryland, and New Hampshire, then extend to the high-home-value Western states of California, Hawaii, Colorado, and Washington. States at the bottom of the ranking — Mississippi ($58,583; 26.6% six-figure), Arkansas ($61,127; 26.9%), and West Virginia ($61,743; 28.0%) — represent thin prospect pools and low priority for dedicated outreach.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "State Wealth Tiers: Income vs. Six-Figure Household Share",
+          "subtitle": "Bubble size = population; color = median home value. Top affluence states in rural markets.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": "Population",
+            "color_label": "Median Home Value ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "CT",
+              "geography_label": "Connecticut",
+              "x_value": 126837.63,
+              "y_value": 58.43,
+              "size_value": 962351.0,
+              "color_value": 451718.33,
+              "metadata": {}
+            },
+            {
+              "geography_id": "RI",
+              "geography_label": "Rhode Island",
+              "x_value": 116297.76,
+              "y_value": 57.27,
+              "size_value": 191155.0,
+              "color_value": 491359.59,
+              "metadata": {}
+            },
+            {
+              "geography_id": "MA",
+              "geography_label": "Massachusetts",
+              "x_value": 118701.99,
+              "y_value": 54.8,
+              "size_value": 1544202.0,
+              "color_value": 545786.98,
+              "metadata": {}
+            },
+            {
+              "geography_id": "NJ",
+              "geography_label": "New Jersey",
+              "x_value": 116568.76,
+              "y_value": 54.45,
+              "size_value": 1306287.0,
+              "color_value": 413373.45,
+              "metadata": {}
+            },
+            {
+              "geography_id": "MD",
+              "geography_label": "Maryland",
+              "x_value": 114644.68,
+              "y_value": 54.42,
+              "size_value": 1558116.0,
+              "color_value": 413426.15,
+              "metadata": {}
+            },
+            {
+              "geography_id": "NH",
+              "geography_label": "New Hampshire",
+              "x_value": 108206.91,
+              "y_value": 51.84,
+              "size_value": 929783.0,
+              "color_value": 410560.31,
+              "metadata": {}
+            },
+            {
+              "geography_id": "CO",
+              "geography_label": "Colorado",
+              "x_value": 96211.68,
+              "y_value": 46.36,
+              "size_value": 2075491.0,
+              "color_value": 526971.93,
+              "metadata": {}
+            },
+            {
+              "geography_id": "AK",
+              "geography_label": "Alaska",
+              "x_value": 94299.5,
+              "y_value": 45.66,
+              "size_value": 516131.0,
+              "color_value": 320883.22,
+              "metadata": {}
+            },
+            {
+              "geography_id": "HI",
+              "geography_label": "Hawaii",
+              "x_value": 89776.99,
+              "y_value": 44.17,
+              "size_value": 481591.0,
+              "color_value": 756727.62,
+              "metadata": {}
+            },
+            {
+              "geography_id": "WA",
+              "geography_label": "Washington",
+              "x_value": 90719.57,
+              "y_value": 43.94,
+              "size_value": 2996841.0,
+              "color_value": 478036.92,
+              "metadata": {}
+            },
+            {
+              "geography_id": "NV",
+              "geography_label": "Nevada",
+              "x_value": 90860.95,
+              "y_value": 43.92,
+              "size_value": 707979.0,
+              "color_value": 459599.65,
+              "metadata": {}
+            },
+            {
+              "geography_id": "UT",
+              "geography_label": "Utah",
+              "x_value": 92093.79,
+              "y_value": 43.83,
+              "size_value": 1210201.0,
+              "color_value": 488567.79,
+              "metadata": {}
+            },
+            {
+              "geography_id": "CA",
+              "geography_label": "California",
+              "x_value": 91265.28,
+              "y_value": 43.31,
+              "size_value": 8150155.0,
+              "color_value": 561068.45,
+              "metadata": {}
+            },
+            {
+              "geography_id": "MN",
+              "geography_label": "Minnesota",
+              "x_value": 87985.49,
+              "y_value": 42.23,
+              "size_value": 2875473.0,
+              "color_value": 292258.74,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Top Rural Markets by Median Household Income",
+          "subtitle": "The 12 highest-income states, an initial priority list for prospecting",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "State",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Connecticut",
+              "value": 126837.63,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Massachusetts",
+              "value": 118701.99,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New Jersey",
+              "value": 116568.76,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Rhode Island",
+              "value": 116297.76,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Maryland",
+              "value": 114644.68,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New Hampshire",
+              "value": 108206.91,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Colorado",
+              "value": 96211.68,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 94299.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alaska",
+              "value": 94299.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alaska ",
+              "value": 94299.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nevada",
+              "value": 90860.95,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 90719.57,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "County Hotspots: Where Affluence Peaks",
+      "subtitle": "Ranking the strongest county micro-markets for direct superyacht outreach",
+      "description": "At the county level, wealth concentration becomes dramatically more pronounced than state averages suggest. The leading counties in the client's rural nationwide footprint show six-figure household penetration between roughly 68% and 87% — more than double the strongest statewide reading. These are the tightly-clustered micro-markets where Alpine Peak's direct outreach dollars will generate the highest yield per contact. The bubble analysis pairs household affluence (six-figure household share) against median home value to separate two distinct buyer profiles: counties where wealth is broad-based (high six-figure share) versus counties where a smaller cohort holds extraordinary real-estate-backed wealth (very high home values). Notably, several top counties combine both — Fairfax, VA (86.5% six-figure households; $1.12M median home value) and Westchester, NY (79.6%; $957K) headline the broad-and-deep affluence tier, while Nassau, NY ($1.90M median home value) and Bergen, NJ ($1.84M) signal concentrated real-estate wealth even where six-figure penetration is comparatively lower. The disparity between household and individual income across these counties is instructive for the client's budget-conscious UHNW profile: median household income in Fairfax reaches $236,819 while median individual income is $104,873, confirming these are dual-high-earner or asset-rich households whose spending is scrutinized at the household level — precisely the comparison-shopping affluent segment Alpine Peak targets. Recommended priority tier for outreach: Fairfax (VA), Westchester (NY), Nassau (NY), Bergen (NJ), San Mateo (CA), Howard (MD), and Greater Bridgeport (CT).",
+      "demographic_category": "income",
+      "demographic_key": "income.six_figure_households",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Top Counties by Six-Figure Household Share",
+          "subtitle": "Percentage of households earning six figures — leading rural-footprint counties",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fairfax, VA",
+              "value": 86.55,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Delaware, PA",
+              "value": 85.08,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "DuPage, IL",
+              "value": 82.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Howard, MD",
+              "value": 80.63,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY",
+              "value": 79.64,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, NY",
+              "value": 77.42,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Greater Bridgeport, CT",
+              "value": 76.29,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ",
+              "value": 75.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Mateo, CA",
+              "value": 74.87,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ",
+              "value": 74.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Montgomery, MD",
+              "value": 73.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Norfolk, MA",
+              "value": 73.45,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Prince William, VA",
+              "value": 73.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Loudoun, VA",
+              "value": 72.95,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Morris, NJ",
+              "value": 72.42,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Affluence vs. Home Value by County",
+          "subtitle": "Six-figure household share vs. median home value; bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Six-Figure Households (%)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Population",
+            "color_label": "Median Household Income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "va-fairfax",
+              "geography_label": "Fairfax, VA",
+              "x_value": 86.55,
+              "y_value": 1123722.04,
+              "size_value": 31560.0,
+              "color_value": 236818.91,
+              "metadata": {}
+            },
+            {
+              "geography_id": "pa-delaware",
+              "geography_label": "Delaware, PA",
+              "x_value": 85.08,
+              "y_value": 655576.26,
+              "size_value": 2712.0,
+              "color_value": 189331.97,
+              "metadata": {}
+            },
+            {
+              "geography_id": "il-dupage",
+              "geography_label": "DuPage, IL",
+              "x_value": 82.6,
+              "y_value": 641871.0,
+              "size_value": 2557.0,
+              "color_value": 163750.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "md-howard",
+              "geography_label": "Howard, MD",
+              "x_value": 80.63,
+              "y_value": 783953.5,
+              "size_value": 30029.0,
+              "color_value": 211134.04,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ny-westchester",
+              "geography_label": "Westchester, NY",
+              "x_value": 79.64,
+              "y_value": 957486.42,
+              "size_value": 45800.0,
+              "color_value": 236931.81,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ny-nassau",
+              "geography_label": "Nassau, NY",
+              "x_value": 77.42,
+              "y_value": 1897528.97,
+              "size_value": 4968.0,
+              "color_value": 235605.52,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ct-bridgeport",
+              "geography_label": "Greater Bridgeport, CT",
+              "x_value": 76.29,
+              "y_value": 586693.53,
+              "size_value": 26619.0,
+              "color_value": 176081.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nj-bergen",
+              "geography_label": "Bergen, NJ",
+              "x_value": 75.4,
+              "y_value": 1842228.3,
+              "size_value": 1724.0,
+              "color_value": 229428.08,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ca-sanmateo",
+              "geography_label": "San Mateo, CA",
+              "x_value": 74.87,
+              "y_value": 1694816.08,
+              "size_value": 55915.0,
+              "color_value": 206223.11,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nj-somerset",
+              "geography_label": "Somerset, NJ",
+              "x_value": 74.36,
+              "y_value": 762487.23,
+              "size_value": 34228.0,
+              "color_value": 200801.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "md-montgomery",
+              "geography_label": "Montgomery, MD",
+              "x_value": 73.8,
+              "y_value": 674451.25,
+              "size_value": 60705.0,
+              "color_value": 169454.74,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ma-norfolk",
+              "geography_label": "Norfolk, MA",
+              "x_value": 73.45,
+              "y_value": 789168.64,
+              "size_value": 27115.0,
+              "color_value": 174595.54,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ca-alameda",
+              "geography_label": "Alameda, CA",
+              "x_value": 70.34,
+              "y_value": 1148147.79,
+              "size_value": 103235.0,
+              "color_value": 172258.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "wa-king",
+              "geography_label": "King, WA",
+              "x_value": 69.08,
+              "y_value": 840443.18,
+              "size_value": 165741.0,
+              "color_value": 152883.88,
+              "metadata": {}
+            },
+            {
+              "geography_id": "co-douglas",
+              "geography_label": "Douglas, CO",
+              "x_value": 69.25,
+              "y_value": 719910.14,
+              "size_value": 106185.0,
+              "color_value": 146589.32,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Metro Anchors for Rural Prospecting",
+      "subtitle": "Coastal and resort CBSAs that concentrate the affluence radiating into surrounding rural markets",
+      "description": "Rural high-net-worth prospecting rarely succeeds by treating rural areas as an undifferentiated whole. Instead, wealth clusters around identifiable metro and resort anchors whose affluence spills into the surrounding countryside — the estates, second homes, and family compounds that sit just outside the urban core. Result 3 (CBSA grouping) isolates the metropolitan and resort markets that should anchor Alpine Peak's regional targeting.\n\nTwo distinct profiles emerge. The first is the classic Northeast/West Coast wealth corridor, led by Bridgeport-Stamford-Danbury, CT ($174,449 median household income; 70.7% six-figure households) and San Francisco-Oakland-Fremont, CA ($171,140; 68.9%). These markets combine very high income concentration with the depth of population needed to sustain a superyacht clientele.\n\nThe second — and strategically more distinctive — profile is the resort market, where home values dramatically outrun even elevated incomes, signaling concentrated second-home and legacy wealth rather than working-professional income. Nantucket, MA (median home value $1,587,377 against $138,301 median household income), Jackson, WY-ID ($1,171,666 home value; $116,609 income), and Vineyard Haven, MA ($1,092,633 home value; $120,894 income) exemplify this pattern. The gap between home value and household income in these coastal and mountain-resort CBSAs is the clearest signal in the dataset of asset-rich, ultra-high-net-worth households — precisely the maritime-lifestyle buyer profile, and one whose value-conscious purchasing habits make discount-marketplace comparison shopping a defining behavior.\n\nBusiness implication: Alpine Peak should treat the high-income corridors (Bridgeport-Stamford, San Francisco-Oakland-Fremont, San Jose, Boston-Cambridge-Newton) as volume anchors and the resort CBSAs (Nantucket, Jackson, Vineyard Haven) as high-value, low-volume prestige anchors. Rural outreach campaigns should be organized around these metro nodes, radiating into the affluent countryside each one anchors.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Top Anchor CBSAs by Median Household Income and Six-Figure Household Share",
+          "subtitle": "Highest-income metro and resort markets in the client's rural geographic scope",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "CBSA",
+            "y_axis_label": "Median household income (USD)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Bridgeport-Stamford-Danbury, CT",
+              "value": 174449.00512372114,
+              "percentage": 70.67571467556265,
+              "color": null
+            },
+            {
+              "label": "San Francisco-Oakland-Fremont, CA",
+              "value": 171139.99394523317,
+              "percentage": 68.85224243626436,
+              "color": null
+            },
+            {
+              "label": "New Haven, CT",
+              "value": 153447.95665696135,
+              "percentage": 65.89605446003176,
+              "color": null
+            },
+            {
+              "label": "Trenton-Princeton, NJ",
+              "value": 149998.52634905587,
+              "percentage": 66.42212477943694,
+              "color": null
+            },
+            {
+              "label": "San Jose-Sunnyvale-Santa Clara, CA",
+              "value": 149203.34950466378,
+              "percentage": 65.4179936130382,
+              "color": null
+            },
+            {
+              "label": "Boston-Cambridge-Newton, MA-NH",
+              "value": 141303.41077817034,
+              "percentage": 62.99758774656938,
+              "color": null
+            },
+            {
+              "label": "Nantucket, MA",
+              "value": 138300.82551957466,
+              "percentage": 63.43020092522267,
+              "color": null
+            },
+            {
+              "label": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+              "value": 136784.9849080412,
+              "percentage": 63.092181524117535,
+              "color": null
+            },
+            {
+              "label": "New York-Newark-Jersey City, NY-NJ",
+              "value": 133851.8368117163,
+              "percentage": 59.98105334371526,
+              "color": null
+            },
+            {
+              "label": "Denver-Aurora-Centennial, CO",
+              "value": 132122.40384852773,
+              "percentage": 63.77272867547218,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Asset-Rich Resort Markets: Home Value vs. Income (Bubble Size = Population)",
+          "subtitle": "The gap between home value and household income flags concentrated second-home and legacy wealth",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median household income (USD)",
+            "y_axis_label": "Median home value (USD)",
+            "size_label": "Population",
+            "color_label": "Six-figure household share (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "bridgeport-stamford-danbury-ct",
+              "geography_label": "Bridgeport-Stamford-Danbury, CT",
+              "x_value": 174449.00512372114,
+              "y_value": 740703.9787254187,
+              "size_value": 179557.0,
+              "color_value": 70.67571467556265,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san-francisco-oakland-fremont-ca",
+              "geography_label": "San Francisco-Oakland-Fremont, CA",
+              "x_value": 171139.99394523317,
+              "y_value": 1273370.9700992755,
+              "size_value": 211734.0,
+              "color_value": 68.85224243626436,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san-jose-sunnyvale-santa-clara-ca",
+              "geography_label": "San Jose-Sunnyvale-Santa Clara, CA",
+              "x_value": 149203.34950466378,
+              "y_value": 1115665.8406440797,
+              "size_value": 245187.0,
+              "color_value": 65.4179936130382,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nantucket-ma",
+              "geography_label": "Nantucket, MA",
+              "x_value": 138300.82551957466,
+              "y_value": 1587377.4285714286,
+              "size_value": 14483.0,
+              "color_value": 63.43020092522267,
+              "metadata": {}
+            },
+            {
+              "geography_id": "vineyard-haven-ma",
+              "geography_label": "Vineyard Haven, MA",
+              "x_value": 120893.92146548541,
+              "y_value": 1092632.8525286084,
+              "size_value": 21672.0,
+              "color_value": 57.405933923957186,
+              "metadata": {}
+            },
+            {
+              "geography_id": "jackson-wy-id",
+              "geography_label": "Jackson, WY-ID",
+              "x_value": 116609.26596187464,
+              "y_value": 1171665.6622270318,
+              "size_value": 36039.0,
+              "color_value": 56.33408252171258,
+              "metadata": {}
+            },
+            {
+              "geography_id": "heber-ut",
+              "geography_label": "Heber, UT",
+              "x_value": 123123.90135703262,
+              "y_value": 856575.3970837103,
+              "size_value": 93955.0,
+              "color_value": 56.60319301793412,
+              "metadata": {}
+            },
+            {
+              "geography_id": "boston-cambridge-newton-ma-nh",
+              "geography_label": "Boston-Cambridge-Newton, MA-NH",
+              "x_value": 141303.41077817034,
+              "y_value": 626363.241391588,
+              "size_value": 763933.0,
+              "color_value": 62.99758774656938,
+              "metadata": {}
+            },
+            {
+              "geography_id": "new-york-newark-jersey-city-ny-nj",
+              "geography_label": "New York-Newark-Jersey City, NY-NJ",
+              "x_value": 133851.8368117163,
+              "y_value": 595283.8436950851,
+              "size_value": 940092.0,
+              "color_value": 59.98105334371526,
+              "metadata": {}
+            },
+            {
+              "geography_id": "denver-aurora-centennial-co",
+              "geography_label": "Denver-Aurora-Centennial, CO",
+              "x_value": 132122.40384852773,
+              "y_value": 660380.3019973793,
+              "size_value": 421252.0,
+              "color_value": 63.77272867547218,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Age Profile of the Target Wealth Base",
+      "subtitle": "How the age structure of affluent rural markets aligns with the 45–75 target range",
+      "description": "Alpine Peak's ideal client sits squarely in the 45–75 age band — old enough to have accumulated $50M+ in liquid wealth, yet still active enough to charter, cruise, and manage a maritime lifestyle. This section evaluates how well the age structure of the wealthiest rural markets maps onto that window, using median age and the share of residents over 65 alongside income concentration.\n\nState-level data (Result 1) shows that the highest-income states are also the oldest, which is favorable for the client. The seven wealthiest states by six-figure household share — Connecticut (58.4% six-figure households, median age 45.9), Rhode Island (57.3%, 46.7), Massachusetts (54.8%, 45.9), New Jersey (54.4%, 44.9), Maryland (54.4%, 42.5), New Hampshire (51.8%, 44.5), and Colorado (46.4%, 41.0) — all carry median ages that fall inside or just below the lower bound of the target range. Rhode Island and Massachusetts stand out with over-65 shares above 22%, signaling a large pool of established, retirement-age wealth that sits deep within the target band.\n\nAt the county level (Result 2), the most affluent rural counties cluster in the middle of the target range: Fairfax, VA (86.5% six-figure households, median age 46.5), San Mateo, CA (74.9%, 46.8), Norfolk, MA (73.5%, 46.3), and Monmouth, NJ (68.5%, 46.7) all combine top-tier income with median ages between 46 and 47 — a near-perfect demographic match. A cautionary note applies to a few high-income but younger markets: Loudoun, VA (73.0% six-figure households) and Prince William, VA (73.3%) show median ages under 40 and over-65 shares of only 11.8% and 14.0% respectively, indicating wealth held largely by pre-retirement professionals who may be less oriented toward superyacht ownership than the client's core prospect.\n\nBusiness implication: The client should prioritize the older, established-wealth markets — the Northeast corridor and select California and Maryland counties — where affluence and the 45–75 age structure coincide. Younger high-income counties can be treated as pipeline markets for charter and lifestyle-consulting services rather than immediate superyacht-sale targets.",
+      "demographic_category": "age",
+      "demographic_key": "age.median_age",
+      "importance_weight": 80.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Wealthiest Rural Counties: Age vs. Income Concentration",
+          "subtitle": "Median age (x) against six-figure household share (y); bubble size = population, color = share over 65",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Age",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": "Population",
+            "color_label": "Share Over 65 (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "fairfax_va",
+              "geography_label": "Fairfax, VA",
+              "x_value": 46.5,
+              "y_value": 86.55,
+              "size_value": 31560.0,
+              "color_value": 19.39,
+              "metadata": {}
+            },
+            {
+              "geography_id": "howard_md",
+              "geography_label": "Howard, MD",
+              "x_value": 43.81,
+              "y_value": 80.63,
+              "size_value": 30029.0,
+              "color_value": 16.86,
+              "metadata": {}
+            },
+            {
+              "geography_id": "westchester_ny",
+              "geography_label": "Westchester, NY",
+              "x_value": 45.55,
+              "y_value": 79.64,
+              "size_value": 45800.0,
+              "color_value": 19.87,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san_mateo_ca",
+              "geography_label": "San Mateo, CA",
+              "x_value": 46.82,
+              "y_value": 74.87,
+              "size_value": 55915.0,
+              "color_value": 24.24,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset_nj",
+              "geography_label": "Somerset, NJ",
+              "x_value": 46.39,
+              "y_value": 74.36,
+              "size_value": 34228.0,
+              "color_value": 20.93,
+              "metadata": {}
+            },
+            {
+              "geography_id": "montgomery_md",
+              "geography_label": "Montgomery, MD",
+              "x_value": 45.59,
+              "y_value": 73.8,
+              "size_value": 60705.0,
+              "color_value": 19.85,
+              "metadata": {}
+            },
+            {
+              "geography_id": "norfolk_ma",
+              "geography_label": "Norfolk, MA",
+              "x_value": 46.25,
+              "y_value": 73.45,
+              "size_value": 27115.0,
+              "color_value": 21.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "prince_william_va",
+              "geography_label": "Prince William, VA",
+              "x_value": 39.83,
+              "y_value": 73.3,
+              "size_value": 51423.0,
+              "color_value": 14.02,
+              "metadata": {}
+            },
+            {
+              "geography_id": "loudoun_va",
+              "geography_label": "Loudoun, VA",
+              "x_value": 39.21,
+              "y_value": 72.95,
+              "size_value": 96156.0,
+              "color_value": 11.84,
+              "metadata": {}
+            },
+            {
+              "geography_id": "morris_nj",
+              "geography_label": "Morris, NJ",
+              "x_value": 45.47,
+              "y_value": 72.42,
+              "size_value": 50814.0,
+              "color_value": 18.53,
+              "metadata": {}
+            },
+            {
+              "geography_id": "middlesex_ma",
+              "geography_label": "Middlesex, MA",
+              "x_value": 43.43,
+              "y_value": 70.4,
+              "size_value": 145181.0,
+              "color_value": 18.33,
+              "metadata": {}
+            },
+            {
+              "geography_id": "alameda_ca",
+              "geography_label": "Alameda, CA",
+              "x_value": 42.27,
+              "y_value": 70.34,
+              "size_value": 103235.0,
+              "color_value": 16.24,
+              "metadata": {}
+            },
+            {
+              "geography_id": "king_wa",
+              "geography_label": "King, WA",
+              "x_value": 41.18,
+              "y_value": 69.08,
+              "size_value": 165741.0,
+              "color_value": 15.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "anne_arundel_md",
+              "geography_label": "Anne Arundel, MD",
+              "x_value": 46.28,
+              "y_value": 69.01,
+              "size_value": 40945.0,
+              "color_value": 19.76,
+              "metadata": {}
+            },
+            {
+              "geography_id": "monmouth_nj",
+              "geography_label": "Monmouth, NJ",
+              "x_value": 46.68,
+              "y_value": 68.51,
+              "size_value": 42058.0,
+              "color_value": 21.37,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Share of Residents Over 65 in the Wealthiest States",
+          "subtitle": "Top states by six-figure household share, ranked by over-65 concentration",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "State",
+            "y_axis_label": "Residents Over 65 (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Rhode Island",
+              "value": 23.11,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Massachusetts",
+              "value": 22.48,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Connecticut",
+              "value": 21.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New Jersey",
+              "value": 21.44,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New Hampshire",
+              "value": 21.19,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Maryland",
+              "value": 18.84,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Colorado",
+              "value": 18.08,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Reconciling Wealth with Value-Consciousness",
+      "subtitle": "Profiling markets where high liquid wealth coexists with meaningful home-value spreads",
+      "description": "Alpine Peak's ideal buyer is a paradox: enormous liquid wealth paired with a persistent instinct to comparison-shop and scrutinize value. The data reveals that these two traits do not have to be sought in different places — they coexist within the same affluent geographies. Across the three grouping levels, the signal is consistent: the highest concentrations of six-figure households cluster in a relatively small set of counties and CBSAs, but the median home value attached to those same wealth concentrations varies enormously. This spread is the operational heart of the client's positioning. A market like Fairfax County, Virginia (86.5% six-figure households, $1.12M median home value) or Nassau County, New York (77.4% six-figure households, $1.90M median home value) demonstrates that dense wealth and steep housing costs can travel together. But the more compelling opportunities for a value-conscious luxury pitch appear where six-figure household density stays high while home values remain comparatively restrained — for example Marion County, Indiana (70.3% six-figure households at only $361K median home value), Douglas County, Colorado (69.2% at $720K), and Anne Arundel County, Maryland (69.0% at $522K). These are places where wealth is real and liquid, yet the local cost baseline reinforces the buyer's habit of measuring every dollar. At the metro level, the CBSA comparison shows the same divergence: Denver-Aurora-Centennial pairs a 63.8% six-figure share with a $660K home value, while San Francisco-Oakland-Fremont pairs a nearly identical 68.9% share with a $1.27M home value. For a brokerage courting ultra-high-net-worth buyers who nonetheless behave like discount shoppers, the strategic implication is to prioritize the high-concentration, moderate-cost markets first: the wealth-to-cost ratio there validates the client's core message that superyacht ownership can be framed as a considered, value-aware decision rather than an impulse of unlimited spending. The two visualizations below make this contrast explicit — one ranks counties on six-figure household concentration, the other plots concentration against home value with population as scale, so the client can see which affluent markets offer the most favorable cost backdrop for a value-first sales conversation.",
+      "demographic_category": "income_and_housing",
+      "demographic_key": "income.six_figure_households",
+      "importance_weight": 85.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Six-Figure Household Concentration by County",
+          "subtitle": "Share of households earning six figures across the wealthiest counties in the client's scope",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Six-figure households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Fairfax, VA",
+              "value": 86.55,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Delaware, PA",
+              "value": 85.08,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "DuPage, IL",
+              "value": 82.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Howard, MD",
+              "value": 80.63,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY",
+              "value": 79.64,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, NY",
+              "value": 77.42,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Greater Bridgeport, CT",
+              "value": 76.29,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ",
+              "value": 75.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Mateo, CA",
+              "value": 74.87,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Somerset, NJ",
+              "value": 74.36,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Marion, IN",
+              "value": 70.26,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Douglas, CO",
+              "value": 69.25,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Anne Arundel, MD",
+              "value": 69.01,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Wealth Concentration vs. Home-Value Cost Backdrop",
+          "subtitle": "Six-figure household share against median home value; bubble size reflects population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Six-figure households (%)",
+            "y_axis_label": "Median home value ($)",
+            "size_label": "Population",
+            "color_label": "Median household income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "va-fairfax",
+              "geography_label": "Fairfax, VA",
+              "x_value": 86.55,
+              "y_value": 1123722.04,
+              "size_value": 31560.0,
+              "color_value": 236818.91,
+              "metadata": {}
+            },
+            {
+              "geography_id": "md-howard",
+              "geography_label": "Howard, MD",
+              "x_value": 80.63,
+              "y_value": 783953.5,
+              "size_value": 30029.0,
+              "color_value": 211134.04,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ny-westchester",
+              "geography_label": "Westchester, NY",
+              "x_value": 79.64,
+              "y_value": 957486.42,
+              "size_value": 45800.0,
+              "color_value": 236931.81,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ny-nassau",
+              "geography_label": "Nassau, NY",
+              "x_value": 77.42,
+              "y_value": 1897528.97,
+              "size_value": 4968.0,
+              "color_value": 235605.52,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ct-bridgeport",
+              "geography_label": "Greater Bridgeport, CT",
+              "x_value": 76.29,
+              "y_value": 586693.53,
+              "size_value": 26619.0,
+              "color_value": 176081.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ca-sanmateo",
+              "geography_label": "San Mateo, CA",
+              "x_value": 74.87,
+              "y_value": 1694816.08,
+              "size_value": 55915.0,
+              "color_value": 206223.11,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nj-somerset",
+              "geography_label": "Somerset, NJ",
+              "x_value": 74.36,
+              "y_value": 762487.23,
+              "size_value": 34228.0,
+              "color_value": 200801.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "md-montgomery",
+              "geography_label": "Montgomery, MD",
+              "x_value": 73.8,
+              "y_value": 674451.25,
+              "size_value": 60705.0,
+              "color_value": 169454.74,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ma-middlesex",
+              "geography_label": "Middlesex, MA",
+              "x_value": 70.4,
+              "y_value": 848669.38,
+              "size_value": 145181.0,
+              "color_value": 180016.48,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ca-alameda",
+              "geography_label": "Alameda, CA",
+              "x_value": 70.34,
+              "y_value": 1148147.79,
+              "size_value": 103235.0,
+              "color_value": 172258.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "in-marion",
+              "geography_label": "Marion, IN",
+              "x_value": 70.26,
+              "y_value": 361318.37,
+              "size_value": 23653.0,
+              "color_value": 139627.53,
+              "metadata": {}
+            },
+            {
+              "geography_id": "co-douglas",
+              "geography_label": "Douglas, CO",
+              "x_value": 69.25,
+              "y_value": 719910.14,
+              "size_value": 106185.0,
+              "color_value": 146589.32,
+              "metadata": {}
+            },
+            {
+              "geography_id": "wa-king",
+              "geography_label": "King, WA",
+              "x_value": 69.08,
+              "y_value": 840443.18,
+              "size_value": 165741.0,
+              "color_value": 152883.88,
+              "metadata": {}
+            },
+            {
+              "geography_id": "md-annearundel",
+              "geography_label": "Anne Arundel, MD",
+              "x_value": 69.01,
+              "y_value": 521509.31,
+              "size_value": 40945.0,
+              "color_value": 154703.62,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nj-monmouth",
+              "geography_label": "Monmouth, NJ",
+              "x_value": 68.51,
+              "y_value": 719871.94,
+              "size_value": 42058.0,
+              "color_value": 172873.8,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:29:42.759913+00:00"
+}
