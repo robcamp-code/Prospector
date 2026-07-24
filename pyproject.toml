@@ -33,3 +33,6 @@ dependencies = [
 markers = [
     "live: hits real LLM APIs and the live app; slow and costs tokens; run via 'just test-live'",
 ]
+
+[tool.vercel]
+entrypoint = "src.api:app"
