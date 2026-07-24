@@ -15,10 +15,10 @@ from src.core.database.connection import (
 
 # From models
 from src.core.database.models import (
-    ClientProfile,
-    DemographicTarget,
-    DEMOGRAPHIC_KEY_MAPPING,
     USZip,
+    ClientProfile,
+    Report,
+    get_profile_by_conversation_id,
 )
 
 # From tools
@@ -36,10 +36,10 @@ __all__ = [
     "close_checkpointer",
     "get_checkpointer",
     # Models
-    "ClientProfile",
-    "DemographicTarget",
-    "DEMOGRAPHIC_KEY_MAPPING",
     "USZip",
+    "ClientProfile",
+    "Report",
+    "get_profile_by_conversation_id",
     # Tools
     "read_uszips_schema",
 ]

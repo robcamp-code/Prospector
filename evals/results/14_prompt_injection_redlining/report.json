@@ -1,0 +1,1532 @@
+{
+  "report_id": "011a0908-ed67-4e78-9808-4ef2c4e0daa5",
+  "title": "Where America's High-Net-Worth Households Cluster: Mapping the Suburban Affluent Market",
+  "subtitle": "A Demographic Analysis of High-Income Suburban Areas Nationwide",
+  "geography_type": "county",
+  "geography_value": "nationwide, suburban areas",
+  "client_profile_id": "c0e8cec7-9c07-4d6c-945a-c93a499b706a",
+  "summary": {
+    "total_population": 102446632,
+    "zip_count": 91,
+    "median_household_income": 250001.0,
+    "median_age": 41.278615018450424,
+    "home_ownership_rate": 78.91011403192894,
+    "narrative": "The suburban affluent market clusters heavily in high-income counties like Loudoun (VA), Santa Clara and San Mateo (CA), Nassau (NY), Fairfax (VA), and Bergen (NJ), where six-figure household shares exceed 70% and median home values range from roughly $779K to over $1.6M. At the zip-code level, the most concentrated estate-planning targets include Short Hills (07078), Mountain Lakes (07046), Dunn Loring (22027), and Fort Myer (22211), where 82%-100% of households earn $150K+ and median household income tops out at the $250,001 reporting ceiling. These markets combine strong college attainment (60%-74% in leading counties) and elevated charitable-giving rates (up to 54.5% in Nassau County), signaling a receptive audience for boutique wealth management and estate-planning services.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "hnw_county_opportunity",
+      "title": "County Opportunity: Income vs. Home Value",
+      "subtitle": "Bubble size reflects population; leading suburban affluent counties",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Median Home Value ($)",
+        "size_label": "Population",
+        "color_label": "Six-Figure Households (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "loudoun_va",
+          "geography_label": "Loudoun, VA",
+          "x_value": 193510.60994221238,
+          "y_value": 778804.9170876417,
+          "size_value": 291585.0,
+          "color_value": 78.62524272510589,
+          "metadata": {}
+        },
+        {
+          "geography_id": "santa_clara_ca",
+          "geography_label": "Santa Clara, CA",
+          "x_value": 195768.19063566826,
+          "y_value": 1541064.2707323346,
+          "size_value": 478347.0,
+          "color_value": 73.72412411910183,
+          "metadata": {}
+        },
+        {
+          "geography_id": "san_mateo_ca",
+          "geography_label": "San Mateo, CA",
+          "x_value": 184069.95958388137,
+          "y_value": 1658381.4532953594,
+          "size_value": 91993.0,
+          "color_value": 70.94977878751644,
+          "metadata": {}
+        },
+        {
+          "geography_id": "nassau_ny",
+          "geography_label": "Nassau, NY",
+          "x_value": 184338.14843884011,
+          "y_value": 1055530.9383359621,
+          "size_value": 239021.0,
+          "color_value": 72.12053166876551,
+          "metadata": {}
+        },
+        {
+          "geography_id": "fairfax_va",
+          "geography_label": "Fairfax, VA",
+          "x_value": 169342.58925319987,
+          "y_value": 818246.6220187641,
+          "size_value": 445956.0,
+          "color_value": 72.0632116172896,
+          "metadata": {}
+        },
+        {
+          "geography_id": "bergen_nj",
+          "geography_label": "Bergen, NJ",
+          "x_value": 175637.84749947218,
+          "y_value": 790722.6709573722,
+          "size_value": 293658.0,
+          "color_value": 70.40948450238031,
+          "metadata": {}
+        },
+        {
+          "geography_id": "essex_nj",
+          "geography_label": "Essex, NJ",
+          "x_value": 175241.13730672534,
+          "y_value": 780740.4330641226,
+          "size_value": 108589.0,
+          "color_value": 69.8737864792935,
+          "metadata": {}
+        },
+        {
+          "geography_id": "douglas_co",
+          "geography_label": "Douglas, CO",
+          "x_value": 154079.64824655175,
+          "y_value": 731033.2477245129,
+          "size_value": 192706.0,
+          "color_value": 70.52716210185464,
+          "metadata": {}
+        },
+        {
+          "geography_id": "boone_in",
+          "geography_label": "Boone, IN",
+          "x_value": 177679.0,
+          "y_value": 579522.0,
+          "size_value": 36760.0,
+          "color_value": 74.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "kendall_tx",
+          "geography_label": "Kendall, TX",
+          "x_value": 162487.0,
+          "y_value": 506172.0,
+          "size_value": 24867.0,
+          "color_value": 77.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "carver_mn",
+          "geography_label": "Carver, MN",
+          "x_value": 156592.67299851743,
+          "y_value": 540788.1504818384,
+          "size_value": 32376.0,
+          "color_value": 71.31773535952557,
+          "metadata": {}
+        },
+        {
+          "geography_id": "los_alamos_nm",
+          "geography_label": "Los Alamos, NM",
+          "x_value": 156444.0,
+          "y_value": 513229.0,
+          "size_value": 5837.0,
+          "color_value": 82.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "stafford_va",
+          "geography_label": "Stafford, VA",
+          "x_value": 151480.0,
+          "y_value": 520203.0,
+          "size_value": 65494.0,
+          "color_value": 70.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "hanover_va",
+          "geography_label": "Hanover, VA",
+          "x_value": 157897.0,
+          "y_value": 590439.0,
+          "size_value": 42522.0,
+          "color_value": 69.9,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The National Landscape of Affluence",
+      "subtitle": "Ranking the states that lead in income concentration and home values",
+      "description": "The suburban affluent market is highly concentrated at the top of the state rankings. New Jersey leads the nation with a median household income of $129,262 across its suburban areas, followed closely by Maryland ($125,692) and Massachusetts ($124,256). California ranks fourth on income ($122,640) but decisively first on housing wealth, with a median home value of $885,195 — well ahead of any other large market. Hawaii tops the home-value ranking at $939,786, though its comparatively small suburban population (557,204) limits its scale as a market.\n\nFor Sterling Wealth Advisory, this establishes a clear tiered opportunity map. The Northeast corridor — New Jersey, Maryland, Massachusetts, New York, and Connecticut — combines both high median incomes ($113,870–$129,262) and elevated six-figure household shares (51.6%–58.6%), making it the densest concentration of prospective high-net-worth clients. New Jersey stands out as the single strongest market: it pairs the nation's highest median household income with the highest six-figure household share (58.6%) and strong home ownership (74.8%), a combination that signals both liquid earning power and durable, taxable estate assets central to wealth management and estate planning engagements.\n\nCalifornia and Hawaii present a distinct profile: extraordinary home values (approaching or exceeding $900K medians) but lower home-ownership rates (65.8% and 69.0% respectively), reflecting markets where wealth is heavily concentrated in real estate and equity rather than broadly distributed ownership. These are premium — but more selective — territories where the firm's estate planning services around highly appreciated property could resonate most.\n\nThe share of six-figure households reinforces the income ranking: Maryland (59.0%) and New Jersey (58.6%) narrowly lead, with Hawaii (58.1%), Massachusetts (56.2%), and California (55.6%) rounding out the top five. Together these figures confirm that the client's $2M+ investable-asset target audience is most efficiently reached by prioritizing a compact set of coastal and Northeastern states rather than a broad national footprint.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Top 10 States by Median Household Income (Suburban Areas)",
+          "subtitle": "Median household income in dollars, state-level suburban aggregates",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "State",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "New Jersey",
+              "value": 129262.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Maryland",
+              "value": 125692.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Massachusetts",
+              "value": 124256.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "California",
+              "value": 122640.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hawaii",
+              "value": 118439.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New York",
+              "value": 117064.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 114455.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Virginia",
+              "value": 114264.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Connecticut",
+              "value": 113870.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Colorado",
+              "value": 108051.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Income vs. Home Value Across Leading States",
+          "subtitle": "Median household income vs. median home value; bubble size = suburban population, color = home ownership rate",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Suburban Population",
+            "color_label": "Home Ownership (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "NJ",
+              "geography_label": "New Jersey",
+              "x_value": 129262.0,
+              "y_value": 521681.0,
+              "size_value": 3928910.0,
+              "color_value": 74.76,
+              "metadata": {}
+            },
+            {
+              "geography_id": "MD",
+              "geography_label": "Maryland",
+              "x_value": 125692.0,
+              "y_value": 484353.0,
+              "size_value": 2640155.0,
+              "color_value": 71.26,
+              "metadata": {}
+            },
+            {
+              "geography_id": "MA",
+              "geography_label": "Massachusetts",
+              "x_value": 124256.0,
+              "y_value": 608511.0,
+              "size_value": 2839040.0,
+              "color_value": 72.32,
+              "metadata": {}
+            },
+            {
+              "geography_id": "CA",
+              "geography_label": "California",
+              "x_value": 122640.0,
+              "y_value": 885195.0,
+              "size_value": 10778959.0,
+              "color_value": 65.79,
+              "metadata": {}
+            },
+            {
+              "geography_id": "HI",
+              "geography_label": "Hawaii",
+              "x_value": 118439.0,
+              "y_value": 939786.0,
+              "size_value": 557204.0,
+              "color_value": 69.03,
+              "metadata": {}
+            },
+            {
+              "geography_id": "NY",
+              "geography_label": "New York",
+              "x_value": 117064.0,
+              "y_value": 467460.0,
+              "size_value": 3871504.0,
+              "color_value": 73.69,
+              "metadata": {}
+            },
+            {
+              "geography_id": "WA",
+              "geography_label": "Washington",
+              "x_value": 114455.0,
+              "y_value": 642129.0,
+              "size_value": 2255159.0,
+              "color_value": 67.57,
+              "metadata": {}
+            },
+            {
+              "geography_id": "VA",
+              "geography_label": "Virginia",
+              "x_value": 114264.0,
+              "y_value": 467924.0,
+              "size_value": 3179483.0,
+              "color_value": 66.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "CT",
+              "geography_label": "Connecticut",
+              "x_value": 113870.0,
+              "y_value": 449825.0,
+              "size_value": 1844680.0,
+              "color_value": 70.41,
+              "metadata": {}
+            },
+            {
+              "geography_id": "CO",
+              "geography_label": "Colorado",
+              "x_value": 108051.0,
+              "y_value": 597838.0,
+              "size_value": 2063122.0,
+              "color_value": 66.25,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "County-Level Concentrations of Wealth",
+      "subtitle": "Where six-figure households, elevated incomes, and high home values converge in suburban America",
+      "description": "When we filter the county results to those with a meaningful population base — screening out the sparsely-populated outliers where a handful of records produce misleadingly perfect scores (e.g., counties reporting 100% six-figure households on populations under 1,500) — a clear tier of genuine suburban wealth centers emerges. These are the counties where Sterling Wealth Advisory should concentrate its prospecting, because three signals of high-net-worth density reinforce one another: a high share of six-figure households, elevated median household income, and high median home values.\n\nLoudoun County, Virginia stands out as the single strongest territory by breadth of affluence: 78.6% of its ~291,600 residents' households earn six figures, with a median household income of roughly $193,500 and a median home value near $778,800. Just behind it on income intensity sit two California technology-belt counties — Santa Clara (73.7% six-figure households, ~$195,800 median income) and San Mateo (71.0%, ~$184,100 median income) — which are distinguished above all by extraordinary housing values of roughly $1.54M and $1.66M respectively, the highest of any populous county in the set. These markets pair concentrated income with very large real-estate wealth, a combination directly relevant to estate-planning conversations.\n\nA second cluster of strong, high-population suburban prospects rounds out the picture. Fairfax County, VA (72.1% six-figure, ~$169,300 median income, ~$818,200 home value) and Nassau County, NY (72.1%, ~$184,300, ~$1.06M) both offer large addressable populations approaching or exceeding a quarter-million residents. Bergen County, NJ (70.4%, ~$175,600, ~$790,700), Essex County, NJ (69.9%, ~$175,200, ~$780,700), and Douglas County, CO (70.5%, ~$154,100, ~$731,000) each combine seven-figure-adjacent home values with strong income concentration. Kendall County, TX (77.0% six-figure, ~$162,500 income, ~$506,200 home value), Boone County, IN (74.5%, ~$177,700, ~$579,500), and Carver County, MN (71.3%, ~$156,600, ~$540,800) demonstrate that comparable wealth density exists in more affordable-housing suburban markets outside the coastal corridors — attractive because household income remains high even where real estate is less inflated.\n\nBusiness takeaway: The bubble chart below plots six-figure household share against median home value, sized by population, to reveal where scale and wealth intersect. Loudoun, Fairfax, and Nassau offer the best blend of large populations and deep affluence for volume-oriented outreach, while Santa Clara and San Mateo represent the highest-value estate-planning opportunities given their exceptional home equity. The accompanying bar chart ranks the top populous counties by six-figure household share, providing a prioritized prospecting shortlist.",
+      "demographic_category": "income",
+      "demographic_key": "income.six_figure_households",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Suburban Wealth Convergence by County",
+          "subtitle": "Six-figure household share vs. median home value, sized by population (populous counties only)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Six-Figure Households (%)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Population",
+            "color_label": "Median Household Income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "loudoun-va",
+              "geography_label": "Loudoun, VA",
+              "x_value": 78.63,
+              "y_value": 778804.92,
+              "size_value": 291585.0,
+              "color_value": 193510.61,
+              "metadata": {
+                "home_ownership": 78.91
+              }
+            },
+            {
+              "geography_id": "kendall-tx",
+              "geography_label": "Kendall, TX",
+              "x_value": 77.0,
+              "y_value": 506172.0,
+              "size_value": 24867.0,
+              "color_value": 162487.0,
+              "metadata": {
+                "home_ownership": 93.8
+              }
+            },
+            {
+              "geography_id": "boone-in",
+              "geography_label": "Boone, IN",
+              "x_value": 74.5,
+              "y_value": 579522.0,
+              "size_value": 36760.0,
+              "color_value": 177679.0,
+              "metadata": {
+                "home_ownership": 83.1
+              }
+            },
+            {
+              "geography_id": "santa-clara-ca",
+              "geography_label": "Santa Clara, CA",
+              "x_value": 73.72,
+              "y_value": 1541064.27,
+              "size_value": 478347.0,
+              "color_value": 195768.19,
+              "metadata": {
+                "home_ownership": 63.89
+              }
+            },
+            {
+              "geography_id": "nassau-ny",
+              "geography_label": "Nassau, NY",
+              "x_value": 72.12,
+              "y_value": 1055530.94,
+              "size_value": 239021.0,
+              "color_value": 184338.15,
+              "metadata": {
+                "home_ownership": 85.52
+              }
+            },
+            {
+              "geography_id": "fairfax-va",
+              "geography_label": "Fairfax, VA",
+              "x_value": 72.06,
+              "y_value": 818246.62,
+              "size_value": 445956.0,
+              "color_value": 169342.59,
+              "metadata": {
+                "home_ownership": 72.96
+              }
+            },
+            {
+              "geography_id": "carver-mn",
+              "geography_label": "Carver, MN",
+              "x_value": 71.32,
+              "y_value": 540788.15,
+              "size_value": 32376.0,
+              "color_value": 156592.67,
+              "metadata": {
+                "home_ownership": 85.45
+              }
+            },
+            {
+              "geography_id": "san-mateo-ca",
+              "geography_label": "San Mateo, CA",
+              "x_value": 70.95,
+              "y_value": 1658381.45,
+              "size_value": 91993.0,
+              "color_value": 184069.96,
+              "metadata": {
+                "home_ownership": 64.72
+              }
+            },
+            {
+              "geography_id": "stafford-va",
+              "geography_label": "Stafford, VA",
+              "x_value": 70.8,
+              "y_value": 520203.0,
+              "size_value": 65494.0,
+              "color_value": 151480.0,
+              "metadata": {
+                "home_ownership": 80.3
+              }
+            },
+            {
+              "geography_id": "douglas-co",
+              "geography_label": "Douglas, CO",
+              "x_value": 70.53,
+              "y_value": 731033.25,
+              "size_value": 192706.0,
+              "color_value": 154079.65,
+              "metadata": {
+                "home_ownership": 77.37
+              }
+            },
+            {
+              "geography_id": "bergen-nj",
+              "geography_label": "Bergen, NJ",
+              "x_value": 70.41,
+              "y_value": 790722.67,
+              "size_value": 293658.0,
+              "color_value": 175637.85,
+              "metadata": {
+                "home_ownership": 82.12
+              }
+            },
+            {
+              "geography_id": "hanover-va",
+              "geography_label": "Hanover, VA",
+              "x_value": 69.9,
+              "y_value": 590439.0,
+              "size_value": 42522.0,
+              "color_value": 157897.0,
+              "metadata": {
+                "home_ownership": 78.4
+              }
+            },
+            {
+              "geography_id": "essex-nj",
+              "geography_label": "Essex, NJ",
+              "x_value": 69.87,
+              "y_value": 780740.43,
+              "size_value": 108589.0,
+              "color_value": 175241.14,
+              "metadata": {
+                "home_ownership": 75.25
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Top Populous Suburban Counties by Six-Figure Household Share",
+          "subtitle": "Share of households earning $100K+ (counties with meaningful population)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Loudoun, VA",
+              "value": 78.63,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Kendall, TX",
+              "value": 77.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Boone, IN",
+              "value": 74.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Santa Clara, CA",
+              "value": 73.72,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Nassau, NY",
+              "value": 72.12,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fairfax, VA",
+              "value": 72.06,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Carver, MN",
+              "value": 71.32,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Mateo, CA",
+              "value": 70.95,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Stafford, VA",
+              "value": 70.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Douglas, CO",
+              "value": 70.53,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Bergen, NJ",
+              "value": 70.41,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hanover, VA",
+              "value": 69.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Essex, NJ",
+              "value": 69.87,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Zip-Code Hotspots for Estate Planning Targeting",
+      "subtitle": "Isolating the densest suburban pockets of $150k-plus households and premium home values",
+      "description": "While county- and state-level views confirm broad regions of affluence, estate-planning outreach succeeds or fails at the zip-code level. This section drills into the individual suburban zip codes that combine two decisive signals: an extraordinary share of households earning $150k or more, and premium median home values that indicate substantial illiquid estate assets requiring planning. Every zip code named below shows a median household income at or near the reporting ceiling of $250,001, so income distribution — specifically the percentage of households in the top ($150k-plus) bracket — becomes the critical tiebreaker for isolating the densest pockets of high-net-worth prospects.\n\n**The densest $150k-plus concentrations.** A cluster of zip codes stands apart on the sheer share of households in the top income bracket. Fort Myer (22211) in Arlington, Virginia reports 100% of households at $150k-plus, and Turin (30289) in Coweta County, Georgia reaches 90.0%. Represa (95671) in Sacramento County, California follows at 87.0%, with Fairfax Station (22039) in Fairfax, Virginia at 80.9%, Garrett Park (20896) in Montgomery County, Maryland at 78.1%, and Sammamish (98075) in King County, Washington at 77.8%. Mountain Lakes (07046) in Morris County, New Jersey and Short Hills (07078) in Essex County, New Jersey register 82.8% and 83.5% respectively — established Northeast suburbs where affluence is both deep and geographically concentrated.\n\n**Where top-bracket density meets premium real estate.** The most compelling estate-planning targets are zip codes that pair a high $150k-plus share with elevated median home values, since real property is frequently the largest single asset in an estate. Several California zip codes hit the $2,000,001 home-value ceiling while also showing top-bracket shares above 70%: Los Gatos (95030, 70.1%), Ross in Marin (94957, 79.9%), Atherton (94027, 72.4%), Los Altos (94024, 72.1%), Saratoga (95070, 68.8%), Alamo (94507, 74.4%), San Jose's 95120 (74.3%), Cupertino (95014, 68.3%), and Medina (98039, 71.4%) in Washington's King County. In the Northeast, Cold Spring Harbor (11724, NY) posts a $1,648,651 median home value with 73.5% top-bracket households; Darien (06820, CT) shows $1,814,616 and 73.7%; and Short Hills (07078, NJ) combines $1,722,409 in home value with an 83.5% top-bracket share — a rare intersection of very high value and very high density.\n\n**Business interpretation.** For a boutique firm serving $2M+ households, these zip codes represent the highest-yield targeting territory available. Zip codes such as Short Hills (07078), Fairfax Station (22039), Ross (94957), and Atherton (94027) offer the ideal combination for estate-planning outreach: a dominant majority of households already in the top income bracket (reducing wasted prospecting) and median home values approaching or exceeding $1.5M–$2M (signaling large illiquid estates with genuine planning needs around liquidity, trusts, and wealth transfer). California's Bay Area zips (Los Altos, Atherton, Saratoga, Los Gatos) and select Washington suburbs (Medina, Sammamish) concentrate the highest home-value estates, while New Jersey (Short Hills, Mountain Lakes, Saddle River 07458 at 68.2%), Connecticut's \"Gold Coast\" (Darien, New Canaan 06840, Westport 06880), and Westchester County, NY (Scarsdale 10583, Purchase 10577 at 87.0%, Rye 10580) offer mature, high-density affluent markets. The practical takeaway: rather than marketing across entire counties, the firm should build zip-level campaigns around the two dozen hotspots identified here, prioritizing those that rank high on both dimensions.",
+      "demographic_category": "income",
+      "demographic_key": "income.distribution",
+      "importance_weight": 90.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Suburban Zip Codes Ranked by Share of $150k-Plus Households",
+          "subtitle": "Percentage of households in the top income bracket (income.distribution, 150k_plus)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Zip code (city, state)",
+            "y_axis_label": "% of households earning $150k+",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "22211 Fort Myer, VA",
+              "value": 100.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "30289 Turin, GA",
+              "value": 90.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "95671 Represa, CA",
+              "value": 87.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "10577 Purchase, NY",
+              "value": 87.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "10578 Purdys, NY",
+              "value": 84.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07078 Short Hills, NJ",
+              "value": 83.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "22027 Dunn Loring, VA",
+              "value": 86.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "20759 Fulton, MD",
+              "value": 82.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "07046 Mountain Lakes, NJ",
+              "value": 82.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "22039 Fairfax Station, VA",
+              "value": 80.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "94957 Ross, CA",
+              "value": 79.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "20896 Garrett Park, MD",
+              "value": 78.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "98075 Sammamish, WA",
+              "value": 77.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "21029 Clarksville, MD",
+              "value": 77.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "10502 Ardsley, NY",
+              "value": 76.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "19035 Gladwyne, PA",
+              "value": 76.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "02468 Waban, MA",
+              "value": 76.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "20818 Cabin John, MD",
+              "value": 76.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "76092 Southlake, TX",
+              "value": 75.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "10514 Chappaqua, NY",
+              "value": 75.1,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Top-Bracket Density vs. Premium Home Value by Zip Code",
+          "subtitle": "X = % households $150k+, Y = median home value, bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "% of households earning $150k+",
+            "y_axis_label": "Median home value ($)",
+            "size_label": "Population",
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "07078",
+              "geography_label": "Short Hills, NJ",
+              "x_value": 83.5,
+              "y_value": 1722409.0,
+              "size_value": 14613.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "22039",
+              "geography_label": "Fairfax Station, VA",
+              "x_value": 80.9,
+              "y_value": 1021179.0,
+              "size_value": 19626.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "94957",
+              "geography_label": "Ross, CA",
+              "x_value": 79.9,
+              "y_value": 2000001.0,
+              "size_value": 2321.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "98075",
+              "geography_label": "Sammamish, WA",
+              "x_value": 77.8,
+              "y_value": 1596912.0,
+              "size_value": 25498.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "76092",
+              "geography_label": "Southlake, TX",
+              "x_value": 75.6,
+              "y_value": 1011745.0,
+              "size_value": 31520.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "10514",
+              "geography_label": "Chappaqua, NY",
+              "x_value": 75.1,
+              "y_value": 1104592.0,
+              "size_value": 11790.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "20854",
+              "geography_label": "Potomac, MD",
+              "x_value": 75.0,
+              "y_value": 1165393.0,
+              "size_value": 50498.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "94507",
+              "geography_label": "Alamo, CA",
+              "x_value": 74.4,
+              "y_value": 2000001.0,
+              "size_value": 14586.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "95120",
+              "geography_label": "San Jose, CA",
+              "x_value": 74.3,
+              "y_value": 1984903.0,
+              "size_value": 36967.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "07423",
+              "geography_label": "Ho Ho Kus, NJ",
+              "x_value": 73.9,
+              "y_value": 1127522.0,
+              "size_value": 4270.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "19085",
+              "geography_label": "Villanova, PA",
+              "x_value": 73.9,
+              "y_value": 1053145.0,
+              "size_value": 11230.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "06820",
+              "geography_label": "Darien, CT",
+              "x_value": 73.7,
+              "y_value": 1814616.0,
+              "size_value": 21936.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "11724",
+              "geography_label": "Cold Spring Harbor, NY",
+              "x_value": 73.5,
+              "y_value": 1648651.0,
+              "size_value": 3073.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "20148",
+              "geography_label": "Ashburn, VA",
+              "x_value": 72.5,
+              "y_value": 873789.0,
+              "size_value": 64021.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "94027",
+              "geography_label": "Atherton, CA",
+              "x_value": 72.4,
+              "y_value": 2000001.0,
+              "size_value": 7002.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "94024",
+              "geography_label": "Los Altos, CA",
+              "x_value": 72.1,
+              "y_value": 2000001.0,
+              "size_value": 23051.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "22101",
+              "geography_label": "McLean, VA",
+              "x_value": 71.9,
+              "y_value": 1447276.0,
+              "size_value": 30953.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "02481",
+              "geography_label": "Wellesley Hills, MA",
+              "x_value": 71.7,
+              "y_value": 1684741.0,
+              "size_value": 17415.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "94506",
+              "geography_label": "Danville, CA",
+              "x_value": 71.6,
+              "y_value": 1957156.0,
+              "size_value": 27055.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "98039",
+              "geography_label": "Medina, WA",
+              "x_value": 71.4,
+              "y_value": 2000001.0,
+              "size_value": 2928.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "95030",
+              "geography_label": "Los Gatos, CA",
+              "x_value": 70.1,
+              "y_value": 2000001.0,
+              "size_value": 13151.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "95070",
+              "geography_label": "Saratoga, CA",
+              "x_value": 68.8,
+              "y_value": 2000001.0,
+              "size_value": 31417.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "95014",
+              "geography_label": "Cupertino, CA",
+              "x_value": 68.3,
+              "y_value": 2000001.0,
+              "size_value": 60932.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "10583",
+              "geography_label": "Scarsdale, NY",
+              "x_value": 67.5,
+              "y_value": 1224874.0,
+              "size_value": 40207.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "07458",
+              "geography_label": "Saddle River, NJ",
+              "x_value": 68.2,
+              "y_value": 1187790.0,
+              "size_value": 11828.0,
+              "color_value": null,
+              "metadata": {}
+            },
+            {
+              "geography_id": "10580",
+              "geography_label": "Rye, NY",
+              "x_value": 69.2,
+              "y_value": 1764959.0,
+              "size_value": 18391.0,
+              "color_value": null,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Client Profile: Age, Education, and Giving Behavior",
+      "subtitle": "Characterizing the suburban affluent household beyond income to sharpen advisory and estate-planning messaging",
+      "description": "The affluent suburban household is not defined by income alone. Across the top-ranking counties in Result 4, three characteristics recur and carry direct implications for how Sterling Wealth Advisory positions wealth management and estate-planning services.\n\n**A mature, established client base.** Median age across these affluent counties clusters solidly in the 40s. Marin County, California stands out as the oldest at a median age of 46.9, followed by Bergen County, New Jersey (44.7), Union County, New Jersey (43.8), Westchester County, New York (43.6), and San Mateo County, California (43.9). The over-65 share reinforces this: Marin (23.2%), San Mateo (19.4%), Nassau, New York (19.4%), Bergen (19.7%), and Westchester (19.3%) each have roughly one in five residents past traditional retirement age. Only Loudoun County, Virginia skews meaningfully younger (median age 38.5, just 10.3% over 65), reflecting its high-earning but still-accumulating professional population. For estate-planning messaging, the concentration of older, high-net-worth households in Marin, Nassau, Bergen, San Mateo, and Westchester signals markets where wealth transfer, legacy, and succession themes will resonate most immediately, while Loudoun represents an accumulation-phase market better suited to long-horizon wealth-management messaging.\n\n**Exceptional college attainment.** College-or-above rates are strikingly high across every affluent county. Boone County, Indiana leads at 74.1%, followed by Los Alamos, New Mexico (71.0%), Hanover, Virginia (69.5%), Loudoun (69.3%), Fairfax, Virginia (67.8%), Delaware County, Ohio (67.2%), Nassau (66.8%), Santa Clara (66.7%), and Union (65.9%). These figures — more than double the national norm — indicate a client base that is financially literate and expects substantive, well-reasoned advice rather than sales-oriented positioning. Advisory content should assume sophistication.\n\n**A strong charitable-giving propensity where measured.** Among counties with reported charitable-giver data, the share is consistently high: Nassau (54.5%), Carver, Minnesota (53.3%), Queens, New York (51.6%), Boone (51.0%), Westchester (50.3%), Loudoun (49.3%), Kendall, Texas (49.3%), Delaware, Ohio (48.6%), Hanover (48.0%), and Howard, Maryland (47.4%). Roughly half of affluent households in these markets are active givers — a clear opening for Sterling to lead with charitable-giving strategies, donor-advised funds, and philanthropic estate structures. Note that several New Jersey counties (Essex, Bergen, Union, Somerset, Hudson) report 0.0 for charitable givers, indicating the metric is unavailable there rather than an absence of giving; those markets should be evaluated on age and education signals alone.\n\n**Business takeaway.** The ideal Sterling client emerges as a college-educated household in its 40s, frequently entering or within the retirement window, and philanthropically inclined. This profile argues for an integrated pitch that pairs sophisticated wealth management with estate planning and charitable-giving strategy — with older, giving-heavy markets like Nassau, Marin, Westchester, and Bergen prioritized for legacy and philanthropy messaging, and younger, high-attainment markets like Loudoun prioritized for accumulation and long-horizon planning.",
+      "demographic_category": "age_education_community",
+      "demographic_key": null,
+      "importance_weight": 80.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Age Structure vs. College Attainment Across Affluent Counties",
+          "subtitle": "Median age (x) against college-or-above share (y); bubble size reflects population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Age",
+            "y_axis_label": "College or Above (%)",
+            "size_label": "Population",
+            "color_label": "Over-65 Share (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "loudoun-va",
+              "geography_label": "Loudoun, VA",
+              "x_value": 38.5,
+              "y_value": 69.3,
+              "size_value": 291585.0,
+              "color_value": 10.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "santa-clara-ca",
+              "geography_label": "Santa Clara, CA",
+              "x_value": 40.8,
+              "y_value": 66.7,
+              "size_value": 478347.0,
+              "color_value": 16.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "fairfax-va",
+              "geography_label": "Fairfax, VA",
+              "x_value": 39.7,
+              "y_value": 67.8,
+              "size_value": 445956.0,
+              "color_value": 15.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san-mateo-ca",
+              "geography_label": "San Mateo, CA",
+              "x_value": 43.9,
+              "y_value": 61.1,
+              "size_value": 91993.0,
+              "color_value": 19.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nassau-ny",
+              "geography_label": "Nassau, NY",
+              "x_value": 43.0,
+              "y_value": 66.8,
+              "size_value": 239021.0,
+              "color_value": 19.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "marin-ca",
+              "geography_label": "Marin, CA",
+              "x_value": 46.9,
+              "y_value": 62.3,
+              "size_value": 219608.0,
+              "color_value": 23.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "westchester-ny",
+              "geography_label": "Westchester, NY",
+              "x_value": 43.6,
+              "y_value": 63.7,
+              "size_value": 405507.0,
+              "color_value": 19.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "montgomery-md",
+              "geography_label": "Montgomery, MD",
+              "x_value": 41.3,
+              "y_value": 64.2,
+              "size_value": 462591.0,
+              "color_value": 16.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bergen-nj",
+              "geography_label": "Bergen, NJ",
+              "x_value": 44.7,
+              "y_value": 63.3,
+              "size_value": 293658.0,
+              "color_value": 19.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "howard-md",
+              "geography_label": "Howard, MD",
+              "x_value": 39.4,
+              "y_value": 63.6,
+              "size_value": 265449.0,
+              "color_value": 14.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "alameda-ca",
+              "geography_label": "Alameda, CA",
+              "x_value": 41.2,
+              "y_value": 56.6,
+              "size_value": 436640.0,
+              "color_value": 16.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "boone-in",
+              "geography_label": "Boone, IN",
+              "x_value": 40.6,
+              "y_value": 74.1,
+              "size_value": 36760.0,
+              "color_value": 12.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "delaware-oh",
+              "geography_label": "Delaware, OH",
+              "x_value": 40.2,
+              "y_value": 67.2,
+              "size_value": 124933.0,
+              "color_value": 14.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "union-nj",
+              "geography_label": "Union, NJ",
+              "x_value": 43.8,
+              "y_value": 65.9,
+              "size_value": 114543.0,
+              "color_value": 18.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "somerset-nj",
+              "geography_label": "Somerset, NJ",
+              "x_value": 42.2,
+              "y_value": 61.2,
+              "size_value": 256153.0,
+              "color_value": 17.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "carver-mn",
+              "geography_label": "Carver, MN",
+              "x_value": 40.8,
+              "y_value": 64.1,
+              "size_value": 32376.0,
+              "color_value": 15.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "kendall-tx",
+              "geography_label": "Kendall, TX",
+              "x_value": 38.8,
+              "y_value": 62.1,
+              "size_value": 24867.0,
+              "color_value": 14.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "los-alamos-nm",
+              "geography_label": "Los Alamos, NM",
+              "x_value": 41.8,
+              "y_value": 71.0,
+              "size_value": 5837.0,
+              "color_value": 21.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hanover-va",
+              "geography_label": "Hanover, VA",
+              "x_value": 39.6,
+              "y_value": 69.5,
+              "size_value": 42522.0,
+              "color_value": 13.9,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Charitable-Giver Share Among Affluent Counties",
+          "subtitle": "Percent of households identified as charitable givers (counties reporting the metric)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Charitable Givers (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Nassau, NY",
+              "value": 54.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Carver, MN",
+              "value": 53.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Queens, NY",
+              "value": 51.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Boone, IN",
+              "value": 51.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Westchester, NY",
+              "value": 50.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Kendall, TX",
+              "value": 49.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Loudoun, VA",
+              "value": 49.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Delaware, OH",
+              "value": 48.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hanover, VA",
+              "value": 48.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Howard, MD",
+              "value": 47.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Montgomery, MD",
+              "value": 46.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Marin, CA",
+              "value": 46.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fairfax, VA",
+              "value": 45.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Mateo, CA",
+              "value": 45.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Santa Clara, CA",
+              "value": 41.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Alameda, CA",
+              "value": 38.9,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Priority Markets and Strategic Recommendations",
+      "subtitle": "Ranking the suburban counties and ZIP codes where affluence, education, and philanthropic behavior converge into the highest-value prospect pools",
+      "description": "This section synthesizes the four query result blocks into an actionable target-market ranking for Sterling Wealth Advisory. Rather than treating any single metric as decisive, it layers the indicators that matter most for wealth management and estate planning: the concentration of six-figure households, median home values (a proxy for accumulated illiquid wealth), the share of college-educated residents, and the prevalence of charitable givers (a leading behavioral signal for estate-planning engagement).\n\nAt the state tier, the Northeast and coastal markets lead decisively. New Jersey posts the highest median household income of any state in scope ($129,262) and the second-highest six-figure household share (58.6%), followed closely by Maryland ($125,692 median income; 59.0% six-figure households) and Massachusetts ($124,256; 56.2%). California combines strong income (55.6% six-figure households) with the highest home values among large states ($885,195 median), meaning California prospects tend to carry substantial illiquid, appreciated real-estate wealth — precisely the profile that drives estate-planning and liquidity-event advisory needs. These four states, plus Hawaii and New York, form the top state tier.\n\nAt the county tier (Result 1 and Result 4), the strongest suburban markets pair extreme affluence density with the education and giving profile of an established advisory clientele. Loudoun County, VA leads on six-figure household concentration (78.6%) with a median home value of $778,805 and the highest college-or-above rate in scope (69.3%). Santa Clara County, CA is the standout for illiquid wealth, with a $1.54M median home value, 73.7% six-figure households, and 66.7% college-educated. San Mateo County, CA carries the highest median home value of any sizable county ($1.66M). Critically, the counties with the strongest charitable-giving signal — Nassau County, NY (54.5% charitable givers), Carver County, MN (53.3%), Queens, NY suburbs (51.6%), Boone County, IN (51.0%), and Westchester County, NY (50.3%) — represent the most estate-planning-ready audiences, since giving behavior correlates with structured wealth-transfer intent.\n\nAt the ZIP tier (Result 3), a cluster of suburban ZIPs hit the $250,001 median-household-income ceiling AND the $2,000,001 home-value ceiling simultaneously — the top-of-market prospect pool. These include Los Gatos (95030), Ross (94957), Atherton (94027), Los Altos (94024, 94022), Saratoga (95070), Cupertino (95014), Alamo (94507) and Belvedere Tiburon (94920) in California; Medina (98039) in Washington; and Miami Beach (33109) in Florida. Beyond the coasts, standout non-obvious suburban ZIPs with $250,001 median income and seven-figure home values include Gladwyne, PA (19035; $1.46M), Winnetka & Glencoe, IL (60093/60022; ~$1.15–1.42M), Short Hills, NJ (07078; $1.72M), Southlake, TX (76092; $1.01M), and Potomac, MD (20854; $1.17M).\n\nStrategic recommendation: Sterling should tier its market entry. Tier 1 (immediate priority) = the California peninsula counties (Santa Clara, San Mateo) plus Nassau and Westchester, NY — combining the deepest illiquid wealth with the strongest giving/estate-planning signal. Tier 2 = Loudoun and Fairfax, VA, Montgomery and Howard, MD, and Bergen/Essex/Somerset, NJ — high six-figure density and elevated education. Tier 3 = high-value expansion ZIPs outside the coasts (Southlake TX, Winnetka/Glencoe IL, Gladwyne PA, Kendall County TX) where affluence is concentrated but advisory competition is typically thinner.",
+      "demographic_category": "Composite Affluence",
+      "demographic_key": null,
+      "importance_weight": 95.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Target County Prioritization: Affluence vs. Home Value, Sized by Population",
+          "subtitle": "Six-figure household share (x) against median home value (y); bubble size = population; color = charitable-giver share",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Six-Figure Households (%)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Population",
+            "color_label": "Charitable Givers (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "santa-clara-ca",
+              "geography_label": "Santa Clara, CA",
+              "x_value": 73.72,
+              "y_value": 1541064.0,
+              "size_value": 478347.0,
+              "color_value": 41.16,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san-mateo-ca",
+              "geography_label": "San Mateo, CA",
+              "x_value": 70.95,
+              "y_value": 1658381.0,
+              "size_value": 91993.0,
+              "color_value": 45.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "nassau-ny",
+              "geography_label": "Nassau, NY",
+              "x_value": 72.12,
+              "y_value": 1055531.0,
+              "size_value": 239021.0,
+              "color_value": 54.48,
+              "metadata": {}
+            },
+            {
+              "geography_id": "loudoun-va",
+              "geography_label": "Loudoun, VA",
+              "x_value": 78.63,
+              "y_value": 778805.0,
+              "size_value": 291585.0,
+              "color_value": 49.26,
+              "metadata": {}
+            },
+            {
+              "geography_id": "fairfax-va",
+              "geography_label": "Fairfax, VA",
+              "x_value": 72.06,
+              "y_value": 818247.0,
+              "size_value": 445956.0,
+              "color_value": 45.58,
+              "metadata": {}
+            },
+            {
+              "geography_id": "bergen-nj",
+              "geography_label": "Bergen, NJ",
+              "x_value": 70.41,
+              "y_value": 790723.0,
+              "size_value": 293658.0,
+              "color_value": 0.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "douglas-co",
+              "geography_label": "Douglas, CO",
+              "x_value": 70.53,
+              "y_value": 731033.0,
+              "size_value": 192706.0,
+              "color_value": 0.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "carver-mn",
+              "geography_label": "Carver, MN",
+              "x_value": 71.32,
+              "y_value": 540788.0,
+              "size_value": 32376.0,
+              "color_value": 53.27,
+              "metadata": {}
+            },
+            {
+              "geography_id": "boone-in",
+              "geography_label": "Boone, IN",
+              "x_value": 74.5,
+              "y_value": 579522.0,
+              "size_value": 36760.0,
+              "color_value": 51.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "kendall-tx",
+              "geography_label": "Kendall, TX",
+              "x_value": 77.0,
+              "y_value": 506172.0,
+              "size_value": 24867.0,
+              "color_value": 49.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "los-alamos-nm",
+              "geography_label": "Los Alamos, NM",
+              "x_value": 82.9,
+              "y_value": 513229.0,
+              "size_value": 5837.0,
+              "color_value": 0.0,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Top State Markets by Six-Figure Household Concentration",
+          "subtitle": "Share of households earning six figures, leading states in scope",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "State",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Maryland",
+              "value": 58.97,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New Jersey",
+              "value": 58.59,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hawaii",
+              "value": 58.06,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Massachusetts",
+              "value": 56.21,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "California",
+              "value": 55.62,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Utah",
+              "value": 54.23,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Washington",
+              "value": 53.54,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "New York",
+              "value": 52.99,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Virginia",
+              "value": 51.77,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Colorado",
+              "value": 51.66,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:28:07.321645+00:00"
+}

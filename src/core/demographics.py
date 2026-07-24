@@ -48,6 +48,22 @@ class DemographicMapping(BaseModel):
     def get_metric(self, category: CategoryName, metric: str) -> Metric:
         return self.categories[category].metrics[metric]
 
+    def metric_catalog_text(self) -> str:
+        """Render the full catalog as prompt-safe text, one metric per line.
+
+        Format: 'category.metric (type)'; distribution metrics list sub-keys.
+        Contains no braces so it can pass through str.format() templates.
+        """
+        lines = []
+        for cat_name, cat in self.categories.items():
+            for metric_name, metric in cat.metrics.items():
+                if metric.type == MetricType.DISTRIBUTION and metric.columns:
+                    subkeys = ", ".join(metric.columns.keys())
+                    lines.append(f"{cat_name}.{metric_name} (distribution: {subkeys})")
+                else:
+                    lines.append(f"{cat_name}.{metric_name} ({metric.type.value})")
+        return "\n".join(lines)
+
     def category_for_metric(self, name: str) -> CategoryName | None:
         """Resolve a metric key OR SQL column name to its category.
 

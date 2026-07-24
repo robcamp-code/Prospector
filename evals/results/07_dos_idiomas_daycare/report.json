@@ -1,0 +1,1765 @@
+{
+  "report_id": "a486648f-f3b5-405b-9eb9-3933bddc5a1b",
+  "title": "Where Bilingual Demand Meets Buying Power: Mapping Houston's Prime Neighborhoods for Immersion Preschool",
+  "subtitle": "A Demographic Analysis of Harris County and Houston Urban ZIP Codes, Texas",
+  "geography_type": "county",
+  "geography_value": "Texas / Houston, urban areas",
+  "client_profile_id": "b5245049-0b78-465c-a239-3a453fd595ab",
+  "summary": {
+    "total_population": 2017307,
+    "zip_count": 62,
+    "median_household_income": 72380.56973975702,
+    "median_age": 34.61334729914683,
+    "home_ownership_rate": null,
+    "narrative": "Harris County is home to over 2 million residents with a Hispanic population of 42.8% and 14.6% limited-English speakers, signaling deep demand for Spanish-English immersion. High-Hispanic, high-limited-English corridors like 77012 (91.1% Hispanic, 36.4% limited English), 77076 (86.3%, 28.2%), 77011 (85.7%, 27.6%), and 77036 (72.4%, 46.7%) mark prime heritage-language markets, while affluent, English-dominant ZIPs such as 77005, 77007, and 77008 (each with over 48% of households earning $150k+ and low limited-English rates) represent families able to pay for bilingual advantages. With a countywide median household income of $72,381 and a young median age of 34.6, several ZIPs combine large under-10 populations and family-oriented married households ideal for preschool and daycare targeting.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "Bilingual Demand vs. Buying Power Across Houston ZIPs",
+      "subtitle": "Hispanic share, limited-English rate, and household affluence by ZIP",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Hispanic Population (%)",
+        "y_axis_label": "Limited-English Households (%)",
+        "size_label": "Population",
+        "color_label": "Households Earning $150k+ (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "77012",
+          "geography_label": "77012 Houston",
+          "x_value": 91.1,
+          "y_value": 36.4,
+          "size_value": 16286.0,
+          "color_value": 4.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77076",
+          "geography_label": "77076 Houston",
+          "x_value": 86.3,
+          "y_value": 28.2,
+          "size_value": 31222.0,
+          "color_value": 7.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77011",
+          "geography_label": "77011 Houston",
+          "x_value": 85.7,
+          "y_value": 27.6,
+          "size_value": 14940.0,
+          "color_value": 5.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77087",
+          "geography_label": "77087 Houston",
+          "x_value": 78.2,
+          "y_value": 17.3,
+          "size_value": 34347.0,
+          "color_value": 7.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77023",
+          "geography_label": "77023 Houston",
+          "x_value": 77.3,
+          "y_value": 19.2,
+          "size_value": 24281.0,
+          "color_value": 14.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77060",
+          "geography_label": "77060 Houston",
+          "x_value": 75.9,
+          "y_value": 30.9,
+          "size_value": 45340.0,
+          "color_value": 3.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77081",
+          "geography_label": "77081 Houston",
+          "x_value": 75.7,
+          "y_value": 46.1,
+          "size_value": 50129.0,
+          "color_value": 3.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77036",
+          "geography_label": "77036 Houston",
+          "x_value": 72.4,
+          "y_value": 46.7,
+          "size_value": 71770.0,
+          "color_value": 4.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77080",
+          "geography_label": "77080 Houston",
+          "x_value": 69.6,
+          "y_value": 19.8,
+          "size_value": 47638.0,
+          "color_value": 20.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77022",
+          "geography_label": "77022 Houston",
+          "x_value": 68.1,
+          "y_value": 15.9,
+          "size_value": 25805.0,
+          "color_value": 10.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77086",
+          "geography_label": "77086 Houston",
+          "x_value": 66.0,
+          "y_value": 17.5,
+          "size_value": 28653.0,
+          "color_value": 8.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77074",
+          "geography_label": "77074 Houston",
+          "x_value": 63.1,
+          "y_value": 38.7,
+          "size_value": 38660.0,
+          "color_value": 6.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77092",
+          "geography_label": "77092 Houston",
+          "x_value": 63.0,
+          "y_value": 17.0,
+          "size_value": 36938.0,
+          "color_value": 13.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77031",
+          "geography_label": "77031 Houston",
+          "x_value": 62.7,
+          "y_value": 23.4,
+          "size_value": 15179.0,
+          "color_value": 12.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77089",
+          "geography_label": "77089 Houston",
+          "x_value": 48.5,
+          "y_value": 7.6,
+          "size_value": 57741.0,
+          "color_value": 21.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77055",
+          "geography_label": "77055 Houston",
+          "x_value": 53.0,
+          "y_value": 16.7,
+          "size_value": 45435.0,
+          "color_value": 28.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77007",
+          "geography_label": "77007 Houston",
+          "x_value": 18.0,
+          "y_value": 3.6,
+          "size_value": 47808.0,
+          "color_value": 48.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77008",
+          "geography_label": "77008 Houston",
+          "x_value": 21.2,
+          "y_value": 1.1,
+          "size_value": 41645.0,
+          "color_value": 48.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77005",
+          "geography_label": "77005 Houston",
+          "x_value": 10.2,
+          "y_value": 2.2,
+          "size_value": 28874.0,
+          "color_value": 63.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77019",
+          "geography_label": "77019 Houston",
+          "x_value": 18.6,
+          "y_value": 1.7,
+          "size_value": 23708.0,
+          "color_value": 38.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77098",
+          "geography_label": "77098 Houston",
+          "x_value": 16.2,
+          "y_value": 4.6,
+          "size_value": 17210.0,
+          "color_value": 38.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77018",
+          "geography_label": "77018 Houston",
+          "x_value": 30.5,
+          "y_value": 1.2,
+          "size_value": 31031.0,
+          "color_value": 45.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77079",
+          "geography_label": "77079 Houston",
+          "x_value": 17.6,
+          "y_value": 5.2,
+          "size_value": 37276.0,
+          "color_value": 36.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "77095",
+          "geography_label": "77095 Houston",
+          "x_value": 30.4,
+          "y_value": 5.8,
+          "size_value": 69767.0,
+          "color_value": 26.1,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Harris County Opportunity at a Glance",
+      "subtitle": "A young, working, and heavily bilingual population sets the stage for immersion preschool demand",
+      "description": "Harris County offers an unusually strong fit for a bilingual Spanish-English preschool. Nearly 43% of the county's 2.02 million residents identify as Hispanic (race.hispanic = 42.76%), and roughly one in seven residents (14.56%) has limited English proficiency — a combined signal of deep heritage-language demand from Hispanic families and a natural bilingual environment that appeals to English-speaking parents seeking an immersion advantage for their children.\n\nThe county's demographics reinforce the working-parent target profile. The median age is just 34.6 years — squarely in the prime family-formation window — and labor force participation stands at 68.02%, meaning most adults are working and in need of full-day childcare and after-school care. With unemployment at 6.87% and self-employment at 17.64%, a large share of households juggles demanding or non-traditional work schedules, heightening the value of dependable full-day immersion programs. Median household income of $72,381 indicates families with the means to pay for premium early education, while the marital-status mix (41.74% married, 42.39% never married) reflects both two-parent households and a substantial single-parent segment that relies heavily on structured daycare.\n\nThe racial composition is genuinely diverse — 31.32% White, 22.70% multiple races, 20.91% Black, 14.95% other, and 9.09% Asian — underscoring that a bilingual program can draw from Hispanic heritage families and non-Hispanic English-speaking families alike who value bilingual advantages in a multicultural region.\n\nBusiness takeaway: The core ingredients for a bilingual, working-parent-focused preschool are all present at scale in Harris County — a large Hispanic and limited-English base, a young median age, high labor force participation that drives childcare demand, and a median income above $72K that supports willingness to pay.",
+      "demographic_category": "Market Overview",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Harris County Demand Signals for Bilingual Preschool",
+          "subtitle": "Key county-level indicators (percent)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Indicator",
+            "y_axis_label": "Percent",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Hispanic Population",
+              "value": 42.76,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Limited English",
+              "value": 14.56,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Labor Force Participation",
+              "value": 68.02,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Unemployment Rate",
+              "value": 6.87,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Self-Employed",
+              "value": 17.64,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Married Households",
+              "value": 41.74,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Harris County Racial Composition",
+          "subtitle": "A diverse, multicultural market (percent of population)",
+          "config": {
+            "chart_type": "pie",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "White",
+              "value": 31.32,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Multiple",
+              "value": 22.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Black",
+              "value": 20.91,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Other",
+              "value": 14.95,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Asian",
+              "value": 9.09,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Native",
+              "value": 0.98,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Pacific",
+              "value": 0.06,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Hispanic Heritage Corridors: ZIPs for Spanish-Language Demand",
+      "subtitle": "Where high Hispanic population, limited-English households, and young children converge",
+      "description": "The heritage-language market for Dos Idiomas is concentrated in a distinct band of Harris County ZIP codes where the Hispanic population share and the limited-English-speaking share are both far above the county baseline. Countywide, Harris County is 42.8% Hispanic with 14.6% of residents reporting limited English proficiency. Against that benchmark, a cluster of ZIPs stands out as clear \"heritage corridors\" — places where a majority of residents are Hispanic and where a large minority of households speak English less than \"very well,\" signaling strong latent demand for Spanish-language and bilingual early education.\n\nThe single strongest corridor is ZIP 77012, where the population is 91.1% Hispanic and 36.4% limited-English — the highest combined profile in the dataset. It is followed by 77076 (86.3% Hispanic, 28.2% limited-English), 77011 (85.7% Hispanic, 27.6% limited-English), 77023 (77.3% Hispanic, 19.2% limited-English), and 77087 (78.2% Hispanic, 17.3% limited-English). Two of the county's largest ZIPs by population also sit in this tier: 77036 (72.4% Hispanic, 46.7% limited-English — the highest limited-English share of any ZIP, across 71,770 residents) and 77074 (63.1% Hispanic, 38.7% limited-English, 38,660 residents). ZIP 77060 (75.9% Hispanic, 30.9% limited-English) and 77080 (69.6% Hispanic, 19.8% limited-English) round out the high-demand set.\n\nCrucially, these corridors are not aging communities — they contain the young children who are the client's actual customers. Result 3 confirms sizable under-10 populations in exactly these ZIPs: 77012 (14.0% under 10), 77076 (13.2%), 77011 (8.9%), 77023 (8.7%), 77087 (11.3%), 77036 (16.1% — one of the highest in the county), 77074 (15.3%), 77060 (18.1% — the single highest under-10 share among major ZIPs), and 77080 (15.9%). Several also show large 10-to-19 shares (77060 at 17.5%, 77076 at 19.1%), indicating family-heavy neighborhoods with continued pipeline into the 1–6 age range.\n\nBusiness implication: 77012, 77036, 77076, 77011, and 77060 form the highest-priority recruitment territory for full-day immersion and heritage-language programming. The very high limited-English shares in 77036 (46.7%) and 77074 (38.7%) mean marketing collateral, enrollment paperwork, and parent workshops should be delivered Spanish-first in these areas, and the parent language-workshop offering (English acquisition for Spanish-speaking parents) is likely to resonate most strongly here. The presence of both large populations (77036, 77074) and dense concentrations of young children (77060, 77012) makes these ZIPs the natural anchors for a first physical location or targeted outreach campaign.",
+      "demographic_category": "race",
+      "demographic_key": "race.hispanic",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Heritage-Language Demand by ZIP: Hispanic Share vs. Limited English",
+          "subtitle": "Bubble size = total population. Top-right quadrant = strongest heritage-language demand.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Hispanic population (%)",
+            "y_axis_label": "Limited-English residents (%)",
+            "size_label": "Total population",
+            "color_label": "Under-10 population (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "77012",
+              "geography_label": "77012",
+              "x_value": 91.1,
+              "y_value": 36.4,
+              "size_value": 16286.0,
+              "color_value": 14.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77076",
+              "geography_label": "77076",
+              "x_value": 86.3,
+              "y_value": 28.2,
+              "size_value": 31222.0,
+              "color_value": 13.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77011",
+              "geography_label": "77011",
+              "x_value": 85.7,
+              "y_value": 27.6,
+              "size_value": 14940.0,
+              "color_value": 8.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77023",
+              "geography_label": "77023",
+              "x_value": 77.3,
+              "y_value": 19.2,
+              "size_value": 24281.0,
+              "color_value": 8.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77087",
+              "geography_label": "77087",
+              "x_value": 78.2,
+              "y_value": 17.3,
+              "size_value": 34347.0,
+              "color_value": 11.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77036",
+              "geography_label": "77036",
+              "x_value": 72.4,
+              "y_value": 46.7,
+              "size_value": 71770.0,
+              "color_value": 16.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77074",
+              "geography_label": "77074",
+              "x_value": 63.1,
+              "y_value": 38.7,
+              "size_value": 38660.0,
+              "color_value": 15.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77060",
+              "geography_label": "77060",
+              "x_value": 75.9,
+              "y_value": 30.9,
+              "size_value": 45340.0,
+              "color_value": 18.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77080",
+              "geography_label": "77080",
+              "x_value": 69.6,
+              "y_value": 19.8,
+              "size_value": 47638.0,
+              "color_value": 15.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77022",
+              "geography_label": "77022",
+              "x_value": 68.1,
+              "y_value": 15.9,
+              "size_value": 25805.0,
+              "color_value": 11.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77086",
+              "geography_label": "77086",
+              "x_value": 66.0,
+              "y_value": 17.5,
+              "size_value": 28653.0,
+              "color_value": 12.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77092",
+              "geography_label": "77092",
+              "x_value": 63.0,
+              "y_value": 17.0,
+              "size_value": 36938.0,
+              "color_value": 14.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77031",
+              "geography_label": "77031",
+              "x_value": 62.7,
+              "y_value": 23.4,
+              "size_value": 15179.0,
+              "color_value": 11.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77072",
+              "geography_label": "77072",
+              "x_value": 47.7,
+              "y_value": 24.0,
+              "size_value": 57108.0,
+              "color_value": 11.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77067",
+              "geography_label": "77067",
+              "x_value": 57.7,
+              "y_value": 18.6,
+              "size_value": 30491.0,
+              "color_value": 14.9,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Top Heritage Corridors: Hispanic Population Share by ZIP",
+          "subtitle": "Highest-Hispanic ZIPs in Harris County (county baseline: 42.8%)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP code",
+            "y_axis_label": "Hispanic population (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "77012",
+              "value": 91.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77076",
+              "value": 86.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77011",
+              "value": 85.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77087",
+              "value": 78.2,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77023",
+              "value": 77.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77060",
+              "value": 75.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77081",
+              "value": 75.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77036",
+              "value": 72.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77080",
+              "value": 69.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77022",
+              "value": 68.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77086",
+              "value": 66.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77074",
+              "value": 63.1,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Affluent English-Speaking Families Seeking Bilingual Advantages",
+      "subtitle": "Higher-income, low-limited-English ZIP codes where bilingual enrichment is a premium value-add — and full-day tuition is affordable",
+      "description": "This section identifies the Houston (Harris County) ZIP codes where English-speaking, higher-income households cluster — a distinct market segment from heritage-language Hispanic families. These are neighborhoods where bilingual education is likely purchased as an enrichment advantage rather than a heritage necessity, and where household budgets can absorb full-day immersion tuition.\n\nThe clearest opportunity ZIPs combine three signals from the query results: (1) a high share of households earning $150k+ (Result 4 income.distribution), (2) a low limited-English rate, indicating a predominantly English-speaking base that would treat Spanish as an added skill (Result 4 language.limited_english), and (3) a healthy share of young children under age 10 to sustain enrollment pipeline (Result 3 age.distribution).\n\nStandout premium ZIPs from the results:\n• 77005 — 63.2% of households earn $150k+, with limited-English at just 2.2% and Hispanic share at 10.2%. Children under 10 make up 13.3% of the population — the strongest combination of affluence, English-speaking base, and young-child density in the dataset.\n• 77007 — 48.8% earn $150k+, limited-English 3.6%, Hispanic 18.0%; under-10 population 9.6%.\n• 77008 — 48.5% earn $150k+, limited-English only 1.1% (the lowest among high-income ZIPs), Hispanic 21.2%; under-10 population 14.3%.\n• 77018 — 45.4% earn $150k+, limited-English 1.2%, Hispanic 30.5%; under-10 population 16.9% — the highest young-child share among the top-income ZIPs.\n• 77019 — 38.0% earn $150k+, limited-English 1.7%, Hispanic 18.6%; under-10 population 6.5%.\n• 77098 — 38.9% earn $150k+, limited-English 4.6%, Hispanic 16.2%; under-10 population 8.1%.\n• 77006 — 34.9% earn $150k+, limited-English 2.1%, Hispanic 16.4%; under-10 population 5.4%.\n\nBusiness interpretation: These ZIPs represent the \"bilingual advantage\" buyer — English-dominant, high-earning families for whom Spanish immersion is a competitive edge for their children rather than a cultural continuity need. Their very low limited-English rates confirm marketing should lead with cognitive and academic benefits of early bilingualism, delivered in English-language messaging. Affordability is not a barrier: in 77005 and 77008 nearly half of households clear $150k, so full-day immersion pricing at a premium is viable. The trade-off is young-child density: 77005, 77008, and especially 77018 pair affluence with strong under-10 populations, making them the highest-priority sites, whereas 77006, 77019, and 77027 skew toward younger single adults (under-10 shares of 5.4%, 6.5%, and 4.5% respectively) and warrant a longer-horizon or satellite approach. Prioritize physical presence and parent-workshop outreach in 77005, 77008, and 77018 first.",
+      "demographic_category": "income",
+      "demographic_key": "income.distribution",
+      "importance_weight": 80.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Premium Opportunity ZIPs: Affluence vs. English-Speaking Base",
+          "subtitle": "X = % households earning $150k+; Y = % limited English (lower is more English-dominant); bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Households earning $150k+ (%)",
+            "y_axis_label": "Limited-English population (%)",
+            "size_label": "Population",
+            "color_label": "Hispanic population (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "77005",
+              "geography_label": "77005 (West University)",
+              "x_value": 63.2,
+              "y_value": 2.2,
+              "size_value": 28874.0,
+              "color_value": 10.2,
+              "metadata": {
+                "under_10_pct": 13.3,
+                "hispanic_pct": 10.2
+              }
+            },
+            {
+              "geography_id": "77007",
+              "geography_label": "77007 (Rice Military / Washington Ave)",
+              "x_value": 48.8,
+              "y_value": 3.6,
+              "size_value": 47808.0,
+              "color_value": 18.0,
+              "metadata": {
+                "under_10_pct": 9.6,
+                "hispanic_pct": 18.0
+              }
+            },
+            {
+              "geography_id": "77008",
+              "geography_label": "77008 (The Heights)",
+              "x_value": 48.5,
+              "y_value": 1.1,
+              "size_value": 41645.0,
+              "color_value": 21.2,
+              "metadata": {
+                "under_10_pct": 14.3,
+                "hispanic_pct": 21.2
+              }
+            },
+            {
+              "geography_id": "77018",
+              "geography_label": "77018 (Oak Forest / Garden Oaks)",
+              "x_value": 45.4,
+              "y_value": 1.2,
+              "size_value": 31031.0,
+              "color_value": 30.5,
+              "metadata": {
+                "under_10_pct": 16.9,
+                "hispanic_pct": 30.5
+              }
+            },
+            {
+              "geography_id": "77019",
+              "geography_label": "77019 (River Oaks)",
+              "x_value": 38.0,
+              "y_value": 1.7,
+              "size_value": 23708.0,
+              "color_value": 18.6,
+              "metadata": {
+                "under_10_pct": 6.5,
+                "hispanic_pct": 18.6
+              }
+            },
+            {
+              "geography_id": "77098",
+              "geography_label": "77098 (Upper Kirby)",
+              "x_value": 38.9,
+              "y_value": 4.6,
+              "size_value": 17210.0,
+              "color_value": 16.2,
+              "metadata": {
+                "under_10_pct": 8.1,
+                "hispanic_pct": 16.2
+              }
+            },
+            {
+              "geography_id": "77006",
+              "geography_label": "77006 (Montrose)",
+              "x_value": 34.9,
+              "y_value": 2.1,
+              "size_value": 24892.0,
+              "color_value": 16.4,
+              "metadata": {
+                "under_10_pct": 5.4,
+                "hispanic_pct": 16.4
+              }
+            },
+            {
+              "geography_id": "77027",
+              "geography_label": "77027 (Greenway / Afton Oaks)",
+              "x_value": 31.0,
+              "y_value": 2.5,
+              "size_value": 20317.0,
+              "color_value": 18.0,
+              "metadata": {
+                "under_10_pct": 4.5,
+                "hispanic_pct": 18.0
+              }
+            },
+            {
+              "geography_id": "77025",
+              "geography_label": "77025 (Braeswood)",
+              "x_value": 28.7,
+              "y_value": 5.5,
+              "size_value": 29715.0,
+              "color_value": 19.3,
+              "metadata": {
+                "under_10_pct": 10.1,
+                "hispanic_pct": 19.3
+              }
+            },
+            {
+              "geography_id": "77009",
+              "geography_label": "77009 (Northside)",
+              "x_value": 28.2,
+              "y_value": 11.4,
+              "size_value": 35769.0,
+              "color_value": 50.4,
+              "metadata": {
+                "under_10_pct": 10.1,
+                "hispanic_pct": 50.4
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Young-Child Density in the Premium ZIPs",
+          "subtitle": "Share of population under age 10, by high-income / low-limited-English ZIP",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP code",
+            "y_axis_label": "Population under age 10 (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "77018",
+              "value": 16.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77008",
+              "value": 14.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77005",
+              "value": 13.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77025",
+              "value": 10.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77009",
+              "value": 10.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77007",
+              "value": 9.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77098",
+              "value": 8.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77019",
+              "value": 6.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77006",
+              "value": 5.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "77027",
+              "value": 4.5,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Following the Young Children and Working Parents",
+      "subtitle": "Locating Houston ZIP codes where large under-10 and 30s cohorts overlap with married, family-oriented households",
+      "description": "For an immersion preschool and daycare serving children aged 1-6, the single most important geographic signal is the concentration of young children and the parents most likely to be raising them. This section triangulates three data points from the ZIP-level results: the share of residents under age 10 (the pool from which the 1-6 target is drawn), the share of adults in their 30s (the prime childbearing and daycare-purchasing life stage), and the married/family household share (a proxy for stable, two-parent households that typically drive full-day and after-school enrollment). These are read against the countywide labor force participation rate of 68.0% in Harris County — a figure that confirms most parents are working and therefore need childcare during the day.\n\nThe under-10 population is heavily concentrated in a set of family-dense ZIPs. ZIP 77081 leads all mapped areas at 18.4% under-10, followed closely by 77060 (18.1%), 77090 (18.0%), 77076 and 77036 (16.1% each), 77088 (16.2%), 77014 (16.5%), and 77018 (16.9%). These ZIPs represent the deepest reservoirs of soon-to-enroll children. Because the client's target is ages 1-6, the under-10 band is the most direct available proxy for the addressable child population, and these ZIPs should anchor site-selection and outreach planning.\n\nThe 30s cohort — the age at which parents most actively research and pay for preschool and daycare — peaks in a partly different set of neighborhoods. ZIP 77002 (29.6%), 77008 (27.1%), 77007 (26.8%), 77006 (25.0%), 77063 (22.9%), 77030 (22.0%), 77042 (21.7%), 77092 (20.7%), and 77004 (21.1%) all show large 30s populations. Several of these (notably 77007, 77008, and 77042) combine a strong 30s presence with a healthy under-10 share, marking them as households actively forming and expanding families.\n\nFamily stability, measured by married-household share, is highest in ZIPs such as 77079 (56.9%), 77062 (59.3%), 77095 (55.7%), 77005 (55.9%), 77008 (53.8%), 77018 (52.6%), 77089 (49.2%), and 77070 (47.0%). Married-heavy ZIPs signal the dual-income, planning-oriented households that most reliably commit to full-day immersion and pay premium tuition.\n\nThe strategic sweet spot is where all three signals overlap. ZIP 77089 combines a 12.6% under-10 share, a 15.2% 30s share, and a 49.2% married share. ZIP 77070 pairs 14.4% under-10 with 16.9% in their 30s and 47.0% married. ZIP 77008 blends an above-average 30s cohort (27.1%) with the highest married share among high-density urban cores (53.8%). ZIP 77018 (16.9% under-10, 19.6% 30s, 52.6% married) and 77042 (13.5% under-10, 21.7% 30s) round out the list of neighborhoods where young children, active-parenting adults, and stable married households coincide. Against a 68.0% countywide labor force participation rate, these households are overwhelmingly working parents — precisely the segment that needs full-day and after-school care.\n\nBusiness implication: prioritize 77089, 77070, 77008, 77018, and 77042 for flagship locations and lead-generation spend, since they maximize the joint density of the target child population and the family households that pay for care. ZIPs strong on under-10 volume but not yet captured (77081, 77060, 77090, 77036) warrant a second tier of consideration for future expansion, with the caveat that their lower married shares (77081 at 26.5%, 77060 at 34.1%) may require marketing tuned to a broader mix of household structures.",
+      "demographic_category": "age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 80.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Distribution of Under-10 Population Share Across Houston ZIP Codes",
+          "subtitle": "Each point is one ZIP code (Harris County); higher values indicate deeper pools of soon-to-enroll children",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Share of population under age 10 (%)",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "77083",
+              "geography_label": "77083",
+              "value": 10.7
+            },
+            {
+              "geography_id": "77036",
+              "geography_label": "77036",
+              "value": 16.1
+            },
+            {
+              "geography_id": "77095",
+              "geography_label": "77095",
+              "value": 10.7
+            },
+            {
+              "geography_id": "77082",
+              "geography_label": "77082",
+              "value": 12.0
+            },
+            {
+              "geography_id": "77070",
+              "geography_label": "77070",
+              "value": 14.4
+            },
+            {
+              "geography_id": "77089",
+              "geography_label": "77089",
+              "value": 12.6
+            },
+            {
+              "geography_id": "77072",
+              "geography_label": "77072",
+              "value": 11.3
+            },
+            {
+              "geography_id": "77088",
+              "geography_label": "77088",
+              "value": 16.2
+            },
+            {
+              "geography_id": "77081",
+              "geography_label": "77081",
+              "value": 18.4
+            },
+            {
+              "geography_id": "77099",
+              "geography_label": "77099",
+              "value": 14.8
+            },
+            {
+              "geography_id": "77007",
+              "geography_label": "77007",
+              "value": 9.6
+            },
+            {
+              "geography_id": "77080",
+              "geography_label": "77080",
+              "value": 15.9
+            },
+            {
+              "geography_id": "77057",
+              "geography_label": "77057",
+              "value": 14.2
+            },
+            {
+              "geography_id": "77055",
+              "geography_label": "77055",
+              "value": 15.2
+            },
+            {
+              "geography_id": "77060",
+              "geography_label": "77060",
+              "value": 18.1
+            },
+            {
+              "geography_id": "77063",
+              "geography_label": "77063",
+              "value": 11.4
+            },
+            {
+              "geography_id": "77008",
+              "geography_label": "77008",
+              "value": 14.3
+            },
+            {
+              "geography_id": "77090",
+              "geography_label": "77090",
+              "value": 18.0
+            },
+            {
+              "geography_id": "77066",
+              "geography_label": "77066",
+              "value": 14.5
+            },
+            {
+              "geography_id": "77065",
+              "geography_label": "77065",
+              "value": 12.3
+            },
+            {
+              "geography_id": "77042",
+              "geography_label": "77042",
+              "value": 13.5
+            },
+            {
+              "geography_id": "77074",
+              "geography_label": "77074",
+              "value": 15.3
+            },
+            {
+              "geography_id": "77079",
+              "geography_label": "77079",
+              "value": 15.2
+            },
+            {
+              "geography_id": "77092",
+              "geography_label": "77092",
+              "value": 14.3
+            },
+            {
+              "geography_id": "77014",
+              "geography_label": "77014",
+              "value": 16.5
+            },
+            {
+              "geography_id": "77035",
+              "geography_label": "77035",
+              "value": 15.5
+            },
+            {
+              "geography_id": "77004",
+              "geography_label": "77004",
+              "value": 7.9
+            },
+            {
+              "geography_id": "77009",
+              "geography_label": "77009",
+              "value": 10.1
+            },
+            {
+              "geography_id": "77096",
+              "geography_label": "77096",
+              "value": 13.6
+            },
+            {
+              "geography_id": "77087",
+              "geography_label": "77087",
+              "value": 11.3
+            },
+            {
+              "geography_id": "77076",
+              "geography_label": "77076",
+              "value": 13.2
+            },
+            {
+              "geography_id": "77018",
+              "geography_label": "77018",
+              "value": 16.9
+            },
+            {
+              "geography_id": "77067",
+              "geography_label": "77067",
+              "value": 14.9
+            },
+            {
+              "geography_id": "77025",
+              "geography_label": "77025",
+              "value": 10.1
+            },
+            {
+              "geography_id": "77033",
+              "geography_label": "77033",
+              "value": 15.9
+            },
+            {
+              "geography_id": "77005",
+              "geography_label": "77005",
+              "value": 13.3
+            },
+            {
+              "geography_id": "77091",
+              "geography_label": "77091",
+              "value": 14.8
+            },
+            {
+              "geography_id": "77086",
+              "geography_label": "77086",
+              "value": 12.3
+            },
+            {
+              "geography_id": "77054",
+              "geography_label": "77054",
+              "value": 7.4
+            },
+            {
+              "geography_id": "77071",
+              "geography_label": "77071",
+              "value": 13.5
+            },
+            {
+              "geography_id": "77021",
+              "geography_label": "77021",
+              "value": 12.7
+            },
+            {
+              "geography_id": "77022",
+              "geography_label": "77022",
+              "value": 11.4
+            },
+            {
+              "geography_id": "77062",
+              "geography_label": "77062",
+              "value": 15.2
+            },
+            {
+              "geography_id": "77006",
+              "geography_label": "77006",
+              "value": 5.4
+            },
+            {
+              "geography_id": "77023",
+              "geography_label": "77023",
+              "value": 8.7
+            },
+            {
+              "geography_id": "77019",
+              "geography_label": "77019",
+              "value": 6.5
+            },
+            {
+              "geography_id": "77056",
+              "geography_label": "77056",
+              "value": 6.5
+            },
+            {
+              "geography_id": "77002",
+              "geography_label": "77002",
+              "value": 2.7
+            },
+            {
+              "geography_id": "77069",
+              "geography_label": "77069",
+              "value": 16.0
+            },
+            {
+              "geography_id": "77027",
+              "geography_label": "77027",
+              "value": 4.5
+            },
+            {
+              "geography_id": "77098",
+              "geography_label": "77098",
+              "value": 8.1
+            },
+            {
+              "geography_id": "77012",
+              "geography_label": "77012",
+              "value": 14.0
+            },
+            {
+              "geography_id": "77031",
+              "geography_label": "77031",
+              "value": 11.5
+            },
+            {
+              "geography_id": "77011",
+              "geography_label": "77011",
+              "value": 8.9
+            },
+            {
+              "geography_id": "77030",
+              "geography_label": "77030",
+              "value": 10.8
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Prime Target ZIPs: Young Children vs. Active-Parenting Adults, Sized by Population",
+          "subtitle": "X = under-10 share, Y = 30s share, bubble size = population, color = married household share (%)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Share of population under age 10 (%)",
+            "y_axis_label": "Share of population in their 30s (%)",
+            "size_label": "Population",
+            "color_label": "Married household share (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "77089",
+              "geography_label": "77089",
+              "x_value": 12.6,
+              "y_value": 15.2,
+              "size_value": 57741.0,
+              "color_value": 49.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77070",
+              "geography_label": "77070",
+              "x_value": 14.4,
+              "y_value": 16.9,
+              "size_value": 58229.0,
+              "color_value": 47.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77008",
+              "geography_label": "77008",
+              "x_value": 14.3,
+              "y_value": 27.1,
+              "size_value": 41645.0,
+              "color_value": 53.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77018",
+              "geography_label": "77018",
+              "x_value": 16.9,
+              "y_value": 19.6,
+              "size_value": 31031.0,
+              "color_value": 52.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77042",
+              "geography_label": "77042",
+              "x_value": 13.5,
+              "y_value": 21.7,
+              "size_value": 38721.0,
+              "color_value": 39.8,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77007",
+              "geography_label": "77007",
+              "x_value": 9.6,
+              "y_value": 26.8,
+              "size_value": 47808.0,
+              "color_value": 46.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77079",
+              "geography_label": "77079",
+              "x_value": 15.2,
+              "y_value": 17.0,
+              "size_value": 37276.0,
+              "color_value": 56.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77095",
+              "geography_label": "77095",
+              "x_value": 10.7,
+              "y_value": 13.1,
+              "size_value": 69767.0,
+              "color_value": 55.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77062",
+              "geography_label": "77062",
+              "x_value": 15.2,
+              "y_value": 13.6,
+              "size_value": 25523.0,
+              "color_value": 59.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77081",
+              "geography_label": "77081",
+              "x_value": 18.4,
+              "y_value": 18.9,
+              "size_value": 50129.0,
+              "color_value": 26.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77060",
+              "geography_label": "77060",
+              "x_value": 18.1,
+              "y_value": 15.0,
+              "size_value": 45340.0,
+              "color_value": 34.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77090",
+              "geography_label": "77090",
+              "x_value": 18.0,
+              "y_value": 16.7,
+              "size_value": 40110.0,
+              "color_value": 33.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77036",
+              "geography_label": "77036",
+              "x_value": 16.1,
+              "y_value": 17.0,
+              "size_value": 71770.0,
+              "color_value": 29.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77092",
+              "geography_label": "77092",
+              "x_value": 14.3,
+              "y_value": 20.7,
+              "size_value": 36938.0,
+              "color_value": 39.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "77063",
+              "geography_label": "77063",
+              "x_value": 11.4,
+              "y_value": 22.9,
+              "size_value": 42690.0,
+              "color_value": 37.6,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Priority ZIP Targets and Positioning Recommendations",
+      "subtitle": "Ranking Houston ZIPs by the intersection of bilingual demand, young-child density, and household buying power — and matching each to a heritage- or enrichment-market message",
+      "description": "This closing section converts the ZIP-level demographic picture into a shortlist of neighborhoods where Dos Idiomas should concentrate its launch and marketing spend. Three factors were weighed for each ZIP drawn from Results 3 and 4: bilingual demand (share Hispanic and share with limited English), young-child density (the under-10 age share, which captures the preschool/daycare-eligible population), and household buying power (the share of households earning $100k+ combined with the $150k+ tier). Because no single ZIP maximizes all three, the recommendation splits the market into two distinct positioning plays.\n\nHERITAGE-MARKET TARGETS (Spanish-heritage families, high bilingual need). Several ZIPs combine very high Hispanic share, elevated limited-English rates, and strong under-10 populations — the classic heritage-language customer who wants their child to retain Spanish. ZIP 77081 stands out: 75.7% Hispanic, 46.1% limited English, and the highest young-child share in the dataset at 18.4% under 10. ZIP 77060 is comparable (75.9% Hispanic, 30.9% limited English, 18.1% under 10), as is 77088 (50.6% Hispanic, 16.2% under 10) and 77036 (72.4% Hispanic, 46.7% limited English — the highest limited-English share of any ZIP, with 16.1% under 10). These neighborhoods, however, skew lower-income: 77081 and 77060 both have only 3.7% and 3.4% of households in the $150k+ tier respectively. Positioning here should lead with heritage pride, affordability, and parent language workshops, and likely requires tiered pricing, sliding scales, or after-school-care volume to be viable.\n\nENRICHMENT-MARKET TARGETS (English-speaking families seeking bilingual advantage, high buying power). A second cluster pairs healthy Hispanic presence with strong incomes and solid child density — ideal for premium immersion pricing. ZIP 77089 is the strongest balanced play: 48.5% Hispanic, a robust 12.6% under 10, and 21.6% of households earning $150k+ (plus 21.9% in the $100k–$150k band). ZIP 77095 offers 30.4% Hispanic, 10.7% under 10, and 26.1% of households at $150k+. ZIP 77070 (30.5% Hispanic, 14.4% under 10, 18.5% at $150k+) and 77065 (35.0% Hispanic, 12.3% under 10, 15.0% at $150k+) round out the affluent-suburban tier where bilingual education can be sold as a competitive enrichment advantage at full price.\n\nWHAT TO DE-PRIORITIZE. The highest-income inner-loop ZIPs are poor fits despite their wealth because they lack children: 77005 (63.2% of households at $150k+, but only 13.3% under 10 and just 10.2% Hispanic), 77006 (34.9% at $150k+, 5.4% under 10), and 77002 (30.1% at $150k+, only 2.7% under 10) are dominated by young singles (never-married shares of 51.3% and 65.9% in 77006 and 77002). Conversely, ZIP 77012 has the deepest heritage demand of all (91.1% Hispanic, 36.4% limited English) but weak buying power (only 4.2% at $150k+), making it a workshop/after-care outreach target rather than a full-day-tuition location.\n\nBOTTOM LINE. Anchor a flagship in the enrichment tier — 77089 or 77095 — where child density and buying power support premium immersion tuition, and open a heritage-focused satellite serving 77081/77060/77036 with affordability-led messaging and parent workshops. This two-format footprint captures both halves of the client's stated target: English-speaking families buying a bilingual advantage and Hispanic families investing in heritage-language retention.",
+      "demographic_category": "composite",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Bilingual Demand vs. Buying Power Across Houston ZIPs",
+          "subtitle": "X = % Hispanic, Y = % households earning $150k+, bubble size = population, color = % under age 10 (child density)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Hispanic share of population (%)",
+            "y_axis_label": "Households earning $150k+ (%)",
+            "size_label": "Population",
+            "color_label": "% under age 10"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "77089",
+              "geography_label": "77089 (SE Houston)",
+              "x_value": 48.5,
+              "y_value": 21.6,
+              "size_value": 57741.0,
+              "color_value": 12.6,
+              "metadata": {
+                "limited_english": 7.6,
+                "positioning": "enrichment"
+              }
+            },
+            {
+              "geography_id": "77095",
+              "geography_label": "77095 (NW / Copperfield)",
+              "x_value": 30.4,
+              "y_value": 26.1,
+              "size_value": 69767.0,
+              "color_value": 10.7,
+              "metadata": {
+                "limited_english": 5.8,
+                "positioning": "enrichment"
+              }
+            },
+            {
+              "geography_id": "77070",
+              "geography_label": "77070 (NW Houston)",
+              "x_value": 30.5,
+              "y_value": 18.5,
+              "size_value": 58229.0,
+              "color_value": 14.4,
+              "metadata": {
+                "limited_english": 6.7,
+                "positioning": "enrichment"
+              }
+            },
+            {
+              "geography_id": "77065",
+              "geography_label": "77065 (NW Houston)",
+              "x_value": 35.0,
+              "y_value": 15.0,
+              "size_value": 38926.0,
+              "color_value": 12.3,
+              "metadata": {
+                "limited_english": 8.7,
+                "positioning": "enrichment"
+              }
+            },
+            {
+              "geography_id": "77081",
+              "geography_label": "77081 (Gulfton)",
+              "x_value": 75.7,
+              "y_value": 3.7,
+              "size_value": 50129.0,
+              "color_value": 18.4,
+              "metadata": {
+                "limited_english": 46.1,
+                "positioning": "heritage"
+              }
+            },
+            {
+              "geography_id": "77060",
+              "geography_label": "77060 (Aldine)",
+              "x_value": 75.9,
+              "y_value": 3.4,
+              "size_value": 45340.0,
+              "color_value": 18.1,
+              "metadata": {
+                "limited_english": 30.9,
+                "positioning": "heritage"
+              }
+            },
+            {
+              "geography_id": "77036",
+              "geography_label": "77036 (Sharpstown)",
+              "x_value": 72.4,
+              "y_value": 4.9,
+              "size_value": 71770.0,
+              "color_value": 16.1,
+              "metadata": {
+                "limited_english": 46.7,
+                "positioning": "heritage"
+              }
+            },
+            {
+              "geography_id": "77088",
+              "geography_label": "77088 (Acres Homes area)",
+              "x_value": 50.6,
+              "y_value": 9.9,
+              "size_value": 57047.0,
+              "color_value": 16.2,
+              "metadata": {
+                "limited_english": 9.0,
+                "positioning": "heritage"
+              }
+            },
+            {
+              "geography_id": "77012",
+              "geography_label": "77012 (Magnolia Park)",
+              "x_value": 91.1,
+              "y_value": 4.2,
+              "size_value": 16286.0,
+              "color_value": 14.0,
+              "metadata": {
+                "limited_english": 36.4,
+                "positioning": "outreach/workshops"
+              }
+            },
+            {
+              "geography_id": "77005",
+              "geography_label": "77005 (West University)",
+              "x_value": 10.2,
+              "y_value": 63.2,
+              "size_value": 28874.0,
+              "color_value": 13.3,
+              "metadata": {
+                "limited_english": 2.2,
+                "positioning": "de-prioritize"
+              }
+            },
+            {
+              "geography_id": "77006",
+              "geography_label": "77006 (Montrose)",
+              "x_value": 16.4,
+              "y_value": 34.9,
+              "size_value": 24892.0,
+              "color_value": 5.4,
+              "metadata": {
+                "limited_english": 2.1,
+                "positioning": "de-prioritize"
+              }
+            },
+            {
+              "geography_id": "77002",
+              "geography_label": "77002 (Downtown)",
+              "x_value": 24.3,
+              "y_value": 30.1,
+              "size_value": 21015.0,
+              "color_value": 2.7,
+              "metadata": {
+                "limited_english": 1.5,
+                "positioning": "de-prioritize"
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Distribution of Young-Child Density (% Under Age 10) Across Houston ZIPs",
+          "subtitle": "Each point is one ZIP; higher values indicate more preschool/daycare-eligible children",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "% of population under age 10",
+            "y_axis_label": "Number of ZIPs",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "77083",
+              "geography_label": "77083",
+              "value": 10.7
+            },
+            {
+              "geography_id": "77036",
+              "geography_label": "77036",
+              "value": 16.1
+            },
+            {
+              "geography_id": "77095",
+              "geography_label": "77095",
+              "value": 10.7
+            },
+            {
+              "geography_id": "77082",
+              "geography_label": "77082",
+              "value": 12.0
+            },
+            {
+              "geography_id": "77070",
+              "geography_label": "77070",
+              "value": 14.4
+            },
+            {
+              "geography_id": "77089",
+              "geography_label": "77089",
+              "value": 12.6
+            },
+            {
+              "geography_id": "77072",
+              "geography_label": "77072",
+              "value": 11.3
+            },
+            {
+              "geography_id": "77088",
+              "geography_label": "77088",
+              "value": 16.2
+            },
+            {
+              "geography_id": "77081",
+              "geography_label": "77081",
+              "value": 18.4
+            },
+            {
+              "geography_id": "77099",
+              "geography_label": "77099",
+              "value": 14.8
+            },
+            {
+              "geography_id": "77007",
+              "geography_label": "77007",
+              "value": 9.6
+            },
+            {
+              "geography_id": "77080",
+              "geography_label": "77080",
+              "value": 15.9
+            },
+            {
+              "geography_id": "77057",
+              "geography_label": "77057",
+              "value": 14.2
+            },
+            {
+              "geography_id": "77055",
+              "geography_label": "77055",
+              "value": 15.2
+            },
+            {
+              "geography_id": "77060",
+              "geography_label": "77060",
+              "value": 18.1
+            },
+            {
+              "geography_id": "77063",
+              "geography_label": "77063",
+              "value": 11.4
+            },
+            {
+              "geography_id": "77008",
+              "geography_label": "77008",
+              "value": 14.3
+            },
+            {
+              "geography_id": "77090",
+              "geography_label": "77090",
+              "value": 18.0
+            },
+            {
+              "geography_id": "77066",
+              "geography_label": "77066",
+              "value": 14.5
+            },
+            {
+              "geography_id": "77065",
+              "geography_label": "77065",
+              "value": 12.3
+            },
+            {
+              "geography_id": "77042",
+              "geography_label": "77042",
+              "value": 13.5
+            },
+            {
+              "geography_id": "77074",
+              "geography_label": "77074",
+              "value": 15.3
+            },
+            {
+              "geography_id": "77079",
+              "geography_label": "77079",
+              "value": 15.2
+            },
+            {
+              "geography_id": "77092",
+              "geography_label": "77092",
+              "value": 14.3
+            },
+            {
+              "geography_id": "77014",
+              "geography_label": "77014",
+              "value": 16.5
+            },
+            {
+              "geography_id": "77035",
+              "geography_label": "77035",
+              "value": 15.5
+            },
+            {
+              "geography_id": "77004",
+              "geography_label": "77004",
+              "value": 7.9
+            },
+            {
+              "geography_id": "77009",
+              "geography_label": "77009",
+              "value": 10.1
+            },
+            {
+              "geography_id": "77096",
+              "geography_label": "77096",
+              "value": 13.6
+            },
+            {
+              "geography_id": "77087",
+              "geography_label": "77087",
+              "value": 11.3
+            },
+            {
+              "geography_id": "77076",
+              "geography_label": "77076",
+              "value": 13.2
+            },
+            {
+              "geography_id": "77018",
+              "geography_label": "77018",
+              "value": 16.9
+            },
+            {
+              "geography_id": "77067",
+              "geography_label": "77067",
+              "value": 14.9
+            },
+            {
+              "geography_id": "77025",
+              "geography_label": "77025",
+              "value": 10.1
+            },
+            {
+              "geography_id": "77033",
+              "geography_label": "77033",
+              "value": 15.9
+            },
+            {
+              "geography_id": "77005",
+              "geography_label": "77005",
+              "value": 13.3
+            },
+            {
+              "geography_id": "77091",
+              "geography_label": "77091",
+              "value": 14.8
+            },
+            {
+              "geography_id": "77086",
+              "geography_label": "77086",
+              "value": 12.3
+            },
+            {
+              "geography_id": "77054",
+              "geography_label": "77054",
+              "value": 7.4
+            },
+            {
+              "geography_id": "77071",
+              "geography_label": "77071",
+              "value": 13.5
+            },
+            {
+              "geography_id": "77021",
+              "geography_label": "77021",
+              "value": 12.7
+            },
+            {
+              "geography_id": "77022",
+              "geography_label": "77022",
+              "value": 11.4
+            },
+            {
+              "geography_id": "77062",
+              "geography_label": "77062",
+              "value": 15.2
+            },
+            {
+              "geography_id": "77006",
+              "geography_label": "77006",
+              "value": 5.4
+            },
+            {
+              "geography_id": "77023",
+              "geography_label": "77023",
+              "value": 8.7
+            },
+            {
+              "geography_id": "77019",
+              "geography_label": "77019",
+              "value": 6.5
+            },
+            {
+              "geography_id": "77056",
+              "geography_label": "77056",
+              "value": 6.5
+            },
+            {
+              "geography_id": "77002",
+              "geography_label": "77002",
+              "value": 2.7
+            },
+            {
+              "geography_id": "77069",
+              "geography_label": "77069",
+              "value": 16.0
+            },
+            {
+              "geography_id": "77027",
+              "geography_label": "77027",
+              "value": 4.5
+            },
+            {
+              "geography_id": "77098",
+              "geography_label": "77098",
+              "value": 8.1
+            },
+            {
+              "geography_id": "77012",
+              "geography_label": "77012",
+              "value": 14.0
+            },
+            {
+              "geography_id": "77031",
+              "geography_label": "77031",
+              "value": 11.5
+            },
+            {
+              "geography_id": "77011",
+              "geography_label": "77011",
+              "value": 8.9
+            },
+            {
+              "geography_id": "77030",
+              "geography_label": "77030",
+              "value": 10.8
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:41:32.588107+00:00"
+}

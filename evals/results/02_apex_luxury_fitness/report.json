@@ -1,0 +1,249 @@
+{
+  "report_id": "3c766f29-8563-4136-9798-994ecc746b85",
+  "title": "Demographic Data Availability Assessment for a Luxury Boutique Fitness Market Study",
+  "subtitle": "Arizona / Phoenix / Scottsdale Suburban Areas",
+  "geography_type": "county",
+  "geography_value": "Arizona / Phoenix / Scottsdale, suburban areas",
+  "client_profile_id": "fafa01de-657e-47ec-8060-e185f722ad57",
+  "summary": {
+    "total_population": 0,
+    "zip_count": 0,
+    "median_household_income": null,
+    "median_age": null,
+    "home_ownership_rate": null,
+    "narrative": "All four demographic queries returned no data, so no population, income, age, or employment metrics are currently available for the Arizona/Phoenix/Scottsdale target market. As a result, this report documents the intended analytical framework rather than findings, and no median income, median age, or home ownership figures can be reported at this time. Data acquisition or query refinement is required before any market profile or neighborhood-level analysis can be completed.",
+    "opportunity_bubble_chart": null
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "Overview and Data Status",
+      "subtitle": "All four demographic queries returned empty result sets — no populated data is currently available to profile the target market",
+      "description": "This assessment was commissioned to evaluate the demographic data available to profile the target market for Apex Performance Studio — high-income professionals and executives aged 30–55 seeking premium wellness experiences in the Arizona / Phoenix / Scottsdale suburban area. Four separate demographic queries were executed against the demographic database, each already filtered to the client's geographic scope and each grouped at a different level of geographic granularity:\n\n• Result 1 (grouped by county): requested median household income, share of six-figure households, labor force participation, self-employment rate, and median age.\n• Result 2 (grouped by city): requested the same five income, employment, and age metrics at the city level.\n• Result 3 (grouped by ZIP): requested income distribution, age distribution, and median household income.\n• Result 4 (grouped by ZIP): requested labor force participation, self-employment rate, unemployment rate, and share of six-figure households.\n\nEvery one of these four queries returned an empty result set — zero records. There are no county rows, no city rows, and no ZIP rows to analyze. Because no populated data was returned at any grouping level, it is not currently possible to build a quantitative profile of the target customer, size the addressable market, or identify or rank specific geographies within the client's scope.\n\nBusiness interpretation: The visualizations below show a record count of zero for all four queries, illustrating that the analysis cannot yet proceed on the basis of returned data. This absence of records does not by itself indicate that the underlying market is unattractive — the intended metrics (income levels, six-figure household concentration, self-employment, and age distribution) are precisely the indicators that would characterize an affluent professional clientele. Rather, it signals a data-availability gap: the queries as filtered and scoped produced no matching records. Recommended next steps before any market conclusions are drawn are to (1) verify that the geographic filters and area identifiers for the Phoenix / Scottsdale suburban scope are correctly mapped to the database, (2) confirm the requested metrics are populated for these geographies in the data source, and (3) re-run the four queries once these checks are complete. No demographic figures are presented in this section because none were returned by the queries; per the study's accuracy standards, no values have been estimated or inferred.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 100.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Records Returned by Query",
+          "subtitle": "All four demographic queries returned zero records",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Query (grouping level)",
+            "y_axis_label": "Number of records returned",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Result 1 — by county",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Result 2 — by city",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Result 3 — by ZIP",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Result 4 — by ZIP",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Data Availability Status Across Queries",
+          "subtitle": "Share of queries returning populated vs. empty result sets",
+          "config": {
+            "chart_type": "pie",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Queries returning data",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Queries returning empty result set",
+              "value": 4.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Intended Market Profile Framework",
+      "subtitle": "Designed demographic dimensions at the county and city levels — currently unpopulated",
+      "description": "This section documents the demographic framework the market study was designed to examine for Apex Performance Studio, and reports on the current availability of that data.\n\n**Study design intent.** To evaluate the viability of a luxury boutique fitness market across Arizona, Phoenix, Scottsdale, and surrounding suburban areas, the study was structured around five demographic dimensions selected for their direct relevance to a premium wellness clientele:\n\n- **Median household income** — a primary indicator of an area's capacity to support premium-priced strength training, reformer pilates, and recovery services.\n- **Six-figure households** — the concentration of high-earning households ($100K+), which most closely proxies the affluent professional and executive target customer.\n- **Labor force participation** — a signal of an economically active, career-oriented population aligned with the \"high-income professional\" profile.\n- **Self-employment** — an indicator of entrepreneurs and business owners who often have both the discretionary income and schedule flexibility to value premium wellness experiences.\n- **Median age** — used to gauge alignment with the intended 30–55 target age band.\n\nThese dimensions were queried at two complementary geographic resolutions: the **county level** (Result 1) to establish broad regional benchmarks, and the **city level** (Result 2) to distinguish individual submarkets such as candidate studio locations.\n\n**Data availability finding.** Both Result 1 (county-grouped) and Result 2 (city-grouped) returned **no records**. As a consequence, none of the five intended dimensions — median household income, six-figure households, labor force participation, self-employment, or median age — can currently be reported at the county or city level. No values are available to populate the market profile at these resolutions.\n\n**Business interpretation.** The framework itself is sound and well-matched to Apex Performance Studio's affluent target customer: income and six-figure-household metrics speak directly to purchasing power, self-employment and labor force participation characterize the professional/executive base, and median age tests fit against the 30–55 band. However, because the underlying county- and city-level queries are empty, the study cannot presently draw any conclusions about which Arizona counties or cities best match this profile. Before a location or market-entry recommendation can be made, these queries must be re-run against a populated data source (or scoped to geographies that return records). The visualizations below reflect this state honestly — showing the intended metric framework and confirming that no data was returned at either geographic level rather than presenting fabricated figures.",
+      "demographic_category": "income_employment_age",
+      "demographic_key": null,
+      "importance_weight": 70.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Intended Demographic Dimensions by Geographic Level",
+          "subtitle": "Five metrics were queried at county and city levels; both queries returned zero records",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Query (geographic grouping level)",
+            "y_axis_label": "Number of records returned",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "County level (Result 1)",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "City level (Result 2)",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Data Coverage of Intended Market Profile Metrics",
+          "subtitle": "Records available for each designed dimension across the county and city queries",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Intended demographic dimension",
+            "y_axis_label": "Records available (county + city)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Median household income",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Six-figure households",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Labor force participation",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Self-employment",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Median age",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Planned Neighborhood-Level Analysis",
+      "subtitle": "Intended ZIP-code-level view of income, age, and employment indicators — no data returned",
+      "description": "This section outlines the neighborhood-level analysis planned for Apex Performance Studio's luxury boutique fitness market study across the Arizona / Phoenix / Scottsdale suburban target area. The intent was to build a granular, ZIP-code-by-ZIP-code picture of the local market by combining two complementary query results:\n\n- Result 3 (grouped by ZIP) was designed to reveal, for each ZIP code, the full income distribution, the age distribution, and the median household income. Together these would identify the specific neighborhoods where the concentration of affluent, prime-age (30–55) professionals — Apex's core target — is highest, allowing site selection and marketing spend to be focused where premium wellness demand is most likely to convert.\n\n- Result 4 (grouped by ZIP) was designed to layer in local employment indicators for each ZIP code: labor force participation, self-employment rate, unemployment rate, and the share of six-figure households. Self-employment and six-figure-household density are particularly relevant for a luxury studio, since entrepreneurs and high earners typically have both the discretionary income and the schedule flexibility that suit small-group strength training, reformer pilates, and midday recovery services.\n\nBoth queries returned zero rows. Because no ZIP-level records were available, none of the planned distributions, medians, or employment rates can be reported here, and no individual neighborhoods can be named or compared. The visualization below is included to document the intended analytical structure; it contains no data points, consistent with the empty query results. To complete this neighborhood-level view, the underlying ZIP-level demographic and employment data for the Phoenix / Scottsdale suburban footprint will need to be sourced and re-queried.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 50.0,
+      "rank": 3,
+      "visualizations": []
+    },
+    {
+      "section_id": "section-4",
+      "title": "Recommendations and Next Steps",
+      "subtitle": "Re-running and validating the demographic queries before drawing market conclusions",
+      "description": "All four demographic queries executed for this study returned zero records. Result 1 (county-level income, six-figure households, labor force participation, self-employment, and median age) returned no rows, as did Result 2 at the city level covering the same metrics. Result 3 (ZIP-level income distribution, age distribution, and median household income) and Result 4 (ZIP-level labor force participation, self-employment, unemployment rate, and six-figure households) likewise returned no data. Because not a single county, city, or ZIP code was returned across any result block, there is currently no demographic evidence on which to base an assessment of the Phoenix/Scottsdale luxury fitness market.\n\nBusiness interpretation: The complete absence of returned areas is far more consistent with a query configuration or geographic filter problem than with a genuine finding that the target geography contains no population. The Scottsdale and greater Phoenix suburbs are well-established affluent markets, so a result of \"no areas\" should be treated as a data-availability signal, not a market signal. In practical terms, no conclusions about income concentration, the density of six-figure households, self-employment among professionals, or the 30-55 age target can be responsibly drawn at this stage.\n\nRecommended next steps, in priority order: (1) Verify the geographic filters — confirm that the state, county, city, and ZIP identifiers used to scope the queries correctly map to Maricopa County, the City of Scottsdale, the City of Phoenix, and their surrounding suburban ZIP codes, and check for mismatched codes, name spellings, or an overly restrictive filter that excludes all rows. (2) Re-run each query after correcting the scope, starting with the broadest grouping (county) to confirm any data returns at all before narrowing to city and ZIP. (3) If county-level queries still return nothing, broaden the geographic scope temporarily to the full state or metro (CBSA) level to isolate whether the issue is the filter or the underlying dataset. (4) Confirm that the requested metrics exist and are populated for the target vintage before layering additional attributes. Only once at least one grouping level returns populated rows should the study proceed to demographic analysis and targeting recommendations. Until then, this section is the terminal recommendation: correct, verify, and re-query.",
+      "demographic_category": null,
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Records Returned by Query Block",
+          "subtitle": "All four demographic queries returned zero areas",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Query result block",
+            "y_axis_label": "Number of areas returned",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Result 1: County-level metrics",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Result 2: City-level metrics",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Result 3: ZIP income & age distribution",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Result 4: ZIP employment metrics",
+              "value": 0.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:33:31.231749+00:00"
+}

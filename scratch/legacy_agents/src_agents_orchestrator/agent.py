@@ -23,7 +23,7 @@ from src.agents.orchestrator.prompts import (
 )
 from src.agents.orchestrator.location_filters import LocationFilters
 from src.agents.orchestrator.demographics import DEMOGRAPHICS, MetricType
-from src.models import ClientProfile, DemographicTarget
+from src.core.database import ClientProfile, DemographicTarget
 from src.core.config import get_settings
 from src.core.database import AsyncSessionLocal, get_checkpointer
 from src.core.state import ClientProfileRef, DemographicTargetRef

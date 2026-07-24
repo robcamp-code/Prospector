@@ -1,5 +1,5 @@
-"""Multi-agent system package."""
+"""Chat agent package."""
 
-from src.agents.orchestrator import Orchestrator
+from src.agents.chat import ChatAgent
 
-__all__ = ["Orchestrator"]
+__all__ = ["ChatAgent"]

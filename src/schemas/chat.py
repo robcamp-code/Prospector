@@ -1,18 +1,14 @@
 """Request and response schemas for chat endpoints."""
 
+from __future__ import annotations
+
 from datetime import datetime
+from typing import TYPE_CHECKING
 
 from pydantic import BaseModel, Field
 
-from src.schemas.report import Report
-
-
-class ClientProfileSummary(BaseModel):
-    """Summary of a client profile for embedding in responses."""
-
-    id: str
-    name: str
-    business_type: str | None = None
+if TYPE_CHECKING:
+    from src.schemas.report import Report
 
 
 class StartConversationRequest(BaseModel):
@@ -48,9 +44,6 @@ class ConversationResponse(BaseModel):
     created_at: datetime | None = Field(
         default=None, description="When the conversation was created"
     )
-    client_profile: ClientProfileSummary | None = Field(
-        default=None, description="Associated client profile, if any"
-    )
 
 
 class ChatResponse(BaseModel):
@@ -62,8 +55,7 @@ class ChatResponse(BaseModel):
         default=None, description="When the conversation was created"
     )
     report: Report | None = Field(
-        default=None,
-        description="Demographic report, present once the profile is complete",
+        default=None, description="Demographic report, present once complete"
     )
 
 
@@ -73,6 +65,15 @@ class ConversationListItem(BaseModel):
     id: str = Field(..., description="Conversation ID")
     preview: str = Field(..., description="Preview of the last message")
     message_count: int = Field(..., description="Number of messages in conversation")
-    client_profile: ClientProfileSummary | None = Field(
-        default=None, description="Associated client profile, if any"
-    )
+
+
+# Rebuild ChatResponse schema to resolve Report forward reference
+# (needed for Pydantic to resolve the type when generating OpenAPI schema)
+def _rebuild_chat_response() -> None:
+    """Rebuild ChatResponse to resolve forward references."""
+    from src.schemas.report import Report as ReportType
+    ChatResponse.model_rebuild(_types_namespace={'Report': ReportType})
+
+
+# Call rebuild when this module is imported (but after Report is available)
+_rebuild_chat_response()

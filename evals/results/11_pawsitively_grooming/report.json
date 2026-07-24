@@ -1,0 +1,1100 @@
+{
+  "report_id": "895d9ff4-51ca-48bd-a803-848005ed1e0b",
+  "title": "Where Nashville's Pet-Loving Households Live: Targeting Affluent Homeowners for Premium Pet Care",
+  "subtitle": "Demographic Opportunity Analysis for Pawsitively Polished Pet Spa — Davidson County & Nashville, Tennessee",
+  "geography_type": "county",
+  "geography_value": "Tennessee / Nashville, suburban areas",
+  "client_profile_id": "58bfd814-93dc-46d4-86a4-4a738b22be06",
+  "summary": {
+    "total_population": 390568,
+    "zip_count": 13,
+    "median_household_income": 85723.91110894902,
+    "median_age": 35.856839013948914,
+    "home_ownership_rate": 55.26578419122919,
+    "narrative": "Davidson County (Nashville) is home to roughly 390,568 residents with a median household income of about $85,724 and a median age of ~35.9, and 40.9% of households earning six figures—an attractive base for premium pet care. The strongest prospect ZIPs combine high affluence and home ownership: 37215 (median income $155,863, 75.8% home ownership, 65.4% six-figure households) and 37205 ($139,152 median income, 67.8% home ownership) lead on spending power, while high-volume 37211 (population 76,573) and youthful, professional-heavy 37206 and 37209 offer reach among the 30s-aged, pets-as-family demographic. Balancing value-focused ZIPs (37215, 37205, 37204) with volume-focused ZIPs (37211, 37207) provides the best mix of disposable income and market size.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "ZIP Opportunity: Income vs. Home Ownership (Sized by Population)",
+      "subtitle": "Nashville / Davidson County ZIP codes",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Home Ownership (%)",
+        "size_label": "Population",
+        "color_label": "Six-Figure Households (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "37215",
+          "geography_label": "37215 Nashville",
+          "x_value": 155863.0,
+          "y_value": 75.8,
+          "size_value": 22018.0,
+          "color_value": 65.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37205",
+          "geography_label": "37205 Nashville",
+          "x_value": 139152.0,
+          "y_value": 67.8,
+          "size_value": 24823.0,
+          "color_value": 61.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37204",
+          "geography_label": "37204 Nashville",
+          "x_value": 109580.0,
+          "y_value": 56.3,
+          "size_value": 16469.0,
+          "color_value": 54.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37221",
+          "geography_label": "37221 Nashville",
+          "x_value": 97751.0,
+          "y_value": 70.8,
+          "size_value": 41935.0,
+          "color_value": 49.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37206",
+          "geography_label": "37206 Nashville",
+          "x_value": 96169.0,
+          "y_value": 50.2,
+          "size_value": 28545.0,
+          "color_value": 48.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37216",
+          "geography_label": "37216 Nashville",
+          "x_value": 86701.0,
+          "y_value": 70.2,
+          "size_value": 19038.0,
+          "color_value": 43.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37209",
+          "geography_label": "37209 Nashville",
+          "x_value": 81423.0,
+          "y_value": 46.9,
+          "size_value": 37817.0,
+          "color_value": 42.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37214",
+          "geography_label": "37214 Nashville",
+          "x_value": 72012.0,
+          "y_value": 62.5,
+          "size_value": 29805.0,
+          "color_value": 33.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37211",
+          "geography_label": "37211 Nashville",
+          "x_value": 71399.0,
+          "y_value": 49.2,
+          "size_value": 76573.0,
+          "color_value": 36.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37217",
+          "geography_label": "37217 Nashville",
+          "x_value": 62796.0,
+          "y_value": 41.4,
+          "size_value": 31869.0,
+          "color_value": 28.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37207",
+          "geography_label": "37207 Nashville",
+          "x_value": 61744.0,
+          "y_value": 55.7,
+          "size_value": 41366.0,
+          "color_value": 25.1,
+          "metadata": {}
+        },
+        {
+          "geography_id": "37210",
+          "geography_label": "37210 Nashville",
+          "x_value": 50284.0,
+          "y_value": 30.3,
+          "size_value": 17725.0,
+          "color_value": 25.4,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "Market Overview: Davidson County at a Glance",
+      "subtitle": "Establishing the countywide baseline for affluent, pet-loving households",
+      "description": "Davidson County and the City of Nashville present a demographic profile that aligns strongly with Pawsitively Polished Pet Spa's ideal customer: financially comfortable adults in their prime pet-owning years who are established enough to invest in premium care for pets they treat as family.\n\n**Disposable income is the headline story.** The county's median household income of $85,724 sits well above the national median, and a striking 40.9% of households earn six figures or more. That means roughly four in ten local households have the discretionary spending power to justify recurring grooming, doggy daycare, overnight boarding, and premium retail purchases — the exact wallet share this business competes for. Elevated spending on pet services is closely tied to disposable income, and the concentration of six-figure households here signals a deep, sustainable customer pool rather than an occasional-splurge market.\n\n**A working, established population supports demand.** Labor force participation of 72.7% indicates a busy, employed base — precisely the households that need daycare and boarding because pets can't be left alone during long workdays or travel. Time-scarce professionals are the natural buyers of full-service grooming and drop-off care.\n\n**The age profile fits the target window.** The county's median age of 35.9 lands squarely inside the 25–60 target band and skews toward younger professionals and young families — the \"pets as family\" cohort most likely to prioritize premium care and repeat visits.\n\n**Home ownership and property values reinforce the affluence signal.** With 55.3% of households owning their homes and a Nashville median home value of $510,860, the market is anchored by property owners with the stability, yard space, and lifestyle that correlate with dog ownership and higher pet-care spending. High home values further confirm the disposable-income environment that a premium service and retail concept depends on.\n\n**Bottom line for strategy:** Davidson County offers the combination Pawsitively Polished needs — high incomes, a large six-figure household share, a working population that requires daycare and boarding, and a prime-age homeowner base. This countywide baseline confirms Nashville is a well-suited market for a disposable-income pet-owner strategy, and later sections drill into which ZIP codes concentrate these traits most densely.",
+      "demographic_category": "Income & Housing",
+      "demographic_key": null,
+      "importance_weight": 85.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Davidson County Affluence & Workforce Snapshot",
+          "subtitle": "Key percentage indicators for the target audience (Result 1)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Metric",
+            "y_axis_label": "Percent of households / population",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Six-Figure Households (%)",
+              "value": 40.91,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Home Ownership (%)",
+              "value": 55.27,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Labor Force Participation (%)",
+              "value": 72.73,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Income & Home Value Context",
+          "subtitle": "Nashville median home value and Davidson County median household income",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Metric",
+            "y_axis_label": "US Dollars",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Median Household Income (County)",
+              "value": 85723.91,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Median Home Value (Nashville)",
+              "value": 510860.4,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Prime Prospect ZIPs: Affluence and Home Ownership",
+      "subtitle": "Ranking Nashville neighborhoods by income, wealth concentration, and home value to prioritize premium pet care marketing",
+      "description": "Premium grooming, boarding, and retail spending track closely with disposable income and home ownership — homeowners tend to be settled, pet-committed, and willing to invest in \"pets as family.\" This section ranks Davidson County ZIP codes on the three affluence signals most predictive of premium pet-care demand: median household income, the share of six-figure households, and median home value, cross-referenced with home ownership rates.\n\nThe data points to a clear tier of prime prospect neighborhoods. ZIP 37215 leads decisively, pairing the county's highest median household income ($155,863) with the largest six-figure household share (65.4%), a median home value exceeding $1.05M, and a 75.8% home ownership rate — the highest ownership figure among all Nashville ZIPs analyzed. ZIP 37205 follows closely ($139,152 median income, 61.3% six-figure households, $956,960 median home value, 67.8% ownership), and 37204 rounds out the top tier ($109,580 median income, 54.9% six-figure households, $894,871 median home value, 56.3% ownership). These three ZIPs represent the strongest concentration of affluent, home-owning households and should anchor the client's premium-service marketing, retail assortment, and location strategy.\n\nA secondary tier — 37221 (70.8% ownership, $97,751 income, 49.0% six-figure) and 37206 ($96,169 income, 48.6% six-figure) — offers meaningful volume potential, with 37221's exceptionally high ownership rate signaling a stable, family-oriented base ideal for recurring grooming and boarding relationships. By contrast, ZIPs such as 37210 (30.3% ownership, $50,284 income) index well below the affluence thresholds that support premium pricing and are lower priority for a premium-positioned spa.\n\nBusiness takeaway: Concentrate premium-tier promotion, boarding packages, and high-margin retail in 37215, 37205, and 37204, where both spending power and residential stability are highest, while treating 37221 and 37206 as strong secondary expansion targets.",
+      "demographic_category": "Income &amp; Housing",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Affluence Landscape: Income vs. Home Value by ZIP",
+          "subtitle": "Bubble size reflects population; six-figure household share shown by color. Top-right ZIPs are prime premium-service targets.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Population",
+            "color_label": "Six-Figure Households (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "37215",
+              "geography_label": "37215",
+              "x_value": 155863.0,
+              "y_value": 1058208.0,
+              "size_value": 22018.0,
+              "color_value": 65.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37205",
+              "geography_label": "37205",
+              "x_value": 139152.0,
+              "y_value": 956960.0,
+              "size_value": 24823.0,
+              "color_value": 61.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37204",
+              "geography_label": "37204",
+              "x_value": 109580.0,
+              "y_value": 894871.0,
+              "size_value": 16469.0,
+              "color_value": 54.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37221",
+              "geography_label": "37221",
+              "x_value": 97751.0,
+              "y_value": 464256.0,
+              "size_value": 41935.0,
+              "color_value": 49.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37206",
+              "geography_label": "37206",
+              "x_value": 96169.0,
+              "y_value": 593395.0,
+              "size_value": 28545.0,
+              "color_value": 48.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37216",
+              "geography_label": "37216",
+              "x_value": 86701.0,
+              "y_value": 447379.0,
+              "size_value": 19038.0,
+              "color_value": 43.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37209",
+              "geography_label": "37209",
+              "x_value": 81423.0,
+              "y_value": 537343.0,
+              "size_value": 37817.0,
+              "color_value": 42.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37214",
+              "geography_label": "37214",
+              "x_value": 72012.0,
+              "y_value": 339104.0,
+              "size_value": 29805.0,
+              "color_value": 33.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37211",
+              "geography_label": "37211",
+              "x_value": 71399.0,
+              "y_value": 405920.0,
+              "size_value": 76573.0,
+              "color_value": 36.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37217",
+              "geography_label": "37217",
+              "x_value": 62796.0,
+              "y_value": 317483.0,
+              "size_value": 31869.0,
+              "color_value": 28.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37207",
+              "geography_label": "37207",
+              "x_value": 61744.0,
+              "y_value": 359960.0,
+              "size_value": 41366.0,
+              "color_value": 25.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37210",
+              "geography_label": "37210",
+              "x_value": 50284.0,
+              "y_value": 354947.0,
+              "size_value": 17725.0,
+              "color_value": 25.4,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Home Ownership Rate by ZIP",
+          "subtitle": "Residential stability signals recurring grooming and boarding potential",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP Code",
+            "y_axis_label": "Home Ownership (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "37215",
+              "value": 75.8,
+              "percentage": null,
+              "color": "#2E7D32"
+            },
+            {
+              "label": "37221",
+              "value": 70.8,
+              "percentage": null,
+              "color": "#2E7D32"
+            },
+            {
+              "label": "37216",
+              "value": 70.2,
+              "percentage": null,
+              "color": "#66BB6A"
+            },
+            {
+              "label": "37205",
+              "value": 67.8,
+              "percentage": null,
+              "color": "#2E7D32"
+            },
+            {
+              "label": "37214",
+              "value": 62.5,
+              "percentage": null,
+              "color": "#66BB6A"
+            },
+            {
+              "label": "37204",
+              "value": 56.3,
+              "percentage": null,
+              "color": "#2E7D32"
+            },
+            {
+              "label": "37207",
+              "value": 55.7,
+              "percentage": null,
+              "color": "#A5D6A7"
+            },
+            {
+              "label": "37206",
+              "value": 50.2,
+              "percentage": null,
+              "color": "#66BB6A"
+            },
+            {
+              "label": "37211",
+              "value": 49.2,
+              "percentage": null,
+              "color": "#A5D6A7"
+            },
+            {
+              "label": "37209",
+              "value": 46.9,
+              "percentage": null,
+              "color": "#A5D6A7"
+            },
+            {
+              "label": "37217",
+              "value": 41.4,
+              "percentage": null,
+              "color": "#A5D6A7"
+            },
+            {
+              "label": "37210",
+              "value": 30.3,
+              "percentage": null,
+              "color": "#E0E0E0"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Age Profile and the Pets-as-Family Customer",
+      "subtitle": "Locating Nashville ZIPs with dense 30s/40s cohorts that align with the young-professional and pet-parent target",
+      "description": "Pawsitively Polished's ideal customer is a pet owner aged 25-60 who treats pets as family — a profile that skews heavily toward adults in their 30s and 40s, the life stage most associated with disposable income, homeownership, and premium spending on pets. This section uses ZIP-level age distributions across Davidson County to pinpoint where that core cohort is most concentrated.\n\nThe standout markets for the \"pets-as-family\" positioning are the urban-professional and young-family ZIPs. In 37206 (East Nashville), a striking 25.3% of residents are in their 30s and another 14.7% in their 40s, meaning roughly 40% of the ZIP falls squarely in the prime pet-parent window — the highest 30s/40s combination among all ZIPs analyzed. 37216 (Inglewood) follows closely, with 29.5% in their 30s and 12.2% in their 40s (41.7% combined), reinforcing East Nashville's northern neighborhoods as a bullseye for young professionals establishing households and pet routines.\n\nLarger-volume markets add scale to the story. 37211, the most populous ZIP at 76,573 residents, pairs a strong 30s share (20.1%) with a sizable 20s cohort (18.7%), positioning it as a high-total-count opportunity where even a moderate age concentration translates into a large absolute base of target-age customers. 37209 (24.1% in 30s, 25.9% in 20s) and 37204 (17.7% in 30s, 24.7% in 20s) similarly capture the emerging young-professional pipeline — customers likely acquiring their first \"fur babies\" and forming lifetime grooming and boarding habits.\n\nBy contrast, ZIPs such as 37205 and 37215 skew notably older (14.3% and 10.3% in their 70s respectively, with double-digit 60s and 80-plus shares), and 37228 skews toward transient 20s (43.5%) with almost no families under 10. While the affluence of 37205 and 37215 keeps them relevant for premium retail and boarding, their age profiles suggest a different messaging approach than the family-and-daycare emphasis that resonates in the 30s/40s-dense ZIPs.\n\nRecommendation: Prioritize 37206 and 37216 for family- and daycare-focused marketing where the pets-as-family cohort is densest, and treat 37211 as the volume play given its large target-age population base. Position 37209 and 37204 as growth markets for capturing younger pet owners early in their spending lifecycle.",
+      "demographic_category": "Age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 85.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Prime Pet-Parent Cohort (30s + 40s) by ZIP",
+          "subtitle": "Combined share of residents in their 30s and 40s — the core 25-60 target band",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP Code",
+            "y_axis_label": "% of residents in 30s + 40s",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "37216 (Inglewood)",
+              "value": 41.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37206 (East Nashville)",
+              "value": 40.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37209",
+              "value": 35.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37211",
+              "value": 31.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37217",
+              "value": 31.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37214",
+              "value": 31.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37204",
+              "value": 29.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37210",
+              "value": 29.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37207",
+              "value": 28.8,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37221",
+              "value": 27.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37215",
+              "value": 27.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37205",
+              "value": 22.5,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Distribution of the 30s Cohort Across Nashville ZIPs",
+          "subtitle": "Share of residents in their 30s per ZIP (one point per ZIP)",
+          "config": {
+            "chart_type": "violin",
+            "x_axis_label": null,
+            "y_axis_label": "% of residents in their 30s",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "37211",
+              "geography_label": "37211",
+              "value": 20.1
+            },
+            {
+              "geography_id": "37221",
+              "geography_label": "37221",
+              "value": 15.4
+            },
+            {
+              "geography_id": "37207",
+              "geography_label": "37207",
+              "value": 18.7
+            },
+            {
+              "geography_id": "37209",
+              "geography_label": "37209",
+              "value": 24.1
+            },
+            {
+              "geography_id": "37217",
+              "geography_label": "37217",
+              "value": 19.5
+            },
+            {
+              "geography_id": "37214",
+              "geography_label": "37214",
+              "value": 19.1
+            },
+            {
+              "geography_id": "37206",
+              "geography_label": "37206",
+              "value": 25.3
+            },
+            {
+              "geography_id": "37205",
+              "geography_label": "37205",
+              "value": 10.0
+            },
+            {
+              "geography_id": "37215",
+              "geography_label": "37215",
+              "value": 12.8
+            },
+            {
+              "geography_id": "37216",
+              "geography_label": "37216",
+              "value": 29.5
+            },
+            {
+              "geography_id": "37210",
+              "geography_label": "37210",
+              "value": 19.7
+            },
+            {
+              "geography_id": "37204",
+              "geography_label": "37204",
+              "value": 17.7
+            },
+            {
+              "geography_id": "37228",
+              "geography_label": "37228",
+              "value": 14.2
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Volume vs. Value: Balancing Reach and Spending Power",
+      "subtitle": "Weighing high-population daycare/boarding markets against smaller, high-affluence ZIPs for premium grooming and retail",
+      "description": "Nashville's Davidson County ZIPs split into two distinct opportunity profiles. High-population ZIPs like 37211 (76,573 residents) and 37207 (41,366) deliver the raw foot-traffic volume that fills recurring-revenue services such as doggy daycare and overnight boarding, but sit at mid-range median household incomes ($71,399 and $61,744 respectively) with six-figure-household shares of 36.7% and 25.1%. In contrast, smaller ZIPs concentrate spending power: 37215 (22,018 residents) posts a $155,863 median household income, a $1,058,208 median home value, and 65.4% six-figure households, while 37205 (24,823 residents) reaches $139,152 median income and 61.3% six-figure households. These affluent, homeowner-heavy pockets (37215 at 75.8% and 37205 at 67.8% home ownership) are where premium full-service grooming and the retail corner for high-margin pet products will find the deepest wallets. The bubble chart maps this trade-off directly — population size against income and home value — so the client can see which ZIPs offer scale versus which offer per-transaction value. The strategic implication: anchor volume-driven daycare and boarding marketing in the large 37211/37207/37217 corridor, while reserving premium grooming packages, subscription products, and retail promotions for the affluent 37215, 37205, and 37204 cluster. ZIP 37211 in particular is a hybrid target — its sheer population combined with a solid 36.7% six-figure-household base means it can support both offerings at once.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 85.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Reach vs. Spending Power Across Nashville ZIPs",
+          "subtitle": "Median household income vs. median home value, sized by population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Median Home Value ($)",
+            "size_label": "Population",
+            "color_label": "Six-Figure Households (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "37211",
+              "geography_label": "37211",
+              "x_value": 71399.0,
+              "y_value": 405920.0,
+              "size_value": 76573.0,
+              "color_value": 36.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37207",
+              "geography_label": "37207",
+              "x_value": 61744.0,
+              "y_value": 359960.0,
+              "size_value": 41366.0,
+              "color_value": 25.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37221",
+              "geography_label": "37221",
+              "x_value": 97751.0,
+              "y_value": 464256.0,
+              "size_value": 41935.0,
+              "color_value": 49.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37209",
+              "geography_label": "37209",
+              "x_value": 81423.0,
+              "y_value": 537343.0,
+              "size_value": 37817.0,
+              "color_value": 42.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37217",
+              "geography_label": "37217",
+              "x_value": 62796.0,
+              "y_value": 317483.0,
+              "size_value": 31869.0,
+              "color_value": 28.7,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37214",
+              "geography_label": "37214",
+              "x_value": 72012.0,
+              "y_value": 339104.0,
+              "size_value": 29805.0,
+              "color_value": 33.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37206",
+              "geography_label": "37206",
+              "x_value": 96169.0,
+              "y_value": 593395.0,
+              "size_value": 28545.0,
+              "color_value": 48.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37205",
+              "geography_label": "37205",
+              "x_value": 139152.0,
+              "y_value": 956960.0,
+              "size_value": 24823.0,
+              "color_value": 61.3,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37215",
+              "geography_label": "37215",
+              "x_value": 155863.0,
+              "y_value": 1058208.0,
+              "size_value": 22018.0,
+              "color_value": 65.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37216",
+              "geography_label": "37216",
+              "x_value": 86701.0,
+              "y_value": 447379.0,
+              "size_value": 19038.0,
+              "color_value": 43.6,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37210",
+              "geography_label": "37210",
+              "x_value": 50284.0,
+              "y_value": 354947.0,
+              "size_value": 17725.0,
+              "color_value": 25.4,
+              "metadata": {}
+            },
+            {
+              "geography_id": "37204",
+              "geography_label": "37204",
+              "x_value": 109580.0,
+              "y_value": 894871.0,
+              "size_value": 16469.0,
+              "color_value": 54.9,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Six-Figure Household Share by ZIP",
+          "subtitle": "Premium spending power indicator across Davidson County ZIPs",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP Code",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "37215",
+              "value": 65.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37205",
+              "value": 61.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37204",
+              "value": 54.9,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37221",
+              "value": 49.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37206",
+              "value": 48.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37216",
+              "value": 43.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37209",
+              "value": 42.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37211",
+              "value": 36.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37214",
+              "value": 33.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37217",
+              "value": 28.7,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37210",
+              "value": 25.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37207",
+              "value": 25.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "37228",
+              "value": 18.1,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Recommended Targeting Priorities",
+      "subtitle": "Tiered ZIP-level recommendations pairing home ownership, income, and home-value signals to guide location, marketing, and service-mix decisions",
+      "description": "This section synthesizes the preceding analysis into an actionable, tiered targeting plan for Pawsitively Polished Pet Spa across Davidson County / Nashville ZIP codes. The strongest premium-pet-care opportunities sit where high home ownership (a proxy for pet-friendly, stable households) overlaps with high household income and home value (a proxy for disposable income). Every figure below is drawn directly from the query results.\n\nTIER 1 — PREMIUM ANCHORS (highest disposable income + ownership). ZIP 37215 leads on nearly every affluence signal: 75.8% home ownership (Result 3), $155,863 median household income, $1,058,208 median home value, and 65.4% six-figure households (Result 4). ZIP 37205 follows closely at 67.8% ownership, $139,152 median income, $956,960 median home value, and 61.3% six-figure households. These are the ideal locations for the premium retail corner and full-service grooming packages, and the best targets for high-touch marketing (concierge boarding, spa add-ons). Note their comparatively lower labor-force participation (63.3% and 61.1%) and older age mixes — 37215 has 30.5% of residents in their 60s+ and 37205 has 35.2% in their 60s+ — suggesting messaging toward established, settled pet-family households rather than young professionals.\n\nTIER 2 — GROWTH SWEET SPOT (strong income, high ownership, younger and dual-income). ZIP 37221 combines 70.8% ownership with $97,751 median income, $464,256 median home value, and 49.0% six-figure households. ZIP 37206 pairs 50.2% ownership with the highest labor-force participation in the set (80.4%), $96,169 median income, $593,395 median home value, and 48.6% six-figure households — plus a young-professional-heavy age profile (25.3% in their 30s). ZIP 37216 shows 70.2% ownership, $86,701 median income, and a striking 29.5% of residents in their 30s. ZIP 37204 offers 56.3% ownership, $109,580 median income, 34.4% of households earning $150k+, and very high labor-force participation (78.8%). This tier is the prime target for doggy daycare and recurring grooming subscriptions aimed at busy, working pet parents.\n\nTIER 3 — SELECTIVE / VOLUME PLAYS. ZIP 37211 is the population giant (76,573 residents) with moderate signals — 49.2% ownership, $71,399 median income, 36.7% six-figure households — making it viable for value-oriented daycare/boarding volume rather than premium retail. ZIP 37209 (46.9% ownership, $81,423 income, 42.1% six-figure, 50% of residents in their 20s–30s) is a young-renter market suited to grooming and daycare promotions. ZIP 37214 (62.5% ownership, $72,012 income) rounds out this tier.\n\nDE-PRIORITIZE. ZIPs 37210 (30.3% ownership, $50,284 income), 37217, 37207, and 37228 show the weakest combination of ownership and income and should not anchor location or premium-service investment.\n\nSERVICE-MIX GUIDANCE. Weight the premium retail corner and specialty grooming toward Tier 1 (37215, 37205, 37204). Center daycare and recurring-service marketing on Tier 2's dual-income, 30-something households (37206, 37216, 37221). Use Tier 3's population density for high-throughput boarding/daycare at accessible price points.",
+      "demographic_category": "Composite (income, housing, home value)",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "ZIP Targeting Matrix: Income vs. Home Ownership (bubble size = population)",
+          "subtitle": "Top-right quadrant = premium anchors; color shows median home value",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Home Ownership (%)",
+            "size_label": "Population",
+            "color_label": "Median Home Value ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "37215",
+              "geography_label": "37215 (Green Hills / Forest Hills)",
+              "x_value": 155863.0,
+              "y_value": 75.8,
+              "size_value": 22018.0,
+              "color_value": 1058208.0,
+              "metadata": {
+                "six_figure_households": 65.4
+              }
+            },
+            {
+              "geography_id": "37205",
+              "geography_label": "37205 (Belle Meade / West End)",
+              "x_value": 139152.0,
+              "y_value": 67.8,
+              "size_value": 24823.0,
+              "color_value": 956960.0,
+              "metadata": {
+                "six_figure_households": 61.3
+              }
+            },
+            {
+              "geography_id": "37204",
+              "geography_label": "37204 (Berry Hill / Oak Hill)",
+              "x_value": 109580.0,
+              "y_value": 56.3,
+              "size_value": 16469.0,
+              "color_value": 894871.0,
+              "metadata": {
+                "six_figure_households": 54.9
+              }
+            },
+            {
+              "geography_id": "37221",
+              "geography_label": "37221 (Bellevue)",
+              "x_value": 97751.0,
+              "y_value": 70.8,
+              "size_value": 41935.0,
+              "color_value": 464256.0,
+              "metadata": {
+                "six_figure_households": 49.0
+              }
+            },
+            {
+              "geography_id": "37206",
+              "geography_label": "37206 (East Nashville)",
+              "x_value": 96169.0,
+              "y_value": 50.2,
+              "size_value": 28545.0,
+              "color_value": 593395.0,
+              "metadata": {
+                "six_figure_households": 48.6
+              }
+            },
+            {
+              "geography_id": "37216",
+              "geography_label": "37216 (Inglewood)",
+              "x_value": 86701.0,
+              "y_value": 70.2,
+              "size_value": 19038.0,
+              "color_value": 447379.0,
+              "metadata": {
+                "six_figure_households": 43.6
+              }
+            },
+            {
+              "geography_id": "37209",
+              "geography_label": "37209 (The Nations / Sylvan Park)",
+              "x_value": 81423.0,
+              "y_value": 46.9,
+              "size_value": 37817.0,
+              "color_value": 537343.0,
+              "metadata": {
+                "six_figure_households": 42.1
+              }
+            },
+            {
+              "geography_id": "37214",
+              "geography_label": "37214 (Donelson)",
+              "x_value": 72012.0,
+              "y_value": 62.5,
+              "size_value": 29805.0,
+              "color_value": 339104.0,
+              "metadata": {
+                "six_figure_households": 33.1
+              }
+            },
+            {
+              "geography_id": "37211",
+              "geography_label": "37211 (South Nashville)",
+              "x_value": 71399.0,
+              "y_value": 49.2,
+              "size_value": 76573.0,
+              "color_value": 405920.0,
+              "metadata": {
+                "six_figure_households": 36.7
+              }
+            },
+            {
+              "geography_id": "37217",
+              "geography_label": "37217 (Antioch North)",
+              "x_value": 62796.0,
+              "y_value": 41.4,
+              "size_value": 31869.0,
+              "color_value": 317483.0,
+              "metadata": {
+                "six_figure_households": 28.7
+              }
+            },
+            {
+              "geography_id": "37207",
+              "geography_label": "37207 (Bordeaux / North Nashville)",
+              "x_value": 61744.0,
+              "y_value": 55.7,
+              "size_value": 41366.0,
+              "color_value": 359960.0,
+              "metadata": {
+                "six_figure_households": 25.1
+              }
+            },
+            {
+              "geography_id": "37210",
+              "geography_label": "37210 (Woodbine)",
+              "x_value": 50284.0,
+              "y_value": 30.3,
+              "size_value": 17725.0,
+              "color_value": 354947.0,
+              "metadata": {
+                "six_figure_households": 25.4
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "Six-Figure Household Concentration by Target ZIP",
+          "subtitle": "Share of households earning $100k+ (Result 4)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP Code",
+            "y_axis_label": "Six-Figure Households (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "37215",
+              "value": 65.4,
+              "percentage": null,
+              "color": "#1b5e20"
+            },
+            {
+              "label": "37205",
+              "value": 61.3,
+              "percentage": null,
+              "color": "#1b5e20"
+            },
+            {
+              "label": "37204",
+              "value": 54.9,
+              "percentage": null,
+              "color": "#2e7d32"
+            },
+            {
+              "label": "37221",
+              "value": 49.0,
+              "percentage": null,
+              "color": "#2e7d32"
+            },
+            {
+              "label": "37206",
+              "value": 48.6,
+              "percentage": null,
+              "color": "#2e7d32"
+            },
+            {
+              "label": "37216",
+              "value": 43.6,
+              "percentage": null,
+              "color": "#66bb6a"
+            },
+            {
+              "label": "37209",
+              "value": 42.1,
+              "percentage": null,
+              "color": "#66bb6a"
+            },
+            {
+              "label": "37211",
+              "value": 36.7,
+              "percentage": null,
+              "color": "#a5d6a7"
+            },
+            {
+              "label": "37214",
+              "value": 33.1,
+              "percentage": null,
+              "color": "#a5d6a7"
+            },
+            {
+              "label": "37217",
+              "value": 28.7,
+              "percentage": null,
+              "color": "#cfd8dc"
+            },
+            {
+              "label": "37210",
+              "value": 25.4,
+              "percentage": null,
+              "color": "#cfd8dc"
+            },
+            {
+              "label": "37207",
+              "value": 25.1,
+              "percentage": null,
+              "color": "#cfd8dc"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:47:19.935993+00:00"
+}

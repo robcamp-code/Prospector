@@ -11,7 +11,7 @@ from sqlmodel import SQLModel
 load_dotenv()
 
 # Import all models to ensure they're registered with SQLModel metadata
-from src.core.database import ClientProfile, DemographicTarget, USZip  # noqa: F401
+from src.core.database import ClientProfile, Report, USZip  # noqa: F401
 
 config = context.config
 

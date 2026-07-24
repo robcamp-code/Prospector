@@ -2,14 +2,14 @@
 
 from src.core.database.models.client_profile import (
     ClientProfile,
-    DemographicTarget,
-    DEMOGRAPHIC_KEY_MAPPING,
+    get_profile_by_conversation_id,
 )
+from src.core.database.models.report import Report
 from src.core.database.models.uszips import USZip
 
 __all__ = [
-    "ClientProfile",
-    "DemographicTarget",
-    "DEMOGRAPHIC_KEY_MAPPING",
     "USZip",
+    "ClientProfile",
+    "Report",
+    "get_profile_by_conversation_id",
 ]

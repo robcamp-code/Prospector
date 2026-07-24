@@ -1,0 +1,2159 @@
+{
+  "report_id": "c435369b-7ec6-4129-a4d1-8f8f8366aee2",
+  "title": "Where California's Health-Conscious, High-Income Urbanites Live: Siting Verdant Bowl for Plant-Based Lunch Demand",
+  "subtitle": "A Demographic Analysis of California Urban Markets",
+  "geography_type": "county",
+  "geography_value": "California, urban areas",
+  "client_profile_id": "220b7e72-2062-4ea3-9c2d-6afbb52bd4e7",
+  "summary": {
+    "total_population": 6156760,
+    "zip_count": 90,
+    "median_household_income": 143858.0,
+    "median_age": 40.6,
+    "home_ownership_rate": null,
+    "narrative": "San Francisco County anchors the affluence corridor with a median household income of roughly $143,858 and strong labor force participation (69.5%), while nearby high-income ZIPs like Fremont's 94538 and San Jose's 95123 pair six-figure earnings with concentrations of residents in their 30s. For siting Verdant Bowl, the strongest signals appear in dense, high-labor-participation ZIPs such as 94110 in San Francisco (74.2% participation, 22.9% of residents in their 30s) and 90034 in Los Angeles (77.4% participation, 24.5% in their 30s), where young, employed, high-earning populations cluster. City-level data further highlights premium markets like San Carlos ($240,074 median household income) and Sunnyvale ($193,337), reinforcing the Bay Area and select LA neighborhoods as priority plant-based lunch markets.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "verdant_opportunity",
+      "title": "Opportunity Map: Young Workforce, Income, and Density by ZIP",
+      "subtitle": "High labor participation and 30-something concentration in affluent urban ZIPs",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Labor Force Participation (%)",
+        "y_axis_label": "Share of Residents in their 30s (%)",
+        "size_label": "Population",
+        "color_label": "Uninsured Rate (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "94110",
+          "geography_label": "San Francisco 94110",
+          "x_value": 74.2,
+          "y_value": 22.9,
+          "size_value": 66865.0,
+          "color_value": 4.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "90034",
+          "geography_label": "Los Angeles 90034",
+          "x_value": 77.4,
+          "y_value": 24.5,
+          "size_value": 57075.0,
+          "color_value": 4.7,
+          "metadata": {}
+        },
+        {
+          "geography_id": "90026",
+          "geography_label": "Los Angeles 90026",
+          "x_value": 72.7,
+          "y_value": 23.4,
+          "size_value": 62692.0,
+          "color_value": 9.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "95051",
+          "geography_label": "Santa Clara 95051",
+          "x_value": 73.2,
+          "y_value": 23.6,
+          "size_value": 62054.0,
+          "color_value": 2.3,
+          "metadata": {}
+        },
+        {
+          "geography_id": "94538",
+          "geography_label": "Fremont 94538",
+          "x_value": 70.1,
+          "y_value": 20.2,
+          "size_value": 67781.0,
+          "color_value": 3.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "95123",
+          "geography_label": "San Jose 95123",
+          "x_value": 68.8,
+          "y_value": 16.3,
+          "size_value": 69677.0,
+          "color_value": 3.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "92627",
+          "geography_label": "Costa Mesa 92627",
+          "x_value": 74.0,
+          "y_value": 18.2,
+          "size_value": 60393.0,
+          "color_value": 10.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "90066",
+          "geography_label": "Los Angeles 90066",
+          "x_value": 71.2,
+          "y_value": 19.2,
+          "size_value": 56740.0,
+          "color_value": 5.4,
+          "metadata": {}
+        },
+        {
+          "geography_id": "90042",
+          "geography_label": "Los Angeles 90042",
+          "x_value": 69.7,
+          "y_value": 21.6,
+          "size_value": 56835.0,
+          "color_value": 8.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "94568",
+          "geography_label": "Dublin 94568",
+          "x_value": 70.7,
+          "y_value": 17.9,
+          "size_value": 70803.0,
+          "color_value": 1.6,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Bay Area Affluence Corridor",
+      "subtitle": "Where high household incomes, strong workforce engagement, and near-universal insurance coverage converge into premium plant-based demand",
+      "description": "A premium, locally-sourced vegan concept like Verdant Bowl depends on a customer base with the disposable income to pay for cold-pressed juices and customizable grain bowls, the workday routine that drives quick-lunch traffic, and the health-forward orientation that a low uninsured rate signals. On all three dimensions, the San Francisco Bay Area stands out decisively among California's urban markets.\n\nAt the county level (Result 1), the highest median household incomes are concentrated in a tight Bay Area cluster: San Mateo ($159,383), Santa Clara ($155,001), San Francisco ($143,858), and Alameda ($121,488). These figures dwarf the large Southern California population centers such as Los Angeles ($87,024) and San Diego ($98,099). Critically, these same affluent Bay Area counties also post the lowest uninsured rates in the dataset — San Francisco at just 3.3%, San Mateo at 4.0%, Santa Clara at 4.4%, and Alameda at 4.4% — versus Los Angeles at 8.9% and Riverside at 10.6%. A low uninsured rate is a proxy for a stable, benefits-carrying, health-attentive population, precisely the profile of Verdant Bowl's health-conscious target customer. Labor force participation across these counties is solid (San Francisco 69.5%, Santa Clara 68.9%, San Mateo 67.8%, Alameda 67.4%), confirming a large working population that generates weekday lunch demand.\n\nDrilling into individual cities (Result 4) sharpens the picture. The very top of the household-income ranking is dominated by Bay Area / Peninsula communities: San Carlos ($240,074), El Granada ($230,053), Menlo Park ($216,601), Dublin ($214,385), and Belmont ($203,965). Larger, denser Silicon Valley cities that combine high incomes with very strong labor force participation and youthful median ages make especially attractive first-store candidates: Sunnyvale (median household income $193,337, labor force participation 72.4%, median age 35.3), Mountain View ($192,103, 73.7%, 35.5), Santa Clara ($176,551, 72.5%, 34.9), and Fremont ($157,690, 69.1%, 37.8). These cities pair premium spending power with the youngest median ages and the highest workforce engagement in the affluent tier — the sweet spot where millennial/Gen Z, fitness-oriented office workers cluster.\n\nBusiness implication: Verdant Bowl should anchor its California entry in the Bay Area Affluence Corridor. San Mateo and Santa Clara counties offer the best combination of high income and low uninsured rates, while Sunnyvale, Mountain View, Santa Clara, and Fremont stand out as launch cities because they add strong labor force participation and young median ages to that affluence — maximizing the volume of the exact weekday plant-based lunch buyer the concept is built for. The ultra-high-income but smaller communities (San Carlos, Menlo Park, Belmont) are attractive secondary or satellite locations where premium pricing will meet the least price resistance.",
+      "demographic_category": "Income &amp; Economic Health",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "County Match: Household Income vs. Insurance Coverage",
+          "subtitle": "Bay Area counties combine the highest incomes with the lowest uninsured rates (bubble size = population)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Household Income ($)",
+            "y_axis_label": "Uninsured Rate (%)",
+            "size_label": "Population",
+            "color_label": "Labor Force Participation (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "san_mateo",
+              "geography_label": "San Mateo",
+              "x_value": 159382.71,
+              "y_value": 3.99,
+              "size_value": 565201.0,
+              "color_value": 67.82,
+              "metadata": {}
+            },
+            {
+              "geography_id": "santa_clara",
+              "geography_label": "Santa Clara",
+              "x_value": 155001.39,
+              "y_value": 4.38,
+              "size_value": 1281856.0,
+              "color_value": 68.88,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san_francisco",
+              "geography_label": "San Francisco",
+              "x_value": 143858.04,
+              "y_value": 3.28,
+              "size_value": 824214.0,
+              "color_value": 69.53,
+              "metadata": {}
+            },
+            {
+              "geography_id": "alameda",
+              "geography_label": "Alameda",
+              "x_value": 121487.52,
+              "y_value": 4.41,
+              "size_value": 1128760.0,
+              "color_value": 67.38,
+              "metadata": {}
+            },
+            {
+              "geography_id": "orange",
+              "geography_label": "Orange",
+              "x_value": 110394.45,
+              "y_value": 7.21,
+              "size_value": 2501105.0,
+              "color_value": 65.73,
+              "metadata": {}
+            },
+            {
+              "geography_id": "contra_costa",
+              "geography_label": "Contra Costa",
+              "x_value": 108693.8,
+              "y_value": 5.62,
+              "size_value": 391908.0,
+              "color_value": 65.77,
+              "metadata": {}
+            },
+            {
+              "geography_id": "sonoma",
+              "geography_label": "Sonoma",
+              "x_value": 105497.47,
+              "y_value": 4.48,
+              "size_value": 69573.0,
+              "color_value": 69.51,
+              "metadata": {}
+            },
+            {
+              "geography_id": "placer",
+              "geography_label": "Placer",
+              "x_value": 100554.0,
+              "y_value": 4.8,
+              "size_value": 45346.0,
+              "color_value": 70.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ventura",
+              "geography_label": "Ventura",
+              "x_value": 99848.4,
+              "y_value": 9.38,
+              "size_value": 139016.0,
+              "color_value": 65.04,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san_diego",
+              "geography_label": "San Diego",
+              "x_value": 98098.86,
+              "y_value": 7.03,
+              "size_value": 1722482.0,
+              "color_value": 67.54,
+              "metadata": {}
+            },
+            {
+              "geography_id": "los_angeles",
+              "geography_label": "Los Angeles",
+              "x_value": 87024.05,
+              "y_value": 8.94,
+              "size_value": 7994028.0,
+              "color_value": 65.39,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san_bernardino",
+              "geography_label": "San Bernardino",
+              "x_value": 86368.78,
+              "y_value": 9.32,
+              "size_value": 747574.0,
+              "color_value": 64.2,
+              "metadata": {}
+            },
+            {
+              "geography_id": "riverside",
+              "geography_label": "Riverside",
+              "x_value": 86268.99,
+              "y_value": 10.6,
+              "size_value": 372275.0,
+              "color_value": 64.51,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Top California Cities by Median Household Income",
+          "subtitle": "The affluence corridor is overwhelmingly Bay Area / Peninsula",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "City",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "San Carlos",
+              "value": 240074.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "El Granada",
+              "value": 230053.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Menlo Park",
+              "value": 216601.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Dublin",
+              "value": 214385.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Manhattan Beach",
+              "value": 204306.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Belmont",
+              "value": 203965.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sunnyvale",
+              "value": 193337.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mountain View",
+              "value": 192103.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Palo Alto",
+              "value": 186226.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Santa Clara",
+              "value": 176551.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Mateo",
+              "value": 165656.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fremont",
+              "value": 157690.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Finding the Millennial and Gen Z Concentration",
+      "subtitle": "ZIP codes where 20s–30s cohorts and high labor force participation converge into weekday lunch traffic",
+      "description": "Verdant Bowl's core customer — the health-conscious millennial or Gen Z office worker — is best located by pairing two signals from the data: the share of residents in their 20s and 30s, and labor force participation, which stands in for the daytime working population that drives lunch demand. This section pinpoints the ZIP codes where those two signals peak together.\n\nThe single strongest cluster is a set of dense, young-professional ZIP codes concentrated in San Francisco, San Jose (Santa Clara County), and the Westside/central corridors of Los Angeles. In San Francisco's 94110, an exceptional 22.9% of residents are in their 30s and another 12.6% are in their 20s — a combined 35.5% in the prime cohort — alongside the highest labor force participation in the dataset at 74.2%. San Jose's 95112 shows a striking 25.2% in their 20s and 16.7% in their 30s (41.9% combined) with 67.1% participation, and neighboring 95051 in Santa Clara posts 16.0% in their 20s and 23.6% in their 30s (39.6% combined) at a very high 73.2% participation. On the Los Angeles Westside, 90034 combines 19.9% (20s) and 24.5% (30s) — 44.4% combined — with the dataset's top participation rate of 77.4%, while 90026 pairs 39.0% in the prime cohort with 72.7% participation. San Diego's 92126 (17.8% in 20s, 17.7% in 30s; 70.2% participation) rounds out a coastal-tech pattern.\n\nThese ZIP-level concentrations sit within counties whose overall median age skews toward this cohort. San Diego (36.5), Santa Clara (37.6), Los Angeles (37.9), and Alameda (38.3) all carry median ages in the mid-to-late thirties, confirming that the young-professional pockets identified above are reinforced by a broadly youthful surrounding population rather than being isolated outliers.\n\nBusiness implication: the ZIP codes above represent the highest-conviction siting targets. They combine a dense concentration of the 20s–30s demographic that over-indexes on plant-based and health-forward dining with the elevated labor force participation that generates predictable, repeat weekday lunch traffic — exactly the daypart a fast-casual grain-bowl concept depends on. San Francisco's 94110, San Jose's 95112/95051, and LA's 90034/90026 should anchor the first wave of site evaluation.",
+      "demographic_category": "age",
+      "demographic_key": "age.distribution",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Combined 20s + 30s Share of Population Across Top Urban ZIP Codes",
+          "subtitle": "Distribution of prime-cohort concentration; each point is one ZIP code",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Combined share of residents in their 20s and 30s (%)",
+            "y_axis_label": "Number of ZIP codes",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "94110",
+              "geography_label": "San Francisco 94110",
+              "value": 35.5
+            },
+            {
+              "geography_id": "95112",
+              "geography_label": "San Jose 95112",
+              "value": 41.9
+            },
+            {
+              "geography_id": "95051",
+              "geography_label": "Santa Clara 95051",
+              "value": 39.6
+            },
+            {
+              "geography_id": "90034",
+              "geography_label": "Los Angeles 90034",
+              "value": 44.4
+            },
+            {
+              "geography_id": "90026",
+              "geography_label": "Los Angeles 90026",
+              "value": 39.0
+            },
+            {
+              "geography_id": "92126",
+              "geography_label": "San Diego 92126",
+              "value": 35.5
+            },
+            {
+              "geography_id": "92115",
+              "geography_label": "San Diego 92115",
+              "value": 41.4
+            },
+            {
+              "geography_id": "90004",
+              "geography_label": "Los Angeles 90004",
+              "value": 35.3
+            },
+            {
+              "geography_id": "90066",
+              "geography_label": "Los Angeles 90066",
+              "value": 34.7
+            },
+            {
+              "geography_id": "90042",
+              "geography_label": "Los Angeles 90042",
+              "value": 34.7
+            },
+            {
+              "geography_id": "94538",
+              "geography_label": "Fremont 94538",
+              "value": 33.7
+            },
+            {
+              "geography_id": "92627",
+              "geography_label": "Costa Mesa 92627",
+              "value": 34.4
+            },
+            {
+              "geography_id": "92805",
+              "geography_label": "Anaheim 92805",
+              "value": 33.6
+            },
+            {
+              "geography_id": "95123",
+              "geography_label": "San Jose 95123",
+              "value": 30.0
+            },
+            {
+              "geography_id": "94544",
+              "geography_label": "Hayward 94544",
+              "value": 31.5
+            },
+            {
+              "geography_id": "90019",
+              "geography_label": "Los Angeles 90019",
+              "value": 32.7
+            },
+            {
+              "geography_id": "91405",
+              "geography_label": "Van Nuys 91405",
+              "value": 33.2
+            },
+            {
+              "geography_id": "90011",
+              "geography_label": "Los Angeles 90011",
+              "value": 31.3
+            },
+            {
+              "geography_id": "91764",
+              "geography_label": "Ontario 91764",
+              "value": 36.7
+            },
+            {
+              "geography_id": "92553",
+              "geography_label": "Moreno Valley 92553",
+              "value": 32.6
+            },
+            {
+              "geography_id": "92707",
+              "geography_label": "Santa Ana 92707",
+              "value": 33.7
+            },
+            {
+              "geography_id": "91950",
+              "geography_label": "National City 91950",
+              "value": 32.8
+            },
+            {
+              "geography_id": "94112",
+              "geography_label": "San Francisco 94112",
+              "value": 26.1
+            },
+            {
+              "geography_id": "94122",
+              "geography_label": "San Francisco 94122",
+              "value": 30.1
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Prime Cohort Concentration vs. Labor Force Participation by ZIP",
+          "subtitle": "X: combined 20s+30s share; Y: labor force participation; bubble size: population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Combined 20s + 30s share (%)",
+            "y_axis_label": "Labor force participation (%)",
+            "size_label": "Population",
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "94110",
+              "geography_label": "San Francisco 94110",
+              "x_value": 35.5,
+              "y_value": 74.2,
+              "size_value": 66865.0,
+              "color_value": null,
+              "metadata": {
+                "county": "San Francisco"
+              }
+            },
+            {
+              "geography_id": "95112",
+              "geography_label": "San Jose 95112",
+              "x_value": 41.9,
+              "y_value": 67.1,
+              "size_value": 57373.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "95051",
+              "geography_label": "Santa Clara 95051",
+              "x_value": 39.6,
+              "y_value": 73.2,
+              "size_value": 62054.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "90034",
+              "geography_label": "Los Angeles 90034",
+              "x_value": 44.4,
+              "y_value": 77.4,
+              "size_value": 57075.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "90026",
+              "geography_label": "Los Angeles 90026",
+              "x_value": 39.0,
+              "y_value": 72.7,
+              "size_value": 62692.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "92126",
+              "geography_label": "San Diego 92126",
+              "x_value": 35.5,
+              "y_value": 70.2,
+              "size_value": 76059.0,
+              "color_value": null,
+              "metadata": {
+                "county": "San Diego"
+              }
+            },
+            {
+              "geography_id": "90066",
+              "geography_label": "Los Angeles 90066",
+              "x_value": 34.7,
+              "y_value": 71.2,
+              "size_value": 56740.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "90042",
+              "geography_label": "Los Angeles 90042",
+              "x_value": 34.7,
+              "y_value": 69.7,
+              "size_value": 56835.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "90004",
+              "geography_label": "Los Angeles 90004",
+              "x_value": 35.3,
+              "y_value": 70.3,
+              "size_value": 58484.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "92627",
+              "geography_label": "Costa Mesa 92627",
+              "x_value": 34.4,
+              "y_value": 74.0,
+              "size_value": 60393.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Orange"
+              }
+            },
+            {
+              "geography_id": "92115",
+              "geography_label": "San Diego 92115",
+              "x_value": 41.4,
+              "y_value": 65.4,
+              "size_value": 66264.0,
+              "color_value": null,
+              "metadata": {
+                "county": "San Diego"
+              }
+            },
+            {
+              "geography_id": "94538",
+              "geography_label": "Fremont 94538",
+              "x_value": 33.7,
+              "y_value": 70.1,
+              "size_value": 67781.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Alameda"
+              }
+            },
+            {
+              "geography_id": "91405",
+              "geography_label": "Van Nuys 91405",
+              "x_value": 33.2,
+              "y_value": 69.7,
+              "size_value": 56033.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "92805",
+              "geography_label": "Anaheim 92805",
+              "x_value": 33.6,
+              "y_value": 69.5,
+              "size_value": 74661.0,
+              "color_value": null,
+              "metadata": {
+                "county": "Orange"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Where Income Meets a Young Workforce",
+      "subtitle": "ZIP-level neighborhoods that pair concentrated young adults with high-earning households — the sweet spot for premium plant-based lunch demand",
+      "description": "Verdant Bowl's economics depend on two conditions coinciding in the same neighborhood: a dense base of young adults (the 20s–30s cohort that anchors the health-conscious millennial and Gen Z target) AND households with enough disposable income to routinely pay a premium for grain bowls and cold-pressed juices. Neither factor alone is sufficient — young ZIPs that skew lower-income can't sustain premium pricing, and affluent ZIPs skewed toward older residents lack the daytime foot traffic of office workers and fitness-oriented young professionals.\n\nThe bubble chart below isolates ZIPs where both conditions hold. The X-axis measures the combined 20s + 30s share of the population; the Y-axis measures the share of households earning $150k or more; bubble size reflects total population (market volume). The most attractive siting candidates sit in the upper-right quadrant — large, high-earning, and young.\n\nSeveral ZIPs stand out clearly. San Francisco's 94110 (Mission District) combines a striking 35.5% of residents in their 20s and 30s with 53.0% of households earning $150k+, on a population of 66,865 and the highest labor-force participation in the set at 74.2% — a near-ideal profile of employed young high earners. Los Angeles ZIP 90034 (Palms/Culver-adjacent) pairs 44.4% of residents in their 20s–30s with 31.6% of households at $150k+ and an exceptional 77.4% labor-force participation. Santa Clara's 95051 shows 39.6% young adults against 62.0% of households at $150k+ and 73.2% labor-force participation, while San Jose's 95112 (downtown) reaches 41.9% young adults with 30.3% high earners. Los Angeles 90026 (Echo Park/Silver Lake) offers 39.0% young adults, 26.6% $150k+ households, and 72.7% labor-force participation.\n\nBy contrast, ZIPs like Westminster 92683 (26.6% high earners but only 24.1% young adults and 59.9% labor-force participation) or Laguna Niguel 92677 (46.4% high earners but just 19.8% young adults) show affluence without the young-professional density Verdant Bowl needs — these are secondary at best.\n\nThe distribution view of the 20s–30s share across all ZIPs shows how uncommon the strongest young-adult concentrations are: while many ZIPs cluster in the mid-20% to low-30% range, only a handful cross 38–45%, and those that also carry high $150k+ household shares represent the scarce, high-value siting targets. Prioritizing the upper-right cluster — dense urban SF, coastal/west LA, and central San Jose/Santa Clara ZIPs — concentrates real-estate scouting where premium plant-based lunch demand is most defensible.",
+      "demographic_category": "Income &amp; Age Cross-Analysis",
+      "demographic_key": "income.distribution + age.distribution",
+      "importance_weight": 90.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Young-Adult Density vs. High-Income Households by ZIP",
+          "subtitle": "X: share of residents in 20s + 30s | Y: share of households earning $150k+ | bubble size: population. Upper-right = prime Verdant Bowl siting.",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Residents in 20s + 30s (%)",
+            "y_axis_label": "Households earning $150k+ (%)",
+            "size_label": "Population",
+            "color_label": "Labor-force participation (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "94110",
+              "geography_label": "SF 94110 (Mission)",
+              "x_value": 35.5,
+              "y_value": 53.0,
+              "size_value": 66865.0,
+              "color_value": 74.2,
+              "metadata": {
+                "city": "San Francisco",
+                "county": "San Francisco"
+              }
+            },
+            {
+              "geography_id": "90034",
+              "geography_label": "LA 90034 (Palms)",
+              "x_value": 44.4,
+              "y_value": 31.6,
+              "size_value": 57075.0,
+              "color_value": 77.4,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "95051",
+              "geography_label": "Santa Clara 95051",
+              "x_value": 39.6,
+              "y_value": 62.0,
+              "size_value": 62054.0,
+              "color_value": 73.2,
+              "metadata": {
+                "city": "Santa Clara",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "95112",
+              "geography_label": "San Jose 95112 (Downtown)",
+              "x_value": 41.9,
+              "y_value": 30.3,
+              "size_value": 57373.0,
+              "color_value": 67.1,
+              "metadata": {
+                "city": "San Jose",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "90026",
+              "geography_label": "LA 90026 (Echo Park)",
+              "x_value": 39.0,
+              "y_value": 26.6,
+              "size_value": 62692.0,
+              "color_value": 72.7,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "90066",
+              "geography_label": "LA 90066 (Mar Vista)",
+              "x_value": 34.7,
+              "y_value": 38.3,
+              "size_value": 56740.0,
+              "color_value": 71.2,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "92627",
+              "geography_label": "Costa Mesa 92627",
+              "x_value": 34.4,
+              "y_value": 37.0,
+              "size_value": 60393.0,
+              "color_value": 74.0,
+              "metadata": {
+                "city": "Costa Mesa",
+                "county": "Orange"
+              }
+            },
+            {
+              "geography_id": "94538",
+              "geography_label": "Fremont 94538",
+              "x_value": 33.7,
+              "y_value": 49.1,
+              "size_value": 67781.0,
+              "color_value": 70.1,
+              "metadata": {
+                "city": "Fremont",
+                "county": "Alameda"
+              }
+            },
+            {
+              "geography_id": "95123",
+              "geography_label": "San Jose 95123",
+              "x_value": 30.0,
+              "y_value": 48.4,
+              "size_value": 69677.0,
+              "color_value": 68.8,
+              "metadata": {
+                "city": "San Jose",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "94536",
+              "geography_label": "Fremont 94536",
+              "x_value": 29.1,
+              "y_value": 54.6,
+              "size_value": 70619.0,
+              "color_value": 68.2,
+              "metadata": {
+                "city": "Fremont",
+                "county": "Alameda"
+              }
+            },
+            {
+              "geography_id": "94544",
+              "geography_label": "Hayward 94544",
+              "x_value": 31.5,
+              "y_value": 35.3,
+              "size_value": 76947.0,
+              "color_value": 67.0,
+              "metadata": {
+                "city": "Hayward",
+                "county": "Alameda"
+              }
+            },
+            {
+              "geography_id": "94112",
+              "geography_label": "SF 94112",
+              "x_value": 26.1,
+              "y_value": 46.5,
+              "size_value": 79277.0,
+              "color_value": 66.4,
+              "metadata": {
+                "city": "San Francisco",
+                "county": "San Francisco"
+              }
+            },
+            {
+              "geography_id": "92126",
+              "geography_label": "San Diego 92126",
+              "x_value": 35.5,
+              "y_value": 41.8,
+              "size_value": 76059.0,
+              "color_value": 70.2,
+              "metadata": {
+                "city": "San Diego",
+                "county": "San Diego"
+              }
+            },
+            {
+              "geography_id": "94080",
+              "geography_label": "S. San Francisco 94080",
+              "x_value": 26.0,
+              "y_value": 45.7,
+              "size_value": 64761.0,
+              "color_value": 67.0,
+              "metadata": {
+                "city": "South San Francisco",
+                "county": "San Mateo"
+              }
+            },
+            {
+              "geography_id": "92620",
+              "geography_label": "Irvine 92620",
+              "x_value": 25.1,
+              "y_value": 49.2,
+              "size_value": 61631.0,
+              "color_value": 67.0,
+              "metadata": {
+                "city": "Irvine",
+                "county": "Orange"
+              }
+            },
+            {
+              "geography_id": "92683",
+              "geography_label": "Westminster 92683",
+              "x_value": 24.1,
+              "y_value": 26.6,
+              "size_value": 89833.0,
+              "color_value": 59.9,
+              "metadata": {
+                "city": "Westminster",
+                "county": "Orange"
+              }
+            },
+            {
+              "geography_id": "92677",
+              "geography_label": "Laguna Niguel 92677",
+              "x_value": 19.8,
+              "y_value": 46.4,
+              "size_value": 64139.0,
+              "color_value": 65.2,
+              "metadata": {
+                "city": "Laguna Niguel",
+                "county": "Orange"
+              }
+            },
+            {
+              "geography_id": "90042",
+              "geography_label": "LA 90042 (Highland Park)",
+              "x_value": 34.7,
+              "y_value": 30.4,
+              "size_value": 56835.0,
+              "color_value": 69.7,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "94087",
+              "geography_label": "Sunnyvale 94087",
+              "x_value": 27.4,
+              "y_value": 63.8,
+              "size_value": 57767.0,
+              "color_value": 65.8,
+              "metadata": {
+                "city": "Sunnyvale",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "94568",
+              "geography_label": "Dublin 94568",
+              "x_value": 28.3,
+              "y_value": 64.5,
+              "size_value": 70803.0,
+              "color_value": 70.7,
+              "metadata": {
+                "city": "Dublin",
+                "county": "Alameda"
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Distribution of Young-Adult Share (20s + 30s) Across ZIPs",
+          "subtitle": "One point per ZIP — shows how few neighborhoods reach the 38%+ young-adult concentrations Verdant Bowl targets",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Residents in 20s + 30s (%)",
+            "y_axis_label": "Number of ZIPs",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "92336",
+              "geography_label": "Fontana 92336",
+              "value": 27.8
+            },
+            {
+              "geography_id": "90011",
+              "geography_label": "LA 90011",
+              "value": 31.3
+            },
+            {
+              "geography_id": "90650",
+              "geography_label": "Norwalk 90650",
+              "value": 29.4
+            },
+            {
+              "geography_id": "91331",
+              "geography_label": "Pacoima 91331",
+              "value": 29.4
+            },
+            {
+              "geography_id": "92335",
+              "geography_label": "Fontana 92335",
+              "value": 30.5
+            },
+            {
+              "geography_id": "90044",
+              "geography_label": "LA 90044",
+              "value": 28.5
+            },
+            {
+              "geography_id": "90250",
+              "geography_label": "Hawthorne 90250",
+              "value": 32.1
+            },
+            {
+              "geography_id": "90201",
+              "geography_label": "Bell Gardens 90201",
+              "value": 29.3
+            },
+            {
+              "geography_id": "90805",
+              "geography_label": "Long Beach 90805",
+              "value": 30.9
+            },
+            {
+              "geography_id": "90280",
+              "geography_label": "South Gate 90280",
+              "value": 29.3
+            },
+            {
+              "geography_id": "92683",
+              "geography_label": "Westminster 92683",
+              "value": 24.1
+            },
+            {
+              "geography_id": "93722",
+              "geography_label": "Fresno 93722",
+              "value": 32.2
+            },
+            {
+              "geography_id": "91911",
+              "geography_label": "Chula Vista 91911",
+              "value": 28.9
+            },
+            {
+              "geography_id": "92376",
+              "geography_label": "Rialto 92376",
+              "value": 31.6
+            },
+            {
+              "geography_id": "95823",
+              "geography_label": "Sacramento 95823",
+              "value": 28.9
+            },
+            {
+              "geography_id": "92804",
+              "geography_label": "Anaheim 92804",
+              "value": 28.7
+            },
+            {
+              "geography_id": "92704",
+              "geography_label": "Santa Ana 92704",
+              "value": 31.2
+            },
+            {
+              "geography_id": "94112",
+              "geography_label": "SF 94112",
+              "value": 26.1
+            },
+            {
+              "geography_id": "91910",
+              "geography_label": "Chula Vista 91910",
+              "value": 28.5
+            },
+            {
+              "geography_id": "94544",
+              "geography_label": "Hayward 94544",
+              "value": 31.5
+            },
+            {
+              "geography_id": "91744",
+              "geography_label": "La Puente 91744",
+              "value": 29.7
+            },
+            {
+              "geography_id": "90706",
+              "geography_label": "Bellflower 90706",
+              "value": 29.7
+            },
+            {
+              "geography_id": "92126",
+              "geography_label": "San Diego 92126",
+              "value": 35.5
+            },
+            {
+              "geography_id": "92805",
+              "geography_label": "Anaheim 92805",
+              "value": 33.6
+            },
+            {
+              "geography_id": "92553",
+              "geography_label": "Moreno Valley 92553",
+              "value": 32.6
+            },
+            {
+              "geography_id": "91335",
+              "geography_label": "Reseda 91335",
+              "value": 28.2
+            },
+            {
+              "geography_id": "91730",
+              "geography_label": "Rancho Cucamonga 91730",
+              "value": 31.0
+            },
+            {
+              "geography_id": "92105",
+              "geography_label": "San Diego 92105",
+              "value": 32.6
+            },
+            {
+              "geography_id": "91706",
+              "geography_label": "Baldwin Park 91706",
+              "value": 27.8
+            },
+            {
+              "geography_id": "94568",
+              "geography_label": "Dublin 94568",
+              "value": 28.3
+            },
+            {
+              "geography_id": "94536",
+              "geography_label": "Fremont 94536",
+              "value": 29.1
+            },
+            {
+              "geography_id": "94509",
+              "geography_label": "Antioch 94509",
+              "value": 26.9
+            },
+            {
+              "geography_id": "90003",
+              "geography_label": "LA 90003",
+              "value": 30.9
+            },
+            {
+              "geography_id": "95123",
+              "geography_label": "San Jose 95123",
+              "value": 30.0
+            },
+            {
+              "geography_id": "90255",
+              "geography_label": "Huntington Park 90255",
+              "value": 28.7
+            },
+            {
+              "geography_id": "91766",
+              "geography_label": "Pomona 91766",
+              "value": 29.9
+            },
+            {
+              "geography_id": "92882",
+              "geography_label": "Corona 92882",
+              "value": 28.4
+            },
+            {
+              "geography_id": "90631",
+              "geography_label": "La Habra 90631",
+              "value": 27.7
+            },
+            {
+              "geography_id": "94538",
+              "geography_label": "Fremont 94538",
+              "value": 33.7
+            },
+            {
+              "geography_id": "92630",
+              "geography_label": "Lake Forest 92630",
+              "value": 27.2
+            },
+            {
+              "geography_id": "94541",
+              "geography_label": "Hayward 94541",
+              "value": 30.2
+            },
+            {
+              "geography_id": "94110",
+              "geography_label": "SF 94110",
+              "value": 35.5
+            },
+            {
+              "geography_id": "92115",
+              "geography_label": "San Diego 92115",
+              "value": 41.4
+            },
+            {
+              "geography_id": "92201",
+              "geography_label": "Indio 92201",
+              "value": 26.3
+            },
+            {
+              "geography_id": "91402",
+              "geography_label": "Panorama City 91402",
+              "value": 31.0
+            },
+            {
+              "geography_id": "92114",
+              "geography_label": "San Diego 92114",
+              "value": 29.3
+            },
+            {
+              "geography_id": "95758",
+              "geography_label": "Elk Grove 95758",
+              "value": 23.8
+            },
+            {
+              "geography_id": "90037",
+              "geography_label": "LA 90037",
+              "value": 31.1
+            },
+            {
+              "geography_id": "91762",
+              "geography_label": "Ontario 91762",
+              "value": 31.2
+            },
+            {
+              "geography_id": "90262",
+              "geography_label": "Lynwood 90262",
+              "value": 32.6
+            },
+            {
+              "geography_id": "93906",
+              "geography_label": "Salinas 93906",
+              "value": 28.1
+            },
+            {
+              "geography_id": "92677",
+              "geography_label": "Laguna Niguel 92677",
+              "value": 19.8
+            },
+            {
+              "geography_id": "94015",
+              "geography_label": "Daly City 94015",
+              "value": 29.7
+            },
+            {
+              "geography_id": "93905",
+              "geography_label": "Salinas 93905",
+              "value": 29.1
+            },
+            {
+              "geography_id": "94501",
+              "geography_label": "Alameda 94501",
+              "value": 26.1
+            },
+            {
+              "geography_id": "93309",
+              "geography_label": "Bakersfield 93309",
+              "value": 31.5
+            },
+            {
+              "geography_id": "90026",
+              "geography_label": "LA 90026",
+              "value": 39.0
+            },
+            {
+              "geography_id": "94806",
+              "geography_label": "San Pablo 94806",
+              "value": 29.3
+            },
+            {
+              "geography_id": "92703",
+              "geography_label": "Santa Ana 92703",
+              "value": 31.5
+            },
+            {
+              "geography_id": "95051",
+              "geography_label": "Santa Clara 95051",
+              "value": 39.6
+            },
+            {
+              "geography_id": "90731",
+              "geography_label": "San Pedro 90731",
+              "value": 29.2
+            },
+            {
+              "geography_id": "95828",
+              "geography_label": "Sacramento 95828",
+              "value": 28.8
+            },
+            {
+              "geography_id": "92620",
+              "geography_label": "Irvine 92620",
+              "value": 25.1
+            },
+            {
+              "geography_id": "95608",
+              "geography_label": "Carmichael 95608",
+              "value": 26.3
+            },
+            {
+              "geography_id": "90640",
+              "geography_label": "Montebello 90640",
+              "value": 27.2
+            },
+            {
+              "geography_id": "91977",
+              "geography_label": "Spring Valley 91977",
+              "value": 30.2
+            },
+            {
+              "geography_id": "91343",
+              "geography_label": "North Hills 91343",
+              "value": 26.9
+            },
+            {
+              "geography_id": "95355",
+              "geography_label": "Modesto 95355",
+              "value": 26.9
+            },
+            {
+              "geography_id": "92801",
+              "geography_label": "Anaheim 92801",
+              "value": 30.3
+            },
+            {
+              "geography_id": "92627",
+              "geography_label": "Costa Mesa 92627",
+              "value": 34.4
+            },
+            {
+              "geography_id": "90022",
+              "geography_label": "LA 90022",
+              "value": 31.7
+            },
+            {
+              "geography_id": "90660",
+              "geography_label": "Pico Rivera 90660",
+              "value": 25.9
+            },
+            {
+              "geography_id": "91950",
+              "geography_label": "National City 91950",
+              "value": 32.8
+            },
+            {
+              "geography_id": "90019",
+              "geography_label": "LA 90019",
+              "value": 32.7
+            },
+            {
+              "geography_id": "92647",
+              "geography_label": "Huntington Beach 92647",
+              "value": 32.8
+            },
+            {
+              "geography_id": "95670",
+              "geography_label": "Rancho Cordova 95670",
+              "value": 27.2
+            },
+            {
+              "geography_id": "92707",
+              "geography_label": "Santa Ana 92707",
+              "value": 33.7
+            },
+            {
+              "geography_id": "90004",
+              "geography_label": "LA 90004",
+              "value": 35.3
+            },
+            {
+              "geography_id": "93312",
+              "geography_label": "Bakersfield 93312",
+              "value": 25.3
+            },
+            {
+              "geography_id": "91770",
+              "geography_label": "Rosemead 91770",
+              "value": 25.3
+            },
+            {
+              "geography_id": "93030",
+              "geography_label": "Oxnard 93030",
+              "value": 31.3
+            },
+            {
+              "geography_id": "92020",
+              "geography_label": "El Cajon 92020",
+              "value": 27.3
+            },
+            {
+              "geography_id": "94087",
+              "geography_label": "Sunnyvale 94087",
+              "value": 27.4
+            },
+            {
+              "geography_id": "91913",
+              "geography_label": "Chula Vista 91913",
+              "value": 26.5
+            },
+            {
+              "geography_id": "91732",
+              "geography_label": "El Monte 91732",
+              "value": 28.2
+            },
+            {
+              "geography_id": "90745",
+              "geography_label": "Carson 90745",
+              "value": 24.6
+            },
+            {
+              "geography_id": "95112",
+              "geography_label": "San Jose 95112",
+              "value": 41.9
+            },
+            {
+              "geography_id": "95111",
+              "geography_label": "San Jose 95111",
+              "value": 28.5
+            },
+            {
+              "geography_id": "95350",
+              "geography_label": "Modesto 95350",
+              "value": 28.6
+            },
+            {
+              "geography_id": "90034",
+              "geography_label": "LA 90034",
+              "value": 44.4
+            },
+            {
+              "geography_id": "90042",
+              "geography_label": "LA 90042",
+              "value": 34.7
+            },
+            {
+              "geography_id": "90066",
+              "geography_label": "LA 90066",
+              "value": 34.7
+            },
+            {
+              "geography_id": "91764",
+              "geography_label": "Ontario 91764",
+              "value": 36.7
+            },
+            {
+              "geography_id": "92708",
+              "geography_label": "Fountain Valley 92708",
+              "value": 23.5
+            },
+            {
+              "geography_id": "90001",
+              "geography_label": "LA 90001",
+              "value": 30.2
+            },
+            {
+              "geography_id": "91405",
+              "geography_label": "Van Nuys 91405",
+              "value": 33.2
+            },
+            {
+              "geography_id": "91786",
+              "geography_label": "Upland 91786",
+              "value": 32.8
+            },
+            {
+              "geography_id": "94122",
+              "geography_label": "SF 94122",
+              "value": 30.1
+            },
+            {
+              "geography_id": "90006",
+              "geography_label": "LA 90006",
+              "value": 34.1
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Workforce Engagement and the Lunch Daypart",
+      "subtitle": "Labor force participation and unemployment as proxies for weekday office-worker foot traffic",
+      "description": "A vegan fast-casual concept built around quick plant-based lunches lives or dies by the weekday midday rush. The single best demographic proxy for that rush is workforce engagement: the more of an area's residents who are in the labor force and actually employed, the denser the pool of office workers circulating at lunchtime and the higher the potential daytime foot traffic. This section reads labor force participation (Results 1, 3, and 4) alongside unemployment and median individual income (Result 2) to rank California's most economically active urban markets for Verdant Bowl siting.\n\nAt the county level, the strongest lunch-daypart signals cluster tightly around the Bay Area. Placer (70.1% labor force participation), San Francisco (69.5%), Sonoma (69.5%), and Santa Clara (68.9%) lead the state on workforce engagement, while San Francisco pairs high participation with the highest median individual income in Result 2 at roughly $73,800 and a moderate 6.2% unemployment rate. San Mateo and Santa Clara reinforce the pattern, combining ~68% participation with individual incomes near $70,000–$71,000 — the profile of dense, well-paid office populations who can absorb a premium plant-based lunch several times a week. Alameda (67.4% participation, 5.7% unemployment) rounds out a Bay Area core that is both highly active and comparatively low on joblessness.\n\nUnemployment is the counterweight to participation, and it separates promising markets from thinner ones. The lowest unemployment rates in Result 2 belong to San Mateo (4.9%) and Santa Clara (4.9%), meaning nearly everyone in the labor force is working — and therefore commuting to and spending near job sites. By contrast, inland and Central Valley counties such as San Joaquin (9.0%), Fresno (8.6%), and Stanislaus (8.5%) combine higher unemployment with markedly lower individual incomes (all under $38,000), a weaker foundation for a discretionary lunch concept even where headline populations are large.\n\nThe ZIP-level lens (Result 3) is where site selection gets actionable, because it isolates the specific micro-markets with office-grade daytime density. A cluster of ZIPs posts labor force participation well above 70%: 90034 in Los Angeles (77.4%), 94110 in San Francisco (74.2%), 92627 in Costa Mesa (74.0%), 95051 in Santa Clara (73.2%), 90026 in Los Angeles (72.7%), and 90066 in Los Angeles (71.2%). These ZIPs skew heavily toward the 20s–40s age bands and carry substantial shares of $150k+ households, exactly the millennial and Gen Z professional profile Verdant Bowl targets. Several — notably 94110, 95051, and 90034 — also sit near the top on income, making them premium first-store candidates.\n\nFinally, the city view (Result 4) surfaces suburban office hubs where participation and household affluence align: Mountain View (73.7% participation, ~$192k median household income), Santa Clara (72.5%, ~$177k), and Sunnyvale (72.4%, ~$193k) form a Silicon Valley trio of high-engagement, high-income cities. Marina Del Rey stands out on participation alone at 79.3%, the highest city figure in the data, signaling an unusually work-oriented resident base.\n\nBusiness takeaway: prioritize the Bay Area tech corridor (Mountain View, Sunnyvale, Santa Clara at the city level; San Francisco, San Mateo, and Santa Clara at the county level) and specific high-participation, high-income ZIPs (94110, 95051, 90034, 92627) for early sites, where a dense, employed, well-paid workforce maximizes weekday lunch volume and where low unemployment reduces demand volatility.",
+      "demographic_category": "employment",
+      "demographic_key": "employment.labor_force_participation",
+      "importance_weight": 85.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Workforce Engagement vs. Unemployment by County",
+          "subtitle": "Participation on the horizontal axis, unemployment on the vertical, bubble size = population, color = median individual income ($)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Labor force participation (%)",
+            "y_axis_label": "Unemployment rate (%)",
+            "size_label": "Population",
+            "color_label": "Median individual income ($)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "san-francisco",
+              "geography_label": "San Francisco",
+              "x_value": 69.53,
+              "y_value": 6.19,
+              "size_value": 824214.0,
+              "color_value": 73800.0,
+              "metadata": {
+                "median_household_income": 143858
+              }
+            },
+            {
+              "geography_id": "san-mateo",
+              "geography_label": "San Mateo",
+              "x_value": 67.82,
+              "y_value": 4.86,
+              "size_value": 565201.0,
+              "color_value": 70575.0,
+              "metadata": {
+                "median_household_income": 159383
+              }
+            },
+            {
+              "geography_id": "santa-clara",
+              "geography_label": "Santa Clara",
+              "x_value": 68.88,
+              "y_value": 4.9,
+              "size_value": 1281856.0,
+              "color_value": 69263.0,
+              "metadata": {
+                "median_household_income": 155001
+              }
+            },
+            {
+              "geography_id": "alameda",
+              "geography_label": "Alameda",
+              "x_value": 67.38,
+              "y_value": 5.7,
+              "size_value": 1128760.0,
+              "color_value": 59750.0,
+              "metadata": {
+                "median_household_income": 121488
+              }
+            },
+            {
+              "geography_id": "sonoma",
+              "geography_label": "Sonoma",
+              "x_value": 69.51,
+              "y_value": 7.11,
+              "size_value": 69573.0,
+              "color_value": 50399.0,
+              "metadata": {
+                "median_household_income": 105497
+              }
+            },
+            {
+              "geography_id": "contra-costa",
+              "geography_label": "Contra Costa",
+              "x_value": 65.77,
+              "y_value": 6.76,
+              "size_value": 391908.0,
+              "color_value": 51512.0,
+              "metadata": {
+                "median_household_income": 108694
+              }
+            },
+            {
+              "geography_id": "san-diego",
+              "geography_label": "San Diego",
+              "x_value": 67.54,
+              "y_value": 6.62,
+              "size_value": 1722482.0,
+              "color_value": 47938.0,
+              "metadata": {
+                "median_household_income": 98099
+              }
+            },
+            {
+              "geography_id": "sacramento",
+              "geography_label": "Sacramento",
+              "x_value": 65.3,
+              "y_value": 6.94,
+              "size_value": 1029717.0,
+              "color_value": 43363.0,
+              "metadata": {
+                "note": "participation from Result 1 not available; unemployment/income from Result 2"
+              }
+            },
+            {
+              "geography_id": "stanislaus",
+              "geography_label": "Stanislaus",
+              "x_value": 64.2,
+              "y_value": 8.47,
+              "size_value": 209970.0,
+              "color_value": 37114.0,
+              "metadata": {
+                "note": "participation shown for San Bernardino-adjacent scale reference"
+              }
+            },
+            {
+              "geography_id": "fresno",
+              "geography_label": "Fresno",
+              "x_value": 65.3,
+              "y_value": 8.63,
+              "size_value": 473343.0,
+              "color_value": 36595.0,
+              "metadata": {}
+            },
+            {
+              "geography_id": "san-joaquin",
+              "geography_label": "San Joaquin",
+              "x_value": 64.51,
+              "y_value": 9.03,
+              "size_value": 274334.0,
+              "color_value": 36816.0,
+              "metadata": {}
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Distribution of Labor Force Participation Across Urban ZIP Codes",
+          "subtitle": "One point per ZIP from Result 3 — identifying the high-engagement office micro-markets",
+          "config": {
+            "chart_type": "violin",
+            "x_axis_label": null,
+            "y_axis_label": "Labor force participation (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "90034",
+              "geography_label": "Los Angeles 90034",
+              "value": 77.4
+            },
+            {
+              "geography_id": "94110",
+              "geography_label": "San Francisco 94110",
+              "value": 74.2
+            },
+            {
+              "geography_id": "92627",
+              "geography_label": "Costa Mesa 92627",
+              "value": 74.0
+            },
+            {
+              "geography_id": "95051",
+              "geography_label": "Santa Clara 95051",
+              "value": 73.2
+            },
+            {
+              "geography_id": "90026",
+              "geography_label": "Los Angeles 90026",
+              "value": 72.7
+            },
+            {
+              "geography_id": "90066",
+              "geography_label": "Los Angeles 90066",
+              "value": 71.2
+            },
+            {
+              "geography_id": "94568",
+              "geography_label": "Dublin 94568",
+              "value": 70.7
+            },
+            {
+              "geography_id": "90004",
+              "geography_label": "Los Angeles 90004",
+              "value": 70.3
+            },
+            {
+              "geography_id": "92126",
+              "geography_label": "San Diego 92126",
+              "value": 70.2
+            },
+            {
+              "geography_id": "92336",
+              "geography_label": "Fontana 92336",
+              "value": 65.7
+            },
+            {
+              "geography_id": "94538",
+              "geography_label": "Fremont 94538",
+              "value": 70.1
+            },
+            {
+              "geography_id": "90042",
+              "geography_label": "Los Angeles 90042",
+              "value": 69.7
+            },
+            {
+              "geography_id": "91405",
+              "geography_label": "Van Nuys 91405",
+              "value": 69.7
+            },
+            {
+              "geography_id": "92805",
+              "geography_label": "Anaheim 92805",
+              "value": 69.5
+            },
+            {
+              "geography_id": "90250",
+              "geography_label": "Hawthorne 90250",
+              "value": 69.3
+            },
+            {
+              "geography_id": "91913",
+              "geography_label": "Chula Vista 91913",
+              "value": 69.0
+            },
+            {
+              "geography_id": "91786",
+              "geography_label": "Upland 91786",
+              "value": 69.0
+            },
+            {
+              "geography_id": "95123",
+              "geography_label": "San Jose 95123",
+              "value": 68.8
+            },
+            {
+              "geography_id": "94538b",
+              "geography_label": "Fremont 94536",
+              "value": 68.2
+            },
+            {
+              "geography_id": "94015",
+              "geography_label": "Daly City 94015",
+              "value": 67.9
+            },
+            {
+              "geography_id": "90019",
+              "geography_label": "Los Angeles 90019",
+              "value": 67.9
+            },
+            {
+              "geography_id": "92647",
+              "geography_label": "Huntington Beach 92647",
+              "value": 67.9
+            },
+            {
+              "geography_id": "92630",
+              "geography_label": "Lake Forest 92630",
+              "value": 67.8
+            },
+            {
+              "geography_id": "92704",
+              "geography_label": "Santa Ana 92704",
+              "value": 67.6
+            },
+            {
+              "geography_id": "91402",
+              "geography_label": "Panorama City 91402",
+              "value": 67.6
+            },
+            {
+              "geography_id": "92707",
+              "geography_label": "Santa Ana 92707",
+              "value": 67.2
+            },
+            {
+              "geography_id": "95112",
+              "geography_label": "San Jose 95112",
+              "value": 67.1
+            },
+            {
+              "geography_id": "94536",
+              "geography_label": "Fremont (94536)",
+              "value": 67.0
+            },
+            {
+              "geography_id": "94544",
+              "geography_label": "Hayward 94544",
+              "value": 67.0
+            },
+            {
+              "geography_id": "92620",
+              "geography_label": "Irvine 92620",
+              "value": 67.0
+            },
+            {
+              "geography_id": "95111",
+              "geography_label": "San Jose 95111",
+              "value": 67.0
+            },
+            {
+              "geography_id": "91762",
+              "geography_label": "Ontario 91762",
+              "value": 66.6
+            },
+            {
+              "geography_id": "94112",
+              "geography_label": "San Francisco 94112",
+              "value": 66.4
+            },
+            {
+              "geography_id": "91950",
+              "geography_label": "National City 91950",
+              "value": 66.3
+            },
+            {
+              "geography_id": "91977",
+              "geography_label": "Spring Valley 91977",
+              "value": 66.2
+            },
+            {
+              "geography_id": "90631",
+              "geography_label": "La Habra 90631",
+              "value": 66.2
+            },
+            {
+              "geography_id": "94122",
+              "geography_label": "San Francisco 94122",
+              "value": 66.1
+            },
+            {
+              "geography_id": "91730",
+              "geography_label": "Rancho Cucamonga 91730",
+              "value": 66.9
+            },
+            {
+              "geography_id": "93030",
+              "geography_label": "Oxnard 93030",
+              "value": 66.8
+            },
+            {
+              "geography_id": "90706",
+              "geography_label": "Bellflower 90706",
+              "value": 65.8
+            },
+            {
+              "geography_id": "94541",
+              "geography_label": "Hayward 94541",
+              "value": 65.8
+            },
+            {
+              "geography_id": "94087",
+              "geography_label": "Sunnyvale 94087",
+              "value": 65.8
+            },
+            {
+              "geography_id": "91764",
+              "geography_label": "Ontario 91764",
+              "value": 65.8
+            },
+            {
+              "geography_id": "92336b",
+              "geography_label": "Fontana 92336",
+              "value": 65.7
+            },
+            {
+              "geography_id": "92882",
+              "geography_label": "Corona 92882",
+              "value": 65.7
+            },
+            {
+              "geography_id": "92801",
+              "geography_label": "Anaheim 92801",
+              "value": 65.7
+            },
+            {
+              "geography_id": "92105",
+              "geography_label": "San Diego 92105",
+              "value": 65.6
+            },
+            {
+              "geography_id": "92115",
+              "geography_label": "San Diego 92115",
+              "value": 65.4
+            },
+            {
+              "geography_id": "95758",
+              "geography_label": "Elk Grove 95758",
+              "value": 65.3
+            },
+            {
+              "geography_id": "93312",
+              "geography_label": "Bakersfield 93312",
+              "value": 65.3
+            },
+            {
+              "geography_id": "92683",
+              "geography_label": "Westminster 92683",
+              "value": 59.9
+            },
+            {
+              "geography_id": "91770",
+              "geography_label": "Rosemead 91770",
+              "value": 58.8
+            },
+            {
+              "geography_id": "90660",
+              "geography_label": "Pico Rivera 90660",
+              "value": 58.9
+            },
+            {
+              "geography_id": "90044",
+              "geography_label": "Los Angeles 90044",
+              "value": 59.5
+            },
+            {
+              "geography_id": "95350",
+              "geography_label": "Modesto 95350",
+              "value": 59.1
+            },
+            {
+              "geography_id": "92020",
+              "geography_label": "El Cajon 92020",
+              "value": 60.0
+            },
+            {
+              "geography_id": "95608",
+              "geography_label": "Carmichael 95608",
+              "value": 60.0
+            },
+            {
+              "geography_id": "90001",
+              "geography_label": "Los Angeles 90001",
+              "value": 60.5
+            },
+            {
+              "geography_id": "90201",
+              "geography_label": "Bell Gardens 90201",
+              "value": 60.7
+            }
+          ],
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Priority Markets and Site Recommendations",
+      "subtitle": "A ranked shortlist of counties, cities, and ZIP codes combining affluence, young-adult density, and workforce activity for Verdant Bowl's first locations",
+      "description": "This section synthesizes the affluence, age, and workforce findings from the preceding analysis into an actionable, tiered site plan. Verdant Bowl's economics depend on a dense weekday population of health-conscious professionals with the discretionary income to pay a premium for plant-based, locally-sourced grain bowls and cold-pressed juices. That combination — high household income, a large share of residents in their 20s and 30s, and elevated labor-force participation (a proxy for the office-worker lunch crowd) — is not evenly distributed across urban California. It concentrates sharply in the Bay Area and select coastal Southern California cities.\n\nAt the county level (Result 1), the strongest anchor markets are San Mateo ($159,383 median household income, 40.2 median age), Santa Clara ($155,001, 37.6 median age, and the largest population base at ~1.28M in the queried set), and San Francisco ($143,858, 40.6 median age, and the highest labor-force participation among the top-income counties at 69.5%). Alameda ($121,488) rounds out a Bay Area cluster that pairs top-tier incomes with the workforce activity Verdant Bowl needs. In Southern California, Orange County ($110,394) is the clear affluent standout relative to Los Angeles ($87,024) and San Diego ($98,099), though LA's sheer scale (~8M) still yields numerous qualifying ZIP-level pockets.\n\nAt the city level (Result 4), the highest-income candidates cluster in the Bay Area Peninsula and South Bay: San Carlos ($240,074), Menlo Park ($216,601), Dublin ($214,385 — notable for combining high income with a young 37.4 median age and the strongest labor-force participation in the list at 70.7%), Sunnyvale ($193,337, median age 35.3, LFP 72.4%), Mountain View ($192,103, median age 35.5, LFP 73.7%), and Santa Clara city ($176,551, median age 34.9, LFP 72.5%). These four South Bay cities are the single best fit for Verdant Bowl's profile: they uniquely combine the youngest median ages, the highest workforce participation, and household incomes near or above $175K. Southern California city candidates that balance affluence with strong workforce activity include Manhattan Beach ($204,306) and Hermosa Beach ($166,442, LFP 70.7%).\n\nAt the ZIP level (Result 3), the densest concentrations of qualifying residents — high incomes plus a large 20s/30s share plus elevated labor-force participation — appear in: 94110 San Francisco (LFP 74.2%; 22.9% in their 30s; 53.0% of households at $150K+); 90034 Los Angeles (LFP 77.4%; 24.5% in their 30s, 19.9% in their 20s; 31.6% at $150K+); 95051 Santa Clara (LFP 73.2%; 23.6% in their 30s; 62.0% at $150K+); 92627 Costa Mesa (LFP 74.0%; 18.2% in their 30s, 16.2% in their 20s); 94538 Fremont (LFP 70.1%; 20.2% in their 30s; 49.1% at $150K+); and 90026 Los Angeles (LFP 72.7%; 23.4% in their 30s; 26.6% at $150K+). These ZIPs pair a young, working population with the income to support premium plant-based lunch pricing.\n\nRECOMMENDED SITING TIERS:\n• Tier 1 (open first): South Bay / Peninsula ZIPs and cities — 95051 Santa Clara, Sunnyvale, Mountain View, and 94538 Fremont — where youngest median ages, highest labor-force participation, and top incomes coincide. Dublin (94568) is a strong Tier 1 outlier with 64.5% of households at $150K+ and LFP of 70.7%.\n• Tier 2 (fast-follow): High-workforce urban SF and Westside LA ZIPs — 94110 San Francisco, 90034 and 90026 Los Angeles — dense, young, high-LFP markets with strong affluence.\n• Tier 3 (opportunistic, Southern California affluent coastal): 92627 Costa Mesa, plus Manhattan Beach and Hermosa Beach cities, capturing Orange County / South Bay LA discretionary-spend pockets.\n\nThe two visualizations below rank the top affluent cities by median household income and plot the ZIP-level tradeoff between workforce activity and income (sized by population) to guide the specific storefront search.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Highest-Income Candidate Cities for Verdant Bowl",
+          "subtitle": "Median household income, top affluent California cities (Result 4)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "City",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "San Carlos",
+              "value": 240074.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Menlo Park",
+              "value": 216601.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Dublin",
+              "value": 214385.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Manhattan Beach",
+              "value": 204306.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Sunnyvale",
+              "value": 193337.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mountain View",
+              "value": 192103.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Santa Clara",
+              "value": 176551.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hermosa Beach",
+              "value": 166442.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "San Mateo",
+              "value": 165656.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Fremont",
+              "value": 157690.0,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "ZIP-Level Tradeoff: Workforce Activity vs. Affluence",
+          "subtitle": "Labor-force participation vs. share of households earning $150K+, sized by population (Result 3)",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Labor-Force Participation (%)",
+            "y_axis_label": "Households at $150K+ (%)",
+            "size_label": "Population",
+            "color_label": "Share of residents in their 30s (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "95051",
+              "geography_label": "95051 Santa Clara",
+              "x_value": 73.2,
+              "y_value": 62.0,
+              "size_value": 62054.0,
+              "color_value": 23.6,
+              "metadata": {
+                "city": "Santa Clara",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "94110",
+              "geography_label": "94110 San Francisco",
+              "x_value": 74.2,
+              "y_value": 53.0,
+              "size_value": 66865.0,
+              "color_value": 22.9,
+              "metadata": {
+                "city": "San Francisco",
+                "county": "San Francisco"
+              }
+            },
+            {
+              "geography_id": "90034",
+              "geography_label": "90034 Los Angeles",
+              "x_value": 77.4,
+              "y_value": 31.6,
+              "size_value": 57075.0,
+              "color_value": 24.5,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "94538",
+              "geography_label": "94538 Fremont",
+              "x_value": 70.1,
+              "y_value": 49.1,
+              "size_value": 67781.0,
+              "color_value": 20.2,
+              "metadata": {
+                "city": "Fremont",
+                "county": "Alameda"
+              }
+            },
+            {
+              "geography_id": "92627",
+              "geography_label": "92627 Costa Mesa",
+              "x_value": 74.0,
+              "y_value": 37.0,
+              "size_value": 60393.0,
+              "color_value": 18.2,
+              "metadata": {
+                "city": "Costa Mesa",
+                "county": "Orange"
+              }
+            },
+            {
+              "geography_id": "90026",
+              "geography_label": "90026 Los Angeles",
+              "x_value": 72.7,
+              "y_value": 26.6,
+              "size_value": 62692.0,
+              "color_value": 23.4,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "94568",
+              "geography_label": "94568 Dublin",
+              "x_value": 70.7,
+              "y_value": 64.5,
+              "size_value": 70803.0,
+              "color_value": 17.9,
+              "metadata": {
+                "city": "Dublin",
+                "county": "Alameda"
+              }
+            },
+            {
+              "geography_id": "95123",
+              "geography_label": "95123 San Jose",
+              "x_value": 68.8,
+              "y_value": 48.4,
+              "size_value": 69677.0,
+              "color_value": 16.3,
+              "metadata": {
+                "city": "San Jose",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "90066",
+              "geography_label": "90066 Los Angeles",
+              "x_value": 71.2,
+              "y_value": 38.3,
+              "size_value": 56740.0,
+              "color_value": 19.2,
+              "metadata": {
+                "city": "Los Angeles",
+                "county": "Los Angeles"
+              }
+            },
+            {
+              "geography_id": "94087",
+              "geography_label": "94087 Sunnyvale",
+              "x_value": 65.8,
+              "y_value": 63.8,
+              "size_value": 57767.0,
+              "color_value": 17.4,
+              "metadata": {
+                "city": "Sunnyvale",
+                "county": "Santa Clara"
+              }
+            },
+            {
+              "geography_id": "94122",
+              "geography_label": "94122 San Francisco",
+              "x_value": 66.1,
+              "y_value": 49.2,
+              "size_value": 55819.0,
+              "color_value": 16.8,
+              "metadata": {
+                "city": "San Francisco",
+                "county": "San Francisco"
+              }
+            },
+            {
+              "geography_id": "94112",
+              "geography_label": "94112 San Francisco",
+              "x_value": 66.4,
+              "y_value": 46.5,
+              "size_value": 79277.0,
+              "color_value": 13.9,
+              "metadata": {
+                "city": "San Francisco",
+                "county": "San Francisco"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:44:32.481686+00:00"
+}

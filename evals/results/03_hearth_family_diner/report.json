@@ -1,0 +1,1225 @@
+{
+  "report_id": "f8e1c661-9b90-4b85-8cde-1f32c80f533b",
+  "title": "Where Ohio's Families and Retirees Live Side by Side: Siting a Value-Driven Family Diner",
+  "subtitle": "A Demographic Analysis of Suburban Ohio Markets",
+  "geography_type": "county",
+  "geography_value": "Ohio, suburban areas",
+  "client_profile_id": "05794b3f-8243-4db4-9c5d-eb83833b6c28",
+  "summary": {
+    "total_population": 3567561,
+    "zip_count": 137,
+    "median_household_income": 48312.0,
+    "median_age": 42.10209453526574,
+    "home_ownership_rate": null,
+    "narrative": "Ohio's larger suburban counties like Cuyahoga (653,865), Stark (198,112), Mahoning (172,086), and Trumbull (101,359) offer dense concentrations of the working- and middle-income families this diner targets, with county median household incomes clustering around $53,000. Family-dense suburbs such as Canal Winchester (43110), Pickerington (43147), Blacklick (43004), and Amelia (45102) show high shares of children under 10 (14-15%) alongside affordable-to-moderate incomes, while retiree-heavy pockets like North Canton (44720), Willoughby (44094), and Dayton (45459) carry senior shares above 20%. Shift-worker-friendly ZIPs with strong labor-force participation (60-67%) including Toledo (43612), Columbus (43213/43232), and Cleveland (44135) further round out a value-driven customer base.",
+    "opportunity_bubble_chart": {
+      "visualization_id": "opp_bubble_1",
+      "title": "Suburban Opportunity: Income vs. Family Presence by ZIP",
+      "subtitle": "Bubble size reflects population; color reflects share of residents 65+",
+      "config": {
+        "chart_type": "bubble",
+        "x_axis_label": "Median Household Income ($)",
+        "y_axis_label": "Labor Force Participation (%)",
+        "size_label": "Population",
+        "color_label": "Share Age 65+ (%)"
+      },
+      "categorical_data": null,
+      "distribution_data": null,
+      "bubble_data": [
+        {
+          "geography_id": "43110",
+          "geography_label": "Canal Winchester",
+          "x_value": 48312.0,
+          "y_value": 64.4,
+          "size_value": 43544.0,
+          "color_value": 12.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "43213",
+          "geography_label": "Columbus (43213)",
+          "x_value": 54704.0,
+          "y_value": 66.6,
+          "size_value": 36273.0,
+          "color_value": 15.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "43232",
+          "geography_label": "Columbus (43232)",
+          "x_value": 51417.0,
+          "y_value": 64.4,
+          "size_value": 47364.0,
+          "color_value": 12.6,
+          "metadata": {}
+        },
+        {
+          "geography_id": "43612",
+          "geography_label": "Toledo (43612)",
+          "x_value": 50728.0,
+          "y_value": 67.2,
+          "size_value": 28480.0,
+          "color_value": 12.0,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44135",
+          "geography_label": "Cleveland (44135)",
+          "x_value": 53848.0,
+          "y_value": 64.7,
+          "size_value": 28022.0,
+          "color_value": 14.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44146",
+          "geography_label": "Bedford",
+          "x_value": 54925.0,
+          "y_value": 62.3,
+          "size_value": 29349.0,
+          "color_value": 21.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44515",
+          "geography_label": "Youngstown (44515)",
+          "x_value": 53252.0,
+          "y_value": 61.1,
+          "size_value": 27690.0,
+          "color_value": 23.8,
+          "metadata": {}
+        },
+        {
+          "geography_id": "45414",
+          "geography_label": "Dayton (45414)",
+          "x_value": 54485.0,
+          "y_value": 60.6,
+          "size_value": 21167.0,
+          "color_value": 20.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44052",
+          "geography_label": "Lorain (44052)",
+          "x_value": 45023.0,
+          "y_value": 60.2,
+          "size_value": 28282.0,
+          "color_value": 16.5,
+          "metadata": {}
+        },
+        {
+          "geography_id": "45505",
+          "geography_label": "Springfield (45505)",
+          "x_value": 43819.0,
+          "y_value": 59.0,
+          "size_value": 19826.0,
+          "color_value": 15.2,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44128",
+          "geography_label": "Cleveland (44128)",
+          "x_value": 43993.0,
+          "y_value": 58.1,
+          "size_value": 27122.0,
+          "color_value": 22.9,
+          "metadata": {}
+        },
+        {
+          "geography_id": "44305",
+          "geography_label": "Akron (44305)",
+          "x_value": 52768.0,
+          "y_value": 63.2,
+          "size_value": 21103.0,
+          "color_value": 16.3,
+          "metadata": {}
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section-1",
+      "title": "The Target Market Landscape at the County Level",
+      "subtitle": "Profiling Ohio's larger suburban counties on family formation, age, and workforce presence",
+      "description": "Hearth & Home Family Diner's concept — generous, budget-friendly comfort food with a kids-eat-free night and senior discounts — depends on a customer base that blends three groups under one roof: married families with children, retirees, and working shift workers. To find where that blend concentrates, this section profiles the larger, more populous Ohio counties in the query results (those with real population scale rather than the tiny sub-1,000-population geographies) on four dimensions: median household income, median age, labor force participation, and the married share of adults, plus the share of residents over 65.\n\nThe most populous counties in Result 1 — Cuyahoga is captured only in Result 2, while Result 1's largest are Mahoning (172,086), Trumbull (101,359), Clark (72,113), and Richland (54,573) — all cluster in a strikingly consistent profile. Their median household incomes sit in a tight band from roughly $51,000 to $53,700 (Richland $51,020; Trumbull $53,336; Mahoning $53,350; Clark $53,671), squarely in the working-class-to-middle-income range the diner targets. Median ages run from about 40 to 42 years (Clark 39.8; Richland 41.1; Trumbull 42.1; Mahoning 42.2), indicating established households in prime family-raising and dining-out years rather than transient young-adult or aging-out populations.\n\nLabor force participation in these counties ranges from roughly 52% to 58% (Richland 52.4%; Trumbull 55.4%; Mahoning 58.0%; Clark 57.9%), confirming a substantial working population — including the shift workers the diner wants to serve across breakfast, lunch, and late shifts. At the same time, each of these counties carries a meaningful senior presence: over-65 shares of 19% to 22% (Clark 19.2%; Trumbull 20.9%; Richland 20.3%; Mahoning 21.5%) mean roughly one in five residents is a candidate for the senior discount.\n\nCrucially, the married share of adults holds around 35% to 40% (Richland 35.7%; Mahoning 39.4%; Trumbull 39.5%; Clark 38.9%), supplying the married-family base that anchors a kids-eat-free night. Taken together, these four counties are the strategic sweet spot: large enough to support a diner's daily covers, priced into the value segment, and demographically balanced across families, workers, and seniors. Mahoning stands out for combining the highest population, the highest labor force participation, and the highest senior share — making it the single strongest county-level candidate — with Trumbull and Clark close behind on the family-and-workforce mix, and Richland a viable secondary market at a slightly lower income and participation level.\n\nBusiness implication: prioritize site searches in Mahoning, Trumbull, Clark, and Richland counties. Their income levels validate a budget-friendly menu, their ~40% married and ~20% senior mix directly justify both the kids-eat-free and senior-discount programs, and their mid-50s labor force participation supports extended hours catering to shift workers.",
+      "demographic_category": "Household &amp; Workforce Composition",
+      "demographic_key": null,
+      "importance_weight": 90.0,
+      "rank": 1,
+      "visualizations": [
+        {
+          "visualization_id": "section-1-viz-1",
+          "title": "Family-Age Profile vs. Workforce Presence Across Ohio's Larger Counties",
+          "subtitle": "Median age (x) vs. labor force participation (y); bubble size = population, color = share over 65",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Age (years)",
+            "y_axis_label": "Labor Force Participation (%)",
+            "size_label": "Population",
+            "color_label": "Share Over 65 (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "39099",
+              "geography_label": "Mahoning",
+              "x_value": 42.18,
+              "y_value": 57.96,
+              "size_value": 172086.0,
+              "color_value": 21.5,
+              "metadata": {
+                "median_household_income": 53350.08,
+                "married_pct": 39.43
+              }
+            },
+            {
+              "geography_id": "39155",
+              "geography_label": "Trumbull",
+              "x_value": 42.1,
+              "y_value": 55.41,
+              "size_value": 101359.0,
+              "color_value": 20.86,
+              "metadata": {
+                "median_household_income": 53336.27,
+                "married_pct": 39.54
+              }
+            },
+            {
+              "geography_id": "39023",
+              "geography_label": "Clark",
+              "x_value": 39.83,
+              "y_value": 57.86,
+              "size_value": 72113.0,
+              "color_value": 19.17,
+              "metadata": {
+                "median_household_income": 53670.6,
+                "married_pct": 38.91
+              }
+            },
+            {
+              "geography_id": "39139",
+              "geography_label": "Richland",
+              "x_value": 41.1,
+              "y_value": 52.36,
+              "size_value": 54573.0,
+              "color_value": 20.26,
+              "metadata": {
+                "median_household_income": 51020.21,
+                "married_pct": 35.66
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-1-viz-2",
+          "title": "Married Share of Adults in the Target Counties",
+          "subtitle": "The married-family base that anchors a kids-eat-free night",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "County",
+            "y_axis_label": "Married Adults (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Trumbull",
+              "value": 39.54,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mahoning",
+              "value": 39.43,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Clark",
+              "value": 38.91,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Richland",
+              "value": 35.66,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-2",
+      "title": "Finding the Family-Dense Suburbs",
+      "subtitle": "High-population suburban ZIPs with strong shares of children and married households that fit the kids-eat-free concept",
+      "description": "Hearth & Home's kids-eat-free night and generous-portion, value-driven positioning lives or dies on two things: a deep base of households with children and a high share of married-couple families who anchor repeat weeknight dining. The ZIP-level data in Result 3 lets us identify large suburban markets that combine both. Several Franklin County suburbs south and east of Columbus — plus a standout in Butler County — rise to the top on this combined \"family density\" test.\n\nGrove City (43123) is the flagship candidate: with a population of 67,626 it is one of the largest suburbs in the dataset, and 25.3% of residents are under 20 (13.3% under 10 plus 12.0% aged 10–19) against a married-household share of 54.1%. Hilliard (43026, pop. 65,238) pairs a comparable youth base — 27.6% under 20 — with an even higher 54.6% married share, signaling a dense, family-formation market. Pickerington (43147, pop. 46,963) is the strongest on both youth and marriage: 30.3% of residents are under 20 (the highest child-plus-teen share among these anchor suburbs, driven by a leading 16.8% aged 10–19) and 58.5% are married — precisely the school-age household profile that fills a diner on a kids-eat-free night. Canal Winchester (43110, pop. 43,544) shows a market-leading 15.1% under-10 share and 51.8% married, indicating a very young, growing family base. West Chester (45069, pop. 56,037) rounds out the list with 26.1% under 20 and the second-highest married share at 58.0%, extending the concept's reach into the Cincinnati metro's Butler County.\n\nReynoldsburg (43068, pop. 60,148) is a high-population, moderately family-dense option: 26.8% of residents are under 20, though its married share (43.7%) is lower than the other anchors, suggesting a somewhat more mixed household base that still supports strong child-driven traffic given its sheer size and density (1,184 people per square mile).\n\nBusiness takeaway: Pickerington, Hilliard, and West Chester offer the best balance of scale, child density, and married-household stability — ideal launch or flagship sites for the kids-eat-free concept. Grove City and Reynoldsburg add high-volume, high-density options where raw population makes up for a marginally lower married share. Canal Winchester's category-leading under-10 count makes it a strong \"grow-with-the-neighborhood\" bet.",
+      "demographic_category": "age_and_family",
+      "demographic_key": "age.distribution.under_10",
+      "importance_weight": 85.0,
+      "rank": 2,
+      "visualizations": [
+        {
+          "visualization_id": "section-2-viz-1",
+          "title": "Child Population vs. Married-Household Share Across Target Suburbs",
+          "subtitle": "X = % under 20, Y = % married households, bubble size = population",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Share of residents under 20 (%)",
+            "y_axis_label": "Married households (%)",
+            "size_label": "Population",
+            "color_label": "% under 10"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "43123",
+              "geography_label": "Grove City",
+              "x_value": 25.3,
+              "y_value": 54.1,
+              "size_value": 67626.0,
+              "color_value": 13.3,
+              "metadata": {
+                "county": "Franklin",
+                "under_10": 13.3,
+                "teens_10_19": 12.0
+              }
+            },
+            {
+              "geography_id": "43026",
+              "geography_label": "Hilliard",
+              "x_value": 27.6,
+              "y_value": 54.6,
+              "size_value": 65238.0,
+              "color_value": 12.8,
+              "metadata": {
+                "county": "Franklin",
+                "under_10": 12.8,
+                "teens_10_19": 14.8
+              }
+            },
+            {
+              "geography_id": "43068",
+              "geography_label": "Reynoldsburg",
+              "x_value": 26.8,
+              "y_value": 43.7,
+              "size_value": 60148.0,
+              "color_value": 14.4,
+              "metadata": {
+                "county": "Franklin",
+                "under_10": 14.4,
+                "teens_10_19": 12.4
+              }
+            },
+            {
+              "geography_id": "43147",
+              "geography_label": "Pickerington",
+              "x_value": 30.3,
+              "y_value": 58.5,
+              "size_value": 46963.0,
+              "color_value": 13.5,
+              "metadata": {
+                "county": "Fairfield",
+                "under_10": 13.5,
+                "teens_10_19": 16.8
+              }
+            },
+            {
+              "geography_id": "43110",
+              "geography_label": "Canal Winchester",
+              "x_value": 29.0,
+              "y_value": 51.8,
+              "size_value": 43544.0,
+              "color_value": 15.1,
+              "metadata": {
+                "county": "Fairfield",
+                "under_10": 15.1,
+                "teens_10_19": 13.9
+              }
+            },
+            {
+              "geography_id": "45069",
+              "geography_label": "West Chester",
+              "x_value": 26.1,
+              "y_value": 58.0,
+              "size_value": 56037.0,
+              "color_value": 14.5,
+              "metadata": {
+                "county": "Butler",
+                "under_10": 14.5,
+                "teens_10_19": 11.6
+              }
+            }
+          ]
+        },
+        {
+          "visualization_id": "section-2-viz-2",
+          "title": "Under-10 Population Share in Target Suburbs",
+          "subtitle": "Percentage of residents under age 10 by ZIP",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Suburb",
+            "y_axis_label": "Residents under 10 (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Canal Winchester",
+              "value": 15.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "West Chester",
+              "value": 14.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Reynoldsburg",
+              "value": 14.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Pickerington",
+              "value": 13.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Grove City",
+              "value": 13.3,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Hilliard",
+              "value": 12.8,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-3",
+      "title": "Serving the Senior and Retiree Segment",
+      "subtitle": "Mature-skewing suburbs where a senior-discount offering will resonate",
+      "description": "Ohio's older suburban communities represent the natural home for a senior-discount program. Several established suburbs carry above-average shares of residents in their 60s, 70s, and 80s — and correspondingly higher widowed populations, a group that especially values affordable, welcoming sit-down dining. In the ZIP-level data, mature Cleveland-area lakeshore suburbs stand out most clearly. Mentor (44060) has 32.4% of residents aged 60+ (16.3% in their 60s, 10.9% in their 70s, 5.2% aged 80+) and a 6.6% widowed share. Neighboring Willoughby (44094) is even older, with 32.6% aged 60+ (15.2% / 10.5% / 6.9%) and 7.2% widowed. Westlake (44145) reaches 33.5% aged 60+ with the highest 80+ concentration among these suburbs at 8.0%, plus 7.1% widowed. Beachwood (44122) shows 32.1% aged 60+, an 80+ share of 7.8%, and 7.0% widowed. In the Canton area, North Canton (44720) carries 30.1% aged 60+ (13.5% / 11.0% / 5.6%) with the highest widowed share of this group at 8.4%. These figures are corroborated by county-to-ZIP over-65 measures: Bedford (44146) at 21.9% over-65, Struthers (44471) at 21.5%, and Euclid (44117) at 21.7% all point to mature Cleveland- and Youngstown-area suburbs. For the diner, these communities offer a dual advantage: a large retiree base that dines out for value and companionship, paired with off-peak (mid-afternoon) traffic that senior discounts can profitably fill. Widowed residents in particular — concentrated in Willoughby, Westlake, North Canton, and Beachwood — represent solo diners for whom an affordable, familiar table is a routine rather than an occasion. Siting near these ZIPs, and structuring the senior-discount window around weekday early-bird hours, aligns the offering directly with where retiree demand concentrates.",
+      "demographic_category": "age",
+      "demographic_key": "age.over_65",
+      "importance_weight": 75.0,
+      "rank": 3,
+      "visualizations": [
+        {
+          "visualization_id": "section-3-viz-1",
+          "title": "Share of Residents Aged 60+ in Mature Suburbs",
+          "subtitle": "Combined 60s, 70s, and 80+ age shares by ZIP (Result 3)",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "Suburb (ZIP)",
+            "y_axis_label": "Percent of population aged 60+",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Westlake (44145)",
+              "value": 33.5,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Willoughby (44094)",
+              "value": 32.6,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Mentor (44060)",
+              "value": 32.4,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "Beachwood (44122)",
+              "value": 32.1,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "North Canton (44720)",
+              "value": 30.1,
+              "percentage": null,
+              "color": null
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-3-viz-2",
+          "title": "Retiree Demand: Over-65 Share vs. Widowed Share",
+          "subtitle": "Bubble size = population; over-65 from Result 4, widowed from Result 3",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Population aged 65+ (%)",
+            "y_axis_label": "Widowed share (%)",
+            "size_label": "Population",
+            "color_label": "80+ share (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "44146",
+              "geography_label": "Bedford",
+              "x_value": 21.9,
+              "y_value": 8.3,
+              "size_value": 29349.0,
+              "color_value": 5.7,
+              "metadata": {
+                "county": "Cuyahoga"
+              }
+            },
+            {
+              "geography_id": "44117",
+              "geography_label": "Euclid",
+              "x_value": 21.7,
+              "y_value": 9.4,
+              "size_value": 9172.0,
+              "color_value": 6.3,
+              "metadata": {
+                "county": "Cuyahoga",
+                "note": "widowed/80+ from 44143 Cleveland proximate data"
+              }
+            },
+            {
+              "geography_id": "44471",
+              "geography_label": "Struthers",
+              "x_value": 21.5,
+              "y_value": 9.5,
+              "size_value": 10295.0,
+              "color_value": 5.3,
+              "metadata": {
+                "county": "Mahoning"
+              }
+            },
+            {
+              "geography_id": "44128",
+              "geography_label": "Cleveland (44128)",
+              "x_value": 22.9,
+              "y_value": 7.8,
+              "size_value": 27122.0,
+              "color_value": 6.8,
+              "metadata": {
+                "county": "Cuyahoga"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section-4",
+      "title": "Matching the Value Proposition to Income and Affordability",
+      "subtitle": "Identifying moderate-income suburbs where a budget-friendly, generous-portion diner fits the household economics",
+      "description": "Hearth & Home's value proposition — budget-friendly pricing, generous portions, kids-eat-free nights, and senior discounts — resonates most strongly in working-class and middle-income suburbs, where households actively weigh price against portion size when choosing where to eat out. This section uses two lenses to separate those target markets from affluent areas where a value concept is a weaker fit.\n\nThe first view compares median household income across suburban ZIP codes drawn from Result 4. A cluster of moderate-income working-class suburbs sits in a $40,000–$55,000 band that aligns tightly with the concept: Toledo's 43605 ($39,118) and 43612 ($50,728), Springfield's 45506 ($42,104) and 45505 ($43,819), Elyria-area Lorain 44052 ($45,023) and 44055 ($40,636), Cleveland's 44105 ($40,906) and 44128 ($43,993), and Canton's 44705 ($43,439). These contrast sharply with the low end (Youngstown 44510 at $20,000; Cincinnati 45225 at $20,348) and high end where affluence reduces price sensitivity.\n\nThe second view drills into the income *distribution* within larger suburban ZIPs (Result 3) to show the concentration of moderate-income households. Working-class suburbs such as Elyria (44035), Middletown (45044), Massillon (44646), and Toledo (43615) carry substantial shares of households in the $25k–$75k range — the sweet spot for a value diner — whereas affluent suburbs like Powell (43065, 52.2% of households at $150k+), Lewis Center (43035, 51.2% at $150k+), and Mason (45040, 43.1% at $150k+) skew heavily toward high earners less motivated by budget positioning.\n\nBusiness takeaway: prioritize site selection in the moderate-income working-class suburbs — Elyria, Middletown, Massillon, Springfield, and the Toledo ZIPs — where the household income mix matches a value-driven, generous-portion menu. Treat the highest-income suburbs as poor fits for this specific concept.",
+      "demographic_category": "income",
+      "demographic_key": "income.median_household_income",
+      "importance_weight": 90.0,
+      "rank": 4,
+      "visualizations": [
+        {
+          "visualization_id": "section-4-viz-1",
+          "title": "Median Household Income Across Suburban ZIPs",
+          "subtitle": "Moderate-income working-class suburbs (green band) vs. lower- and higher-income ZIPs",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "ZIP / City",
+            "y_axis_label": "Median Household Income ($)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "44510 Youngstown",
+              "value": 20000.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "45225 Cincinnati",
+              "value": 20348.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "43604 Toledo",
+              "value": 20734.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "44103 Cleveland",
+              "value": 27047.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "45805 area (Lima excl.)",
+              "value": 36570.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "45417 Dayton",
+              "value": 36945.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "43605 Toledo",
+              "value": 39118.0,
+              "percentage": null,
+              "color": null
+            },
+            {
+              "label": "44052 Lorain (Elyria area)",
+              "value": 45023.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "44055 Lorain (Elyria area)",
+              "value": 40636.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "44105 Cleveland",
+              "value": 40906.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "45506 Springfield",
+              "value": 42104.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "45505 Springfield",
+              "value": 43819.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "44705 Canton",
+              "value": 43439.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "44128 Cleveland",
+              "value": 43993.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "43612 Toledo",
+              "value": 50728.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "44515 Youngstown",
+              "value": 53252.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "44135 Cleveland",
+              "value": 53848.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "43213 Columbus",
+              "value": 54704.0,
+              "percentage": null,
+              "color": "#2e8b57"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-4-viz-2",
+          "title": "Household Income Mix: Working-Class vs. Affluent Suburbs",
+          "subtitle": "Share of households earning $150k+ (Result 3) — a proxy for concept fit",
+          "config": {
+            "chart_type": "bar",
+            "x_axis_label": "City / ZIP",
+            "y_axis_label": "Share of households earning $150k+ (%)",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": [
+            {
+              "label": "Elyria 44035",
+              "value": 9.6,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "Massillon 44646",
+              "value": 14.7,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "Toledo 43615",
+              "value": 10.3,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "Middletown 45044",
+              "value": 20.8,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "Springfield 45503",
+              "value": 7.9,
+              "percentage": null,
+              "color": "#2e8b57"
+            },
+            {
+              "label": "Mason 45040",
+              "value": 43.1,
+              "percentage": null,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Powell 43065",
+              "value": 52.2,
+              "percentage": null,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Lewis Center 43035",
+              "value": 51.2,
+              "percentage": null,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Dublin 43017",
+              "value": 45.4,
+              "percentage": null,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Hudson 44236",
+              "value": 55.9,
+              "percentage": null,
+              "color": "#c0392b"
+            }
+          ],
+          "distribution_data": null,
+          "bubble_data": null
+        }
+      ]
+    },
+    {
+      "section_id": "section-5",
+      "title": "Reaching Shift Workers Through Employment Patterns",
+      "subtitle": "Mapping labor force participation and unemployment to find active, budget-conscious workforces that can fill off-peak and late-night seats",
+      "description": "The ideal home for a value-driven family diner is a market where people are working — and working non-standard hours — but where household budgets keep them price-sensitive. Two employment signals help locate that audience: labor force participation (how many working-age residents are actively employed or job-seeking, a proxy for potential shift and commuter traffic) and unemployment (a signal of how tight discretionary spending will be). The strongest diner sites combine high labor force participation with modest individual incomes, indicating a large base of working residents who value generous portions at a fair price.\n\nResult 4 (ZIP-level) surfaces several strong candidates. Columbus ZIP 43213 pairs 66.6% labor force participation with a $54,704 median household income and a low 7.7% unemployment rate — a dense, employed, middle-income market. Columbus 43232 (64.4% participation, $51,417 income, 5.5% unemployment) and 43219 (64.9% participation, $52,094 income) show the same profile of active, budget-conscious workers. Toledo 43612 stands out with 67.2% participation and a $50,728 income, while Cincinnati 45223 leads the field on participation at 71.1%. Struthers (44471) and Youngstown 44515 also combine 61%+ participation with incomes in the low-to-mid $50Ks — exactly the working-class, value-seeking base the concept targets.\n\nJust as important is where NOT to over-index on the daytime lunch rush. Several ZIPs carry elevated unemployment that will compress discretionary dining spend: Youngstown 44510 (33.0% unemployment), Cincinnati 45225 (27.0%), and Youngstown 44506 (29.1%) show that a low-price, kids-eat-free value proposition may resonate but will demand tight cost control. These are watch-list markets rather than primary sites.\n\nAt the county level (Result 2), the highest-volume, most balanced opportunities appear where unemployment stays moderate and individual incomes support repeat visits: Lake County ($44,636 median individual income, 3.9% unemployment) and Stark County ($38,987 income, 3.9% unemployment) offer large, stably employed suburban populations. Cuyahoga is the largest market by far (653,865 residents) but runs a higher 5.4% unemployment rate, signaling both scale and price sensitivity. Mahoning County pairs a large population with the region's highest county unemployment (7.4%) and the lowest individual income among the majors ($30,799) — a market where the value message is essential.\n\nBusiness takeaway: prioritize high-participation, low-unemployment ZIPs in the Columbus (43213, 43219, 43232), Toledo (43612), and Cincinnati (45223) suburbs for primary sites, where a large employed-but-thrifty workforce supports both off-peak family visits and late-night shift-worker traffic. Treat high-unemployment Youngstown and Cincinnati ZIPs as secondary markets where the senior-discount and kids-eat-free hooks drive trial but margins require discipline.",
+      "demographic_category": "employment",
+      "demographic_key": "employment.labor_force_participation",
+      "importance_weight": 85.0,
+      "rank": 5,
+      "visualizations": [
+        {
+          "visualization_id": "section-5-viz-1",
+          "title": "Labor Force Participation Across Ohio Suburban ZIPs",
+          "subtitle": "Each point is one ZIP — clustering in the 55-67% range signals broad, active workforces available for off-peak and late-night dining",
+          "config": {
+            "chart_type": "histogram",
+            "x_axis_label": "Labor Force Participation (%)",
+            "y_axis_label": "Number of ZIPs",
+            "size_label": null,
+            "color_label": null
+          },
+          "categorical_data": null,
+          "distribution_data": [
+            {
+              "geography_id": "44308",
+              "geography_label": "Akron 44308",
+              "value": 44.9
+            },
+            {
+              "geography_id": "44503",
+              "geography_label": "Youngstown 44503",
+              "value": 20.5
+            },
+            {
+              "geography_id": "44702",
+              "geography_label": "Canton 44702",
+              "value": 24.5
+            },
+            {
+              "geography_id": "44510",
+              "geography_label": "Youngstown 44510",
+              "value": 51.1
+            },
+            {
+              "geography_id": "45225",
+              "geography_label": "Cincinnati 45225",
+              "value": 56.7
+            },
+            {
+              "geography_id": "43604",
+              "geography_label": "Toledo 43604",
+              "value": 53.5
+            },
+            {
+              "geography_id": "44506",
+              "geography_label": "Youngstown 44506",
+              "value": 53.7
+            },
+            {
+              "geography_id": "45203",
+              "geography_label": "Cincinnati 45203",
+              "value": 59.6
+            },
+            {
+              "geography_id": "44103",
+              "geography_label": "Cleveland 44103",
+              "value": 49.0
+            },
+            {
+              "geography_id": "44307",
+              "geography_label": "Akron 44307",
+              "value": 53.0
+            },
+            {
+              "geography_id": "45214",
+              "geography_label": "Cincinnati 45214",
+              "value": 62.8
+            },
+            {
+              "geography_id": "45232",
+              "geography_label": "Cincinnati 45232",
+              "value": 64.5
+            },
+            {
+              "geography_id": "44507",
+              "geography_label": "Youngstown 44507",
+              "value": 53.4
+            },
+            {
+              "geography_id": "44502",
+              "geography_label": "Youngstown 44502",
+              "value": 49.0
+            },
+            {
+              "geography_id": "45204",
+              "geography_label": "Cincinnati 45204",
+              "value": 60.8
+            },
+            {
+              "geography_id": "44902",
+              "geography_label": "Mansfield 44902",
+              "value": 54.3
+            },
+            {
+              "geography_id": "44704",
+              "geography_label": "Canton 44704",
+              "value": 61.0
+            },
+            {
+              "geography_id": "43222",
+              "geography_label": "Columbus 43222",
+              "value": 58.9
+            },
+            {
+              "geography_id": "44127",
+              "geography_label": "Cleveland 44127",
+              "value": 55.4
+            },
+            {
+              "geography_id": "44485",
+              "geography_label": "Warren 44485",
+              "value": 51.0
+            },
+            {
+              "geography_id": "44509",
+              "geography_label": "Youngstown 44509",
+              "value": 53.5
+            },
+            {
+              "geography_id": "45417",
+              "geography_label": "Dayton 45417",
+              "value": 51.2
+            },
+            {
+              "geography_id": "44505",
+              "geography_label": "Youngstown 44505",
+              "value": 49.3
+            },
+            {
+              "geography_id": "45404",
+              "geography_label": "Dayton 45404",
+              "value": 55.6
+            },
+            {
+              "geography_id": "43605",
+              "geography_label": "Toledo 43605",
+              "value": 59.2
+            },
+            {
+              "geography_id": "44055",
+              "geography_label": "Lorain 44055",
+              "value": 55.1
+            },
+            {
+              "geography_id": "44105",
+              "geography_label": "Cleveland 44105",
+              "value": 59.6
+            },
+            {
+              "geography_id": "44320",
+              "geography_label": "Akron 44320",
+              "value": 61.7
+            },
+            {
+              "geography_id": "43607",
+              "geography_label": "Toledo 43607",
+              "value": 58.3
+            },
+            {
+              "geography_id": "44306",
+              "geography_label": "Akron 44306",
+              "value": 62.8
+            },
+            {
+              "geography_id": "44304",
+              "geography_label": "Akron 44304",
+              "value": 67.4
+            },
+            {
+              "geography_id": "45506",
+              "geography_label": "Springfield 45506",
+              "value": 55.2
+            },
+            {
+              "geography_id": "44405",
+              "geography_label": "Campbell 44405",
+              "value": 56.1
+            },
+            {
+              "geography_id": "44117",
+              "geography_label": "Euclid 44117",
+              "value": 54.5
+            },
+            {
+              "geography_id": "44705",
+              "geography_label": "Canton 44705",
+              "value": 58.1
+            },
+            {
+              "geography_id": "45505",
+              "geography_label": "Springfield 45505",
+              "value": 59.0
+            },
+            {
+              "geography_id": "44128",
+              "geography_label": "Cleveland 44128",
+              "value": 58.1
+            },
+            {
+              "geography_id": "44114",
+              "geography_label": "Cleveland 44114",
+              "value": 63.8
+            },
+            {
+              "geography_id": "45216",
+              "geography_label": "Cincinnati 45216",
+              "value": 59.9
+            },
+            {
+              "geography_id": "45237",
+              "geography_label": "Cincinnati 45237",
+              "value": 61.2
+            },
+            {
+              "geography_id": "44052",
+              "geography_label": "Lorain 44052",
+              "value": 60.2
+            },
+            {
+              "geography_id": "45416",
+              "geography_label": "Dayton 45416",
+              "value": 62.6
+            },
+            {
+              "geography_id": "43610",
+              "geography_label": "Toledo 43610",
+              "value": 59.8
+            },
+            {
+              "geography_id": "43223",
+              "geography_label": "Columbus 43223",
+              "value": 53.4
+            },
+            {
+              "geography_id": "44907",
+              "geography_label": "Mansfield 44907",
+              "value": 62.5
+            },
+            {
+              "geography_id": "45015",
+              "geography_label": "Hamilton 45015",
+              "value": 56.0
+            },
+            {
+              "geography_id": "45402",
+              "geography_label": "Dayton 45402",
+              "value": 56.1
+            },
+            {
+              "geography_id": "44483",
+              "geography_label": "Warren 44483",
+              "value": 52.7
+            },
+            {
+              "geography_id": "45223",
+              "geography_label": "Cincinnati 45223",
+              "value": 71.1
+            },
+            {
+              "geography_id": "45001",
+              "geography_label": "Addyston 45001",
+              "value": 57.7
+            },
+            {
+              "geography_id": "44446",
+              "geography_label": "Niles 44446",
+              "value": 55.7
+            },
+            {
+              "geography_id": "43612",
+              "geography_label": "Toledo 43612",
+              "value": 67.2
+            },
+            {
+              "geography_id": "44672",
+              "geography_label": "Sebring 44672",
+              "value": 48.3
+            },
+            {
+              "geography_id": "44301",
+              "geography_label": "Akron 44301",
+              "value": 64.2
+            },
+            {
+              "geography_id": "43232",
+              "geography_label": "Columbus 43232",
+              "value": 64.4
+            },
+            {
+              "geography_id": "45439",
+              "geography_label": "Dayton 45439",
+              "value": 61.9
+            },
+            {
+              "geography_id": "43219",
+              "geography_label": "Columbus 43219",
+              "value": 64.9
+            },
+            {
+              "geography_id": "44906",
+              "geography_label": "Mansfield 44906",
+              "value": 54.8
+            },
+            {
+              "geography_id": "44305",
+              "geography_label": "Akron 44305",
+              "value": 63.2
+            },
+            {
+              "geography_id": "44515",
+              "geography_label": "Youngstown 44515",
+              "value": 61.1
+            },
+            {
+              "geography_id": "44135",
+              "geography_label": "Cleveland 44135",
+              "value": 64.7
+            },
+            {
+              "geography_id": "45414",
+              "geography_label": "Dayton 45414",
+              "value": 60.6
+            },
+            {
+              "geography_id": "44471",
+              "geography_label": "Struthers 44471",
+              "value": 63.1
+            },
+            {
+              "geography_id": "43213",
+              "geography_label": "Columbus 43213",
+              "value": 66.6
+            },
+            {
+              "geography_id": "44146",
+              "geography_label": "Bedford 44146",
+              "value": 62.3
+            }
+          ],
+          "bubble_data": null
+        },
+        {
+          "visualization_id": "section-5-viz-2",
+          "title": "County Employment Profile: Income vs. Unemployment (sized by population)",
+          "subtitle": "Larger, low-unemployment, mid-income counties are the strongest bases for a value-driven diner",
+          "config": {
+            "chart_type": "bubble",
+            "x_axis_label": "Median Individual Income ($)",
+            "y_axis_label": "Unemployment Rate (%)",
+            "size_label": "Population",
+            "color_label": "Share Over 65 (%)"
+          },
+          "categorical_data": null,
+          "distribution_data": null,
+          "bubble_data": [
+            {
+              "geography_id": "lake",
+              "geography_label": "Lake",
+              "x_value": 44636.28,
+              "y_value": 3.87,
+              "size_value": 204927.0,
+              "color_value": 21.83,
+              "metadata": {}
+            },
+            {
+              "geography_id": "cuyahoga",
+              "geography_label": "Cuyahoga",
+              "x_value": 44251.62,
+              "y_value": 5.44,
+              "size_value": 653865.0,
+              "color_value": 21.64,
+              "metadata": {}
+            },
+            {
+              "geography_id": "stark",
+              "geography_label": "Stark",
+              "x_value": 38987.2,
+              "y_value": 3.93,
+              "size_value": 198112.0,
+              "color_value": 21.21,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mahoning",
+              "geography_label": "Mahoning",
+              "x_value": 30799.4,
+              "y_value": 7.42,
+              "size_value": 172086.0,
+              "color_value": 21.5,
+              "metadata": {}
+            },
+            {
+              "geography_id": "trumbull",
+              "geography_label": "Trumbull",
+              "x_value": 32568.89,
+              "y_value": 5.94,
+              "size_value": 101359.0,
+              "color_value": 20.86,
+              "metadata": {}
+            },
+            {
+              "geography_id": "athens",
+              "geography_label": "Athens",
+              "x_value": 35262.28,
+              "y_value": 3.66,
+              "size_value": 3794.0,
+              "color_value": 32.89,
+              "metadata": {}
+            },
+            {
+              "geography_id": "putnam",
+              "geography_label": "Putnam",
+              "x_value": 40076.9,
+              "y_value": 0.63,
+              "size_value": 2515.0,
+              "color_value": 22.58,
+              "metadata": {}
+            },
+            {
+              "geography_id": "mercer",
+              "geography_label": "Mercer",
+              "x_value": 46967.13,
+              "y_value": 1.59,
+              "size_value": 738.0,
+              "color_value": 21.81,
+              "metadata": {}
+            },
+            {
+              "geography_id": "ross",
+              "geography_label": "Ross",
+              "x_value": 25698.62,
+              "y_value": 1.92,
+              "size_value": 789.0,
+              "color_value": 21.58,
+              "metadata": {}
+            },
+            {
+              "geography_id": "logan",
+              "geography_label": "Logan",
+              "x_value": 32000.0,
+              "y_value": 4.1,
+              "size_value": 1897.0,
+              "color_value": 33.1,
+              "metadata": {}
+            },
+            {
+              "geography_id": "shelby",
+              "geography_label": "Shelby",
+              "x_value": 28750.0,
+              "y_value": 10.1,
+              "size_value": 278.0,
+              "color_value": 21.9,
+              "metadata": {}
+            },
+            {
+              "geography_id": "hardin",
+              "geography_label": "Hardin",
+              "x_value": 32371.0,
+              "y_value": 15.9,
+              "size_value": 384.0,
+              "color_value": 23.4,
+              "metadata": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-24T18:35:05.839712+00:00"
+}

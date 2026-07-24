@@ -59,65 +59,37 @@ load-zips:
     python scripts/load_uszips.py
 
 # ============================================================
-# Chat Agent
-# ============================================================
-
-# Run interactive chat agent
-chat:
-    python scripts/run_chat.py
-
-# Continue existing chat conversation
-chat-continue id:
-    python scripts/run_chat.py {{id}}
-
-# Send a single message to chat agent
-chat-message msg:
-    python scripts/run_chat.py -m "{{msg}}"
-
-# Run the orchestrator agent
-orchestrator:
-    uv run python src/agents/orchestrator/agent.py
-
-# ============================================================
 # Testing
 # ============================================================
 
-# Run all tests
+# Run fast tests (no external APIs)
 test:
-    pytest tests/ -v
+    pytest tests/ -v -m "not live"
+
+# Run live end-to-end tests (real LLM + DB via the API; slow, costs tokens)
+test-live:
+    pytest tests/ -v -m live
 
 # Run tests with coverage
 test-cov:
-    pytest tests/ -v --cov=src --cov-report=term-missing
+    pytest tests/ -v --cov=src --cov-report=term-missing -m "not live"
 
-# Run SQL analyst integration tests (live database)
-test-sql:
-    pytest tests/integration/test_sql_analyst_queries.py -v -s
+# ============================================================
+# Evaluation
+# ============================================================
 
-# Run a specific SQL analyst test by name pattern
-# Example: just test-sql-query hispanic
-# Example: just test-sql-query "limited_english"
-# Example: just test-sql-query "education_with_income"
-test-sql-query pattern:
-    pytest tests/integration/test_sql_analyst_queries.py -v -s -k "{{pattern}}"
+# Run full evaluation suite (resumes: skips businesses with existing results)
+eval:
+    python evals/run_eval.py
 
-# List available SQL analyst test names
-test-sql-list:
-    @pytest tests/integration/test_sql_analyst_queries.py --collect-only -q
+# Evaluate a single business by id (always re-runs it)
+# Example: just eval-one 01_cultura_connect
+eval-one id:
+    python evals/run_eval.py --only {{id}}
 
-# Run SQL Agent integration tests (full report generation)
-test-sql-agent:
-    pytest tests/integration/test_sql_agent.py -v -s
-
-# Run SQL Agent unit tests only (no DB or LLM calls, fast)
-test-sql-agent-unit:
-    pytest tests/integration/test_sql_agent.py -v -k "Router or Section or Visualization or MetricName or CategorySelection or demographics_has"
-
-# Run a specific SQL Agent test by name pattern
-# Example: just test-sql-agent-query spanish_tutor
-# Example: just test-sql-agent-query "bubble_chart"
-test-sql-agent-query pattern:
-    pytest tests/integration/test_sql_agent.py -v -s -k "{{pattern}}"
+# Re-run the entire dataset, ignoring existing results
+eval-force:
+    python evals/run_eval.py --force
 
 # ============================================================
 # Code Quality

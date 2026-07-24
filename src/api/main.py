@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src.api.routes import chat
+from src.api.routes import aggregations, chat, demographics, geography
 from src.core.database import (
     async_engine,
     close_checkpointer,
@@ -49,6 +49,9 @@ app.add_middleware(
 
 # Include routers
 app.include_router(chat.router, prefix="/api")
+app.include_router(geography.router)
+app.include_router(demographics.router)
+app.include_router(aggregations.router)
 
 
 @app.get("/")

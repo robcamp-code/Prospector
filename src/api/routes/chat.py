@@ -1,15 +1,11 @@
 """Chat API routes for conversation management."""
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, HTTPException
 from langchain_core.messages import AIMessage, HumanMessage
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlmodel import select
 
-from src.agents.orchestrator import Orchestrator
-from src.core.database import get_db, ClientProfile
+from src.agents.chat import ChatAgent
 from src.schemas.chat import (
     ChatResponse,
-    ClientProfileSummary,
     ConversationListItem,
     ConversationResponse,
     MessageResponse,
@@ -18,23 +14,6 @@ from src.schemas.chat import (
 )
 
 router = APIRouter(prefix="/chat", tags=["chat"])
-
-
-async def _get_client_profile_for_conversation(
-    conversation_id: str, session: AsyncSession
-) -> ClientProfileSummary | None:
-    """Fetch the client profile associated with a conversation."""
-    result = await session.execute(
-        select(ClientProfile).where(ClientProfile.conversation_id == conversation_id)
-    )
-    profile = result.scalar_one_or_none()
-    if profile:
-        return ClientProfileSummary(
-            id=profile.id,
-            name=profile.name,
-            business_type=profile.business_type,
-        )
-    return None
 
 
 def _message_to_response(msg) -> MessageResponse:
@@ -63,14 +42,10 @@ def _extract_assistant_response(state: dict) -> str:
 def _build_chat_response(
     conversation_id: str, state: dict, created_at=None
 ) -> ChatResponse:
-    """Build a ChatResponse from the orchestrator's conversation state.
-
-    query_node produces a report without appending an AI message, so when a
-    report is present the assistant text falls back to a completion notice
-    rather than repeating the last discovery question.
-    """
+    """Build a ChatResponse from the chat agent's state."""
+    # Check if a report was generated
     report = state.get("report")
-    if report is not None:
+    if report:
         response_text = "Your demographic report is ready."
     else:
         response_text = _extract_assistant_response(state)
@@ -95,7 +70,7 @@ async def start_conversation(request: StartConversationRequest) -> ChatResponse:
     Returns:
         ChatResponse with conversation_id and assistant's response
     """
-    agent = Orchestrator()
+    agent = ChatAgent()
     result = await agent.chat(request.message)
 
     return _build_chat_response(
@@ -116,7 +91,7 @@ async def send_message(
     Returns:
         ChatResponse with conversation_id and assistant's response
     """
-    agent = Orchestrator()
+    agent = ChatAgent()
     result = await agent.chat(request.message, thread_id=conversation_id)
 
     return _build_chat_response(conversation_id, result.get("state", {}))
@@ -124,7 +99,7 @@ async def send_message(
 
 @router.get("/conversations/{conversation_id}", response_model=ConversationResponse)
 async def get_conversation(
-    conversation_id: str, session: AsyncSession = Depends(get_db)
+    conversation_id: str,
 ) -> ConversationResponse:
     """Get conversation history.
 
@@ -134,7 +109,7 @@ async def get_conversation(
     Returns:
         ConversationResponse with full message history
     """
-    agent = Orchestrator()
+    agent = ChatAgent()
     messages = await agent.get_history(conversation_id)
 
     if not messages:
@@ -147,18 +122,14 @@ async def get_conversation(
         if isinstance(msg, (HumanMessage, AIMessage))
     ]
 
-    # Fetch associated client profile
-    client_profile = await _get_client_profile_for_conversation(conversation_id, session)
-
     return ConversationResponse(
         id=conversation_id,
         messages=message_responses,
-        client_profile=client_profile,
     )
 
 
 @router.get("/conversations")
-async def list_conversations(session: AsyncSession = Depends(get_db)):
+async def list_conversations():
     """List all conversations.
 
     Returns:
@@ -189,14 +160,10 @@ async def list_conversations(session: AsyncSession = Depends(get_db)):
             content = last_msg.content if hasattr(last_msg, "content") else str(last_msg)
             preview = content[:100] + "..." if len(content) > 100 else content
 
-        # Fetch associated client profile
-        client_profile = await _get_client_profile_for_conversation(thread_id, session)
-
         conversations[thread_id] = ConversationListItem(
             id=thread_id,
             preview=preview,
             message_count=len(messages),
-            client_profile=client_profile,
         )
 
     return {"conversations": list(conversations.values())}
